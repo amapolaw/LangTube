@@ -1,0 +1,22 @@
+{
+  "name": "@langtube/cli",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "bin": {
+    "langtube": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "validate": "node dist/index.js validate",
+    "import": "node dist/index.js import",
+    "sync": "node dist/index.js sync"
+  },
+  "dependencies": {
+    "@langtube/core": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.4",
+    "typescript": "^5.7.3"
+  }
+}

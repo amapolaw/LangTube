@@ -1,0 +1,41 @@
+[
+  {
+    "id": "gdrive-default",
+    "name": "Google Drive",
+    "type": "gdrive",
+    "builtin": true,
+    "authType": "oauth2",
+    "authUrl": "https://accounts.google.com/o/oauth2/v2/auth",
+    "tokenUrl": "https://oauth2.googleapis.com/token",
+    "clientId": "",
+    "clientSecret": "",
+    "redirectUri": "http://localhost:3000/api/cloud/gdrive/callback",
+    "connected": false
+  },
+  {
+    "id": "baidu-default",
+    "name": "百度云盘",
+    "type": "baidu",
+    "builtin": true,
+    "authType": "password",
+    "authUrl": "https://openapi.baidu.com/oauth/2.0/authorize",
+    "tokenUrl": "https://openapi.baidu.com/oauth/2.0/token",
+    "clientId": "",
+    "clientSecret": "",
+    "redirectUri": "http://localhost:3000/api/cloud/baidu/callback",
+    "connected": false
+  },
+  {
+    "id": "quark-template",
+    "name": "夸克网盘",
+    "type": "quark",
+    "builtin": true,
+    "authType": "password",
+    "authUrl": "https://uop.quark.cn/cas/oauth2/authorize",
+    "tokenUrl": "https://uop.quark.cn/cas/oauth2/token",
+    "clientId": "",
+    "clientSecret": "",
+    "redirectUri": "http://localhost:3000/api/cloud/custom/callback",
+    "connected": false
+  }
+]

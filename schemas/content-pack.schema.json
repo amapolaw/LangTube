@@ -1,0 +1,126 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://langtube.dev/schemas/content-pack.schema.json",
+  "title": "LangTube Content Pack",
+  "type": "object",
+  "required": ["manifest", "transcript", "segments", "storage"],
+  "properties": {
+    "manifest": {
+      "type": "object",
+      "required": ["id", "title", "sourceLang", "nativeLang", "level", "topics", "storage", "segments", "vocabulary", "patterns", "parseStatus", "createdAt", "updatedAt"],
+      "properties": {
+        "id": { "type": "string" },
+        "title": { "type": "string" },
+        "sourceLang": { "enum": ["en", "ja", "es", "fr"] },
+        "nativeLang": { "enum": ["zh", "en"] },
+        "level": { "type": "string" },
+        "topics": { "type": "array", "items": { "type": "string" } },
+        "description": { "type": "string" },
+        "sourceUrl": { "type": "string" },
+        "storage": { "$ref": "#/definitions/storage" },
+        "segments": { "$ref": "#/definitions/segments" },
+        "vocabulary": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/vocabularyItem" }
+        },
+        "patterns": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/patternItem" }
+        },
+        "parseStatus": { "enum": ["pending", "processing", "ready", "error"] },
+        "createdAt": { "type": "string", "format": "date-time" },
+        "updatedAt": { "type": "string", "format": "date-time" }
+      }
+    },
+    "transcript": {
+      "type": "object",
+      "required": ["materialId", "lines"],
+      "properties": {
+        "materialId": { "type": "string" },
+        "lines": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/transcriptLine" },
+          "minItems": 1
+        }
+      }
+    },
+    "segments": { "$ref": "#/definitions/segments" },
+    "storage": { "$ref": "#/definitions/storage" },
+    "drills": { "$ref": "#/definitions/drillsPack" }
+  },
+  "definitions": {
+    "storage": {
+      "type": "object",
+      "required": ["mode", "provider"],
+      "properties": {
+        "mode": { "enum": ["local", "remote"] },
+        "provider": { "enum": ["local", "gdrive", "baidu"] },
+        "path": { "type": "string" },
+        "fileId": { "type": "string" },
+        "url": { "type": "string" }
+      }
+    },
+    "segments": {
+      "type": "object",
+      "properties": {
+        "extensive": { "type": "array", "items": { "$ref": "#/definitions/segment" } },
+        "intensive": { "type": "array", "items": { "$ref": "#/definitions/segment" } }
+      }
+    },
+    "segment": {
+      "type": "object",
+      "required": ["start", "end", "reason"],
+      "properties": {
+        "start": { "type": "number", "minimum": 0 },
+        "end": { "type": "number", "minimum": 0 },
+        "reason": { "type": "string" },
+        "durationMinutes": { "type": "number" }
+      }
+    },
+    "transcriptLine": {
+      "type": "object",
+      "required": ["id", "start", "end", "text", "translation"],
+      "properties": {
+        "id": { "type": "string" },
+        "start": { "type": "number" },
+        "end": { "type": "number" },
+        "text": { "type": "string" },
+        "translation": { "type": "string" },
+        "words": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "vocabularyItem": {
+      "type": "object",
+      "required": ["id", "word", "zh", "sentenceIds"],
+      "properties": {
+        "id": { "type": "string" },
+        "word": { "type": "string" },
+        "reading": { "type": "string" },
+        "zh": { "type": "string" },
+        "partOfSpeech": { "type": "string" },
+        "sentenceIds": { "type": "array", "items": { "type": "string" } },
+        "level": { "type": "string" }
+      }
+    },
+    "patternItem": {
+      "type": "object",
+      "required": ["id", "pattern", "zh", "grammar"],
+      "properties": {
+        "id": { "type": "string" },
+        "pattern": { "type": "string" },
+        "zh": { "type": "string" },
+        "grammar": { "type": "string" },
+        "examples": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "drillsPack": {
+      "type": "object",
+      "required": ["materialId", "substitution", "transformation"],
+      "properties": {
+        "materialId": { "type": "string" },
+        "substitution": { "type": "array" },
+        "transformation": { "type": "array" }
+      }
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "materials": [
+    {
+      "id": "ted-ja-social-engineering-001",
+      "title": "社会工学とサイバーセキュリティ",
+      "sourceLang": "ja",
+      "nativeLang": "zh",
+      "level": "N2",
+      "topics": [
+        "psychology",
+        "social-engineering",
+        "cybersecurity"
+      ],
+      "storageLocation": "local",
+      "parseStatus": "ready",
+      "createdAt": "2026-07-09T00:00:00.000Z",
+      "updatedAt": "2026-07-09T00:00:00.000Z",
+      "sourceUrl": "https://www.youtube.com/watch?v=example"
+    },
+    {
+      "id": "ja-untitled-mrd56jnr",
+      "title": "Untitled",
+      "sourceLang": "ja",
+      "nativeLang": "zh",
+      "level": "N3",
+      "topics": [
+        "general"
+      ],
+      "storageLocation": "local",
+      "parseStatus": "pending",
+      "createdAt": "2026-07-09T06:44:56.967Z",
+      "updatedAt": "2026-07-09T06:44:56.967Z",
+      "sourceUrl": "https://www.bilibili.com/video/BV1JDARzmEit?spm_id_from=333.788.videopod.sections&vd_source=575dde8aaa5216721d951e465f92f0d8&p=6"
+    }
+  ]
+}

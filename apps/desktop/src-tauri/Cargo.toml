@@ -1,0 +1,24 @@
+[package]
+name = "langtube-desktop"
+version = "0.1.0"
+description = "LangTube Desktop"
+authors = ["LangTube"]
+edition = "2021"
+
+[lib]
+name = "langtube_desktop_lib"
+crate-type = ["lib", "cdylib", "staticlib"]
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+[dependencies]
+tauri = { version = "2", features = [] }
+tauri-plugin-shell = "2"
+
+[profile.release]
+panic = "abort"
+codegen-units = 1
+lto = true
+opt-level = "s"
+strip = true

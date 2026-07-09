@@ -1,0 +1,34 @@
+[
+  {
+    "type": "vocabulary",
+    "front": "心理的操作",
+    "back": "心理操控",
+    "language": "ja",
+    "materialId": "ted-ja-social-engineering-001",
+    "tags": [
+      "psychology",
+      "social-engineering",
+      "cybersecurity"
+    ],
+    "id": "card-1783581212211-v0739d8",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-09T07:13:32.211Z",
+    "createdAt": "2026-07-09T07:13:32.211Z"
+  },
+  {
+    "type": "pattern",
+    "front": "社会工学とは、人間の心理を利用した攻撃手法である。",
+    "back": "社会工程学是利用人类心理的攻击手法。\n〜とは、〜である（定义句型）",
+    "language": "ja",
+    "materialId": "ted-ja-social-engineering-001",
+    "id": "card-1783581212771-fwnbtcg",
+    "tags": [],
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-09T07:13:32.771Z",
+    "createdAt": "2026-07-09T07:13:32.771Z"
+  }
+]

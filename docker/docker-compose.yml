@@ -1,0 +1,17 @@
+services:
+  langtube:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    ports:
+      - "3000:3000"
+    volumes:
+      - ../data:/data
+    environment:
+      - LANGTUBE_DATA_DIR=/data
+      - LLM_API_KEY=${LLM_API_KEY:-}
+      - GDRIVE_CLIENT_ID=${GDRIVE_CLIENT_ID:-}
+      - GDRIVE_CLIENT_SECRET=${GDRIVE_CLIENT_SECRET:-}
+      - BAIDU_APP_KEY=${BAIDU_APP_KEY:-}
+      - BAIDU_SECRET_KEY=${BAIDU_SECRET_KEY:-}
+    restart: unless-stopped

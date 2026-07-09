@@ -1,0 +1,40 @@
+# dependencies
+node_modules/
+.pnpm-store/
+
+# next.js
+.next/
+out/
+dist/
+
+# env
+.env
+.env.local
+.env*.local
+
+# data - large files (sync metadata & notebook JSON)
+data/materials/**/media/
+data/user/progress.db
+data/user/progress.db-journal
+data/user/cloud-sessions.json
+data/user/.session-key
+*.mp4
+*.mkv
+*.avi
+*.mov
+*.webm
+
+# tauri
+apps/desktop/target/
+apps/desktop/src-tauri/target/
+
+# misc
+.DS_Store
+*.pem
+*.log
+.turbo
+.vercel
+
+# IDE
+.idea/
+.vscode/
