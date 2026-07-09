@@ -63,6 +63,8 @@ jobs:
       - run: pnpm install
       - run: pnpm --filter @langtube/core build
       - run: pnpm --filter @langtube/cloud-adapters build
+      - name: Generate Tauri icons
+        run: node scripts/generate-tauri-icons.mjs
       - name: Verify Tauri Rust crate
         working-directory: apps/desktop/src-tauri
         run: cargo check
