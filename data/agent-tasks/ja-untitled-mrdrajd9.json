@@ -1,0 +1,17 @@
+{
+  "id": "ja-untitled-mrdrajd9",
+  "type": "parse-listening",
+  "status": "pending",
+  "input": {
+    "sourceUrl": "",
+    "title": "Untitled",
+    "sourceLang": "ja",
+    "level": "N3",
+    "learningGoal": "general",
+    "localPath": "materials/ja-untitled-mrdrajd9/media/04.mov",
+    "mediaFilename": "04.mov"
+  },
+  "createdAt": "2026-07-09T17:03:55.153Z",
+  "updatedAt": "2026-07-09T17:04:00.572Z",
+  "error": "未检测到内嵌或外挂字幕。请粘贴字幕文本、上传 SRT 文件，或安装 whisper 进行语音转写。。安装 whisper：brew install whisper（本地视频语音转写）；在设置页或 .env.local 配置 CURSOR_API_KEY（推荐）或 LLM_API_KEY 以生成词汇表与句型"
+}

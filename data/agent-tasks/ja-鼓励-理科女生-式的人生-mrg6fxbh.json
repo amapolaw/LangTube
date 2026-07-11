@@ -1,0 +1,15 @@
+{
+  "id": "ja-鼓励-理科女生-式的人生-mrg6fxbh",
+  "type": "parse-listening",
+  "status": "pending",
+  "input": {
+    "sourceUrl": "https://www.bilibili.com/video/BV1JDARzmEit?vd_source=575dde8aaa5216721d951e465f92f0d8&p=12&spm_id_from=333.788.videopod.sections",
+    "title": "鼓励“理科女生”式的人生",
+    "sourceLang": "ja",
+    "level": "N5",
+    "learningGoal": "general"
+  },
+  "createdAt": "2026-07-11T09:43:47.879Z",
+  "updatedAt": "2026-07-11T14:26:06.123Z",
+  "error": "未检测到内嵌或外挂字幕文件；yt-dlp 写出 0 个字幕文件，但无 ja 内容；Whisper 转写失败，请安装 whisper：brew install whisper。安装 whisper：brew install whisper（本地视频语音转写）（B站仅有 ai-zh 轨时，需 Whisper 转写日语原声）"
+}

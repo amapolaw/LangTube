@@ -19,6 +19,7 @@ import {
   getSettingsPath,
   getProfilePath,
 } from "./paths";
+import { hydrateStoragePath } from "./storage-resolver";
 
 async function ensureDir(dir: string) {
   await fs.mkdir(dir, { recursive: true });
@@ -92,7 +93,8 @@ export async function readStorage(id: string): Promise<StorageConfig | null> {
       path.join(getMaterialDir(id), "storage.json"),
       "utf-8"
     );
-    return JSON.parse(raw) as StorageConfig;
+    const storage = JSON.parse(raw) as StorageConfig;
+    return hydrateStoragePath(id, storage);
   } catch {
     return null;
   }
@@ -104,7 +106,8 @@ export async function readContentPack(id: string): Promise<ContentPack | null> {
   if (!manifest || !transcript) return null;
 
   const segments = (await readSegments(id)) ?? manifest.segments;
-  const storage = (await readStorage(id)) ?? manifest.storage;
+  const storage =
+    (await readStorage(id)) ?? hydrateStoragePath(id, manifest.storage);
   const drills = (await readDrills(id)) ?? undefined;
 
   return { manifest, transcript, segments, drills, storage };

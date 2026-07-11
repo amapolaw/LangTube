@@ -1,0 +1,15 @@
+{
+  "id": "es-untitled-mrekeo0j",
+  "type": "parse-listening",
+  "status": "pending",
+  "input": {
+    "sourceUrl": "",
+    "title": "Untitled",
+    "sourceLang": "es",
+    "level": "B1",
+    "learningGoal": "general"
+  },
+  "createdAt": "2026-07-10T06:38:56.417Z",
+  "updatedAt": "2026-07-10T06:40:09.947Z",
+  "error": "fetch failed"
+}

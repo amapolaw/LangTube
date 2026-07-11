@@ -1,0 +1,40 @@
+{
+  "id": "ja-鼓励-理科女生-式的人生-mrg6fxbh",
+  "title": "鼓励理科女生式的人生",
+  "sourceLang": "ja",
+  "nativeLang": "zh",
+  "level": "N3",
+  "topics": [
+    "general"
+  ],
+  "sourceUrl": "https://www.bilibili.com/video/BV1JDARzmEit?p=12",
+  "storage": {
+    "mode": "local",
+    "provider": "local",
+    "url": "https://www.bilibili.com/video/BV1JDARzmEit?p=12",
+    "path": "/Users/junowang/Documents/LangTube/data/materials/ja-鼓励-理科女生-式的人生-mrg6fxbh/media/BV1JDARzmEit_p12.mp4"
+  },
+  "segments": {
+    "extensive": [
+      {
+        "start": 0,
+        "end": 180,
+        "reason": "开头部分适合泛听，建立整体语境",
+        "durationMinutes": 3
+      }
+    ],
+    "intensive": [
+      {
+        "start": 60,
+        "end": 480,
+        "reason": "核心段落句型密集，适合精听",
+        "durationMinutes": 10
+      }
+    ]
+  },
+  "vocabulary": [],
+  "patterns": [],
+  "parseStatus": "pending",
+  "createdAt": "2026-07-11T11:53:48.367Z",
+  "updatedAt": "2026-07-11T14:26:06.121Z"
+}

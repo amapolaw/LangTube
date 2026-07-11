@@ -1,0 +1,15 @@
+{
+  "id": "ja-untitled-mrdoma5c",
+  "type": "parse-listening",
+  "status": "pending",
+  "input": {
+    "sourceUrl": "",
+    "title": "Untitled",
+    "sourceLang": "ja",
+    "level": "N3",
+    "learningGoal": "general"
+  },
+  "createdAt": "2026-07-09T15:49:04.492Z",
+  "updatedAt": "2026-07-10T04:35:28.361Z",
+  "error": "未检测到内嵌或外挂字幕。请粘贴字幕文本、上传 SRT 文件，或安装 whisper 进行语音转写。。安装 whisper：brew install whisper（本地视频语音转写）"
+}

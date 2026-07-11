@@ -9,7 +9,11 @@ services:
       - ../data:/data
     environment:
       - LANGTUBE_DATA_DIR=/data
+      - CURSOR_API_KEY=${CURSOR_API_KEY:-}
+      - CURSOR_MODEL=${CURSOR_MODEL:-composer-2.5}
       - LLM_API_KEY=${LLM_API_KEY:-}
+      - GITHUB_REPO=${GITHUB_REPO:-amapolaw/LangTube}
+      - GITHUB_TOKEN=${GITHUB_TOKEN:-}
       - GDRIVE_CLIENT_ID=${GDRIVE_CLIENT_ID:-}
       - GDRIVE_CLIENT_SECRET=${GDRIVE_CLIENT_SECRET:-}
       - BAIDU_APP_KEY=${BAIDU_APP_KEY:-}

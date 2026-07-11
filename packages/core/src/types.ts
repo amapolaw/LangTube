@@ -93,6 +93,8 @@ export interface MaterialManifest {
   vocabulary: VocabularyItem[];
   patterns: PatternItem[];
   parseStatus: ParseStatus;
+  /** llm = Cursor/API 增强；rules = 无 Key 规则兜底 */
+  enrichmentMode?: "llm" | "rules";
   createdAt: string;
   updatedAt: string;
 }
@@ -130,8 +132,20 @@ export interface ContentPack {
 export interface NotebookCard {
   id: string;
   type: CardType;
+  /** 正面：原文 / 目标语 */
   front: string;
+  /** 背面主释义（母语翻译） */
   back: string;
+  /** 读音（如日语假名） */
+  reading?: string;
+  /** 词性 */
+  partOfSpeech?: string;
+  /** 用法 / 语法讲解 */
+  explanation?: string;
+  /** 例句 */
+  examples?: string[];
+  /** 释义来源（如 Jisho/JMDict、Free Dictionary） */
+  dictSource?: string;
   materialId?: string;
   language: SupportedLanguage;
   tags: string[];
@@ -161,9 +175,14 @@ export interface UserSettings {
   learningGoal: string;
   dailyReviewLimit: number;
   llmApiKey?: string;
-  llmProvider?: "openai" | "anthropic" | "custom";
+  cursorApiKey?: string;
+  llmProvider?: "cursor" | "openai" | "anthropic" | "custom";
   githubRepo?: string;
   githubToken?: string;
+  /** B站 Cookie（SESSDATA=...; bili_jct=...），在 Cursor IDE 登录 b 站后从浏览器复制 */
+  bilibiliCookies?: string;
+  /** yt-dlp 读取本机浏览器 Cookie：chrome / safari / edge（Cursor IDE 终端内有效） */
+  ytdlpCookiesFromBrowser?: string;
 }
 
 export interface UserProfile {
@@ -188,10 +207,12 @@ export interface AssessmentQuestion {
 export interface AgentTask {
   id: string;
   type: "parse-listening" | "generate-drills";
-  status: "pending" | "completed" | "failed";
+  status: "pending" | "processing" | "completed" | "failed";
   input: Record<string, unknown>;
   outputPath?: string;
+  error?: string;
   createdAt: string;
+  updatedAt?: string;
 }
 
 export interface MaterialMarks {

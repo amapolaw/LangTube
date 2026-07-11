@@ -10,8 +10,9 @@
     "db:push": "echo Notebook uses JSON storage in data/user/"
   },
   "dependencies": {
-    "@langtube/core": "workspace:*",
+    "@cursor/sdk": "^1.0.23",
     "@langtube/cloud-adapters": "workspace:*",
+    "@langtube/core": "workspace:*",
     "@radix-ui/react-checkbox": "^1.1.4",
     "@radix-ui/react-dialog": "^1.1.6",
     "@radix-ui/react-dropdown-menu": "^2.1.6",
@@ -24,6 +25,8 @@
     "@react-pdf/renderer": "^4.2.2",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
+    "kuroshiro": "^1.2.0",
+    "kuroshiro-analyzer-kuromoji": "^1.1.0",
     "lucide-react": "^0.475.0",
     "next": "^15.1.7",
     "react": "^19.0.0",

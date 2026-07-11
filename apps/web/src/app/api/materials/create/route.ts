@@ -6,6 +6,9 @@ import {
   type StorageConfig,
 } from "@langtube/core";
 import { readIndex, writeIndex, saveContentPack } from "@/lib/data";
+import { createParseListeningTask } from "@/lib/agent-task-service";
+import { triggerParseInBackground } from "@/lib/material-parser";
+import { pushLearningData } from "@/lib/github-sync";
 import fs from "fs/promises";
 import { getMaterialDir } from "@/lib/paths";
 
@@ -15,6 +18,7 @@ export async function POST(req: Request) {
   const sourceLang = body.sourceLang || "ja";
   const nativeLang = body.nativeLang || "zh";
   const level = body.level || "N3";
+  const learningGoal = body.learningGoal ?? "general";
   const now = new Date().toISOString();
   const id = generateId(title, sourceLang);
 
@@ -25,7 +29,7 @@ export async function POST(req: Request) {
     sourceLang,
     nativeLang,
     level,
-    topics: [body.learningGoal ?? "general"],
+    topics: [learningGoal],
     storage,
     segments: { extensive: [], intensive: [] },
     vocabulary: [],
@@ -46,6 +50,23 @@ export async function POST(req: Request) {
   await saveContentPack(pack);
   const index = await readIndex();
   await writeIndex(mergeIndexEntry(index, manifest));
+
+  await createParseListeningTask({
+    id,
+    sourceUrl: body.sourceUrl ?? null,
+    title,
+    sourceLang,
+    level,
+    learningGoal,
+  });
+
+  try {
+    await pushLearningData();
+  } catch (err) {
+    console.error("[create] push failed:", err);
+  }
+
+  triggerParseInBackground(id);
 
   return NextResponse.json({ id, manifest });
 }

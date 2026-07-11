@@ -19,6 +19,7 @@ import {
   sealTransientPayload,
   openTransientPayload,
 } from "@/lib/cloud-session-service";
+import { setProviderConnected } from "@/lib/cloud-providers-service";
 import type { CloudAuthType, CloudProviderType, CloudSessionSecrets } from "@langtube/core";
 
 type LoginMode = "password" | "sms" | "session";
@@ -45,6 +46,7 @@ function persistLogin(
     connected: true,
     secrets,
   });
+  setProviderConnected(providerId, true);
   return NextResponse.json({ connected: true, username });
 }
 
@@ -265,5 +267,6 @@ export async function DELETE(req: Request) {
     return NextResponse.json({ error: "providerId required" }, { status: 400 });
   }
   clearSession(providerId);
+  setProviderConnected(providerId, false);
   return NextResponse.json({ ok: true });
 }

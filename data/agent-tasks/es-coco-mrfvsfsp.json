@@ -1,0 +1,16 @@
+{
+  "id": "es-coco-mrfvsfsp",
+  "type": "parse-listening",
+  "status": "processing",
+  "input": {
+    "sourceUrl": "",
+    "title": "coco",
+    "sourceLang": "es",
+    "level": "A1",
+    "learningGoal": "general",
+    "localPath": "materials/es-coco-mrfvsfsp/media/coco.mp4",
+    "mediaFilename": "coco.mp4"
+  },
+  "createdAt": "2026-07-11T04:45:59.177Z",
+  "updatedAt": "2026-07-11T14:35:49.258Z"
+}

@@ -18,6 +18,7 @@ data/user/progress.db
 data/user/progress.db-journal
 data/user/cloud-sessions.json
 data/user/.session-key
+data/user/settings.json
 *.mp4
 *.mkv
 *.avi
@@ -38,3 +39,4 @@ apps/desktop/src-tauri/target/
 # IDE
 .idea/
 .vscode/
+.obsidian/

@@ -1,7 +1,12 @@
 "use client";
 
-import { useEffect, useState, useRef, useCallback } from "react";
-import type { DrillsPack, SubstitutionDrill, TransformationDrill } from "@langtube/core";
+import { useEffect, useState, useRef, useCallback, useMemo } from "react";
+import type {
+  DrillsPack,
+  SubstitutionDrill,
+  TransformationDrill,
+  VocabularyItem,
+} from "@langtube/core";
 import { Button } from "@/components/ui/button";
 import {
   Card,
@@ -15,15 +20,22 @@ import { Input } from "@/components/ui/input";
 import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Mic } from "lucide-react";
 import { useSpeechRecognition } from "@/hooks/use-speech-recognition";
+import {
+  calcDrillTimeLimitMs,
+  formatTimeLimitLabel,
+} from "@/lib/drill-timing";
+import { buildReadingMap } from "@/lib/japanese-ruby";
+import { JapaneseRubyText } from "@/components/japanese-ruby-text";
 
 const ROUNDS_PER_DRILL = 20;
-const TIME_LIMIT_MS = 3000;
 
 type Phase = "substitution" | "transformation" | "done";
 
 export default function SpeakDrillPage() {
   const [materials, setMaterials] = useState<{ id: string; title: string }[]>([]);
   const [materialId, setMaterialId] = useState("");
+  const [sourceLang, setSourceLang] = useState("ja");
+  const [vocabulary, setVocabulary] = useState<VocabularyItem[]>([]);
   const [drills, setDrills] = useState<DrillsPack | null>(null);
   const [phase, setPhase] = useState<Phase>("substitution");
   const [drillIndex, setDrillIndex] = useState(0);
@@ -34,8 +46,15 @@ export default function SpeakDrillPage() {
   const [feedback, setFeedback] = useState("");
   const [inputMode, setInputMode] = useState<"text" | "voice">("text");
   const [isRecording, setIsRecording] = useState(false);
+  const [timeLimitMs, setTimeLimitMs] = useState(3000);
   const timerRef = useRef<ReturnType<typeof setInterval> | null>(null);
   const startTimeRef = useRef(0);
+  const timeLimitRef = useRef(3000);
+
+  const readingMap = useMemo(
+    () => buildReadingMap(vocabulary),
+    [vocabulary]
+  );
 
   useEffect(() => {
     fetch("/api/materials")
@@ -50,7 +69,11 @@ export default function SpeakDrillPage() {
     if (!materialId) return;
     fetch(`/api/materials/${materialId}`)
       .then((r) => r.json())
-      .then((pack) => setDrills(pack.drills ?? generateDefaultDrills(pack)));
+      .then((pack) => {
+        setSourceLang(pack.manifest?.sourceLang ?? "ja");
+        setVocabulary(pack.manifest?.vocabulary ?? []);
+        setDrills(pack.drills ?? generateDefaultDrills(pack));
+      });
   }, [materialId]);
 
   const currentDrill =
@@ -58,10 +81,10 @@ export default function SpeakDrillPage() {
       ? drills?.substitution[drillIndex]
       : drills?.transformation[drillIndex];
 
-  const currentRound = currentDrill?.rounds[round % currentDrill.rounds.length];
+  const currentRound = currentDrill?.rounds[round % (currentDrill?.rounds.length || 1)];
 
   const { start: startSpeech, stop: stopSpeech } = useSpeechRecognition({
-    lang: "ja-JP",
+    lang: sourceLang === "ja" ? "ja-JP" : sourceLang === "es" ? "es-ES" : "en-US",
     onResult: (text) => {
       setResponse(text);
       setIsRecording(false);
@@ -69,33 +92,44 @@ export default function SpeakDrillPage() {
     onError: () => setIsRecording(false),
   });
 
-  const startTimer = useCallback(() => {
+  const startTimer = useCallback((limitMs: number) => {
+    timeLimitRef.current = limitMs;
+    setTimeLimitMs(limitMs);
     startTimeRef.current = Date.now();
     setTimedOut(false);
     setTimerProgress(100);
     if (timerRef.current) clearInterval(timerRef.current);
     timerRef.current = setInterval(() => {
       const elapsed = Date.now() - startTimeRef.current;
-      const remaining = Math.max(0, 100 - (elapsed / TIME_LIMIT_MS) * 100);
+      const limit = timeLimitRef.current;
+      const remaining = Math.max(0, 100 - (elapsed / limit) * 100);
       setTimerProgress(remaining);
-      if (elapsed >= TIME_LIMIT_MS) {
+      if (elapsed >= limit) {
         setTimedOut(true);
-        setFeedback("超过 3 秒！加快速度！");
+        setFeedback(`超过 ${(limit / 1000).toFixed(1).replace(/\.0$/, "")} 秒！加快速度！`);
         if (timerRef.current) clearInterval(timerRef.current);
       }
     }, 50);
   }, []);
 
   useEffect(() => {
-    if (currentRound) {
-      setResponse("");
-      setFeedback("");
-      startTimer();
-    }
+    if (!currentDrill || !currentRound) return;
+
+    const limit = calcDrillTimeLimitMs({
+      basePattern: currentDrill.basePattern,
+      expected: currentRound.expected,
+      prompt: currentRound.prompt,
+      sourceLang,
+    });
+
+    setResponse("");
+    setFeedback("");
+    startTimer(limit);
+
     return () => {
       if (timerRef.current) clearInterval(timerRef.current);
     };
-  }, [currentRound, startTimer]);
+  }, [currentDrill, currentRound, sourceLang, startTimer]);
 
   async function submitResponse(answer?: string) {
     if (!currentDrill || !currentRound) return;
@@ -121,6 +155,7 @@ export default function SpeakDrillPage() {
         responseTimeMs,
         correct,
         timedOut,
+        timeLimitMs: timeLimitRef.current,
       }),
     });
 
@@ -161,6 +196,12 @@ export default function SpeakDrillPage() {
     }, 800);
   }
 
+  const remainingSec = (
+    (timeLimitMs * timerProgress) /
+    100 /
+    1000
+  ).toFixed(1);
+
   if (phase === "done") {
     return (
       <Card className="mx-auto max-w-lg text-center">
@@ -171,13 +212,21 @@ export default function SpeakDrillPage() {
           </CardDescription>
         </CardHeader>
         <CardContent>
-          <Button onClick={() => { setPhase("substitution"); setRound(0); setDrillIndex(0); }}>
+          <Button
+            onClick={() => {
+              setPhase("substitution");
+              setRound(0);
+              setDrillIndex(0);
+            }}
+          >
             再来一组
           </Button>
         </CardContent>
       </Card>
     );
   }
+
+  const showRuby = sourceLang === "ja";
 
   return (
     <div className="mx-auto max-w-2xl space-y-6">
@@ -203,10 +252,13 @@ export default function SpeakDrillPage() {
       <Card>
         <CardHeader>
           <CardTitle>
-            {phase === "substitution" ? "Substitution Drill" : "Transformation Drill"}
+            {phase === "substitution"
+              ? "Substitution Drill"
+              : "Transformation Drill"}
           </CardTitle>
           <CardDescription>
-            第 {round + 1} / {ROUNDS_PER_DRILL} 轮 · 3 秒内回应
+            第 {round + 1} / {ROUNDS_PER_DRILL} 轮 ·{" "}
+            {formatTimeLimitLabel(timeLimitMs)}
           </CardDescription>
         </CardHeader>
         <CardContent className="space-y-4">
@@ -214,18 +266,38 @@ export default function SpeakDrillPage() {
             <>
               <div className="rounded-lg bg-muted p-4">
                 <p className="text-sm text-muted-foreground">基础句型</p>
-                <p className="text-lg font-medium">{currentDrill.basePattern}</p>
+                <p className="text-lg font-medium leading-loose">
+                  {showRuby ? (
+                    <JapaneseRubyText
+                      text={currentDrill.basePattern}
+                      readings={readingMap}
+                    />
+                  ) : (
+                    currentDrill.basePattern
+                  )}
+                </p>
                 <p className="text-sm">{currentDrill.baseZh}</p>
               </div>
 
               <div className="rounded-lg border-2 border-primary p-4 text-center">
                 <p className="text-sm text-muted-foreground">变体提示</p>
-                <p className="text-xl font-bold text-primary">
-                  {currentRound?.prompt}
+                <p className="text-xl font-bold leading-loose text-primary">
+                  {showRuby && currentRound?.prompt ? (
+                    <JapaneseRubyText
+                      text={currentRound.prompt}
+                      readings={readingMap}
+                      textClassName="font-bold text-primary"
+                    />
+                  ) : (
+                    currentRound?.prompt
+                  )}
                 </p>
               </div>
 
-              <Progress value={timerProgress} className={timedOut ? "bg-destructive" : ""} />
+              <Progress
+                value={timerProgress}
+                className={timedOut ? "bg-destructive" : ""}
+              />
 
               <Tabs
                 value={inputMode}
@@ -271,12 +343,26 @@ export default function SpeakDrillPage() {
               )}
 
               <Button onClick={() => submitResponse()} className="w-full">
-                提交 ({((TIME_LIMIT_MS - (100 - timerProgress) * 30) / 1000).toFixed(1)}s)
+                提交 ({remainingSec}s)
               </Button>
 
               {feedback && (
-                <p className={`text-center font-medium ${timedOut ? "text-destructive" : ""}`}>
-                  {feedback}
+                <p
+                  className={`text-center font-medium ${
+                    timedOut ? "text-destructive" : ""
+                  }`}
+                >
+                  {showRuby && feedback.startsWith("✗ 应为：") ? (
+                    <>
+                      ✗ 应为：
+                      <JapaneseRubyText
+                        text={feedback.replace("✗ 应为：", "")}
+                        readings={readingMap}
+                      />
+                    </>
+                  ) : (
+                    feedback
+                  )}
                 </p>
               )}
             </>
@@ -293,30 +379,54 @@ export default function SpeakDrillPage() {
 }
 
 function generateDefaultDrills(pack: {
-  manifest: { id: string; patterns: { id: string; pattern: string; zh: string }[] };
+  manifest: {
+    id: string;
+    sourceLang?: string;
+    patterns: { id: string; pattern: string; zh: string }[];
+  };
 }): DrillsPack {
   const patterns = pack.manifest.patterns;
+  const isJa = pack.manifest.sourceLang === "ja";
+
+  const subjects = isJa
+    ? ["私", "あなた", "彼", "彼女", "私たち"]
+    : ["I", "You", "They", "We", "He"];
+
   const substitution: SubstitutionDrill[] = patterns.slice(0, 2).map((p, i) => ({
     id: `sub-${i + 1}`,
     basePattern: p.pattern,
     baseZh: p.zh,
-    slots: [{ name: "主语", values: ["I", "You", "They"] }],
+    slots: [{ name: isJa ? "主语" : "Subject", values: subjects }],
     rounds: Array.from({ length: 20 }, (_, r) => ({
-      prompt: `替换主语 (${["I", "You", "They", "We", "He"][r % 5]})`,
-      expected: p.pattern.replace(/^(\S+)/, ["I", "You", "They", "We", "He"][r % 5]),
+      prompt: isJa
+        ? `替换主语（${subjects[r % subjects.length]}）`
+        : `替换主语 (${subjects[r % subjects.length]})`,
+      expected: p.pattern.replace(
+        /^(\S+)/,
+        subjects[r % subjects.length] ?? "$1"
+      ),
     })),
   }));
 
-  const transformation: TransformationDrill[] = patterns.slice(0, 1).map((p, i) => ({
-    id: `trans-${i + 1}`,
-    basePattern: p.pattern,
-    baseZh: p.zh,
-    transformType: "疑问句",
-    rounds: Array.from({ length: 20 }, (_, r) => ({
-      prompt: r % 2 === 0 ? "改为疑问句" : "改为否定句",
-      expected: r % 2 === 0 ? `Is ${p.pattern.toLowerCase()}?` : `Not ${p.pattern}`,
-    })),
-  }));
+  const transformation: TransformationDrill[] = patterns
+    .slice(0, 1)
+    .map((p, i) => ({
+      id: `trans-${i + 1}`,
+      basePattern: p.pattern,
+      baseZh: p.zh,
+      transformType: isJa ? "疑问句" : "Question",
+      rounds: Array.from({ length: 20 }, (_, r) => ({
+        prompt: r % 2 === 0 ? "改为疑问句" : "改为否定句",
+        expected:
+          r % 2 === 0
+            ? isJa
+              ? `${p.pattern.replace(/。$/, "")}か？`
+              : `Is ${p.pattern.toLowerCase()}?`
+            : isJa
+              ? `${p.pattern.replace(/。$/, "")}ない`
+              : `Not ${p.pattern}`,
+      })),
+    }));
 
   return {
     materialId: pack.manifest.id,

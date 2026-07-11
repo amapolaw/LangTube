@@ -25,7 +25,7 @@ const modules = [
     href: "/speak/drill",
     icon: Mic,
     title: "说",
-    desc: "FSI Pattern Drill，3秒快速反应",
+    desc: "FSI Pattern Drill，按时长调整回应时限",
   },
   {
     href: "/read",

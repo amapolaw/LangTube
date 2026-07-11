@@ -1,0 +1,17 @@
+{
+  "id": "en-untitled-mreimlyu",
+  "type": "parse-listening",
+  "status": "pending",
+  "input": {
+    "sourceUrl": "",
+    "title": "Untitled",
+    "sourceLang": "en",
+    "level": "A2",
+    "learningGoal": "general",
+    "localPath": "materials/en-untitled-mreimlyu/media/The Newsroom.S01E01.mov",
+    "mediaFilename": "The Newsroom.S01E01.mov"
+  },
+  "createdAt": "2026-07-10T05:49:07.929Z",
+  "updatedAt": "2026-07-10T05:49:30.653Z",
+  "error": "未检测到内嵌或外挂字幕。请粘贴字幕文本、上传 SRT 文件，或安装 whisper 进行语音转写。。安装 whisper：brew install whisper（本地视频语音转写）"
+}

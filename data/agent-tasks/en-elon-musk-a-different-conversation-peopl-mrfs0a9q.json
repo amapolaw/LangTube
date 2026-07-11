@@ -1,0 +1,14 @@
+{
+  "id": "en-elon-musk-a-different-conversation-peopl-mrfs0a9q",
+  "type": "parse-listening",
+  "status": "processing",
+  "input": {
+    "sourceUrl": "https://www.youtube.com/watch?v=Rni7Fz7208c&list=WL&index=4&pp=iAQBsAgC",
+    "title": "Elon Musk: A Different Conversation | People by WTF Ep. 16 Nikhil Kamath",
+    "sourceLang": "en",
+    "level": "A2",
+    "learningGoal": "general"
+  },
+  "createdAt": "2026-07-11T02:59:48.451Z",
+  "updatedAt": "2026-07-11T07:52:42.585Z"
+}

@@ -100,19 +100,48 @@ async function sync() {
     exportData.materials = {};
     const ids = await fs.readdir(materialsDir);
     for (const id of ids) {
-      const manifestPath = path.join(materialsDir, id, "manifest.json");
-      if (await exists(manifestPath)) {
-        (exportData.materials as Record<string, unknown>)[id] = JSON.parse(
-          await fs.readFile(manifestPath, "utf-8")
-        );
+      const materialDir = path.join(materialsDir, id);
+      const mat: Record<string, unknown> = {};
+      for (const name of [
+        "manifest.json",
+        "transcript.json",
+        "segments.json",
+        "storage.json",
+      ]) {
+        const filePath = path.join(materialDir, name);
+        if (await exists(filePath)) {
+          mat[name.replace(".json", "")] = JSON.parse(
+            await fs.readFile(filePath, "utf-8")
+          );
+        }
+      }
+      if (Object.keys(mat).length) {
+        (exportData.materials as Record<string, unknown>)[id] = mat;
+      }
+    }
+  }
+
+  const userDir = path.join(DATA_DIR, "user");
+  if (await exists(userDir)) {
+    exportData.user = {};
+    for (const name of [
+      "settings.json",
+      "profile.json",
+      "marks.json",
+      "notebook.json",
+    ]) {
+      const filePath = path.join(userDir, name);
+      if (await exists(filePath)) {
+        (exportData.user as Record<string, unknown>)[name.replace(".json", "")] =
+          JSON.parse(await fs.readFile(filePath, "utf-8"));
       }
     }
   }
 
   await fs.writeFile(exportPath, JSON.stringify(exportData, null, 2));
   console.log(`✓ Sync export written to ${exportPath}`);
-  console.log("  Push data/ to GitHub manually or use git:");
-  console.log("  git add data/index.json data/materials/*/manifest.json data/sync-export.json");
+  console.log("  Push via Web Settings or:");
+  console.log("  git add data/");
   console.log("  git commit -m 'sync learning progress'");
   console.log("  git push");
 }

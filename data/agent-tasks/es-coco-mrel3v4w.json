@@ -1,0 +1,17 @@
+{
+  "id": "es-coco-mrel3v4w",
+  "type": "parse-listening",
+  "status": "pending",
+  "input": {
+    "sourceUrl": "",
+    "title": "coco",
+    "sourceLang": "es",
+    "level": "A1",
+    "learningGoal": "general",
+    "localPath": "materials/es-coco-mrel3v4w/media/KOKO.mkv",
+    "mediaFilename": "KOKO.mkv"
+  },
+  "createdAt": "2026-07-10T06:58:57.367Z",
+  "updatedAt": "2026-07-10T07:00:44.462Z",
+  "error": "OpenAI API error: 429 {\n    \"error\": {\n        \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.\",\n        \"type\": \"insufficient_quota\",\n        \"param\": null,\n        \"code\": \"insufficient_quota\"\n    }\n}\n"
+}

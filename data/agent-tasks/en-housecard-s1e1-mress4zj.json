@@ -1,0 +1,15 @@
+{
+  "id": "en-housecard-s1e1-mress4zj",
+  "type": "parse-listening",
+  "status": "pending",
+  "input": {
+    "sourceUrl": "https://pan.baidu.com/pfile/video?path=%2FSeries%2F%E7%BA%B8%E7%89%8C%E5%B1%8B%20House%20of%20Cards%2FHouse%20of%20Cards%20S01%2FS01E01.BluRay.720p.rmvb&theme=light&view_from=personal_file&from=home",
+    "title": "HouseCard S1E1",
+    "sourceLang": "en",
+    "level": "A2",
+    "learningGoal": "general"
+  },
+  "createdAt": "2026-07-10T10:33:21.773Z",
+  "updatedAt": "2026-07-11T14:07:52.424Z",
+  "error": "无法下载视频。百度网盘未连接。请在设置页「云存储」登录百度云盘后再导入分享链接；链接不受支持或视频不可用，请检查 URL 或手动粘贴字幕"
+}

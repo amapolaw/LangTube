@@ -317,6 +317,36 @@ export function CloudLoginDialog({
               <p className="text-xs text-muted-foreground">
                 至少填写 BDUSS、完整 Cookie 或 Access Token 中的一项；保存前会验证是否有效。
               </p>
+              {!isQuark && (
+                <div className="rounded-md border bg-muted/40 p-3 text-xs text-muted-foreground space-y-2">
+                  <p className="font-medium text-foreground">百度 Cookie 获取步骤</p>
+                  <ol className="list-decimal list-inside space-y-1">
+                    <li>
+                      用 Chrome 打开{" "}
+                      <a
+                        href="https://pan.baidu.com/disk/main"
+                        target="_blank"
+                        rel="noreferrer"
+                        className="text-primary underline"
+                      >
+                        pan.baidu.com/disk/main
+                      </a>{" "}
+                      并登录
+                    </li>
+                    <li>按 F12 → Network（网络）→ 刷新页面</li>
+                    <li>
+                      点击任意 <code className="text-[11px]">pan.baidu.com</code>{" "}
+                      请求 → Headers → 复制 <strong>Cookie</strong> 整行（须含{" "}
+                      <code className="text-[11px]">BDUSS=</code>）
+                    </li>
+                    <li>粘贴到上方「完整 Cookie」，点验证并保存</li>
+                  </ol>
+                  <p>
+                    更简单：切到「账号密码」或「手机验证码」Tab 直接登录，无需手动复制
+                    Cookie。
+                  </p>
+                </div>
+              )}
             </TabsContent>
 
             {captchaImage && tab !== "session" && (

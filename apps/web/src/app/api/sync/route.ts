@@ -1,52 +1,81 @@
 import { NextResponse } from "next/server";
+import { pushLearningData, pullLearningData } from "@/lib/github-sync";
+import { listSyncFiles } from "@/lib/sync-files";
+import { getDataDir } from "@/lib/paths";
 import fs from "fs";
 import path from "path";
-import { getDataDir } from "@/lib/paths";
 
 export async function POST(req: Request) {
-  const { action, repo, token } = await req.json();
+  const body = await req.json();
+  const { action, materialId } = body;
 
   if (action === "status") {
     const dataDir = getDataDir();
-    const files = ["index.json", "user/settings.json", "user/profile.json"];
-    const status = files.map((f) => ({
-      file: f,
-      exists: fs.existsSync(path.join(dataDir, f)),
-      modified: fs.existsSync(path.join(dataDir, f))
-        ? fs.statSync(path.join(dataDir, f)).mtime.toISOString()
+    const syncFiles = listSyncFiles();
+    const status = syncFiles.map((f) => ({
+      file: f.repoPath,
+      exists: fs.existsSync(f.localPath),
+      modified: fs.existsSync(f.localPath)
+        ? fs.statSync(f.localPath).mtime.toISOString()
         : null,
     }));
-    return NextResponse.json({ status, repo: repo ?? process.env.GITHUB_REPO });
+    return NextResponse.json({
+      status,
+      fileCount: syncFiles.length,
+      repo: process.env.GITHUB_REPO ?? null,
+    });
   }
 
   if (action === "export-json") {
     const dataDir = getDataDir();
     const exportData: Record<string, unknown> = {};
-    const indexPath = path.join(dataDir, "index.json");
-    if (fs.existsSync(indexPath)) {
-      exportData.index = JSON.parse(fs.readFileSync(indexPath, "utf-8"));
-    }
-    const materialsDir = path.join(dataDir, "materials");
-    if (fs.existsSync(materialsDir)) {
-      exportData.materials = {};
-      for (const id of fs.readdirSync(materialsDir)) {
-        const manifestPath = path.join(materialsDir, id, "manifest.json");
-        if (fs.existsSync(manifestPath)) {
-          (exportData.materials as Record<string, unknown>)[id] = JSON.parse(
-            fs.readFileSync(manifestPath, "utf-8")
-          );
-        }
+    const syncFiles = listSyncFiles();
+    for (const entry of syncFiles) {
+      if (fs.existsSync(entry.localPath)) {
+        exportData[entry.repoPath] = JSON.parse(
+          fs.readFileSync(entry.localPath, "utf-8")
+        );
       }
     }
     const syncPath = path.join(dataDir, "sync-export.json");
     fs.writeFileSync(syncPath, JSON.stringify(exportData, null, 2));
-    return NextResponse.json({ ok: true, path: syncPath });
+    return NextResponse.json({ ok: true, path: syncPath, files: syncFiles.length });
+  }
+
+  if (action === "push") {
+    try {
+      const result = await pushLearningData();
+      return NextResponse.json({ ok: true, ...result });
+    } catch (err) {
+      return NextResponse.json(
+        {
+          ok: false,
+          message: err instanceof Error ? err.message : "Push failed",
+        },
+        { status: 500 }
+      );
+    }
+  }
+
+  if (action === "pull") {
+    try {
+      const result = materialId
+        ? await pullLearningData({ materialId })
+        : await pullLearningData();
+      return NextResponse.json({ ok: true, ...result });
+    } catch (err) {
+      return NextResponse.json(
+        {
+          ok: false,
+          message: err instanceof Error ? err.message : "Pull failed",
+        },
+        { status: 500 }
+      );
+    }
   }
 
   return NextResponse.json({
     ok: true,
-    message:
-      "GitHub sync prepared. Configure GITHUB_REPO and GITHUB_TOKEN, then run: pnpm sync",
-    token: token ? "configured" : "missing",
+    message: "支持 action: status | export-json | push | pull",
   });
 }

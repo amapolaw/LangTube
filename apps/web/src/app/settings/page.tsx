@@ -71,12 +71,12 @@ export default function SettingsPage() {
     alert("设置已保存");
   }
 
-  async function syncGitHub() {
+  async function syncGitHub(action: "export-json" | "push" | "pull") {
     const res = await fetch("/api/sync", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
-        action: "export-json",
+        action,
         repo: settings.githubRepo,
         token: settings.githubToken,
       }),
@@ -239,28 +239,122 @@ export default function SettingsPage() {
 
       <Card>
         <CardHeader>
-          <CardTitle>LLM API（可选）</CardTitle>
+          <CardTitle>LLM（自动解析词汇/句型）</CardTitle>
+          <CardDescription>
+            在 Cursor IDE 终端运行时可留空 API Key，使用已登录会话；也可配置
+            OpenAI / Anthropic 作为备选
+          </CardDescription>
         </CardHeader>
-        <CardContent>
-          <Label>API Key</Label>
-          <Input
-            type="password"
-            className="mt-1"
-            value={settings.llmApiKey ?? ""}
-            onChange={(e) =>
-              setSettings({ ...settings, llmApiKey: e.target.value })
-            }
-          />
+        <CardContent className="space-y-3">
+          <div>
+            <Label>Provider</Label>
+            <select
+              className="mt-1 flex h-10 w-full rounded-md border px-3 text-sm"
+              value={settings.llmProvider ?? "cursor"}
+              onChange={(e) =>
+                setSettings({
+                  ...settings,
+                  llmProvider: e.target.value as UserSettings["llmProvider"],
+                })
+              }
+            >
+              <option value="cursor">Cursor SDK（推荐，Key 可选）</option>
+              <option value="openai">OpenAI</option>
+              <option value="anthropic">Anthropic</option>
+            </select>
+          </div>
+          {settings.llmProvider === "cursor" || !settings.llmProvider ? (
+            <div>
+              <Label>Cursor API Key</Label>
+              <Input
+                type="password"
+                className="mt-1"
+                value={settings.cursorApiKey ?? ""}
+                onChange={(e) =>
+                  setSettings({ ...settings, cursorApiKey: e.target.value })
+                }
+                placeholder="Cursor Dashboard → API Keys（解析词汇/句型必需）"
+              />
+              <p className="mt-1 text-xs text-muted-foreground">
+                Next.js 后台解析需 User API Key；留空则走规则模式 + 机器翻译兜底。
+              </p>
+            </div>
+          ) : (
+            <div>
+              <Label>API Key</Label>
+              <Input
+                type="password"
+                className="mt-1"
+                value={settings.llmApiKey ?? ""}
+                onChange={(e) =>
+                  setSettings({ ...settings, llmApiKey: e.target.value })
+                }
+                placeholder="sk-..."
+              />
+            </div>
+          )}
+        </CardContent>
+      </Card>
+
+      <Card>
+        <CardHeader>
+          <CardTitle>平台登录（B站 / 百度网盘）</CardTitle>
+          <CardDescription>
+            在 Cursor IDE 中登录后，粘贴 B站或百度网盘分享链接即可自动拉字幕并下载视频
+          </CardDescription>
+        </CardHeader>
+        <CardContent className="space-y-4">
+          <div>
+            <Label>B站 Cookie（可选）</Label>
+            <Input
+              className="mt-1 font-mono text-xs"
+              value={settings.bilibiliCookies ?? ""}
+              onChange={(e) =>
+                setSettings({ ...settings, bilibiliCookies: e.target.value })
+              }
+              placeholder="SESSDATA=...; bili_jct=..."
+            />
+            <p className="mt-1 text-xs text-muted-foreground">
+              在浏览器登录 bilibili.com 后，开发者工具 → Network → 复制 Cookie 请求头。付费/软字幕视频需要此项。
+            </p>
+          </div>
+          <div>
+            <Label>yt-dlp 读取浏览器 Cookie</Label>
+            <select
+              className="mt-1 flex h-10 w-full rounded-md border px-3 text-sm"
+              value={settings.ytdlpCookiesFromBrowser ?? ""}
+              onChange={(e) =>
+                setSettings({
+                  ...settings,
+                  ytdlpCookiesFromBrowser: e.target.value || undefined,
+                })
+              }
+            >
+              <option value="">不指定（仅用上方 B站 Cookie）</option>
+              <option value="chrome">Chrome</option>
+              <option value="safari">Safari</option>
+              <option value="edge">Edge</option>
+            </select>
+            <p className="mt-1 text-xs text-muted-foreground">
+              推荐在 Cursor IDE 终端运行本应用，与 Chrome 登录态共享；YouTube/B站 字幕与下载均可用。
+            </p>
+          </div>
+          <p className="text-xs text-muted-foreground">
+            百度网盘请在下方「云存储」连接账号；连接后支持 pan.baidu.com 分享链接导入。
+          </p>
         </CardContent>
       </Card>
 
       <Card>
         <CardHeader>
           <CardTitle>GitHub 同步</CardTitle>
+          <CardDescription>
+            JSON 学习数据（字幕/词汇/进度）自动 push；大视频走网盘
+          </CardDescription>
         </CardHeader>
         <CardContent className="space-y-4">
           <Input
-            placeholder="username/langtube-data"
+            placeholder="amapolaw/LangTube"
             value={settings.githubRepo ?? ""}
             onChange={(e) =>
               setSettings({ ...settings, githubRepo: e.target.value })
@@ -274,9 +368,17 @@ export default function SettingsPage() {
               setSettings({ ...settings, githubToken: e.target.value })
             }
           />
-          <Button variant="outline" onClick={syncGitHub}>
-            导出同步数据
-          </Button>
+          <div className="flex flex-wrap gap-2">
+            <Button variant="outline" onClick={() => syncGitHub("push")}>
+              推送到 GitHub
+            </Button>
+            <Button variant="outline" onClick={() => syncGitHub("pull")}>
+              从 GitHub 拉取
+            </Button>
+            <Button variant="ghost" onClick={() => syncGitHub("export-json")}>
+              导出本地 JSON
+            </Button>
+          </div>
           {syncStatus && (
             <pre className="rounded bg-muted p-2 text-xs">
               {JSON.stringify(syncStatus, null, 2)}

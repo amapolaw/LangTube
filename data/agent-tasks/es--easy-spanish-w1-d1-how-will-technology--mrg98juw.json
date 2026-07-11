@@ -1,0 +1,15 @@
+{
+  "id": "es--easy-spanish-w1-d1-how-will-technology--mrg98juw",
+  "type": "parse-listening",
+  "status": "pending",
+  "input": {
+    "sourceUrl": "https://www.bilibili.com/video/BV11r4y1b7na/?spm_id_from=333.1387.favlist.content.click&vd_source=575dde8aaa5216721d951e465f92f0d8",
+    "title": " Easy Spanish -  W1 D1 How Will Technology Change Us",
+    "sourceLang": "es",
+    "level": "A1",
+    "learningGoal": "general"
+  },
+  "createdAt": "2026-07-11T11:13:50.902Z",
+  "updatedAt": "2026-07-11T14:25:45.624Z",
+  "error": "未检测到内嵌或外挂字幕文件；YouTube 要求登录验证。请在 .env.local 设置 YTDLP_COOKIES_FROM_BROWSER=chrome（或 safari/edge），或在资源页手动粘贴字幕；Whisper 转写失败，请安装 whisper：brew install whisper。安装 whisper：brew install whisper（本地视频语音转写）（B站仅有 ai-zh 轨时，需 Whisper 转写日语原声）"
+}

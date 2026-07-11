@@ -1,19 +1,27 @@
 import type { ResolvedMedia, StorageConfig } from "@langtube/core";
+import { mediaUrlForMaterial } from "@/lib/material-id";
+
 export function resolveMediaClient(
   storage: StorageConfig,
-  sourceUrl?: string
+  sourceUrl?: string,
+  materialId?: string
 ): ResolvedMedia {
   const url = storage.url ?? sourceUrl ?? "";
 
-  if (storage.path) {
+  if (storage.path || materialId) {
+    const mediaUrl = materialId
+      ? mediaUrlForMaterial(materialId)
+      : `/api/media?path=${encodeURIComponent(storage.path!)}`;
     return {
       type: "direct",
-      url: `/api/media?path=${encodeURIComponent(storage.path)}`,
+      url: mediaUrl,
+      sourceUrl: url || undefined,
     };
   }
 
   const bili = parseBilibiliUrl(url);
   if (bili) {
+    // 先给 embed 兜底；听辨页会再请求 /api/media/resolve 换成可播直链
     const params = new URLSearchParams({
       bvid: bili.bvid,
       page: String(bili.page),

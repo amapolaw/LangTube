@@ -1,0 +1,17 @@
+{
+  "id": "es-coco-mreifx8a",
+  "type": "parse-listening",
+  "status": "pending",
+  "input": {
+    "sourceUrl": "",
+    "title": "coco",
+    "sourceLang": "es",
+    "level": "A1",
+    "learningGoal": "general",
+    "localPath": "materials/es-coco-mreifx8a/media/KOKO.mkv",
+    "mediaFilename": "KOKO.mkv"
+  },
+  "createdAt": "2026-07-10T05:44:00.726Z",
+  "updatedAt": "2026-07-10T06:36:11.371Z",
+  "error": "fetch failed"
+}

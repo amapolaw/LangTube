@@ -1,6 +1,6 @@
 "use client";
 
-import { Suspense, useState } from "react";
+import { Suspense, useState, useEffect } from "react";
 import { useSearchParams } from "next/navigation";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -15,20 +15,13 @@ import {
 } from "@/components/ui/card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { useRouter } from "next/navigation";
-
-const LANGUAGES = [
-  { value: "en", label: "英语" },
-  { value: "ja", label: "日语" },
-  { value: "es", label: "西班牙语" },
-  { value: "fr", label: "法语" },
-];
-
-const LEVELS: Record<string, string[]> = {
-  en: ["A1", "A2", "B1", "B2", "C1", "C2"],
-  ja: ["N5", "N4", "N3", "N2", "N1"],
-  es: ["A1", "A2", "B1", "B2", "C1", "C2"],
-  fr: ["A1", "A2", "B1", "B2", "C1", "C2"],
-};
+import {
+  MATERIAL_LANGUAGES,
+  MATERIAL_LEVELS,
+  defaultLevelForLang,
+  formDefaultsFromPack,
+  appendImportFormFields,
+} from "@/lib/material-form";
 
 export default function ResourcesPageWrapper() {
   return (
@@ -44,7 +37,11 @@ function ResourcesPage() {
   const linkMaterialId = searchParams.get("materialId");
 
   const [loading, setLoading] = useState(false);
+  const [syncing, setSyncing] = useState(true);
+  const [importStatus, setImportStatus] = useState("");
   const [sourceLang, setSourceLang] = useState("ja");
+  const [videoFile, setVideoFile] = useState<File | null>(null);
+  const [subtitleFile, setSubtitleFile] = useState<File | null>(null);
   const [form, setForm] = useState({
     title: "",
     sourceUrl: "",
@@ -55,14 +52,58 @@ function ResourcesPage() {
     transcriptText: "",
   });
 
-  async function handleImport(sourceType: string, file?: File) {
+  useEffect(() => {
+    fetch("/api/sync", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ action: "pull" }),
+    })
+      .then((r) => r.json())
+      .then((d) => {
+        if (d.pulled > 0) {
+          setImportStatus(`已从 GitHub 同步 ${d.pulled} 个文件`);
+        }
+      })
+      .catch(() => {})
+      .finally(() => setSyncing(false));
+  }, []);
+
+  useEffect(() => {
+    if (!linkMaterialId) return;
+    fetch(`/api/materials/${linkMaterialId}`)
+      .then((r) => (r.ok ? r.json() : null))
+      .then((pack) => {
+        if (!pack?.manifest) return;
+        const defaults = formDefaultsFromPack(pack);
+        setSourceLang(defaults.sourceLang);
+        setForm({
+          title: defaults.title,
+          sourceUrl: defaults.sourceUrl,
+          level: defaults.level,
+          learningGoal: defaults.learningGoal,
+          storageMode: defaults.storageMode,
+          storageProvider: defaults.storageProvider,
+          transcriptText: "",
+        });
+      })
+      .catch(() => {});
+  }, [linkMaterialId]);
+
+  async function handleImport(
+    sourceType: string,
+    files?: { video?: File | null; subtitle?: File | null }
+  ) {
     setLoading(true);
+    setImportStatus("正在导入并解析…");
     const fd = new FormData();
     fd.append("sourceType", sourceType);
-    fd.append("sourceLang", sourceLang);
-    fd.append("nativeLang", "zh");
-    Object.entries(form).forEach(([k, v]) => fd.append(k, v));
-    if (file) fd.append("file", file);
+    appendImportFormFields(
+      fd,
+      { sourceLang, ...form },
+      linkMaterialId ?? undefined
+    );
+    if (files?.video) fd.append("videoFile", files.video);
+    if (files?.subtitle) fd.append("subtitleFile", files.subtitle);
     if (linkMaterialId) fd.append("materialId", linkMaterialId);
 
     const res = await fetch("/api/materials/import", { method: "POST", body: fd });
@@ -70,7 +111,16 @@ function ResourcesPage() {
     setLoading(false);
 
     if (data.id) {
-      router.push(`/listen/${data.id}`);
+      if (data.parseStatus === "ready") {
+        setImportStatus("导入并解析完成，正在前往「听」页面…");
+      } else {
+        setImportStatus(data.message || "导入完成，部分解析待完善");
+      }
+      setVideoFile(null);
+      setSubtitleFile(null);
+      router.push(`/listen?new=${data.id}`);
+    } else {
+      setImportStatus(data.error || "导入失败");
     }
   }
 
@@ -79,11 +129,17 @@ function ResourcesPage() {
       <div>
         <h1 className="text-2xl font-bold">导入学习资源</h1>
         <p className="text-muted-foreground">
-          支持本地上传、YouTube/B站链接、粘贴字幕、网盘引用
+          支持本地上传、YouTube/B站/百度网盘链接、粘贴字幕。在设置页登录 B站/百度网盘后，粘贴 URL 即可自动下载视频、拉字幕并用 Cursor 全量解析词汇与句型。
         </p>
+        {syncing && (
+          <p className="mt-1 text-sm text-muted-foreground">正在从 GitHub 拉取最新数据…</p>
+        )}
+        {importStatus && !syncing && (
+          <p className="mt-1 text-sm text-primary">{importStatus}</p>
+        )}
         {linkMaterialId && (
           <p className="mt-1 text-sm text-primary">
-            正在为学习卡片 {linkMaterialId} 补充资源
+            正在为学习卡片 {linkMaterialId} 补充/调整资源（基本设置已跟随该卡片）
           </p>
         )}
       </div>
@@ -91,6 +147,11 @@ function ResourcesPage() {
       <Card>
         <CardHeader>
           <CardTitle>基本设置</CardTitle>
+          <CardDescription>
+            {linkMaterialId
+              ? "已加载该卡片的目标语言、水平、学习目的与存储位置，可按需修改后导入"
+              : "导入新资源时使用以下设置"}
+          </CardDescription>
         </CardHeader>
         <CardContent className="space-y-4">
           <div>
@@ -102,11 +163,11 @@ function ResourcesPage() {
                 setSourceLang(e.target.value);
                 setForm((f) => ({
                   ...f,
-                  level: LEVELS[e.target.value]?.[2] ?? "B1",
+                  level: defaultLevelForLang(e.target.value),
                 }));
               }}
             >
-              {LANGUAGES.map((l) => (
+              {MATERIAL_LANGUAGES.map((l) => (
                 <option key={l.value} value={l.value}>
                   {l.label}
                 </option>
@@ -120,7 +181,7 @@ function ResourcesPage() {
               value={form.level}
               onChange={(e) => setForm({ ...form, level: e.target.value })}
             >
-              {(LEVELS[sourceLang] ?? LEVELS.en).map((l) => (
+              {(MATERIAL_LEVELS[sourceLang] ?? MATERIAL_LEVELS.en).map((l) => (
                 <option key={l} value={l}>
                   {l}
                 </option>
@@ -172,7 +233,7 @@ function ResourcesPage() {
             <CardHeader>
               <CardTitle>YouTube / B站 / 网络链接</CardTitle>
               <CardDescription>
-                自动尝试拉取字幕；B站/YouTube 支持嵌入播放
+                已登录 B站/百度网盘时可直接粘贴链接；自动拉字幕、下载视频并用 Cursor 全量解析
               </CardDescription>
             </CardHeader>
             <CardContent className="space-y-4">
@@ -201,8 +262,10 @@ function ResourcesPage() {
         <TabsContent value="upload">
           <Card>
             <CardHeader>
-              <CardTitle>上传文件</CardTitle>
-              <CardDescription>支持 video、audio、pdf、txt、srt</CardDescription>
+              <CardTitle>本地上传</CardTitle>
+              <CardDescription>
+                视频与字幕可分别上传；仅视频时自动解析字幕；可只更新其中一项
+              </CardDescription>
             </CardHeader>
             <CardContent className="space-y-4">
               <Input
@@ -210,20 +273,54 @@ function ResourcesPage() {
                 value={form.title}
                 onChange={(e) => setForm({ ...form, title: e.target.value })}
               />
-              <Input
-                type="file"
-                accept="video/*,audio/*,.pdf,.txt,.srt"
-                onChange={(e) => {
-                  const file = e.target.files?.[0];
-                  if (file) {
-                    setForm((f) => ({
-                      ...f,
-                      title: f.title || file.name,
-                    }));
-                    handleImport("upload", file);
-                  }
-                }}
-              />
+              <div className="grid gap-4 sm:grid-cols-2">
+                <div className="space-y-2 rounded-lg border border-dashed p-4">
+                  <Label>视频 / 音频</Label>
+                  <p className="text-xs text-muted-foreground">
+                    mp4、mkv、webm、mov 等
+                  </p>
+                  <Input
+                    type="file"
+                    accept="video/*,audio/*,.mp4,.mkv,.webm,.mov"
+                    onChange={(e) => setVideoFile(e.target.files?.[0] ?? null)}
+                  />
+                  {videoFile && (
+                    <p className="truncate text-xs text-muted-foreground">
+                      已选：{videoFile.name}
+                    </p>
+                  )}
+                </div>
+                <div className="space-y-2 rounded-lg border border-dashed p-4">
+                  <Label>字幕文件（可选）</Label>
+                  <p className="text-xs text-muted-foreground">srt、vtt、txt</p>
+                  <Input
+                    type="file"
+                    accept=".srt,.vtt,.txt"
+                    onChange={(e) =>
+                      setSubtitleFile(e.target.files?.[0] ?? null)
+                    }
+                  />
+                  {subtitleFile && (
+                    <p className="truncate text-xs text-muted-foreground">
+                      已选：{subtitleFile.name}
+                    </p>
+                  )}
+                </div>
+              </div>
+              <Button
+                disabled={
+                  loading ||
+                  (!videoFile && !subtitleFile && !linkMaterialId)
+                }
+                onClick={() =>
+                  handleImport("upload", {
+                    video: videoFile,
+                    subtitle: subtitleFile,
+                  })
+                }
+              >
+                {loading ? "导入中..." : linkMaterialId ? "更新资源" : "导入"}
+              </Button>
             </CardContent>
           </Card>
         </TabsContent>

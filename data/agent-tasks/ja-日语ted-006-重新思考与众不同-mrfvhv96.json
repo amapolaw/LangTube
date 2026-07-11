@@ -1,0 +1,15 @@
+{
+  "id": "ja-日语ted-006-重新思考与众不同-mrfvhv96",
+  "type": "parse-listening",
+  "status": "pending",
+  "input": {
+    "sourceUrl": "https://www.bilibili.com/video/BV1JDARzmEit/?p=6",
+    "title": "日语TED 006 重新思考与众不同",
+    "sourceLang": "ja",
+    "level": "N3",
+    "learningGoal": "general"
+  },
+  "createdAt": "2026-07-11T04:37:15.035Z",
+  "updatedAt": "2026-07-11T05:51:56.845Z",
+  "error": "未检测到内嵌或外挂字幕。请粘贴字幕文本、上传 SRT 文件，或安装 whisper 进行语音转写。。安装 whisper：brew install whisper（本地视频语音转写）"
+}

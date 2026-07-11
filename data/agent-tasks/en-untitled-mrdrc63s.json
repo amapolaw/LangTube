@@ -1,0 +1,15 @@
+{
+  "id": "en-untitled-mrdrc63s",
+  "type": "parse-listening",
+  "status": "pending",
+  "input": {
+    "sourceUrl": "https://www.youtube.com/watch?v=Rni7Fz7208c&list=WL&index=4&pp=iAQBsAgC",
+    "title": "Untitled",
+    "sourceLang": "en",
+    "level": "A2",
+    "learningGoal": "general"
+  },
+  "createdAt": "2026-07-09T17:05:10.910Z",
+  "updatedAt": "2026-07-10T04:26:26.975Z",
+  "error": "无法从链接获取字幕，请安装 yt-dlp 或手动粘贴字幕。安装 yt-dlp：brew install yt-dlp"
+}

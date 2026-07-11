@@ -23,7 +23,11 @@ export class CookieJar {
   }
 
   loadSnapshot(snapshot: string) {
-    for (const part of snapshot.split(";")) {
+    const normalized = snapshot
+      .replace(/^cookie:\s*/i, "")
+      .replace(/\r?\n/g, ";")
+      .replace(/;\s*;/g, ";");
+    for (const part of normalized.split(";")) {
       this.mergeCookieString(part.trim());
     }
   }
@@ -517,20 +521,99 @@ export function parseManualBaiduSecrets(input: {
   cookies?: string;
   accessToken?: string;
 }): { bduss?: string; stoken?: string; cookies?: string; accessToken?: string } {
-  const cookies = input.cookies?.trim() ?? "";
+  const cookies = normalizeCookieInput(input.cookies ?? "");
+  const bdussRaw = normalizeCookieInput(input.bduss ?? "");
   const bduss =
-    input.bduss?.trim() ||
-    cookies.match(/BDUSS=([^;]+)/)?.[1] ||
-    cookies.match(/BDUSS_BFESS=([^;]+)/)?.[1];
+    bdussRaw.replace(/^BDUSS=/i, "") ||
+    cookies.match(/(?:^|;\s*)BDUSS=([^;]+)/i)?.[1] ||
+    cookies.match(/(?:^|;\s*)BDUSS_BFESS=([^;]+)/i)?.[1];
   const stoken =
-    input.stoken?.trim() || cookies.match(/STOKEN=([^;]+)/)?.[1];
+    normalizeCookieInput(input.stoken ?? "").replace(/^STOKEN=/i, "") ||
+    cookies.match(/(?:^|;\s*)STOKEN=([^;]+)/i)?.[1] ||
+    cookies.match(/(?:^|;\s*)STOKEN_BFESS=([^;]+)/i)?.[1];
+
+  let cookieHeader = cookies;
+  if (!cookieHeader && bduss) {
+    cookieHeader = `BDUSS=${bduss}${stoken ? `; STOKEN=${stoken}` : ""}`;
+  }
 
   return {
-    bduss,
-    stoken,
-    cookies: cookies || undefined,
+    bduss: bduss || undefined,
+    stoken: stoken || undefined,
+    cookies: cookieHeader || undefined,
     accessToken: input.accessToken?.trim() || undefined,
   };
+}
+
+function normalizeCookieInput(raw: string): string {
+  return raw
+    .replace(/^cookie:\s*/i, "")
+    .replace(/\r?\n/g, ";")
+    .replace(/;\s*;/g, ";")
+    .trim();
+}
+
+function baiduErrMessage(errno?: number, showMsg?: string): string {
+  if (showMsg?.trim()) return showMsg.trim();
+  switch (errno) {
+    case -6:
+      return "Cookie 无效或已过期。请重新打开 pan.baidu.com 登录后再复制";
+    case -9:
+      return "Cookie 无效，请确认复制的是 pan.baidu.com 的 Cookie";
+    default:
+      return "Cookie 无效或已过期";
+  }
+}
+
+async function verifyBaiduLoginStatus(jar: CookieJar): Promise<{
+  ok: boolean;
+  username?: string;
+  errno?: number;
+  showMsg?: string;
+}> {
+  const res = await baiduFetch(
+    jar,
+    "https://pan.baidu.com/api/loginStatus?clienttype=0&app_id=250528&web=1",
+    { headers: { Referer: "https://pan.baidu.com/disk/main" } }
+  );
+  const data = (await res.json()) as {
+    errno?: number;
+    login_status?: number;
+    username?: string;
+    baidu_name?: string;
+    show_msg?: string;
+  };
+  if (data.errno === 0 && (data.login_status === 1 || data.username)) {
+    return {
+      ok: true,
+      username: data.username || data.baidu_name,
+    };
+  }
+  return {
+    ok: false,
+    errno: data.errno,
+    showMsg: data.show_msg,
+  };
+}
+
+async function verifyBaiduTemplate(jar: CookieJar): Promise<{
+  ok: boolean;
+  username?: string;
+  errno?: number;
+}> {
+  const res = await baiduFetch(
+    jar,
+    "https://pan.baidu.com/api/gettemplatevariable?clienttype=0&app_id=250528&web=1",
+    { headers: { Referer: "https://pan.baidu.com/disk/main" } }
+  );
+  const data = (await res.json()) as {
+    errno?: number;
+    user?: { username?: string };
+  };
+  if (data.errno === 0 && data.user?.username) {
+    return { ok: true, username: data.user.username };
+  }
+  return { ok: false, errno: data.errno };
 }
 
 export async function verifyBaiduSession(secrets: {
@@ -540,7 +623,10 @@ export async function verifyBaiduSession(secrets: {
 }): Promise<{ ok: boolean; username?: string; error?: string }> {
   const parsed = parseManualBaiduSecrets(secrets);
   if (!parsed.bduss && !parsed.cookies) {
-    return { ok: false, error: "请提供 BDUSS 或完整 Cookie" };
+    return {
+      ok: false,
+      error: "请提供 BDUSS 或完整 Cookie（需包含 BDUSS=...）",
+    };
   }
 
   const jar = new CookieJar();
@@ -551,25 +637,42 @@ export async function verifyBaiduSession(secrets: {
     if (parsed.stoken) jar.set("STOKEN", parsed.stoken);
   }
 
-  try {
-    const res = await baiduFetch(
-      jar,
-      "https://pan.baidu.com/api/gettemplatevariable?clienttype=0&app_id=250528&web=1",
-      { headers: { Referer: "https://pan.baidu.com/disk/main" } }
-    );
-    const data = (await res.json()) as {
-      errno?: number;
-      user?: { username?: string };
+  // 确保 jar 中有 BDUSS
+  if (!jar.get("BDUSS") && !jar.get("BDUSS_BFESS")) {
+    return {
+      ok: false,
+      error:
+        "Cookie 中未找到 BDUSS。请在 Chrome 登录 pan.baidu.com 后，从 Network 请求头复制完整 Cookie",
     };
-    if (data.errno === 0) {
-      return { ok: true, username: data.user?.username };
+  }
+
+  try {
+    // 预热：与浏览器访问网盘首页一致
+    await baiduFetch(jar, "https://pan.baidu.com/disk/main", {
+      headers: { Referer: "https://pan.baidu.com/" },
+    });
+
+    const login = await verifyBaiduLoginStatus(jar);
+    if (login.ok) {
+      return { ok: true, username: login.username };
     }
-    return { ok: false, error: "Cookie 无效或已过期" };
+
+    const tmpl = await verifyBaiduTemplate(jar);
+    if (tmpl.ok) {
+      return { ok: true, username: tmpl.username };
+    }
+
+    return {
+      ok: false,
+      error: baiduErrMessage(login.errno ?? tmpl.errno, login.showMsg),
+    };
   } catch (err) {
     const message =
       err instanceof Error && err.name === "TimeoutError"
-        ? "验证超时，请检查网络"
-        : "无法验证 Cookie，请检查格式";
+        ? "验证超时，请检查网络或关闭代理后重试"
+        : err instanceof Error
+          ? `无法验证 Cookie：${err.message}`
+          : "无法验证 Cookie，请检查格式";
     return { ok: false, error: message };
   }
 }

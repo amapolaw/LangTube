@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import "./globals.css";
 import { NavBar } from "@/components/layout/nav-bar";
+import { SyncBootstrap } from "@/components/sync-bootstrap";
 
 export const metadata: Metadata = {
   title: "LangTube — 多语言学习平台",
@@ -28,6 +29,7 @@ export default function RootLayout({
   return (
     <html lang="zh-CN">
       <body className="min-h-screen font-sans antialiased">
+        <SyncBootstrap />
         <NavBar />
         <main className="container mx-auto px-4 py-6">{children}</main>
       </body>

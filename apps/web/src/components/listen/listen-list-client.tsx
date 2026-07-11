@@ -1,14 +1,15 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { Suspense, useEffect, useState } from "react";
 import Link from "next/link";
-import { useRouter } from "next/navigation";
-import type { MaterialIndexEntry } from "@langtube/core";
+import { useRouter, useSearchParams } from "next/navigation";
+import type { MaterialIndexEntry, SupportedLanguage } from "@langtube/core";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import {
   Card,
+  CardContent,
   CardDescription,
   CardHeader,
   CardTitle,
@@ -20,21 +21,60 @@ import {
   DialogTitle,
 } from "@/components/ui/dialog";
 import { Trash2, Plus } from "lucide-react";
+import { cn } from "@/lib/utils";
+import { MaterialResourceUpload } from "@/components/material-resource-upload";
+import {
+  MATERIAL_LANGUAGES,
+  MATERIAL_LEVELS,
+  defaultLevelForLang,
+  sourceLangFromMaterial,
+} from "@/lib/material-form";
 
-export function ListenListClient({
+function parseStatusLabel(status: MaterialIndexEntry["parseStatus"]): string {
+  switch (status) {
+    case "ready":
+      return "已解析";
+    case "processing":
+      return "解析中…";
+    default:
+      return "待完善";
+  }
+}
+
+function langLabel(lang: string): string {
+  return MATERIAL_LANGUAGES.find((l) => l.value === lang)?.label ?? lang;
+}
+
+function ListenListContent({
   initialMaterials,
 }: {
   initialMaterials: MaterialIndexEntry[];
 }) {
   const router = useRouter();
+  const searchParams = useSearchParams();
+  const newMaterialId = searchParams.get("new");
+
   const [materials, setMaterials] = useState(initialMaterials);
   const [createOpen, setCreateOpen] = useState(false);
   const [title, setTitle] = useState("");
   const [sourceLang, setSourceLang] = useState("ja");
+  const [level, setLevel] = useState("N3");
+  const [learningGoal, setLearningGoal] = useState("general");
 
   useEffect(() => {
     setMaterials(initialMaterials);
+    fetch("/api/sync", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ action: "pull" }),
+    }).catch(() => {});
   }, [initialMaterials]);
+
+  useEffect(() => {
+    if (newMaterialId) {
+      router.refresh();
+    }
+  }, [newMaterialId, router]);
 
   async function handleDelete(e: React.MouseEvent, id: string) {
     e.preventDefault();
@@ -48,13 +88,72 @@ export function ListenListClient({
     const res = await fetch("/api/materials/create", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ title: title || "Untitled", sourceLang }),
+      body: JSON.stringify({ title: title || "Untitled", sourceLang, level, learningGoal }),
     });
     const data = await res.json();
     if (data.id) {
       setCreateOpen(false);
       router.push(`/listen/${data.id}`);
     }
+  }
+
+  function renderCard(m: MaterialIndexEntry) {
+    const isNew = newMaterialId === m.id;
+    const isProcessing = m.parseStatus === "processing";
+    const displayLang = sourceLangFromMaterial(m.id, m.sourceLang);
+
+    return (
+      <Card
+        key={m.id}
+        className={cn(
+          "relative flex h-full flex-col transition",
+          isProcessing ? "opacity-70" : "hover:border-primary",
+          isNew && "border-primary ring-2 ring-primary/30"
+        )}
+      >
+        <Button
+          size="icon"
+          variant="ghost"
+          className="absolute right-2 top-2 z-10 h-8 w-8 text-destructive"
+          onClick={(e) => handleDelete(e, m.id)}
+        >
+          <Trash2 className="h-4 w-4" />
+        </Button>
+        {isNew && (
+          <span className="absolute left-3 top-3 z-10 rounded bg-primary px-2 py-0.5 text-xs text-primary-foreground">
+            新导入
+          </span>
+        )}
+        {isProcessing ? (
+          <CardHeader className={cn("flex-1", isNew && "pt-8")}>
+            <CardTitle>{m.title}</CardTitle>
+            <CardDescription>
+              {langLabel(displayLang)} · {m.level} · 解析中…
+            </CardDescription>
+          </CardHeader>
+        ) : (
+          <Link href={`/listen/${m.id}`} className="flex-1">
+            <CardHeader className={cn(isNew && "pt-8")}>
+              <CardTitle>{m.title}</CardTitle>
+              <CardDescription>
+                {langLabel(displayLang)} · {m.level} ·{" "}
+                {parseStatusLabel(m.parseStatus)}
+              </CardDescription>
+            </CardHeader>
+          </Link>
+        )}
+        <CardContent className="flex flex-col items-stretch gap-2 border-t pt-4">
+          <p className="text-xs text-muted-foreground">资源上传 / 调整</p>
+          <MaterialResourceUpload
+            material={{
+              ...m,
+              sourceLang: displayLang as SupportedLanguage,
+            }}
+            showSettingsLink={!isProcessing}
+          />
+        </CardContent>
+      </Card>
+    );
   }
 
   return (
@@ -78,27 +177,7 @@ export function ListenListClient({
         </Card>
       ) : (
         <div className="grid gap-4 sm:grid-cols-2">
-          {materials.map((m) => (
-            <Link key={m.id} href={`/listen/${m.id}`}>
-              <Card className="relative transition hover:border-primary">
-                <Button
-                  size="icon"
-                  variant="ghost"
-                  className="absolute right-2 top-2 h-8 w-8 text-destructive"
-                  onClick={(e) => handleDelete(e, m.id)}
-                >
-                  <Trash2 className="h-4 w-4" />
-                </Button>
-                <CardHeader>
-                  <CardTitle>{m.title}</CardTitle>
-                  <CardDescription>
-                    {m.sourceLang.toUpperCase()} · {m.level} ·{" "}
-                    {m.parseStatus === "ready" ? "已解析" : "待完善"}
-                  </CardDescription>
-                </CardHeader>
-              </Card>
-            </Link>
-          ))}
+          {materials.map((m) => renderCard(m))}
         </div>
       )}
 
@@ -113,22 +192,60 @@ export function ListenListClient({
               <Input value={title} onChange={(e) => setTitle(e.target.value)} />
             </div>
             <div>
-              <Label>语言</Label>
+              <Label>目标语言</Label>
               <select
                 className="mt-1 flex h-10 w-full rounded-md border px-3 text-sm"
                 value={sourceLang}
-                onChange={(e) => setSourceLang(e.target.value)}
+                onChange={(e) => {
+                  setSourceLang(e.target.value);
+                  setLevel(defaultLevelForLang(e.target.value));
+                }}
               >
-                <option value="ja">日语</option>
-                <option value="en">英语</option>
-                <option value="es">西班牙语</option>
-                <option value="fr">法语</option>
+                {MATERIAL_LANGUAGES.map((l) => (
+                  <option key={l.value} value={l.value}>
+                    {l.label}
+                  </option>
+                ))}
               </select>
+            </div>
+            <div>
+              <Label>水平</Label>
+              <select
+                className="mt-1 flex h-10 w-full rounded-md border px-3 text-sm"
+                value={level}
+                onChange={(e) => setLevel(e.target.value)}
+              >
+                {(MATERIAL_LEVELS[sourceLang] ?? MATERIAL_LEVELS.en).map((l) => (
+                  <option key={l} value={l}>
+                    {l}
+                  </option>
+                ))}
+              </select>
+            </div>
+            <div>
+              <Label>学习目的</Label>
+              <Input
+                value={learningGoal}
+                onChange={(e) => setLearningGoal(e.target.value)}
+                placeholder="general, film, conversation..."
+              />
             </div>
             <Button onClick={handleCreate}>创建并进入</Button>
           </div>
         </DialogContent>
       </Dialog>
     </div>
+  );
+}
+
+export function ListenListClient({
+  initialMaterials,
+}: {
+  initialMaterials: MaterialIndexEntry[];
+}) {
+  return (
+    <Suspense fallback={<div className="py-12 text-center">加载中...</div>}>
+      <ListenListContent initialMaterials={initialMaterials} />
+    </Suspense>
   );
 }

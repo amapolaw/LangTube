@@ -71,6 +71,23 @@ export function addNotebookCard(
   return card;
 }
 
+export function updateNotebookCard(
+  id: string,
+  patch: Partial<NotebookCard>
+): NotebookCard | null {
+  const cards = getAllCards();
+  const index = cards.findIndex((c) => c.id === id);
+  if (index < 0) return null;
+  const updated = { ...cards[index], ...patch, id: cards[index].id };
+  cards[index] = updated;
+  writeJson(getNotebookPath(), cards);
+  return updated;
+}
+
+export function saveAllCards(cards: NotebookCard[]) {
+  writeJson(getNotebookPath(), cards);
+}
+
 export function rateCard(id: string, rating: ReviewRating): NotebookCard | null {
   const cards = getAllCards();
   const index = cards.findIndex((c) => c.id === id);

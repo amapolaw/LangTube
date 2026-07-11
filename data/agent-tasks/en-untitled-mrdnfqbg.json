@@ -1,0 +1,15 @@
+{
+  "id": "en-untitled-mrdnfqbg",
+  "type": "parse-listening",
+  "status": "pending",
+  "input": {
+    "sourceUrl": "https://www.youtube.com/watch?v=Rni7Fz7208c&list=WL&index=4&pp=iAQBsAgC",
+    "title": "Untitled",
+    "sourceLang": "en",
+    "level": "A2",
+    "learningGoal": "general"
+  },
+  "createdAt": "2026-07-09T15:15:58.588Z",
+  "updatedAt": "2026-07-09T15:44:38.048Z",
+  "error": "无法从链接获取字幕，请安装 yt-dlp 或手动粘贴字幕"
+}

@@ -7,6 +7,10 @@ export function getDataDir(): string {
   );
 }
 
+export function getRepoRoot(): string {
+  return path.resolve(getDataDir(), "..");
+}
+
 export function getMaterialsDir(): string {
   return path.join(getDataDir(), "materials");
 }

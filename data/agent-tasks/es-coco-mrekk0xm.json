@@ -1,0 +1,15 @@
+{
+  "id": "es-coco-mrekk0xm",
+  "type": "parse-listening",
+  "status": "pending",
+  "input": {
+    "sourceUrl": "",
+    "title": "coco",
+    "sourceLang": "es",
+    "level": "A1",
+    "learningGoal": "general"
+  },
+  "createdAt": "2026-07-10T06:43:06.340Z",
+  "updatedAt": "2026-07-10T06:56:47.523Z",
+  "error": "fetch failed"
+}

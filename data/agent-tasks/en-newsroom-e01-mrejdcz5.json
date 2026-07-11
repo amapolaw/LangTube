@@ -1,0 +1,17 @@
+{
+  "id": "en-newsroom-e01-mrejdcz5",
+  "type": "parse-listening",
+  "status": "pending",
+  "input": {
+    "sourceUrl": "",
+    "title": "Newsroom E01",
+    "sourceLang": "en",
+    "level": "A2",
+    "learningGoal": "general",
+    "localPath": "materials/en-newsroom-e01-mrejdcz5/media/The Newsroom.S01E01.mov",
+    "mediaFilename": "The Newsroom.S01E01.mov"
+  },
+  "createdAt": "2026-07-10T06:09:56.145Z",
+  "updatedAt": "2026-07-10T06:40:39.372Z",
+  "error": "fetch failed"
+}
