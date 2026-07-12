@@ -1,0 +1,13 @@
+{
+  "targetLang": "ja",
+  "nativeLang": "zh",
+  "level": "N2",
+  "learningGoal": "psychology",
+  "dailyReviewLimit": 50,
+  "llmProvider": "cursor",
+  "llmApiKey": "",
+  "githubToken": "",
+  "githubRepo": "amapolaw/LangTube",
+  "ytdlpCookiesFromBrowser": "chrome",
+  "bilibiliCookies": ""
+}
