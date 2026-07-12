@@ -4,7 +4,11 @@
   "sourceLang": "ja",
   "nativeLang": "zh",
   "level": "N2",
-  "topics": ["psychology", "social-engineering", "cybersecurity"],
+  "topics": [
+    "psychology",
+    "social-engineering",
+    "cybersecurity"
+  ],
   "description": "TED演讲：社会工程学与网络安全（示例素材）",
   "sourceUrl": "https://www.youtube.com/watch?v=example",
   "storage": {
@@ -36,7 +40,9 @@
       "reading": "しゃかいこうがく",
       "zh": "社会工程学",
       "partOfSpeech": "名词",
-      "sentenceIds": ["line-1"],
+      "sentenceIds": [
+        "line-1"
+      ],
       "level": "N2"
     },
     {
@@ -45,7 +51,9 @@
       "reading": "",
       "zh": "网络安全",
       "partOfSpeech": "名词",
-      "sentenceIds": ["line-2"],
+      "sentenceIds": [
+        "line-2"
+      ],
       "level": "N2"
     },
     {
@@ -54,7 +62,9 @@
       "reading": "しんりてきそうさ",
       "zh": "心理操控",
       "partOfSpeech": "名词",
-      "sentenceIds": ["line-3"],
+      "sentenceIds": [
+        "line-3"
+      ],
       "level": "N1"
     },
     {
@@ -63,7 +73,9 @@
       "reading": "ぜいじゃくせい",
       "zh": "脆弱性",
       "partOfSpeech": "名词",
-      "sentenceIds": ["line-4"],
+      "sentenceIds": [
+        "line-4"
+      ],
       "level": "N2"
     },
     {
@@ -72,7 +84,9 @@
       "reading": "",
       "zh": "网络钓鱼",
       "partOfSpeech": "名词",
-      "sentenceIds": ["line-5"],
+      "sentenceIds": [
+        "line-5"
+      ],
       "level": "N3"
     }
   ],
@@ -82,21 +96,27 @@
       "pattern": "社会工学とは、人間の心理を利用した攻撃手法である。",
       "zh": "社会工程学是利用人类心理的攻击手法。",
       "grammar": "〜とは、〜である（定义句型）",
-      "examples": ["心理学とは、人間の行動を研究する学問である。"]
+      "examples": [
+        "心理学とは、人間の行動を研究する学問である。"
+      ]
     },
     {
       "id": "pattern-2",
       "pattern": "サイバー攻撃の多くは、技術ではなく人間の弱点を突く。",
       "zh": "许多网络攻击针对的是人类弱点而非技术。",
       "grammar": "〜の多くは（大多数…）",
-      "examples": ["問題の多くは、コミュニケーション不足による。"]
+      "examples": [
+        "問題の多くは、コミュニケーション不足による。"
+      ]
     },
     {
       "id": "pattern-3",
       "pattern": "私たちは日々、知らないうちに情報を漏洩している。",
       "zh": "我们每天在不知不觉中泄露信息。",
       "grammar": "知らないうちに（不知不觉）",
-      "examples": ["彼は知らないうちに習慣になっていた。"]
+      "examples": [
+        "彼は知らないうちに習慣になっていた。"
+      ]
     }
   ],
   "parseStatus": "ready",
