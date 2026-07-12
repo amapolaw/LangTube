@@ -1,6 +1,6 @@
 {
-  "mode": "local",
+  "mode": "remote",
   "provider": "local",
   "url": "https://www.bilibili.com/video/BV1JDARzmEit?p=12",
-  "path": "/Users/junowang/Documents/LangTube/data/materials/ja-鼓励-理科女生-式的人生-mrg6fxbh/media/BV1JDARzmEit_p12.mp4"
+  "path": "materials/ja-鼓励-理科女生-式的人生-mrg6fxbh/media/BV1JDARzmEit_p12.mp4"
 }
