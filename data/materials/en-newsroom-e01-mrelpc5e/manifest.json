@@ -28594,8 +28594,8 @@
       "grammar": "结合语境理解本句表达功能与搭配"
     }
   ],
-  "parseStatus": "ready",
+  "parseStatus": "processing",
   "createdAt": "2026-07-10T07:15:13.730Z",
-  "updatedAt": "2026-07-11T14:32:52.303Z",
+  "updatedAt": "2026-07-12T15:35:37.064Z",
   "enrichmentMode": "rules"
 }
