@@ -26380,5 +26380,1075 @@
     "reading": "/jʉː/",
     "partOfSpeech": "verb · pronoun",
     "dictSource": "Cambridge 风格 / Free Dictionary（英义转中文）"
+  },
+  {
+    "type": "vocabulary",
+    "front": "言う",
+    "back": "说，讲，道（事実や考えを表出する",
+    "reading": "イウ",
+    "partOfSpeech": "动词",
+    "explanation": "说，讲，道（事実や考えを表出する。告げる）。\n说话，吭（声を出して単語や文を発する）。",
+    "examples": [
+      "何で そんなに\nうれしそうに言うんですか？ / 何で そんなに\nうれしそうに言うんですか？",
+      "だから 私が運転するって言ったのに / だから 私が運転するって言ったのに"
+    ],
+    "language": "ja",
+    "materialId": "ja-untitled-mrhunnt8",
+    "tags": [
+      "general",
+      "level:N5",
+      "N5",
+      "N5"
+    ],
+    "dictSource": "日语0-N1级别词汇大全",
+    "id": "card-1783864805575-h19bnqw",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-12T14:00:05.575Z",
+    "createdAt": "2026-07-12T14:00:05.575Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "食べる",
+    "back": "吃",
+    "reading": "タベル",
+    "partOfSpeech": "动词",
+    "explanation": "吃。（飲食物をいただく。）\n\n生活。（生計を立てる。）",
+    "examples": [
+      "昼の残り 食べるから / 昼の残り 食べるから",
+      "だって 今からすき焼き食べるんだよ？ / だって 今からすき焼き食べるんだよ？"
+    ],
+    "language": "ja",
+    "materialId": "ja-untitled-mrhunnt8",
+    "tags": [
+      "general",
+      "level:N5",
+      "N5",
+      "N5"
+    ],
+    "dictSource": "日语0-N1级别词汇大全",
+    "id": "card-1783864805591-d33nx0p",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-12T14:00:05.591Z",
+    "createdAt": "2026-07-12T14:00:05.591Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "ない",
+    "back": "没有，没，无",
+    "reading": "ナイ",
+    "partOfSpeech": "形容词",
+    "explanation": "没有，没，无。（存在しない。所有しない。）\n没有。（「動詞連用形＋てない」の形で、動作の未発生や未経験を表す。）",
+    "examples": [
+      "５００円玉 全然ないのよ / ５００円玉 全然ないのよ",
+      "この店を継ぐ気はないんですか？ / この店を継ぐ気はないんですか？"
+    ],
+    "language": "ja",
+    "materialId": "ja-untitled-mrhunnt8",
+    "tags": [
+      "general",
+      "level:N5",
+      "N5"
+    ],
+    "dictSource": "日语0-N1级别词汇大全",
+    "id": "card-1783864805601-5mtao1x",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-12T14:00:05.601Z",
+    "createdAt": "2026-07-12T14:00:05.601Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "何",
+    "back": "何，什么",
+    "reading": "ナニ",
+    "partOfSpeech": "名词",
+    "explanation": "何，什么。（ことがら・ものについて。）\n\n多少；几；若干。（数について。どれくらい。漠然とした多い数。具体的な少ない数。）",
+    "examples": [
+      "何？ / 何？",
+      "それ以外は 何にもやらないからね / それ以外は 何にもやらないからね"
+    ],
+    "language": "ja",
+    "materialId": "ja-untitled-mrhunnt8",
+    "tags": [
+      "general",
+      "level:N5",
+      "N5",
+      "N5"
+    ],
+    "dictSource": "日语0-N1级别词汇大全",
+    "id": "card-1783864805610-va7qydd",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-12T14:00:05.610Z",
+    "createdAt": "2026-07-12T14:00:05.610Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "満",
+    "back": "充满",
+    "reading": "ミツル",
+    "partOfSpeech": "名词",
+    "explanation": "充满。（いっぱいになること。）\n\n足。（数詞に冠して、その数に満ちたことを表す語。）\n\n全部。（全部。）\n\n满足。（満ち足りること。）",
+    "examples": [
+      "満も困ったもんだねぇ / 満も困ったもんだねぇ",
+      "満 プライドだけは 超一流だから / 満 プライドだけは 超一流だから"
+    ],
+    "language": "ja",
+    "materialId": "ja-untitled-mrhunnt8",
+    "tags": [
+      "general",
+      "level:N5",
+      "N5"
+    ],
+    "dictSource": "日语0-N1级别词汇大全",
+    "id": "card-1783864805620-rjribxv",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-12T14:00:05.620Z",
+    "createdAt": "2026-07-12T14:00:05.620Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "やる",
+    "back": "使去",
+    "reading": "ヤラ",
+    "partOfSpeech": "动词",
+    "explanation": "使去。让去。打发。（移動させる。）\n　 学校にやる。／送去上学。\n派遣。（行かせる。前に進ませる。）\n　 使いをやる。／派使者。\n给予（比自己地位，辈分低的人，动植物以某种东西）。\n（同等またはその以下のものに物を与える。）\n　 金をやる。／给钱。 餌をやる。／喂饵料。 花に水をやる。／给花浇水。\n做，干，进行。（動詞「する」に同じ。）\n　 会議をやる。／开会。\n　今でもやって(い)るとこあるんだ。／现在还有地方在做啊。\n　やらせといて／先让他做做看\n　ママがやりたかったら（やりたい） やるべきだと思うなぁ／老板娘你想办的话就应该办\n消（愁）。安慰。（心",
+    "examples": [
+      "息子さん お店やられてたんですか？ / 息子さん お店やられてたんですか？",
+      "本格的なコーヒー屋さん\nやってたんだけどね / 本格的なコーヒー屋さん\nやってたんだけどね"
+    ],
+    "language": "ja",
+    "materialId": "ja-untitled-mrhunnt8",
+    "tags": [
+      "general",
+      "level:N5",
+      "N5"
+    ],
+    "dictSource": "日语0-N1级别词汇大全",
+    "id": "card-1783864805631-4u4okwr",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-12T14:00:05.631Z",
+    "createdAt": "2026-07-12T14:00:05.631Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "行く",
+    "back": "去，走",
+    "reading": "イク",
+    "partOfSpeech": "动词",
+    "explanation": "去，走。（人、動物、乗り物が、遠くへ移動する。）\n到……去，往……去，赴。（人、動物、乗り物が目的地に向かって進む。また至りつく。）\n步行，走。（歩く。）\n走过，经过，通过，离去。（通り過ぎる。）\n同：往く",
+    "examples": [
+      "今から おばあちゃん家\n行くけど 行かない？ / 今から おばあちゃん家\n行くけど 行かない？",
+      "だから 言われた通り\n病院にも行くことにするから… / だから 言われた通り\n病院にも行くことにするから…"
+    ],
+    "language": "ja",
+    "materialId": "ja-untitled-mrhunnt8",
+    "tags": [
+      "general",
+      "level:N5",
+      "N5",
+      "N5"
+    ],
+    "dictSource": "日语0-N1级别词汇大全",
+    "id": "card-1783864805639-oa027oj",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-12T14:00:05.639Z",
+    "createdAt": "2026-07-12T14:00:05.639Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "私",
+    "back": "私,私事.〔個人〕",
+    "reading": "ワタシ",
+    "partOfSpeech": "名词",
+    "explanation": "私,私事.〔個人〕\n私利.〔自分だけの利益〕\n私自.〔かってに・ひそかに〕\n不公平,偏私.〔自分中心の見方〕\n我.",
+    "examples": [
+      "私は もう一切 連絡しないから / 私は もう一切 連絡しないから",
+      "だから 私が運転するって言ったのに / だから 私が運転するって言ったのに"
+    ],
+    "language": "ja",
+    "materialId": "ja-untitled-mrhunnt8",
+    "tags": [
+      "general",
+      "level:N5",
+      "N5",
+      "N5"
+    ],
+    "dictSource": "日语0-N1级别词汇大全",
+    "id": "card-1783864805646-jn22qap",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-12T14:00:05.646Z",
+    "createdAt": "2026-07-12T14:00:05.646Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "それ",
+    "back": "喂，瞧",
+    "reading": "ソレ",
+    "partOfSpeech": "名词",
+    "explanation": "喂，瞧。（呼びかけ。）\n\n那个。（相手の近くにあるもの。）\n\n当时成为话题的事务，人。（相手の関心が向いていると思われるもの・事・人・時。）\n\n那件事。（そのこと。）\n\n代替前面说过的。（前に言ったこと。）",
+    "examples": [
+      "それ 教えたの俺だから / それ 教えたの俺だから",
+      "それは初耳だねぇ / それは初耳だねぇ"
+    ],
+    "language": "ja",
+    "materialId": "ja-untitled-mrhunnt8",
+    "tags": [
+      "general",
+      "level:N5",
+      "N5"
+    ],
+    "dictSource": "日语0-N1级别词汇大全",
+    "id": "card-1783864805656-51zb7kt",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-12T14:00:05.656Z",
+    "createdAt": "2026-07-12T14:00:05.656Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "来る",
+    "back": "来，来到，来临；到来",
+    "reading": "コ",
+    "partOfSpeech": "动词",
+    "explanation": "来，来到，来临；到来。（こちらへ近づく。）\n由来；产生；出现。（あることが原因になってある状態になる。）\n提起...（ときたら。）\n一直在...（動作が続いている。）\n...起来；...去；...来；向这边...来。（ある動作をすませてもどる。）",
+    "examples": [
+      "来週から 学校 来られそうか？って / 来週から 学校 来られそうか？って",
+      "来られない理由が分からなきゃ\n協力もできないって / 来られない理由が分からなきゃ\n協力もできないって"
+    ],
+    "language": "ja",
+    "materialId": "ja-untitled-mrhunnt8",
+    "tags": [
+      "general",
+      "level:N5",
+      "N5"
+    ],
+    "dictSource": "日语0-N1级别词汇大全",
+    "id": "card-1783864805664-a73h65t",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-12T14:00:05.664Z",
+    "createdAt": "2026-07-12T14:00:05.664Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "分かる",
+    "back": "知道",
+    "reading": "ワカラ",
+    "partOfSpeech": "动词",
+    "explanation": "知道。清楚。（明らかにする。）\n\n理解。懂得。（事の筋道がはっきりする。）\n\n通情达理。通晓世故。（世情に通じて頑固なことを言わない。）",
+    "examples": [
+      "友だちの住所が分かる。",
+      "知道朋友的住处。",
+      "試験の結果が分かる。"
+    ],
+    "language": "ja",
+    "materialId": "ja-untitled-mrhunnt8",
+    "tags": [
+      "general",
+      "level:N5",
+      "N5",
+      "N5"
+    ],
+    "dictSource": "日语0-N1级别词汇大全",
+    "id": "card-1783864805672-psut3ue",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-12T14:00:05.672Z",
+    "createdAt": "2026-07-12T14:00:05.672Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "人",
+    "back": "〔人間〕人，人类",
+    "reading": "ヒト",
+    "partOfSpeech": "名词",
+    "explanation": "〔人間〕人，人类。中国語の“人间”は、「現世、世の中」をさすのが普通。\n\n〔他人・世間〕别人，旁人，人家。\n\n〔人がら〕人品，品质。",
+    "examples": [
+      "この人ひどいんだよ / この人ひどいんだよ",
+      "そのせいで大事なお客さん\n１人 失ったのよね / そのせいで大事なお客さん\n１人 失ったのよね"
+    ],
+    "language": "ja",
+    "materialId": "ja-untitled-mrhunnt8",
+    "tags": [
+      "general",
+      "level:N5",
+      "N5",
+      "N5"
+    ],
+    "dictSource": "日语0-N1级别词汇大全",
+    "id": "card-1783864805679-pmlw9db",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-12T14:00:05.679Z",
+    "createdAt": "2026-07-12T14:00:05.679Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "肉",
+    "back": "肌肉",
+    "reading": "ニク",
+    "partOfSpeech": "名词",
+    "explanation": "肌肉。（筋肉。）\n肉。（食用となるもの。）",
+    "examples": [
+      "すき焼きの おいしいお肉\n買って来たから / すき焼きの おいしいお肉\n買って来たから",
+      "米沢牛のいい肉 買って来てくれて / 米沢牛のいい肉 買って来てくれて"
+    ],
+    "language": "ja",
+    "materialId": "ja-untitled-mrhunnt8",
+    "tags": [
+      "general",
+      "level:N5",
+      "N5",
+      "N5"
+    ],
+    "dictSource": "日语0-N1级别词汇大全",
+    "id": "card-1783864805688-ws3udkq",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-12T14:00:05.688Z",
+    "createdAt": "2026-07-12T14:00:05.688Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "相談",
+    "back": "商量；协商，协议，磋商；商谈；商定，一致的意见",
+    "reading": "ソウダン",
+    "partOfSpeech": "名词",
+    "explanation": "商量；协商，协议，磋商；商谈；商定，一致的意见。〔話し合い。協議する。口頭の商谈。相談して決める〕\n征求意见，请教；咨询。（意見を聞くこと。）\n提出意见，建议；提议。（意見を出すこと。）",
+    "examples": [
+      "相談に乗って 何とか\n解決策をひねり出したいな / 相談に乗って 何とか\n解決策をひねり出したいな",
+      "２人に相談があって来たの / ２人に相談があって来たの"
+    ],
+    "language": "ja",
+    "materialId": "ja-untitled-mrhunnt8",
+    "tags": [
+      "general",
+      "level:N5",
+      "N5"
+    ],
+    "dictSource": "日语0-N1级别词汇大全",
+    "id": "card-1783864805695-mplrij4",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-12T14:00:05.695Z",
+    "createdAt": "2026-07-12T14:00:05.695Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "話",
+    "back": "说话；讲话；谈话",
+    "reading": "ハナシ",
+    "partOfSpeech": "名词",
+    "explanation": "说话；讲话；谈话。（話すこと。口に出して語ること。）\n话；谈话；说话；讲话。（話された内容。）\n话题。（話題）\n传说。传闻。（うわさ。評判。）\n商谈。（話し合って決めるべき事柄。）\n话。讲给别人听的，有某些内容或条理的事。（人に語り聞かせる、ある内容や筋を持った事柄。）\n事理。（物の道理）\n经过。（経緯）\n假话。（つくりごと。嘘。）\n話がはずむ。／谈得起劲。（次から次へと話題が広がって、楽しい話が続く。）",
+    "examples": [
+      "何十年前の話 してんのよ / 何十年前の話 してんのよ",
+      "焼き肉にするって話だから / 焼き肉にするって話だから"
+    ],
+    "language": "ja",
+    "materialId": "ja-untitled-mrhunnt8",
+    "tags": [
+      "general",
+      "level:N5",
+      "N5",
+      "N5"
+    ],
+    "dictSource": "日语0-N1级别词汇大全",
+    "id": "card-1783864805705-du54kyx",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-12T14:00:05.705Z",
+    "createdAt": "2026-07-12T14:00:05.705Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "知る",
+    "back": "知道（認識する）；知晓（知って理解する）；得知",
+    "reading": "シッ",
+    "partOfSpeech": "动词",
+    "explanation": "知道（認識する）；知晓（知って理解する）；得知。（消息などを。）\n  お母さんが頼んでもいないことをやり続けている理由が知りたいだけよ/我只想知道，坚持一件妈没有拜托你的事的理由\n　もっと早く知りたかったなぁ／真希望能早点知道啊\n懂得（理解する）；理解（経緯を経て）；识别。（よしあしなどを。）\n认识（知りあう）；熟识。（親しく。）",
+    "examples": [
+      "俺は知ってたけどな / 俺は知ってたけどな",
+      "知らないわよ / 知らないわよ"
+    ],
+    "language": "ja",
+    "materialId": "ja-untitled-mrhunnt8",
+    "tags": [
+      "general",
+      "level:N5",
+      "N5",
+      "N5"
+    ],
+    "dictSource": "日语0-N1级别词汇大全",
+    "id": "card-1783864805712-ab060l7",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-12T14:00:05.712Z",
+    "createdAt": "2026-07-12T14:00:05.712Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "前",
+    "back": "前，前面，前方",
+    "reading": "マエ",
+    "partOfSpeech": "名词",
+    "explanation": "前，前面，前方。（進んで行く先にある方。前方。）\n\n前，以前，先头。（ある時点より早いこと。）\n\n前；上，上次，上回。（今より以前。さき。）\n\n差，不到。（足りない。）\n\n面前；面对。（顔の向いている方。）\n\n预先，事先。（前もって。）\n\n刚好的份量。（割りあてたものの分量の意。）",
+    "examples": [
+      "何 やってんの？\n目の前にあるでしょう / 何 やってんの？\n目の前にあるでしょう",
+      "この前 来た時より\n少し痩せたんじゃない？ / この前 来た時より\n少し痩せたんじゃない？"
+    ],
+    "language": "ja",
+    "materialId": "ja-untitled-mrhunnt8",
+    "tags": [
+      "general",
+      "level:N5",
+      "N5",
+      "N5"
+    ],
+    "dictSource": "日语0-N1级别词汇大全",
+    "id": "card-1783864805719-josle8c",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-12T14:00:05.719Z",
+    "createdAt": "2026-07-12T14:00:05.719Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "部屋",
+    "back": "〔室〕房间，屋子，……室，……间",
+    "reading": "ヘヤ",
+    "partOfSpeech": "名词",
+    "explanation": "〔室〕房间，屋子，……室，……间。（家の中をいくつかに仕切ったそれぞれの空間。人が起居し、物などを置くための空間。室。）\n\n顾问室；师傅室。（相撲部屋の略。）",
+    "examples": [
+      "そもそもウチに ３人も住む部屋\nなんて空いてないよね / そもそもウチに ３人も住む部屋\nなんて空いてないよね",
+      "物置になってる綾子の部屋と\nお父さんの部屋を片付ければ / 物置になってる綾子の部屋と\nお父さんの部屋を片付ければ"
+    ],
+    "language": "ja",
+    "materialId": "ja-untitled-mrhunnt8",
+    "tags": [
+      "general",
+      "level:N5",
+      "N5",
+      "N5"
+    ],
+    "dictSource": "日语0-N1级别词汇大全",
+    "id": "card-1783864805730-q7ml0y0",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-12T14:00:05.730Z",
+    "createdAt": "2026-07-12T14:00:05.730Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "何で",
+    "back": "何故；为什么",
+    "reading": "ナンデ",
+    "partOfSpeech": "副词",
+    "explanation": "何故；为什么。（なんのために。なぜ。どうして。）",
+    "examples": [
+      "何でそんなことをするのだ。",
+      "为什么要干那样的事？",
+      "なんで来なかったか。"
+    ],
+    "language": "ja",
+    "materialId": "ja-untitled-mrhunnt8",
+    "tags": [
+      "general",
+      "level:N5",
+      "N5"
+    ],
+    "dictSource": "日语0-N1级别词汇大全",
+    "id": "card-1783864805738-4cmrzi3",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-12T14:00:05.738Z",
+    "createdAt": "2026-07-12T14:00:05.738Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "聞く",
+    "back": "听；听到",
+    "reading": "キイ",
+    "partOfSpeech": "动词",
+    "explanation": "听；听到。（音、声を耳で感じ取る。）\n　信頼できる人だってこと　ぐらいしか聞いてなかったから。／聽說你是可以信赖的人\n听从；答应。（人が言うことを理解して、心に受け入れる。聞き入れる。）\n　春海が休むってきかないのよ。春海说要休息， 又不听话了。\n询问；品尝。（尋ねて、答えを求める。）\n  何で そんなこと聞くんですか?/你为什么要问那种事？\n聞いて極楽、見て地獄。／看景不如听景。（聞くと見るとは非常に差があるというたとえ。）",
+    "examples": [
+      "聞いてるの？ / 聞いてるの？",
+      "いや だから聞いて？ 俺が\nすき焼きとして食べる分の 肉だけを / いや だから聞いて？ 俺が\nすき焼きとして食べる分の 肉だけを"
+    ],
+    "language": "ja",
+    "materialId": "ja-untitled-mrhunnt8",
+    "tags": [
+      "general",
+      "level:N5",
+      "N5",
+      "N5"
+    ],
+    "dictSource": "日语0-N1级别词汇大全",
+    "id": "card-1783864805746-mbvlwae",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-12T14:00:05.746Z",
+    "createdAt": "2026-07-12T14:00:05.746Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "取る",
+    "back": "拿；取，执，握，攥；把住，抓住",
+    "reading": "トリ",
+    "partOfSpeech": "动词",
+    "explanation": "拿；取，执，握，攥；把住，抓住。（手の中におさめる。手に持つ）。\n　好きなだけ取っていいよ。／你可以随便拿\n操作，操纵。（うまく動かして、事を行う。処理する。）\n　取っつきやすいお父さんだ って思われたほうが 仲良くなれる可能性 高まりますし／如果被认为是容易接近的父亲，增进关系的可能性会更大\n坚持。（いろいろな方法で自分のものにする。）\n　何のために コーヒーの道具 捨てないで 取っといてんの ?／你为什么不扔掉咖啡用具，一直留着呢？\n夺取，强夺，强占，吞并。（支配・占有する）",
+    "examples": [
+      "取り皿 用意するとか\n箸 用意するとか / 取り皿 用意するとか\n箸 用意するとか",
+      "取り皿は… / 取り皿は…"
+    ],
+    "language": "ja",
+    "materialId": "ja-untitled-mrhunnt8",
+    "tags": [
+      "general",
+      "level:N5",
+      "N5",
+      "N5"
+    ],
+    "dictSource": "日语0-N1级别词汇大全",
+    "id": "card-1783864805752-kl33a3n",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-12T14:00:05.752Z",
+    "createdAt": "2026-07-12T14:00:05.752Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "あの",
+    "back": "那个",
+    "reading": "アノ",
+    "partOfSpeech": "連体詞",
+    "explanation": "那个。（自分からも相手からも遠い位置にあることを指示する。）\n\n那，当。（今の話題とは離れているが、自分も相手も知っている事柄にかかわる意。例の。）\n\n那个，那，请问；那个……；啊，嗯。（口語で、話を切り出す時やすらすら言えない時に挟む、つなぎの語。あのう。よびかけとしても使われる語。）",
+    "examples": [
+      "あの店 畳んで どれくらいになる？ / あの店 畳んで どれくらいになる？",
+      "でもね あの子が入れてくれた\nコーヒー飲むと / でもね あの子が入れてくれた\nコーヒー飲むと"
+    ],
+    "language": "ja",
+    "materialId": "ja-untitled-mrhunnt8",
+    "tags": [
+      "general",
+      "level:N5",
+      "N5"
+    ],
+    "dictSource": "日语0-N1级别词汇大全",
+    "id": "card-1783864805762-t3diqal",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-12T14:00:05.762Z",
+    "createdAt": "2026-07-12T14:00:05.762Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "持つ",
+    "back": "持，拿",
+    "reading": "モタ",
+    "partOfSpeech": "动词",
+    "explanation": "持，拿。（手にとる。手の中ににぎる）\n带，携带。（身につける。たずさえる。携帯する。）\n有，持有；设有，具有；拥有。（所有している。また、自分のものにする。）\n抱有，怀有。（心の中にいだく。）\n负担；担负，承担。（受け持つ。担当する。）\n保持，维持；持久，支持。（持ちこたえる。）\n   光司さんと 接点 持とうとしてるのか/试图与光司接触吗？",
+    "examples": [
+      "半年も持たなかったよね？ / 半年も持たなかったよね？",
+      "半年は持ちました / 半年は持ちました"
+    ],
+    "language": "ja",
+    "materialId": "ja-untitled-mrhunnt8",
+    "tags": [
+      "general",
+      "level:N5",
+      "N5",
+      "N5"
+    ],
+    "dictSource": "日语0-N1级别词汇大全",
+    "id": "card-1783864805773-cfhrpug",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-12T14:00:05.773Z",
+    "createdAt": "2026-07-12T14:00:05.773Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "学校",
+    "back": "学校",
+    "reading": "ガッコウ",
+    "partOfSpeech": "名词",
+    "explanation": "学校。（一定の教育目的のもとで教師が児童・生徒に組織的・計画的に教育を行う所、またその施設。）",
+    "examples": [
+      "来週から 学校 来られそうか？って / 来週から 学校 来られそうか？って",
+      "１０月になってから まだ一日も\n学校に行ってないんだって / １０月になってから まだ一日も\n学校に行ってないんだって"
+    ],
+    "language": "ja",
+    "materialId": "ja-untitled-mrhunnt8",
+    "tags": [
+      "general",
+      "level:N5",
+      "N5",
+      "N5"
+    ],
+    "dictSource": "日语0-N1级别词汇大全",
+    "id": "card-1783864805780-v4bbus4",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-12T14:00:05.780Z",
+    "createdAt": "2026-07-12T14:00:05.780Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "本",
+    "back": "条；条，只，支；卷；棵，根；瓶.",
+    "reading": "ホン",
+    "partOfSpeech": "名词",
+    "explanation": "条；条，只，支；卷；棵，根；瓶.。（棒、川、列車など、細長い物の数を数える語。スポーツで、技や練習の数を数える語。原稿、映画などを数える語。）\n书；书本，书籍。（書物。書籍。）",
+    "examples": [
+      "ネギ２本あれば足りるかしら？ / ネギ２本あれば足りるかしら？",
+      "ねぇ 廊下の本 全部 捨てんの？ / ねぇ 廊下の本 全部 捨てんの？"
+    ],
+    "language": "ja",
+    "materialId": "ja-untitled-mrhunnt8",
+    "tags": [
+      "general",
+      "level:N5",
+      "N5",
+      "N5"
+    ],
+    "dictSource": "日语0-N1级别词汇大全",
+    "id": "card-1783864805787-xp2jgo4",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-12T14:00:05.787Z",
+    "createdAt": "2026-07-12T14:00:05.787Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "見る",
+    "back": "看，瞧『口』，观看",
+    "reading": "ミ",
+    "partOfSpeech": "动词",
+    "explanation": "看，瞧『口』，观看。（物の形や色などを目で知覚する。）\n查看，观察。（ようすをしらべる。調べる。）\n试试看。（試みに…する。）\n照顾。（世話をする。）\n体验。（経験する。）\n呈某种状态。（ある状態になる。）",
+    "examples": [
+      "見たけど ないって / 見たけど ないって",
+      "美人が厚化粧してるのを\n見たことありますか？ / 美人が厚化粧してるのを\n見たことありますか？"
+    ],
+    "language": "ja",
+    "materialId": "ja-untitled-mrhunnt8",
+    "tags": [
+      "general",
+      "level:N5",
+      "N5",
+      "N5"
+    ],
+    "dictSource": "日语0-N1级别词汇大全",
+    "id": "card-1783864805794-hykjrrp",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-12T14:00:05.794Z",
+    "createdAt": "2026-07-12T14:00:05.794Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "全部",
+    "back": "全部，都",
+    "reading": "ゼンブ",
+    "partOfSpeech": "名词",
+    "explanation": "全部，都。（すっかり集めて考えたすべての範囲。あるもの事のすべて。全体。）\n\n整套书籍。（一揃いの書物の名冊がすべてそろったもの。）",
+    "examples": [
+      "全部 私が悪いのよ / 全部 私が悪いのよ",
+      "ねぇ 廊下の本 全部 捨てんの？ / ねぇ 廊下の本 全部 捨てんの？"
+    ],
+    "language": "ja",
+    "materialId": "ja-untitled-mrhunnt8",
+    "tags": [
+      "general",
+      "level:N5",
+      "N5",
+      "N5"
+    ],
+    "dictSource": "日语0-N1级别词汇大全",
+    "id": "card-1783864805801-8633088",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-12T14:00:05.801Z",
+    "createdAt": "2026-07-12T14:00:05.801Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "全然",
+    "back": "完全（不）……,根本（不）……；简直,丝毫,一点儿（也没有）",
+    "reading": "ゼンゼン",
+    "partOfSpeech": "副词",
+    "explanation": "完全（不）……,根本（不）……；简直,丝毫,一点儿（也没有）。（一つ残さず。あらゆる点で。まるきり。まったく）",
+    "examples": [
+      "全然あり得ないこと。",
+      "根本不会有的事。"
+    ],
+    "language": "ja",
+    "materialId": "ja-untitled-mrhunnt8",
+    "tags": [
+      "general",
+      "level:N5",
+      "N5"
+    ],
+    "dictSource": "日语0-N1级别词汇大全",
+    "id": "card-1783864805809-8sogsne",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-12T14:00:05.809Z",
+    "createdAt": "2026-07-12T14:00:05.809Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "自分",
+    "back": "自己，自个儿，自身，本人",
+    "reading": "ジブン",
+    "partOfSpeech": "名词",
+    "explanation": "自己，自个儿，自身，本人。（その人自身。）\n\n我。（わたくし。）",
+    "examples": [
+      "自分で信金 行って来なさいよ / 自分で信金 行って来なさいよ",
+      "自分が すき焼き食べたいから\n黙ってたんだろ？ / 自分が すき焼き食べたいから\n黙ってたんだろ？"
+    ],
+    "language": "ja",
+    "materialId": "ja-untitled-mrhunnt8",
+    "tags": [
+      "general",
+      "level:N5",
+      "N5",
+      "N5"
+    ],
+    "dictSource": "日语0-N1级别词汇大全",
+    "id": "card-1783864805816-q4gpunh",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-12T14:00:05.816Z",
+    "createdAt": "2026-07-12T14:00:05.816Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "店",
+    "back": "商店",
+    "reading": "ミセ",
+    "partOfSpeech": "名词",
+    "explanation": "商店。店铺。（商品を並べておいて売る所。）\n\n格子门状的房间。（妓楼で、道路に面して格子構えなどにし、遊女がいて遊客を誘う座敷。）",
+    "examples": [
+      "あの店 畳んで どれくらいになる？ / あの店 畳んで どれくらいになる？",
+      "息子さん お店やられてたんですか？ / 息子さん お店やられてたんですか？"
+    ],
+    "language": "ja",
+    "materialId": "ja-untitled-mrhunnt8",
+    "tags": [
+      "general",
+      "level:N5",
+      "N5",
+      "N5"
+    ],
+    "dictSource": "日语0-N1级别词汇大全",
+    "id": "card-1783864805823-2nhxibt",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-12T14:00:05.823Z",
+    "createdAt": "2026-07-12T14:00:05.823Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "今",
+    "back": "现在，当前，目前，此刻",
+    "reading": "イマ",
+    "partOfSpeech": "名词",
+    "explanation": "现在，当前，目前，此刻。（過去と未来の堺をなす瞬間。）\n\n今日，当代。（過去または未来に対比させてとらえた、1の瞬間を含む時間帯。）\n\n立刻，马上。（既にある上に付け加えて。さらに。もう。）",
+    "examples": [
+      "今から おばあちゃん家\n行くけど 行かない？ / 今から おばあちゃん家\n行くけど 行かない？",
+      "だって 今からすき焼き食べるんだよ？ / だって 今からすき焼き食べるんだよ？"
+    ],
+    "language": "ja",
+    "materialId": "ja-untitled-mrhunnt8",
+    "tags": [
+      "general",
+      "level:N5",
+      "N5",
+      "N5"
+    ],
+    "dictSource": "日语0-N1级别词汇大全",
+    "id": "card-1783864805830-ja1vjir",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-12T14:00:05.830Z",
+    "createdAt": "2026-07-12T14:00:05.830Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "買う",
+    "back": "买",
+    "reading": "カッ",
+    "partOfSpeech": "动词",
+    "explanation": "买。（品物や金と引き換えに、自分の望みの品物を得る。）\n\n因自己的行为招致不好结果。（悪い結果を招く。）\n\n主动接受。（進んで身に引き受ける。）\n\n赏识，重视，器重。（価値を認める。）",
+    "examples": [
+      "すき焼きの おいしいお肉\n買って来たから / すき焼きの おいしいお肉\n買って来たから",
+      "春海が喜ぶと思って 買って来たのよ？ / 春海が喜ぶと思って 買って来たのよ？"
+    ],
+    "language": "ja",
+    "materialId": "ja-untitled-mrhunnt8",
+    "tags": [
+      "general",
+      "level:N5",
+      "N5",
+      "N5"
+    ],
+    "dictSource": "日语0-N1级别词汇大全",
+    "id": "card-1783864805838-a1e4fgz",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-12T14:00:05.838Z",
+    "createdAt": "2026-07-12T14:00:05.838Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "悪い",
+    "back": "坏，不好",
+    "reading": "ワルイ",
+    "partOfSpeech": "形容词",
+    "explanation": "坏，不好。（よくない。）\n\n恶性；恶劣；有害，不利。（劣っている・害がある。）\n\n不对，错误。（正しくない。）\n\n不吉利，不吉祥。（縁起が悪い・不幸だ。）\n\n不佳，不舒畅；不适合，不方便；坏，腐败。（よい感じを与えない。不快である。）\n\n不好意思。对不住。用于口语。",
+    "examples": [
+      "僕が悪いんですよ / 僕が悪いんですよ",
+      "全部 私が悪いのよ / 全部 私が悪いのよ"
+    ],
+    "language": "ja",
+    "materialId": "ja-untitled-mrhunnt8",
+    "tags": [
+      "general",
+      "level:N5",
+      "N5",
+      "N5"
+    ],
+    "dictSource": "日语0-N1级别词汇大全",
+    "id": "card-1783864805845-aydyl9i",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-12T14:00:05.845Z",
+    "createdAt": "2026-07-12T14:00:05.845Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "嫌い",
+    "back": "嫌，不愿，厌烦，厌恶",
+    "reading": "キライ",
+    "partOfSpeech": "名词",
+    "explanation": "嫌，不愿，厌烦，厌恶。嫌恶，讨厌。(きらうこと。いやがること。)\n　だから 君が そこまで嫌いだって 知らなかったからさ／所以我不知道你讨厌到那种地步\n有…之嫌。担心的倾向。（気がかりな傾向。）",
+    "examples": [
+      "米沢牛 嫌いなの？ / 米沢牛 嫌いなの？",
+      "ごめん 満が嫌いなの\nすっかり忘れてた / ごめん 満が嫌いなの\nすっかり忘れてた"
+    ],
+    "language": "ja",
+    "materialId": "ja-untitled-mrhunnt8",
+    "tags": [
+      "general",
+      "level:N5",
+      "N5",
+      "N5"
+    ],
+    "dictSource": "日语0-N1级别词汇大全",
+    "id": "card-1783864805852-pe54ryk",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-12T14:00:05.852Z",
+    "createdAt": "2026-07-12T14:00:05.852Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "食う",
+    "back": "吃",
+    "reading": "クエ",
+    "partOfSpeech": "动词",
+    "explanation": "吃。（食べる。）\n花费。（金・時間などを消費する。）\n打败，取胜。（勝つ。）\n叮咬。（虫に噛まれる。）\n蒙受。（身に受ける。）\n年岁增长。（年をとる。）\n生活。（生活する。）\n受骗。（騙される。）",
+    "examples": [
+      "うるさい 黙って食え / うるさい 黙って食え",
+      "ウチに飯だけ食いに来た\nってわけでもないでしょ？ / ウチに飯だけ食いに来た\nってわけでもないでしょ？"
+    ],
+    "language": "ja",
+    "materialId": "ja-untitled-mrhunnt8",
+    "tags": [
+      "general",
+      "level:N5",
+      "N5"
+    ],
+    "dictSource": "日语0-N1级别词汇大全",
+    "id": "card-1783864805860-wxhfgye",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-12T14:00:05.860Z",
+    "createdAt": "2026-07-12T14:00:05.860Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "出す",
+    "back": "出；送；拿出，取出；掏出",
+    "reading": "ダス",
+    "partOfSpeech": "动词",
+    "explanation": "出；送；拿出，取出；掏出。（中にあったものを外へ、または、人に見える所に移す。）　\n  出せますよ/可以拿出来的\n  出されるから飲んでるだけでお願いはしてない/只是因为被端上来才喝，并没有请求过\n伸出、挺出、探出。（伸ばす。つきだす。）\n露出。（現す。外の方へ出っぱらせる。突き出す。）\n救出。（救い出す。）\n给，供给，供应，发，下，发出。（物·人力を与える。）\n寄，邮，发。（発送する。郵送する。送り出す。）\n发表，登，刊载，刊登。（発表する。掲載する。）\n出版，发刊。(出版する。発刊する。）\n展出,展览，陈列。（出品する。陳列する。）\n挂,悬。（かかげ",
+    "examples": [
+      "ウチで出すコーヒーは 偽物だって / ウチで出すコーヒーは 偽物だって",
+      "大きな声 出さないの / 大きな声 出さないの"
+    ],
+    "language": "ja",
+    "materialId": "ja-untitled-mrhunnt8",
+    "tags": [
+      "general",
+      "level:N5",
+      "N5",
+      "N5"
+    ],
+    "dictSource": "日语0-N1级别词汇大全",
+    "id": "card-1783864805867-v22bep4",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-12T14:00:05.867Z",
+    "createdAt": "2026-07-12T14:00:05.867Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "卵",
+    "back": "动物卵的总称",
+    "reading": "タマゴ",
+    "partOfSpeech": "名词",
+    "explanation": "动物卵的总称。（鳥・魚・虫などの雌が産む、殻や膜に包まれた胚や栄養分。）\n鸡蛋。（食用にする鳥の卵。）\n未成熟者。尚未成形。（修業中で、まだ一人前にならない人。）\n　女医さんと芸術家の卵とか　弁護士さんと若手の芸人さんとか／女医生和艺术家后起之秀，或者律师和年轻的艺人",
+    "examples": [
+      "ヤダ 卵 忘れて来ちゃった / ヤダ 卵 忘れて来ちゃった",
+      "-さらに 生卵ですよ？ -生卵ね / -さらに 生卵ですよ？ -生卵ね"
+    ],
+    "language": "ja",
+    "materialId": "ja-untitled-mrhunnt8",
+    "tags": [
+      "general",
+      "level:N5",
+      "N5",
+      "N5"
+    ],
+    "dictSource": "日语0-N1级别词汇大全",
+    "id": "card-1783864805875-yf3ze7t",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-12T14:00:05.875Z",
+    "createdAt": "2026-07-12T14:00:05.875Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "分",
+    "back": "（1）部分",
+    "reading": "ブン",
+    "partOfSpeech": "名词",
+    "explanation": "（1）部分。（部分）\n　 減った分をおぎなう／补上减少的部分。\n　満君の分だけ焼き肉にするっていうのは どうかな?／只有满君的部分做烤肉的话，怎么样？\n（2）份儿。（割り当てられたもの。割当。）\n　 人の分まで食べる／连别人的份儿都吃了。\n\n（3）本分。（本分。つとめ。）\n　 親としての分をつくす／尽父母之责。\n\n（4）身分，地位。（人が置かれた立場や身分。また、その人が備えている能力の程度）\n　 分をわきまえる／符合身分。\n　 分に応じて寄付をする／按照身分捐助。\n\n（5）程度，状态，情况。（物事の様子、状態。）\n　 この分なら明日は天気だ／照这个样子",
+    "examples": [
+      "じゃあさ 満君の分だけ焼き肉にする\nっていうのは どうかな？ / じゃあさ 満君の分だけ焼き肉にする\nっていうのは どうかな？",
+      "いや だから聞いて？ 俺が\nすき焼きとして食べる分の 肉だけを / いや だから聞いて？ 俺が\nすき焼きとして食べる分の 肉だけを"
+    ],
+    "language": "ja",
+    "materialId": "ja-untitled-mrhunnt8",
+    "tags": [
+      "general",
+      "level:N5",
+      "N5"
+    ],
+    "dictSource": "日语0-N1级别词汇大全",
+    "id": "card-1783864805882-msn0uyi",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-12T14:00:05.882Z",
+    "createdAt": "2026-07-12T14:00:05.882Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "仮住まい",
+    "back": "暂住，临时住处(仮にしばらく住むこと",
+    "reading": "カリズマイ",
+    "partOfSpeech": "名词",
+    "explanation": "暂住，临时住处(仮にしばらく住むこと。また，その家。)\n　仮住まいの話は 協力してあげてほしいの/希望你能帮忙处理临时住所的事情",
+    "examples": [
+      "だから 仮住まいの話は\n協力してあげてほしいの / だから 仮住まいの話は\n協力してあげてほしいの",
+      "いや お前たち家族３人が\nウチに仮住まいするって話 / いや お前たち家族３人が\nウチに仮住まいするって話"
+    ],
+    "language": "ja",
+    "materialId": "ja-untitled-mrhunnt8",
+    "tags": [
+      "general",
+      "level:N5",
+      "N5"
+    ],
+    "dictSource": "日语0-N1级别词汇大全",
+    "id": "card-1783864805889-9uqx5ou",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-12T14:00:05.889Z",
+    "createdAt": "2026-07-12T14:00:05.889Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "一緒",
+    "back": "一起，一块",
+    "reading": "イッショ",
+    "partOfSpeech": "名词",
+    "explanation": "一起，一块。（行動をともにすること。）\n同样，一样。（同じであること。）\n一同，一起。（一つにまとめること。共同に。）\n同时，一齐。（ともに同じことをすること。）",
+    "examples": [
+      "その間 ここで３か月だけ\n一緒に生活しようかって 相談してたの / その間 ここで３か月だけ\n一緒に生活しようかって 相談してたの",
+      "一緒に自転車で送ってあげて / 一緒に自転車で送ってあげて"
+    ],
+    "language": "ja",
+    "materialId": "ja-untitled-mrhunnt8",
+    "tags": [
+      "general",
+      "level:N5",
+      "N5",
+      "N5"
+    ],
+    "dictSource": "日语0-N1级别词汇大全",
+    "id": "card-1783864805897-ymcc88l",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-12T14:00:05.897Z",
+    "createdAt": "2026-07-12T14:00:05.897Z"
   }
 ]
