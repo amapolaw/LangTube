@@ -10,6 +10,6 @@
     "learningGoal": "general"
   },
   "createdAt": "2026-07-11T11:52:00.535Z",
-  "updatedAt": "2026-07-11T14:25:56.235Z",
-  "error": "未检测到内嵌或外挂字幕文件；yt-dlp 写出 0 个字幕文件，但无 en 内容；Whisper 转写失败，请安装 whisper：brew install whisper。安装 whisper：brew install whisper（本地视频语音转写）（B站仅有 ai-zh 轨时，需 Whisper 转写日语原声）"
+  "updatedAt": "2026-07-12T08:58:36.284Z",
+  "error": "未检测到内嵌或外挂字幕文件；字幕拉取失败：yt-dlp 拉取失败。可在资源页手动粘贴字幕；Whisper 转写失败。Windows 请执行：pip install openai-whisper，并安装 ffmpeg（winget install ffmpeg）。安装 ffmpeg：winget install ffmpeg；安装 whisper：pip install openai-whisper（本地视频语音转写）（B站视频需 Whisper 转写视频原声作为学习语种字幕（原声语种与素材 sourceLang 一致，可为英/日/西/法等）；B站字幕轨（如 ai-zh）仅作中文对照）"
 }

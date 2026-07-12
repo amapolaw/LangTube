@@ -251,7 +251,7 @@ export default function ListenDetailPage({
         setParsing(false);
         if (!data.message) {
           setParseMessage(
-            "解析未完成。请安装 yt-dlp（链接）或 whisper（本地视频）；在 Cursor IDE 终端运行可使用已登录会话生成翻译。"
+            "解析未完成。B站视频需 Whisper 转写视频原声（语种与素材一致）；YouTube 等链接需 yt-dlp；本地文件需 ffmpeg + whisper。在 Cursor IDE 终端运行可使用已登录会话生成翻译。"
           );
         }
       }
@@ -673,7 +673,7 @@ export default function ListenDetailPage({
                   {parsing
                     ? parseMessage || "正在解析…"
                     : parseMessage ||
-                      "视频无内嵌字幕。可粘贴字幕、上传 SRT，或安装 yt-dlp / whisper。App 解析失败时可由 Cursor Agent 读取 data/agent-tasks 补全。"}
+                      "视频无可用学习语种字幕。B站需 Whisper 转写视频原声（语种与素材一致）；也可粘贴字幕、上传 SRT。App 解析失败时可由 Cursor Agent 读取 data/agent-tasks 补全。"}
                 </CardDescription>
               </CardHeader>
               <CardContent className="space-y-3">

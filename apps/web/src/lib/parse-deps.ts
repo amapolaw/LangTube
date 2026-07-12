@@ -3,8 +3,13 @@ import { promisify } from "util";
 import fsSync from "fs";
 import { readSettings } from "@/lib/data";
 import { hasPlatformLogin } from "@/lib/platform-session";
+import { parseBilibiliUrl } from "@/lib/media-resolver";
 
 const execFileAsync = promisify(execFile);
+
+/** B站学习流程：原文来自视频原声转写，非 B站字幕轨 */
+export const BILIBILI_ORIGINAL_AUDIO_HINT =
+  "B站视频需 Whisper 转写视频原声作为学习语种字幕（原声语种与素材 sourceLang 一致，可为英/日/西/法等）；B站字幕轨（如 ai-zh）仅作中文对照";
 
 export interface ParseDependencies {
   ytdlp: boolean;
@@ -104,6 +109,8 @@ export async function formatMissingDependencyHints(
   sourceUrl?: string
 ): Promise<string> {
   const hints: string[] = [];
+  const isBilibili = sourceUrl ? Boolean(parseBilibiliUrl(sourceUrl)) : false;
+
   if (context === "url" && !deps.ytdlp) {
     hints.push(installHint("yt-dlp"));
   }
@@ -112,15 +119,20 @@ export async function formatMissingDependencyHints(
       "B站/百度网盘：请在设置页填写 B站 Cookie、连接百度网盘，或设置 YTDLP_COOKIES_FROM_BROWSER=chrome"
     );
   }
-  if (context === "local") {
+
+  const needsWhisperForAudio =
+    context === "local" || isBilibili;
+
+  if (needsWhisperForAudio) {
     if (!deps.ffmpeg) hints.push(installHint("ffmpeg"));
     if (!deps.whisper) {
-      hints.push(
-        installHint("whisper") +
-          "（B站仅有 ai-zh 轨时，需 Whisper 转写日语原声）"
-      );
+      const suffix = isBilibili
+        ? `（${BILIBILI_ORIGINAL_AUDIO_HINT}）`
+        : "（本地视频语音转写）";
+      hints.push(installHint("whisper") + suffix);
     }
   }
+
   if (!deps.llmConfigured) {
     hints.push(
       "请在 Cursor IDE 终端运行本应用（使用已登录会话），或配置 LLM_API_KEY"

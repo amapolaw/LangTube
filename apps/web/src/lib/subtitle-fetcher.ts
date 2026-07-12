@@ -6,6 +6,7 @@ import fsSync from "fs";
 import os from "os";
 import path from "path";
 import { parseBilibiliUrl } from "./media-resolver";
+import { BILIBILI_ORIGINAL_AUDIO_HINT } from "@/lib/parse-deps";
 import { parseSrt } from "./subtitle-extractor";
 import {
   bilibiliFetchHeaders,
@@ -226,14 +227,8 @@ async function fetchBilibiliSubtitles(
     console.warn(
       `[bilibili-subs] 可用轨道: ${subs.map((s) => s.lan ?? s.lan_doc).join(", ")}`
     );
-    if (
-      sourceLang === "ja" &&
-      subs.length === 1 &&
-      subs[0]?.lan === "ai-zh"
-    ) {
-      console.warn(
-        "[bilibili-subs] 仅 ai-zh 轨：日语原文需 Whisper 转写，中文对照可自动合并"
-      );
+    if (subs.length > 0) {
+      console.warn(`[bilibili-subs] 无 ${sourceLang} 字幕轨；${BILIBILI_ORIGINAL_AUDIO_HINT}`);
     }
     return [];
   } catch {

@@ -24,17 +24,59 @@ interface GitHubContentItem {
   encoding?: string;
 }
 
-export async function getCredentials(): Promise<GitHubCredentials | null> {
+export async function getCredentials(overrides?: {
+  repo?: string;
+  token?: string;
+}): Promise<GitHubCredentials | null> {
   const settings = await readSettings();
   const repoStr =
-    settings.githubRepo?.trim() || process.env.GITHUB_REPO?.trim() || "";
+    overrides?.repo?.trim() ||
+    settings.githubRepo?.trim() ||
+    process.env.GITHUB_REPO?.trim() ||
+    "";
   const token =
-    settings.githubToken?.trim() || process.env.GITHUB_TOKEN?.trim() || "";
+    overrides?.token?.trim() ||
+    settings.githubToken?.trim() ||
+    process.env.GITHUB_TOKEN?.trim() ||
+    "";
   if (!repoStr || !token) return null;
 
   const [owner, repo] = repoStr.split("/");
   if (!owner || !repo) return null;
   return { owner, repo, token };
+}
+
+/** 说明 GitHub 同步缺哪一项，便于日志与设置页提示 */
+export async function describeGitHubConfigGap(overrides?: {
+  repo?: string;
+  token?: string;
+}): Promise<string | null> {
+  const settings = await readSettings();
+  const repoStr =
+    overrides?.repo?.trim() ||
+    settings.githubRepo?.trim() ||
+    process.env.GITHUB_REPO?.trim() ||
+    "";
+  const token =
+    overrides?.token?.trim() ||
+    settings.githubToken?.trim() ||
+    process.env.GITHUB_TOKEN?.trim() ||
+    "";
+
+  if (!repoStr && !token) {
+    return "GitHub 未配置：请填写仓库（owner/repo）与 Token";
+  }
+  if (!repoStr) {
+    return "GitHub 未配置：缺少仓库地址（格式 owner/repo，例如 amapolaw/LangTube）";
+  }
+  if (!token) {
+    return "GitHub 未配置：缺少 Token";
+  }
+  const [owner, repo] = repoStr.split("/");
+  if (!owner || !repo) {
+    return "GitHub 未配置：仓库格式应为 owner/repo";
+  }
+  return null;
 }
 
 async function githubFetch(
@@ -286,13 +328,19 @@ async function pullFile(
   return true;
 }
 
-export async function pushLearningData(): Promise<{
+export async function pushLearningData(overrides?: {
+  repo?: string;
+  token?: string;
+}): Promise<{
   pushed: number;
   message: string;
 }> {
-  const creds = await getCredentials();
+  const creds = await getCredentials(overrides);
   if (!creds) {
-    return { pushed: 0, message: "GitHub 未配置，跳过同步" };
+    const gap =
+      (await describeGitHubConfigGap(overrides)) ??
+      "GitHub 未配置，跳过同步";
+    return { pushed: 0, message: gap };
   }
 
   const files = listSyncFiles();
@@ -310,12 +358,18 @@ export async function pushLearningData(): Promise<{
   };
 }
 
-export async function pullLearningData(options?: {
-  materialId?: string;
-}): Promise<{ pulled: number; message: string }> {
-  const creds = await getCredentials();
+export async function pullLearningData(
+  options?: {
+    materialId?: string;
+    repo?: string;
+    token?: string;
+  }
+): Promise<{ pulled: number; message: string }> {
+  const creds = await getCredentials(options);
   if (!creds) {
-    return { pulled: 0, message: "GitHub 未配置" };
+    const gap =
+      (await describeGitHubConfigGap(options)) ?? "GitHub 未配置";
+    return { pulled: 0, message: gap };
   }
 
   let files: SyncFileEntry[];

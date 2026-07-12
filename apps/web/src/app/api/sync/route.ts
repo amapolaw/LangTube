@@ -44,7 +44,10 @@ export async function POST(req: Request) {
 
   if (action === "push") {
     try {
-      const result = await pushLearningData();
+      const result = await pushLearningData({
+        repo: body.repo,
+        token: body.token,
+      });
       return NextResponse.json({ ok: true, ...result });
     } catch (err) {
       return NextResponse.json(
@@ -60,8 +63,15 @@ export async function POST(req: Request) {
   if (action === "pull") {
     try {
       const result = materialId
-        ? await pullLearningData({ materialId })
-        : await pullLearningData();
+        ? await pullLearningData({
+            materialId,
+            repo: body.repo,
+            token: body.token,
+          })
+        : await pullLearningData({
+            repo: body.repo,
+            token: body.token,
+          });
       return NextResponse.json({ ok: true, ...result });
     } catch (err) {
       return NextResponse.json(

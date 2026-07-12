@@ -63,6 +63,12 @@ export default function SettingsPage() {
   }
 
   async function save() {
+    if (settings.githubToken?.trim() && !settings.githubRepo?.trim()) {
+      alert(
+        "GitHub 同步需同时填写「仓库」和 Token。\n仓库格式：owner/repo，例如 amapolaw/LangTube"
+      );
+      return;
+    }
     await fetch("/api/settings", {
       method: "PUT",
       headers: { "Content-Type": "application/json" },
@@ -353,21 +359,27 @@ export default function SettingsPage() {
           </CardDescription>
         </CardHeader>
         <CardContent className="space-y-4">
-          <Input
-            placeholder="amapolaw/LangTube"
-            value={settings.githubRepo ?? ""}
-            onChange={(e) =>
-              setSettings({ ...settings, githubRepo: e.target.value })
-            }
-          />
-          <Input
-            type="password"
-            placeholder="Token"
-            value={settings.githubToken ?? ""}
-            onChange={(e) =>
-              setSettings({ ...settings, githubToken: e.target.value })
-            }
-          />
+          <div>
+            <Label>GitHub 仓库（必填，格式 owner/repo）</Label>
+            <Input
+              placeholder="amapolaw/LangTube"
+              value={settings.githubRepo ?? ""}
+              onChange={(e) =>
+                setSettings({ ...settings, githubRepo: e.target.value })
+              }
+            />
+          </div>
+          <div>
+            <Label>GitHub Token（必填）</Label>
+            <Input
+              type="password"
+              placeholder="ghp_... 或 github_pat_..."
+              value={settings.githubToken ?? ""}
+              onChange={(e) =>
+                setSettings({ ...settings, githubToken: e.target.value })
+              }
+            />
+          </div>
           <div className="flex flex-wrap gap-2">
             <Button variant="outline" onClick={() => syncGitHub("push")}>
               推送到 GitHub

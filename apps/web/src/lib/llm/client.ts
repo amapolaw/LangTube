@@ -1,6 +1,21 @@
-import { Agent, type AgentOptions } from "@cursor/sdk";
 import { readSettings } from "@/lib/data";
 import { getRepoRoot } from "@/lib/paths";
+
+type AgentOptions = {
+  apiKey?: string;
+  model?: { id: string };
+  local?: { cwd: string };
+};
+
+async function loadCursorSdk() {
+  try {
+    return await import("@cursor/sdk");
+  } catch {
+    throw new Error(
+      "未找到 @cursor/sdk。请在项目根目录执行 pnpm install，然后重启开发服务器（npm run dev）。"
+    );
+  }
+}
 
 export interface LlmConfig {
   apiKey: string;
@@ -124,6 +139,7 @@ async function cursorChatCompletion(
     opts.apiKey = apiKey;
   }
 
+  const { Agent } = await loadCursorSdk();
   const result = await withTimeout(
     Agent.prompt(prompt, opts),
     CURSOR_PROMPT_TIMEOUT_MS,

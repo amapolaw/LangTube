@@ -203,7 +203,10 @@ export async function transcribeAudioSubtitles(
   return {
     lines: [],
     source: "none",
-    message: "Whisper 转写失败，请安装 whisper：brew install whisper",
+    message:
+      process.platform === "win32"
+        ? "Whisper 转写失败。Windows 请执行：pip install openai-whisper，并安装 ffmpeg（winget install ffmpeg）"
+        : "Whisper 转写失败，请安装 whisper：brew install whisper",
   };
 }
 
