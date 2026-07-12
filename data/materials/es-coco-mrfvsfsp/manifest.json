@@ -13,7 +13,7 @@
   "storage": {
     "mode": "local",
     "provider": "local",
-    "path": "/Users/junowang/Documents/LangTube/data/materials/es-coco-mrfvsfsp/media/coco.mp4"
+    "path": "materials/es-coco-mrfvsfsp/media/coco.mp4"
   },
   "segments": {
     "extensive": [
