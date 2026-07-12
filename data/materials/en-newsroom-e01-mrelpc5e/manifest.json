@@ -12,7 +12,7 @@
   "storage": {
     "mode": "local",
     "provider": "local",
-    "path": "/Users/junowang/Documents/LangTube/data/materials/en-newsroom-e01-mrelpc5e/media/The Newsroom.S01E01.mov"
+    "path": "materials/en-newsroom-e01-mrelpc5e/media/The Newsroom.S01E01.mov"
   },
   "segments": {
     "extensive": [
