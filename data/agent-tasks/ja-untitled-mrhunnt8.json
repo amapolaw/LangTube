@@ -1,0 +1,16 @@
+{
+  "id": "ja-untitled-mrhunnt8",
+  "type": "parse-listening",
+  "status": "completed",
+  "input": {
+    "sourceUrl": "",
+    "title": "Untitled",
+    "sourceLang": "ja",
+    "level": "N5",
+    "learningGoal": "general",
+    "localPath": "materials/ja-untitled-mrhunnt8/media/01.MOV",
+    "mediaFilename": "01.MOV"
+  },
+  "createdAt": "2026-07-12T13:49:15.881Z",
+  "updatedAt": "2026-07-12T14:00:07.996Z"
+}
