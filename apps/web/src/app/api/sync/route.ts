@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
 import { pushLearningData, pullLearningData } from "@/lib/github-sync";
+import { rebuildMaterialIndex } from "@/lib/material-index-rebuild";
 import { listSyncFiles } from "@/lib/sync-files";
 import { getDataDir } from "@/lib/paths";
 import fs from "fs";
@@ -58,6 +59,15 @@ export async function POST(req: Request) {
         { status: 500 }
       );
     }
+  }
+
+  if (action === "repair") {
+    const rebuilt = await rebuildMaterialIndex();
+    return NextResponse.json({
+      ok: true,
+      ...rebuilt,
+      message: `已从本地目录恢复 index，共 ${rebuilt.total} 个素材（新增 ${rebuilt.recovered} 条）`,
+    });
   }
 
   if (action === "pull") {

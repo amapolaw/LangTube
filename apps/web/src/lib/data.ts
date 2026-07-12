@@ -45,7 +45,10 @@ export async function readManifest(id: string): Promise<MaterialManifest | null>
       path.join(getMaterialDir(id), "manifest.json"),
       "utf-8"
     );
-    return JSON.parse(raw) as MaterialManifest;
+    const { safeParseJson } = await import("@/lib/json-sync-sanitize");
+    const manifest = safeParseJson<MaterialManifest>(raw);
+    if (!manifest) return null;
+    return manifest;
   } catch {
     return null;
   }
@@ -57,7 +60,8 @@ export async function readTranscript(id: string): Promise<Transcript | null> {
       path.join(getMaterialDir(id), "transcript.json"),
       "utf-8"
     );
-    return JSON.parse(raw) as Transcript;
+    const { safeParseJson } = await import("@/lib/json-sync-sanitize");
+    return safeParseJson<Transcript>(raw);
   } catch {
     return null;
   }
@@ -146,11 +150,12 @@ export async function saveContentPack(pack: ContentPack): Promise<void> {
 }
 
 export async function readSettings(): Promise<UserSettings> {
+  let settings: UserSettings;
   try {
     const raw = await fs.readFile(getSettingsPath(), "utf-8");
-    return JSON.parse(raw) as UserSettings;
+    settings = JSON.parse(raw) as UserSettings;
   } catch {
-    return {
+    settings = {
       targetLang: "ja",
       nativeLang: "zh",
       level: "N3",
@@ -158,6 +163,18 @@ export async function readSettings(): Promise<UserSettings> {
       dailyReviewLimit: 50,
     };
   }
+
+  return {
+    ...settings,
+    githubRepo:
+      settings.githubRepo?.trim() ||
+      process.env.GITHUB_REPO?.trim() ||
+      "",
+    githubToken:
+      settings.githubToken?.trim() ||
+      process.env.GITHUB_TOKEN?.trim() ||
+      "",
+  };
 }
 
 export async function writeSettings(settings: UserSettings): Promise<void> {

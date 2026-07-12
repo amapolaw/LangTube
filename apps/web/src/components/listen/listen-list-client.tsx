@@ -63,12 +63,35 @@ function ListenListContent({
 
   useEffect(() => {
     setMaterials(initialMaterials);
+
+    const controller = new AbortController();
+    const timer = setTimeout(() => controller.abort(), 8_000);
+
     fetch("/api/sync", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ action: "pull" }),
-    }).catch(() => {});
-  }, [initialMaterials]);
+      signal: controller.signal,
+    })
+      .then((r) => r.json())
+      .then((d) => {
+        if (d.pulled > 0 || d.message?.includes("恢复")) {
+          router.refresh();
+        }
+      })
+      .catch(() => {})
+      .finally(() => clearTimeout(timer));
+  }, [initialMaterials, router]);
+
+  useEffect(() => {
+    const hasProcessing = materials.some((m) => m.parseStatus === "processing");
+    if (!hasProcessing) return;
+
+    const timer = setInterval(() => {
+      router.refresh();
+    }, 12_000);
+    return () => clearInterval(timer);
+  }, [materials, router]);
 
   useEffect(() => {
     if (newMaterialId) {
@@ -125,12 +148,14 @@ function ListenListContent({
           </span>
         )}
         {isProcessing ? (
-          <CardHeader className={cn("flex-1", isNew && "pt-8")}>
-            <CardTitle>{m.title}</CardTitle>
-            <CardDescription>
-              {langLabel(displayLang)} · {m.level} · 解析中…
-            </CardDescription>
-          </CardHeader>
+          <Link href={`/listen/${m.id}`} className="flex-1">
+            <CardHeader className={cn("flex-1", isNew && "pt-8")}>
+              <CardTitle>{m.title}</CardTitle>
+              <CardDescription>
+                {langLabel(displayLang)} · {m.level} · 解析中…（可点击进入）
+              </CardDescription>
+            </CardHeader>
+          </Link>
         ) : (
           <Link href={`/listen/${m.id}`} className="flex-1">
             <CardHeader className={cn(isNew && "pt-8")}>

@@ -4,6 +4,7 @@ import fsSync from "fs";
 import { readSettings } from "@/lib/data";
 import { hasPlatformLogin } from "@/lib/platform-session";
 import { parseBilibiliUrl } from "@/lib/media-resolver";
+import { isWhisperAvailable, whisperInstallHint } from "@/lib/whisper-cli";
 
 const execFileAsync = promisify(execFile);
 
@@ -45,7 +46,7 @@ export async function checkParseDependencies(): Promise<ParseDependencies> {
   const [ytdlp, ffmpeg, whisper, llmConfigured] = await Promise.all([
     commandExists("yt-dlp"),
     commandExists("ffmpeg"),
-    commandExists("whisper"),
+    isWhisperAvailable(),
     isLlmConfigured(),
   ]);
 
@@ -90,7 +91,7 @@ function installHint(tool: "yt-dlp" | "ffmpeg" | "whisper"): string {
       case "ffmpeg":
         return "安装 ffmpeg：winget install ffmpeg";
       case "whisper":
-        return "安装 whisper：pip install openai-whisper（本地视频语音转写）";
+        return whisperInstallHint();
     }
   }
   switch (tool) {
@@ -99,7 +100,7 @@ function installHint(tool: "yt-dlp" | "ffmpeg" | "whisper"): string {
     case "ffmpeg":
       return "安装 ffmpeg：brew install ffmpeg";
     case "whisper":
-      return "安装 whisper：brew install whisper（本地视频语音转写）";
+      return whisperInstallHint();
   }
 }
 

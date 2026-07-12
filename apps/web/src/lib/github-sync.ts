@@ -9,6 +9,11 @@ import {
   type SyncFileEntry,
 } from "@/lib/sync-files";
 import type { MaterialIndex } from "@langtube/core";
+import {
+  rebuildMaterialIndex,
+  mergeMaterialIndexes,
+} from "@/lib/material-index-rebuild";
+import { safeParseJson, sanitizeSyncedJsonText } from "@/lib/json-sync-sanitize";
 
 interface GitHubCredentials {
   owner: string;
@@ -122,7 +127,9 @@ async function fetchRemoteFileContent(
 
   const data = (await res.json()) as GitHubContentItem;
   if (!data.content) return null;
-  return Buffer.from(data.content, "base64").toString("utf-8");
+  return sanitizeSyncedJsonText(
+    Buffer.from(data.content, "base64").toString("utf-8")
+  );
 }
 
 async function listRemoteDirectory(
@@ -207,44 +214,16 @@ function shouldPreferRemote(
 }
 
 function mergeIndexContents(local: string, remote: string): string {
-  try {
-    const localIndex = JSON.parse(local || '{"version":1,"materials":[]}') as MaterialIndex;
-    const remoteIndex = JSON.parse(remote) as MaterialIndex;
-    const byId = new Map<string, MaterialIndex["materials"][number]>();
-
-    for (const m of localIndex.materials ?? []) {
-      byId.set(m.id, m);
-    }
-    for (const m of remoteIndex.materials ?? []) {
-      const existing = byId.get(m.id);
-      if (!existing) {
-        byId.set(m.id, m);
-        continue;
-      }
-      const localTs = new Date(existing.updatedAt).getTime();
-      const remoteTs = new Date(m.updatedAt).getTime();
-      if (Number.isNaN(localTs) || remoteTs >= localTs) {
-        byId.set(m.id, m);
-      }
-    }
-
-    const materials = Array.from(byId.values()).sort(
-      (a, b) =>
-        new Date(b.updatedAt).getTime() - new Date(a.updatedAt).getTime()
-    );
-    const updatedAt = materials[0]?.updatedAt ?? new Date().toISOString();
-    return JSON.stringify(
-      {
-        version: remoteIndex.version ?? localIndex.version ?? 1,
-        materials,
-        updatedAt,
-      },
-      null,
-      2
-    );
-  } catch {
-    return remote;
+  const localIndex =
+    safeParseJson<MaterialIndex>(local) ??
+    ({ version: 1, materials: [] } as MaterialIndex);
+  const remoteIndex = safeParseJson<MaterialIndex>(remote);
+  if (!remoteIndex) {
+    console.warn("[github-sync] remote index.json 无效，保留本地 index");
+    return JSON.stringify(localIndex, null, 2);
   }
+  const merged = mergeMaterialIndexes(localIndex, remoteIndex);
+  return JSON.stringify(merged, null, 2);
 }
 
 async function discoverRemoteSyncFiles(
@@ -323,8 +302,11 @@ async function pullFile(
     return false;
   }
 
+  const sanitized = sanitizeSyncedJsonText(remoteContent);
+  if (!sanitized) return false;
+
   fs.mkdirSync(path.dirname(entry.localPath), { recursive: true });
-  fs.writeFileSync(entry.localPath, remoteContent);
+  fs.writeFileSync(entry.localPath, sanitized);
   return true;
 }
 
@@ -346,15 +328,29 @@ export async function pushLearningData(overrides?: {
   const files = listSyncFiles();
   const message = `langtube sync ${new Date().toISOString()}`;
   let pushed = 0;
+  const errors: string[] = [];
 
   for (const entry of files) {
-    await putFile(creds, entry, message);
-    pushed++;
+    try {
+      await putFile(creds, entry, message);
+      pushed++;
+    } catch (err) {
+      errors.push(
+        `${entry.repoPath}: ${err instanceof Error ? err.message : "push failed"}`
+      );
+    }
+  }
+
+  if (errors.length && pushed === 0) {
+    throw new Error(errors.join("; "));
   }
 
   return {
     pushed,
-    message: `已推送 ${pushed} 个文件到 ${creds.owner}/${creds.repo}`,
+    message:
+      errors.length > 0
+        ? `已推送 ${pushed} 个文件到 ${creds.owner}/${creds.repo}；跳过 ${errors.length} 个失败文件`
+        : `已推送 ${pushed} 个文件到 ${creds.owner}/${creds.repo}`,
   };
 }
 
@@ -372,6 +368,9 @@ export async function pullLearningData(
     return { pulled: 0, message: gap };
   }
 
+  // 先把本地 manifest 目录补回 index，避免 index 被误删后卡片「丢失」
+  const rebuilt = await rebuildMaterialIndex();
+
   let files: SyncFileEntry[];
 
   if (options?.materialId) {
@@ -382,11 +381,31 @@ export async function pullLearningData(
   }
 
   let pulled = 0;
+  const errors: string[] = [];
   for (const entry of files) {
-    if (await pullFile(creds, entry)) pulled++;
+    try {
+      if (await pullFile(creds, entry)) pulled++;
+    } catch (err) {
+      errors.push(
+        `${entry.repoPath}: ${err instanceof Error ? err.message : "pull failed"}`
+      );
+    }
   }
 
-  return { pulled, message: `已从 GitHub 拉取 ${pulled} 个更新文件` };
+  const afterRebuild = await rebuildMaterialIndex();
+
+  const parts = [`已从 GitHub 拉取 ${pulled} 个更新文件`];
+  if (rebuilt.recovered > 0 || afterRebuild.recovered > 0) {
+    parts.push(
+      `本地 index 已恢复 ${Math.max(rebuilt.recovered, afterRebuild.recovered)} 条`
+    );
+  }
+  parts.push(`index 共 ${afterRebuild.total} 个素材`);
+  if (errors.length) {
+    parts.push(`跳过 ${errors.length} 个失败文件`);
+  }
+
+  return { pulled, message: parts.join("；"), errors: errors.slice(0, 5) };
 }
 
 export async function pullMaterialFromGitHub(

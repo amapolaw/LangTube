@@ -3,6 +3,10 @@ import { execFile } from "child_process";
 import { promisify } from "util";
 import fs from "fs/promises";
 import path from "path";
+import {
+  resolveWhisperInvocation,
+  whisperInstallHint,
+} from "@/lib/whisper-cli";
 
 const execFileAsync = promisify(execFile);
 
@@ -126,12 +130,16 @@ async function transcribeWithWhisper(
   filePath: string,
   lang: SupportedLanguage
 ): Promise<TranscriptLine[]> {
+  const invocation = await resolveWhisperInvocation();
+  if (!invocation) return [];
+
   try {
     const tmpDir = path.join(path.dirname(filePath), ".whisper-tmp");
     await fs.mkdir(tmpDir, { recursive: true });
     await execFileAsync(
-      "whisper",
+      invocation.command,
       [
+        ...invocation.argsPrefix,
         filePath,
         "--language",
         WHISPER_LANG[lang] ?? "ja",
@@ -140,7 +148,7 @@ async function transcribeWithWhisper(
         "--output_dir",
         tmpDir,
       ],
-      { timeout: 600000 }
+      { timeout: 7_200_000 }
     );
     const base = path.basename(filePath, path.extname(filePath));
     const srtPath = path.join(tmpDir, `${base}.srt`);
@@ -205,8 +213,8 @@ export async function transcribeAudioSubtitles(
     source: "none",
     message:
       process.platform === "win32"
-        ? "Whisper 转写失败。Windows 请执行：pip install openai-whisper，并安装 ffmpeg（winget install ffmpeg）"
-        : "Whisper 转写失败，请安装 whisper：brew install whisper",
+        ? `Whisper 转写失败。Windows 请执行：${whisperInstallHint()}，并安装 ffmpeg（winget install ffmpeg）`
+        : `Whisper 转写失败，请安装 whisper：${whisperInstallHint()}`,
   };
 }
 

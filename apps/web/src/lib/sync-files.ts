@@ -73,6 +73,24 @@ export function sanitizeManifestForSync(
   };
 }
 
+/** 推送时脱敏，避免 GitHub Secret Scanning 拦截 */
+export function sanitizeSettingsForSync(
+  settings: Record<string, unknown>
+): Record<string, unknown> {
+  const out = { ...settings };
+  const secretKeys = [
+    "llmApiKey",
+    "githubToken",
+    "cursorApiKey",
+    "bilibiliCookies",
+    "baiduCookies",
+  ];
+  for (const key of secretKeys) {
+    if (out[key]) out[key] = "";
+  }
+  return out;
+}
+
 export function getAgentTasksDir(): string {
   return path.join(getDataDir(), "agent-tasks");
 }
@@ -166,6 +184,10 @@ export function readFileForSync(entry: SyncFileEntry): string {
   if (entry.repoPath.endsWith("manifest.json")) {
     const manifest = JSON.parse(raw) as MaterialManifest;
     return JSON.stringify(sanitizeManifestForSync(manifest), null, 2);
+  }
+  if (entry.repoPath.endsWith("settings.json")) {
+    const settings = JSON.parse(raw) as Record<string, unknown>;
+    return JSON.stringify(sanitizeSettingsForSync(settings), null, 2);
   }
   return raw;
 }

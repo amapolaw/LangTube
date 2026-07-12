@@ -64,6 +64,7 @@ export default function ListenDetailPage({
   const [savingTranscript, setSavingTranscript] = useState(false);
   const [parsing, setParsing] = useState(false);
   const [parseMessage, setParseMessage] = useState("");
+  const [loadError, setLoadError] = useState("");
   const [videoTime, setVideoTime] = useState(0);
   const videoRef = useRef<HTMLVideoElement>(null);
   const subtitleListRef = useRef<HTMLDivElement>(null);
@@ -71,20 +72,38 @@ export default function ListenDetailPage({
 
   async function loadPack(id: string) {
     const materialId = normalizeMaterialId(id);
-    await fetch("/api/sync", {
+    setLoadError("");
+
+    // 后台拉取 GitHub，不阻塞页面加载
+    const syncController = new AbortController();
+    const syncTimer = setTimeout(() => syncController.abort(), 8_000);
+    void fetch("/api/sync", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ action: "pull", materialId }),
-    }).catch(() => {});
+      signal: syncController.signal,
+    })
+      .catch(() => {})
+      .finally(() => clearTimeout(syncTimer));
 
-    const [packRes, marksRes] = await Promise.all([
-      fetch(`/api/materials/${encodeURIComponent(materialId)}`).then((r) =>
-        r.json()
-      ),
-      fetch(`/api/marks/${encodeURIComponent(materialId)}`).then((r) =>
-        r.json()
-      ),
-    ]);
+    const packRes = await fetch(
+      `/api/materials/${encodeURIComponent(materialId)}`
+    ).then((r) => r.json());
+
+    if (packRes?.error || !packRes?.manifest) {
+      setPack(null);
+      setLoadError(
+        packRes?.error === "Material not found"
+          ? "素材不存在或数据文件损坏，请返回列表重新导入/同步。"
+          : packRes?.error || "无法加载素材"
+      );
+      return;
+    }
+
+    const marksRes = await fetch(
+      `/api/marks/${encodeURIComponent(materialId)}`
+    ).then((r) => r.json());
+
     setPack(packRes);
     setMarks(marksRes);
     const remoteUrl =
@@ -176,8 +195,14 @@ export default function ListenDetailPage({
     }
 
     if (packRes.manifest?.parseStatus === "processing") {
-      setParsing(true);
-      setParseMessage("正在解析字幕与词汇…");
+      const hasLines = (packRes.transcript?.lines?.length ?? 0) > 0;
+      if (hasLines) {
+        setParsing(false);
+        setParseMessage("后台解析进行中，可先浏览已有字幕与句型");
+      } else {
+        setParsing(true);
+        setParseMessage("正在解析字幕与词汇…");
+      }
     } else {
       await autoParseSubtitles(materialId, packRes);
     }
@@ -204,7 +229,9 @@ export default function ListenDetailPage({
       const packRes = await fetch(`/api/materials/${materialId}`).then((r) =>
         r.json()
       );
+      if (packRes?.error || !packRes?.manifest) return;
       setPack(packRes);
+      const hasLines = (packRes.transcript?.lines?.length ?? 0) > 0;
       if (isPackContentReady(packRes)) {
         setParsing(false);
         setParseMessage("解析完成");
@@ -212,8 +239,11 @@ export default function ListenDetailPage({
       } else if (packRes.manifest?.parseStatus !== "processing") {
         setParsing(false);
         clearInterval(timer);
+      } else if (hasLines) {
+        setParsing(false);
+        setParseMessage("后台解析进行中，可先浏览已有字幕与句型");
       }
-    }, 3000);
+    }, 5000);
 
     return () => clearInterval(timer);
   }, [materialId, parsing, pack]);
@@ -428,6 +458,17 @@ export default function ListenDetailPage({
 
     container.scrollBy({ top: offset, behavior: "smooth" });
   }, [currentLine, showSubtitles]);
+
+  if (loadError) {
+    return (
+      <div className="space-y-4 py-12 text-center">
+        <p className="text-muted-foreground">{loadError}</p>
+        <Button asChild variant="outline">
+          <Link href="/listen">返回听辨列表</Link>
+        </Button>
+      </div>
+    );
+  }
 
   if (!pack) {
     return <div className="py-12 text-center text-muted-foreground">加载中...</div>;

@@ -27,6 +27,10 @@ export function SyncBootstrap() {
         }
         if (data.message?.includes("未配置")) {
           setHint("未配置 GitHub 仓库/Token，跨设备同步不可用。请到设置页填写。");
+          return;
+        }
+        if ((data.pulled ?? 0) > 0 || data.message?.includes("恢复")) {
+          window.location.reload();
         }
       })
       .catch(() => {

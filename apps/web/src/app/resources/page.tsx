@@ -53,19 +53,28 @@ function ResourcesPage() {
   });
 
   useEffect(() => {
+    const controller = new AbortController();
+    const timer = setTimeout(() => controller.abort(), 25_000);
+
     fetch("/api/sync", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ action: "pull" }),
+      signal: controller.signal,
     })
       .then((r) => r.json())
       .then((d) => {
         if (d.pulled > 0) {
           setImportStatus(`已从 GitHub 同步 ${d.pulled} 个文件`);
+        } else if (d.message?.includes("恢复")) {
+          setImportStatus(d.message);
         }
       })
       .catch(() => {})
-      .finally(() => setSyncing(false));
+      .finally(() => {
+        clearTimeout(timer);
+        setSyncing(false);
+      });
   }, []);
 
   useEffect(() => {
