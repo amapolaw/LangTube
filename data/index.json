@@ -66,18 +66,17 @@
     },
     {
       "id": "ja-untitled-mrhunnt8",
-      "title": "Untitled",
+      "title": "俺の話は長い 03",
       "sourceLang": "ja",
       "nativeLang": "zh",
-      "level": "N5",
+      "level": "N3",
       "topics": [
-        "general",
-        "level:N5"
+        "general"
       ],
       "storageLocation": "local",
-      "parseStatus": "ready",
-      "createdAt": "2026-07-12T13:49:10.604Z",
-      "updatedAt": "2026-07-12T14:00:05.905Z",
+      "parseStatus": "pending",
+      "createdAt": "2026-07-12T15:53:28.016Z",
+      "updatedAt": "2026-07-12T15:53:28.016Z",
       "sourceUrl": ""
     },
     {
