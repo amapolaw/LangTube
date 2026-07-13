@@ -2,6 +2,53 @@
   "version": 1,
   "materials": [
     {
+      "id": "en-elon-musk-a-different-conversation-peopl-mrgb0xmi",
+      "title": "Elon Musk: A Different Conversation | People by WTF Ep. 16 Nikhil Kamath",
+      "sourceLang": "en",
+      "nativeLang": "zh",
+      "level": "A2",
+      "topics": [
+        "general"
+      ],
+      "storageLocation": "local",
+      "parseStatus": "processing",
+      "createdAt": "2026-07-11T11:51:51.354Z",
+      "updatedAt": "2026-07-13T08:35:16.609Z",
+      "sourceUrl": "https://www.bilibili.com/video/BV1mTSkBHEwo/?spm_id_from=333.337.search-card.all.click&vd_source=575dde8aaa5216721d951e465f92f0d8"
+    },
+    {
+      "id": "ja-untitled-mrhunnt8",
+      "title": "俺の話は長い 03",
+      "sourceLang": "ja",
+      "nativeLang": "zh",
+      "level": "N3",
+      "topics": [
+        "general"
+      ],
+      "storageLocation": "local",
+      "parseStatus": "processing",
+      "createdAt": "2026-07-12T15:53:28.016Z",
+      "updatedAt": "2026-07-13T08:35:10.430Z",
+      "sourceUrl": ""
+    },
+    {
+      "id": "es-coco-mrfvsfsp",
+      "title": "coco",
+      "sourceLang": "es",
+      "nativeLang": "zh",
+      "level": "B1",
+      "topics": [
+        "general",
+        "level:N3",
+        "level:B1"
+      ],
+      "storageLocation": "local",
+      "parseStatus": "processing",
+      "createdAt": "2026-07-11T04:45:20.762Z",
+      "updatedAt": "2026-07-13T08:34:51.411Z",
+      "sourceUrl": ""
+    },
+    {
       "id": "ja-俺-話-長-01-mrehoi9z",
       "title": "俺の話は長い 01",
       "sourceLang": "ja",
@@ -12,9 +59,9 @@
         "level:N3"
       ],
       "storageLocation": "local",
-      "parseStatus": "processing",
+      "parseStatus": "ready",
       "createdAt": "2026-07-10T05:22:36.551Z",
-      "updatedAt": "2026-07-13T08:28:45.553Z",
+      "updatedAt": "2026-07-13T08:36:18.593Z",
       "sourceUrl": ""
     },
     {
@@ -31,53 +78,6 @@
       "parseStatus": "processing",
       "createdAt": "2026-07-11T03:04:30.587Z",
       "updatedAt": "2026-07-13T08:25:51.534Z",
-      "sourceUrl": ""
-    },
-    {
-      "id": "ja-untitled-mrhunnt8",
-      "title": "俺の話は長い 03",
-      "sourceLang": "ja",
-      "nativeLang": "zh",
-      "level": "N3",
-      "topics": [
-        "general"
-      ],
-      "storageLocation": "local",
-      "parseStatus": "processing",
-      "createdAt": "2026-07-12T15:53:28.016Z",
-      "updatedAt": "2026-07-13T08:25:51.402Z",
-      "sourceUrl": ""
-    },
-    {
-      "id": "en-elon-musk-a-different-conversation-peopl-mrgb0xmi",
-      "title": "Elon Musk: A Different Conversation | People by WTF Ep. 16 Nikhil Kamath",
-      "sourceLang": "en",
-      "nativeLang": "zh",
-      "level": "A2",
-      "topics": [
-        "general"
-      ],
-      "storageLocation": "local",
-      "parseStatus": "processing",
-      "createdAt": "2026-07-11T11:51:51.354Z",
-      "updatedAt": "2026-07-13T08:25:51.212Z",
-      "sourceUrl": "https://www.bilibili.com/video/BV1mTSkBHEwo/?spm_id_from=333.337.search-card.all.click&vd_source=575dde8aaa5216721d951e465f92f0d8"
-    },
-    {
-      "id": "es-coco-mrfvsfsp",
-      "title": "coco",
-      "sourceLang": "es",
-      "nativeLang": "zh",
-      "level": "B1",
-      "topics": [
-        "general",
-        "level:N3",
-        "level:B1"
-      ],
-      "storageLocation": "local",
-      "parseStatus": "processing",
-      "createdAt": "2026-07-11T04:45:20.762Z",
-      "updatedAt": "2026-07-13T08:25:51.012Z",
       "sourceUrl": ""
     }
   ]
