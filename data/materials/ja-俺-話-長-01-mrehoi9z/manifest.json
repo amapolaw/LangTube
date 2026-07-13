@@ -589,8 +589,7 @@
       "grammar": "〜たら：一……就……（发现／结果）；〜される：被动「被……」；から(ね)表原因。"
     }
   ],
-  "parseStatus": "ready",
+  "parseStatus": "processing",
   "createdAt": "2026-07-10T05:22:36.551Z",
-  "updatedAt": "2026-07-13T04:27:15.702Z",
-  "enrichmentMode": "llm"
+  "updatedAt": "2026-07-13T08:25:51.676Z"
 }
