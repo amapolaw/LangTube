@@ -1,53 +1,37 @@
-{
-  "ja-俺-話-長-01-mrehoi9z": {
-    "lines": [],
-    "vocabulary": [
-      "vocab-1",
-      "vocab-2",
-      "vocab-4"
-    ],
-    "patterns": [
-      "pattern-23",
-      "pattern-58"
-    ],
-    "updatedAt": "2026-07-11T14:19:27.678Z"
-  },
-  "en-newsroom-e01-mrelpc5e": {
-    "lines": [
-      "line-10"
-    ],
-    "vocabulary": [
-      "vocab-134",
-      "vocab-161",
-      "vocab-238",
-      "vocab-285",
-      "vocab-336",
-      "vocab-372"
-    ],
-    "patterns": [
-      "pattern-30",
-      "pattern-44"
-    ],
-    "updatedAt": "2026-07-11T14:35:12.214Z"
-  },
-  "es-coco-mrfvsfsp": {
-    "lines": [
-      "line-2"
-    ],
-    "vocabulary": [
-      "vocab-33",
-      "vocab-36",
-      "vocab-45",
-      "vocab-50",
-      "vocab-44",
-      "vocab-56",
-      "vocab-79"
-    ],
-    "patterns": [
-      "pattern-2",
-      "pattern-8",
-      "pattern-23"
-    ],
-    "updatedAt": "2026-07-11T14:37:03.527Z"
-  }
+﻿{
+    "ja-俺-話-長-01-mrehoi9z":  {
+                                 "lines":  [
+
+                                           ],
+                                 "vocabulary":  [
+                                                    "vocab-1",
+                                                    "vocab-2",
+                                                    "vocab-4"
+                                                ],
+                                 "patterns":  [
+                                                  "pattern-23",
+                                                  "pattern-58"
+                                              ],
+                                 "updatedAt":  "2026-07-11T14:19:27.678Z"
+                             },
+    "es-coco-mrfvsfsp":  {
+                             "lines":  [
+                                           "line-2"
+                                       ],
+                             "vocabulary":  [
+                                                "vocab-33",
+                                                "vocab-36",
+                                                "vocab-45",
+                                                "vocab-50",
+                                                "vocab-44",
+                                                "vocab-56",
+                                                "vocab-79"
+                                            ],
+                             "patterns":  [
+                                              "pattern-2",
+                                              "pattern-8",
+                                              "pattern-23"
+                                          ],
+                             "updatedAt":  "2026-07-11T14:37:03.527Z"
+                         }
 }
