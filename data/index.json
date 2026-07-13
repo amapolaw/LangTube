@@ -168,9 +168,9 @@
         "general"
       ],
       "storageLocation": "baidu",
-      "parseStatus": "pending",
+      "parseStatus": "processing",
       "createdAt": "2026-07-13T04:16:02.821Z",
-      "updatedAt": "2026-07-13T04:16:02.821Z",
+      "updatedAt": "2026-07-13T04:24:01.503Z",
       "sourceUrl": "/movies/test.mp4"
     },
     {
