@@ -577,8 +577,7 @@
       "grammar": "〜な：（动词终止形＋な）表禁止「不许……」；〜って言う：引用别人的话。"
     }
   ],
-  "parseStatus": "pending",
+  "parseStatus": "processing",
   "createdAt": "2026-07-12T15:53:28.016Z",
-  "updatedAt": "2026-07-13T04:32:37.800Z",
-  "enrichmentMode": "llm"
+  "updatedAt": "2026-07-13T08:25:51.402Z"
 }
