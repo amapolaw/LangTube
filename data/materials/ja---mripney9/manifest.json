@@ -1,6 +1,6 @@
 {
   "id": "ja---mripney9",
-  "title": "���԰ٶ���Ƶ",
+  "title": "test",
   "sourceLang": "ja",
   "nativeLang": "zh",
   "level": "N3",
@@ -34,7 +34,7 @@
   },
   "vocabulary": [],
   "patterns": [],
-  "parseStatus": "pending",
+  "parseStatus": "processing",
   "createdAt": "2026-07-13T04:16:47.217Z",
-  "updatedAt": "2026-07-13T04:34:41.219Z"
+  "updatedAt": "2026-07-13T06:44:00.482Z"
 }
