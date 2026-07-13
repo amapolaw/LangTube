@@ -11,7 +11,7 @@ import {
 } from "@/lib/pack-patterns";
 import { chatCompletion } from "./client";
 import { enrichOffline } from "./enrich-offline";
-import { enrichFromReference } from "./enrich-from-reference";
+import { enrichFromReference, type EnrichReferenceOptions } from "./enrich-from-reference";
 import {
   extractVocabulary,
   isLikelyWordNotPhrase,
