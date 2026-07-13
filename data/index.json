@@ -2,21 +2,6 @@
   "version": 1,
   "materials": [
     {
-      "id": "ja-untitled-mrhunnt8",
-      "title": "俺の話は長い 03",
-      "sourceLang": "ja",
-      "nativeLang": "zh",
-      "level": "N3",
-      "topics": [
-        "general"
-      ],
-      "storageLocation": "local",
-      "parseStatus": "pending",
-      "createdAt": "2026-07-12T15:53:28.016Z",
-      "updatedAt": "2026-07-12T15:53:28.016Z",
-      "sourceUrl": ""
-    },
-    {
       "id": "en-housecard-s1e1-mress4zj",
       "title": "HouseCard S1E1",
       "sourceLang": "en",
@@ -63,6 +48,21 @@
       "sourceUrl": ""
     },
     {
+      "id": "ja-untitled-mrhunnt8",
+      "title": "俺の話は長い 03",
+      "sourceLang": "ja",
+      "nativeLang": "zh",
+      "level": "N3",
+      "topics": [
+        "general"
+      ],
+      "storageLocation": "local",
+      "parseStatus": "pending",
+      "createdAt": "2026-07-12T15:53:28.016Z",
+      "updatedAt": "2026-07-12T15:53:28.016Z",
+      "sourceUrl": ""
+    },
+    {
       "id": "es-coco-mrfvsfsp",
       "title": "coco",
       "sourceLang": "es",
@@ -104,9 +104,9 @@
         "general"
       ],
       "storageLocation": "local",
-      "parseStatus": "pending",
+      "parseStatus": "processing",
       "createdAt": "2026-07-11T11:01:47.528Z",
-      "updatedAt": "2026-07-11T14:25:45.621Z",
+      "updatedAt": "2026-07-13T03:38:50.276Z",
       "sourceUrl": "https://www.bilibili.com/video/BV11r4y1b7na/?spm_id_from=333.1387.favlist.content.click&vd_source=575dde8aaa5216721d951e465f92f0d8"
     },
     {
