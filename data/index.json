@@ -2,34 +2,52 @@
   "version": 1,
   "materials": [
     {
-      "id": "es--easy-spanish-w1-d1-how-will-technology--mrg98juw",
-      "title": " Easy Spanish -  W1 D1 How Will Technology Change Us",
+      "id": "es-coco-mrfvsfsp",
+      "title": "coco",
       "sourceLang": "es",
       "nativeLang": "zh",
-      "level": "A1",
+      "level": "B1",
       "topics": [
-        "general"
+        "general",
+        "level:N3",
+        "level:B1"
       ],
       "storageLocation": "local",
-      "parseStatus": "pending",
-      "createdAt": "2026-07-11T11:01:47.528Z",
-      "updatedAt": "2026-07-13T03:47:06.785Z",
-      "sourceUrl": "https://www.bilibili.com/video/BV11r4y1b7na/?spm_id_from=333.1387.favlist.content.click&vd_source=575dde8aaa5216721d951e465f92f0d8"
+      "parseStatus": "processing",
+      "createdAt": "2026-07-11T04:45:20.762Z",
+      "updatedAt": "2026-07-13T04:36:45.086Z",
+      "sourceUrl": ""
     },
     {
-      "id": "en-housecard-s1e1-mress4zj",
-      "title": "HouseCard S1E1",
+      "id": "en-newsroom-e01-mrelpc5e",
+      "title": "Newsroom E01",
       "sourceLang": "en",
       "nativeLang": "zh",
       "level": "A2",
       "topics": [
-        "general"
+        "general",
+        "level:A2"
       ],
       "storageLocation": "local",
-      "parseStatus": "pending",
-      "createdAt": "2026-07-10T10:33:21.727Z",
-      "updatedAt": "2026-07-13T03:31:26.216Z",
-      "sourceUrl": "https://pan.baidu.com/s/1UYWCeLL-uEAucqE4OOQz8A?pwd=crtt"
+      "parseStatus": "processing",
+      "createdAt": "2026-07-10T07:15:13.730Z",
+      "updatedAt": "2026-07-13T04:35:26.385Z",
+      "sourceUrl": ""
+    },
+    {
+      "id": "ja---mripney9",
+      "title": "test",
+      "sourceLang": "ja",
+      "nativeLang": "zh",
+      "level": "N3",
+      "topics": [
+        "general"
+      ],
+      "storageLocation": "baidu",
+      "parseStatus": "processing",
+      "createdAt": "2026-07-13T04:16:47.217Z",
+      "updatedAt": "2026-07-13T06:44:00.482Z",
+      "sourceUrl": "/movies/test.mp4"
     },
     {
       "id": "en-elon-musk-a-different-conversation-peopl-mrgb0xmi",
@@ -47,20 +65,19 @@
       "sourceUrl": "https://www.bilibili.com/video/BV1mTSkBHEwo/?spm_id_from=333.337.search-card.all.click&vd_source=575dde8aaa5216721d951e465f92f0d8"
     },
     {
-      "id": "en-newsroom-e01-mrelpc5e",
-      "title": "Newsroom E01",
-      "sourceLang": "en",
+      "id": "ja---mripmgp1",
+      "title": "test",
+      "sourceLang": "ja",
       "nativeLang": "zh",
-      "level": "A2",
+      "level": "N3",
       "topics": [
-        "general",
-        "level:A2"
+        "general"
       ],
-      "storageLocation": "local",
-      "parseStatus": "processing",
-      "createdAt": "2026-07-10T07:15:13.730Z",
-      "updatedAt": "2026-07-13T03:27:14.889Z",
-      "sourceUrl": ""
+      "storageLocation": "baidu",
+      "parseStatus": "pending",
+      "createdAt": "2026-07-13T04:16:02.821Z",
+      "updatedAt": "2026-07-13T04:33:46.660Z",
+      "sourceUrl": "/movies/test.mp4"
     },
     {
       "id": "ja-untitled-mrhunnt8",
@@ -76,38 +93,6 @@
       "createdAt": "2026-07-12T15:53:28.016Z",
       "updatedAt": "2026-07-13T04:32:37.800Z",
       "sourceUrl": ""
-    },
-    {
-      "id": "es-coco-mrfvsfsp",
-      "title": "coco",
-      "sourceLang": "es",
-      "nativeLang": "zh",
-      "level": "B1",
-      "topics": [
-        "general",
-        "level:N3",
-        "level:B1"
-      ],
-      "storageLocation": "local",
-      "parseStatus": "processing",
-      "createdAt": "2026-07-11T04:45:20.762Z",
-      "updatedAt": "2026-07-12T15:32:38.542Z",
-      "sourceUrl": ""
-    },
-    {
-      "id": "ja-鼓励-理科女生-式的人生-mrg6fxbh",
-      "title": "鼓励理科女生式的人生",
-      "sourceLang": "ja",
-      "nativeLang": "zh",
-      "level": "N3",
-      "topics": [
-        "general"
-      ],
-      "storageLocation": "local",
-      "parseStatus": "pending",
-      "createdAt": "2026-07-11T11:53:48.367Z",
-      "updatedAt": "2026-07-11T14:26:06.121Z",
-      "sourceUrl": "https://www.bilibili.com/video/BV1JDARzmEit?p=12"
     },
     {
       "id": "ja-俺-話-長-02-mrfs6rgb",
@@ -142,6 +127,51 @@
       "sourceUrl": ""
     },
     {
+      "id": "es--easy-spanish-w1-d1-how-will-technology--mrg98juw",
+      "title": " Easy Spanish -  W1 D1 How Will Technology Change Us",
+      "sourceLang": "es",
+      "nativeLang": "zh",
+      "level": "A1",
+      "topics": [
+        "general"
+      ],
+      "storageLocation": "local",
+      "parseStatus": "pending",
+      "createdAt": "2026-07-11T11:01:47.528Z",
+      "updatedAt": "2026-07-13T03:47:06.785Z",
+      "sourceUrl": "https://www.bilibili.com/video/BV11r4y1b7na/?spm_id_from=333.1387.favlist.content.click&vd_source=575dde8aaa5216721d951e465f92f0d8"
+    },
+    {
+      "id": "en-housecard-s1e1-mress4zj",
+      "title": "HouseCard S1E1",
+      "sourceLang": "en",
+      "nativeLang": "zh",
+      "level": "A2",
+      "topics": [
+        "general"
+      ],
+      "storageLocation": "local",
+      "parseStatus": "pending",
+      "createdAt": "2026-07-10T10:33:21.727Z",
+      "updatedAt": "2026-07-13T03:31:26.216Z",
+      "sourceUrl": "https://pan.baidu.com/s/1UYWCeLL-uEAucqE4OOQz8A?pwd=crtt"
+    },
+    {
+      "id": "ja-鼓励-理科女生-式的人生-mrg6fxbh",
+      "title": "鼓励理科女生式的人生",
+      "sourceLang": "ja",
+      "nativeLang": "zh",
+      "level": "N3",
+      "topics": [
+        "general"
+      ],
+      "storageLocation": "local",
+      "parseStatus": "pending",
+      "createdAt": "2026-07-11T11:53:48.367Z",
+      "updatedAt": "2026-07-11T14:26:06.121Z",
+      "sourceUrl": "https://www.bilibili.com/video/BV1JDARzmEit?p=12"
+    },
+    {
       "id": "ted-ja-social-engineering-001",
       "title": "社会工学とサイバーセキュリティ",
       "sourceLang": "ja",
@@ -157,36 +187,6 @@
       "createdAt": "2026-07-09T00:00:00.000Z",
       "updatedAt": "2026-07-09T00:00:00.000Z",
       "sourceUrl": "https://www.youtube.com/watch?v=example"
-    },
-    {
-      "id": "ja---mripmgp1",
-      "title": "���԰ٶ���Ƶ",
-      "sourceLang": "ja",
-      "nativeLang": "zh",
-      "level": "N3",
-      "topics": [
-        "general"
-      ],
-      "storageLocation": "baidu",
-      "parseStatus": "pending",
-      "createdAt": "2026-07-13T04:16:02.821Z",
-      "updatedAt": "2026-07-13T04:33:46.660Z",
-      "sourceUrl": "/movies/test.mp4"
-    },
-    {
-      "id": "ja---mripney9",
-      "title": "���԰ٶ���Ƶ",
-      "sourceLang": "ja",
-      "nativeLang": "zh",
-      "level": "N3",
-      "topics": [
-        "general"
-      ],
-      "storageLocation": "baidu",
-      "parseStatus": "pending",
-      "createdAt": "2026-07-13T04:16:47.217Z",
-      "updatedAt": "2026-07-13T04:34:41.219Z",
-      "sourceUrl": "/movies/test.mp4"
     }
   ]
 }
