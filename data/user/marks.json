@@ -1,37 +1,44 @@
-﻿{
-    "ja-俺-話-長-01-mrehoi9z":  {
-                                 "lines":  [
-
-                                           ],
-                                 "vocabulary":  [
-                                                    "vocab-1",
-                                                    "vocab-2",
-                                                    "vocab-4"
-                                                ],
-                                 "patterns":  [
-                                                  "pattern-23",
-                                                  "pattern-58"
-                                              ],
-                                 "updatedAt":  "2026-07-11T14:19:27.678Z"
-                             },
-    "es-coco-mrfvsfsp":  {
-                             "lines":  [
-                                           "line-2"
-                                       ],
-                             "vocabulary":  [
-                                                "vocab-33",
-                                                "vocab-36",
-                                                "vocab-45",
-                                                "vocab-50",
-                                                "vocab-44",
-                                                "vocab-56",
-                                                "vocab-79"
-                                            ],
-                             "patterns":  [
-                                              "pattern-2",
-                                              "pattern-8",
-                                              "pattern-23"
-                                          ],
-                             "updatedAt":  "2026-07-11T14:37:03.527Z"
-                         }
+{
+  "ja-俺-話-長-01-mrehoi9z": {
+    "lines": [],
+    "vocabulary": [
+      "vocab-489",
+      "vocab-484",
+      "vocab-483",
+      "vocab-475",
+      "vocab-458",
+      "vocab-448",
+      "vocab-447",
+      "vocab-430",
+      "vocab-421",
+      "vocab-420",
+      "vocab-419",
+      "vocab-415",
+      "vocab-410",
+      "vocab-408",
+      "vocab-405",
+      "vocab-400",
+      "vocab-397",
+      "vocab-386",
+      "vocab-387",
+      "vocab-380",
+      "vocab-376",
+      "vocab-370",
+      "vocab-367",
+      "vocab-364",
+      "vocab-363",
+      "vocab-351",
+      "vocab-343",
+      "vocab-305",
+      "vocab-304",
+      "vocab-226",
+      "vocab-223",
+      "vocab-218",
+      "vocab-204",
+      "vocab-205",
+      "vocab-174"
+    ],
+    "patterns": [],
+    "updatedAt": "2026-07-13T09:03:47.342Z"
+  }
 }
