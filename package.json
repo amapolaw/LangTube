@@ -7,7 +7,7 @@
     "build": "pnpm -r build",
     "lint": "pnpm -r lint",
     "sync": "pnpm --filter @langtube/cli sync",
-    "validate-pack": "pnpm --filter @langtube/cli validate ../../data/materials/ted-ja-social-engineering-001",
+    "validate-pack": "pnpm --filter @langtube/cli validate ../../fixtures/ted-ja-social-engineering-001",
     "import-pack": "pnpm --filter @langtube/cli import",
     "db:push": "pnpm --filter @langtube/web db:push",
     "desktop:dev": "pnpm --filter @langtube/desktop dev",
