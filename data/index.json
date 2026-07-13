@@ -19,37 +19,6 @@
       "sourceUrl": ""
     },
     {
-      "id": "en-newsroom-e01-mrelpc5e",
-      "title": "Newsroom E01",
-      "sourceLang": "en",
-      "nativeLang": "zh",
-      "level": "A2",
-      "topics": [
-        "general",
-        "level:A2"
-      ],
-      "storageLocation": "local",
-      "parseStatus": "processing",
-      "createdAt": "2026-07-10T07:15:13.730Z",
-      "updatedAt": "2026-07-13T04:35:26.385Z",
-      "sourceUrl": ""
-    },
-    {
-      "id": "ja---mripney9",
-      "title": "test",
-      "sourceLang": "ja",
-      "nativeLang": "zh",
-      "level": "N3",
-      "topics": [
-        "general"
-      ],
-      "storageLocation": "baidu",
-      "parseStatus": "processing",
-      "createdAt": "2026-07-13T04:16:47.217Z",
-      "updatedAt": "2026-07-13T06:44:00.482Z",
-      "sourceUrl": "/movies/test.mp4"
-    },
-    {
       "id": "en-elon-musk-a-different-conversation-peopl-mrgb0xmi",
       "title": "Elon Musk: A Different Conversation | People by WTF Ep. 16 Nikhil Kamath",
       "sourceLang": "en",
@@ -63,21 +32,6 @@
       "createdAt": "2026-07-11T11:51:51.354Z",
       "updatedAt": "2026-07-13T04:34:14.092Z",
       "sourceUrl": "https://www.bilibili.com/video/BV1mTSkBHEwo/?spm_id_from=333.337.search-card.all.click&vd_source=575dde8aaa5216721d951e465f92f0d8"
-    },
-    {
-      "id": "ja---mripmgp1",
-      "title": "test",
-      "sourceLang": "ja",
-      "nativeLang": "zh",
-      "level": "N3",
-      "topics": [
-        "general"
-      ],
-      "storageLocation": "baidu",
-      "parseStatus": "pending",
-      "createdAt": "2026-07-13T04:16:02.821Z",
-      "updatedAt": "2026-07-13T04:33:46.660Z",
-      "sourceUrl": "/movies/test.mp4"
     },
     {
       "id": "ja-untitled-mrhunnt8",
@@ -125,68 +79,6 @@
       "createdAt": "2026-07-10T05:22:36.551Z",
       "updatedAt": "2026-07-13T04:27:15.702Z",
       "sourceUrl": ""
-    },
-    {
-      "id": "es--easy-spanish-w1-d1-how-will-technology--mrg98juw",
-      "title": " Easy Spanish -  W1 D1 How Will Technology Change Us",
-      "sourceLang": "es",
-      "nativeLang": "zh",
-      "level": "A1",
-      "topics": [
-        "general"
-      ],
-      "storageLocation": "local",
-      "parseStatus": "pending",
-      "createdAt": "2026-07-11T11:01:47.528Z",
-      "updatedAt": "2026-07-13T03:47:06.785Z",
-      "sourceUrl": "https://www.bilibili.com/video/BV11r4y1b7na/?spm_id_from=333.1387.favlist.content.click&vd_source=575dde8aaa5216721d951e465f92f0d8"
-    },
-    {
-      "id": "en-housecard-s1e1-mress4zj",
-      "title": "HouseCard S1E1",
-      "sourceLang": "en",
-      "nativeLang": "zh",
-      "level": "A2",
-      "topics": [
-        "general"
-      ],
-      "storageLocation": "local",
-      "parseStatus": "pending",
-      "createdAt": "2026-07-10T10:33:21.727Z",
-      "updatedAt": "2026-07-13T03:31:26.216Z",
-      "sourceUrl": "https://pan.baidu.com/s/1UYWCeLL-uEAucqE4OOQz8A?pwd=crtt"
-    },
-    {
-      "id": "ja-鼓励-理科女生-式的人生-mrg6fxbh",
-      "title": "鼓励理科女生式的人生",
-      "sourceLang": "ja",
-      "nativeLang": "zh",
-      "level": "N3",
-      "topics": [
-        "general"
-      ],
-      "storageLocation": "local",
-      "parseStatus": "pending",
-      "createdAt": "2026-07-11T11:53:48.367Z",
-      "updatedAt": "2026-07-11T14:26:06.121Z",
-      "sourceUrl": "https://www.bilibili.com/video/BV1JDARzmEit?p=12"
-    },
-    {
-      "id": "ted-ja-social-engineering-001",
-      "title": "社会工学とサイバーセキュリティ",
-      "sourceLang": "ja",
-      "nativeLang": "zh",
-      "level": "N2",
-      "topics": [
-        "psychology",
-        "social-engineering",
-        "cybersecurity"
-      ],
-      "storageLocation": "local",
-      "parseStatus": "ready",
-      "createdAt": "2026-07-09T00:00:00.000Z",
-      "updatedAt": "2026-07-09T00:00:00.000Z",
-      "sourceUrl": "https://www.youtube.com/watch?v=example"
     }
   ]
 }

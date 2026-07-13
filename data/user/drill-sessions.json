@@ -26,48 +26,5 @@
     "correct": false,
     "timedOut": true,
     "createdAt": "2026-07-10T05:38:31.024Z"
-  },
-  {
-    "id": "d88fea9c-9278-43e6-b3c4-86995022d150",
-    "materialId": "ted-ja-social-engineering-001",
-    "drillType": "substitution",
-    "drillId": "sub-1",
-    "round": 1,
-    "prompt": "主题→フィッシング",
-    "response": "",
-    "expected": "フィッシングとは、人間の心理を利用した攻撃手法です。",
-    "responseTimeMs": 29787,
-    "correct": false,
-    "timedOut": true,
-    "createdAt": "2026-07-10T05:39:12.936Z"
-  },
-  {
-    "id": "5dc87f13-93c2-4a64-b14a-91a2c0e69807",
-    "materialId": "ted-ja-social-engineering-001",
-    "drillType": "substitution",
-    "drillId": "sub-1",
-    "round": 1,
-    "prompt": "主题→フィッシング",
-    "response": "しょっぱいことは人間のに を利用した",
-    "expected": "フィッシングとは、人間の心理を利用した攻撃手法です。",
-    "responseTimeMs": 51832,
-    "correct": false,
-    "timedOut": true,
-    "createdAt": "2026-07-11T03:10:17.534Z"
-  },
-  {
-    "id": "f23f1583-be63-4d2b-9247-c52778e56d69",
-    "materialId": "ted-ja-social-engineering-001",
-    "drillType": "substitution",
-    "drillId": "sub-1",
-    "round": 1,
-    "prompt": "主题→フィッシング",
-    "response": "",
-    "expected": "フィッシングとは、人間の心理を利用した攻撃手法です。",
-    "responseTimeMs": 23055,
-    "correct": false,
-    "timedOut": true,
-    "timeLimitMs": 8040,
-    "createdAt": "2026-07-11T04:04:25.866Z"
   }
 ]
