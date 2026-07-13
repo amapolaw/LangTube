@@ -21179,5 +21179,1106 @@
     "repetitions": 0,
     "nextReview": "2026-07-12T14:00:05.897Z",
     "createdAt": "2026-07-12T14:00:05.897Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "借りる",
+    "back": "金を借りる",
+    "reading": "カリル",
+    "partOfSpeech": "动词",
+    "explanation": "金を借りる。/借钱。\n借助（助けをうける）。\n租（借）（使用料を払って使う）。\n赊（买）（掛けで買う）。\n（『注意』：“借”は「貸す」の意味にも用い、“借给他钱”（彼に金を貸す）のようにいう。“租”にも「賃貸し」「賃借り」。）",
+    "examples": [
+      "お金もったいないけど\nホテルでも ﾏﾝｼｮﾝでも借りるから / お金もったいないけど\nホテルでも ﾏﾝｼｮﾝでも借りるから"
+    ],
+    "language": "ja",
+    "materialId": "ja-俺-話-長-01-mrehoi9z",
+    "tags": [
+      "general",
+      "level:N3",
+      "N3",
+      "N5"
+    ],
+    "dictSource": "日语0-N1级别词汇大全",
+    "id": "card-1783931776969-rgzonq7",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-13T08:36:16.969Z",
+    "createdAt": "2026-07-13T08:36:16.969Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "自体",
+    "back": "本身，自身",
+    "reading": "ジタイ",
+    "partOfSpeech": "名词",
+    "explanation": "本身，自身。（それ自身。）\n  コーヒー屋を またやること自体は 否定してないの/我并不否定再次开咖啡店这件事\n自己身体。（自分の体。）\n原来；究竟。（いったい。）",
+    "examples": [
+      "俺に相談すること自体は\n間違ってないの / 俺に相談すること自体は\n間違ってないの"
+    ],
+    "language": "ja",
+    "materialId": "ja-俺-話-長-01-mrehoi9z",
+    "tags": [
+      "general",
+      "level:N3",
+      "N3"
+    ],
+    "dictSource": "日语0-N1级别词汇大全",
+    "id": "card-1783931777023-e88aqof",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-13T08:36:17.023Z",
+    "createdAt": "2026-07-13T08:36:17.023Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "謝る",
+    "back": "道歉，赔礼，谢罪",
+    "reading": "アヤマル",
+    "partOfSpeech": "动词",
+    "explanation": "道歉，赔礼，谢罪。（自分の非を認め、相手に許しを認める、詫びる）。\n　ごめんって謝ってるじゃん。／不是已经在道歉了吗\n认输，折服，服，没有办法。（閉口する、恐れ入る）。\n谢绝，辞退。（閉口して断る、ごめんこうむる）。",
+    "examples": [
+      "何で お母さんが謝るの？ / 何で お母さんが謝るの？"
+    ],
+    "language": "ja",
+    "materialId": "ja-俺-話-長-01-mrehoi9z",
+    "tags": [
+      "general",
+      "level:N3",
+      "N3",
+      "N4"
+    ],
+    "dictSource": "日语0-N1级别词汇大全",
+    "id": "card-1783931777072-q74utuj",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-13T08:36:17.072Z",
+    "createdAt": "2026-07-13T08:36:17.072Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "冗談",
+    "back": "玩笑，戏言，笑话（人を笑わせるような；気のきいた話やことば",
+    "reading": "ジョウダン",
+    "partOfSpeech": "名词",
+    "explanation": "玩笑，戏言，笑话（人を笑わせるような、気のきいた話やことば。また、ふざけて、ほんとうでないことを言ったりしたりすること）",
+    "examples": [
+      "もう 冗談で言ったんだから\n真に受けんなよ / もう 冗談で言ったんだから\n真に受けんなよ"
+    ],
+    "language": "ja",
+    "materialId": "ja-俺-話-長-01-mrehoi9z",
+    "tags": [
+      "general",
+      "level:N3",
+      "N3"
+    ],
+    "dictSource": "日语0-N1级别词汇大全",
+    "id": "card-1783931777118-rt35c79",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-13T08:36:17.118Z",
+    "createdAt": "2026-07-13T08:36:17.118Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "受ける",
+    "back": "承接",
+    "reading": "ウケ",
+    "partOfSpeech": "动词",
+    "explanation": "承接。（それに身をさらす。自分の方に向かってくるものを、支え止めたり、取って収めたりする。受けとめる。）\n\n承蒙，受到；接到；得到；奉。（もらう。得る。）\n\n遭受。（被る。他からの働き・作用が身に加えられる。）\n\n接受，答应，承认。（応じる。）\n\n应，考。（ 自分に向けられた行為・働きかけに対処して応じる。）\n\n继承，接续。（受けつぐ。）\n\n稟承，享受。（さずかる。）\n\n认为，理解。（解する。）\n\n受欢迎。（人気を得る。）\n\n同：請ける、承ける。",
+    "examples": [
+      "もう 冗談で言ったんだから\n真に受けんなよ / もう 冗談で言ったんだから\n真に受けんなよ"
+    ],
+    "language": "ja",
+    "materialId": "ja-俺-話-長-01-mrehoi9z",
+    "tags": [
+      "general",
+      "level:N3",
+      "N3",
+      "N4"
+    ],
+    "dictSource": "日语0-N1级别词汇大全",
+    "id": "card-1783931777159-8am3590",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-13T08:36:17.159Z",
+    "createdAt": "2026-07-13T08:36:17.159Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "住む",
+    "back": "居住，住",
+    "reading": "スム",
+    "partOfSpeech": "动词",
+    "explanation": "居住，住。（場所をきめて、そこで生活する，居住する。）\n栖息，生存。（動物が巣を作り、そこで生活する。）",
+    "examples": [
+      "そもそもウチに ３人も住む部屋\nなんて空いてないよね / そもそもウチに ３人も住む部屋\nなんて空いてないよね"
+    ],
+    "language": "ja",
+    "materialId": "ja-俺-話-長-01-mrehoi9z",
+    "tags": [
+      "general",
+      "level:N3",
+      "N3",
+      "N5"
+    ],
+    "dictSource": "日语0-N1级别词汇大全",
+    "id": "card-1783931777208-r5701hv",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-13T08:36:17.208Z",
+    "createdAt": "2026-07-13T08:36:17.208Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "空く",
+    "back": "稀疏，空旷；某个空间里的人；物数量减少",
+    "reading": "アイ",
+    "partOfSpeech": "动词",
+    "explanation": "稀疏，空旷；某个空间里的人、物数量减少。（ある空間を満たしていた人や物が少なくなって、あきができる。まばらになる。減る。）\n饥饿，肚子空，肚子饿。（空腹になる。）\n 　お腹もすきますよね。／肚子的确饿了\n　お腹すいちゃったよ。／好饿啊\n有空闲。（当面することがなく、ひまができる。ひまになる。）",
+    "examples": [
+      "そもそもウチに ３人も住む部屋\nなんて空いてないよね / そもそもウチに ３人も住む部屋\nなんて空いてないよね"
+    ],
+    "language": "ja",
+    "materialId": "ja-俺-話-長-01-mrehoi9z",
+    "tags": [
+      "general",
+      "level:N3",
+      "N3"
+    ],
+    "dictSource": "日语0-N1级别词汇大全",
+    "id": "card-1783931777265-rje7e60",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-13T08:36:17.265Z",
+    "createdAt": "2026-07-13T08:36:17.265Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "実家",
+    "back": "父母之家，老家；娘家；婆家",
+    "reading": "ジッカ",
+    "partOfSpeech": "名词",
+    "explanation": "父母之家，老家；娘家；婆家。（その人の生家。）\n\n満が実家からいなく なって一番困ることって何?\n要是阿满离开家了 你最头疼的是什么",
+    "examples": [
+      "光司さんだって 相手の実家で生活する\nなんて ホントは ヤでしょ？ / 光司さんだって 相手の実家で生活する\nなんて ホントは ヤでしょ？"
+    ],
+    "language": "ja",
+    "materialId": "ja-俺-話-長-01-mrehoi9z",
+    "tags": [
+      "general",
+      "level:N3",
+      "N3"
+    ],
+    "dictSource": "日语0-N1级别词汇大全",
+    "id": "card-1783931777303-z4vh3k1",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-13T08:36:17.303Z",
+    "createdAt": "2026-07-13T08:36:17.303Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "受験",
+    "back": "投考，报考，应试，检定考试",
+    "reading": "ジュケン",
+    "partOfSpeech": "名词",
+    "explanation": "投考，报考，应试，检定考试。（試験を受ける。）",
+    "examples": [
+      "これから受験 控えた 大切な時期に / これから受験 控えた 大切な時期に"
+    ],
+    "language": "ja",
+    "materialId": "ja-俺-話-長-01-mrehoi9z",
+    "tags": [
+      "general",
+      "level:N3",
+      "N3"
+    ],
+    "dictSource": "日语0-N1级别词汇大全",
+    "id": "card-1783931777351-vytmk6a",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-13T08:36:17.351Z",
+    "createdAt": "2026-07-13T08:36:17.351Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "控える",
+    "back": "等候，等待",
+    "reading": "ヒカエ",
+    "partOfSpeech": "动词",
+    "explanation": "等候，等待。（順番や時間が来るまで、その場所で待つ。）\n在旁边，在近旁。（目立たないようにしてそばにいる。）\n勒住，拉住，曳住。（衣服などを、おさえつかんで、行かせないようにする。引き止める。）\n节制，控制，抑制。（度を越さないように、分量・度数などを少なめにおさえる。節制する。）\n暂不……，打消……念头。（自制や配慮をして、それをやめておく。見合わせる。）\n面临，靠近，迫近。（空間的・時間的にすぐ近くにある。近い所に持つ。あまり時を置かないで予定している。）\n   高校受験は控えてるし/高考迫近\n写下来，记录下来（以备忘）。（忘れないように、また、念の",
+    "examples": [
+      "これから受験 控えた 大切な時期に / これから受験 控えた 大切な時期に"
+    ],
+    "language": "ja",
+    "materialId": "ja-俺-話-長-01-mrehoi9z",
+    "tags": [
+      "general",
+      "level:N3",
+      "N3"
+    ],
+    "dictSource": "日语0-N1级别词汇大全",
+    "id": "card-1783931777384-fhjh2bo",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-13T08:36:17.384Z",
+    "createdAt": "2026-07-13T08:36:17.384Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "時期",
+    "back": "时期，时候",
+    "reading": "ジキ",
+    "partOfSpeech": "名词",
+    "explanation": "时期，时候。（とき。）\n期间。（期間。）\n季节。（季節。）",
+    "examples": [
+      "これから受験 控えた 大切な時期に / これから受験 控えた 大切な時期に"
+    ],
+    "language": "ja",
+    "materialId": "ja-俺-話-長-01-mrehoi9z",
+    "tags": [
+      "general",
+      "level:N3",
+      "N3"
+    ],
+    "dictSource": "日语0-N1级别词汇大全",
+    "id": "card-1783931777425-wp2lfte",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-13T08:36:17.425Z",
+    "createdAt": "2026-07-13T08:36:17.425Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "日",
+    "back": "天，日",
+    "reading": "ニチ",
+    "partOfSpeech": "名词",
+    "explanation": "天，日。(日の数。)\n\n第……天。(日の順序。)\n\n星期天的简称。（日曜の略。）\n\n日本的简称。（日本の略）\n\n给在戏剧表演中的置景工和幕后服装员的工资。（演劇興行で、大小道具方・衣装方の給料。）\n\n（日本旧时的）日向国。（日向国の略。）",
+    "examples": [
+      "１０月になってから まだ一日も\n学校に行ってないんだって / １０月になってから まだ一日も\n学校に行ってないんだって"
+    ],
+    "language": "ja",
+    "materialId": "ja-俺-話-長-01-mrehoi9z",
+    "tags": [
+      "general",
+      "level:N3",
+      "N3",
+      "N4"
+    ],
+    "dictSource": "日语0-N1级别词汇大全",
+    "id": "card-1783931777466-g5zswpt",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-13T08:36:17.466Z",
+    "createdAt": "2026-07-13T08:36:17.466Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "一点張り",
+    "back": "（由赌博中一味只在一处下赌注引申而来）专做一件事；坚持一点；专赌一门",
+    "reading": "イッテンバリ",
+    "partOfSpeech": "名词",
+    "explanation": "（由赌博中一味只在一处下赌注引申而来）专做一件事；坚持一点；专赌一门。（博打で一つ所にばかりかけることからそのことだけで押し通すこと。）\n　 勉強一点張り。／一味地学习。\n    「行きたくない」の一点張りでね。/只是一直說：“不想去。”",
+    "examples": [
+      "｢行きたくない｣の一点張りでね / ｢行きたくない｣の一点張りでね"
+    ],
+    "language": "ja",
+    "materialId": "ja-俺-話-長-01-mrehoi9z",
+    "tags": [
+      "general",
+      "level:N3",
+      "N3"
+    ],
+    "dictSource": "日语0-N1级别词汇大全",
+    "id": "card-1783931777505-7svz488",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-13T08:36:17.505Z",
+    "createdAt": "2026-07-13T08:36:17.505Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "育てる",
+    "back": "培育，抚育（養う）；（子どもを）抚养",
+    "reading": "ソダテル",
+    "partOfSpeech": "动词",
+    "explanation": "培育，抚育（養う）；（子どもを）抚养。\n\n教育（導く），培养。\n\n发展，使发展。",
+    "examples": [
+      "育ってきた環境も何もかも違うのに",
+      "我跟你成长的环境完全不同"
+    ],
+    "language": "ja",
+    "materialId": "ja-俺-話-長-01-mrehoi9z",
+    "tags": [
+      "general",
+      "level:N3",
+      "N3",
+      "N4"
+    ],
+    "dictSource": "日语0-N1级别词汇大全",
+    "id": "card-1783931777540-ee7kyas",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-13T08:36:17.540Z",
+    "createdAt": "2026-07-13T08:36:17.540Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "風水",
+    "back": "1. 风水学住宅，坟墓等场所的利好与否的决定因素(山川・水流などの様子を考え合わせて；都城・住宅・墳墓の位置などを定める術",
+    "reading": "フウスイ",
+    "partOfSpeech": "名词",
+    "explanation": "1. 风水学住宅，坟墓等场所的利好与否的决定因素(山川・水流などの様子を考え合わせて、都城・住宅・墳墓の位置などを定める術。特に、中国や李朝朝鮮では墓地の選定などに重視され、現在も普及。風水説。)\n2. 风雨，风和流水(吹く風と流れる水。風雨。)",
+    "examples": [
+      "風水ですか？ / 風水ですか？"
+    ],
+    "language": "ja",
+    "materialId": "ja-俺-話-長-01-mrehoi9z",
+    "tags": [
+      "general",
+      "level:N3",
+      "N3"
+    ],
+    "dictSource": "日语0-N1级别词汇大全",
+    "id": "card-1783931777577-cxifazb",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-13T08:36:17.577Z",
+    "createdAt": "2026-07-13T08:36:17.577Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "後",
+    "back": "后，之后，以后",
+    "reading": "ゴ",
+    "partOfSpeech": "名词",
+    "explanation": "后，之后，以后。（あと。）\n今后，将来，未来。（将来。）\n死后，身后，后世。（死んだあと。）",
+    "examples": [
+      "後から言うの やめてよ / 後から言うの やめてよ"
+    ],
+    "language": "ja",
+    "materialId": "ja-俺-話-長-01-mrehoi9z",
+    "tags": [
+      "general",
+      "level:N3",
+      "N3",
+      "N5"
+    ],
+    "dictSource": "日语0-N1级别词汇大全",
+    "id": "card-1783931777615-okcn727",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-13T08:36:17.615Z",
+    "createdAt": "2026-07-13T08:36:17.615Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "予感",
+    "back": "预感，预兆",
+    "reading": "ヨカン",
+    "partOfSpeech": "名词",
+    "explanation": "预感，预兆。（ある結果になることを前もってちょっとした事で感じること。）",
+    "examples": [
+      "春海が不登校になる\n予感があったってこと？ / 春海が不登校になる\n予感があったってこと？"
+    ],
+    "language": "ja",
+    "materialId": "ja-俺-話-長-01-mrehoi9z",
+    "tags": [
+      "general",
+      "level:N3",
+      "N3"
+    ],
+    "dictSource": "日语0-N1级别词汇大全",
+    "id": "card-1783931777649-ih3cvm0",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-13T08:36:17.649Z",
+    "createdAt": "2026-07-13T08:36:17.649Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "親",
+    "back": "双亲；父母，父亲，母亲（子を生んだ人，または，他人の子を自分の子として養い育てる人",
+    "reading": "オヤ",
+    "partOfSpeech": "名词",
+    "explanation": "双亲；父母，父亲，母亲（子を生んだ人，または，他人の子を自分の子として養い育てる人。実父母・養父母の総称）。\n祖先（もののはじめ。元祖；祖先）。\n母，母体（子をもっている生物）。\n庄家。",
+    "examples": [
+      "いや 親には言えない悩みも\nあるでしょ / いや 親には言えない悩みも\nあるでしょ"
+    ],
+    "language": "ja",
+    "materialId": "ja-俺-話-長-01-mrehoi9z",
+    "tags": [
+      "general",
+      "level:N3",
+      "N3",
+      "N4"
+    ],
+    "dictSource": "日语0-N1级别词汇大全",
+    "id": "card-1783931777682-w6ca4xs",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-13T08:36:17.682Z",
+    "createdAt": "2026-07-13T08:36:17.682Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "悩み",
+    "back": "烦恼；苦恼；痛苦",
+    "reading": "ナヤミ",
+    "partOfSpeech": "名词",
+    "explanation": "烦恼；苦恼；痛苦。（悩むこと。思い苦しむこと）",
+    "examples": [
+      "いや 親には言えない悩みも\nあるでしょ / いや 親には言えない悩みも\nあるでしょ"
+    ],
+    "language": "ja",
+    "materialId": "ja-俺-話-長-01-mrehoi9z",
+    "tags": [
+      "general",
+      "level:N3",
+      "N3"
+    ],
+    "dictSource": "日语0-N1级别词汇大全",
+    "id": "card-1783931777715-ltrrkxo",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-13T08:36:17.715Z",
+    "createdAt": "2026-07-13T08:36:17.715Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "生まれる",
+    "back": "生",
+    "reading": "ウマレ",
+    "partOfSpeech": "动词",
+    "explanation": "生。分娩。（子が母体や卵から出る。出生する。誕生する。）\n诞生，产生。（新しくできる。）\n产生某种想法。（ある思いや考えが生じる。）\n\n同：産まれる",
+    "examples": [
+      "生まれぬ先の襁褓（むつき）定め。",
+      "准备工作过分铺张。"
+    ],
+    "language": "ja",
+    "materialId": "ja-俺-話-長-01-mrehoi9z",
+    "tags": [
+      "general",
+      "level:N3",
+      "N3",
+      "N5"
+    ],
+    "dictSource": "日语0-N1级别词汇大全",
+    "id": "card-1783931777748-qn8u3wb",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-13T08:36:17.748Z",
+    "createdAt": "2026-07-13T08:36:17.748Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "離婚",
+    "back": "离婚",
+    "reading": "リコン",
+    "partOfSpeech": "名词",
+    "explanation": "离婚。（夫婦が生存中に婚姻関係を解消すること。）",
+    "examples": [
+      "小学校 入る前に離婚して\n｢岸辺春海｣になってさ / 小学校 入る前に離婚して\n｢岸辺春海｣になってさ"
+    ],
+    "language": "ja",
+    "materialId": "ja-俺-話-長-01-mrehoi9z",
+    "tags": [
+      "general",
+      "level:N3",
+      "N3",
+      "N3"
+    ],
+    "dictSource": "日语0-N1级别词汇大全",
+    "id": "card-1783931777785-z8tyuzw",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-13T08:36:17.785Z",
+    "createdAt": "2026-07-13T08:36:17.785Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "秋",
+    "back": "秋，秋天，秋季",
+    "reading": "アキ",
+    "partOfSpeech": "名词",
+    "explanation": "秋，秋天，秋季。（夏が終わり冬になるまでの間の季節。）",
+    "examples": [
+      "秋の葉っぱに 春の海だよ？ / 秋の葉っぱに 春の海だよ？"
+    ],
+    "language": "ja",
+    "materialId": "ja-俺-話-長-01-mrehoi9z",
+    "tags": [
+      "general",
+      "level:N3",
+      "N3",
+      "N5"
+    ],
+    "dictSource": "日语0-N1级别词汇大全",
+    "id": "card-1783931777818-152iw8u",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-13T08:36:17.818Z",
+    "createdAt": "2026-07-13T08:36:17.818Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "春",
+    "back": "春，春天",
+    "reading": "ハル",
+    "partOfSpeech": "名词",
+    "explanation": "春，春天。（冬と夏の間の、気侯のよい季節。）\n\n青春期（青春期）；极盛时期。（いちばんさかりの時期。）\n\n新的一年，新春。（新しい年。）",
+    "examples": [
+      "秋の葉っぱに 春の海だよ？ / 秋の葉っぱに 春の海だよ？"
+    ],
+    "language": "ja",
+    "materialId": "ja-俺-話-長-01-mrehoi9z",
+    "tags": [
+      "general",
+      "level:N3",
+      "N3",
+      "N5"
+    ],
+    "dictSource": "日语0-N1级别词汇大全",
+    "id": "card-1783931777854-8fk72wz",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-13T08:36:17.854Z",
+    "createdAt": "2026-07-13T08:36:17.854Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "海",
+    "back": "海，海洋",
+    "reading": "ウミ",
+    "partOfSpeech": "名词",
+    "explanation": "海，海洋。（地球の表面のうち、海水をたたえた部分。総面積は約3億6千万平方キロメートルで、地球表面積の約四分の三を占める。最深はマリアナ海溝の約1万1千メートル。平均深度は3千8百メートル。海洋。）\n\n茫茫一片。（比喩的に、あたり一面がその物でおおわれていること。）\n\n砚池。（すずりの水をためておく部分。）",
+    "examples": [
+      "秋の葉っぱに 春の海だよ？ / 秋の葉っぱに 春の海だよ？"
+    ],
+    "language": "ja",
+    "materialId": "ja-俺-話-長-01-mrehoi9z",
+    "tags": [
+      "general",
+      "level:N3",
+      "N3",
+      "N5"
+    ],
+    "dictSource": "日语0-N1级别词汇大全",
+    "id": "card-1783931777892-sivhemo",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-13T08:36:17.892Z",
+    "createdAt": "2026-07-13T08:36:17.892Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "確実",
+    "back": "准；确实；准确",
+    "reading": "カクジツ",
+    "partOfSpeech": "名词",
+    "explanation": "准；确实；准确。（たしかで、間違いのないこと。）\n可靠。（信頼のおける。）",
+    "examples": [
+      "俺だったら 確実にグレてるしね / 俺だったら 確実にグレてるしね"
+    ],
+    "language": "ja",
+    "materialId": "ja-俺-話-長-01-mrehoi9z",
+    "tags": [
+      "general",
+      "level:N3",
+      "N3"
+    ],
+    "dictSource": "日语0-N1级别词汇大全",
+    "id": "card-1783931777926-m0c89rc",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-13T08:36:17.926Z",
+    "createdAt": "2026-07-13T08:36:17.926Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "名前",
+    "back": "名，名字",
+    "reading": "ナマエ",
+    "partOfSpeech": "名词",
+    "explanation": "名，名字。（事物の名称。名。）\n名字；姓名。（氏名。特に苗字に対して、名。）",
+    "examples": [
+      "そんなこと言わないの いい名前よ / そんなこと言わないの いい名前よ"
+    ],
+    "language": "ja",
+    "materialId": "ja-俺-話-長-01-mrehoi9z",
+    "tags": [
+      "general",
+      "level:N3",
+      "N3",
+      "N5"
+    ],
+    "dictSource": "日语0-N1级别词汇大全",
+    "id": "card-1783931777965-11pds09",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-13T08:36:17.965Z",
+    "createdAt": "2026-07-13T08:36:17.965Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "大した",
+    "back": "惊人的；大量的，了不起的",
+    "reading": "タイシタ",
+    "partOfSpeech": "連体詞",
+    "explanation": "惊人的；大量的，了不起的。（非常な。大変な。おどろくべき。すばらしい。）\n\n（后接否定）不值一顾的，没有什么了不起的；不怎样的。（（打消を伴って）とりたてていうほどの。）",
+    "examples": [
+      "いや まぁ むしろ大した問題も起こさず / いや まぁ むしろ大した問題も起こさず"
+    ],
+    "language": "ja",
+    "materialId": "ja-俺-話-長-01-mrehoi9z",
+    "tags": [
+      "general",
+      "level:N3",
+      "N3"
+    ],
+    "dictSource": "日语0-N1级别词汇大全",
+    "id": "card-1783931778004-nako0l2",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-13T08:36:18.004Z",
+    "createdAt": "2026-07-13T08:36:18.004Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "起こす",
+    "back": "唤起，唤醒，叫醒",
+    "reading": "オコサ",
+    "partOfSpeech": "动词",
+    "explanation": "唤起，唤醒，叫醒。（目を覚ます。）\n扶起（ささえて）；立起（物を立たせる。）\n起（感情をもつ）；生起（自然にわき起こる）；引起（ある原因で）；惹起（不愉快なことを）；振起。（精神を。）",
+    "examples": [
+      "いや まぁ むしろ大した問題も起こさず / いや まぁ むしろ大した問題も起こさず"
+    ],
+    "language": "ja",
+    "materialId": "ja-俺-話-長-01-mrehoi9z",
+    "tags": [
+      "general",
+      "level:N3",
+      "N3",
+      "N4"
+    ],
+    "dictSource": "日语0-N1级别词汇大全",
+    "id": "card-1783931778052-nfnosvu",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-13T08:36:18.052Z",
+    "createdAt": "2026-07-13T08:36:18.052Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "育つ",
+    "back": "发育，成长，生长",
+    "reading": "ソダッ",
+    "partOfSpeech": "动词",
+    "explanation": "发育，成长，生长。（しだいに成熟に向かって大きくなる。成長する。）\n长进，成长。（一人前になってゆく。好ましい方向に発展する。）",
+    "examples": [
+      "ここまで真っすぐ\n育って来たほうだと思うよ / ここまで真っすぐ\n育って来たほうだと思うよ"
+    ],
+    "language": "ja",
+    "materialId": "ja-俺-話-長-01-mrehoi9z",
+    "tags": [
+      "general",
+      "level:N3",
+      "N3"
+    ],
+    "dictSource": "日语0-N1级别词汇大全",
+    "id": "card-1783931778096-1m3dq2i",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-13T08:36:18.096Z",
+    "createdAt": "2026-07-13T08:36:18.096Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "責任",
+    "back": "责任；职责；负责（職務上の責任をもつ",
+    "reading": "セキニン",
+    "partOfSpeech": "名词",
+    "explanation": "责任；职责；负责（職務上の責任をもつ。）",
+    "examples": [
+      "いやいや 僕の責任なんです / いやいや 僕の責任なんです"
+    ],
+    "language": "ja",
+    "materialId": "ja-俺-話-長-01-mrehoi9z",
+    "tags": [
+      "general",
+      "level:N3",
+      "N3",
+      "N3"
+    ],
+    "dictSource": "日语0-N1级别词汇大全",
+    "id": "card-1783931778152-d5b1u15",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-13T08:36:18.152Z",
+    "createdAt": "2026-07-13T08:36:18.152Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "彼女",
+    "back": "她",
+    "reading": "カノジョ",
+    "partOfSpeech": "名词",
+    "explanation": "她。（欧語の三人称女性代名詞の訳語「彼女（かのおんな）」から、あの女。その女。この女。）\n\n她，女朋友，对象，情妇。（恋人である女性。ガールフレンド。フィアンセ。転じて、愛人である女性。）",
+    "examples": [
+      "彼女の新しい父親として / 彼女の新しい父親として"
+    ],
+    "language": "ja",
+    "materialId": "ja-俺-話-長-01-mrehoi9z",
+    "tags": [
+      "general",
+      "level:N3",
+      "N3",
+      "N4"
+    ],
+    "dictSource": "日语0-N1级别词汇大全",
+    "id": "card-1783931778190-taunesx",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-13T08:36:18.189Z",
+    "createdAt": "2026-07-13T08:36:18.189Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "新しい",
+    "back": "新的",
+    "reading": "アタラシイ",
+    "partOfSpeech": "形容词",
+    "explanation": "新的。（初めてである。）\n从未有过的。（今までにないものや状態である。）\n新鲜的。（生き生きとしている。）\n时髦的。（新式である。）",
+    "examples": [
+      "彼女の新しい父親として / 彼女の新しい父親として"
+    ],
+    "language": "ja",
+    "materialId": "ja-俺-話-長-01-mrehoi9z",
+    "tags": [
+      "general",
+      "level:N3",
+      "N3",
+      "N5"
+    ],
+    "dictSource": "日语0-N1级别词汇大全",
+    "id": "card-1783931778250-55nfwjl",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-13T08:36:18.250Z",
+    "createdAt": "2026-07-13T08:36:18.250Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "部分",
+    "back": "部分",
+    "reading": "ブブン",
+    "partOfSpeech": "名词",
+    "explanation": "部分。（全体を小分けにした一つ。）",
+    "examples": [
+      "春海も どう接していいのか\n分からない部分が あるみたいだし / 春海も どう接していいのか\n分からない部分が あるみたいだし"
+    ],
+    "language": "ja",
+    "materialId": "ja-俺-話-長-01-mrehoi9z",
+    "tags": [
+      "general",
+      "level:N3",
+      "N3"
+    ],
+    "dictSource": "日语0-N1级别词汇大全",
+    "id": "card-1783931778286-zqab0cj",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-13T08:36:18.286Z",
+    "createdAt": "2026-07-13T08:36:18.286Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "口",
+    "back": "口；嘴",
+    "reading": "クチ",
+    "partOfSpeech": "名词",
+    "explanation": "口；嘴。（動物が飲み食べ物を取り入れ、音声や鳴き声を発する器官。）\n\n说话，言语。（話すこと。口頭。）\n\n传闻，话柄。（うわさ。評判。）\n\n出入口，门。（入り口。通り抜けることができる空間。戸口。）\n\n塞子，盖。（栓・ふた。）\n\n（表示出入、上下的）口儿，地方。（出入りする所。）\n\n股，份，份额，分担量。（寄付、出資などの分担の単位を数える語。）\n\n（量词）口，把。（刀剣などを数える語。）\n\n（量词）口。（口に飲食物を入れる回数を数える語。）",
+    "examples": [
+      "半年以上 口 利いて\nもらえなかったんだから / 半年以上 口 利いて\nもらえなかったんだから"
+    ],
+    "language": "ja",
+    "materialId": "ja-俺-話-長-01-mrehoi9z",
+    "tags": [
+      "general",
+      "level:N3",
+      "N3",
+      "N5"
+    ],
+    "dictSource": "日语0-N1级别词汇大全",
+    "id": "card-1783931778329-9yzzvrp",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-13T08:36:18.329Z",
+    "createdAt": "2026-07-13T08:36:18.329Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "利く",
+    "back": "灵敏，好使",
+    "reading": "キイ",
+    "partOfSpeech": "动词",
+    "explanation": "灵敏，好使。充分或超常发挥其部分的功能。（ある部分の機能が十分に、あるいは普通以上に発揮される。）\n能够，经得住。（…ができる。…に耐えられる。）\n  音楽のうずきって 他に代えが利かないんだよな/音乐的渴望是无法被替代的啊\n\n《相关惯用句》\n　口を利く／说话\n    口利いてもらえないよ/不会跟（帮）我说话了\n　 無駄口を利く／闲聊，聊天儿\n　 間に立って口を利く／居间斡旋",
+    "examples": [
+      "我慢が利かなくなってしまった",
+      "我就要忍耐不住了"
+    ],
+    "language": "ja",
+    "materialId": "ja-俺-話-長-01-mrehoi9z",
+    "tags": [
+      "general",
+      "level:N3",
+      "N3"
+    ],
+    "dictSource": "日语0-N1级别词汇大全",
+    "id": "card-1783931778373-7v18fim",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-13T08:36:18.373Z",
+    "createdAt": "2026-07-13T08:36:18.373Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "押す",
+    "back": "推；挤",
+    "reading": "オシ",
+    "partOfSpeech": "动词",
+    "explanation": "推；挤。（手前から前方へ力を加える。）\n压；按。（上から下へ力を加える。）\n盖章；按印。（印や模様の型をものに写す。）\n不顾。（障害や困難があるのに、強いてする。）\n压倒。（相手を圧倒する。）\n强加于人。（強引に自分の意志を通そうとする。）",
+    "examples": [
+      "押しても引いても\nなかなか うまく行かなくて… / 押しても引いても\nなかなか うまく行かなくて…"
+    ],
+    "language": "ja",
+    "materialId": "ja-俺-話-長-01-mrehoi9z",
+    "tags": [
+      "general",
+      "level:N3",
+      "N3",
+      "N5"
+    ],
+    "dictSource": "日语0-N1级别词汇大全",
+    "id": "card-1783931778411-reebdw9",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-13T08:36:18.411Z",
+    "createdAt": "2026-07-13T08:36:18.411Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "引く",
+    "back": "拉，曳；牵；拖",
+    "reading": "ヒイ",
+    "partOfSpeech": "动词",
+    "explanation": "拉，曳；牵；拖。（自分の方へ近づける。引いて前に進む。引っぱる。引きずる。）\n围上，拉上。（張る。）\n领，带，引导；拉手。（導く。）\n引诱，吸引；（引きつける。）招惹。（誘い入れる。）\n引进（管、线），安装（自来水等）；架设（电线等）。（取りつける。）\n查（字典）。（さがす。）\n拔出；抽（签）。（抜く。）\n引用（词句）；举（例）。（引用する。）\n减去，削减，扣除。（減らす。）\n减价。（値引きする。）\n拉长，拖长；拉（丝）。（長くのばす。）\n涂，敷，涂上一层。（塗りつける。）\n继承（血统），遗传，随。（継ぐ。）\n画（线）；描（眉）；制（图）。（描く。）\n抽",
+    "examples": [
+      "押しても引いても\nなかなか うまく行かなくて… / 押しても引いても\nなかなか うまく行かなくて…"
+    ],
+    "language": "ja",
+    "materialId": "ja-俺-話-長-01-mrehoi9z",
+    "tags": [
+      "general",
+      "level:N3",
+      "N3",
+      "N5"
+    ],
+    "dictSource": "日语0-N1级别词汇大全",
+    "id": "card-1783931778452-iwo51n0",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-13T08:36:18.452Z",
+    "createdAt": "2026-07-13T08:36:18.452Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "ゆっくり",
+    "back": "慢慢，不着急，安安稳稳",
+    "reading": "ユックリ",
+    "partOfSpeech": "副词",
+    "explanation": "慢慢，不着急，安安稳稳。（急がないさま。動作・運動が時間をかけて行われるさま。〕\n舒适，安静，安适。〔時間をかけて（時間にせかされないで）落ち着いて何かをすることを表す。〕\n  たまのお休みぐらい ゆっくりしたいわよ/偶尔的休息日我也想好好放松一下\n充裕，充分，有余地。（時間・空間・気持ちなどに余裕があるさま。〕",
+    "examples": [
+      "ゆっくり根気よく 向き合って\n行くしかないんじゃないかな / ゆっくり根気よく 向き合って\n行くしかないんじゃないかな"
+    ],
+    "language": "ja",
+    "materialId": "ja-俺-話-長-01-mrehoi9z",
+    "tags": [
+      "general",
+      "level:N3",
+      "N3"
+    ],
+    "dictSource": "日语0-N1级别词汇大全",
+    "id": "card-1783931778487-ut37ifd",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-13T08:36:18.487Z",
+    "createdAt": "2026-07-13T08:36:18.487Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "根気",
+    "back": "耐性，耐心；毅力，精力",
+    "reading": "コンキ",
+    "partOfSpeech": "名词",
+    "explanation": "耐性，耐心；毅力，精力。（一つのことを長く続けて行う気力。こん。）\n　ゆっくり根気よく 向き合って 行くしかないんじゃないかな。／只能慢慢地 有耐性地和她磨合了吧",
+    "examples": [
+      "ゆっくり根気よく 向き合って\n行くしかないんじゃないかな / ゆっくり根気よく 向き合って\n行くしかないんじゃないかな"
+    ],
+    "language": "ja",
+    "materialId": "ja-俺-話-長-01-mrehoi9z",
+    "tags": [
+      "general",
+      "level:N3",
+      "N3"
+    ],
+    "dictSource": "日语0-N1级别词汇大全",
+    "id": "card-1783931778525-mbxnvyd",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-13T08:36:18.525Z",
+    "createdAt": "2026-07-13T08:36:18.525Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "向き合う",
+    "back": "相对，相向，面对面",
+    "reading": "ムキアッ",
+    "partOfSpeech": "动词",
+    "explanation": "相对，相向，面对面。（互いに正面をむいて相対する。）",
+    "examples": [
+      "ゆっくり根気よく 向き合って\n行くしかないんじゃないかな / ゆっくり根気よく 向き合って\n行くしかないんじゃないかな"
+    ],
+    "language": "ja",
+    "materialId": "ja-俺-話-長-01-mrehoi9z",
+    "tags": [
+      "general",
+      "level:N3",
+      "N3"
+    ],
+    "dictSource": "日语0-N1级别词汇大全",
+    "id": "card-1783931778557-xgtfuin",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-13T08:36:18.557Z",
+    "createdAt": "2026-07-13T08:36:18.557Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "足りる",
+    "back": "足，足够",
+    "reading": "タリ",
+    "partOfSpeech": "动词",
+    "explanation": "足，足够。（数量などが必要なだけある。）\n可以，将就。（間に合う。）\n值得。（するだけの価値がある。）",
+    "examples": [
+      "ばあちゃんを悲しませるのは\n俺一人で十分 足りてるの / ばあちゃんを悲しませるのは\n俺一人で十分 足りてるの"
+    ],
+    "language": "ja",
+    "materialId": "ja-俺-話-長-02-mrfs6rgb",
+    "tags": [
+      "general",
+      "level:N3",
+      "N3",
+      "N4"
+    ],
+    "dictSource": "日语0-N1级别词汇大全",
+    "id": "card-1783931847550-2ja2hh0",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-13T08:37:27.550Z",
+    "createdAt": "2026-07-13T08:37:27.550Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "良い",
+    "back": "好，良好，优良，优秀，优异；善良；聪明；要好",
+    "reading": "ヨク",
+    "partOfSpeech": "形容词",
+    "explanation": "好，良好，优良，优秀，优异；善良；聪明；要好。（すぐれている。）\n贵重，高贵，珍贵；高尚，高雅。（貴重な。）\n美丽；漂亮。（美しい。）\n晴朗，爽朗；舒适，舒服，舒畅。（快い。）\n好，佳，吉，喜庆。（めでたい）\n合适，正好，好；恰当，适当；恰好，凑巧。（適当だ。妥当だ。折よく。）\n好。（注意を促す。）\n对；行，可以；够了。（かまわない。正しい。大丈夫だ。十分だ。）\n(对……)有效；有好处；适合于……。（効果がある。利点がある。適する。）\n(感情)和睦，亲密。（親しい。）",
+    "examples": [
+      "母さんの言うように 間取りが\n良くなかったのかもしれないし / 母さんの言うように 間取りが\n良くなかったのかもしれないし"
+    ],
+    "language": "ja",
+    "materialId": "ja-俺-話-長-01-mrehoi9z",
+    "tags": [
+      "general",
+      "level:N3",
+      "N3",
+      "N5"
+    ],
+    "dictSource": "日语0-N1级别词汇大全",
+    "id": "card-1783931924561-me0onq5",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-13T08:38:44.561Z",
+    "createdAt": "2026-07-13T08:38:44.561Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "翻弄",
+    "back": "播弄，玩弄，愚弄",
+    "reading": "ホンロウ",
+    "partOfSpeech": "名词",
+    "explanation": "播弄，玩弄，愚弄。摆动，颠簸不停。（思うままにもてあそぶこと。）",
+    "examples": [
+      "姉ちゃんの人生に\n翻弄されたのかもしれないし / 姉ちゃんの人生に\n翻弄されたのかもしれないし"
+    ],
+    "language": "ja",
+    "materialId": "ja-俺-話-長-01-mrehoi9z",
+    "tags": [
+      "general",
+      "level:N3",
+      "N3"
+    ],
+    "dictSource": "日语0-N1级别词汇大全",
+    "id": "card-1783931924608-gr4w7oo",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-13T08:38:44.608Z",
+    "createdAt": "2026-07-13T08:38:44.608Z"
   }
 ]
