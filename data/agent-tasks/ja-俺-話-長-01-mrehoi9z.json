@@ -1,7 +1,7 @@
 {
   "id": "ja-俺-話-長-01-mrehoi9z",
   "type": "parse-listening",
-  "status": "completed",
+  "status": "processing",
   "input": {
     "sourceUrl": "",
     "title": "俺の話は長い 01",
@@ -12,5 +12,5 @@
     "mediaFilename": "01.MOV"
   },
   "createdAt": "2026-07-10T05:22:36.866Z",
-  "updatedAt": "2026-07-11T13:32:36.889Z"
+  "updatedAt": "2026-07-13T08:33:49.887Z"
 }
