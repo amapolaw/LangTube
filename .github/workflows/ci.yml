@@ -3,8 +3,34 @@ name: CI
 on:
   push:
     branches: [main, master]
+    paths:
+      - "apps/**"
+      - "packages/**"
+      - "docker/**"
+      - "scripts/**"
+      - ".github/**"
+      - "package.json"
+      - "pnpm-lock.yaml"
+      - "pnpm-workspace.yaml"
+      - "README.md"
+      - "data/materials/ted-ja-social-engineering-001/**"
   pull_request:
     branches: [main, master]
+    paths:
+      - "apps/**"
+      - "packages/**"
+      - "docker/**"
+      - "scripts/**"
+      - ".github/**"
+      - "package.json"
+      - "pnpm-lock.yaml"
+      - "pnpm-workspace.yaml"
+      - "README.md"
+      - "data/materials/ted-ja-social-engineering-001/**"
+
+concurrency:
+  group: ci-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
   build-web:
