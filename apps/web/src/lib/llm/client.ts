@@ -1,5 +1,6 @@
 import { readSettings } from "@/lib/data";
 import { getRepoRoot } from "@/lib/paths";
+import { ensureCursorSdkStore } from "@/lib/llm/cursor-sdk-store";
 
 type AgentOptions = {
   apiKey?: string;
@@ -130,6 +131,7 @@ async function cursorChatCompletion(
   systemPrompt: string,
   userPrompt: string
 ): Promise<string> {
+  ensureCursorSdkStore();
   const prompt = `${systemPrompt}\n\n---\n\n${userPrompt}`;
   const opts: AgentOptions = {
     model: { id: process.env.CURSOR_MODEL ?? "composer-2.5" },

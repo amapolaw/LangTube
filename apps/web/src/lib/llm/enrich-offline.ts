@@ -4,7 +4,7 @@ import {
   extractPatterns,
   isLikelyWordNotPhrase,
 } from "@/lib/vocab-extract";
-import { enrichFromReference } from "@/lib/llm/enrich-from-reference";
+import { enrichFromReference, type EnrichReferenceOptions } from "@/lib/llm/enrich-from-reference";
 import { ensureFullPatterns } from "@/lib/pack-patterns";
 
 export type EnrichmentMode = "llm" | "rules";
@@ -14,7 +14,8 @@ export type EnrichmentMode = "llm" | "rules";
  * 分词（单词）→ Language 词库释义 → 句型（原句+中文+语法讲解）
  */
 export async function enrichOffline(
-  pack: ContentPack
+  pack: ContentPack,
+  referenceOptions?: EnrichReferenceOptions
 ): Promise<{ enriched: boolean; message: string; mode: EnrichmentMode }> {
   const lines = pack.transcript.lines;
   if (!lines.length) {
@@ -28,7 +29,7 @@ export async function enrichOffline(
   pack.manifest.patterns = extractPatterns(lines);
   ensureFullPatterns(pack);
 
-  const ref = await enrichFromReference(pack);
+  const ref = await enrichFromReference(pack, referenceOptions);
   pack.manifest.enrichmentMode = "rules";
 
   return {

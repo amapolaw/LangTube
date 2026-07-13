@@ -93,14 +93,14 @@ export function buildEnrichSystemPrompt(pack: ContentPack): string {
 
 硬性要求：
 1. lines：字幕跟随仅展示原文，translation 字段可留空或供内部使用，不要依赖双语对照
-2. vocabulary：本批次学习单词（只要单词不要句子）
+2. vocabulary：本批次学习单词（只要单词不要句子，同一单词只出现一次）
    - word、reading（日语假名，其他语种可省略）
-   - zh = ${meaningLang}释义（参考 ${dictRef}）
+   - zh = 全部${meaningLang}释义（多条用「；」分隔，参考 ${dictRef}，须覆盖主要义项）
    - partOfSpeech、level、sentenceIds
-3. patterns：对本批次每一行字幕各生成一条
+3. patterns：对本批次每一行字幕各生成一条（句型 Tab 将按语法讲解去重展示）
    - pattern = 原文整句（${lang}）
    - zh = ${meaningLang}句意（可简短）
-   - grammar = ${rules.patternLabel}（参考 ${patternRef}，具体说明，禁止只写「句型」）
+   - grammar = ${rules.patternLabel}（参考 ${patternRef}，须具体说明语法点/搭配，禁止只写「句型」或重复同一条讲解）
 4. 仅第一批可带 segments
 
 输出 schema：

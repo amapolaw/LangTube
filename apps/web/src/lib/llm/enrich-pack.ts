@@ -195,11 +195,19 @@ function dedupeVocab(items: VocabularyItem[]): VocabularyItem[] {
   }));
 }
 
+export interface EnrichOptions {
+  /** 跳过 LLM，仅用规则 + 词典/参考资料 */
+  offlineOnly?: boolean;
+  /** 离线模式词典查询参数 */
+  referenceOptions?: EnrichReferenceOptions;
+}
+
 /**
  * Cursor SDK 优先全量解析 → 参考词库补洞 → 规则兜底
  */
 export async function enrichContentPack(
-  pack: ContentPack
+  pack: ContentPack,
+  options?: EnrichOptions
 ): Promise<EnrichResult> {
   if (!pack.transcript.lines.length) {
     return { enriched: false, message: "无字幕行可增强" };
@@ -219,30 +227,34 @@ export async function enrichContentPack(
 
   let llmHint = "";
 
-  try {
-    const llmResult = await enrichWithLlm(pack);
-    if (llmResult.enriched) {
-      await enrichFromReference(pack);
-      pack.manifest.enrichmentMode = "llm";
-      // 规则补洞后再保证句型覆盖全字幕
-      ensureFullPatterns(pack);
-      return {
-        ...llmResult,
-        message: `${llmResult.message}；已对照参考资料补全`,
-      };
+  if (!options?.offlineOnly) {
+    try {
+      const llmResult = await enrichWithLlm(pack);
+      if (llmResult.enriched) {
+        await enrichFromReference(pack, options?.referenceOptions);
+        pack.manifest.enrichmentMode = "llm";
+        // 规则补洞后再保证句型覆盖全字幕
+        ensureFullPatterns(pack);
+        return {
+          ...llmResult,
+          message: `${llmResult.message}；已对照参考资料补全`,
+        };
+      }
+    } catch (err) {
+      const reason = err instanceof Error ? err.message : String(err);
+      console.warn(
+        "[enrich-pack] Cursor LLM failed, fallback to rules:",
+        reason
+      );
+      llmHint = reason.includes("API Key")
+        ? `${reason}。请在 Cursor 设置 → Integrations → User API Keys 创建 Key，填入设置页「Cursor API Key」或 .env.local 的 CURSOR_API_KEY`
+        : reason;
     }
-  } catch (err) {
-    const reason = err instanceof Error ? err.message : String(err);
-    console.warn(
-      "[enrich-pack] Cursor LLM failed, fallback to rules:",
-      reason
-    );
-    llmHint = reason.includes("API Key")
-      ? `${reason}。请在 Cursor 设置 → Integrations → User API Keys 创建 Key，填入设置页「Cursor API Key」或 .env.local 的 CURSOR_API_KEY`
-      : reason;
+  } else {
+    llmHint = "离线稳妥模式：跳过 LLM，使用规则 + 词典";
   }
 
-  const offline = await enrichOffline(pack);
+  const offline = await enrichOffline(pack, options?.referenceOptions);
   ensureFullPatterns(pack);
   return {
     ...offline,

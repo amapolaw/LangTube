@@ -8,6 +8,7 @@ import {
   listMaterialIds,
 } from "@/lib/data";
 import { getMaterialDir } from "@/lib/paths";
+import { getDeletedMaterialIds } from "@/lib/deletions-registry";
 
 function isCorruptedMaterialEntry(entry: MaterialIndexEntry): boolean {
   const blob = `${entry.id} ${entry.title}`;
@@ -66,11 +67,13 @@ export async function rebuildMaterialIndex(): Promise<{
   recovered: number;
 }> {
   const index = await readIndex();
+  const deleted = await getDeletedMaterialIds();
   const ids = await listMaterialIds();
   const before = new Set(index.materials.map((m) => m.id));
   let recovered = 0;
 
   for (const id of ids) {
+    if (deleted.has(id)) continue;
     const manifest = await readManifest(id);
     if (!manifest) continue;
 
@@ -92,6 +95,7 @@ export async function rebuildMaterialIndex(): Promise<{
     }
   }
 
+  index.materials = index.materials.filter((m) => !deleted.has(m.id));
   index.materials.sort(
     (a, b) =>
       new Date(b.updatedAt).getTime() - new Date(a.updatedAt).getTime()
@@ -104,11 +108,15 @@ export async function rebuildMaterialIndex(): Promise<{
 
 export function mergeMaterialIndexes(
   local: MaterialIndex,
-  remote: MaterialIndex
+  remote: MaterialIndex,
+  deletedIds: Set<string> = new Set()
 ): MaterialIndex {
-  const byId = new Map(local.materials.map((m) => [m.id, m]));
+  const byId = new Map(
+    local.materials.filter((m) => !deletedIds.has(m.id)).map((m) => [m.id, m])
+  );
 
   for (const m of remote.materials ?? []) {
+    if (deletedIds.has(m.id)) continue;
     const existing = byId.get(m.id);
     if (!existing) {
       byId.set(m.id, m);

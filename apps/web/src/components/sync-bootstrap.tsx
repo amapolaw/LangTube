@@ -20,9 +20,13 @@ export function SyncBootstrap() {
           message?: string;
           pulled?: number;
           error?: string;
+          skipped?: boolean;
         };
         if (!res.ok) {
           setHint(data.error || data.message || "GitHub 拉取失败");
+          return;
+        }
+        if (data.skipped) {
           return;
         }
         if (data.message?.includes("未配置")) {

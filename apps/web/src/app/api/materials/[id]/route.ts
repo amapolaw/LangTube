@@ -1,6 +1,7 @@
 import { NextResponse } from "next/server";
 import { readContentPack, deleteMaterial } from "@/lib/data";
 import { deleteMaterialMarks } from "@/lib/marks-service";
+import { syncMaterialDeletionToGitHub } from "@/lib/github-sync";
 
 export async function GET(
   _req: Request,
@@ -24,5 +25,14 @@ export async function DELETE(
     return NextResponse.json({ error: "Delete failed" }, { status: 500 });
   }
   deleteMaterialMarks(id);
-  return NextResponse.json({ ok: true });
+  let syncMessage: string | undefined;
+  try {
+    const sync = await syncMaterialDeletionToGitHub(id);
+    syncMessage = sync.message;
+  } catch (err) {
+    console.warn("[delete-material] GitHub sync failed:", err);
+    syncMessage =
+      err instanceof Error ? err.message : "GitHub 远端删除未完成";
+  }
+  return NextResponse.json({ ok: true, syncMessage });
 }

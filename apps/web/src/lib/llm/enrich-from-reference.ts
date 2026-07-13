@@ -43,8 +43,16 @@ function mapPos(pos?: string): string | undefined {
  * - 词汇：单词 + 中文释义（过滤句子片段）
  * - 句型：原句 + 中文意思 + 语法解读
  */
+export type EnrichReferenceOptions = {
+  /** 词典查询上限；离线逐条解析时可提高 */
+  dictLimit?: number;
+  /** 每次词典/翻译请求间隔（毫秒） */
+  dictDelayMs?: number;
+};
+
 export async function enrichFromReference(
-  pack: ContentPack
+  pack: ContentPack,
+  options?: EnrichReferenceOptions
 ): Promise<{ enriched: boolean; message: string }> {
   const lang = pack.manifest.sourceLang;
   const level = pack.manifest.level;
@@ -98,18 +106,39 @@ export async function enrichFromReference(
   });
 
   const needDict = vocab.filter((v) => !v.zh || v.zh === v.word);
-  const dictLimit = lang === "ja" || lang === "en" ? 120 : 100;
+  const defaultLimit = lang === "ja" || lang === "en" ? 120 : 100;
+  const dictLimit =
+    options?.dictLimit ?? Math.min(needDict.length, defaultLimit);
+  const dictDelayMs = options?.dictDelayMs ?? 150;
+
   for (const v of needDict.slice(0, dictLimit)) {
     try {
       const hit = await lookupDictionary(v.word, lang);
-      if (!hit?.senses[0]?.glossEn[0]) continue;
-      const gloss = hit.senses[0].glossEn.slice(0, 2).join("；");
+      if (!hit?.senses[0]?.glossEn[0]) {
+        if (nativeZh && lang !== "es" && lang !== "fr") {
+          const direct = await translateToZh(v.word, lang);
+          if (direct && hasChineseText(direct)) {
+            v.zh = direct;
+            vocabFilled += 1;
+          }
+        }
+        await new Promise((r) => setTimeout(r, dictDelayMs));
+        continue;
+      }
+      const gloss = hit.senses
+        .flatMap((s) => s.glossEn)
+        .filter(Boolean)
+        .slice(0, 6)
+        .join("；");
       if (nativeZh) {
         if ((lang === "es" || lang === "fr") && hasChineseText(gloss)) {
           v.zh = gloss;
           vocabFilled += 1;
         } else {
-          const zh = (await translateToZh(gloss, "en")) || "";
+          let zh = (await translateToZh(gloss, "en")) || "";
+          if (!zh || !hasChineseText(zh)) {
+            zh = (await translateToZh(v.word, lang)) || "";
+          }
           if (zh && hasChineseText(zh)) {
             v.zh = zh;
             vocabFilled += 1;
@@ -122,7 +151,7 @@ export async function enrichFromReference(
       v.reading = v.reading || hit.reading;
       v.partOfSpeech =
         v.partOfSpeech || mapPos(hit.senses[0].partOfSpeech[0]);
-      await new Promise((r) => setTimeout(r, 150));
+      await new Promise((r) => setTimeout(r, dictDelayMs));
     } catch {
       /* ignore */
     }
@@ -269,9 +298,8 @@ async function fillMissingLineTranslations(pack: ContentPack): Promise<number> {
 
   if (await isMyMemoryQuotaExhausted(lang)) {
     console.warn(
-      "[enrich] MyMemory 配额用尽，跳过字幕行翻译（规则模式不依赖行级中文）"
+      "[enrich] MyMemory 配额用尽，将尝试 Lingva/gtx 备用翻译源"
     );
-    return 0;
   }
 
   let filled = 0;

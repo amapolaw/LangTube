@@ -31,6 +31,7 @@ import {
   getMediaFilename,
 } from "@/lib/storage-resolver";
 import { applyLevelFilterAndNotebook } from "@/lib/level-reference/sync-notebook";
+import { finalizeManifestForListen } from "@/lib/pack-finalize";
 import {
   checkParseDependencies,
   formatMissingDependencyHints,
@@ -45,6 +46,16 @@ import {
   defaultLevelForLang,
 } from "@/lib/material-form";
 import type { SupportedLanguage } from "@langtube/core";
+import type { EnrichReferenceOptions } from "@/lib/llm/enrich-from-reference";
+
+export type ParseMaterialOptions = {
+  force?: boolean;
+  /** 跳过 LLM，仅用规则 + 词典（更稳妥，适合配额用尽时） */
+  offlineOnly?: boolean;
+  /** 解析期间跳过 GitHub 推送，避免限流与文件竞争 */
+  skipSync?: boolean;
+  referenceOptions?: EnrichReferenceOptions;
+};
 
 export type ParseStage =
   | "acquiring"
@@ -64,6 +75,22 @@ export interface MaterialParseResult {
 
 const STALE_PROCESSING_MS = 5 * 60 * 1000;
 const activeParses = new Set<string>();
+const parseQueue: { id: string; options?: ParseMaterialOptions }[] = [];
+let drainingParseQueue = false;
+
+async function drainParseQueue(): Promise<void> {
+  if (drainingParseQueue) return;
+  drainingParseQueue = true;
+  while (parseQueue.length > 0) {
+    const job = parseQueue.shift()!;
+    try {
+      await parseMaterial(job.id, job.options);
+    } catch (err) {
+      console.error(`Background parse failed for ${job.id}:`, err);
+    }
+  }
+  drainingParseQueue = false;
+}
 
 function isFullyParsed(pack: ContentPack): boolean {
   if (pack.manifest.parseStatus !== "ready" || !isPackContentReady(pack)) {
@@ -88,7 +115,14 @@ function isStaleProcessing(pack: ContentPack): boolean {
   return Date.now() - updated > STALE_PROCESSING_MS;
 }
 
-async function pushSyncSafe(reason: string): Promise<void> {
+async function pushSyncSafe(
+  reason: string,
+  skipSync?: boolean
+): Promise<void> {
+  if (skipSync) {
+    console.info(`[parse] sync skipped (${reason}): offline/stable mode`);
+    return;
+  }
   try {
     const result = await pushLearningData();
     if (result.pushed === 0 && result.message.includes("未配置")) {
@@ -181,7 +215,7 @@ async function acquireSubtitles(
 
 export async function parseMaterial(
   materialId: string,
-  options?: { force?: boolean }
+  options?: ParseMaterialOptions
 ): Promise<MaterialParseResult> {
   const pack = await readContentPack(materialId);
   if (!pack) {
@@ -210,7 +244,7 @@ export async function parseMaterial(
   }
 
   if (!options?.force && isFullyParsed(pack)) {
-    await pushSyncSafe("already-ready");
+    await pushSyncSafe("already-ready", options?.skipSync);
     return {
       parseStatus: "ready",
       lines: pack.transcript.lines.length,
@@ -252,7 +286,7 @@ export async function parseMaterial(
   pack.manifest.updatedAt = new Date().toISOString();
   await saveContentPack(pack);
   // 导入后立刻推送元数据，便于公司机 → GitHub → Mac 可见（即使尚无字幕）
-  await pushSyncSafe("parse-start");
+  await pushSyncSafe("parse-start", options?.skipSync);
 
   const existingTask = await readAgentTask(materialId);
   const mediaFilename = getMediaFilename(pack.storage);
@@ -333,7 +367,7 @@ export async function parseMaterial(
           materialId,
           fullMessage || "无法获取字幕，等待 Cursor Agent 补全"
         );
-        await pushSyncSafe("no-subtitles");
+        await pushSyncSafe("no-subtitles", options?.skipSync);
         return {
           parseStatus: "pending",
           lines: 0,
@@ -346,8 +380,11 @@ export async function parseMaterial(
 
     let llmMessage = "";
     let llmEnriched = false;
-    if (needsLlmEnrichment(pack)) {
-      const enrich = await enrichContentPack(pack);
+    if (needsLlmEnrichment(pack) || options?.offlineOnly) {
+      const enrich = await enrichContentPack(pack, {
+        offlineOnly: options?.offlineOnly,
+        referenceOptions: options?.referenceOptions,
+      });
       llmMessage = enrich.message;
       llmEnriched = enrich.enriched;
       if (enrich.mode) {
@@ -358,7 +395,7 @@ export async function parseMaterial(
         pack.manifest.updatedAt = new Date().toISOString();
         await saveContentPack(pack);
         await failAgentTask(materialId, llmMessage);
-        await pushSyncSafe("enrich-failed");
+        await pushSyncSafe("enrich-failed", options?.skipSync);
         return {
           parseStatus: "pending",
           lines: pack.transcript.lines.length,
@@ -377,7 +414,7 @@ export async function parseMaterial(
       pack.manifest.updatedAt = new Date().toISOString();
       await saveContentPack(pack);
       await failAgentTask(materialId, message);
-      await pushSyncSafe("not-ready");
+      await pushSyncSafe("not-ready", options?.skipSync);
       return {
         parseStatus: "pending",
         lines: pack.transcript.lines.length,
@@ -388,14 +425,15 @@ export async function parseMaterial(
       };
     }
 
-    // 按所选语言水平，对照 Language 参考资料甄别，并写入 Notebook
+    // 按所选语言水平甄别、去重，并写入 Notebook
     let levelMessage = "";
     try {
+      const finalized = finalizeManifestForListen(pack);
       const levelSync = await applyLevelFilterAndNotebook(pack, {
         addToNotebook: true,
         maxNotebookCards: 40,
       });
-      levelMessage = levelSync.message;
+      levelMessage = `${levelSync.message}；听辨页展示 ${finalized.vocabCount} 词 / ${finalized.patternCount} 句型（已去重）`;
     } catch (err) {
       console.warn("[parse] level filter/notebook skipped:", err);
     }
@@ -407,7 +445,7 @@ export async function parseMaterial(
     const syncedPack = await syncMaterialMedia(materialId, pack);
     await saveContentPack(syncedPack);
 
-    await pushSyncSafe("ready");
+    await pushSyncSafe("ready", options?.skipSync);
     await completeAgentTask(materialId);
 
     return {
@@ -428,7 +466,7 @@ export async function parseMaterial(
     pack.manifest.updatedAt = new Date().toISOString();
     await saveContentPack(pack);
     await failAgentTask(materialId, message);
-    await pushSyncSafe("error");
+    await pushSyncSafe("error", options?.skipSync);
     return {
       parseStatus: "pending",
       lines: pack.transcript.lines.length,
@@ -442,9 +480,14 @@ export async function parseMaterial(
 
 export function triggerParseInBackground(
   materialId: string,
-  options?: { force?: boolean }
+  options?: ParseMaterialOptions
 ): void {
-  parseMaterial(materialId, options).catch((err) => {
-    console.error(`Background parse failed for ${materialId}:`, err);
-  });
+  if (
+    activeParses.has(materialId) ||
+    parseQueue.some((j) => j.id === materialId)
+  ) {
+    return;
+  }
+  parseQueue.push({ id: materialId, options });
+  void drainParseQueue();
 }

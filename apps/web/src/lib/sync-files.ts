@@ -1,7 +1,8 @@
 import fs from "fs";
 import path from "path";
-import type { StorageConfig, MaterialManifest } from "@langtube/core";
+import type { StorageConfig, MaterialManifest, MaterialIndex } from "@langtube/core";
 import { getDataDir, getMaterialsDir, getUserDir } from "./paths";
+import { readDeletionsRegistrySync } from "./deletions-registry";
 
 export interface SyncFileEntry {
   repoPath: string;
@@ -100,6 +101,9 @@ function localPathForRepoPath(repoPath: string): string {
   if (repoPath === "data/index.json") {
     return path.join(dataDir, "index.json");
   }
+  if (repoPath === "data/deletions.json") {
+    return path.join(dataDir, "deletions.json");
+  }
   if (repoPath.startsWith("data/materials/")) {
     const relative = repoPath.replace("data/materials/", "");
     return path.join(getMaterialsDir(), relative);
@@ -117,24 +121,52 @@ export function buildSyncEntry(repoPath: string): SyncFileEntry {
   return { repoPath, localPath: localPathForRepoPath(repoPath) };
 }
 
-export function listSyncFiles(): SyncFileEntry[] {
-  const files: SyncFileEntry[] = [];
-
+/** index 中未删除的素材 id（同步范围基准） */
+export function getActiveMaterialIdsFromIndex(): string[] {
   const indexPath = path.join(getDataDir(), "index.json");
-  if (fs.existsSync(indexPath)) {
-    files.push(buildSyncEntry("data/index.json"));
+  if (!fs.existsSync(indexPath)) return [];
+  try {
+    const index = JSON.parse(
+      fs.readFileSync(indexPath, "utf-8")
+    ) as MaterialIndex;
+    const deleted = new Set(
+      Object.keys(readDeletionsRegistrySync().materials)
+    );
+    return (index.materials ?? [])
+      .map((m) => m.id)
+      .filter((id) => !deleted.has(id));
+  } catch {
+    return [];
+  }
+}
+
+export type ListSyncFilesOptions = {
+  /** 仅为这些素材附带 agent-tasks（默认 true） */
+  includeAgentTasks?: boolean;
+};
+
+export function listSyncFilesForMaterialIds(
+  materialIds: string[],
+  options?: ListSyncFilesOptions
+): SyncFileEntry[] {
+  const includeAgentTasks = options?.includeAgentTasks !== false;
+  const files: SyncFileEntry[] = [buildSyncEntry("data/index.json")];
+
+  const deletionsPath = path.join(getDataDir(), "deletions.json");
+  if (fs.existsSync(deletionsPath)) {
+    files.push(buildSyncEntry("data/deletions.json"));
   }
 
   const materialsDir = getMaterialsDir();
-  if (fs.existsSync(materialsDir)) {
-    for (const id of fs.readdirSync(materialsDir)) {
-      const materialDir = path.join(materialsDir, id);
-      if (!fs.statSync(materialDir).isDirectory()) continue;
-      for (const name of MATERIAL_FILES) {
-        const localPath = path.join(materialDir, name);
-        if (fs.existsSync(localPath)) {
-          files.push(buildSyncEntry(`data/materials/${id}/${name}`));
-        }
+  for (const id of materialIds) {
+    const materialDir = path.join(materialsDir, id);
+    if (!fs.existsSync(materialDir) || !fs.statSync(materialDir).isDirectory()) {
+      continue;
+    }
+    for (const name of MATERIAL_FILES) {
+      const localPath = path.join(materialDir, name);
+      if (fs.existsSync(localPath)) {
+        files.push(buildSyncEntry(`data/materials/${id}/${name}`));
       }
     }
   }
@@ -147,32 +179,22 @@ export function listSyncFiles(): SyncFileEntry[] {
     }
   }
 
-  const agentTasksDir = getAgentTasksDir();
-  if (fs.existsSync(agentTasksDir)) {
-    for (const file of fs.readdirSync(agentTasksDir)) {
-      if (!file.endsWith(".json")) continue;
-      files.push(buildSyncEntry(`data/agent-tasks/${file}`));
+  if (includeAgentTasks) {
+    const agentTasksDir = getAgentTasksDir();
+    for (const id of materialIds) {
+      const taskPath = path.join(agentTasksDir, `${id}.json`);
+      if (fs.existsSync(taskPath)) {
+        files.push(buildSyncEntry(`data/agent-tasks/${id}.json`));
+      }
     }
   }
 
   return files;
 }
 
-/** Build full sync file list from index material ids (for pull discovery). */
-export function listSyncFilesForMaterialIds(materialIds: string[]): SyncFileEntry[] {
-  const files: SyncFileEntry[] = [buildSyncEntry("data/index.json")];
-
-  for (const id of materialIds) {
-    for (const name of MATERIAL_FILES) {
-      files.push(buildSyncEntry(`data/materials/${id}/${name}`));
-    }
-  }
-
-  for (const name of USER_FILES) {
-    files.push(buildSyncEntry(`data/user/${name}`));
-  }
-
-  return files;
+/** 仅同步 index 内活跃素材 + 对应 agent-tasks，避免历史任务文件打爆 GitHub API */
+export function listSyncFiles(): SyncFileEntry[] {
+  return listSyncFilesForMaterialIds(getActiveMaterialIdsFromIndex());
 }
 
 export function readFileForSync(entry: SyncFileEntry): string {

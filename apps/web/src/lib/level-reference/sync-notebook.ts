@@ -43,10 +43,7 @@ export async function applyLevelFilterAndNotebook(
     level
   );
 
-  const originalVocab = pack.manifest.vocabulary;
-  const originalPatterns = pack.manifest.patterns;
-
-  // 听辨页 manifest 保留全量词汇/句型；等级甄别仅用于 Notebook
+  // 听辨页 manifest 已在 finalizeManifestForListen 中按等级去重；Notebook 使用甄别结果
   pack.manifest.updatedAt = new Date().toISOString();
 
   const refTag = `level:${filter.targetLevel}`;
@@ -54,13 +51,14 @@ export async function applyLevelFilterAndNotebook(
     pack.manifest.topics = [...pack.manifest.topics, refTag];
   }
 
-  // Notebook 始终使用甄别后的列表（即使 manifest 保留了全量）
   const notebookVocab =
-    filter.keptVocab > 0 ? filter.vocabulary : originalVocab.slice(0, 20);
+    filter.keptVocab > 0
+      ? filter.vocabulary
+      : pack.manifest.vocabulary.slice(0, 20);
   const notebookPatterns =
     filter.patterns.length > 0
       ? filter.patterns
-      : originalPatterns.slice(0, 10);
+      : pack.manifest.patterns.slice(0, 10);
 
   let addedVocab = 0;
   let addedPatterns = 0;
@@ -171,6 +169,6 @@ export async function applyLevelFilterAndNotebook(
     filter,
     addedVocab,
     addedPatterns,
-    message: `按 ${filter.targetLevel} 甄别 Notebook：${filter.keptVocab} 词 / ${filter.patterns.length} 句（manifest 保留全量 ${originalVocab.length} 词 / ${originalPatterns.length} 句）；Notebook +${addedVocab} 词 / +${addedPatterns} 句。${refNote}`,
+    message: `按 ${filter.targetLevel} 甄别 Notebook：${filter.keptVocab} 词 / ${filter.patterns.length} 句；Notebook +${addedVocab} 词 / +${addedPatterns} 句。${refNote}`,
   };
 }

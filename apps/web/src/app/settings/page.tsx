@@ -49,13 +49,31 @@ export default function SettingsPage() {
   const [loginDialogOpen, setLoginDialogOpen] = useState(false);
   const [loginProvider, setLoginProvider] =
     useState<CloudProviderConfig | null>(null);
+  const [parsingActive, setParsingActive] = useState(false);
 
   useEffect(() => {
     fetch("/api/settings")
       .then((r) => r.json())
       .then((d) => d.settings && setSettings(d.settings));
     loadProviders();
+    refreshParseSyncStatus();
+    const timer = setInterval(refreshParseSyncStatus, 15_000);
+    return () => clearInterval(timer);
   }, []);
+
+  async function refreshParseSyncStatus() {
+    try {
+      const res = await fetch("/api/sync", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ action: "status" }),
+      });
+      const data = (await res.json()) as { parsingActive?: boolean };
+      setParsingActive(Boolean(data.parsingActive));
+    } catch {
+      /* ignore */
+    }
+  }
 
   async function loadProviders() {
     const res = await fetch("/api/cloud/providers");
@@ -78,6 +96,14 @@ export default function SettingsPage() {
   }
 
   async function syncGitHub(action: "export-json" | "push" | "pull") {
+    if (parsingActive && (action === "push" || action === "pull")) {
+      alert(
+        action === "push"
+          ? "素材解析进行中，请待全部解析完成后再推送到 GitHub。"
+          : "素材解析进行中，已暂停自动拉取；请解析完成后再同步。"
+      );
+      return;
+    }
     const res = await fetch("/api/sync", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
@@ -87,7 +113,11 @@ export default function SettingsPage() {
         token: settings.githubToken,
       }),
     });
-    setSyncStatus(await res.json());
+    const data = await res.json();
+    setSyncStatus(data);
+    if (action === "push" || action === "pull") {
+      await refreshParseSyncStatus();
+    }
   }
 
   function openDialog(
@@ -247,8 +277,8 @@ export default function SettingsPage() {
         <CardHeader>
           <CardTitle>LLM（自动解析词汇/句型）</CardTitle>
           <CardDescription>
-            在 Cursor IDE 终端运行时可留空 API Key，使用已登录会话；也可配置
-            OpenAI / Anthropic 作为备选
+            默认 Cursor SDK（已配置 JSONL 存储，Node 20 可用）。也可选 OpenAI /
+            Anthropic 走独立 API，不依赖 Cursor 配额。
           </CardDescription>
         </CardHeader>
         <CardContent className="space-y-3">
@@ -265,8 +295,8 @@ export default function SettingsPage() {
               }
             >
               <option value="cursor">Cursor SDK（推荐，Key 可选）</option>
-              <option value="openai">OpenAI</option>
-              <option value="anthropic">Anthropic</option>
+              <option value="openai">OpenAI（gpt-4o 等）</option>
+              <option value="anthropic">Anthropic（Claude）</option>
             </select>
           </div>
           {settings.llmProvider === "cursor" || !settings.llmProvider ? (
@@ -279,10 +309,15 @@ export default function SettingsPage() {
                 onChange={(e) =>
                   setSettings({ ...settings, cursorApiKey: e.target.value })
                 }
-                placeholder="Cursor Dashboard → API Keys（解析词汇/句型必需）"
+                placeholder="Cursor Dashboard → Integrations → User API Keys"
               />
               <p className="mt-1 text-xs text-muted-foreground">
-                Next.js 后台解析需 User API Key；留空则走规则模式 + 机器翻译兜底。
+                后台解析推荐填写 User API Key。留空则尝试 IDE 会话；失败时走「稳妥逐条解析」（规则 +
+                有道词典）。
+              </p>
+              <p className="mt-1 text-xs text-muted-foreground">
+                当前 Node 建议升级到 ≥ 22.13（见项目根目录 .nvmrc）；已启用
+                JsonlLocalAgentStore 作为 SQLite 替代。
               </p>
             </div>
           ) : (
@@ -295,8 +330,15 @@ export default function SettingsPage() {
                 onChange={(e) =>
                   setSettings({ ...settings, llmApiKey: e.target.value })
                 }
-                placeholder="sk-..."
+                placeholder={
+                  settings.llmProvider === "anthropic" ? "sk-ant-..." : "sk-..."
+                }
               />
+              <p className="mt-1 text-xs text-muted-foreground">
+                保存后，全量解析将直接调用{" "}
+                {settings.llmProvider === "anthropic" ? "Anthropic" : "OpenAI"}{" "}
+                API，不再走 Cursor SDK。超大素材（如 Elon 访谈）建议单独进卡片解析。
+              </p>
             </div>
           )}
         </CardContent>
@@ -355,10 +397,16 @@ export default function SettingsPage() {
         <CardHeader>
           <CardTitle>GitHub 同步</CardTitle>
           <CardDescription>
-            JSON 学习数据（字幕/词汇/进度）自动 push；大视频走网盘
+            解析期间请勿推送/拉取（避免文件竞争）。全部卡片解析完成后，再点「推送到
+            GitHub」手动同步。
           </CardDescription>
         </CardHeader>
         <CardContent className="space-y-4">
+          {parsingActive && (
+            <p className="rounded-md border border-amber-500/40 bg-amber-500/10 px-3 py-2 text-xs text-amber-900 dark:text-amber-100">
+              当前有素材正在解析，推送与拉取已暂停。完成后请再点「推送到 GitHub」。
+            </p>
+          )}
           <div>
             <Label>GitHub 仓库（必填，格式 owner/repo）</Label>
             <Input
@@ -381,10 +429,18 @@ export default function SettingsPage() {
             />
           </div>
           <div className="flex flex-wrap gap-2">
-            <Button variant="outline" onClick={() => syncGitHub("push")}>
+            <Button
+              variant="outline"
+              disabled={parsingActive}
+              onClick={() => syncGitHub("push")}
+            >
               推送到 GitHub
             </Button>
-            <Button variant="outline" onClick={() => syncGitHub("pull")}>
+            <Button
+              variant="outline"
+              disabled={parsingActive}
+              onClick={() => syncGitHub("pull")}
+            >
               从 GitHub 拉取
             </Button>
             <Button variant="ghost" onClick={() => syncGitHub("export-json")}>

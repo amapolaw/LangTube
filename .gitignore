@@ -19,6 +19,8 @@ data/user/progress.db-journal
 data/user/cloud-sessions.json
 data/user/.session-key
 data/user/settings.json
+data/user/translate-cache.json
+data/cursor-agent-store/
 *.mp4
 *.mkv
 *.avi

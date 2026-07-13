@@ -20,9 +20,33 @@ import {
   getProfilePath,
 } from "./paths";
 import { hydrateStoragePath } from "./storage-resolver";
+import { getAgentTasksDir } from "./sync-files";
+import { recordMaterialDeletion } from "./deletions-registry";
 
 async function ensureDir(dir: string) {
   await fs.mkdir(dir, { recursive: true });
+}
+
+/** 避免并行解析时 index.json 读改写竞争导致条目丢失 */
+let indexUpdateChain: Promise<void> = Promise.resolve();
+
+function withIndexLock<T>(fn: () => Promise<T>): Promise<T> {
+  const run = indexUpdateChain.then(fn, fn);
+  indexUpdateChain = run.then(
+    () => undefined,
+    () => undefined
+  );
+  return run;
+}
+
+export async function mergeManifestIntoIndex(
+  manifest: MaterialManifest
+): Promise<void> {
+  await withIndexLock(async () => {
+    const index = await readIndex();
+    const { mergeIndexEntry } = await import("@langtube/core");
+    await writeIndex(mergeIndexEntry(index, manifest));
+  });
 }
 
 export async function readIndex(): Promise<MaterialIndex> {
@@ -144,9 +168,7 @@ export async function saveContentPack(pack: ContentPack): Promise<void> {
     );
   }
 
-  const index = await readIndex();
-  const { mergeIndexEntry } = await import("@langtube/core");
-  await writeIndex(mergeIndexEntry(index, pack.manifest));
+  await mergeManifestIntoIndex(pack.manifest);
 }
 
 export async function readSettings(): Promise<UserSettings> {
@@ -229,8 +251,16 @@ export async function deleteMaterial(id: string): Promise<boolean> {
   } catch {
     return false;
   }
-  const index = await readIndex();
-  index.materials = index.materials.filter((m) => m.id !== id);
-  await writeIndex(index);
+  try {
+    await fs.unlink(path.join(getAgentTasksDir(), `${id}.json`));
+  } catch {
+    // agent task may not exist
+  }
+  await withIndexLock(async () => {
+    const latest = await readIndex();
+    latest.materials = latest.materials.filter((m) => m.id !== id);
+    await writeIndex(latest);
+  });
+  await recordMaterialDeletion(id);
   return true;
 }

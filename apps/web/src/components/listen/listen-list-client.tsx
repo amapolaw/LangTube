@@ -56,6 +56,8 @@ function ListenListContent({
 
   const [materials, setMaterials] = useState(initialMaterials);
   const [createOpen, setCreateOpen] = useState(false);
+  const [batchParsing, setBatchParsing] = useState(false);
+  const [batchMessage, setBatchMessage] = useState("");
   const [title, setTitle] = useState("");
   const [sourceLang, setSourceLang] = useState("ja");
   const [level, setLevel] = useState("N3");
@@ -63,6 +65,11 @@ function ListenListContent({
 
   useEffect(() => {
     setMaterials(initialMaterials);
+
+    const hasProcessing = initialMaterials.some(
+      (m) => m.parseStatus === "processing"
+    );
+    if (hasProcessing) return;
 
     const controller = new AbortController();
     const timer = setTimeout(() => controller.abort(), 8_000);
@@ -75,6 +82,7 @@ function ListenListContent({
     })
       .then((r) => r.json())
       .then((d) => {
+        if (d.skipped) return;
         if (d.pulled > 0 || d.message?.includes("恢复")) {
           router.refresh();
         }
@@ -98,6 +106,58 @@ function ListenListContent({
       router.refresh();
     }
   }, [newMaterialId, router]);
+
+  async function handleParseAllOffline() {
+    if (
+      !confirm(
+        "稳妥模式：逐条解析全部卡片，不调用 Cursor LLM，仅用规则+词典。速度较慢但更稳定，是否继续？"
+      )
+    ) {
+      return;
+    }
+    setBatchParsing(true);
+    setBatchMessage("正在排队稳妥离线解析（逐条串行）…");
+    try {
+      const res = await fetch("/api/materials/parse-all", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ force: true, mode: "offline", sequential: true }),
+      });
+      const data = await res.json();
+      setBatchMessage(data.message || "已触发稳妥离线解析");
+      router.refresh();
+    } catch {
+      setBatchMessage("稳妥离线解析请求失败");
+    } finally {
+      setBatchParsing(false);
+    }
+  }
+
+  async function handleParseAll() {
+    if (
+      !confirm(
+        "将对全部学习卡片执行全量解析（字幕→词汇→句型），已解析的也会按新规则重新生成。耗时可能较长，是否继续？"
+      )
+    ) {
+      return;
+    }
+    setBatchParsing(true);
+    setBatchMessage("正在排队全量解析…");
+    try {
+      const res = await fetch("/api/materials/parse-all", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ force: true }),
+      });
+      const data = await res.json();
+      setBatchMessage(data.message || "已触发全量解析");
+      router.refresh();
+    } catch {
+      setBatchMessage("全量解析请求失败");
+    } finally {
+      setBatchParsing(false);
+    }
+  }
 
   async function handleDelete(e: React.MouseEvent, id: string) {
     e.preventDefault();
@@ -183,13 +243,32 @@ function ListenListContent({
 
   return (
     <div className="space-y-6">
-      <div className="flex items-center justify-between">
+      <div className="flex flex-wrap items-center justify-between gap-3">
         <h1 className="text-2xl font-bold">听 — 选择学习资料</h1>
-        <Button onClick={() => setCreateOpen(true)}>
-          <Plus className="mr-1 h-4 w-4" />
-          新建学习卡片
-        </Button>
+        <div className="flex flex-wrap gap-2">
+          <Button
+            variant="outline"
+            disabled={batchParsing || materials.length === 0}
+            onClick={handleParseAllOffline}
+          >
+            {batchParsing ? "解析中…" : "稳妥逐条解析"}
+          </Button>
+          <Button
+            variant="secondary"
+            disabled={batchParsing || materials.length === 0}
+            onClick={handleParseAll}
+          >
+            {batchParsing ? "全量解析中…" : "全量解析全部"}
+          </Button>
+          <Button onClick={() => setCreateOpen(true)}>
+            <Plus className="mr-1 h-4 w-4" />
+            新建学习卡片
+          </Button>
+        </div>
       </div>
+      {batchMessage && (
+        <p className="text-sm text-muted-foreground">{batchMessage}</p>
+      )}
 
       {materials.length === 0 ? (
         <Card>

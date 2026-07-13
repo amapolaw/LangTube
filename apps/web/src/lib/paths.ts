@@ -27,6 +27,15 @@ export function getIndexPath(): string {
   return path.join(getDataDir(), "index.json");
 }
 
+export function getDeletionsPath(): string {
+  return path.join(getDataDir(), "deletions.json");
+}
+
+/** Cursor SDK JsonlLocalAgentStore 目录（Node < 22.13 时替代 node:sqlite） */
+export function getCursorAgentStoreDir(): string {
+  return path.join(getDataDir(), "cursor-agent-store");
+}
+
 export function getDbPath(): string {
   return path.join(getUserDir(), "progress.db");
 }

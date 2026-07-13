@@ -1,7 +1,8 @@
 import { NextResponse } from "next/server";
 import { pushLearningData, pullLearningData } from "@/lib/github-sync";
 import { rebuildMaterialIndex } from "@/lib/material-index-rebuild";
-import { listSyncFiles } from "@/lib/sync-files";
+import { listSyncFiles, getActiveMaterialIdsFromIndex } from "@/lib/sync-files";
+import { describeParseSyncSkip, describeParseSyncPushBlock, hasActiveMaterialParsing } from "@/lib/parse-sync-guard";
 import { getDataDir } from "@/lib/paths";
 import fs from "fs";
 import path from "path";
@@ -23,6 +24,8 @@ export async function POST(req: Request) {
     return NextResponse.json({
       status,
       fileCount: syncFiles.length,
+      activeMaterials: getActiveMaterialIdsFromIndex().length,
+      parsingActive: await hasActiveMaterialParsing(),
       repo: process.env.GITHUB_REPO ?? null,
     });
   }
@@ -45,6 +48,13 @@ export async function POST(req: Request) {
 
   if (action === "push") {
     try {
+      const blockMsg = await describeParseSyncPushBlock();
+      if (blockMsg) {
+        return NextResponse.json(
+          { ok: false, message: blockMsg, skipped: true },
+          { status: 409 }
+        );
+      }
       const result = await pushLearningData({
         repo: body.repo,
         token: body.token,
@@ -72,6 +82,17 @@ export async function POST(req: Request) {
 
   if (action === "pull") {
     try {
+      if (!materialId) {
+        const skipMsg = await describeParseSyncSkip();
+        if (skipMsg) {
+          return NextResponse.json({
+            ok: true,
+            pulled: 0,
+            message: skipMsg,
+            skipped: true,
+          });
+        }
+      }
       const result = materialId
         ? await pullLearningData({
             materialId,
