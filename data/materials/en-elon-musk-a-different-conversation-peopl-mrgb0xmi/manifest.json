@@ -1015,8 +1015,7 @@
       "grammar": "That's + 形容词：对刚说的内容作评价「那真是……」，是英语口语中最常用的回应句型之一。"
     }
   ],
-  "parseStatus": "pending",
+  "parseStatus": "processing",
   "createdAt": "2026-07-11T11:51:51.354Z",
-  "updatedAt": "2026-07-13T04:34:14.092Z",
-  "enrichmentMode": "llm"
+  "updatedAt": "2026-07-13T08:25:51.212Z"
 }
