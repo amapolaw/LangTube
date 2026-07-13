@@ -215,6 +215,20 @@
       "parseStatus": "pending",
       "createdAt": "2026-07-13T04:22:45.094Z",
       "updatedAt": "2026-07-13T04:22:45.094Z"
+    },
+    {
+      "id": "ja---mripxywm",
+      "title": "���԰ٶ���Ƶ",
+      "sourceLang": "ja",
+      "nativeLang": "zh",
+      "level": "N3",
+      "topics": [
+        "general"
+      ],
+      "storageLocation": "baidu",
+      "parseStatus": "pending",
+      "createdAt": "2026-07-13T04:24:59.638Z",
+      "updatedAt": "2026-07-13T04:24:59.638Z"
     }
   ]
 }
