@@ -56,9 +56,9 @@
     "id": "card-1783661824715-2pm63xz",
     "tags": [],
     "easeFactor": 2.5,
-    "interval": 0,
-    "repetitions": 0,
-    "nextReview": "2026-07-10T05:37:04.715Z",
+    "interval": 1,
+    "repetitions": 1,
+    "nextReview": "2026-07-14T09:04:53.177Z",
     "createdAt": "2026-07-10T05:37:04.715Z",
     "reading": "そうだん",
     "partOfSpeech": "Noun · Suru verb · Transitive verb",
@@ -67,7 +67,9 @@
       "相談。",
       "彼は「相談」と言った。"
     ],
-    "dictSource": "Jisho.org / JMDict（英义转中文）"
+    "dictSource": "Jisho.org / JMDict（英义转中文）",
+    "lastReview": "2026-07-13T09:04:53.177Z",
+    "lastRating": "good"
   },
   {
     "type": "vocabulary",
@@ -90,11 +92,13 @@
     ],
     "dictSource": "日语0-N1级别词汇大全",
     "id": "card-1783749876184-mcx22qb",
-    "easeFactor": 2.5,
-    "interval": 0,
-    "repetitions": 0,
-    "nextReview": "2026-07-11T06:04:36.184Z",
-    "createdAt": "2026-07-11T06:04:36.184Z"
+    "easeFactor": 2.6,
+    "interval": 1,
+    "repetitions": 1,
+    "nextReview": "2026-07-14T09:05:01.911Z",
+    "createdAt": "2026-07-11T06:04:36.184Z",
+    "lastReview": "2026-07-13T09:05:01.911Z",
+    "lastRating": "easy"
   },
   {
     "type": "vocabulary",
@@ -117,11 +121,13 @@
     ],
     "dictSource": "日语0-N1级别词汇大全",
     "id": "card-1783749876185-c4i5uhd",
-    "easeFactor": 2.5,
-    "interval": 0,
-    "repetitions": 0,
-    "nextReview": "2026-07-11T06:04:36.185Z",
-    "createdAt": "2026-07-11T06:04:36.185Z"
+    "easeFactor": 2.6,
+    "interval": 1,
+    "repetitions": 1,
+    "nextReview": "2026-07-14T09:05:06.559Z",
+    "createdAt": "2026-07-11T06:04:36.185Z",
+    "lastReview": "2026-07-13T09:05:06.559Z",
+    "lastRating": "easy"
   },
   {
     "type": "vocabulary",
@@ -1168,7 +1174,9 @@
     "interval": 0,
     "repetitions": 0,
     "nextReview": "2026-07-11T06:32:57.191Z",
-    "createdAt": "2026-07-11T06:32:57.191Z"
+    "createdAt": "2026-07-11T06:32:57.191Z",
+    "explanation": "词头：Elles (映画)\n1. 【Wikipedia definition】Elles (film)",
+    "dictSource": "MOJi辞書 / Jisho（英义转中文）"
   },
   {
     "type": "vocabulary",
@@ -1235,7 +1243,9 @@
     "interval": 0,
     "repetitions": 0,
     "nextReview": "2026-07-11T06:33:02.348Z",
-    "createdAt": "2026-07-11T06:33:02.348Z"
+    "createdAt": "2026-07-11T06:33:02.348Z",
+    "explanation": "词头：Portage\n1. 【Wikipedia definition】Portage (software)",
+    "dictSource": "MOJi辞書 / Jisho（英义转中文）"
   },
   {
     "type": "vocabulary",
@@ -1302,7 +1312,9 @@
     "interval": 0,
     "repetitions": 0,
     "nextReview": "2026-07-11T06:33:07.497Z",
-    "createdAt": "2026-07-11T06:33:07.497Z"
+    "createdAt": "2026-07-11T06:33:07.497Z",
+    "explanation": "词头：Verge\n1. 【Wikipedia definition】Verge (album)",
+    "dictSource": "MOJi辞書 / Jisho（英义转中文）"
   },
   {
     "type": "vocabulary",
@@ -22280,5 +22292,837 @@
     "repetitions": 0,
     "nextReview": "2026-07-13T08:38:44.608Z",
     "createdAt": "2026-07-13T08:38:44.608Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "しつこい",
+    "back": "执拗，纠缠不休的",
+    "reading": "シツコク",
+    "partOfSpeech": "形容词",
+    "explanation": "词性：形容词",
+    "examples": [
+      "何度も断る光司さんを\n俺が しつこく誘ったんだよ / 何度も断る光司さんを\n俺が しつこく誘ったんだよ"
+    ],
+    "language": "ja",
+    "materialId": "ja-俺-話-長-01-mrehoi9z",
+    "tags": [
+      "general",
+      "level:N3"
+    ],
+    "id": "card-1783933204106-uknfhd0",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-13T09:00:04.106Z",
+    "createdAt": "2026-07-13T09:00:04.106Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "襲う",
+    "back": "袭击，侵袭；侵扰",
+    "reading": "オソワ",
+    "partOfSpeech": "动词",
+    "explanation": "词性：动词",
+    "examples": [
+      "尋常ならざる 喉の渇きに\n襲われまして… / 尋常ならざる 喉の渇きに\n襲われまして…"
+    ],
+    "language": "ja",
+    "materialId": "ja-俺-話-長-01-mrehoi9z",
+    "tags": [
+      "general",
+      "level:N3"
+    ],
+    "id": "card-1783933205264-7gulza1",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-13T09:00:05.264Z",
+    "createdAt": "2026-07-13T09:00:05.264Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "回す",
+    "back": "转，转动",
+    "reading": "マワシ",
+    "partOfSpeech": "动词",
+    "explanation": "词性：动词",
+    "examples": [
+      "こっちの開業資金に\n回してくれればいいんですよ / こっちの開業資金に\n回してくれればいいんですよ"
+    ],
+    "language": "ja",
+    "materialId": "ja-俺-話-長-01-mrehoi9z",
+    "tags": [
+      "general",
+      "level:N3"
+    ],
+    "id": "card-1783933206561-0zjxth7",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-13T09:00:06.561Z",
+    "createdAt": "2026-07-13T09:00:06.561Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "洗う",
+    "back": "洗，冲洗",
+    "reading": "アラッ",
+    "partOfSpeech": "动词",
+    "explanation": "词性：动词",
+    "examples": [
+      "よかれと思って 食器 洗っても\nスポンジの使い方で 怒られるからね / よかれと思って 食器 洗っても\nスポンジの使い方で 怒られるからね"
+    ],
+    "language": "ja",
+    "materialId": "ja-俺-話-長-01-mrehoi9z",
+    "tags": [
+      "general",
+      "level:N3"
+    ],
+    "id": "card-1783933208283-fpgc8hd",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-13T09:00:08.283Z",
+    "createdAt": "2026-07-13T09:00:08.283Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "メジャーデビュー",
+    "back": "正式出道",
+    "reading": "メジャーデビュー",
+    "partOfSpeech": "名词",
+    "explanation": "词性：名词",
+    "examples": [
+      "光司さんは バンドで\nメジャーデビューしてたんだから / 光司さんは バンドで\nメジャーデビューしてたんだから"
+    ],
+    "language": "ja",
+    "materialId": "ja-俺-話-長-01-mrehoi9z",
+    "tags": [
+      "general",
+      "level:N3"
+    ],
+    "id": "card-1783933210706-wziwe2s",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-13T09:00:10.706Z",
+    "createdAt": "2026-07-13T09:00:10.706Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "歯応え",
+    "back": "1. 咬头，咬劲，嚼头(物をかんだとき歯に返ってくる感じ",
+    "reading": "ハゴタエ",
+    "partOfSpeech": "名词",
+    "explanation": "词性：名词",
+    "examples": [
+      "この歯応えと甘みが\n何とも言えなくて… / この歯応えと甘みが\n何とも言えなくて…"
+    ],
+    "language": "ja",
+    "materialId": "ja-俺-話-長-01-mrehoi9z",
+    "tags": [
+      "general",
+      "level:N3"
+    ],
+    "id": "card-1783933213448-fqhm3sj",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-13T09:00:13.448Z",
+    "createdAt": "2026-07-13T09:00:13.448Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "強引",
+    "back": "强行；强制；硬干，蛮干",
+    "reading": "ゴウイン",
+    "partOfSpeech": "名词",
+    "explanation": "词性：名词",
+    "examples": [
+      "｢何度も断る光司さんを俺が強引に誘った｣\nって言いますから / ｢何度も断る光司さんを俺が強引に誘った｣\nって言いますから"
+    ],
+    "language": "ja",
+    "materialId": "ja-俺-話-長-01-mrehoi9z",
+    "tags": [
+      "general",
+      "level:N3"
+    ],
+    "id": "card-1783933215142-nonj4ml",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-13T09:00:15.142Z",
+    "createdAt": "2026-07-13T09:00:15.142Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "しつこい",
+    "back": "执拗，纠缠不休的",
+    "reading": "シツコク",
+    "partOfSpeech": "形容词",
+    "explanation": "词性：形容词",
+    "examples": [
+      "何度も断る光司さんを\n俺が しつこく誘ったんだよ / 何度も断る光司さんを\n俺が しつこく誘ったんだよ"
+    ],
+    "language": "ja",
+    "materialId": "ja-俺-話-長-01-mrehoi9z",
+    "tags": [
+      "general",
+      "level:N3"
+    ],
+    "id": "card-1783933215396-fh0k15n",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-13T09:00:15.396Z",
+    "createdAt": "2026-07-13T09:00:15.396Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "襲う",
+    "back": "袭击，侵袭；侵扰",
+    "reading": "オソワ",
+    "partOfSpeech": "动词",
+    "explanation": "词性：动词",
+    "examples": [
+      "尋常ならざる 喉の渇きに\n襲われまして… / 尋常ならざる 喉の渇きに\n襲われまして…"
+    ],
+    "language": "ja",
+    "materialId": "ja-俺-話-長-01-mrehoi9z",
+    "tags": [
+      "general",
+      "level:N3"
+    ],
+    "id": "card-1783933217270-e8o7emf",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-13T09:00:17.270Z",
+    "createdAt": "2026-07-13T09:00:17.270Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "回す",
+    "back": "转，转动",
+    "reading": "マワシ",
+    "partOfSpeech": "动词",
+    "explanation": "词性：动词",
+    "examples": [
+      "こっちの開業資金に\n回してくれればいいんですよ / こっちの開業資金に\n回してくれればいいんですよ"
+    ],
+    "language": "ja",
+    "materialId": "ja-俺-話-長-01-mrehoi9z",
+    "tags": [
+      "general",
+      "level:N3"
+    ],
+    "id": "card-1783933218957-3ldz99c",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-13T09:00:18.957Z",
+    "createdAt": "2026-07-13T09:00:18.957Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "洗う",
+    "back": "洗，冲洗",
+    "reading": "アラッ",
+    "partOfSpeech": "动词",
+    "explanation": "词性：动词",
+    "examples": [
+      "よかれと思って 食器 洗っても\nスポンジの使い方で 怒られるからね / よかれと思って 食器 洗っても\nスポンジの使い方で 怒られるからね"
+    ],
+    "language": "ja",
+    "materialId": "ja-俺-話-長-01-mrehoi9z",
+    "tags": [
+      "general",
+      "level:N3"
+    ],
+    "id": "card-1783933220665-2iu736j",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-13T09:00:20.665Z",
+    "createdAt": "2026-07-13T09:00:20.665Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "メジャーデビュー",
+    "back": "正式出道",
+    "reading": "メジャーデビュー",
+    "partOfSpeech": "名词",
+    "explanation": "词性：名词",
+    "examples": [
+      "光司さんは バンドで\nメジャーデビューしてたんだから / 光司さんは バンドで\nメジャーデビューしてたんだから"
+    ],
+    "language": "ja",
+    "materialId": "ja-俺-話-長-01-mrehoi9z",
+    "tags": [
+      "general",
+      "level:N3"
+    ],
+    "id": "card-1783933221952-e4kw8ta",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-13T09:00:21.952Z",
+    "createdAt": "2026-07-13T09:00:21.952Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "強引",
+    "back": "强行；强制；硬干，蛮干",
+    "reading": "ゴウイン",
+    "partOfSpeech": "名词",
+    "explanation": "词性：名词",
+    "examples": [
+      "｢何度も断る光司さんを俺が強引に誘った｣\nって言いますから / ｢何度も断る光司さんを俺が強引に誘った｣\nって言いますから"
+    ],
+    "language": "ja",
+    "materialId": "ja-俺-話-長-01-mrehoi9z",
+    "tags": [
+      "general",
+      "level:N3"
+    ],
+    "id": "card-1783933227958-a4q5xj4",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-13T09:00:27.958Z",
+    "createdAt": "2026-07-13T09:00:27.958Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "立て替える",
+    "back": "垫付；代付(他人に代わって；一時；代金を払っておく",
+    "reading": "タテカエ",
+    "partOfSpeech": "动词",
+    "explanation": "词性：动词",
+    "examples": [
+      "立て替えてもらった分を 支払っただけ / 立て替えてもらった分を 支払っただけ"
+    ],
+    "language": "ja",
+    "materialId": "ja-俺-話-長-01-mrehoi9z",
+    "tags": [
+      "general",
+      "level:N3"
+    ],
+    "id": "card-1783933229525-f7zq8ne",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-13T09:00:29.525Z",
+    "createdAt": "2026-07-13T09:00:29.525Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "断ち切る",
+    "back": "1. 截断，割断，切开，切断(切りはなす",
+    "reading": "タチキル",
+    "partOfSpeech": "动词",
+    "explanation": "词性：动词",
+    "examples": [
+      "前向きな意味での\n未練を断ち切る決意 といいますか / 前向きな意味での\n未練を断ち切る決意 といいますか"
+    ],
+    "language": "ja",
+    "materialId": "ja-俺-話-長-01-mrehoi9z",
+    "tags": [
+      "general",
+      "level:N3"
+    ],
+    "id": "card-1783933370784-k8un2r5",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-13T09:02:50.784Z",
+    "createdAt": "2026-07-13T09:02:50.784Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "心変わり",
+    "back": "变心，改变主意(今までその人に対して向けられていた友情·愛情·忠誠の念などが；ほかの人に移ること",
+    "reading": "ココロガワリ",
+    "partOfSpeech": "名词",
+    "explanation": "词性：名词",
+    "examples": [
+      "房枝さんに何か心変わりでも\nあったんでしょうかね？ / 房枝さんに何か心変わりでも\nあったんでしょうかね？"
+    ],
+    "language": "ja",
+    "materialId": "ja-俺-話-長-01-mrehoi9z",
+    "tags": [
+      "general",
+      "level:N3"
+    ],
+    "id": "card-1783933372577-3zua2us",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-13T09:02:52.576Z",
+    "createdAt": "2026-07-13T09:02:52.576Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "手放す",
+    "back": "卖掉,出售转让,赠送",
+    "reading": "テバナス",
+    "partOfSpeech": "动词",
+    "explanation": "词性：动词",
+    "examples": [
+      "まぁしかし このタイミングで亡くなった\nご主人の本を 手放すというのは / まぁしかし このタイミングで亡くなった\nご主人の本を 手放すというのは"
+    ],
+    "language": "ja",
+    "materialId": "ja-俺-話-長-01-mrehoi9z",
+    "tags": [
+      "general",
+      "level:N3"
+    ],
+    "id": "card-1783933374195-b1k23y9",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-13T09:02:54.195Z",
+    "createdAt": "2026-07-13T09:02:54.195Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "心残り",
+    "back": "牵挂；挂念；留恋心中留有惦念之情(気がかりな気持ちがあとまで残ること",
+    "reading": "ココロノコリ",
+    "partOfSpeech": "名词",
+    "explanation": "词性：名词",
+    "examples": [
+      "生前 あまり お話しできなかったのが\nホントに心残りです / 生前 あまり お話しできなかったのが\nホントに心残りです"
+    ],
+    "language": "ja",
+    "materialId": "ja-俺-話-長-01-mrehoi9z",
+    "tags": [
+      "general",
+      "level:N3"
+    ],
+    "id": "card-1783933375395-0ywe1zm",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-13T09:02:55.395Z",
+    "createdAt": "2026-07-13T09:02:55.395Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "持ち歩く",
+    "back": "随身携带(手に持ったり身に付けたりして歩く",
+    "reading": "モチアルカ",
+    "partOfSpeech": "动词",
+    "explanation": "词性：动词",
+    "examples": [
+      "どうせ鳴らないって\n全然 持ち歩かないの / どうせ鳴らないって\n全然 持ち歩かないの"
+    ],
+    "language": "ja",
+    "materialId": "ja-俺-話-長-01-mrehoi9z",
+    "tags": [
+      "general",
+      "level:N3"
+    ],
+    "id": "card-1783933376624-bx7udbz",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-13T09:02:56.624Z",
+    "createdAt": "2026-07-13T09:02:56.624Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "勝ち目",
+    "back": "胜算，似乎占优势",
+    "reading": "カチメ",
+    "partOfSpeech": "名词",
+    "explanation": "词性：名词",
+    "examples": [
+      "まともに やり合っても\n勝ち目ないの分かってるから… / まともに やり合っても\n勝ち目ないの分かってるから…"
+    ],
+    "language": "ja",
+    "materialId": "ja-俺-話-長-01-mrehoi9z",
+    "tags": [
+      "general",
+      "level:N3"
+    ],
+    "id": "card-1783933377842-lis9pey",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-13T09:02:57.842Z",
+    "createdAt": "2026-07-13T09:02:57.842Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "媚びる",
+    "back": "谄媚，巴结",
+    "reading": "コビル",
+    "partOfSpeech": "动词",
+    "explanation": "词性：动词",
+    "examples": [
+      "好かれようとして 媚びるから\n逆に嫌われるっていうか / 好かれようとして 媚びるから\n逆に嫌われるっていうか"
+    ],
+    "language": "ja",
+    "materialId": "ja-俺-話-長-01-mrehoi9z",
+    "tags": [
+      "general",
+      "level:N3"
+    ],
+    "id": "card-1783933379222-azf19v8",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-13T09:02:59.222Z",
+    "createdAt": "2026-07-13T09:02:59.222Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "めっちゃ",
+    "back": "超，非常",
+    "reading": "メッチャ",
+    "partOfSpeech": "副词",
+    "explanation": "词性：副词",
+    "examples": [
+      "あそこに 豆腐と しらたき入れて\n食べたら めっちゃおいしそう / あそこに 豆腐と しらたき入れて\n食べたら めっちゃおいしそう"
+    ],
+    "language": "ja",
+    "materialId": "ja-俺-話-長-01-mrehoi9z",
+    "tags": [
+      "general",
+      "level:N3"
+    ],
+    "id": "card-1783933380435-md6tlok",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-13T09:03:00.435Z",
+    "createdAt": "2026-07-13T09:03:00.435Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "かなり",
+    "back": "【形动】 颇，颇为；相当",
+    "reading": "カナリ",
+    "partOfSpeech": "名词",
+    "explanation": "词性：名词",
+    "examples": [
+      "それも かなりの重症 / それも かなりの重症"
+    ],
+    "language": "ja",
+    "materialId": "ja-俺-話-長-01-mrehoi9z",
+    "tags": [
+      "general",
+      "level:N3"
+    ],
+    "id": "card-1783933381587-60kvjs9",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-13T09:03:01.587Z",
+    "createdAt": "2026-07-13T09:03:01.587Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "慰謝料",
+    "back": "抚恤金，赔偿费(苦痛や悲しみなど精神的損害に対する賠償をいう",
+    "reading": "イシャリョウ",
+    "partOfSpeech": "名词",
+    "explanation": "词性：名词",
+    "examples": [
+      "もうあれだ 送迎代いいから\n慰謝料 払って / もうあれだ 送迎代いいから\n慰謝料 払って"
+    ],
+    "language": "ja",
+    "materialId": "ja-俺-話-長-01-mrehoi9z",
+    "tags": [
+      "general",
+      "level:N3"
+    ],
+    "id": "card-1783933385128-pt5xmvk",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-13T09:03:05.128Z",
+    "createdAt": "2026-07-13T09:03:05.128Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "選択肢",
+    "back": "选项，试题中供选择回答的几个答案",
+    "reading": "センタクシ",
+    "partOfSpeech": "名词",
+    "explanation": "词性：名词",
+    "examples": [
+      "あくまで 選択肢の１つであって / あくまで 選択肢の１つであって"
+    ],
+    "language": "ja",
+    "materialId": "ja-俺-話-長-01-mrehoi9z",
+    "tags": [
+      "general",
+      "level:N3"
+    ],
+    "id": "card-1783933387946-f2cal3t",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-13T09:03:07.946Z",
+    "createdAt": "2026-07-13T09:03:07.946Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "筋合い",
+    "back": "（1）理由，道理",
+    "reading": "スジアイ",
+    "partOfSpeech": "名词",
+    "explanation": "词性：名词",
+    "examples": [
+      "そこまで言われる筋合い\nなくない？ 文句 / そこまで言われる筋合い\nなくない？ 文句"
+    ],
+    "language": "ja",
+    "materialId": "ja-俺-話-長-01-mrehoi9z",
+    "tags": [
+      "general",
+      "level:N3"
+    ],
+    "id": "card-1783933389374-yzf64os",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-13T09:03:09.374Z",
+    "createdAt": "2026-07-13T09:03:09.374Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "数える",
+    "back": "计算，数",
+    "reading": "カゾエ",
+    "partOfSpeech": "动词",
+    "explanation": "词性：动词",
+    "examples": [
+      "数えてたから間違いない / 数えてたから間違いない"
+    ],
+    "language": "ja",
+    "materialId": "ja-俺-話-長-01-mrehoi9z",
+    "tags": [
+      "general",
+      "level:N3"
+    ],
+    "id": "card-1783933390887-n8bjqgl",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-13T09:03:10.887Z",
+    "createdAt": "2026-07-13T09:03:10.887Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "理屈",
+    "back": "理论",
+    "reading": "リクツ",
+    "partOfSpeech": "名词",
+    "explanation": "词性：名词",
+    "examples": [
+      "ただの へ理屈だね / ただの へ理屈だね"
+    ],
+    "language": "ja",
+    "materialId": "ja-俺-話-長-01-mrehoi9z",
+    "tags": [
+      "general",
+      "level:N3"
+    ],
+    "id": "card-1783933392715-90yjht3",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-13T09:03:12.714Z",
+    "createdAt": "2026-07-13T09:03:12.714Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "裏方",
+    "back": "（1）贵妇人",
+    "reading": "ウラカタ",
+    "partOfSpeech": "名词",
+    "explanation": "词性：名词",
+    "examples": [
+      "すき焼きは 肉がメインに見えて\n実は裏方だから / すき焼きは 肉がメインに見えて\n実は裏方だから"
+    ],
+    "language": "ja",
+    "materialId": "ja-俺-話-長-01-mrehoi9z",
+    "tags": [
+      "general",
+      "level:N3"
+    ],
+    "id": "card-1783933397436-h4ubr3k",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-13T09:03:17.436Z",
+    "createdAt": "2026-07-13T09:03:17.436Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "通販",
+    "back": "邮购(広告やダイレクト-メール・インターネットなどによって客から注文をとり；商品を発送する小売販売の方法",
+    "reading": "ツウハン",
+    "partOfSpeech": "名词",
+    "explanation": "词性：名词",
+    "examples": [
+      "通販で 冬物のコート買っちゃったの / 通販で 冬物のコート買っちゃったの"
+    ],
+    "language": "ja",
+    "materialId": "ja-俺-話-長-01-mrehoi9z",
+    "tags": [
+      "general",
+      "level:N3"
+    ],
+    "id": "card-1783933399392-brcx9n8",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-13T09:03:19.392Z",
+    "createdAt": "2026-07-13T09:03:19.392Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "利く",
+    "back": "灵敏，好使",
+    "reading": "キイ",
+    "partOfSpeech": "动词",
+    "explanation": "词性：动词",
+    "examples": [
+      "半年以上 口 利いて\nもらえなかったんだから / 半年以上 口 利いて\nもらえなかったんだから"
+    ],
+    "language": "ja",
+    "materialId": "ja-俺-話-長-01-mrehoi9z",
+    "tags": [
+      "general",
+      "level:N3"
+    ],
+    "id": "card-1783933401512-kmqyrna",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-13T09:03:21.512Z",
+    "createdAt": "2026-07-13T09:03:21.512Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "突く",
+    "back": "连续不断的刺，戳，捅",
+    "reading": "ツカ",
+    "partOfSpeech": "动词",
+    "explanation": "词性：动词",
+    "examples": [
+      "痛いとこ突かれて 気が動転してんだよ / 痛いとこ突かれて 気が動転してんだよ"
+    ],
+    "language": "ja",
+    "materialId": "ja-俺-話-長-01-mrehoi9z",
+    "tags": [
+      "general",
+      "level:N3"
+    ],
+    "id": "card-1783933404234-nh25eyk",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-13T09:03:24.234Z",
+    "createdAt": "2026-07-13T09:03:24.234Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "追い出す",
+    "back": "赶出，逐出，轰出，撵出，驱逐出去",
+    "reading": "オイダシ",
+    "partOfSpeech": "动词",
+    "explanation": "词性：动词",
+    "examples": [
+      "ウチを追い出してでも働かせる｣\nって言ったんだよ？ / ウチを追い出してでも働かせる｣\nって言ったんだよ？",
+      "仮住まいしている間に\n満を追い出して 就職させてみなさいよ / 仮住まいしている間に\n満を追い出して 就職させてみなさいよ"
+    ],
+    "language": "ja",
+    "materialId": "ja-俺-話-長-01-mrehoi9z",
+    "tags": [
+      "general",
+      "level:N3"
+    ],
+    "id": "card-1783933434345-8kz57tg",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-13T09:03:54.345Z",
+    "createdAt": "2026-07-13T09:03:54.345Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "支える",
+    "back": "卡住，堵塞，梗塞，阻塞，阻碍，不顺畅",
+    "reading": "ササエ",
+    "partOfSpeech": "动词",
+    "explanation": "词性：动词",
+    "examples": [
+      "私をそばで支えてくれたのは 満よ / 私をそばで支えてくれたのは 満よ",
+      "支えてくれたって\nあいつが何したのよ？ / 支えてくれたって\nあいつが何したのよ？"
+    ],
+    "language": "ja",
+    "materialId": "ja-俺-話-長-01-mrehoi9z",
+    "tags": [
+      "general",
+      "level:N3"
+    ],
+    "id": "card-1783933437131-43o6gaj",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-13T09:03:57.131Z",
+    "createdAt": "2026-07-13T09:03:57.131Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "渡す",
+    "back": "渡，送过河",
+    "reading": "ワタシ",
+    "partOfSpeech": "动词",
+    "explanation": "词性：动词",
+    "examples": [
+      "お小遣い 渡してるんでしょ？ / お小遣い 渡してるんでしょ？",
+      "渡してないわよ / 渡してないわよ"
+    ],
+    "language": "ja",
+    "materialId": "ja-俺-話-長-01-mrehoi9z",
+    "tags": [
+      "general",
+      "level:N3"
+    ],
+    "id": "card-1783933438412-rdsezqx",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-13T09:03:58.412Z",
+    "createdAt": "2026-07-13T09:03:58.412Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "物置",
+    "back": "库房，杂物间；堆房",
+    "reading": "モノオキ",
+    "partOfSpeech": "名词",
+    "explanation": "词性：名词",
+    "examples": [
+      "物置になってる綾子の部屋と\nお父さんの部屋を片付ければ / 物置になってる綾子の部屋と\nお父さんの部屋を片付ければ",
+      "ゴミで出すから 物置の前に\n置いといてくれればいいから / ゴミで出すから 物置の前に\n置いといてくれればいいから"
+    ],
+    "language": "ja",
+    "materialId": "ja-俺-話-長-01-mrehoi9z",
+    "tags": [
+      "general",
+      "level:N3"
+    ],
+    "id": "card-1783933440034-sju1bal",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-13T09:04:00.034Z",
+    "createdAt": "2026-07-13T09:04:00.034Z"
   }
 ]
