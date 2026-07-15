@@ -47,6 +47,16 @@ import {
 } from "@/lib/material-form";
 import type { SupportedLanguage } from "@langtube/core";
 import type { EnrichReferenceOptions } from "@/lib/llm/enrich-from-reference";
+import {
+  needsSegmentMinutesConfirm,
+  resolveParseWindow,
+  transcriptDurationSec,
+} from "@/lib/parse-token-policy";
+import {
+  filterTranscriptForLearning,
+  sliceTranscriptByRange,
+} from "@/lib/transcript-noise-filter";
+import { isBasicSkipWord } from "@/lib/vocab-extract";
 
 export type ParseMaterialOptions = {
   force?: boolean;
@@ -55,6 +65,13 @@ export type ParseMaterialOptions = {
   /** 解析期间跳过 GitHub 推送，避免限流与文件竞争 */
   skipSync?: boolean;
   referenceOptions?: EnrichReferenceOptions;
+  /** 用户确认：可自动抽取/转写字幕（否则优先等人手传 SRT） */
+  allowAutoSubtitles?: boolean;
+  /** 长素材分段时长（分钟） */
+  segmentMinutes?: number;
+  /** 只解析该时间窗（秒） */
+  rangeStartSec?: number;
+  rangeEndSec?: number;
 };
 
 export type ParseStage =
@@ -96,15 +113,7 @@ function isFullyParsed(pack: ContentPack): boolean {
   if (pack.manifest.parseStatus !== "ready" || !isPackContentReady(pack)) {
     return false;
   }
-  const lines = pack.transcript.lines;
-  if (!lines.length) return true;
-  const translated = lines.filter((l) => l.translation?.trim()).length;
-  if (
-    pack.manifest.enrichmentMode === "rules" &&
-    translated < lines.length * 0.3
-  ) {
-    return false;
-  }
+  // 省 Token：规则模式不要求行级对照译文；字幕跟随只展示原声
   return true;
 }
 
@@ -339,52 +348,148 @@ export async function parseMaterial(
         ));
 
     if (shouldAcquireSubtitles) {
-      const acquired = await acquireSubtitles(pack);
-      source = acquired.source;
-      acquireMessage = acquired.message;
-
-      if (acquired.lines.length) {
-        await applyTranscriptLines(pack, acquired.lines);
-        await saveContentPack(pack);
-      } else if (pack.transcript.lines.length === 0 || options?.force) {
-        const deps = await checkParseDependencies();
-        const llm = await getLlmConfig();
-        const context = pack.storage.path ? "local" : "url";
-        const hints = await formatMissingDependencyHints(
-          { ...deps, llmConfigured: Boolean(llm) },
-          context,
-          pack.manifest.sourceUrl ?? pack.storage.url
-        );
-        const fullMessage = [acquireMessage, hints].filter(Boolean).join("。");
-        if (options?.force) {
-          pack.transcript.lines = [];
-        }
-
+      // 无字幕时默认等人手传；仅用户勾选「允许自动获取」才 Whisper/URL 拉字幕
+      if (pack.transcript.lines.length === 0 && !options?.allowAutoSubtitles) {
+        const msg =
+          "请先手动上传与视频原声语种一致的 SRT/VTT 字幕（推荐）。若确认没有手写字幕、需自动抽取/转写，请在解析对话框勾选「允许自动获取字幕」后再解析。";
         pack.manifest.parseStatus = "pending";
         pack.manifest.updatedAt = new Date().toISOString();
         await saveContentPack(pack);
-        await failAgentTask(
-          materialId,
-          fullMessage || "无法获取字幕，等待 Cursor Agent 补全"
-        );
-        await pushSyncSafe("no-subtitles", options?.skipSync);
+        await failAgentTask(materialId, msg);
+        await pushSyncSafe("await-manual-srt", options?.skipSync);
         return {
           parseStatus: "pending",
           lines: 0,
-          source,
-          message: fullMessage,
+          source: "awaiting-manual-subtitle",
+          message: msg,
           stage: "failed",
         };
       }
+
+      if (
+        pack.transcript.lines.length === 0 ||
+        (options?.force &&
+          options?.allowAutoSubtitles &&
+          !transcriptMatchesSourceLang(
+            pack.transcript.lines,
+            pack.manifest.sourceLang
+          ))
+      ) {
+        const acquired = await acquireSubtitles(pack);
+        source = acquired.source;
+        acquireMessage = acquired.message;
+
+        if (acquired.lines.length) {
+          await applyTranscriptLines(pack, acquired.lines);
+          await saveContentPack(pack);
+        } else if (pack.transcript.lines.length === 0 || options?.force) {
+          const deps = await checkParseDependencies();
+          const llm = await getLlmConfig();
+          const context = pack.storage.path ? "local" : "url";
+          const hints = await formatMissingDependencyHints(
+            { ...deps, llmConfigured: Boolean(llm) },
+            context,
+            pack.manifest.sourceUrl ?? pack.storage.url
+          );
+          const fullMessage = [acquireMessage, hints].filter(Boolean).join("。");
+          if (options?.force) {
+            pack.transcript.lines = [];
+          }
+
+          pack.manifest.parseStatus = "pending";
+          pack.manifest.updatedAt = new Date().toISOString();
+          await saveContentPack(pack);
+          await failAgentTask(
+            materialId,
+            fullMessage || "无法获取字幕，等待 Cursor Agent 补全"
+          );
+          await pushSyncSafe("no-subtitles", options?.skipSync);
+          return {
+            parseStatus: "pending",
+            lines: 0,
+            source,
+            message: fullMessage,
+            stage: "failed",
+          };
+        }
+      }
+    }
+
+    // 清洗 BGM/广告/语气词；字幕跟随只保留可学习原声行
+    if (pack.transcript.lines.length) {
+      const filtered = filterTranscriptForLearning(
+        pack.transcript.lines,
+        pack.manifest.sourceLang
+      );
+      if (filtered.skipped > 0) {
+        pack.transcript.lines = filtered.kept;
+        acquireMessage = [
+          acquireMessage,
+          `已跳过无用字幕 ${filtered.skipped} 行（BGM/广告/语气词等）`,
+        ]
+          .filter(Boolean)
+          .join("；");
+        await saveContentPack(pack);
+      }
+    }
+
+    const durationSec = transcriptDurationSec(pack.transcript.lines);
+    if (
+      needsSegmentMinutesConfirm({
+        lineCount: pack.transcript.lines.length,
+        durationSec,
+        segmentMinutes: options?.segmentMinutes,
+      })
+    ) {
+      const msg = `素材较长（约 ${Math.ceil(durationSec / 60)} 分钟 / ${pack.transcript.lines.length} 行），请指定分段解析时长（分钟）后再开始，以节省 Token。`;
+      pack.manifest.parseStatus = "pending";
+      pack.manifest.updatedAt = new Date().toISOString();
+      await saveContentPack(pack);
+      await failAgentTask(materialId, msg);
+      await pushSyncSafe("await-segment", options?.skipSync);
+      return {
+        parseStatus: "pending",
+        lines: pack.transcript.lines.length,
+        source,
+        message: msg,
+        stage: "failed",
+      };
+    }
+
+    const window = resolveParseWindow({
+      durationSec,
+      segmentMinutes: options?.segmentMinutes,
+      rangeStartSec: options?.rangeStartSec,
+      rangeEndSec: options?.rangeEndSec,
+    });
+
+    // 分段：仅对窗口内字幕做词汇/句型解析；跟随字幕仍用全文（已清洗）
+    const fullLines = pack.transcript.lines;
+    let enrichLines = fullLines;
+    if (window) {
+      enrichLines = sliceTranscriptByRange(fullLines, window.start, window.end);
+      acquireMessage = [
+        acquireMessage,
+        `分段解析 ${Math.round(window.start)}–${Math.round(window.end)} 秒（${enrichLines.length} 行）`,
+      ]
+        .filter(Boolean)
+        .join("；");
     }
 
     let llmMessage = "";
     let llmEnriched = false;
     if (needsLlmEnrichment(pack) || options?.offlineOnly) {
+      // 临时替换字幕行做增强，再写回全文
+      pack.transcript.lines = enrichLines;
       const enrich = await enrichContentPack(pack, {
         offlineOnly: options?.offlineOnly,
         referenceOptions: options?.referenceOptions,
       });
+      pack.transcript.lines = fullLines;
+      // 去掉基础词残留
+      pack.manifest.vocabulary = pack.manifest.vocabulary.filter(
+        (v) => !isBasicSkipWord(v.word, pack.manifest.sourceLang)
+      );
       llmMessage = enrich.message;
       llmEnriched = enrich.enriched;
       if (enrich.mode) {

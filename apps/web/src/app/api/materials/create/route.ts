@@ -7,7 +7,6 @@ import {
 } from "@langtube/core";
 import { readIndex, writeIndex, saveContentPack } from "@/lib/data";
 import { createParseListeningTask } from "@/lib/agent-task-service";
-import { triggerParseInBackground } from "@/lib/material-parser";
 import { pushLearningData } from "@/lib/github-sync";
 import fs from "fs/promises";
 import { getMaterialDir } from "@/lib/paths";
@@ -66,7 +65,12 @@ export async function POST(req: Request) {
     console.error("[create] push failed:", err);
   }
 
-  triggerParseInBackground(id);
-
-  return NextResponse.json({ id, manifest });
+  // 不自动解析：等人手传 SRT 或在 UI 确认后再解析（省 Token）
+  return NextResponse.json({
+    id,
+    manifest,
+    awaitManualSubtitle: true,
+    message:
+      "卡片已创建。请先上传与原声语种一致的 SRT 字幕，或在「准备解析」中确认后再开始。",
+  });
 }

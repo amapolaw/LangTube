@@ -23124,5 +23124,1810 @@
     "repetitions": 0,
     "nextReview": "2026-07-13T09:04:00.034Z",
     "createdAt": "2026-07-13T09:04:00.034Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "know",
+    "back": "知识；知晓的状态。感知真理或事实；确定或确定。要意识到；要认识到。",
+    "reading": "/nəʊ/",
+    "partOfSpeech": "noun",
+    "explanation": "等级：A1",
+    "examples": [
+      "usually in the mornings, you know. / 通常是在早上，你知道的。",
+      "the world, it can get up to I don't know / 世界，它可以达到我不知道"
+    ],
+    "language": "en",
+    "materialId": "en-elon-musk-a-different-conversation-peopl-mrgb0xmi",
+    "tags": [
+      "general",
+      "level:A2",
+      "A2",
+      "A1"
+    ],
+    "id": "card-1784087713458-b2pvv5o",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-15T03:55:13.458Z",
+    "createdAt": "2026-07-15T03:55:13.458Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "like",
+    "back": "（通常为复数）一个人喜欢（更喜欢）的东西。表示支持或批准互联网上发布的内容的个人投票。享受，高兴;青睐;赞成。；请。",
+    "reading": "/laɪk/",
+    "partOfSpeech": "noun",
+    "explanation": "等级：A1",
+    "examples": [
+      "entrepreneurs in India. And I feel like / 印度的企业家。我觉得",
+      ">> Well, so we have like about 600 million / > >所以我们大约有6亿"
+    ],
+    "language": "en",
+    "materialId": "en-elon-musk-a-different-conversation-peopl-mrgb0xmi",
+    "tags": [
+      "general",
+      "level:A2",
+      "A2",
+      "A1"
+    ],
+    "id": "card-1784087713490-gt6p12g",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-15T03:55:13.490Z",
+    "createdAt": "2026-07-15T03:55:13.490Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "what",
+    "back": "（新加坡式英语）用来反驳对话者持有的基本假设。事物；事物；事物；事物的身份，作为什么问题的答案； （通常后跟“与” ，但有时“会”或“可能” ，特别是在金融领域）在某种程度上；部分地；部分地。另请参阅what with ； Such.",
+    "reading": "/wɔt/",
+    "partOfSpeech": "adverb",
+    "examples": [
+      "what percentage of internet / 互联网的比例是多少",
+      "communication with AI, what happens to X / 与人工智能的沟通， X会发生什么"
+    ],
+    "language": "en",
+    "materialId": "en-elon-musk-a-different-conversation-peopl-mrgb0xmi",
+    "tags": [
+      "general",
+      "level:A2",
+      "A2"
+    ],
+    "id": "card-1784087713514-4oml3to",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-15T03:55:13.514Z",
+    "createdAt": "2026-07-15T03:55:13.514Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "think",
+    "back": "思考的行为； （对某事的）考虑。沉思，在脑海中走过。在脑海中与自己沟通，试图找到问题的解决方案。",
+    "reading": "/θɪŋk/",
+    "partOfSpeech": "noun",
+    "explanation": "等级：A1",
+    "examples": [
+      ">> do you think that'll change? Um yeah, I / > >您认为这种情况会改变吗？嗯，是的，我",
+      "think where where uh the X network is / 想想X网络在哪里"
+    ],
+    "language": "en",
+    "materialId": "en-elon-musk-a-different-conversation-peopl-mrgb0xmi",
+    "tags": [
+      "general",
+      "level:A2",
+      "A2",
+      "A1"
+    ],
+    "id": "card-1784087713550-1sk18fs",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-15T03:55:13.550Z",
+    "createdAt": "2026-07-15T03:55:13.550Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "people",
+    "back": "用作复数人；一般或集体考虑的人体；两人或两人以上的群体。构成或属于某一特定群体的人，如民族、阶级、族裔群体、国家、家庭等。与人或居民一起囤积；像人一样填充；填充。成为人口稠密或人口稠密。个体；通常是人。",
+    "reading": "/ˈpiːpəl/",
+    "partOfSpeech": "noun",
+    "explanation": "等级：A1",
+    "examples": [
+      ">> um readers, you know, people that read / > >嗯，读者，你知道，读者",
+      "strongest is among people who who think / 最强的是那些认为"
+    ],
+    "language": "en",
+    "materialId": "en-elon-musk-a-different-conversation-peopl-mrgb0xmi",
+    "tags": [
+      "general",
+      "level:A2",
+      "A2",
+      "A1"
+    ],
+    "id": "card-1784087713571-d0mrauj",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-15T03:55:13.571Z",
+    "createdAt": "2026-07-15T03:55:13.571Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "there",
+    "back": "那个地方；那个状态；那个位置； （位置）在离演讲者一定距离的地方或地点（说明、暗示或以其他方式表示） （在此处比较）。在该事项中，关系等;在该点，阶段等，被视为一个独特的地方。用作“存在”意义上的咒骂主题，语义，通常是不确定的主题被推迟或（偶尔）暗示。",
+    "reading": "/ðeː(ɹ)/",
+    "partOfSpeech": "noun",
+    "examples": [
+      ">> Yeah. is spend on Twitter. Is there a / > >是的。在Twitter上花钱。是否有",
+      "there's if there's some major event in / 如果有一些重大事件"
+    ],
+    "language": "en",
+    "materialId": "en-elon-musk-a-different-conversation-peopl-mrgb0xmi",
+    "tags": [
+      "general",
+      "level:A2",
+      "A2"
+    ],
+    "id": "card-1784087713593-4hxnytu",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-15T03:55:13.593Z",
+    "createdAt": "2026-07-15T03:55:13.593Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "just",
+    "back": "事实正确，正确；事实。理性正确，正确；只有，简单，仅仅； （句副词）用于减少命令的力量；简单。表示沮丧或不满。",
+    "reading": "/d͡ʒʌst/",
+    "partOfSpeech": "adjective",
+    "examples": [
+      "because you're you it's just a political / 因为你是你，这只是一个政治问题，",
+      "they're just as far left as you get in / 他们就在你进去的最左边"
+    ],
+    "language": "en",
+    "materialId": "en-elon-musk-a-different-conversation-peopl-mrgb0xmi",
+    "tags": [
+      "general",
+      "level:A2",
+      "A2"
+    ],
+    "id": "card-1784087713616-j3yvz6v",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-15T03:55:13.616Z",
+    "createdAt": "2026-07-15T03:55:13.616Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "going",
+    "back": "移动： （主要是机器）工作或运行（正确） ；移动或执行（根据需要）。出发；地面是否适合骑行、步行等。；可能继续；可行。",
+    "reading": "/ˈɡəʊɪŋ/",
+    "partOfSpeech": "verb",
+    "examples": [
+      ">> Okay. Are we going to be talking for a / > >好的。我们要谈谈",
+      "know. So it's that's where it's going to / 知道。这就是它要去的地方"
+    ],
+    "language": "en",
+    "materialId": "en-elon-musk-a-different-conversation-peopl-mrgb0xmi",
+    "tags": [
+      "general",
+      "level:A2",
+      "A2"
+    ],
+    "id": "card-1784087713640-b7l7wmy",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-15T03:55:13.640Z",
+    "createdAt": "2026-07-15T03:55:13.640Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "One",
+    "back": "数字或图1。环中关于乘法的中性元素。使成为一个整体；聚集成一个整体；团结起来。一段时间，是特别的。为单一、未指明的事物； a; any.",
+    "reading": "/wan/",
+    "partOfSpeech": "noun",
+    "examples": [
+      ">> One a day kind of thing. / > >一天一件",
+      "one in the world / 一个在世界上"
+    ],
+    "language": "en",
+    "materialId": "en-elon-musk-a-different-conversation-peopl-mrgb0xmi",
+    "tags": [
+      "general",
+      "level:A2",
+      "A2"
+    ],
+    "id": "card-1784087713660-hsutwfg",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-15T03:55:13.660Z",
+    "createdAt": "2026-07-15T03:55:13.660Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "video",
+    "back": "电视、电视节目、电影。有音频或无音频的短片剪辑（如音乐视频，或YouTube等网站上大量用户生成的短片之一）。使用摄像机录制，录像；录制电视节目",
+    "reading": "/ˈvɪ.di.əʊ/",
+    "partOfSpeech": "noun",
+    "examples": [
+      "uh there's certainly a lot of video on / 呃，肯定有很多视频",
+      "point increasing amounts of video, but I / 指向增加的视频量，但是我"
+    ],
+    "language": "en",
+    "materialId": "en-elon-musk-a-different-conversation-peopl-mrgb0xmi",
+    "tags": [
+      "general",
+      "level:A2",
+      "A2"
+    ],
+    "id": "card-1784087713684-lqlxp2l",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-15T03:55:13.684Z",
+    "createdAt": "2026-07-15T03:55:13.684Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "most",
+    "back": "最大量；大部分。形成许多形容词的最高级别。在很大程度上或程度上；高度；非常。一个群体的大部分，特别是一群人。",
+    "reading": "/ˈməʊst/",
+    "partOfSpeech": "noun",
+    "examples": [
+      ">> Yeah. So, I I do think most interaction / > >是的，所以我认为大多数互动",
+      "most interaction is going to be uh / 大多数互动将是呃"
+    ],
+    "language": "en",
+    "materialId": "en-elon-musk-a-different-conversation-peopl-mrgb0xmi",
+    "tags": [
+      "general",
+      "level:A2",
+      "A2"
+    ],
+    "id": "card-1784087713708-s1it9x1",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-15T03:55:13.708Z",
+    "createdAt": "2026-07-15T03:55:13.708Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "mean",
+    "back": "哀叹；故意。传达（一种含义）。",
+    "reading": "/miːn/",
+    "partOfSpeech": "verb",
+    "examples": [
+      ">> yeah. Yeah. I mean, yeah, I copy once / > >是啊，是啊我的意思是，是的，我复制了一次",
+      ">> Yeah. I mean, look on the internet. I'm / > >是的。我的意思是，在互联网上看看。我"
+    ],
+    "language": "en",
+    "materialId": "en-elon-musk-a-different-conversation-peopl-mrgb0xmi",
+    "tags": [
+      "general",
+      "level:A2",
+      "A2"
+    ],
+    "id": "card-1784087713728-vrelp1b",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-15T03:55:13.727Z",
+    "createdAt": "2026-07-15T03:55:13.727Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "say",
+    "back": "发言的机会；影响或做出决定的权利或权力。发音；背诵。；例如；让我们假设。",
+    "reading": "/seɪ/",
+    "partOfSpeech": "noun",
+    "examples": [
+      ">> The first thing I must say is you're a / > >我首先要说的是，你是",
+      "but if you say like what is the most / 但如果你说最喜欢的是什么"
+    ],
+    "language": "en",
+    "materialId": "en-elon-musk-a-different-conversation-peopl-mrgb0xmi",
+    "tags": [
+      "general",
+      "level:A2",
+      "A2"
+    ],
+    "id": "card-1784087713749-g1dtn7m",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-15T03:55:13.749Z",
+    "createdAt": "2026-07-15T03:55:13.749Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "where",
+    "back": "发生事情的地方。疑问副词，用于直接或间接的问题：在哪个地方；在哪个地方；在哪个地方。在什么情况下；在哪个地方。",
+    "reading": "/wɛə(ɹ)/",
+    "partOfSpeech": "noun",
+    "examples": [
+      "think where where uh the X network is / 想想X网络在哪里",
+      "know. So it's that's where it's going to / 知道。这就是它要去的地方"
+    ],
+    "language": "en",
+    "materialId": "en-elon-musk-a-different-conversation-peopl-mrgb0xmi",
+    "tags": [
+      "general",
+      "level:A2",
+      "A2"
+    ],
+    "id": "card-1784087713772-yznyz0z",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-15T03:55:13.772Z",
+    "createdAt": "2026-07-15T03:55:13.772Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "guess",
+    "back": "得出部分（或完全）不合格的结论。用正确的猜想来求解；用正确的猜想来求解。",
+    "reading": "/ɡɛs/",
+    "partOfSpeech": "verb",
+    "examples": [
+      ">> Anything? Uh, cappuccino, I guess. All / > >任何东西？呃，我想是卡布奇诺。所有",
+      "if you had to wager a guess for tomorrow / 如果你不得不猜测明天"
+    ],
+    "language": "en",
+    "materialId": "en-elon-musk-a-different-conversation-peopl-mrgb0xmi",
+    "tags": [
+      "general",
+      "level:A2",
+      "A2"
+    ],
+    "id": "card-1784087713795-9ooemsw",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-15T03:55:13.795Z",
+    "createdAt": "2026-07-15T03:55:13.795Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "re",
+    "back": "关于、关于、关于；特别是在信件、文件和电子邮件中。",
+    "reading": "/ɹeɪ/",
+    "partOfSpeech": "preposition",
+    "examples": [
+      ">> The first thing I must say is you're a / > >我首先要说的是，你是",
+      "far right. If you're if you're far left / 最右边。如果你是，如果你是最左边"
+    ],
+    "language": "en",
+    "materialId": "en-elon-musk-a-different-conversation-peopl-mrgb0xmi",
+    "tags": [
+      "general",
+      "level:A2",
+      "A2"
+    ],
+    "id": "card-1784087713817-3ype4dn",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-15T03:55:13.817Z",
+    "createdAt": "2026-07-15T03:55:13.817Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "don",
+    "back": "大学教授，特别是牛津或剑桥的教授。居住在学生公寓中的大学生公寓的员工。",
+    "reading": "/dɒn/",
+    "partOfSpeech": "noun",
+    "examples": [
+      "the world, it can get up to I don't know / 世界，它可以达到我不知道",
+      "world. So, uh so so that there's I don't / 世界。所以，呃，这样我就不会"
+    ],
+    "language": "en",
+    "materialId": "en-elon-musk-a-different-conversation-peopl-mrgb0xmi",
+    "tags": [
+      "general",
+      "level:A2",
+      "A2"
+    ],
+    "id": "card-1784087713840-8cz987b",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-15T03:55:13.840Z",
+    "createdAt": "2026-07-15T03:55:13.840Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "Why",
+    "back": "原因；是什么原因、原因或目的（疑问副词）。出于何种原因、理由或目的（相对副词）。用于表示愤慨、轻微惊讶或不耐烦的感叹号。",
+    "reading": "/waɪ/",
+    "partOfSpeech": "noun",
+    "examples": [
+      ">> Um, sure. Why not? / > >当然，为什么不呢？",
+      "every language group. And why is that / 每个语言组。为什么"
+    ],
+    "language": "en",
+    "materialId": "en-elon-musk-a-different-conversation-peopl-mrgb0xmi",
+    "tags": [
+      "general",
+      "level:A2",
+      "A2"
+    ],
+    "id": "card-1784087713865-aqq5dew",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-15T03:55:13.865Z",
+    "createdAt": "2026-07-15T03:55:13.865Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "Well",
+    "back": "身体健康；良好，内容丰富； （方式）准确、称职、满意； （方式）完全、充分。用于确认陈述或情况。",
+    "reading": "/wɛl/",
+    "partOfSpeech": "adjective",
+    "examples": [
+      ">> Well, so we have like about 600 million / > >所以我们大约有6亿",
+      ">> Um well, although it it can spike up if / > >嗯，虽然它可能会飙升，如果"
+    ],
+    "language": "en",
+    "materialId": "en-elon-musk-a-different-conversation-peopl-mrgb0xmi",
+    "tags": [
+      "general",
+      "level:A2",
+      "A2"
+    ],
+    "id": "card-1784087713887-qcp2hv0",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-15T03:55:13.887Z",
+    "createdAt": "2026-07-15T03:55:13.887Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "world",
+    "back": "（与“the” ）人类集体存在；一般存在。从全球视角考虑或促使从全球视角考虑；作为一个整体考虑，而不是做出或关注国家或其他方面的区别；比较全球化。使真实；使世俗。",
+    "reading": "/wɝld/",
+    "partOfSpeech": "noun",
+    "examples": [
+      "the world, it can get up to I don't know / 世界，它可以达到我不知道",
+      "world. So, uh so so that there's I don't / 世界。所以，呃，这样我就不会"
+    ],
+    "language": "en",
+    "materialId": "en-elon-musk-a-different-conversation-peopl-mrgb0xmi",
+    "tags": [
+      "general",
+      "level:A2",
+      "A2"
+    ],
+    "id": "card-1784087713911-rybgehz",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-15T03:55:13.911Z",
+    "createdAt": "2026-07-15T03:55:13.911Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "right",
+    "back": "直线，不弯曲；角度，大小为90度，或完整旋转的四分之一；两条垂直线之间的角度。",
+    "partOfSpeech": "adjective",
+    "examples": [
+      "most of the internet right now. It's um / 现在大部分的互联网。这是嗯",
+      "the right. Uh um so / 右边。呃，所以"
+    ],
+    "language": "en",
+    "materialId": "en-elon-musk-a-different-conversation-peopl-mrgb0xmi",
+    "tags": [
+      "general",
+      "level:A2",
+      "A2"
+    ],
+    "id": "card-1784087713932-npxz77p",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-15T03:55:13.932Z",
+    "createdAt": "2026-07-15T03:55:13.932Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "when",
+    "back": "事情发生的时间； （疑问）什么时候？什么时候？什么情况下？用于介绍有关时间的直接或间接问题。在较早的时间和不同的，通常不太有利的情况下； （疑问）什么时候；什么时候。；的时间。",
+    "reading": "/ʍɛn/",
+    "partOfSpeech": "noun",
+    "examples": [
+      ">> and I got paid when you bought it when / > >当您购买时，我收到了付款",
+      "When I think of social media, um, / 当我想到社交媒体，嗯，"
+    ],
+    "language": "en",
+    "materialId": "en-elon-musk-a-different-conversation-peopl-mrgb0xmi",
+    "tags": [
+      "general",
+      "level:A2",
+      "A2"
+    ],
+    "id": "card-1784087713954-ng1sq8c",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-15T03:55:13.954Z",
+    "createdAt": "2026-07-15T03:55:13.954Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "much",
+    "back": "大，非常好；持续时间长。；在很大程度上。经常；经常；数量大或程度大。",
+    "reading": "/mʌt͡ʃ/",
+    "partOfSpeech": "adjective",
+    "examples": [
+      "all of us have so much to learn from you / 我们所有人都可以从你身上学到很多东西，",
+      ">> Yeah, pretty much. / 嗯，差不多吧。好的。"
+    ],
+    "language": "en",
+    "materialId": "en-elon-musk-a-different-conversation-peopl-mrgb0xmi",
+    "tags": [
+      "general",
+      "level:A2",
+      "A2"
+    ],
+    "id": "card-1784087713976-46xifob",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-15T03:55:13.976Z",
+    "createdAt": "2026-07-15T03:55:13.976Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "want",
+    "back": "一种欲望，愿望，渴望； （经常紧随其后的是）缺乏，缺席。希望或渴望（某物） ；感到需要或渴望；渴望或要求； （特别是）希望、渴望或要求看到、出现或与之做生意。",
+    "reading": "/wɔnt/",
+    "partOfSpeech": "noun",
+    "explanation": "等级：A1",
+    "examples": [
+      "You want a coffee? / 你想要一杯免费的咖啡吗？",
+      ">> You want to wait for it? / > >你想等吗？"
+    ],
+    "language": "en",
+    "materialId": "en-elon-musk-a-different-conversation-peopl-mrgb0xmi",
+    "tags": [
+      "general",
+      "level:A2",
+      "A2",
+      "A1"
+    ],
+    "id": "card-1784087713998-2aivrfp",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-15T03:55:13.998Z",
+    "createdAt": "2026-07-15T03:55:13.998Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "thing",
+    "back": "被认为作为一个单独的实体、对象、质量或概念存在的东西。可用于指代任何实体的单词、符号、标志或其他指称。表达为一种事物；具体化。",
+    "reading": "/θɪŋ/",
+    "partOfSpeech": "noun",
+    "examples": [
+      ">> One a day kind of thing. / > >一天一件",
+      ">> The first thing I must say is you're a / > >我首先要说的是，你是"
+    ],
+    "language": "en",
+    "materialId": "en-elon-musk-a-different-conversation-peopl-mrgb0xmi",
+    "tags": [
+      "general",
+      "level:A2",
+      "A2"
+    ],
+    "id": "card-1784087714019-zfucxaz",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-15T03:55:14.019Z",
+    "createdAt": "2026-07-15T03:55:14.019Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "sort",
+    "back": "一般类型；方式；存在或行动的形式。",
+    "partOfSpeech": "noun",
+    "examples": [
+      "direction that had sort of a more of a / 方向，具有更多的",
+      "as close to sort of a collective / 接近某种集体"
+    ],
+    "language": "en",
+    "materialId": "en-elon-musk-a-different-conversation-peopl-mrgb0xmi",
+    "tags": [
+      "general",
+      "level:A2",
+      "A2"
+    ],
+    "id": "card-1784087714044-knuvm7i",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-15T03:55:14.044Z",
+    "createdAt": "2026-07-15T03:55:14.044Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "because",
+    "back": "出于这个原因。；由于（的）缘故，为了（的）缘故。；因为，因为。由于或出于原因；出于这个原因；出于这个原因。已知、推断或确定的事实。",
+    "reading": "/bɪˈkɒz/",
+    "partOfSpeech": "adverb",
+    "explanation": "等级：A2",
+    "examples": [
+      "because you've done it so many times / 因为你已经做过很多次了",
+      "be strongest because we have words / 要最坚强，因为我们有言语"
+    ],
+    "language": "en",
+    "materialId": "en-elon-musk-a-different-conversation-peopl-mrgb0xmi",
+    "tags": [
+      "general",
+      "level:A2",
+      "A2",
+      "A2"
+    ],
+    "id": "card-1784087714065-iyx9tx2",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-15T03:55:14.065Z",
+    "createdAt": "2026-07-15T03:55:14.065Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "ve",
+    "back": "（ epicene ）性别中立的第三人称单数主语代词，相当于单数they。",
+    "reading": "/vi/",
+    "partOfSpeech": "pronoun",
+    "examples": [
+      "because you've done it so many times / 因为你已经做过很多次了",
+      "I've heard you speak about maybe voice / 我听你说过也许是声音"
+    ],
+    "language": "en",
+    "materialId": "en-elon-musk-a-different-conversation-peopl-mrgb0xmi",
+    "tags": [
+      "general",
+      "level:A2",
+      "A2"
+    ],
+    "id": "card-1784087714086-rhwhxqq",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-15T03:55:14.086Z",
+    "createdAt": "2026-07-15T03:55:14.086Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "get",
+    "back": "后代；血统；获得；获得。；收取。",
+    "reading": "/ɡɛt/",
+    "partOfSpeech": "noun",
+    "examples": [
+      ">> Can we get another coffee? / > >我们能再来一杯咖啡吗？",
+      "the world, it can get up to I don't know / 世界，它可以达到我不知道"
+    ],
+    "language": "en",
+    "materialId": "en-elon-musk-a-different-conversation-peopl-mrgb0xmi",
+    "tags": [
+      "general",
+      "level:A2",
+      "A2"
+    ],
+    "id": "card-1784087714106-gq8rygh",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-15T03:55:14.106Z",
+    "createdAt": "2026-07-15T03:55:14.106Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "lot",
+    "back": "数量或数量很大；非常多。一个单独的部分；一些东西合在一起。分配；排序；分配。计数或计算（当天或当天）。",
+    "reading": "/lɒt/",
+    "partOfSpeech": "noun",
+    "examples": [
+      "lot bigger and bulkier, muscular than I / 比我更大更笨重，肌肉发达",
+      "uh there's certainly a lot of video on / 呃，肯定有很多视频"
+    ],
+    "language": "en",
+    "materialId": "en-elon-musk-a-different-conversation-peopl-mrgb0xmi",
+    "tags": [
+      "general",
+      "level:A2",
+      "A2"
+    ],
+    "id": "card-1784087714127-3mirpze",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-15T03:55:14.127Z",
+    "createdAt": "2026-07-15T03:55:14.127Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "some",
+    "back": "测量的：大致、粗略。一定数量，至少两个。数量不定。",
+    "reading": "/sɐm/",
+    "partOfSpeech": "adverb",
+    "examples": [
+      "there's if there's some major event in / 如果有一些重大事件",
+      ">> Um if there's some major event in the / > >嗯，如果有一些重大事件"
+    ],
+    "language": "en",
+    "materialId": "en-elon-musk-a-different-conversation-peopl-mrgb0xmi",
+    "tags": [
+      "general",
+      "level:A2",
+      "A2"
+    ],
+    "id": "card-1784087714151-lmlxb2z",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-15T03:55:14.151Z",
+    "createdAt": "2026-07-15T03:55:14.151Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "far",
+    "back": "遥远；在太空中遥远。在时间上遥远；在空间、时间或其他范围内到达、离开或超过很远的距离。；非常喜欢；非常喜欢。",
+    "reading": "/fɑː/",
+    "partOfSpeech": "adjective",
+    "examples": [
+      ">> as far as social media goes the form / > >就社交媒体而言，",
+      "I would say a fairly pretty far left by / 我会说一个相当远的左边"
+    ],
+    "language": "en",
+    "materialId": "en-elon-musk-a-different-conversation-peopl-mrgb0xmi",
+    "tags": [
+      "general",
+      "level:A2",
+      "A2"
+    ],
+    "id": "card-1784087714171-lw4q97a",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-15T03:55:14.171Z",
+    "createdAt": "2026-07-15T03:55:14.171Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "social",
+    "back": "举办节日聚会，促进自我介绍。举行舞会，为新婚夫妇筹集资金。外向或外向。社会的或与社会有关的。允许用户相互交互和发布的交互式媒体形式，通常通过互联网进行。",
+    "reading": "/ˈsəʊʃəl/",
+    "partOfSpeech": "noun",
+    "examples": [
+      ">> as far as social media goes the form / > >就社交媒体而言，",
+      "When I think of social media, um, / 当我想到社交媒体，嗯，"
+    ],
+    "language": "en",
+    "materialId": "en-elon-musk-a-different-conversation-peopl-mrgb0xmi",
+    "tags": [
+      "general",
+      "level:A2",
+      "A2"
+    ],
+    "id": "card-1784087714192-biwly0m",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-15T03:55:14.192Z",
+    "createdAt": "2026-07-15T03:55:14.192Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "media",
+    "back": "血管或淋巴管壁的中间层，由结缔组织和肌肉组织组成。带浊音的停止辅音。",
+    "reading": "/ˈmiːdɪə/",
+    "partOfSpeech": "noun",
+    "examples": [
+      ">> as far as social media goes the form / > >就社交媒体而言，",
+      "When I think of social media, um, / 当我想到社交媒体，嗯，"
+    ],
+    "language": "en",
+    "materialId": "en-elon-musk-a-different-conversation-peopl-mrgb0xmi",
+    "tags": [
+      "general",
+      "level:A2",
+      "A2"
+    ],
+    "id": "card-1784087714212-yxh0x8d",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-15T03:55:14.212Z",
+    "createdAt": "2026-07-15T03:55:14.212Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "important",
+    "back": "具有相关和关键的价值。浮夸；自以为是。",
+    "reading": "/ɪmˈpɔːtənt/",
+    "partOfSpeech": "adjective",
+    "explanation": "等级：A2",
+    "examples": [
+      ">> Yeah. Yeah. I think it was important. Um / > >是啊，是啊我觉得这很重要，嗯",
+      "important collective consciousness to / 重要的集体意识"
+    ],
+    "language": "en",
+    "materialId": "en-elon-musk-a-different-conversation-peopl-mrgb0xmi",
+    "tags": [
+      "general",
+      "level:A2",
+      "A2",
+      "A2"
+    ],
+    "id": "card-1784087714234-yxbgbkq",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-15T03:55:14.234Z",
+    "createdAt": "2026-07-15T03:55:14.234Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "even",
+    "back": "（小）一个偶数。；使平坦和水平。；等于。；平坦和水平。；无较大差异。",
+    "reading": "/ˈiːvən/",
+    "partOfSpeech": "noun",
+    "examples": [
+      "uh so from their perspective even / 呃，所以从他们的角度来看，甚至",
+      "I feel like even data suggests that the / 我觉得即使是数据也表明"
+    ],
+    "language": "en",
+    "materialId": "en-elon-musk-a-different-conversation-peopl-mrgb0xmi",
+    "tags": [
+      "general",
+      "level:A2",
+      "A2"
+    ],
+    "id": "card-1784087714254-enniytq",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-15T03:55:14.254Z",
+    "createdAt": "2026-07-15T03:55:14.254Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "out",
+    "back": "一种出入境、逃生、缓刑等手段。击球队成员由于各种比赛规则的应用而被除名的状态，例如击球、击中被外场球队在弹跳前抓住的飞球等。；弹出；排出。揭示（一个人）为LGBT + （同性恋、跨性别者等）。不在家；不在办公室或工作地点。",
+    "reading": "/æɔt/",
+    "partOfSpeech": "noun",
+    "examples": [
+      "kick out of it, / 踢出它，",
+      "out to be this computer to understand to / 成为这台电脑去理解"
+    ],
+    "language": "en",
+    "materialId": "en-elon-musk-a-different-conversation-peopl-mrgb0xmi",
+    "tags": [
+      "general",
+      "level:A2",
+      "A2"
+    ],
+    "id": "card-1784087714278-jv1gm91",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-15T03:55:14.278Z",
+    "createdAt": "2026-07-15T03:55:14.278Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "feel",
+    "back": "通过触摸体验的对象的质量。模糊的心理印象； （标题）使用或体验触觉； （标题）感知或思考情感或判断。",
+    "reading": "/fiːl/",
+    "partOfSpeech": "noun",
+    "examples": [
+      "entrepreneurs in India. And I feel like / 印度的企业家。我觉得",
+      "I feel like even data suggests that the / 我觉得即使是数据也表明"
+    ],
+    "language": "en",
+    "materialId": "en-elon-musk-a-different-conversation-peopl-mrgb0xmi",
+    "tags": [
+      "general",
+      "level:A2",
+      "A2"
+    ],
+    "id": "card-1784087714299-7gsbnlx",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-15T03:55:14.299Z",
+    "createdAt": "2026-07-15T03:55:14.299Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "all",
+    "back": "（用占有代词）一个人所能做到的一切。一个人所有的全部。全部消失；死亡； （度）强化剂。完全地；完全地；完全地。",
+    "reading": "/ɔːl/",
+    "partOfSpeech": "noun",
+    "examples": [
+      "all of us have so much to learn from you / 我们所有人都可以从你身上学到很多东西，",
+      "will try and center all my questions in / 将尝试将我的所有问题集中在"
+    ],
+    "language": "en",
+    "materialId": "en-elon-musk-a-different-conversation-peopl-mrgb0xmi",
+    "tags": [
+      "general",
+      "level:A2",
+      "A2"
+    ],
+    "id": "card-1784087714322-xni5sf1",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-15T03:55:14.322Z",
+    "createdAt": "2026-07-15T03:55:14.322Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "different",
+    "back": "不同的理想；不一样；表现出不同。种类繁多，种类繁多；",
+    "reading": "/ˈdɪf.(ə)ɹ.ənt/",
+    "partOfSpeech": "noun",
+    "explanation": "等级：A2",
+    "examples": [
+      "over in so many different domains. / 在这么多不同的领域。",
+      "that that's I guess different from just / 我想这不同于"
+    ],
+    "language": "en",
+    "materialId": "en-elon-musk-a-different-conversation-peopl-mrgb0xmi",
+    "tags": [
+      "general",
+      "level:A2",
+      "A2",
+      "A2"
+    ],
+    "id": "card-1784087714342-9tld1lh",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-15T03:55:14.342Z",
+    "createdAt": "2026-07-15T03:55:14.342Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "AI",
+    "back": "三趾树懒Bradypus tridactylus ，是委内瑞拉南部、圭亚那和巴西北部森林的特有种。",
+    "examples": [
+      "I learned the word \"ai\"."
+    ],
+    "language": "en",
+    "materialId": "en-ai-has-hacked-the-code-of-human-civiliza-mrlks8tp",
+    "tags": [
+      "general",
+      "level:A2",
+      "A2"
+    ],
+    "id": "card-1784098872874-9xpzreb",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-15T07:01:12.874Z",
+    "createdAt": "2026-07-15T07:01:12.874Z",
+    "reading": "/ˈɑ.i/",
+    "partOfSpeech": "noun",
+    "explanation": "词头：ai（/ˈɑ.i/）\n1. 【noun】三趾树懒Bradypus tridactylus ，是委内瑞拉南部、圭亚那和巴西北部森林的特有种。\n   （英：A type of three-toed sloth, Bradypus tridactylus, endemic to forests of southern Venezuela, the Guianas, and northern Brazil.）",
+    "dictSource": "Cambridge 风格 / Free Dictionary（英义转中文）"
+  },
+  {
+    "type": "vocabulary",
+    "front": "human",
+    "back": "一个人，无论是男人、女人还是孩子。",
+    "examples": [
+      "Humans share common ancestors with other apes.",
+      "To err is human; to forgive, divine."
+    ],
+    "language": "en",
+    "materialId": "en-ai-has-hacked-the-code-of-human-civiliza-mrlks8tp",
+    "tags": [
+      "general",
+      "level:A2",
+      "A2"
+    ],
+    "id": "card-1784098899076-ru2705k",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-15T07:01:39.076Z",
+    "createdAt": "2026-07-15T07:01:39.076Z",
+    "reading": "/ˈhjuː.mən/",
+    "partOfSpeech": "noun · verb · adjective",
+    "explanation": "词头：human（/ˈhjuː.mən/）\n1. 【noun】一个人，无论是男人、女人还是孩子。\n   （英：A human being, whether man, woman or child.）\n2. 【verb】作为或成为人类的行为，或导致作为或成为人类的行为。\n   （英：To behave as or become, or to cause to behave as or become, a human.）\n3. 【adjective】属于或不属于智人或其近亲物种。\n   （英：(notcomp) Of or belonging to the species Homo sapiens or its closest relatives.）",
+    "dictSource": "Cambridge 风格 / Free Dictionary（英义转中文）"
+  },
+  {
+    "type": "vocabulary",
+    "front": "What",
+    "back": "（新加坡式英语）用来反驳对话者持有的基本假设。",
+    "examples": [
+      "The market will calculate these higher risks in their funding costs what might result in higher lending rates.",
+      "What a beautiful day!"
+    ],
+    "language": "en",
+    "materialId": "en-ai-has-hacked-the-code-of-human-civiliza-mrlks8tp",
+    "tags": [
+      "general",
+      "level:A2",
+      "A2"
+    ],
+    "id": "card-1784098919929-9lghm70",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-15T07:01:59.929Z",
+    "createdAt": "2026-07-15T07:01:59.929Z",
+    "reading": "/wɔt/",
+    "partOfSpeech": "adverb · noun",
+    "explanation": "词头：what（/wɔt/）\n1. 【adverb】（新加坡式英语）用来反驳对话者持有的基本假设。\n   （英：(Singlish) Used to contradict an underlying assumption held by the interlocutor.）\n2. 【noun】东西；东西；东西。\n   （英：Something; thing; stuff.）\n3. 【noun】事物的身份，作为什么问题的答案。\n   （英：The identity of a thing, as an answer to a question of what.）",
+    "dictSource": "Cambridge 风格 / Free Dictionary（英义转中文）"
+  },
+  {
+    "type": "vocabulary",
+    "front": "Now",
+    "back": "现在。",
+    "examples": [
+      "Now is the right time.",
+      "She is living in the now.",
+      "I think this band's sound is very now."
+    ],
+    "language": "en",
+    "materialId": "en-ai-has-hacked-the-code-of-human-civiliza-mrlks8tp",
+    "tags": [
+      "general",
+      "level:A2",
+      "A2"
+    ],
+    "id": "card-1784098940060-qmkybrq",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-15T07:02:20.060Z",
+    "createdAt": "2026-07-15T07:02:20.060Z",
+    "reading": "/naʊ/",
+    "partOfSpeech": "noun · adjective · adverb",
+    "explanation": "词头：now（/naʊ/）\n1. 【noun】现在。\n   （英：The present time.）\n2. 【noun】（通常带有“the” ）不关注未来或过去的状态。\n   （英：(often with \"the\") The state of not paying attention to the future or the past.）\n3. 【adjective】当前电流\n   （英：Present; current.）",
+    "dictSource": "Cambridge 风格 / Free Dictionary（英义转中文）"
+  },
+  {
+    "type": "vocabulary",
+    "front": "AIS",
+    "back": "三趾树懒Bradypus tridactylus ，是委内瑞拉南部、圭亚那和巴西北部森林的特有种。",
+    "examples": [
+      "I learned the word \"ais\"."
+    ],
+    "language": "en",
+    "materialId": "en-ai-has-hacked-the-code-of-human-civiliza-mrlks8tp",
+    "tags": [
+      "general",
+      "level:A2",
+      "A2"
+    ],
+    "id": "card-1784098960574-2bc9rqr",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-15T07:02:40.574Z",
+    "createdAt": "2026-07-15T07:02:40.574Z",
+    "partOfSpeech": "noun",
+    "explanation": "词头：ais\n1. 【noun】三趾树懒Bradypus tridactylus ，是委内瑞拉南部、圭亚那和巴西北部森林的特有种。\n   （英：A type of three-toed sloth, Bradypus tridactylus, endemic to forests of southern Venezuela, the Guianas, and northern Brazil.）",
+    "dictSource": "Cambridge 风格 / Free Dictionary（英义转中文）"
+  },
+  {
+    "type": "vocabulary",
+    "front": "which",
+    "back": "（疑问）一个或多个（提到或暗示的）。",
+    "examples": [
+      "By now, you must surely know which is which.",
+      "Please take which you please."
+    ],
+    "language": "en",
+    "materialId": "en-ai-has-hacked-the-code-of-human-civiliza-mrlks8tp",
+    "tags": [
+      "general",
+      "level:A2",
+      "A2"
+    ],
+    "id": "card-1784098980874-4h0qv69",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-15T07:03:00.874Z",
+    "createdAt": "2026-07-15T07:03:00.874Z",
+    "reading": "/wɪt͡ʃ/",
+    "partOfSpeech": "pronoun",
+    "explanation": "词头：which（/wɪt͡ʃ/）\n1. 【pronoun】（疑问）一个或多个（提到或暗示的）。\n   （英：(interrogative) What one or ones (of those mentioned or implied).）\n2. 【pronoun】The/Any ones that; whichever.",
+    "dictSource": "Cambridge 风格 / Free Dictionary（英义转中文）"
+  },
+  {
+    "type": "vocabulary",
+    "front": "humans",
+    "back": "一个人，无论是男人、女人还是孩子。",
+    "examples": [
+      "Humans share common ancestors with other apes."
+    ],
+    "language": "en",
+    "materialId": "en-ai-has-hacked-the-code-of-human-civiliza-mrlks8tp",
+    "tags": [
+      "general",
+      "level:A2",
+      "A2"
+    ],
+    "id": "card-1784099003215-v0q483v",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-15T07:03:23.215Z",
+    "createdAt": "2026-07-15T07:03:23.215Z",
+    "partOfSpeech": "noun",
+    "explanation": "词头：humans\n1. 【noun】一个人，无论是男人、女人还是孩子。\n   （英：A human being, whether man, woman or child.）",
+    "dictSource": "Cambridge 风格 / Free Dictionary（英义转中文）"
+  },
+  {
+    "type": "vocabulary",
+    "front": "words",
+    "back": "具有特定含义并可自行表达的最小语言单位；最小的离散、有意义的语言单位。（对比语素。）",
+    "examples": [
+      "I’m not sure how to word this letter to the council.",
+      "After she found out the truth, she had words with him, to tell him how she felt.",
+      "You better get your words memorised before rehearsal next Saturday."
+    ],
+    "language": "en",
+    "materialId": "en-ai-has-hacked-the-code-of-human-civiliza-mrlks8tp",
+    "tags": [
+      "general",
+      "level:A2",
+      "A2"
+    ],
+    "id": "card-1784099020987-2b2xjej",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-15T07:03:40.987Z",
+    "createdAt": "2026-07-15T07:03:40.987Z",
+    "reading": "/wɜːdz/",
+    "partOfSpeech": "noun · verb",
+    "explanation": "词头：words（/wɜːdz/）\n1. 【noun】具有特定含义并可自行表达的最小语言单位；最小的离散、有意义的语言单位。（对比语素。）\n   （英：The smallest unit of language that has a particular meaning and can be expressed by itself; the smallest discrete, meaningful unit of language. (contrast morpheme.)）\n2. 【noun】像这样的语言单位：\n   （英：Something like such a unit of language:）\n3. 【verb】用特定词语说或写（某事） ；用短语（某事）。\n   （英：To say or write (something) using particular words; to phrase (something).）",
+    "dictSource": "Cambridge 风格 / Free Dictionary（英义转中文）"
+  },
+  {
+    "type": "vocabulary",
+    "front": "over",
+    "back": "一组六个合法球投球。",
+    "examples": [
+      "He overed the fence in good style.",
+      "The cattle have been overing all day because of the flies.",
+      "The show is over."
+    ],
+    "language": "en",
+    "materialId": "en-ai-has-hacked-the-code-of-human-civiliza-mrlks8tp",
+    "tags": [
+      "general",
+      "level:A2",
+      "A2"
+    ],
+    "id": "card-1784099042457-m3zzke9",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-15T07:04:02.457Z",
+    "createdAt": "2026-07-15T07:04:02.457Z",
+    "partOfSpeech": "noun · verb · adjective",
+    "explanation": "词头：over\n1. 【noun】一组六个合法球投球。\n   （英：A set of six legal balls bowled.）\n2. 【noun】任何多余的金钱、交付的货物等。\n   （英：Any surplus amount of money, goods delivered, etc.）\n3. 【verb】走过去，或跳过去。\n   （英：To go over, or jump over.）",
+    "dictSource": "Cambridge 风格 / Free Dictionary（英义转中文）"
+  },
+  {
+    "type": "vocabulary",
+    "front": "like",
+    "back": "",
+    "explanation": "等级：A1",
+    "examples": [
+      "bomb. It cannot invent anything new like the hydrogen bomb. Similarly, let's say",
+      "would like an espresso. So, I already made you a cup.\" Now that's an AI coffee"
+    ],
+    "language": "en",
+    "materialId": "en-ai-has-hacked-the-code-of-human-civiliza-mrlks8tp",
+    "tags": [
+      "general",
+      "level:A2",
+      "A2",
+      "A1"
+    ],
+    "id": "card-1784099064934-ml434pi",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-15T07:04:24.934Z",
+    "createdAt": "2026-07-15T07:04:24.934Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "world",
+    "back": "（与“the” ）人类集体存在；一般存在。",
+    "examples": [
+      "There will always be lovers, till the world’s end."
+    ],
+    "language": "en",
+    "materialId": "en-ai-has-hacked-the-code-of-human-civiliza-mrlks8tp",
+    "tags": [
+      "general",
+      "level:A2",
+      "A2"
+    ],
+    "id": "card-1784099085256-l1u05l6",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-15T07:04:45.256Z",
+    "createdAt": "2026-07-15T07:04:45.256Z",
+    "reading": "/wɝld/",
+    "partOfSpeech": "noun · verb",
+    "explanation": "词头：world（/wɝld/）\n1. 【noun】（与“the” ）人类集体存在；一般存在。\n   （英：(with \"the\") Human collective existence; existence in general.）\n2. 【noun】宇宙\n   （英：The Universe.）\n3. 【verb】从全球视角考虑或促使从全球视角考虑；作为一个整体考虑，而不是做出或关注国家或其他方面的区别；比较全球化。\n   （英：To consider or cause to be considered from a global perspective; to consider as a global whole, rather than making or focussing on national or other distinctions; compare globalise.）",
+    "dictSource": "Cambridge 风格 / Free Dictionary（英义转中文）"
+  },
+  {
+    "type": "vocabulary",
+    "front": "all",
+    "back": "（用占有代词）一个人所能做到的一切。",
+    "examples": [
+      "She gave her all, and collapsed at the finish line.",
+      "The butter is all.",
+      "It suddenly went all quiet."
+    ],
+    "language": "en",
+    "materialId": "en-ai-has-hacked-the-code-of-human-civiliza-mrlks8tp",
+    "tags": [
+      "general",
+      "level:A2",
+      "A2"
+    ],
+    "id": "card-1784099107760-p3tu5v6",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-15T07:05:07.760Z",
+    "createdAt": "2026-07-15T07:05:07.760Z",
+    "reading": "/ɔːl/",
+    "partOfSpeech": "noun · adjective · adverb",
+    "explanation": "词头：all（/ɔːl/）\n1. 【noun】（用占有代词）一个人所能做到的一切。\n   （英：(with a possessive pronoun) Everything that one is capable of.）\n2. 【noun】一个人所有的全部财产。\n   （英：The totality of one's possessions.）\n3. 【adjective】全都消失了；死了。\n   （英：All gone; dead.）",
+    "dictSource": "Cambridge 风格 / Free Dictionary（英义转中文）"
+  },
+  {
+    "type": "vocabulary",
+    "front": "just",
+    "back": "事实正确，正确；事实。",
+    "examples": [
+      "It is a just assessment of the facts.",
+      "He calls it vermilion, but it's just red to me.",
+      "Just follow the directions on the box."
+    ],
+    "language": "en",
+    "materialId": "en-ai-has-hacked-the-code-of-human-civiliza-mrlks8tp",
+    "tags": [
+      "general",
+      "level:A2",
+      "A2"
+    ],
+    "id": "card-1784099128309-w8m54fm",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-15T07:05:28.309Z",
+    "createdAt": "2026-07-15T07:05:28.309Z",
+    "reading": "/d͡ʒʌst/",
+    "partOfSpeech": "adjective · adverb · interjection",
+    "explanation": "词头：just（/d͡ʒʌst/）\n1. 【adjective】事实正确，正确；事实。\n   （英：Factually right, correct; factual.）\n2. 【adjective】理性地正确，正确。\n   （英：Rationally right, correct.）\n3. 【adverb】只是，简单地说，只是。\n   （英：Only, simply, merely.）",
+    "dictSource": "Cambridge 风格 / Free Dictionary（英义转中文）"
+  },
+  {
+    "type": "vocabulary",
+    "front": "trust",
+    "back": "对某人或某种品质充满信心或信赖。",
+    "examples": [
+      "He needs to regain her trust if he is ever going to win her back.",
+      "We cannot trust anyone who deceives us."
+    ],
+    "language": "en",
+    "materialId": "en-ai-has-hacked-the-code-of-human-civiliza-mrlks8tp",
+    "tags": [
+      "general",
+      "level:A2",
+      "A2"
+    ],
+    "id": "card-1784099147182-mg1iv6w",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-15T07:05:47.182Z",
+    "createdAt": "2026-07-15T07:05:47.182Z",
+    "reading": "/trʊst/",
+    "partOfSpeech": "noun · verb · adjective",
+    "explanation": "词头：trust（/trʊst/）\n1. 【noun】对某人或某种品质充满信心或信赖。\n   （英：Confidence in or reliance on some person or quality.）\n2. 【noun】对未来某事的依赖；希望。\n   （英：Dependence upon something in the future; hope.）\n3. 【verb】信任；依靠、信赖或有信心。\n   （英：To place confidence in; to rely on, to confide, or have faith, in.）",
+    "dictSource": "Cambridge 风格 / Free Dictionary（英义转中文）"
+  },
+  {
+    "type": "vocabulary",
+    "front": "bureaucracy",
+    "back": "由各局或其行政管理人员或官员管理。",
+    "examples": [
+      "At that time the administration replaced the system of patronage in the civil service with a bureaucracy."
+    ],
+    "language": "en",
+    "materialId": "en-ai-has-hacked-the-code-of-human-civiliza-mrlks8tp",
+    "tags": [
+      "general"
+    ],
+    "id": "card-1784099230235-5nfgywq",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-15T07:07:10.234Z",
+    "createdAt": "2026-07-15T07:07:10.234Z",
+    "reading": "/bjʊəˈɹɒkɹəsi/",
+    "partOfSpeech": "noun",
+    "explanation": "词头：bureaucracy（/bjʊəˈɹɒkɹəsi/）\n1. 【noun】由各局或其行政管理人员或官员管理。\n   （英：Government by bureaus or their administrators or officers.）\n2. 【noun】（组织理论）一种基于组织成局、分工、权力等级的管理体系，旨在以日常方式处理大量工作。\n   （英：(organizational theory) A system of administration based upon organisation into bureaus, division of labour, a hierarchy of authority, etc., designed to dispose of a large body of work in a routine manner.）",
+    "dictSource": "Cambridge 风格 / Free Dictionary（英义转中文）"
+  },
+  {
+    "type": "vocabulary",
+    "front": "chimpanzees",
+    "back": "潘氏猿属中的一种大型猿类，原产于非洲，被生物学家认为是与人类最接近的现存物种。",
+    "examples": [
+      "I learned the word \"chimpanzees\"."
+    ],
+    "language": "en",
+    "materialId": "en-ai-has-hacked-the-code-of-human-civiliza-mrlks8tp",
+    "tags": [
+      "general"
+    ],
+    "id": "card-1784099255053-56kbasr",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-15T07:07:35.053Z",
+    "createdAt": "2026-07-15T07:07:35.053Z",
+    "partOfSpeech": "noun",
+    "explanation": "词头：chimpanzees\n1. 【noun】潘氏猿属中的一种大型猿类，原产于非洲，被生物学家认为是与人类最接近的现存物种。\n   （英：A species of great ape in the genus Pan, native to Africa, and believed by biologists to be the closest extant relative to humans.）",
+    "dictSource": "Cambridge 风格 / Free Dictionary（英义转中文）"
+  },
+  {
+    "type": "vocabulary",
+    "front": "primitive",
+    "back": "",
+    "examples": [
+      "information on social media which are primitive AIs like this began 1015 years",
+      "ago. This was like the first generation very very primitive stupid narrow AI",
+      "In pursuit of this user engagement, these primitive AIs made an important"
+    ],
+    "language": "en",
+    "materialId": "en-ai-has-hacked-the-code-of-human-civiliza-mrlks8tp",
+    "tags": [
+      "general"
+    ],
+    "id": "card-1784099275489-o49skut",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-15T07:07:55.489Z",
+    "createdAt": "2026-07-15T07:07:55.489Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "verbal",
+    "back": "（语法）不作为谓词的动词形式，或从动词派生的单词。在英语中，不定式、分词和gerunds是动词。",
+    "examples": [
+      "I learned the word \"verbal\"."
+    ],
+    "language": "en",
+    "materialId": "en-ai-has-hacked-the-code-of-human-civiliza-mrlks8tp",
+    "tags": [
+      "general"
+    ],
+    "id": "card-1784099298278-rrgrgpi",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-15T07:08:18.278Z",
+    "createdAt": "2026-07-15T07:08:18.278Z",
+    "partOfSpeech": "noun · verb · adjective",
+    "explanation": "词头：verbal\n1. 【noun】（语法）不作为谓词的动词形式，或从动词派生的单词。在英语中，不定式、分词和gerunds是动词。\n   （英：(grammar) A verb form which does not function as a predicate, or a word derived from a verb. In English, infinitives, participles and gerunds are verbals.）\n2. 【noun】向警方供认不讳。\n   （英：A confession given to police.）\n3. 【verb】诱使他人编造供词。\n   （英：To induce into fabricating a confession.）",
+    "dictSource": "Cambridge 风格 / Free Dictionary（英义转中文）"
+  },
+  {
+    "type": "vocabulary",
+    "front": "冬物",
+    "back": "冬季用品，冬季衣料，冬装",
+    "reading": "フユモノ",
+    "partOfSpeech": "名词",
+    "explanation": "冬季用品，冬季衣料，冬装。（冬に用いるもの。特に冬用の衣料品。冬着。また、それに用いる布地。）",
+    "examples": [
+      "通販で 冬物のコート買っちゃったの / 通販で 冬物のコート買っちゃったの"
+    ],
+    "language": "ja",
+    "materialId": "ja-俺-話-長-01-mrehoi9z",
+    "tags": [
+      "general",
+      "level:N3",
+      "N3"
+    ],
+    "dictSource": "日语0-N1级别词汇大全",
+    "id": "card-1784100957061-j2sp2k9",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-15T07:35:57.060Z",
+    "createdAt": "2026-07-15T07:35:57.060Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "届く",
+    "back": "达到；够得着；买得起",
+    "reading": "トドイ",
+    "partOfSpeech": "动词",
+    "explanation": "达到；够得着；买得起。（あるところまで達する。）\n到；收到。（送ったものが目的地に達する。）\n周到,周密,注意到顾到。（世話や注意が十分に行き渡る。）",
+    "examples": [
+      "それ 昼に届いてたよ / それ 昼に届いてたよ"
+    ],
+    "language": "ja",
+    "materialId": "ja-俺-話-長-01-mrehoi9z",
+    "tags": [
+      "general",
+      "level:N3",
+      "N3"
+    ],
+    "dictSource": "日语0-N1级别词汇大全",
+    "id": "card-1784100957122-ktxckut",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-15T07:35:57.122Z",
+    "createdAt": "2026-07-15T07:35:57.122Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "迷う",
+    "back": "迷，迷失",
+    "reading": "マヨッ",
+    "partOfSpeech": "动词",
+    "explanation": "迷，迷失。（方向がわからなくなる。）\n犹豫，踌躇，迷惑；困惑，茫然失措。（思いまどう。）\n迷恋，贪恋。（心をうばわれる。）\n〈仏〉执迷。",
+    "examples": [
+      "最後 迷ったから４５分くらい / 最後 迷ったから４５分くらい"
+    ],
+    "language": "ja",
+    "materialId": "ja-俺-話-長-01-mrehoi9z",
+    "tags": [
+      "general",
+      "level:N3",
+      "N3"
+    ],
+    "dictSource": "日语0-N1级别词汇大全",
+    "id": "card-1784100957176-jdjfc0t",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-15T07:35:57.176Z",
+    "createdAt": "2026-07-15T07:35:57.176Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "疲れる",
+    "back": "累，乏",
+    "reading": "ツカレ",
+    "partOfSpeech": "动词",
+    "explanation": "累，乏。（体や精神の力が弱る。）\n\n用旧，用伤。（物が損なわれて弱る。）",
+    "examples": [
+      "じゃあ 疲れたでしょう / じゃあ 疲れたでしょう"
+    ],
+    "language": "ja",
+    "materialId": "ja-俺-話-長-01-mrehoi9z",
+    "tags": [
+      "general",
+      "level:N3",
+      "N3",
+      "N5"
+    ],
+    "dictSource": "日语0-N1级别词汇大全",
+    "id": "card-1784100957221-cyhzy45",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-15T07:35:57.221Z",
+    "createdAt": "2026-07-15T07:35:57.221Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "迎える",
+    "back": "迎，迎接；欢迎；接待",
+    "reading": "ムカエ",
+    "partOfSpeech": "动词",
+    "explanation": "迎，迎接；欢迎；接待。（来るのを待ちうける。歓待する。接待する。）\n请，聘请，接。（招く。）\n娶；招。（めとる。）\n迎合。（ごきげんをとる。）\n迎击，应战，对敌。（待ちうけて撃つ。）\n来到，遇到。（時期になる。）",
+    "examples": [
+      "電話くれれば 車で迎えに行ったのに / 電話くれれば 車で迎えに行ったのに"
+    ],
+    "language": "ja",
+    "materialId": "ja-俺-話-長-01-mrehoi9z",
+    "tags": [
+      "general",
+      "level:N3",
+      "N3",
+      "N4"
+    ],
+    "dictSource": "日语0-N1级别词汇大全",
+    "id": "card-1784100957280-ex4thry",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-15T07:35:57.280Z",
+    "createdAt": "2026-07-15T07:35:57.280Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "変わる",
+    "back": "变，变化；改变，转变",
+    "reading": "カワッ",
+    "partOfSpeech": "动词",
+    "explanation": "变，变化；改变，转变。（形・性質・様子などがそれまでと異なったものとなる。変化する。）\n不同，与众不同；奇怪，出奇。（普通と違う。）\n　真面目そうに見えて 実は変わってて／看起来很认真，实际上却很特别\n改变时间。（年や月が改まる。時が経過する。）\n改变地点，迁居，迁移。（場所・住所などが移る。移転する。）",
+    "examples": [
+      "変わってんなぁ 学校で\n変人扱いされてんじゃないの？ / 変わってんなぁ 学校で\n変人扱いされてんじゃないの？"
+    ],
+    "language": "ja",
+    "materialId": "ja-俺-話-長-01-mrehoi9z",
+    "tags": [
+      "general",
+      "level:N3",
+      "N3",
+      "N4"
+    ],
+    "dictSource": "日语0-N1级别词汇大全",
+    "id": "card-1784100957383-pve0qms",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-15T07:35:57.383Z",
+    "createdAt": "2026-07-15T07:35:57.383Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "質問",
+    "back": "质询；询问，提问；问题",
+    "reading": "シツモン",
+    "partOfSpeech": "名词",
+    "explanation": "质询；询问，提问；问题。（疑問点や分からない点を問いただす。）",
+    "examples": [
+      "っていうか\nそもそも質問がおかしいから / っていうか\nそもそも質問がおかしいから"
+    ],
+    "language": "ja",
+    "materialId": "ja-俺-話-長-01-mrehoi9z",
+    "tags": [
+      "general",
+      "level:N3",
+      "N3",
+      "N5"
+    ],
+    "dictSource": "日语0-N1级别词汇大全",
+    "id": "card-1784100957427-zhgnq9y",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-15T07:35:57.427Z",
+    "createdAt": "2026-07-15T07:35:57.427Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "並べる",
+    "back": "排列",
+    "reading": "ナラベル",
+    "partOfSpeech": "动词",
+    "explanation": "排列。（二つ以上のものを線状に置く。列を作るように置く。また、多くのものをきちんと配列する。）\n并排，横排。（二つのものを横にそろうように置く。）\n摆，陈列。（ある場所に多くのものを広げて置く。）\n摆，列举，罗列，一个接一个提出。（同じ種類のことを次々に言いたてる。）\n\n比较。（匹敵するものとして隣に置く。）\n\n〔围棋〕摆〔子〕。（碁石を盤上に置く。）",
+    "examples": [
+      "すき焼きは 焼き肉と\nしゃぶしゃぶと並べる 食べ物じゃないし / すき焼きは 焼き肉と\nしゃぶしゃぶと並べる 食べ物じゃないし"
+    ],
+    "language": "ja",
+    "materialId": "ja-俺-話-長-01-mrehoi9z",
+    "tags": [
+      "general",
+      "level:N3",
+      "N3",
+      "N5"
+    ],
+    "dictSource": "日语0-N1级别词汇大全",
+    "id": "card-1784100957481-e2mne3f",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-15T07:35:57.481Z",
+    "createdAt": "2026-07-15T07:35:57.481Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "メイン",
+    "back": "【英】main",
+    "reading": "メイン",
+    "partOfSpeech": "名词",
+    "explanation": "【英】main\n（1） Maine缅因州(美国东北部)。（アメリカ東北部の地名。）\n（2）主要的，主的。（主要なもの。中心になるもの。メーン。）\n　 メインの会場/主要会场\n　 シーフードをメインとした料理/主食是海产食品",
+    "examples": [
+      "すき焼きは 肉がメインに見えて\n実は裏方だから / すき焼きは 肉がメインに見えて\n実は裏方だから"
+    ],
+    "language": "ja",
+    "materialId": "ja-俺-話-長-01-mrehoi9z",
+    "tags": [
+      "general",
+      "level:N3",
+      "N3"
+    ],
+    "dictSource": "日语0-N1级别词汇大全",
+    "id": "card-1784100957523-q23mvhj",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-15T07:35:57.523Z",
+    "createdAt": "2026-07-15T07:35:57.523Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "吸う",
+    "back": "吸，吸入",
+    "reading": "スッ",
+    "partOfSpeech": "动词",
+    "explanation": "吸，吸入。（気体や液体を鼻や口を通して体内へ引き入れる。）\n吮，吮吸，嘬，啜，喝。（水気を他から吸収する。）\n吸收。（吸収する。）",
+    "examples": [
+      "肉のうま味を吸った豆腐と\nしらたきを味わう鍋料理だから / 肉のうま味を吸った豆腐と\nしらたきを味わう鍋料理だから"
+    ],
+    "language": "ja",
+    "materialId": "ja-俺-話-長-01-mrehoi9z",
+    "tags": [
+      "general",
+      "level:N3",
+      "N3",
+      "N5"
+    ],
+    "dictSource": "日语0-N1级别词汇大全",
+    "id": "card-1784100957574-khrmvja",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-15T07:35:57.573Z",
+    "createdAt": "2026-07-15T07:35:57.573Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "味わう",
+    "back": "品味",
+    "reading": "アジワウ",
+    "partOfSpeech": "动词",
+    "explanation": "品味。（飲食物の味を見る。）\n\n玩味，欣赏。领略事物的深层意味或妙处。（物事の深い意味や良さを感じとる。玩味する。）\n\n体验。（実際に経験して感じ取る。）",
+    "examples": [
+      "肉のうま味を吸った豆腐と\nしらたきを味わう鍋料理だから / 肉のうま味を吸った豆腐と\nしらたきを味わう鍋料理だから"
+    ],
+    "language": "ja",
+    "materialId": "ja-俺-話-長-01-mrehoi9z",
+    "tags": [
+      "general",
+      "level:N3",
+      "N3"
+    ],
+    "dictSource": "日语0-N1级别词汇大全",
+    "id": "card-1784100957644-1y5zsk9",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-15T07:35:57.644Z",
+    "createdAt": "2026-07-15T07:35:57.644Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "間違い",
+    "back": "错，错误，过错",
+    "reading": "マチガイ",
+    "partOfSpeech": "名词",
+    "explanation": "错，错误，过错。（まちがうこと。正しくないこと。あやまり。）\n一定，准，务必。（まちがいなく。）\n差错，事故，意外。（当たり前でないこと。よくないこと。事故。）\n男女间的不正当行为。（情事、特に分別のない男女の関係についていう。まちがえ。）",
+    "examples": [
+      "数えてたから間違いない / 数えてたから間違いない"
+    ],
+    "language": "ja",
+    "materialId": "ja-俺-話-長-01-mrehoi9z",
+    "tags": [
+      "general",
+      "level:N3",
+      "N3"
+    ],
+    "dictSource": "日语0-N1级别词汇大全",
+    "id": "card-1784100957728-4ssoqb0",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-15T07:35:57.728Z",
+    "createdAt": "2026-07-15T07:35:57.728Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "返事",
+    "back": "答应，回答，回话",
+    "reading": "ヘンジ",
+    "partOfSpeech": "名词",
+    "explanation": "答应，回答，回话。(質問や呼びかけなどに対して答えること。また、その言葉。)\n回信，复信。（相手の手紙に対する答えの手紙。）\n　怖くて返事してなかったの／因为害怕所以没有回复\n回电。",
+    "examples": [
+      "満の返事を聞いてから\nと思ってたからね / 満の返事を聞いてから\nと思ってたからね"
+    ],
+    "language": "ja",
+    "materialId": "ja-俺-話-長-01-mrehoi9z",
+    "tags": [
+      "general",
+      "level:N3",
+      "N3",
+      "N4"
+    ],
+    "dictSource": "日语0-N1级别词汇大全",
+    "id": "card-1784100957791-ehb1grp",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-15T07:35:57.791Z",
+    "createdAt": "2026-07-15T07:35:57.791Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "安心",
+    "back": "放心，安心，无忧无虑",
+    "reading": "アンシン",
+    "partOfSpeech": "名词",
+    "explanation": "放心，安心，无忧无虑。（心配・不安がなくて、心が安らぐこと。）",
+    "examples": [
+      "まだ決まってないから安心して / まだ決まってないから安心して"
+    ],
+    "language": "ja",
+    "materialId": "ja-俺-話-長-01-mrehoi9z",
+    "tags": [
+      "general",
+      "level:N3",
+      "N3",
+      "N4"
+    ],
+    "dictSource": "日语0-N1级别词汇大全",
+    "id": "card-1784100957840-5xaeno0",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-15T07:35:57.840Z",
+    "createdAt": "2026-07-15T07:35:57.840Z"
+  },
+  {
+    "type": "vocabulary",
+    "front": "候補",
+    "back": "候补，候补人，成为被选对象的事物",
+    "reading": "コウホ",
+    "partOfSpeech": "名词",
+    "explanation": "候补，候补人，成为被选对象的事物。（選ばれる対象にされている事物。）\n\n候选，候选人。指具有获得某种地位、身份的资格，而且具有被选中的可能性。〔ある地位・身分を得る資格があり、それに選ばれる可能性のあること。また、その人。〕\n\n选举的候选人。（選挙の立候補者。）",
+    "examples": [
+      "ホテルとかマンションとか\nいくらでも候補はあるから / ホテルとかマンションとか\nいくらでも候補はあるから"
+    ],
+    "language": "ja",
+    "materialId": "ja-俺-話-長-01-mrehoi9z",
+    "tags": [
+      "general",
+      "level:N3",
+      "N3"
+    ],
+    "dictSource": "日语0-N1级别词汇大全",
+    "id": "card-1784100957908-qkiurk4",
+    "easeFactor": 2.5,
+    "interval": 0,
+    "repetitions": 0,
+    "nextReview": "2026-07-15T07:35:57.908Z",
+    "createdAt": "2026-07-15T07:35:57.908Z"
   }
 ]

@@ -18,17 +18,17 @@
     "extensive": [
       {
         "start": 0,
-        "end": 180,
-        "reason": "开头部分适合泛听，建立整体语境",
-        "durationMinutes": 3
+        "end": 2725.1,
+        "reason": "全片字幕跟随，适合泛听建立整体语境",
+        "durationMinutes": 45
       }
     ],
     "intensive": [
       {
         "start": 60,
-        "end": 1755.06,
-        "reason": "核心段落句型密集，适合精听",
-        "durationMinutes": 10
+        "end": 2725.1,
+        "reason": "默认可精听全片；可用开始/结束秒收窄区间",
+        "durationMinutes": 45
       }
     ]
   },
@@ -576,5 +576,5 @@
   ],
   "parseStatus": "pending",
   "createdAt": "2026-07-11T03:04:30.587Z",
-  "updatedAt": "2026-07-13T08:25:51.534Z"
+  "updatedAt": "2026-07-15T07:30:48.285Z"
 }

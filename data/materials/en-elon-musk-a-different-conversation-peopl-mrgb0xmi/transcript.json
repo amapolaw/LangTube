@@ -9,48 +9,6 @@
       "translation": "加热。加热。"
     },
     {
-      "id": "line-2",
-      "start": 11.79,
-      "end": 13.81,
-      "text": "[music]",
-      "translation": "[音乐]"
-    },
-    {
-      "id": "line-3",
-      "start": 21.615,
-      "end": 23.119,
-      "text": "[music]",
-      "translation": "[音乐]"
-    },
-    {
-      "id": "line-4",
-      "start": 23.119,
-      "end": 26.119,
-      "text": "Our",
-      "translation": "我方"
-    },
-    {
-      "id": "line-5",
-      "start": 27.51,
-      "end": 29.53,
-      "text": "[music]",
-      "translation": "[音乐]"
-    },
-    {
-      "id": "line-6",
-      "start": 32.095,
-      "end": 34.115,
-      "text": "[music]",
-      "translation": "[音乐]"
-    },
-    {
-      "id": "line-7",
-      "start": 42.575,
-      "end": 44.595,
-      "text": "[music]",
-      "translation": "[音乐]"
-    },
-    {
       "id": "line-8",
       "start": 44.96,
       "end": 48.239,
@@ -84,13 +42,6 @@
       "end": 55.675,
       "text": "over in so many different domains.",
       "translation": "在这么多不同的领域。"
-    },
-    {
-      "id": "line-13",
-      "start": 55.675,
-      "end": 56.239,
-      "text": "[music]",
-      "translation": "[音乐]"
     },
     {
       "id": "line-14",
@@ -128,13 +79,6 @@
       "translation": "这次谈话的优势，也许"
     },
     {
-      "id": "line-19",
-      "start": 65.76,
-      "end": 67.68,
-      "text": "start [music] take a chance and build",
-      "translation": "开始[音乐]抓住机会并构建"
-    },
-    {
       "id": "line-20",
       "start": 67.68,
       "end": 70.68,
@@ -170,13 +114,6 @@
       "translation": "> >好的。我们要谈谈"
     },
     {
-      "id": "line-25",
-      "start": 91.6,
-      "end": 92.799,
-      "text": "while? [laughter]",
-      "translation": "同时？ [笑声]"
-    },
-    {
       "id": "line-26",
       "start": 92.799,
       "end": 94,
@@ -189,20 +126,6 @@
       "end": 97.119,
       "text": ">> Okay. Good. Sure.",
       "translation": "> >好的，好的，好的"
-    },
-    {
-      "id": "line-28",
-      "start": 97.119,
-      "end": 97.6,
-      "text": "Um,",
-      "translation": "嗯..."
-    },
-    {
-      "id": "line-29",
-      "start": 97.6,
-      "end": 98.159,
-      "text": ">> Mna,",
-      "translation": ""
     },
     {
       "id": "line-30",
@@ -226,13 +149,6 @@
       "translation": "> >任何东西？呃，我想是卡布奇诺。所有"
     },
     {
-      "id": "line-33",
-      "start": 104.88,
-      "end": 105.84,
-      "text": "right.",
-      "translation": "是"
-    },
-    {
       "id": "line-34",
       "start": 105.84,
       "end": 107.36,
@@ -252,13 +168,6 @@
       "end": 110.64,
       "text": "usually in the mornings, you know.",
       "translation": "通常是在早上，你知道的。"
-    },
-    {
-      "id": "line-37",
-      "start": 110.64,
-      "end": 111.759,
-      "text": ">> Okay. [laughter]",
-      "translation": "> >好的。[笑声]"
     },
     {
       "id": "line-38",
@@ -289,13 +198,6 @@
       "translation": "> >不，我很好"
     },
     {
-      "id": "line-42",
-      "start": 125.106,
-      "end": 127.126,
-      "text": ">> [laughter]",
-      "translation": "（大笑）"
-    },
-    {
       "id": "line-43",
       "start": 127.759,
       "end": 130.64,
@@ -317,25 +219,11 @@
       "translation": "会以为你是。"
     },
     {
-      "id": "line-46",
-      "start": 134.959,
-      "end": 135.2,
-      "text": ">> Oh.",
-      "translation": "哦，"
-    },
-    {
       "id": "line-47",
       "start": 135.2,
       "end": 136.896,
       "text": ">> Oh, stop. You must make me blush.",
       "translation": "> >哦，别说了。你一定让我脸红了。"
-    },
-    {
-      "id": "line-48",
-      "start": 136.896,
-      "end": 138.916,
-      "text": "[laughter]",
-      "translation": "（大笑）"
     },
     {
       "id": "line-49",
@@ -350,13 +238,6 @@
       "end": 143.68,
       "text": ">> Yeah. I mean, look on the internet. I'm",
       "translation": "> >是的。我的意思是，在互联网上看看。我"
-    },
-    {
-      "id": "line-51",
-      "start": 143.68,
-      "end": 147.431,
-      "text": "small, you know. [laughter]",
-      "translation": "小，你知道的。[笑声]"
     },
     {
       "id": "line-52",
@@ -471,13 +352,6 @@
       "translation": "> >嗯，读者，你知道，读者"
     },
     {
-      "id": "line-68",
-      "start": 189.04,
-      "end": 191.519,
-      "text": "words. [laughter]",
-      "translation": "单词。[笑声]"
-    },
-    {
       "id": "line-69",
       "start": 191.519,
       "end": 192.879,
@@ -555,13 +429,6 @@
       "translation": "要最坚强，因为我们有言语"
     },
     {
-      "id": "line-80",
-      "start": 220.737,
-      "end": 221.76,
-      "text": "[laughter]",
-      "translation": "（大笑）"
-    },
-    {
       "id": "line-81",
       "start": 221.76,
       "end": 226.48,
@@ -588,13 +455,6 @@
       "end": 235.519,
       "text": ">> as far as social media goes the form",
       "translation": "> >就社交媒体而言，"
-    },
-    {
-      "id": "line-85",
-      "start": 235.519,
-      "end": 237.12,
-      "text": "factor",
-      "translation": "因子"
     },
     {
       "id": "line-86",
@@ -730,13 +590,6 @@
       "translation": "信息，如um"
     },
     {
-      "id": "line-105",
-      "start": 288.32,
-      "end": 290.479,
-      "text": "yeah so",
-      "translation": "是的，那又如何？"
-    },
-    {
       "id": "line-106",
       "start": 290.479,
       "end": 291.84,
@@ -784,13 +637,6 @@
       "end": 304.72,
       "text": "you bought Twitter and you made it",
       "translation": "你买了Twitter ，你成功了"
-    },
-    {
-      "id": "line-113",
-      "start": 304.72,
-      "end": 306.479,
-      "text": "U",
-      "translation": ""
     },
     {
       "id": "line-114",
@@ -1087,13 +933,6 @@
       "translation": "> >谢谢。当我想到社交媒体时，"
     },
     {
-      "id": "line-156",
-      "start": 410.56,
-      "end": 412.56,
-      "text": "Elon,",
-      "translation": "埃隆"
-    },
-    {
       "id": "line-157",
       "start": 412.56,
       "end": 415.36,
@@ -1176,13 +1015,6 @@
       "end": 441.199,
       "text": ">> Well, I mean, I I don't think that much",
       "translation": "> >嗯，我的意思是，我不认为"
-    },
-    {
-      "id": "line-169",
-      "start": 441.199,
-      "end": 443.039,
-      "text": "about",
-      "translation": "关于"
     },
     {
       "id": "line-170",
@@ -1654,20 +1486,6 @@
       "translation": "万亿个细胞"
     },
     {
-      "id": "line-237",
-      "start": 625.36,
-      "end": 627.12,
-      "text": "um",
-      "translation": "嗯"
-    },
-    {
-      "id": "line-238",
-      "start": 627.12,
-      "end": 629.04,
-      "text": "and",
-      "translation": "和"
-    },
-    {
       "id": "line-239",
       "start": 629.04,
       "end": 630.399,
@@ -1722,13 +1540,6 @@
       "end": 655.68,
       "text": "understanding of the the universe. Um,",
       "translation": "对宇宙的理解。嗯，"
-    },
-    {
-      "id": "line-247",
-      "start": 655.68,
-      "end": 658.68,
-      "text": "so",
-      "translation": "所以"
     },
     {
       "id": "line-248",
@@ -1836,20 +1647,6 @@
       "translation": "这就是现实吗？嗯"
     },
     {
-      "id": "line-263",
-      "start": 707.408,
-      "end": 708.959,
-      "text": "[laughter]",
-      "translation": "（大笑）"
-    },
-    {
-      "id": "line-264",
-      "start": 708.959,
-      "end": 710.399,
-      "text": ">> um",
-      "translation": "嗯"
-    },
-    {
       "id": "line-265",
       "start": 710.399,
       "end": 713.36,
@@ -1932,13 +1729,6 @@
       "end": 738.48,
       "text": ">> Yeah.",
       "translation": "对。"
-    },
-    {
-      "id": "line-277",
-      "start": 738.48,
-      "end": 740.079,
-      "text": ">> And",
-      "translation": "和"
     },
     {
       "id": "line-278",
@@ -2144,13 +1934,6 @@
       "translation": "彼此彼此。"
     },
     {
-      "id": "line-307",
-      "start": 805.839,
-      "end": 807.76,
-      "text": ">> Uh",
-      "translation": "呃"
-    },
-    {
       "id": "line-308",
       "start": 807.76,
       "end": 809.76,
@@ -2235,13 +2018,6 @@
       "translation": ""
     },
     {
-      "id": "line-320",
-      "start": 832.88,
-      "end": 834.48,
-      "text": ">> maybe [laughter]",
-      "translation": "> >也许吧[笑声]"
-    },
-    {
       "id": "line-321",
       "start": 834.48,
       "end": 837.36,
@@ -2319,20 +2095,6 @@
       "translation": "超过30万亿个细胞。嗯。"
     },
     {
-      "id": "line-332",
-      "start": 861.76,
-      "end": 864,
-      "text": ">> Um",
-      "translation": "嗯"
-    },
-    {
-      "id": "line-333",
-      "start": 864,
-      "end": 866.72,
-      "text": "and uh",
-      "translation": "和呃"
-    },
-    {
       "id": "line-334",
       "start": 866.72,
       "end": 868.48,
@@ -2368,20 +2130,6 @@
       "translation": "> >进行某种程度的合作。嗯，你的头脑是"
     },
     {
-      "id": "line-339",
-      "start": 881.36,
-      "end": 883.199,
-      "text": "uh",
-      "translation": "呃"
-    },
-    {
-      "id": "line-340",
-      "start": 883.199,
-      "end": 886.44,
-      "text": "you know",
-      "translation": "“你知道”"
-    },
-    {
       "id": "line-341",
       "start": 886.56,
       "end": 889.279,
@@ -2401,20 +2149,6 @@
       "end": 893.12,
       "text": "there's you know a trillion voices in",
       "translation": "你知道一万亿个声音"
-    },
-    {
-      "id": "line-344",
-      "start": 893.12,
-      "end": 895.68,
-      "text": "your brain. Hopefully not. [laughter]",
-      "translation": "你的大脑。希望不是。[笑声]"
-    },
-    {
-      "id": "line-345",
-      "start": 895.68,
-      "end": 897.279,
-      "text": "Um",
-      "translation": "嗯..."
     },
     {
       "id": "line-346",
@@ -2536,13 +2270,6 @@
       "translation": "和变形虫说话，就像他们不说话一样"
     },
     {
-      "id": "line-363",
-      "start": 936.8,
-      "end": 937.68,
-      "text": "whack",
-      "translation": "敲 打"
-    },
-    {
       "id": "line-364",
       "start": 937.68,
       "end": 939.68,
@@ -2618,13 +2345,6 @@
       "end": 967.759,
       "text": "spaceship for example. Um but humans",
       "translation": "例如，宇宙飞船。嗯，但是人类"
-    },
-    {
-      "id": "line-375",
-      "start": 967.759,
-      "end": 969.279,
-      "text": "can.",
-      "translation": "外罐"
     },
     {
       "id": "line-376",
@@ -2760,32 +2480,11 @@
       "translation": "让一群人来做一个"
     },
     {
-      "id": "line-395",
-      "start": 1009.199,
-      "end": 1010.56,
-      "text": "rocket.",
-      "translation": "火箭"
-    },
-    {
-      "id": "line-396",
-      "start": 1010.56,
-      "end": 1012.16,
-      "text": "Um",
-      "translation": "嗯..."
-    },
-    {
       "id": "line-397",
       "start": 1012.16,
       "end": 1015.04,
       "text": "then I think there probably some other",
       "translation": "那么我认为可能还有其他一些"
-    },
-    {
-      "id": "line-398",
-      "start": 1015.04,
-      "end": 1017.68,
-      "text": "scaling",
-      "translation": "这些研究展示了规模化的可能性。"
     },
     {
       "id": "line-399",
@@ -2800,13 +2499,6 @@
       "end": 1023.36,
       "text": "when you have groups of humans and then",
       "translation": "当你有一群人，然后"
-    },
-    {
-      "id": "line-401",
-      "start": 1023.36,
-      "end": 1025.28,
-      "text": "if the",
-      "translation": "若"
     },
     {
       "id": "line-402",
@@ -2928,13 +2620,6 @@
       "translation": "你是说？"
     },
     {
-      "id": "line-419",
-      "start": 1066,
-      "end": 1068,
-      "text": "What do you mean? [laughter]",
-      "translation": "什么意思？ [笑声]"
-    },
-    {
       "id": "line-420",
       "start": 1068,
       "end": 1070,
@@ -3026,13 +2711,6 @@
       "translation": "有预测价值的东西"
     },
     {
-      "id": "line-433",
-      "start": 1098.24,
-      "end": 1099.919,
-      "text": ">> then",
-      "translation": "则，"
-    },
-    {
       "id": "line-434",
       "start": 1099.919,
       "end": 1101.44,
@@ -3080,13 +2758,6 @@
       "end": 1113.76,
       "text": "uh I think it's pretty good definition",
       "translation": "我认为这是一个很好的定义"
-    },
-    {
-      "id": "line-441",
-      "start": 1113.76,
-      "end": 1114.08,
-      "text": "um so",
-      "translation": ""
     },
     {
       "id": "line-442",
@@ -3418,13 +3089,6 @@
       "translation": ""
     },
     {
-      "id": "line-489",
-      "start": 1218.96,
-      "end": 1219.6,
-      "text": "India.",
-      "translation": ""
-    },
-    {
       "id": "line-490",
       "start": 1219.6,
       "end": 1220.559,
@@ -3436,13 +3100,6 @@
       "start": 1220.559,
       "end": 1223.76,
       "text": "uh really ambitious, really hungry, want",
-      "translation": ""
-    },
-    {
-      "id": "line-492",
-      "start": 1223.76,
-      "end": 1225.28,
-      "text": "to",
       "translation": ""
     },
     {
@@ -3656,13 +3313,6 @@
       "translation": ""
     },
     {
-      "id": "line-523",
-      "start": 1306.24,
-      "end": 1307.76,
-      "text": "um",
-      "translation": ""
-    },
-    {
       "id": "line-524",
       "start": 1307.76,
       "end": 1312.4,
@@ -3726,13 +3376,6 @@
       "translation": ""
     },
     {
-      "id": "line-533",
-      "start": 1330.559,
-      "end": 1330.96,
-      "text": ">> Mhm.",
-      "translation": ""
-    },
-    {
       "id": "line-534",
       "start": 1330.96,
       "end": 1331.679,
@@ -3744,20 +3387,6 @@
       "start": 1331.679,
       "end": 1333.28,
       "text": ">> I've tried it in the Whimo, not in the",
-      "translation": ""
-    },
-    {
-      "id": "line-536",
-      "start": 1333.28,
-      "end": 1333.919,
-      "text": "Tesla.",
-      "translation": ""
-    },
-    {
-      "id": "line-537",
-      "start": 1333.919,
-      "end": 1336.08,
-      "text": ">> Yeah, it's worth [laughter]",
       "translation": ""
     },
     {
@@ -3814,13 +3443,6 @@
       "start": 1343.679,
       "end": 1346.32,
       "text": "to any to anyone. Definitely try it out.",
-      "translation": ""
-    },
-    {
-      "id": "line-546",
-      "start": 1346.32,
-      "end": 1347.039,
-      "text": "I mean,",
       "translation": ""
     },
     {
@@ -3954,20 +3576,6 @@
       "start": 1398.64,
       "end": 1400.799,
       "text": "reliable uh internet throughout the",
-      "translation": ""
-    },
-    {
-      "id": "line-566",
-      "start": 1400.799,
-      "end": 1401.76,
-      "text": "world.",
-      "translation": ""
-    },
-    {
-      "id": "line-567",
-      "start": 1401.76,
-      "end": 1403.6,
-      "text": ">> Hopefully India. So [laughter]",
       "translation": ""
     },
     {
@@ -4129,13 +3737,6 @@
       "start": 1451.279,
       "end": 1454,
       "text": "an altitude of about 550 km.",
-      "translation": ""
-    },
-    {
-      "id": "line-591",
-      "start": 1454,
-      "end": 1454.559,
-      "text": ">> Mhm.",
       "translation": ""
     },
     {
@@ -4304,13 +3905,6 @@
       "start": 1515.279,
       "end": 1517.52,
       "text": "network continued to function without a",
-      "translation": ""
-    },
-    {
-      "id": "line-616",
-      "start": 1517.52,
-      "end": 1518.4,
-      "text": "hitchh",
       "translation": ""
     },
     {
@@ -4678,13 +4272,6 @@
       "translation": ""
     },
     {
-      "id": "line-669",
-      "start": 1645.52,
-      "end": 1647.36,
-      "text": "maybe.",
-      "translation": ""
-    },
-    {
       "id": "line-670",
       "start": 1647.36,
       "end": 1649.039,
@@ -4818,13 +4405,6 @@
       "translation": ""
     },
     {
-      "id": "line-689",
-      "start": 1693.919,
-      "end": 1694.559,
-      "text": "here,",
-      "translation": ""
-    },
-    {
       "id": "line-690",
       "start": 1694.559,
       "end": 1696.08,
@@ -4955,13 +4535,6 @@
       "start": 1741.84,
       "end": 1745.679,
       "text": "or the quality is not very good.",
-      "translation": ""
-    },
-    {
-      "id": "line-709",
-      "start": 1745.679,
-      "end": 1746.08,
-      "text": "So",
       "translation": ""
     },
     {
@@ -5109,13 +4682,6 @@
       "start": 1796.32,
       "end": 1799.6,
       "text": "and I heard you speak about UHI instead",
-      "translation": ""
-    },
-    {
-      "id": "line-731",
-      "start": 1799.6,
-      "end": 1800.72,
-      "text": "of UBI.",
       "translation": ""
     },
     {
@@ -5273,24 +4839,10 @@
       "translation": ""
     },
     {
-      "id": "line-754",
-      "start": 1844.88,
-      "end": 1849.141,
-      "text": ">> Uh not me. [laughter]",
-      "translation": ""
-    },
-    {
       "id": "line-755",
       "start": 1849.36,
       "end": 1850.88,
       "text": ">> I think the Europeans.",
-      "translation": ""
-    },
-    {
-      "id": "line-756",
-      "start": 1850.88,
-      "end": 1854.559,
-      "text": ">> Yeah. Yeah. Uh [laughter]",
       "translation": ""
     },
     {
@@ -5469,13 +5021,6 @@
       "translation": ""
     },
     {
-      "id": "line-782",
-      "start": 1911.679,
-      "end": 1912.72,
-      "text": "to work",
-      "translation": ""
-    },
-    {
       "id": "line-783",
       "start": 1912.72,
       "end": 1915.76,
@@ -5578,13 +5123,6 @@
       "start": 1948.72,
       "end": 1952.519,
       "text": "store and buy vegetables",
-      "translation": ""
-    },
-    {
-      "id": "line-798",
-      "start": 1952.96,
-      "end": 1954.32,
-      "text": "you know",
       "translation": ""
     },
     {
@@ -5700,13 +5238,6 @@
       "translation": ""
     },
     {
-      "id": "line-815",
-      "start": 1991.76,
-      "end": 1993.76,
-      "text": ">> Um,",
-      "translation": ""
-    },
-    {
       "id": "line-816",
       "start": 1993.76,
       "end": 1996.32,
@@ -5718,13 +5249,6 @@
       "start": 1996.32,
       "end": 1999.12,
       "text": "sure. Um, cuz we're we're really headed",
-      "translation": ""
-    },
-    {
-      "id": "line-818",
-      "start": 1999.12,
-      "end": 2000.88,
-      "text": "into",
       "translation": ""
     },
     {
@@ -5774,13 +5298,6 @@
       "start": 2011.76,
       "end": 2015.12,
       "text": "means you don't know what happens. Um,",
-      "translation": ""
-    },
-    {
-      "id": "line-826",
-      "start": 2015.12,
-      "end": 2017.12,
-      "text": "so",
       "translation": ""
     },
     {
@@ -5994,20 +5511,6 @@
       "translation": ""
     },
     {
-      "id": "line-857",
-      "start": 2091.52,
-      "end": 2092.399,
-      "text": "value",
-      "translation": ""
-    },
-    {
-      "id": "line-858",
-      "start": 2092.399,
-      "end": 2092.72,
-      "text": ">> yes",
-      "translation": ""
-    },
-    {
       "id": "line-859",
       "start": 2092.72,
       "end": 2095.119,
@@ -6019,13 +5522,6 @@
       "start": 2095.119,
       "end": 2097.989,
       "text": "10 marshmallows. I mean, who wants that?",
-      "translation": ""
-    },
-    {
-      "id": "line-861",
-      "start": 2097.989,
-      "end": 2099.92,
-      "text": "[laughter]",
       "translation": ""
     },
     {
@@ -6071,13 +5567,6 @@
       "translation": ""
     },
     {
-      "id": "line-868",
-      "start": 2109.839,
-      "end": 2112.24,
-      "text": ">> That's interesting. [laughter]",
-      "translation": ""
-    },
-    {
       "id": "line-869",
       "start": 2112.24,
       "end": 2113.599,
@@ -6113,13 +5602,6 @@
       "translation": ""
     },
     {
-      "id": "line-874",
-      "start": 2121.2,
-      "end": 2123.76,
-      "text": ">> Yeah. [laughter]",
-      "translation": ""
-    },
-    {
       "id": "line-875",
       "start": 2123.76,
       "end": 2126,
@@ -6131,13 +5613,6 @@
       "start": 2126,
       "end": 2128.24,
       "text": ">> I think you're the best.",
-      "translation": ""
-    },
-    {
-      "id": "line-877",
-      "start": 2128.24,
-      "end": 2130.24,
-      "text": ">> Who does? [laughter]",
       "translation": ""
     },
     {
@@ -6190,13 +5665,6 @@
       "translation": ""
     },
     {
-      "id": "line-885",
-      "start": 2140.8,
-      "end": 2142.16,
-      "text": "says delay gratification. [laughter]",
-      "translation": ""
-    },
-    {
       "id": "line-886",
       "start": 2142.16,
       "end": 2143.68,
@@ -6208,13 +5676,6 @@
       "start": 2143.68,
       "end": 2144.72,
       "text": "You're really taking the marshmallow",
-      "translation": ""
-    },
-    {
-      "id": "line-888",
-      "start": 2144.72,
-      "end": 2147.72,
-      "text": "test.",
       "translation": ""
     },
     {
@@ -6260,13 +5721,6 @@
       "translation": ""
     },
     {
-      "id": "line-895",
-      "start": 2158.249,
-      "end": 2160.269,
-      "text": "[laughter]",
-      "translation": ""
-    },
-    {
       "id": "line-896",
       "start": 2161.2,
       "end": 2162.88,
@@ -6278,13 +5732,6 @@
       "start": 2162.88,
       "end": 2164.48,
       "text": "mean, you can't miss it.",
-      "translation": ""
-    },
-    {
-      "id": "line-898",
-      "start": 2164.48,
-      "end": 2167.04,
-      "text": ">> If you could get [laughter]",
       "translation": ""
     },
     {
@@ -6330,27 +5777,6 @@
       "translation": ""
     },
     {
-      "id": "line-905",
-      "start": 2176.48,
-      "end": 2178,
-      "text": "you do?",
-      "translation": ""
-    },
-    {
-      "id": "line-906",
-      "start": 2178,
-      "end": 2179.865,
-      "text": "Well,",
-      "translation": ""
-    },
-    {
-      "id": "line-907",
-      "start": 2179.865,
-      "end": 2181.885,
-      "text": "[laughter]",
-      "translation": ""
-    },
-    {
       "id": "line-908",
       "start": 2183.92,
       "end": 2186.32,
@@ -6362,13 +5788,6 @@
       "start": 2186.32,
       "end": 2189.44,
       "text": "Honestly, sometimes I wonder what what's",
-      "translation": ""
-    },
-    {
-      "id": "line-910",
-      "start": 2189.44,
-      "end": 2193.675,
-      "text": "wrong with me. Um [laughter]",
       "translation": ""
     },
     {
@@ -6393,24 +5812,10 @@
       "translation": ""
     },
     {
-      "id": "line-914",
-      "start": 2206.72,
-      "end": 2208.74,
-      "text": ">> [laughter]",
-      "translation": ""
-    },
-    {
       "id": "line-915",
       "start": 2208.88,
       "end": 2210.8,
       "text": ">> the pre the pre-Cambian era when there",
-      "translation": ""
-    },
-    {
-      "id": "line-916",
-      "start": 2210.8,
-      "end": 2215.359,
-      "text": "were only sponges. Um the [laughter]",
       "translation": ""
     },
     {
@@ -6771,20 +6176,6 @@
       "translation": ""
     },
     {
-      "id": "line-968",
-      "start": 2358.079,
-      "end": 2359.337,
-      "text": "real?",
-      "translation": ""
-    },
-    {
-      "id": "line-969",
-      "start": 2359.337,
-      "end": 2361.357,
-      "text": ">> [laughter]",
-      "translation": ""
-    },
-    {
       "id": "line-970",
       "start": 2362.64,
       "end": 2364.16,
@@ -6803,13 +6194,6 @@
       "start": 2366.16,
       "end": 2369.52,
       "text": "very useful to me. Um, but but it",
-      "translation": ""
-    },
-    {
-      "id": "line-973",
-      "start": 2369.52,
-      "end": 2371.68,
-      "text": "illustrates my point that if [laughter]",
       "translation": ""
     },
     {
@@ -6887,13 +6271,6 @@
       "start": 2399.52,
       "end": 2403.28,
       "text": "ago to create a more efficient",
-      "translation": ""
-    },
-    {
-      "id": "line-985",
-      "start": 2403.28,
-      "end": 2406.28,
-      "text": "um",
       "translation": ""
     },
     {
@@ -7135,13 +6512,6 @@
       "translation": ""
     },
     {
-      "id": "line-1020",
-      "start": 2488.96,
-      "end": 2490.64,
-      "text": "a kid.",
-      "translation": ""
-    },
-    {
       "id": "line-1021",
       "start": 2490.64,
       "end": 2494.8,
@@ -7153,13 +6523,6 @@
       "start": 2494.8,
       "end": 2498.198,
       "text": "mother is the one that named him X.",
-      "translation": ""
-    },
-    {
-      "id": "line-1023",
-      "start": 2498.198,
-      "end": 2498.24,
-      "text": "[laughter]",
       "translation": ""
     },
     {
@@ -7188,13 +6551,6 @@
       "start": 2504,
       "end": 2506.56,
       "text": "I I said to her, like, look, I do have",
-      "translation": ""
-    },
-    {
-      "id": "line-1028",
-      "start": 2506.56,
-      "end": 2510.043,
-      "text": "X.com, you know. [laughter]",
       "translation": ""
     },
     {
@@ -7247,24 +6603,10 @@
       "translation": ""
     },
     {
-      "id": "line-1036",
-      "start": 2522.16,
-      "end": 2524.4,
-      "text": ">> No, [laughter] I'm saying it's it's",
-      "translation": ""
-    },
-    {
       "id": "line-1037",
       "start": 2524.4,
       "end": 2526.96,
       "text": "somewhat of a co coincidence, you know.",
-      "translation": ""
-    },
-    {
-      "id": "line-1038",
-      "start": 2526.96,
-      "end": 2528.4,
-      "text": ">> Um,",
       "translation": ""
     },
     {
@@ -7279,20 +6621,6 @@
       "start": 2529.839,
       "end": 2531.52,
       "text": "Tesla's there's no X's in Tesla, you",
-      "translation": ""
-    },
-    {
-      "id": "line-1041",
-      "start": 2531.52,
-      "end": 2532.48,
-      "text": "know.",
-      "translation": ""
-    },
-    {
-      "id": "line-1042",
-      "start": 2532.48,
-      "end": 2535.28,
-      "text": ">> Um,",
       "translation": ""
     },
     {
@@ -7660,13 +6988,6 @@
       "translation": ""
     },
     {
-      "id": "line-1095",
-      "start": 2686.16,
-      "end": 2689.119,
-      "text": "Um",
-      "translation": ""
-    },
-    {
       "id": "line-1096",
       "start": 2689.119,
       "end": 2691.2,
@@ -7678,13 +6999,6 @@
       "start": 2691.2,
       "end": 2693.119,
       "text": "energy based.",
-      "translation": ""
-    },
-    {
-      "id": "line-1098",
-      "start": 2693.119,
-      "end": 2693.839,
-      "text": ">> Um",
       "translation": ""
     },
     {
@@ -7751,13 +7065,6 @@
       "translation": ""
     },
     {
-      "id": "line-1108",
-      "start": 2716,
-      "end": 2719.2,
-      "text": "you um",
-      "translation": ""
-    },
-    {
       "id": "line-1109",
       "start": 2719.2,
       "end": 2721.76,
@@ -7783,13 +7090,6 @@
       "start": 2727.2,
       "end": 2730.16,
       "text": "uh allow you to",
-      "translation": ""
-    },
-    {
-      "id": "line-1113",
-      "start": 2730.16,
-      "end": 2732.8,
-      "text": "um",
       "translation": ""
     },
     {
@@ -7891,13 +7191,6 @@
       "translation": ""
     },
     {
-      "id": "line-1128",
-      "start": 2762.24,
-      "end": 2764.56,
-      "text": ">> um",
-      "translation": ""
-    },
-    {
       "id": "line-1129",
       "start": 2764.56,
       "end": 2766.72,
@@ -7926,13 +7219,6 @@
       "translation": ""
     },
     {
-      "id": "line-1133",
-      "start": 2775.359,
-      "end": 2776.88,
-      "text": "where",
-      "translation": ""
-    },
-    {
       "id": "line-1134",
       "start": 2776.88,
       "end": 2779.44,
@@ -7958,13 +7244,6 @@
       "start": 2786.88,
       "end": 2791.2,
       "text": "AI and robots producing chips and solar",
-      "translation": ""
-    },
-    {
-      "id": "line-1138",
-      "start": 2791.2,
-      "end": 2792.88,
-      "text": "panels",
       "translation": ""
     },
     {
@@ -8087,24 +7366,10 @@
       "translation": ""
     },
     {
-      "id": "line-1156",
-      "start": 2837.52,
-      "end": 2838.56,
-      "text": "Um",
-      "translation": ""
-    },
-    {
       "id": "line-1157",
       "start": 2838.56,
       "end": 2840.24,
       "text": ">> do you believe in it today? Do you",
-      "translation": ""
-    },
-    {
-      "id": "line-1158",
-      "start": 2840.24,
-      "end": 2841.2,
-      "text": "believe",
       "translation": ""
     },
     {
@@ -8189,13 +7454,6 @@
       "start": 2866.16,
       "end": 2870.48,
       "text": "robotics at very large scale. Um",
-      "translation": ""
-    },
-    {
-      "id": "line-1171",
-      "start": 2870.48,
-      "end": 2873.2,
-      "text": "the uh",
       "translation": ""
     },
     {
@@ -8486,24 +7744,10 @@
       "translation": ""
     },
     {
-      "id": "line-1213",
-      "start": 2965.874,
-      "end": 2966.48,
-      "text": "[laughter]",
-      "translation": ""
-    },
-    {
       "id": "line-1214",
       "start": 2966.48,
       "end": 2967.68,
       "text": ">> Maybe we can convince it to go somewhere",
-      "translation": ""
-    },
-    {
-      "id": "line-1215",
-      "start": 2967.68,
-      "end": 2968.079,
-      "text": "else.",
       "translation": ""
     },
     {
@@ -8535,13 +7779,6 @@
       "translation": ""
     },
     {
-      "id": "line-1220",
-      "start": 2975.699,
-      "end": 2977.719,
-      "text": "[laughter]",
-      "translation": ""
-    },
-    {
       "id": "line-1221",
       "start": 2978.4,
       "end": 2981.119,
@@ -8553,13 +7790,6 @@
       "start": 2981.119,
       "end": 2984.319,
       "text": ">> If deflation want some coffee,",
-      "translation": ""
-    },
-    {
-      "id": "line-1223",
-      "start": 2984.319,
-      "end": 2986.889,
-      "text": ">> mine is over. [laughter]",
       "translation": ""
     },
     {
@@ -8703,13 +7933,6 @@
       "translation": ""
     },
     {
-      "id": "line-1244",
-      "start": 3037.52,
-      "end": 3039.119,
-      "text": "years.",
-      "translation": ""
-    },
-    {
       "id": "line-1245",
       "start": 3039.119,
       "end": 3041.44,
@@ -8787,13 +8010,6 @@
       "translation": ""
     },
     {
-      "id": "line-1256",
-      "start": 3063.359,
-      "end": 3064.24,
-      "text": ">> Yes.",
-      "translation": ""
-    },
-    {
       "id": "line-1257",
       "start": 3064.24,
       "end": 3064.72,
@@ -8857,13 +8073,6 @@
       "translation": ""
     },
     {
-      "id": "line-1266",
-      "start": 3082.88,
-      "end": 3086,
-      "text": "Agent Smith. [laughter]",
-      "translation": ""
-    },
-    {
       "id": "line-1267",
       "start": 3086,
       "end": 3089.28,
@@ -8882,20 +8091,6 @@
       "start": 3093.2,
       "end": 3094.96,
       "text": "architect is interesting.",
-      "translation": ""
-    },
-    {
-      "id": "line-1270",
-      "start": 3094.96,
-      "end": 3095.52,
-      "text": ">> Mhm.",
-      "translation": ""
-    },
-    {
-      "id": "line-1271",
-      "start": 3095.52,
-      "end": 3096,
-      "text": ">> Um,",
       "translation": ""
     },
     {
@@ -8987,13 +8182,6 @@
       "start": 3120.8,
       "end": 3122.319,
       "text": ">> What percentage would you attribute to",
-      "translation": ""
-    },
-    {
-      "id": "line-1285",
-      "start": 3122.319,
-      "end": 3125.319,
-      "text": "that?",
       "translation": ""
     },
     {
@@ -9242,13 +8430,6 @@
       "translation": ""
     },
     {
-      "id": "line-1321",
-      "start": 3213.839,
-      "end": 3215.359,
-      "text": "of",
-      "translation": ""
-    },
-    {
       "id": "line-1322",
       "start": 3215.359,
       "end": 3217.2,
@@ -9291,13 +8472,6 @@
       "translation": ""
     },
     {
-      "id": "line-1328",
-      "start": 3232.8,
-      "end": 3234.96,
-      "text": "Um",
-      "translation": ""
-    },
-    {
       "id": "line-1329",
       "start": 3234.96,
       "end": 3237.359,
@@ -9337,13 +8511,6 @@
       "start": 3246.48,
       "end": 3248.24,
       "text": "and that and that this has not happened",
-      "translation": ""
-    },
-    {
-      "id": "line-1335",
-      "start": 3248.24,
-      "end": 3251.24,
-      "text": "before?",
       "translation": ""
     },
     {
@@ -9456,13 +8623,6 @@
       "start": 3293.599,
       "end": 3295.359,
       "text": "simulation",
-      "translation": ""
-    },
-    {
-      "id": "line-1352",
-      "start": 3295.359,
-      "end": 3297.839,
-      "text": "um",
       "translation": ""
     },
     {
@@ -9711,13 +8871,6 @@
       "translation": ""
     },
     {
-      "id": "line-1388",
-      "start": 3384.079,
-      "end": 3385.359,
-      "text": ">> Yes.",
-      "translation": ""
-    },
-    {
       "id": "line-1389",
       "start": 3385.359,
       "end": 3386.96,
@@ -9872,20 +9025,6 @@
       "translation": ""
     },
     {
-      "id": "line-1411",
-      "start": 3441.359,
-      "end": 3443.44,
-      "text": "Um",
-      "translation": ""
-    },
-    {
-      "id": "line-1412",
-      "start": 3443.44,
-      "end": 3447.72,
-      "text": "well um",
-      "translation": ""
-    },
-    {
       "id": "line-1413",
       "start": 3449.2,
       "end": 3450.88,
@@ -10009,13 +9148,6 @@
       "start": 3496.96,
       "end": 3499.05,
       "text": "run around murdering people, you know,",
-      "translation": ""
-    },
-    {
-      "id": "line-1431",
-      "start": 3499.05,
-      "end": 3500.64,
-      "text": "[laughter]",
       "translation": ""
     },
     {
@@ -10194,13 +9326,6 @@
       "translation": ""
     },
     {
-      "id": "line-1457",
-      "start": 3567.171,
-      "end": 3568.4,
-      "text": "[laughter]",
-      "translation": ""
-    },
-    {
       "id": "line-1458",
       "start": 3568.4,
       "end": 3570.4,
@@ -10226,13 +9351,6 @@
       "start": 3575.2,
       "end": 3577.359,
       "text": "pro- religion almost not pro- religion",
-      "translation": ""
-    },
-    {
-      "id": "line-1462",
-      "start": 3577.359,
-      "end": 3580.359,
-      "text": "but",
       "translation": ""
     },
     {
@@ -10292,13 +9410,6 @@
       "translation": ""
     },
     {
-      "id": "line-1471",
-      "start": 3602,
-      "end": 3603.2,
-      "text": "easier.",
-      "translation": ""
-    },
-    {
       "id": "line-1472",
       "start": 3603.2,
       "end": 3604.799,
@@ -10313,13 +9424,6 @@
       "translation": ""
     },
     {
-      "id": "line-1474",
-      "start": 3606.96,
-      "end": 3610.16,
-      "text": ">> So, pick one, you know. [laughter]",
-      "translation": ""
-    },
-    {
       "id": "line-1475",
       "start": 3610.16,
       "end": 3612.799,
@@ -10331,13 +9435,6 @@
       "start": 3612.799,
       "end": 3613.92,
       "text": "said, you know, which religion would you",
-      "translation": ""
-    },
-    {
-      "id": "line-1477",
-      "start": 3613.92,
-      "end": 3616.24,
-      "text": "like, you know, [laughter]",
       "translation": ""
     },
     {
@@ -10366,13 +9463,6 @@
       "start": 3622.96,
       "end": 3624.88,
       "text": "uh, you know, like what what do you want",
-      "translation": ""
-    },
-    {
-      "id": "line-1482",
-      "start": 3624.88,
-      "end": 3628.64,
-      "text": "to major in type of thing. Uh [laughter]",
       "translation": ""
     },
     {
@@ -10621,13 +9711,6 @@
       "translation": ""
     },
     {
-      "id": "line-1518",
-      "start": 3722.407,
-      "end": 3723.68,
-      "text": "[laughter]",
-      "translation": ""
-    },
-    {
       "id": "line-1519",
       "start": 3723.68,
       "end": 3725.2,
@@ -10698,13 +9781,6 @@
       "translation": ""
     },
     {
-      "id": "line-1529",
-      "start": 3742.88,
-      "end": 3744.96,
-      "text": "another tribe. [laughter]",
-      "translation": ""
-    },
-    {
       "id": "line-1530",
       "start": 3744.96,
       "end": 3746.319,
@@ -10716,13 +9792,6 @@
       "start": 3746.319,
       "end": 3748.319,
       "text": "lost 10% of the population, you know?",
-      "translation": ""
-    },
-    {
-      "id": "line-1532",
-      "start": 3748.319,
-      "end": 3750.24,
-      "text": ">> Like",
       "translation": ""
     },
     {
@@ -10789,13 +9858,6 @@
       "translation": ""
     },
     {
-      "id": "line-1542",
-      "start": 3771.04,
-      "end": 3772.319,
-      "text": "bucket [laughter]",
-      "translation": ""
-    },
-    {
       "id": "line-1543",
       "start": 3772.319,
       "end": 3775.28,
@@ -10810,13 +9872,6 @@
       "translation": ""
     },
     {
-      "id": "line-1545",
-      "start": 3776.799,
-      "end": 3780.103,
-      "text": "Curtains, you know, [laughter]",
-      "translation": ""
-    },
-    {
       "id": "line-1546",
       "start": 3780.319,
       "end": 3781.44,
@@ -10828,13 +9883,6 @@
       "start": 3781.44,
       "end": 3783.119,
       "text": ">> Maybe that's just literally that was",
-      "translation": ""
-    },
-    {
-      "id": "line-1548",
-      "start": 3783.119,
-      "end": 3786.24,
-      "text": "like that's miserable. [laughter]",
       "translation": ""
     },
     {
@@ -10887,13 +9935,6 @@
       "translation": ""
     },
     {
-      "id": "line-1556",
-      "start": 3795.359,
-      "end": 3796,
-      "text": ">> So,",
-      "translation": ""
-    },
-    {
       "id": "line-1557",
       "start": 3796,
       "end": 3797.76,
@@ -10908,24 +9949,10 @@
       "translation": ""
     },
     {
-      "id": "line-1559",
-      "start": 3800,
-      "end": 3802.799,
-      "text": "Like an army. [laughter]",
-      "translation": ""
-    },
-    {
       "id": "line-1560",
       "start": 3802.799,
       "end": 3804.4,
       "text": ">> I'm trying to get a an entire Roman",
-      "translation": ""
-    },
-    {
-      "id": "line-1561",
-      "start": 3804.4,
-      "end": 3807.4,
-      "text": "legion.",
       "translation": ""
     },
     {
@@ -11125,13 +10152,6 @@
       "translation": ""
     },
     {
-      "id": "line-1590",
-      "start": 3866.96,
-      "end": 3867.839,
-      "text": ">> Wow.",
-      "translation": ""
-    },
-    {
       "id": "line-1591",
       "start": 3867.839,
       "end": 3870,
@@ -11150,13 +10170,6 @@
       "start": 3872.079,
       "end": 3875.28,
       "text": "Did she spend any time in India? Shimon.",
-      "translation": ""
-    },
-    {
-      "id": "line-1594",
-      "start": 3875.28,
-      "end": 3879.664,
-      "text": ">> Uh no she grew up in Canada. [laughter]",
       "translation": ""
     },
     {
@@ -11188,13 +10201,6 @@
       "translation": ""
     },
     {
-      "id": "line-1599",
-      "start": 3887.119,
-      "end": 3888.64,
-      "text": "there?",
-      "translation": ""
-    },
-    {
       "id": "line-1600",
       "start": 3888.64,
       "end": 3893.2,
@@ -11213,13 +10219,6 @@
       "start": 3894.96,
       "end": 3897.68,
       "text": "when she was a baby. Um so I think I",
-      "translation": ""
-    },
-    {
-      "id": "line-1603",
-      "start": 3897.68,
-      "end": 3898.24,
-      "text": "think",
       "translation": ""
     },
     {
@@ -11290,13 +10289,6 @@
       "start": 3921.839,
       "end": 3923.68,
       "text": ">> You know I I definitely have my handful",
-      "translation": ""
-    },
-    {
-      "id": "line-1614",
-      "start": 3923.68,
-      "end": 3927.52,
-      "text": "hands full right now. [laughter] Um, so",
       "translation": ""
     },
     {
@@ -11486,20 +10478,6 @@
       "start": 3999.039,
       "end": 4000.48,
       "text": "it's humanly possible to spend time with",
-      "translation": ""
-    },
-    {
-      "id": "line-1642",
-      "start": 4000.48,
-      "end": 4001.76,
-      "text": "them.",
-      "translation": ""
-    },
-    {
-      "id": "line-1643",
-      "start": 4001.76,
-      "end": 4003.92,
-      "text": "So um",
       "translation": ""
     },
     {
@@ -11727,13 +10705,6 @@
       "translation": ""
     },
     {
-      "id": "line-1676",
-      "start": 4078,
-      "end": 4080.079,
-      "text": ">> Yes.",
-      "translation": ""
-    },
-    {
       "id": "line-1677",
       "start": 4080.079,
       "end": 4082.88,
@@ -11811,13 +10782,6 @@
       "translation": ""
     },
     {
-      "id": "line-1688",
-      "start": 4115.6,
-      "end": 4118.6,
-      "text": "fewer.",
-      "translation": ""
-    },
-    {
       "id": "line-1689",
       "start": 4118.96,
       "end": 4120.96,
@@ -11836,13 +10800,6 @@
       "start": 4123.04,
       "end": 4126.547,
       "text": ">> Well, it's uh maybe you should. Yeah.",
-      "translation": ""
-    },
-    {
-      "id": "line-1692",
-      "start": 4126.547,
-      "end": 4127.92,
-      "text": "[laughter]",
       "translation": ""
     },
     {
@@ -11871,13 +10828,6 @@
       "start": 4135.92,
       "end": 4138.88,
       "text": ">> Well, I mean, you've got this",
-      "translation": ""
-    },
-    {
-      "id": "line-1697",
-      "start": 4138.88,
-      "end": 4141.88,
-      "text": "uh",
       "translation": ""
     },
     {
@@ -11972,13 +10922,6 @@
       "translation": ""
     },
     {
-      "id": "line-1711",
-      "start": 4175.12,
-      "end": 4178.52,
-      "text": "and Um",
-      "translation": ""
-    },
-    {
       "id": "line-1712",
       "start": 4180.719,
       "end": 4182.88,
@@ -12056,13 +10999,6 @@
       "translation": ""
     },
     {
-      "id": "line-1723",
-      "start": 4205.76,
-      "end": 4208.96,
-      "text": "You know, um [laughter]",
-      "translation": ""
-    },
-    {
       "id": "line-1724",
       "start": 4208.96,
       "end": 4210,
@@ -12074,13 +11010,6 @@
       "start": 4210,
       "end": 4213,
       "text": ">> right?",
-      "translation": ""
-    },
-    {
-      "id": "line-1726",
-      "start": 4213.008,
-      "end": 4213.44,
-      "text": "[laughter]",
       "translation": ""
     },
     {
@@ -12158,13 +11087,6 @@
       "start": 4241.36,
       "end": 4244.36,
       "text": "himself.",
-      "translation": ""
-    },
-    {
-      "id": "line-1738",
-      "start": 4244.64,
-      "end": 4245.52,
-      "text": ">> Um",
       "translation": ""
     },
     {
@@ -12252,13 +11174,6 @@
       "translation": ""
     },
     {
-      "id": "line-1751",
-      "start": 4274.579,
-      "end": 4275.28,
-      "text": "[laughter]",
-      "translation": ""
-    },
-    {
       "id": "line-1752",
       "start": 4275.28,
       "end": 4278.08,
@@ -12301,13 +11216,6 @@
       "translation": ""
     },
     {
-      "id": "line-1758",
-      "start": 4295.199,
-      "end": 4296.08,
-      "text": "to you.",
-      "translation": ""
-    },
-    {
       "id": "line-1759",
       "start": 4296.08,
       "end": 4297.92,
@@ -12340,13 +11248,6 @@
       "start": 4303.36,
       "end": 4306.32,
       "text": "essentially at least there's",
-      "translation": ""
-    },
-    {
-      "id": "line-1764",
-      "start": 4306.32,
-      "end": 4309.04,
-      "text": "um",
       "translation": ""
     },
     {
@@ -12438,13 +11339,6 @@
       "start": 4335.6,
       "end": 4339.92,
       "text": "the reactions can take place. Um",
-      "translation": ""
-    },
-    {
-      "id": "line-1778",
-      "start": 4339.92,
-      "end": 4341.76,
-      "text": "so",
       "translation": ""
     },
     {
@@ -12644,13 +11538,6 @@
       "translation": ""
     },
     {
-      "id": "line-1807",
-      "start": 4422.8,
-      "end": 4424,
-      "text": "Um,",
-      "translation": ""
-    },
-    {
       "id": "line-1808",
       "start": 4424,
       "end": 4426.719,
@@ -12697,13 +11584,6 @@
       "start": 4442.48,
       "end": 4443.84,
       "text": "you're going to go to college.",
-      "translation": ""
-    },
-    {
-      "id": "line-1815",
-      "start": 4443.84,
-      "end": 4444.159,
-      "text": ">> Mhm.",
       "translation": ""
     },
     {
@@ -12774,20 +11654,6 @@
       "start": 4469.04,
       "end": 4470.8,
       "text": "the most radical change that we've ever",
-      "translation": ""
-    },
-    {
-      "id": "line-1826",
-      "start": 4470.8,
-      "end": 4472.32,
-      "text": "seen.",
-      "translation": ""
-    },
-    {
-      "id": "line-1827",
-      "start": 4472.32,
-      "end": 4475.32,
-      "text": "Um,",
       "translation": ""
     },
     {
@@ -13274,13 +12140,6 @@
       "translation": ""
     },
     {
-      "id": "line-1897",
-      "start": 4655.52,
-      "end": 4656.48,
-      "text": "then",
-      "translation": ""
-    },
-    {
       "id": "line-1898",
       "start": 4656.48,
       "end": 4659.6,
@@ -13463,13 +12322,6 @@
       "translation": ""
     },
     {
-      "id": "line-1924",
-      "start": 4718,
-      "end": 4718.56,
-      "text": ">> Mhm.",
-      "translation": ""
-    },
-    {
       "id": "line-1925",
       "start": 4718.56,
       "end": 4722.719,
@@ -13488,13 +12340,6 @@
       "start": 4723.6,
       "end": 4724.8,
       "text": ">> The sun will rise tomorrow.",
-      "translation": ""
-    },
-    {
-      "id": "line-1928",
-      "start": 4724.8,
-      "end": 4725.44,
-      "text": ">> Mhm.",
       "translation": ""
     },
     {
@@ -13547,13 +12392,6 @@
       "translation": ""
     },
     {
-      "id": "line-1936",
-      "start": 4744.239,
-      "end": 4745.76,
-      "text": "Um",
-      "translation": ""
-    },
-    {
       "id": "line-1937",
       "start": 4745.76,
       "end": 4748.239,
@@ -13586,13 +12424,6 @@
       "start": 4757.679,
       "end": 4760,
       "text": "going to be helpful for",
-      "translation": ""
-    },
-    {
-      "id": "line-1942",
-      "start": 4760,
-      "end": 4761.84,
-      "text": "AI",
       "translation": ""
     },
     {
@@ -13834,13 +12665,6 @@
       "translation": ""
     },
     {
-      "id": "line-1977",
-      "start": 4848.48,
-      "end": 4849.76,
-      "text": ">> So",
-      "translation": ""
-    },
-    {
       "id": "line-1978",
       "start": 4849.76,
       "end": 4852.719,
@@ -13897,13 +12721,6 @@
       "translation": ""
     },
     {
-      "id": "line-1986",
-      "start": 4865.12,
-      "end": 4867.36,
-      "text": ">> right? [laughter]",
-      "translation": ""
-    },
-    {
       "id": "line-1987",
       "start": 4867.36,
       "end": 4868.96,
@@ -13915,13 +12732,6 @@
       "start": 4868.96,
       "end": 4870.8,
       "text": "going to stop",
-      "translation": ""
-    },
-    {
-      "id": "line-1989",
-      "start": 4870.8,
-      "end": 4872.96,
-      "text": ">> in a lot of what you [laughter]",
       "translation": ""
     },
     {
@@ -13957,13 +12767,6 @@
       "start": 4880.159,
       "end": 4882.239,
       "text": "actually uh most of the time it was not",
-      "translation": ""
-    },
-    {
-      "id": "line-1995",
-      "start": 4882.239,
-      "end": 4884.56,
-      "text": "war. It was farming. [laughter]",
       "translation": ""
     },
     {
@@ -14163,13 +12966,6 @@
       "translation": ""
     },
     {
-      "id": "line-2024",
-      "start": 4944.4,
-      "end": 4946.08,
-      "text": "gentle",
-      "translation": ""
-    },
-    {
       "id": "line-2025",
       "start": 4946.08,
       "end": 4949.12,
@@ -14188,13 +12984,6 @@
       "start": 4950.88,
       "end": 4952.719,
       "text": "because it starts off with like gentle",
-      "translation": ""
-    },
-    {
-      "id": "line-2028",
-      "start": 4952.719,
-      "end": 4954.159,
-      "text": "tavern music",
       "translation": ""
     },
     {
@@ -14265,13 +13054,6 @@
       "start": 4971.6,
       "end": 4972.8,
       "text": "from many other languages.",
-      "translation": ""
-    },
-    {
-      "id": "line-2039",
-      "start": 4972.8,
-      "end": 4973.44,
-      "text": ">> Mhm.",
       "translation": ""
     },
     {
@@ -14387,13 +13169,6 @@
       "translation": ""
     },
     {
-      "id": "line-2056",
-      "start": 5010.159,
-      "end": 5014.137,
-      "text": "mean aren't you a podcaster? [laughter]",
-      "translation": ""
-    },
-    {
       "id": "line-2057",
       "start": 5014.48,
       "end": 5018.08,
@@ -14401,24 +13176,10 @@
       "translation": ""
     },
     {
-      "id": "line-2058",
-      "start": 5018.159,
-      "end": 5020.4,
-      "text": "It's kind of new to me. [laughter]",
-      "translation": ""
-    },
-    {
       "id": "line-2059",
       "start": 5020.4,
       "end": 5023.4,
       "text": ">> Okay.",
-      "translation": ""
-    },
-    {
-      "id": "line-2060",
-      "start": 5024.562,
-      "end": 5025.92,
-      "text": ">> [laughter]",
       "translation": ""
     },
     {
@@ -14440,13 +13201,6 @@
       "start": 5031.84,
       "end": 5035.12,
       "text": "we were debating",
-      "translation": ""
-    },
-    {
-      "id": "line-2064",
-      "start": 5035.12,
-      "end": 5036.639,
-      "text": ">> what",
       "translation": ""
     },
     {
@@ -14800,13 +13554,6 @@
       "translation": ""
     },
     {
-      "id": "line-2115",
-      "start": 5161.459,
-      "end": 5163.04,
-      "text": "[laughter]",
-      "translation": ""
-    },
-    {
       "id": "line-2116",
       "start": 5163.04,
       "end": 5165.6,
@@ -14846,13 +13593,6 @@
       "start": 5174.88,
       "end": 5179.4,
       "text": "world. What would you buy?",
-      "translation": ""
-    },
-    {
-      "id": "line-2122",
-      "start": 5180.08,
-      "end": 5181.76,
-      "text": "Um,",
       "translation": ""
     },
     {
@@ -14926,20 +13666,6 @@
       "translation": ""
     },
     {
-      "id": "line-2133",
-      "start": 5206.08,
-      "end": 5208.719,
-      "text": "Um",
-      "translation": ""
-    },
-    {
-      "id": "line-2134",
-      "start": 5208.719,
-      "end": 5211.199,
-      "text": "so",
-      "translation": ""
-    },
-    {
       "id": "line-2135",
       "start": 5211.199,
       "end": 5215.28,
@@ -14975,13 +13701,6 @@
       "translation": ""
     },
     {
-      "id": "line-2140",
-      "start": 5229.92,
-      "end": 5231.44,
-      "text": "Um,",
-      "translation": ""
-    },
-    {
       "id": "line-2141",
       "start": 5231.44,
       "end": 5234.159,
@@ -15014,13 +13733,6 @@
       "start": 5241.6,
       "end": 5243.92,
       "text": "from an AI standpoint.",
-      "translation": ""
-    },
-    {
-      "id": "line-2146",
-      "start": 5243.92,
-      "end": 5245.92,
-      "text": "Um,",
       "translation": ""
     },
     {
@@ -15094,31 +13806,10 @@
       "translation": ""
     },
     {
-      "id": "line-2157",
-      "start": 5277.04,
-      "end": 5279.92,
-      "text": "where",
-      "translation": ""
-    },
-    {
       "id": "line-2158",
       "start": 5279.92,
       "end": 5283.44,
       "text": "everybody loves David and hates Goliath.",
-      "translation": ""
-    },
-    {
-      "id": "line-2159",
-      "start": 5283.44,
-      "end": 5284.8,
-      "text": ">> Why?",
-      "translation": ""
-    },
-    {
-      "id": "line-2160",
-      "start": 5284.8,
-      "end": 5286.239,
-      "text": ">> Uh",
       "translation": ""
     },
     {
@@ -15133,13 +13824,6 @@
       "start": 5288.639,
       "end": 5290.159,
       "text": "stone in the forehead, you know.",
-      "translation": ""
-    },
-    {
-      "id": "line-2163",
-      "start": 5290.159,
-      "end": 5291.28,
-      "text": ">> Yeah. [laughter] Yeah.",
       "translation": ""
     },
     {
@@ -15199,13 +13883,6 @@
       "translation": ""
     },
     {
-      "id": "line-2172",
-      "start": 5308.836,
-      "end": 5310.88,
-      "text": "[laughter] Just kite the boss. I mean,",
-      "translation": ""
-    },
-    {
       "id": "line-2173",
       "start": 5310.88,
       "end": 5312.719,
@@ -15217,20 +13894,6 @@
       "start": 5312.719,
       "end": 5314,
       "text": "it doesn't matter, you know? It's never",
-      "translation": ""
-    },
-    {
-      "id": "line-2175",
-      "start": 5314,
-      "end": 5317.406,
-      "text": "never going to catch you. [laughter]",
-      "translation": ""
-    },
-    {
-      "id": "line-2176",
-      "start": 5318,
-      "end": 5319.84,
-      "text": "Yeah.",
       "translation": ""
     },
     {
@@ -15269,20 +13932,6 @@
       "translation": ""
     },
     {
-      "id": "line-2182",
-      "start": 5329.76,
-      "end": 5331.44,
-      "text": ">> nobody hits me in the for [laughter] you",
-      "translation": ""
-    },
-    {
-      "id": "line-2183",
-      "start": 5331.44,
-      "end": 5332.639,
-      "text": "know.",
-      "translation": ""
-    },
-    {
       "id": "line-2184",
       "start": 5332.639,
       "end": 5333.199,
@@ -15311,13 +13960,6 @@
       "translation": ""
     },
     {
-      "id": "line-2188",
-      "start": 5338.639,
-      "end": 5340.32,
-      "text": ">> Yeah. [laughter]",
-      "translation": ""
-    },
-    {
       "id": "line-2189",
       "start": 5340.32,
       "end": 5344.12,
@@ -15325,31 +13967,10 @@
       "translation": ""
     },
     {
-      "id": "line-2190",
-      "start": 5344.206,
-      "end": 5345.76,
-      "text": "[laughter]",
-      "translation": ""
-    },
-    {
-      "id": "line-2191",
-      "start": 5345.76,
-      "end": 5346.4,
-      "text": "Yeah.",
-      "translation": ""
-    },
-    {
       "id": "line-2192",
       "start": 5346.4,
       "end": 5349.4,
       "text": ">> Yeah.",
-      "translation": ""
-    },
-    {
-      "id": "line-2193",
-      "start": 5350.756,
-      "end": 5352.776,
-      "text": "[laughter]",
       "translation": ""
     },
     {
@@ -15409,13 +14030,6 @@
       "translation": ""
     },
     {
-      "id": "line-2202",
-      "start": 5366.639,
-      "end": 5368.639,
-      "text": "I'd rather die. [laughter]",
-      "translation": ""
-    },
-    {
       "id": "line-2203",
       "start": 5368.639,
       "end": 5370.239,
@@ -15427,13 +14041,6 @@
       "start": 5370.239,
       "end": 5373.027,
       "text": "more hour in the hot sun,",
-      "translation": ""
-    },
-    {
-      "id": "line-2205",
-      "start": 5373.027,
-      "end": 5374.159,
-      "text": "[laughter]",
       "translation": ""
     },
     {
@@ -15465,13 +14072,6 @@
       "translation": ""
     },
     {
-      "id": "line-2210",
-      "start": 5382.852,
-      "end": 5384.872,
-      "text": "[laughter]",
-      "translation": ""
-    },
-    {
       "id": "line-2211",
       "start": 5387.52,
       "end": 5388.639,
@@ -15493,13 +14093,6 @@
       "translation": ""
     },
     {
-      "id": "line-2214",
-      "start": 5392.022,
-      "end": 5393.36,
-      "text": "[laughter]",
-      "translation": ""
-    },
-    {
       "id": "line-2215",
       "start": 5393.36,
       "end": 5394.56,
@@ -15511,13 +14104,6 @@
       "start": 5394.56,
       "end": 5397.262,
       "text": "minute. Take your armor off.",
-      "translation": ""
-    },
-    {
-      "id": "line-2217",
-      "start": 5397.262,
-      "end": 5398.48,
-      "text": ">> [laughter]",
       "translation": ""
     },
     {
@@ -15563,13 +14149,6 @@
       "translation": ""
     },
     {
-      "id": "line-2224",
-      "start": 5411.672,
-      "end": 5413.6,
-      "text": "[laughter]",
-      "translation": ""
-    },
-    {
       "id": "line-2225",
       "start": 5413.6,
       "end": 5414.4,
@@ -15588,13 +14167,6 @@
       "start": 5415.84,
       "end": 5417.567,
       "text": "do you think?",
-      "translation": ""
-    },
-    {
-      "id": "line-2228",
-      "start": 5417.567,
-      "end": 5419.52,
-      "text": "[laughter]",
       "translation": ""
     },
     {
@@ -15731,13 +14303,6 @@
       "translation": ""
     },
     {
-      "id": "line-2248",
-      "start": 5469.04,
-      "end": 5472.643,
-      "text": "next level. [laughter]",
-      "translation": ""
-    },
-    {
       "id": "line-2249",
       "start": 5474.88,
       "end": 5476.8,
@@ -15756,13 +14321,6 @@
       "start": 5478.4,
       "end": 5480.448,
       "text": "going to do unspeakable things to you.",
-      "translation": ""
-    },
-    {
-      "id": "line-2252",
-      "start": 5480.448,
-      "end": 5482.468,
-      "text": "[laughter]",
       "translation": ""
     },
     {
@@ -15941,20 +14499,6 @@
       "translation": ""
     },
     {
-      "id": "line-2278",
-      "start": 5534.239,
-      "end": 5535.92,
-      "text": ">> when you [laughter]",
-      "translation": ""
-    },
-    {
-      "id": "line-2279",
-      "start": 5535.92,
-      "end": 5537.92,
-      "text": "dry",
-      "translation": ""
-    },
-    {
       "id": "line-2280",
       "start": 5537.92,
       "end": 5540.56,
@@ -15973,13 +14517,6 @@
       "start": 5541.12,
       "end": 5542.674,
       "text": ">> are you saying I have a friend?",
-      "translation": ""
-    },
-    {
-      "id": "line-2283",
-      "start": 5542.674,
-      "end": 5544.694,
-      "text": "[laughter]",
       "translation": ""
     },
     {
@@ -16018,13 +14555,6 @@
       "translation": ""
     },
     {
-      "id": "line-2289",
-      "start": 5556.32,
-      "end": 5558.08,
-      "text": ">> Yeah. [laughter]",
-      "translation": ""
-    },
-    {
       "id": "line-2290",
       "start": 5558.08,
       "end": 5561.679,
@@ -16060,13 +14590,6 @@
       "translation": ""
     },
     {
-      "id": "line-2295",
-      "start": 5568.32,
-      "end": 5572.204,
-      "text": "talk words, you know, [laughter]",
-      "translation": ""
-    },
-    {
       "id": "line-2296",
       "start": 5572.239,
       "end": 5575.12,
@@ -16074,24 +14597,10 @@
       "translation": ""
     },
     {
-      "id": "line-2297",
-      "start": 5575.12,
-      "end": 5577.12,
-      "text": "Um,",
-      "translation": ""
-    },
-    {
       "id": "line-2298",
       "start": 5577.12,
       "end": 5578.56,
       "text": "you know, once a while we swim in the",
-      "translation": ""
-    },
-    {
-      "id": "line-2299",
-      "start": 5578.56,
-      "end": 5579.52,
-      "text": "pool,",
       "translation": ""
     },
     {
@@ -16113,13 +14622,6 @@
       "start": 5582.8,
       "end": 5584.48,
       "text": "one can do with friends, you know,",
-      "translation": ""
-    },
-    {
-      "id": "line-2303",
-      "start": 5584.48,
-      "end": 5587.04,
-      "text": ">> chat, [laughter]",
       "translation": ""
     },
     {
@@ -16169,13 +14671,6 @@
       "start": 5601.76,
       "end": 5604.239,
       "text": "anyone else would get out of friendship.",
-      "translation": ""
-    },
-    {
-      "id": "line-2311",
-      "start": 5604.239,
-      "end": 5605.84,
-      "text": "Uh",
       "translation": ""
     },
     {
@@ -16242,13 +14737,6 @@
       "translation": ""
     },
     {
-      "id": "line-2321",
-      "start": 5634,
-      "end": 5637,
-      "text": "Um",
-      "translation": ""
-    },
-    {
       "id": "line-2322",
       "start": 5637.199,
       "end": 5639.28,
@@ -16302,13 +14790,6 @@
       "start": 5652.48,
       "end": 5656,
       "text": ">> kind of a boss all the time.",
-      "translation": ""
-    },
-    {
-      "id": "line-2330",
-      "start": 5656,
-      "end": 5657.44,
-      "text": ">> So",
       "translation": ""
     },
     {
@@ -16459,24 +14940,10 @@
       "translation": ""
     },
     {
-      "id": "line-2352",
-      "start": 5708.39,
-      "end": 5710.32,
-      "text": "[laughter]",
-      "translation": ""
-    },
-    {
       "id": "line-2353",
       "start": 5710.32,
       "end": 5713.631,
       "text": ">> Let's hunt down some friends. Um",
-      "translation": ""
-    },
-    {
-      "id": "line-2354",
-      "start": 5713.631,
-      "end": 5715.44,
-      "text": "[laughter]",
       "translation": ""
     },
     {
@@ -16676,13 +15143,6 @@
       "translation": ""
     },
     {
-      "id": "line-2383",
-      "start": 5786.08,
-      "end": 5789.08,
-      "text": "vain",
-      "translation": ""
-    },
-    {
       "id": "line-2384",
       "start": 5789.52,
       "end": 5793.52,
@@ -16701,13 +15161,6 @@
       "start": 5796.08,
       "end": 5801.08,
       "text": "And which one is bigger of the two?",
-      "translation": ""
-    },
-    {
-      "id": "line-2387",
-      "start": 5802.239,
-      "end": 5805.239,
-      "text": "Um",
       "translation": ""
     },
     {
@@ -16746,13 +15199,6 @@
       "translation": ""
     },
     {
-      "id": "line-2393",
-      "start": 5819.741,
-      "end": 5820.96,
-      "text": "[laughter]",
-      "translation": ""
-    },
-    {
       "id": "line-2394",
       "start": 5820.96,
       "end": 5822.719,
@@ -16764,13 +15210,6 @@
       "start": 5822.719,
       "end": 5824.56,
       "text": ">> Yeah, like it's a voltage and amperage,",
-      "translation": ""
-    },
-    {
-      "id": "line-2396",
-      "start": 5824.56,
-      "end": 5826.96,
-      "text": "you know. [laughter]",
       "translation": ""
     },
     {
@@ -16788,13 +15227,6 @@
       "translation": ""
     },
     {
-      "id": "line-2399",
-      "start": 5834.152,
-      "end": 5835.84,
-      "text": "[laughter]",
-      "translation": ""
-    },
-    {
       "id": "line-2400",
       "start": 5835.84,
       "end": 5837.52,
@@ -16802,45 +15234,10 @@
       "translation": ""
     },
     {
-      "id": "line-2401",
-      "start": 5837.52,
-      "end": 5840.757,
-      "text": "if you do that. [laughter]",
-      "translation": ""
-    },
-    {
-      "id": "line-2402",
-      "start": 5844.632,
-      "end": 5846.652,
-      "text": ">> [laughter]",
-      "translation": ""
-    },
-    {
       "id": "line-2403",
       "start": 5850,
       "end": 5851.44,
       "text": ">> Yeah, it's going to be very visceral,",
-      "translation": ""
-    },
-    {
-      "id": "line-2404",
-      "start": 5851.44,
-      "end": 5854.512,
-      "text": "you know. [laughter]",
-      "translation": ""
-    },
-    {
-      "id": "line-2405",
-      "start": 5858.387,
-      "end": 5860.407,
-      "text": "[laughter]",
-      "translation": ""
-    },
-    {
-      "id": "line-2406",
-      "start": 5861.84,
-      "end": 5864.08,
-      "text": ">> Uh",
       "translation": ""
     },
     {
@@ -16879,13 +15276,6 @@
       "translation": ""
     },
     {
-      "id": "line-2412",
-      "start": 5872,
-      "end": 5873.52,
-      "text": "uh",
-      "translation": ""
-    },
-    {
       "id": "line-2413",
       "start": 5873.52,
       "end": 5874.639,
@@ -16914,13 +15304,6 @@
       "translation": ""
     },
     {
-      "id": "line-2417",
-      "start": 5879.6,
-      "end": 5880.08,
-      "text": "and",
-      "translation": ""
-    },
-    {
       "id": "line-2418",
       "start": 5880.08,
       "end": 5882,
@@ -16932,13 +15315,6 @@
       "start": 5882,
       "end": 5884.32,
       "text": ">> Uh sure",
-      "translation": ""
-    },
-    {
-      "id": "line-2420",
-      "start": 5884.32,
-      "end": 5886.32,
-      "text": "um",
       "translation": ""
     },
     {
@@ -16970,13 +15346,6 @@
       "translation": ""
     },
     {
-      "id": "line-2425",
-      "start": 5895.068,
-      "end": 5897.52,
-      "text": "[laughter] a troll h?",
-      "translation": ""
-    },
-    {
       "id": "line-2426",
       "start": 5897.52,
       "end": 5899.119,
@@ -16991,24 +15360,10 @@
       "translation": ""
     },
     {
-      "id": "line-2428",
-      "start": 5901.76,
-      "end": 5902.159,
-      "text": ">> Um,",
-      "translation": ""
-    },
-    {
       "id": "line-2429",
       "start": 5902.159,
       "end": 5903.76,
       "text": ">> he lived a miserable life and died",
-      "translation": ""
-    },
-    {
-      "id": "line-2430",
-      "start": 5903.76,
-      "end": 5904.159,
-      "text": "early.",
       "translation": ""
     },
     {
@@ -17054,13 +15409,6 @@
       "translation": ""
     },
     {
-      "id": "line-2437",
-      "start": 5909.478,
-      "end": 5911.498,
-      "text": "[laughter]",
-      "translation": ""
-    },
-    {
       "id": "line-2438",
       "start": 5913.28,
       "end": 5914.96,
@@ -17082,13 +15430,6 @@
       "translation": ""
     },
     {
-      "id": "line-2441",
-      "start": 5917.199,
-      "end": 5920.668,
-      "text": "you know, [laughter]",
-      "translation": ""
-    },
-    {
       "id": "line-2442",
       "start": 5920.88,
       "end": 5922.239,
@@ -17103,24 +15444,10 @@
       "translation": ""
     },
     {
-      "id": "line-2444",
-      "start": 5923.888,
-      "end": 5925.908,
-      "text": ">> [laughter]",
-      "translation": ""
-    },
-    {
       "id": "line-2445",
       "start": 5926.88,
       "end": 5928.4,
       "text": ">> So he must he might have had some fun",
-      "translation": ""
-    },
-    {
-      "id": "line-2446",
-      "start": 5928.4,
-      "end": 5931.803,
-      "text": "along the way. [laughter]",
       "translation": ""
     },
     {
@@ -17138,31 +15465,10 @@
       "translation": ""
     },
     {
-      "id": "line-2449",
-      "start": 5938.96,
-      "end": 5940.159,
-      "text": "pencil.",
-      "translation": ""
-    },
-    {
-      "id": "line-2450",
-      "start": 5940.159,
-      "end": 5943.593,
-      "text": ">> What? Why? [laughter]",
-      "translation": ""
-    },
-    {
       "id": "line-2451",
       "start": 5946,
       "end": 5947.468,
       "text": ">> Why does he go on about pencils?",
-      "translation": ""
-    },
-    {
-      "id": "line-2452",
-      "start": 5947.468,
-      "end": 5948.639,
-      "text": "[laughter]",
       "translation": ""
     },
     {
@@ -17173,24 +15479,10 @@
       "translation": ""
     },
     {
-      "id": "line-2454",
-      "start": 5950.239,
-      "end": 5953.239,
-      "text": "Sephman",
-      "translation": ""
-    },
-    {
       "id": "line-2455",
       "start": 5955.28,
       "end": 5957.04,
       "text": "keeps talking about pencils. There he",
-      "translation": ""
-    },
-    {
-      "id": "line-2456",
-      "start": 5957.04,
-      "end": 5961.119,
-      "text": "goes again with the pencils. [laughter]",
       "translation": ""
     },
     {
@@ -17208,24 +15500,10 @@
       "translation": ""
     },
     {
-      "id": "line-2459",
-      "start": 5967.118,
-      "end": 5968.159,
-      "text": "[laughter]",
-      "translation": ""
-    },
-    {
       "id": "line-2460",
       "start": 5968.159,
       "end": 5971.96,
       "text": "I'm going to lose my mind.",
-      "translation": ""
-    },
-    {
-      "id": "line-2461",
-      "start": 5972.358,
-      "end": 5972.96,
-      "text": "[laughter]",
       "translation": ""
     },
     {
@@ -17236,31 +15514,10 @@
       "translation": ""
     },
     {
-      "id": "line-2463",
-      "start": 5977.598,
-      "end": 5979.618,
-      "text": ">> [laughter]",
-      "translation": ""
-    },
-    {
-      "id": "line-2464",
-      "start": 5981.199,
-      "end": 5984.859,
-      "text": ">> Don't even mention crayons. [laughter]",
-      "translation": ""
-    },
-    {
       "id": "line-2465",
       "start": 5986.56,
       "end": 5988.719,
       "text": ">> What I find interesting about his pencil",
-      "translation": ""
-    },
-    {
-      "id": "line-2466",
-      "start": 5988.719,
-      "end": 5992.064,
-      "text": "argument. [laughter]",
       "translation": ""
     },
     {
@@ -17467,13 +15724,6 @@
       "translation": ""
     },
     {
-      "id": "line-2496",
-      "start": 6049.44,
-      "end": 6051.6,
-      "text": ">> How do you think [laughter]",
-      "translation": ""
-    },
-    {
       "id": "line-2497",
       "start": 6051.6,
       "end": 6053.04,
@@ -17635,24 +15885,10 @@
       "translation": ""
     },
     {
-      "id": "line-2520",
-      "start": 6100.239,
-      "end": 6104.07,
-      "text": "politics finds you. [laughter]",
-      "translation": ""
-    },
-    {
       "id": "line-2521",
       "start": 6105.76,
       "end": 6106.8,
       "text": ">> It's quite unpleasant.",
-      "translation": ""
-    },
-    {
-      "id": "line-2522",
-      "start": 6106.8,
-      "end": 6108.96,
-      "text": ">> I was reading [laughter]",
       "translation": ""
     },
     {
@@ -17674,13 +15910,6 @@
       "start": 6112.32,
       "end": 6113.84,
       "text": ">> the Teenage Mutant Ninja Turtles.",
-      "translation": ""
-    },
-    {
-      "id": "line-2526",
-      "start": 6113.84,
-      "end": 6115.86,
-      "text": "[laughter]",
       "translation": ""
     },
     {
@@ -17747,13 +15976,6 @@
       "translation": ""
     },
     {
-      "id": "line-2536",
-      "start": 6130.87,
-      "end": 6132.8,
-      "text": "[laughter]",
-      "translation": ""
-    },
-    {
       "id": "line-2537",
       "start": 6132.8,
       "end": 6135.52,
@@ -17768,13 +15990,6 @@
       "translation": ""
     },
     {
-      "id": "line-2539",
-      "start": 6137.04,
-      "end": 6139.36,
-      "text": "\"The nose is too big.\" [laughter]",
-      "translation": ""
-    },
-    {
       "id": "line-2540",
       "start": 6139.36,
       "end": 6141.52,
@@ -17786,13 +16001,6 @@
       "start": 6141.52,
       "end": 6144.92,
       "text": ">> Total power.",
-      "translation": ""
-    },
-    {
-      "id": "line-2542",
-      "start": 6145.92,
-      "end": 6147.92,
-      "text": ">> So, Michelangelo pretended [laughter] to",
       "translation": ""
     },
     {
@@ -17831,13 +16039,6 @@
       "translation": ""
     },
     {
-      "id": "line-2548",
-      "start": 6161.199,
-      "end": 6162.8,
-      "text": ">> Um,",
-      "translation": ""
-    },
-    {
       "id": "line-2549",
       "start": 6162.8,
       "end": 6164.08,
@@ -17849,13 +16050,6 @@
       "start": 6164.08,
       "end": 6166.32,
       "text": "I get involved in politics, it ends up",
-      "translation": ""
-    },
-    {
-      "id": "line-2551",
-      "start": 6166.32,
-      "end": 6170.226,
-      "text": "badly. Um, [laughter]",
       "translation": ""
     },
     {
@@ -17919,13 +16113,6 @@
       "start": 6192.96,
       "end": 6195.52,
       "text": "they're going to go for the jugular. Um,",
-      "translation": ""
-    },
-    {
-      "id": "line-2561",
-      "start": 6195.52,
-      "end": 6197.44,
-      "text": "so",
       "translation": ""
     },
     {
@@ -18314,13 +16501,6 @@
       "translation": ""
     },
     {
-      "id": "line-2617",
-      "start": 6326.4,
-      "end": 6329.392,
-      "text": "Africa. [laughter]",
-      "translation": ""
-    },
-    {
       "id": "line-2618",
       "start": 6330.4,
       "end": 6332.639,
@@ -18332,13 +16512,6 @@
       "start": 6332.639,
       "end": 6335.887,
       "text": "recipients of this money in Africa?\"",
-      "translation": ""
-    },
-    {
-      "id": "line-2620",
-      "start": 6335.887,
-      "end": 6338.8,
-      "text": "[laughter] And then there gets silence.",
       "translation": ""
     },
     {
@@ -18482,24 +16655,10 @@
       "translation": ""
     },
     {
-      "id": "line-2641",
-      "start": 6377.76,
-      "end": 6378.159,
-      "text": "then",
-      "translation": ""
-    },
-    {
       "id": "line-2642",
       "start": 6378.159,
       "end": 6381.083,
       "text": ">> yeah, they're going to see NGO.",
-      "translation": ""
-    },
-    {
-      "id": "line-2643",
-      "start": 6381.083,
-      "end": 6381.199,
-      "text": "[laughter]",
       "translation": ""
     },
     {
@@ -18521,13 +16680,6 @@
       "start": 6384.8,
       "end": 6386.159,
       "text": "want to save the baby pandas? They're",
-      "translation": ""
-    },
-    {
-      "id": "line-2647",
-      "start": 6386.159,
-      "end": 6388.32,
-      "text": "adorable. [laughter] Um but then there's",
       "translation": ""
     },
     {
@@ -18573,13 +16725,6 @@
       "translation": ""
     },
     {
-      "id": "line-2654",
-      "start": 6399.92,
-      "end": 6402.56,
-      "text": "like, \"No.\" Okay. [laughter]",
-      "translation": ""
-    },
-    {
       "id": "line-2655",
       "start": 6402.56,
       "end": 6403.76,
@@ -18591,13 +16736,6 @@
       "start": 6403.76,
       "end": 6406.32,
       "text": "the pandas then? That's all I'm saying.",
-      "translation": ""
-    },
-    {
-      "id": "line-2657",
-      "start": 6406.32,
-      "end": 6407.28,
-      "text": "So,",
       "translation": ""
     },
     {
@@ -18769,13 +16907,6 @@
       "translation": ""
     },
     {
-      "id": "line-2682",
-      "start": 6465.6,
-      "end": 6466.08,
-      "text": ">> Yes.",
-      "translation": ""
-    },
-    {
       "id": "line-2683",
       "start": 6466.08,
       "end": 6468.4,
@@ -18832,13 +16963,6 @@
       "translation": ""
     },
     {
-      "id": "line-2691",
-      "start": 6483.264,
-      "end": 6484.88,
-      "text": ">> [laughter]",
-      "translation": ""
-    },
-    {
       "id": "line-2692",
       "start": 6484.88,
       "end": 6487.28,
@@ -18850,13 +16974,6 @@
       "start": 6487.28,
       "end": 6489.04,
       "text": "immense beneficiary of talent from",
-      "translation": ""
-    },
-    {
-      "id": "line-2694",
-      "start": 6489.04,
-      "end": 6490.239,
-      "text": "India.",
       "translation": ""
     },
     {
@@ -19392,13 +17509,6 @@
       "translation": ""
     },
     {
-      "id": "line-2771",
-      "start": 6674.719,
-      "end": 6677.36,
-      "text": "bad.",
-      "translation": ""
-    },
-    {
       "id": "line-2772",
       "start": 6677.36,
       "end": 6679.6,
@@ -19721,13 +17831,6 @@
       "translation": ""
     },
     {
-      "id": "line-2818",
-      "start": 6802.56,
-      "end": 6804.159,
-      "text": ">> All right. [laughter]",
-      "translation": ""
-    },
-    {
       "id": "line-2819",
       "start": 6804.159,
       "end": 6806.88,
@@ -19805,13 +17908,6 @@
       "translation": ""
     },
     {
-      "id": "line-2830",
-      "start": 6831.76,
-      "end": 6833.36,
-      "text": "Isaiah [applause and music]",
-      "translation": ""
-    },
-    {
       "id": "line-2831",
       "start": 6833.36,
       "end": 6835.119,
@@ -19851,13 +17947,6 @@
       "start": 6842.4,
       "end": 6844.88,
       "text": "conversation. You know, sometimes I take",
-      "translation": ""
-    },
-    {
-      "id": "line-2837",
-      "start": 6844.88,
-      "end": 6846.56,
-      "text": "these answers out of context, [music]",
       "translation": ""
     },
     {

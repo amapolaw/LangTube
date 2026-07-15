@@ -1,7 +1,7 @@
 {
   "id": "es-coco-mrfvsfsp",
   "type": "parse-listening",
-  "status": "pending",
+  "status": "processing",
   "input": {
     "sourceUrl": "",
     "title": "coco",
@@ -12,6 +12,5 @@
     "mediaFilename": "coco.mp4"
   },
   "createdAt": "2026-07-11T04:45:59.177Z",
-  "updatedAt": "2026-07-13T10:03:39.545Z",
-  "error": "离线稳妥模式：跳过 LLM，使用规则 + 词典；规则模式：1559 词汇，1643 句型；参考资料增强（SpanishDict(https://www.spanishdict.com/)、CuteSlator(https://www.cuteslator.com/dictionary/es)、西语助手(https://www.esdict.cn/)）：词汇释义 0/1559，句型讲解 1643/1643"
+  "updatedAt": "2026-07-14T02:20:38.836Z"
 }

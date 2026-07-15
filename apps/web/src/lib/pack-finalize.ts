@@ -8,6 +8,8 @@ import {
   filterPackByLevel,
   lookupJaLexicon,
 } from "@/lib/level-reference/filter";
+import { isBasicSkipWord } from "@/lib/vocab-extract";
+import { isCompleteLearningSentence } from "@/lib/transcript-noise-filter";
 
 function normalizeWordKey(word: string, lang: SupportedLanguage): string {
   const w = word.trim();
@@ -50,6 +52,14 @@ export function dedupeVocabularyForManifest(
       existing.partOfSpeech = item.partOfSpeech;
     }
     if (!existing.level && item.level) existing.level = item.level;
+    if (!existing.glossEn && item.glossEn) existing.glossEn = item.glossEn;
+    if (!existing.glossJa && item.glossJa) existing.glossJa = item.glossJa;
+    if (!existing.lemma && item.lemma) existing.lemma = item.lemma;
+    if (!existing.dictUrl && item.dictUrl) existing.dictUrl = item.dictUrl;
+    if (!existing.etymology && item.etymology) existing.etymology = item.etymology;
+    if (!existing.notes && item.notes) existing.notes = item.notes;
+    if (item.isAcronym) existing.isAcronym = true;
+    if (item.isLoanword) existing.isLoanword = true;
   }
   return Array.from(map.values()).map((v, i) => ({
     ...v,
@@ -106,6 +116,7 @@ export function finalizeManifestForListen(pack: ContentPack): {
   );
 
   let vocabulary = dedupeVocabularyForManifest(filtered.vocabulary, lang);
+  vocabulary = vocabulary.filter((v) => !isBasicSkipWord(v.word, lang));
   if (lang === "ja") {
     vocabulary = vocabulary.map((v) => {
       const lex = lookupJaLexicon(v.word);
@@ -119,7 +130,9 @@ export function finalizeManifestForListen(pack: ContentPack): {
     });
   }
 
-  const patterns = dedupePatternsByGrammar(filtered.patterns);
+  const patterns = dedupePatternsByGrammar(
+    filtered.patterns.filter((p) => isCompleteLearningSentence(p.pattern, lang))
+  );
 
   pack.manifest.vocabulary = vocabulary;
   pack.manifest.patterns = patterns;

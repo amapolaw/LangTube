@@ -3,6 +3,7 @@ import {
   extractVocabulary,
   extractPatterns,
   isLikelyWordNotPhrase,
+  isBasicSkipWord,
 } from "@/lib/vocab-extract";
 import { enrichFromReference, type EnrichReferenceOptions } from "@/lib/llm/enrich-from-reference";
 import { ensureFullPatterns } from "@/lib/pack-patterns";
@@ -23,10 +24,12 @@ export async function enrichOffline(
   }
 
   const vocab = await extractVocabulary(lines, pack.manifest.sourceLang);
-  pack.manifest.vocabulary = vocab.filter((v) =>
-    isLikelyWordNotPhrase(v.word, pack.manifest.sourceLang)
+  pack.manifest.vocabulary = vocab.filter(
+    (v) =>
+      isLikelyWordNotPhrase(v.word, pack.manifest.sourceLang) &&
+      !isBasicSkipWord(v.word, pack.manifest.sourceLang)
   );
-  pack.manifest.patterns = extractPatterns(lines);
+  pack.manifest.patterns = extractPatterns(lines, pack.manifest.sourceLang);
   ensureFullPatterns(pack);
 
   const ref = await enrichFromReference(pack, referenceOptions);

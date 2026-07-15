@@ -37,6 +37,7 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { Progress } from "@/components/ui/progress";
+import { DraggableSubtitleOverlay } from "@/components/listen/draggable-subtitle-overlay";
 import { Star } from "lucide-react";
 
 export default function ListenDetailPage({
@@ -66,6 +67,8 @@ export default function ListenDetailPage({
   const [parseMessage, setParseMessage] = useState("");
   const [loadError, setLoadError] = useState("");
   const [videoTime, setVideoTime] = useState(0);
+  const [subtitleOffsetSec, setSubtitleOffsetSec] = useState(0);
+  const [realigning, setRealigning] = useState(false);
   const videoRef = useRef<HTMLVideoElement>(null);
   const subtitleListRef = useRef<HTMLDivElement>(null);
   const activeSubtitleRef = useRef<HTMLDivElement>(null);
@@ -306,12 +309,48 @@ export default function ListenDetailPage({
 
   const activeLine = useMemo(() => {
     if (!pack) return null;
+    const t = videoTime - subtitleOffsetSec;
     return (
-      linesInSegment.find((l) => videoTime >= l.start && videoTime < l.end) ??
+      linesInSegment.find((l) => t >= l.start && t < l.end) ??
       linesInSegment[currentLine] ??
       null
     );
-  }, [pack, linesInSegment, currentLine, videoTime]);
+  }, [pack, linesInSegment, currentLine, videoTime, subtitleOffsetSec]);
+
+  async function realignSubtitles(
+    mode: "speech-rate" | "offset" | "refetch",
+    extra?: { offsetSec?: number }
+  ) {
+    if (!pack) return;
+    setRealigning(true);
+    setParseMessage(
+      mode === "speech-rate"
+        ? "正在按语速重排字幕时间轴…"
+        : mode === "offset"
+          ? "正在平移字幕时间轴…"
+          : "正在从链接拉取带时间轴字幕…"
+    );
+    try {
+      const res = await fetch(
+        `/api/materials/${encodeURIComponent(pack.manifest.id)}/realign-subtitles`,
+        {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ mode, ...extra }),
+        }
+      );
+      const data = await res.json();
+      setParseMessage(data.message || (data.ok ? "对齐完成" : "对齐失败"));
+      if (data.ok) {
+        setSubtitleOffsetSec(0);
+        await loadPack(materialId);
+      }
+    } catch {
+      setParseMessage("字幕对齐请求失败");
+    } finally {
+      setRealigning(false);
+    }
+  }
 
   async function toggleMark(
     category: "lines" | "vocabulary" | "patterns",
@@ -420,10 +459,24 @@ export default function ListenDetailPage({
 
   useEffect(() => {
     if (!pack) return;
+    const lines = pack.transcript.lines ?? [];
+    const fullEnd =
+      lines.length > 0
+        ? lines[lines.length - 1].end
+        : pack.segments[mode]?.[0]?.end ?? 300;
     const seg = pack.segments[mode]?.[0];
+    // 字幕跟随覆盖全片；勿被「泛听建议 3 分钟」截断
+    if (mode === "extensive") {
+      setSegmentStart(0);
+      setSegmentEnd(Math.max(fullEnd, 60));
+      return;
+    }
     if (seg) {
       setSegmentStart(seg.start);
-      setSegmentEnd(seg.end);
+      setSegmentEnd(Math.max(seg.end, fullEnd));
+    } else {
+      setSegmentStart(0);
+      setSegmentEnd(Math.max(fullEnd, 60));
     }
   }, [mode, pack]);
 
@@ -434,13 +487,14 @@ export default function ListenDetailPage({
     function onTimeUpdate() {
       const t = video!.currentTime;
       setVideoTime(t);
-      const idx = linesInSegment.findIndex((l) => t >= l.start && t < l.end);
+      const adj = t - subtitleOffsetSec;
+      const idx = linesInSegment.findIndex((l) => adj >= l.start && adj < l.end);
       if (idx >= 0) setCurrentLine(idx);
     }
 
     video.addEventListener("timeupdate", onTimeUpdate);
     return () => video.removeEventListener("timeupdate", onTimeUpdate);
-  }, [pack, linesInSegment]);
+  }, [pack, linesInSegment, subtitleOffsetSec]);
 
   // 字幕对照跟随视频进度自动滚动到当前句
   useEffect(() => {
@@ -628,6 +682,40 @@ export default function ListenDetailPage({
         >
           {showSubtitles ? "字幕开" : "字幕关"}
         </Button>
+        {hasTranscript && (
+          <div className="flex flex-wrap items-center gap-2">
+            <Label className="text-xs">字幕偏移(秒)</Label>
+            <Input
+              type="number"
+              step={0.5}
+              className="w-20"
+              value={subtitleOffsetSec}
+              onChange={(e) => setSubtitleOffsetSec(Number(e.target.value))}
+              title="正数：字幕整体延后；负数：整体提前"
+            />
+            <Button
+              size="sm"
+              variant="outline"
+              disabled={realigning}
+              onClick={() => void realignSubtitles("speech-rate")}
+              title="修复粘贴字幕的假等间隔时间轴，按语速对齐到视频时长"
+            >
+              {realigning ? "对齐中…" : "按语速对齐"}
+            </Button>
+            <Button
+              size="sm"
+              variant="ghost"
+              disabled={realigning || subtitleOffsetSec === 0}
+              onClick={() =>
+                void realignSubtitles("offset", {
+                  offsetSec: subtitleOffsetSec,
+                })
+              }
+            >
+              保存偏移
+            </Button>
+          </div>
+        )}
       </div>
 
       <div className="grid gap-4 lg:grid-cols-[1fr_320px]">
@@ -641,11 +729,10 @@ export default function ListenDetailPage({
                 className="aspect-video w-full rounded-lg bg-black"
               />
               {showSubtitles && activeLine && (
-                <div className="pointer-events-none absolute inset-x-0 bottom-12 px-4 text-center">
-                  <p className="inline-block rounded bg-black/75 px-3 py-1 text-sm text-white">
-                    {activeLine.text}
-                  </p>
-                </div>
+                <DraggableSubtitleOverlay
+                  text={activeLine.text}
+                  materialId={materialId}
+                />
               )}
             </div>
           ) : media?.type === "embed" && media.embedSrc ? (
@@ -809,7 +896,8 @@ export default function ListenDetailPage({
                   onClick={() => {
                     setCurrentLine(i);
                     if (videoRef.current)
-                      videoRef.current.currentTime = line.start;
+                      videoRef.current.currentTime =
+                        line.start + subtitleOffsetSec;
                   }}
                 >
                   <p className="font-medium">{line.text}</p>
@@ -887,12 +975,63 @@ export default function ListenDetailPage({
                     }
                   />
                 </button>
-                <div>
-                  <span className="font-medium">{v.word}</span>
+                <div className="min-w-0">
+                  <div className="flex flex-wrap items-baseline gap-x-2 gap-y-0.5">
+                    <span className="font-medium">{v.word}</span>
+                    {v.reading && (
+                      <span className="text-xs text-muted-foreground">
+                        〔{v.reading}〕
+                      </span>
+                    )}
+                    {v.lemma && v.lemma.toLowerCase() !== v.word.toLowerCase() && (
+                      <span className="text-xs text-muted-foreground">
+                        原型 {v.lemma}
+                      </span>
+                    )}
+                    {v.isAcronym && (
+                      <span className="rounded bg-amber-500/15 px-1 text-[10px] text-amber-800 dark:text-amber-200">
+                        缩写
+                      </span>
+                    )}
+                    {v.isLoanword && (
+                      <span className="rounded bg-sky-500/15 px-1 text-[10px] text-sky-800 dark:text-sky-200">
+                        外来语
+                      </span>
+                    )}
+                  </div>
                   {v.zh && v.zh !== v.word && (
                     <p className="text-sm text-muted-foreground">
-                      {parseRules.vocabLabel}：{v.zh}
+                      中文：{v.zh}
                     </p>
+                  )}
+                  {v.glossEn && (
+                    <p className="text-sm text-muted-foreground">
+                      EN：{v.glossEn}
+                    </p>
+                  )}
+                  {v.glossJa && (
+                    <p className="text-sm text-muted-foreground">
+                      日文：{v.glossJa}
+                    </p>
+                  )}
+                  {v.etymology && (
+                    <p className="text-xs text-muted-foreground">
+                      来源：{v.etymology}
+                    </p>
+                  )}
+                  {v.notes && (
+                    <p className="text-xs text-muted-foreground">{v.notes}</p>
+                  )}
+                  {v.dictUrl && (
+                    <a
+                      href={v.dictUrl}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="text-xs text-primary underline"
+                      onClick={(e) => e.stopPropagation()}
+                    >
+                      词典 / 词形变化
+                    </a>
                   )}
                 </div>
               </label>
@@ -942,8 +1081,11 @@ export default function ListenDetailPage({
                     }
                   />
                 </button>
-                <div>
+                <div className="min-w-0">
                   <p className="text-sm">{p.pattern}</p>
+                  {p.zh && (
+                    <p className="text-xs text-muted-foreground">中文：{p.zh}</p>
+                  )}
                   <p className="text-xs text-muted-foreground">
                     {parseRules.patternLabel}：{p.grammar}
                   </p>

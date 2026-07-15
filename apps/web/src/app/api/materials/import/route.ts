@@ -29,6 +29,10 @@ import {
 import { parseMaterial } from "@/lib/material-parser";
 import { pushLearningData } from "@/lib/github-sync";
 import { learningGoalFromTopics } from "@/lib/material-form";
+import {
+  isLongMaterial,
+  transcriptDurationSec,
+} from "@/lib/parse-token-policy";
 import fs from "fs/promises";
 import path from "path";
 import { getMaterialDir } from "@/lib/paths";
@@ -51,6 +55,12 @@ export async function POST(req: Request) {
   const sourceUrl = formData.get("sourceUrl") as string | null;
   const transcriptText = formData.get("transcriptText") as string | null;
   const linkMaterialId = formData.get("materialId") as string | null;
+  const startParse = formData.get("startParse") === "true";
+  const allowAutoSubtitles = formData.get("allowAutoSubtitles") === "true";
+  const segmentMinutesRaw = formData.get("segmentMinutes");
+  const segmentMinutes = segmentMinutesRaw
+    ? Number(segmentMinutesRaw)
+    : undefined;
 
   const videoFile = formData.get("videoFile") as File | null;
   const subtitleFile = formData.get("subtitleFile") as File | null;
@@ -146,7 +156,8 @@ export async function POST(req: Request) {
   }
 
   const localVideo = uploadedVideoPath || storage.path;
-  if (!lines.length && localVideo) {
+  // 默认不自动 Whisper/抽内嵌字幕：等用户确认或手传 SRT（省 Token）
+  if (!lines.length && localVideo && allowAutoSubtitles) {
     const textSubs = await extractTextSubtitlesFromLocal(localVideo);
     lines = textSubs.lines;
     if (!lines.length) {
@@ -158,7 +169,7 @@ export async function POST(req: Request) {
     }
   }
 
-  if (!lines.length && sourceUrl) {
+  if (!lines.length && sourceUrl && allowAutoSubtitles) {
     const fetched = await fetchSubtitlesFromUrlDetailed(
       sourceUrl,
       sourceLang,
@@ -191,17 +202,17 @@ export async function POST(req: Request) {
             extensive: [
               {
                 start: 0,
-                end: Math.min(180, duration),
-                reason: "开头部分适合泛听，建立整体语境",
-                durationMinutes: 3,
+                end: duration,
+                reason: "全片字幕跟随，适合泛听建立整体语境",
+                durationMinutes: Math.max(1, Math.round(duration / 60)),
               },
             ],
             intensive: [
               {
                 start: Math.min(60, duration * 0.3),
-                end: Math.min(duration, duration * 0.6 + 120),
-                reason: "核心段落句型密集，适合精听",
-                durationMinutes: 10,
+                end: duration,
+                reason: "默认可精听全片；可用开始/结束秒收窄区间",
+                durationMinutes: Math.max(1, Math.round(duration / 60)),
               },
             ],
           }
@@ -209,17 +220,17 @@ export async function POST(req: Request) {
             extensive: [
               {
                 start: 0,
-                end: Math.min(180, duration),
-                reason: "开头部分适合泛听，建立整体语境",
-                durationMinutes: 3,
+                end: duration,
+                reason: "全片字幕跟随，适合泛听建立整体语境",
+                durationMinutes: Math.max(1, Math.round(duration / 60)),
               },
             ],
             intensive: [
               {
                 start: Math.min(60, duration * 0.3),
-                end: Math.min(duration, duration * 0.6 + 120),
-                reason: "核心段落句型密集，适合精听",
-                durationMinutes: 10,
+                end: duration,
+                reason: "默认可精听全片；可用开始/结束秒收窄区间",
+                durationMinutes: Math.max(1, Math.round(duration / 60)),
               },
             ],
           }),
@@ -237,7 +248,7 @@ export async function POST(req: Request) {
         )
       : (existingPack?.manifest.vocabulary ?? []),
     patterns: lines.length
-      ? extractPatterns(lines)
+      ? extractPatterns(lines, sourceLang as MaterialManifest["sourceLang"])
       : (existingPack?.manifest.patterns ?? []),
     parseStatus: "pending",
     enrichmentMode: hasNewSubtitle ? undefined : existingPack?.manifest.enrichmentMode,
@@ -263,7 +274,41 @@ export async function POST(req: Request) {
     console.error("[import] push failed:", err);
   }
 
-  const parseResult = await parseMaterial(id);
+  const durationSec = transcriptDurationSec(lines);
+  const longMaterial = isLongMaterial({
+    lineCount: lines.length,
+    durationSec,
+  });
+  const onlyVideoNoSubtitle =
+    Boolean(resolvedVideoFile?.size) && !hasNewSubtitle && !lines.length;
+
+  if (!startParse) {
+    return NextResponse.json({
+      id,
+      manifest,
+      parseStatus: "pending",
+      lines: lines.length,
+      awaitManualSubtitle: onlyVideoNoSubtitle || (!lines.length && !hasNewSubtitle),
+      needsSegmentConfirm: longMaterial,
+      durationSec,
+      message: onlyVideoNoSubtitle
+        ? "视频已上传。请上传与原声语种一致的 SRT，或确认允许自动获取字幕后再解析。"
+        : hasNewSubtitle
+          ? `字幕已导入（${lines.length} 行）。请确认分段时长后开始解析。`
+          : lines.length
+            ? `已有字幕 ${lines.length} 行。请确认后开始解析。`
+            : "资源已保存。请上传 SRT 或在「准备解析」中确认后再开始。",
+    });
+  }
+
+  const parseResult = await parseMaterial(id, {
+    force: true,
+    allowAutoSubtitles,
+    segmentMinutes:
+      Number.isFinite(segmentMinutes) && (segmentMinutes as number) > 0
+        ? segmentMinutes
+        : undefined,
+  });
   const finalPack = await readContentPack(id);
 
   return NextResponse.json({

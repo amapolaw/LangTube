@@ -15,6 +15,7 @@ import { enrichFromReference, type EnrichReferenceOptions } from "./enrich-from-
 import {
   extractVocabulary,
   isLikelyWordNotPhrase,
+  isBasicSkipWord,
 } from "@/lib/vocab-extract";
 import { buildEnrichSystemPrompt } from "@/lib/parse-rules";
 import { saveContentPack } from "@/lib/data";
@@ -91,7 +92,9 @@ async function enrichWithLlm(pack: ContentPack): Promise<EnrichResult> {
 
       // 增量保存，长素材解析时可轮询看到进度
       pack.manifest.vocabulary = dedupeVocab([...tokenVocab, ...allVocab]).filter(
-        (v) => isLikelyWordNotPhrase(v.word, pack.manifest.sourceLang)
+        (v) =>
+          isLikelyWordNotPhrase(v.word, pack.manifest.sourceLang) &&
+          !isBasicSkipWord(v.word, pack.manifest.sourceLang)
       );
       ensureFullPatterns(pack);
       pack.manifest.enrichmentMode = "llm";
@@ -121,8 +124,10 @@ async function enrichWithLlm(pack: ContentPack): Promise<EnrichResult> {
   }
 
   // 词汇：LLM 结果 + 分词全量合并
-  const mergedVocab = dedupeVocab([...tokenVocab, ...allVocab]).filter((v) =>
-    isLikelyWordNotPhrase(v.word, pack.manifest.sourceLang)
+  const mergedVocab = dedupeVocab([...tokenVocab, ...allVocab]).filter(
+    (v) =>
+      isLikelyWordNotPhrase(v.word, pack.manifest.sourceLang) &&
+      !isBasicSkipWord(v.word, pack.manifest.sourceLang)
   );
   pack.manifest.vocabulary = mergedVocab;
 
@@ -177,9 +182,17 @@ function dedupeVocab(items: VocabularyItem[]): VocabularyItem[] {
       existing.sentenceIds = [
         ...new Set([...existing.sentenceIds, ...item.sentenceIds]),
       ];
-      if ((!existing.zh || existing.zh === existing.word) && item.zh) {
-        existing.zh = item.zh;
+      if (!existing.zh || existing.zh === existing.word) {
+        if (item.zh) existing.zh = item.zh;
       }
+      if (!existing.glossEn && item.glossEn) existing.glossEn = item.glossEn;
+      if (!existing.glossJa && item.glossJa) existing.glossJa = item.glossJa;
+      if (!existing.lemma && item.lemma) existing.lemma = item.lemma;
+      if (!existing.dictUrl && item.dictUrl) existing.dictUrl = item.dictUrl;
+      if (!existing.etymology && item.etymology) existing.etymology = item.etymology;
+      if (!existing.notes && item.notes) existing.notes = item.notes;
+      if (item.isAcronym) existing.isAcronym = true;
+      if (item.isLoanword) existing.isLoanword = true;
       if (!existing.reading && item.reading) existing.reading = item.reading;
       if (!existing.partOfSpeech && item.partOfSpeech) {
         existing.partOfSpeech = item.partOfSpeech;

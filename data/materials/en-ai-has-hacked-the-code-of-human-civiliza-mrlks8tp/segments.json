@@ -2,17 +2,17 @@
   "extensive": [
     {
       "start": 0,
-      "end": 2725.067,
+      "end": 2811.079,
       "reason": "全片字幕跟随，适合泛听建立整体语境",
-      "durationMinutes": 45
+      "durationMinutes": 47
     }
   ],
   "intensive": [
     {
       "start": 60,
-      "end": 2725.067,
+      "end": 2811.079,
       "reason": "默认可精听全片；可用开始/结束秒收窄区间",
-      "durationMinutes": 45
+      "durationMinutes": 47
     }
   ]
 }

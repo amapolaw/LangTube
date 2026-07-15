@@ -1,0 +1,6375 @@
+{
+  "id": "es--c-mo-empiezas-el-d-a-easy-spanish-342-mrlskimu",
+  "title": "¿Cómo empiezas el día? | Easy Spanish 342",
+  "sourceLang": "es",
+  "nativeLang": "zh",
+  "level": "A1",
+  "topics": [
+    "general"
+  ],
+  "sourceUrl": "https://www.bilibili.com/video/BV1Hb4y1K7ww/?spm_id_from=333.337.search-card.all.click&vd_source=575dde8aaa5216721d951e465f92f0d8",
+  "storage": {
+    "mode": "local",
+    "provider": "local",
+    "url": "https://www.bilibili.com/video/BV1Hb4y1K7ww/?spm_id_from=333.337.search-card.all.click&vd_source=575dde8aaa5216721d951e465f92f0d8"
+  },
+  "segments": {
+    "extensive": [
+      {
+        "start": 0,
+        "end": 723.2,
+        "reason": "全片字幕跟随，适合泛听建立整体语境",
+        "durationMinutes": 12
+      }
+    ],
+    "intensive": [
+      {
+        "start": 60,
+        "end": 723.2,
+        "reason": "默认可精听全片；可用开始/结束秒收窄区间",
+        "durationMinutes": 12
+      }
+    ]
+  },
+  "vocabulary": [
+    {
+      "id": "vocab-1",
+      "word": "rutina",
+      "zh": "",
+      "sentenceIds": [
+        "line-6",
+        "line-17",
+        "line-70",
+        "line-102",
+        "line-150",
+        "line-151",
+        "line-152",
+        "line-153",
+        "line-162",
+        "line-166",
+        "line-171",
+        "line-175",
+        "line-185",
+        "line-188",
+        "line-193",
+        "line-200",
+        "line-207",
+        "line-215",
+        "line-258",
+        "line-262"
+      ]
+    },
+    {
+      "id": "vocab-2",
+      "word": "Bueno",
+      "zh": "",
+      "sentenceIds": [
+        "line-4",
+        "line-18",
+        "line-20",
+        "line-49",
+        "line-57",
+        "line-59",
+        "line-78",
+        "line-118",
+        "line-139",
+        "line-146",
+        "line-175",
+        "line-180",
+        "line-200",
+        "line-218",
+        "line-246"
+      ]
+    },
+    {
+      "id": "vocab-3",
+      "word": "tengo",
+      "zh": "",
+      "sentenceIds": [
+        "line-17",
+        "line-44",
+        "line-52",
+        "line-77",
+        "line-79",
+        "line-144",
+        "line-164",
+        "line-170",
+        "line-182",
+        "line-184",
+        "line-215",
+        "line-221",
+        "line-223",
+        "line-240",
+        "line-252"
+      ]
+    },
+    {
+      "id": "vocab-4",
+      "word": "eh",
+      "zh": "",
+      "sentenceIds": [
+        "line-47",
+        "line-75",
+        "line-77",
+        "line-115",
+        "line-151",
+        "line-186",
+        "line-194",
+        "line-199",
+        "line-203",
+        "line-226",
+        "line-240",
+        "line-242",
+        "line-244",
+        "line-258"
+      ]
+    },
+    {
+      "id": "vocab-5",
+      "word": "pues",
+      "zh": "",
+      "sentenceIds": [
+        "line-11",
+        "line-28",
+        "line-49",
+        "line-54",
+        "line-57",
+        "line-84",
+        "line-85",
+        "line-105",
+        "line-112",
+        "line-180",
+        "line-209",
+        "line-235",
+        "line-237"
+      ]
+    },
+    {
+      "id": "vocab-6",
+      "word": "voy",
+      "zh": "",
+      "sentenceIds": [
+        "line-42",
+        "line-51",
+        "line-53",
+        "line-83",
+        "line-96",
+        "line-99",
+        "line-146",
+        "line-147",
+        "line-159",
+        "line-161",
+        "line-169",
+        "line-192",
+        "line-234"
+      ]
+    },
+    {
+      "id": "vocab-7",
+      "word": "día",
+      "zh": "",
+      "sentenceIds": [
+        "line-17",
+        "line-60",
+        "line-72",
+        "line-81",
+        "line-137",
+        "line-141",
+        "line-142",
+        "line-155",
+        "line-161",
+        "line-220",
+        "line-223",
+        "line-258"
+      ]
+    },
+    {
+      "id": "vocab-8",
+      "word": "mañana",
+      "zh": "",
+      "sentenceIds": [
+        "line-12",
+        "line-13",
+        "line-15",
+        "line-32",
+        "line-38",
+        "line-60",
+        "line-120",
+        "line-125",
+        "line-139",
+        "line-197",
+        "line-262"
+      ]
+    },
+    {
+      "id": "vocab-9",
+      "word": "poco",
+      "zh": "",
+      "sentenceIds": [
+        "line-9",
+        "line-66",
+        "line-68",
+        "line-93",
+        "line-121",
+        "line-137",
+        "line-181",
+        "line-205",
+        "line-225",
+        "line-259"
+      ]
+    },
+    {
+      "id": "vocab-10",
+      "word": "hora",
+      "zh": "",
+      "sentenceIds": [
+        "line-1",
+        "line-4",
+        "line-5",
+        "line-8",
+        "line-26",
+        "line-29",
+        "line-34",
+        "line-156",
+        "line-178"
+      ]
+    },
+    {
+      "id": "vocab-11",
+      "word": "café",
+      "zh": "",
+      "sentenceIds": [
+        "line-58",
+        "line-62",
+        "line-65",
+        "line-67",
+        "line-71",
+        "line-73",
+        "line-86",
+        "line-87",
+        "line-89"
+      ]
+    },
+    {
+      "id": "vocab-12",
+      "word": "sea",
+      "zh": "",
+      "sentenceIds": [
+        "line-16",
+        "line-84",
+        "line-127",
+        "line-128",
+        "line-141",
+        "line-142",
+        "line-175",
+        "line-233"
+      ]
+    },
+    {
+      "id": "vocab-13",
+      "word": "hacer",
+      "zh": "",
+      "sentenceIds": [
+        "line-22",
+        "line-52",
+        "line-137",
+        "line-154",
+        "line-157",
+        "line-179",
+        "line-221",
+        "line-235"
+      ]
+    },
+    {
+      "id": "vocab-14",
+      "word": "temprano",
+      "zh": "",
+      "sentenceIds": [
+        "line-24",
+        "line-25",
+        "line-38",
+        "line-41",
+        "line-43",
+        "line-45",
+        "line-177",
+        "line-182"
+      ]
+    },
+    {
+      "id": "vocab-15",
+      "word": "mejor",
+      "zh": "",
+      "sentenceIds": [
+        "line-202",
+        "line-203",
+        "line-204",
+        "line-205",
+        "line-206",
+        "line-207",
+        "line-209",
+        "line-239"
+      ]
+    },
+    {
+      "id": "vocab-16",
+      "word": "hoy",
+      "zh": "",
+      "sentenceIds": [
+        "line-4",
+        "line-9",
+        "line-11",
+        "line-12",
+        "line-19",
+        "line-28",
+        "line-86"
+      ]
+    },
+    {
+      "id": "vocab-17",
+      "word": "dormir",
+      "zh": "",
+      "sentenceIds": [
+        "line-14",
+        "line-184",
+        "line-212",
+        "line-215",
+        "line-218",
+        "line-245",
+        "line-250"
+      ]
+    },
+    {
+      "id": "vocab-18",
+      "word": "siempre",
+      "zh": "",
+      "sentenceIds": [
+        "line-25",
+        "line-75",
+        "line-89",
+        "line-90",
+        "line-94",
+        "line-123",
+        "line-178"
+      ]
+    },
+    {
+      "id": "vocab-19",
+      "word": "entonces",
+      "zh": "",
+      "sentenceIds": [
+        "line-35",
+        "line-68",
+        "line-69",
+        "line-81",
+        "line-132",
+        "line-134",
+        "line-234"
+      ]
+    },
+    {
+      "id": "vocab-20",
+      "word": "cada",
+      "zh": "",
+      "sentenceIds": [
+        "line-136",
+        "line-139",
+        "line-154",
+        "line-155",
+        "line-201",
+        "line-208",
+        "line-209"
+      ]
+    },
+    {
+      "id": "vocab-21",
+      "word": "antes",
+      "zh": "",
+      "sentenceIds": [
+        "line-34",
+        "line-60",
+        "line-211",
+        "line-214",
+        "line-218",
+        "line-250"
+      ]
+    },
+    {
+      "id": "vocab-22",
+      "word": "trabajar",
+      "zh": "",
+      "sentenceIds": [
+        "line-35",
+        "line-42",
+        "line-44",
+        "line-144",
+        "line-159",
+        "line-183"
+      ]
+    },
+    {
+      "id": "vocab-23",
+      "word": "levanto",
+      "zh": "",
+      "sentenceIds": [
+        "line-39",
+        "line-43",
+        "line-57",
+        "line-141",
+        "line-143",
+        "line-234"
+      ]
+    },
+    {
+      "id": "vocab-24",
+      "word": "así",
+      "zh": "",
+      "sentenceIds": [
+        "line-95",
+        "line-109",
+        "line-151",
+        "line-199",
+        "line-222",
+        "line-239"
+      ]
+    },
+    {
+      "id": "vocab-25",
+      "word": "algo",
+      "zh": "",
+      "sentenceIds": [
+        "line-119",
+        "line-122",
+        "line-191",
+        "line-216",
+        "line-235",
+        "line-239"
+      ]
+    },
+    {
+      "id": "vocab-26",
+      "word": "importante",
+      "zh": "",
+      "sentenceIds": [
+        "line-120",
+        "line-150",
+        "line-152",
+        "line-172",
+        "line-175",
+        "line-188"
+      ]
+    },
+    {
+      "id": "vocab-27",
+      "word": "levantas",
+      "zh": "",
+      "sentenceIds": [
+        "line-2",
+        "line-5",
+        "line-26",
+        "line-30",
+        "line-177"
+      ]
+    },
+    {
+      "id": "vocab-28",
+      "word": "todo",
+      "zh": "",
+      "sentenceIds": [
+        "line-5",
+        "line-52",
+        "line-135",
+        "line-183",
+        "line-192"
+      ]
+    },
+    {
+      "id": "vocab-29",
+      "word": "he",
+      "zh": "",
+      "sentenceIds": [
+        "line-11",
+        "line-53",
+        "line-127",
+        "line-128",
+        "line-224"
+      ]
+    },
+    {
+      "id": "vocab-30",
+      "word": "tiempo",
+      "zh": "",
+      "sentenceIds": [
+        "line-21",
+        "line-59",
+        "line-95",
+        "line-145",
+        "line-170"
+      ]
+    },
+    {
+      "id": "vocab-31",
+      "word": "desayunar",
+      "zh": "",
+      "sentenceIds": [
+        "line-22",
+        "line-55",
+        "line-56",
+        "line-57",
+        "line-96"
+      ]
+    },
+    {
+      "id": "vocab-32",
+      "word": "bien",
+      "zh": "",
+      "sentenceIds": [
+        "line-22",
+        "line-80",
+        "line-249",
+        "line-254",
+        "line-255"
+      ]
+    },
+    {
+      "id": "vocab-33",
+      "word": "trabajo",
+      "zh": "",
+      "sentenceIds": [
+        "line-27",
+        "line-37",
+        "line-48",
+        "line-51",
+        "line-83"
+      ]
+    },
+    {
+      "id": "vocab-34",
+      "word": "ir",
+      "zh": "",
+      "sentenceIds": [
+        "line-34",
+        "line-51",
+        "line-61",
+        "line-135",
+        "line-245"
+      ]
+    },
+    {
+      "id": "vocab-35",
+      "word": "después",
+      "zh": "",
+      "sentenceIds": [
+        "line-46",
+        "line-49",
+        "line-53",
+        "line-55",
+        "line-116"
+      ]
+    },
+    {
+      "id": "vocab-36",
+      "word": "hago",
+      "zh": "",
+      "sentenceIds": [
+        "line-52",
+        "line-61",
+        "line-76",
+        "line-246",
+        "line-249"
+      ]
+    },
+    {
+      "id": "vocab-37",
+      "word": "gusta",
+      "zh": "",
+      "sentenceIds": [
+        "line-59",
+        "line-146",
+        "line-184",
+        "line-219",
+        "line-229"
+      ]
+    },
+    {
+      "id": "vocab-38",
+      "word": "desayuno",
+      "zh": "",
+      "sentenceIds": [
+        "line-80",
+        "line-82",
+        "line-86",
+        "line-124",
+        "line-134"
+      ]
+    },
+    {
+      "id": "vocab-39",
+      "word": "puede",
+      "zh": "",
+      "sentenceIds": [
+        "line-91",
+        "line-92",
+        "line-102",
+        "line-111",
+        "line-132"
+      ]
+    },
+    {
+      "id": "vocab-40",
+      "word": "ti",
+      "zh": "",
+      "sentenceIds": [
+        "line-111",
+        "line-120",
+        "line-149",
+        "line-255",
+        "line-258"
+      ]
+    },
+    {
+      "id": "vocab-41",
+      "word": "mí",
+      "zh": "",
+      "sentenceIds": [
+        "line-123",
+        "line-151",
+        "line-188",
+        "line-189",
+        "line-255"
+      ]
+    },
+    {
+      "id": "vocab-42",
+      "word": "intento",
+      "zh": "",
+      "sentenceIds": [
+        "line-124",
+        "line-130",
+        "line-136",
+        "line-137",
+        "line-247"
+      ]
+    },
+    {
+      "id": "vocab-43",
+      "word": "gente",
+      "zh": "",
+      "sentenceIds": [
+        "line-6",
+        "line-202",
+        "line-204",
+        "line-263"
+      ]
+    },
+    {
+      "id": "vocab-44",
+      "word": "tarde",
+      "zh": "",
+      "sentenceIds": [
+        "line-9",
+        "line-129",
+        "line-135",
+        "line-186"
+      ]
+    },
+    {
+      "id": "vocab-45",
+      "word": "horas",
+      "zh": "",
+      "sentenceIds": [
+        "line-12",
+        "line-44",
+        "line-182",
+        "line-244"
+      ]
+    },
+    {
+      "id": "vocab-46",
+      "word": "20",
+      "zh": "",
+      "sentenceIds": [
+        "line-33",
+        "line-36",
+        "line-117",
+        "line-125"
+      ]
+    },
+    {
+      "id": "vocab-47",
+      "word": "cosa",
+      "zh": "",
+      "sentenceIds": [
+        "line-61",
+        "line-209",
+        "line-211",
+        "line-214"
+      ]
+    },
+    {
+      "id": "vocab-48",
+      "word": "luego",
+      "zh": "",
+      "sentenceIds": [
+        "line-83",
+        "line-135",
+        "line-144",
+        "line-146"
+      ]
+    },
+    {
+      "id": "vocab-49",
+      "word": "sé",
+      "zh": "",
+      "sentenceIds": [
+        "line-122",
+        "line-204",
+        "line-208",
+        "line-245"
+      ]
+    },
+    {
+      "id": "vocab-50",
+      "word": "soy",
+      "zh": "",
+      "sentenceIds": [
+        "line-152",
+        "line-180",
+        "line-186",
+        "line-189"
+      ]
+    },
+    {
+      "id": "vocab-51",
+      "word": "debería",
+      "zh": "",
+      "sentenceIds": [
+        "line-238",
+        "line-240",
+        "line-243",
+        "line-246"
+      ]
+    },
+    {
+      "id": "vocab-52",
+      "word": "vamos",
+      "zh": "",
+      "sentenceIds": [
+        "line-4",
+        "line-8",
+        "line-191"
+      ]
+    },
+    {
+      "id": "vocab-53",
+      "word": "acerca",
+      "zh": "",
+      "sentenceIds": [
+        "line-5",
+        "line-260",
+        "line-261"
+      ]
+    },
+    {
+      "id": "vocab-54",
+      "word": "10",
+      "zh": "",
+      "sentenceIds": [
+        "line-13",
+        "line-115",
+        "line-138"
+      ]
+    },
+    {
+      "id": "vocab-55",
+      "word": "esa",
+      "zh": "",
+      "sentenceIds": [
+        "line-26",
+        "line-162",
+        "line-193"
+      ]
+    },
+    {
+      "id": "vocab-56",
+      "word": "Ah",
+      "zh": "",
+      "sentenceIds": [
+        "line-30",
+        "line-66",
+        "line-212"
+      ]
+    },
+    {
+      "id": "vocab-57",
+      "word": "15",
+      "zh": "",
+      "sentenceIds": [
+        "line-32",
+        "line-37",
+        "line-253"
+      ]
+    },
+    {
+      "id": "vocab-58",
+      "word": "prepararme",
+      "zh": "",
+      "sentenceIds": [
+        "line-34",
+        "line-50",
+        "line-62"
+      ]
+    },
+    {
+      "id": "vocab-59",
+      "word": "minutos",
+      "zh": "",
+      "sentenceIds": [
+        "line-36",
+        "line-126",
+        "line-139"
+      ]
+    },
+    {
+      "id": "vocab-60",
+      "word": "mucho",
+      "zh": "",
+      "sentenceIds": [
+        "line-38",
+        "line-132",
+        "line-184"
+      ]
+    },
+    {
+      "id": "vocab-61",
+      "word": "dientes",
+      "zh": "",
+      "sentenceIds": [
+        "line-50",
+        "line-98",
+        "line-217"
+      ]
+    },
+    {
+      "id": "vocab-62",
+      "word": "cocina",
+      "zh": "",
+      "sentenceIds": [
+        "line-61",
+        "line-96",
+        "line-219"
+      ]
+    },
+    {
+      "id": "vocab-63",
+      "word": "puedo",
+      "zh": "",
+      "sentenceIds": [
+        "line-67",
+        "line-80",
+        "line-158"
+      ]
+    },
+    {
+      "id": "vocab-64",
+      "word": "noticias",
+      "zh": "",
+      "sentenceIds": [
+        "line-69",
+        "line-82",
+        "line-232"
+      ]
+    },
+    {
+      "id": "vocab-65",
+      "word": "todas",
+      "zh": "",
+      "sentenceIds": [
+        "line-71",
+        "line-108",
+        "line-248"
+      ]
+    },
+    {
+      "id": "vocab-66",
+      "word": "hecho",
+      "zh": "",
+      "sentenceIds": [
+        "line-89",
+        "line-112",
+        "line-165"
+      ]
+    },
+    {
+      "id": "vocab-67",
+      "word": "nada",
+      "zh": "",
+      "sentenceIds": [
+        "line-94",
+        "line-253",
+        "line-263"
+      ]
+    },
+    {
+      "id": "vocab-68",
+      "word": "noche",
+      "zh": "",
+      "sentenceIds": [
+        "line-99",
+        "line-128",
+        "line-222"
+      ]
+    },
+    {
+      "id": "vocab-69",
+      "word": "tienes",
+      "zh": "",
+      "sentenceIds": [
+        "line-101",
+        "line-173",
+        "line-179"
+      ]
+    },
+    {
+      "id": "vocab-70",
+      "word": "encontrar",
+      "zh": "",
+      "sentenceIds": [
+        "line-103",
+        "line-108",
+        "line-109"
+      ]
+    },
+    {
+      "id": "vocab-71",
+      "word": "tenga",
+      "zh": "",
+      "sentenceIds": [
+        "line-104",
+        "line-110",
+        "line-170"
+      ]
+    },
+    {
+      "id": "vocab-72",
+      "word": "ejemplo",
+      "zh": "",
+      "sentenceIds": [
+        "line-127",
+        "line-139",
+        "line-166"
+      ]
+    },
+    {
+      "id": "vocab-73",
+      "word": "algún",
+      "zh": "",
+      "sentenceIds": [
+        "line-141",
+        "line-142",
+        "line-173"
+      ]
+    },
+    {
+      "id": "vocab-74",
+      "word": "días",
+      "zh": "",
+      "sentenceIds": [
+        "line-143",
+        "line-159",
+        "line-160"
+      ]
+    },
+    {
+      "id": "vocab-75",
+      "word": "oficina",
+      "zh": "",
+      "sentenceIds": [
+        "line-149",
+        "line-160",
+        "line-163"
+      ]
+    },
+    {
+      "id": "vocab-76",
+      "word": "momento",
+      "zh": "",
+      "sentenceIds": [
+        "line-154",
+        "line-155",
+        "line-212"
+      ]
+    },
+    {
+      "id": "vocab-77",
+      "word": "nos",
+      "zh": "",
+      "sentenceIds": [
+        "line-192",
+        "line-198",
+        "line-264"
+      ]
+    },
+    {
+      "id": "vocab-78",
+      "word": "libro",
+      "zh": "",
+      "sentenceIds": [
+        "line-224",
+        "line-225",
+        "line-230"
+      ]
+    },
+    {
+      "id": "vocab-79",
+      "word": "45",
+      "zh": "",
+      "sentenceIds": [
+        "line-2",
+        "line-12"
+      ]
+    },
+    {
+      "id": "vocab-80",
+      "word": "solo",
+      "zh": "",
+      "sentenceIds": [
+        "line-4",
+        "line-74"
+      ]
+    },
+    {
+      "id": "vocab-81",
+      "word": "diaria",
+      "zh": "",
+      "sentenceIds": [
+        "line-6",
+        "line-162"
+      ]
+    },
+    {
+      "id": "vocab-82",
+      "word": "Barcelona",
+      "zh": "",
+      "sentenceIds": [
+        "line-7",
+        "line-20"
+      ]
+    },
+    {
+      "id": "vocab-83",
+      "word": "os",
+      "zh": "",
+      "sentenceIds": [
+        "line-8",
+        "line-260"
+      ]
+    },
+    {
+      "id": "vocab-84",
+      "word": "fin",
+      "zh": "",
+      "sentenceIds": [
+        "line-9",
+        "line-19"
+      ]
+    },
+    {
+      "id": "vocab-85",
+      "word": "semana",
+      "zh": "",
+      "sentenceIds": [
+        "line-9",
+        "line-29"
+      ]
+    },
+    {
+      "id": "vocab-86",
+      "word": "levantado",
+      "zh": "",
+      "sentenceIds": [
+        "line-11",
+        "line-18"
+      ]
+    },
+    {
+      "id": "vocab-87",
+      "word": "30",
+      "zh": "",
+      "sentenceIds": [
+        "line-15",
+        "line-40"
+      ]
+    },
+    {
+      "id": "vocab-88",
+      "word": "aunque",
+      "zh": "",
+      "sentenceIds": [
+        "line-16",
+        "line-136"
+      ]
+    },
+    {
+      "id": "vocab-89",
+      "word": "estoy",
+      "zh": "",
+      "sentenceIds": [
+        "line-18",
+        "line-237"
+      ]
+    },
+    {
+      "id": "vocab-90",
+      "word": "carrera",
+      "zh": "",
+      "sentenceIds": [
+        "line-20",
+        "line-23"
+      ]
+    },
+    {
+      "id": "vocab-91",
+      "word": "bastante",
+      "zh": "",
+      "sentenceIds": [
+        "line-24",
+        "line-74"
+      ]
+    },
+    {
+      "id": "vocab-92",
+      "word": "lunes",
+      "zh": "",
+      "sentenceIds": [
+        "line-28",
+        "line-31"
+      ]
+    },
+    {
+      "id": "vocab-93",
+      "word": "viernes",
+      "zh": "",
+      "sentenceIds": [
+        "line-28",
+        "line-32"
+      ]
+    },
+    {
+      "id": "vocab-94",
+      "word": "claro",
+      "zh": "",
+      "sentenceIds": [
+        "line-28",
+        "line-56"
+      ]
+    },
+    {
+      "id": "vocab-95",
+      "word": "normalmente",
+      "zh": "",
+      "sentenceIds": [
+        "line-30",
+        "line-169"
+      ]
+    },
+    {
+      "id": "vocab-96",
+      "word": "quizás",
+      "zh": "",
+      "sentenceIds": [
+        "line-31",
+        "line-111"
+      ]
+    },
+    {
+      "id": "vocab-97",
+      "word": "Necesito",
+      "zh": "",
+      "sentenceIds": [
+        "line-33",
+        "line-58"
+      ]
+    },
+    {
+      "id": "vocab-98",
+      "word": "Salgo",
+      "zh": "",
+      "sentenceIds": [
+        "line-35",
+        "line-47"
+      ]
+    },
+    {
+      "id": "vocab-99",
+      "word": "casa",
+      "zh": "",
+      "sentenceIds": [
+        "line-35",
+        "line-159"
+      ]
+    },
+    {
+      "id": "vocab-100",
+      "word": "metro",
+      "zh": "",
+      "sentenceIds": [
+        "line-36",
+        "line-70"
+      ]
+    },
+    {
+      "id": "vocab-101",
+      "word": "llego",
+      "zh": "",
+      "sentenceIds": [
+        "line-37",
+        "line-185"
+      ]
+    },
+    {
+      "id": "vocab-102",
+      "word": "sobre",
+      "zh": "",
+      "sentenceIds": [
+        "line-37",
+        "line-183"
+      ]
+    },
+    {
+      "id": "vocab-103",
+      "word": "tan",
+      "zh": "",
+      "sentenceIds": [
+        "line-40",
+        "line-244"
+      ]
+    },
+    {
+      "id": "vocab-104",
+      "word": "empezar",
+      "zh": "",
+      "sentenceIds": [
+        "line-45",
+        "line-60"
+      ]
+    },
+    {
+      "id": "vocab-105",
+      "word": "haces",
+      "zh": "",
+      "sentenceIds": [
+        "line-46",
+        "line-121"
+      ]
+    },
+    {
+      "id": "vocab-106",
+      "word": "cama",
+      "zh": "",
+      "sentenceIds": [
+        "line-47",
+        "line-235"
+      ]
+    },
+    {
+      "id": "vocab-107",
+      "word": "pongo",
+      "zh": "",
+      "sentenceIds": [
+        "line-48",
+        "line-64"
+      ]
+    },
+    {
+      "id": "vocab-108",
+      "word": "vestirme",
+      "zh": "",
+      "sentenceIds": [
+        "line-49",
+        "line-56"
+      ]
+    },
+    {
+      "id": "vocab-109",
+      "word": "baño",
+      "zh": "",
+      "sentenceIds": [
+        "line-52",
+        "line-97"
+      ]
+    },
+    {
+      "id": "vocab-110",
+      "word": "vas",
+      "zh": "",
+      "sentenceIds": [
+        "line-53",
+        "line-179"
+      ]
+    },
+    {
+      "id": "vocab-111",
+      "word": "Cole",
+      "zh": "",
+      "sentenceIds": [
+        "line-53",
+        "line-54"
+      ]
+    },
+    {
+      "id": "vocab-112",
+      "word": "ducharme",
+      "zh": "",
+      "sentenceIds": [
+        "line-54",
+        "line-55"
+      ]
+    },
+    {
+      "id": "vocab-113",
+      "word": "primero",
+      "zh": "",
+      "sentenceIds": [
+        "line-54",
+        "line-67"
+      ]
+    },
+    {
+      "id": "vocab-114",
+      "word": "Luche",
+      "zh": "",
+      "sentenceIds": [
+        "line-55",
+        "line-56"
+      ]
+    },
+    {
+      "id": "vocab-115",
+      "word": "tomo",
+      "zh": "",
+      "sentenceIds": [
+        "line-57",
+        "line-65"
+      ]
+    },
+    {
+      "id": "vocab-116",
+      "word": "ducho",
+      "zh": "",
+      "sentenceIds": [
+        "line-58",
+        "line-68"
+      ]
+    },
+    {
+      "id": "vocab-117",
+      "word": "tener",
+      "zh": "",
+      "sentenceIds": [
+        "line-59",
+        "line-150"
+      ]
+    },
+    {
+      "id": "vocab-118",
+      "word": "sin",
+      "zh": "",
+      "sentenceIds": [
+        "line-67",
+        "line-153"
+      ]
+    },
+    {
+      "id": "vocab-119",
+      "word": "vivir",
+      "zh": "",
+      "sentenceIds": [
+        "line-67",
+        "line-153"
+      ]
+    },
+    {
+      "id": "vocab-120",
+      "word": "miro",
+      "zh": "",
+      "sentenceIds": [
+        "line-68",
+        "line-145"
+      ]
+    },
+    {
+      "id": "vocab-121",
+      "word": "mañanas",
+      "zh": "",
+      "sentenceIds": [
+        "line-72",
+        "line-141"
+      ]
+    },
+    {
+      "id": "vocab-122",
+      "word": "leche",
+      "zh": "",
+      "sentenceIds": [
+        "line-75",
+        "line-87"
+      ]
+    },
+    {
+      "id": "vocab-123",
+      "word": "rico",
+      "zh": "",
+      "sentenceIds": [
+        "line-78",
+        "line-79"
+      ]
+    },
+    {
+      "id": "vocab-124",
+      "word": "jamón",
+      "zh": "",
+      "sentenceIds": [
+        "line-85",
+        "line-87"
+      ]
+    },
+    {
+      "id": "vocab-125",
+      "word": "imagino",
+      "zh": "",
+      "sentenceIds": [
+        "line-102",
+        "line-200"
+      ]
+    },
+    {
+      "id": "vocab-126",
+      "word": "particular",
+      "zh": "",
+      "sentenceIds": [
+        "line-104",
+        "line-119"
+      ]
+    },
+    {
+      "id": "vocab-127",
+      "word": "disponibilidad",
+      "zh": "",
+      "sentenceIds": [
+        "line-105",
+        "line-110"
+      ]
+    },
+    {
+      "id": "vocab-128",
+      "word": "este",
+      "zh": "",
+      "sentenceIds": [
+        "line-106",
+        "line-260"
+      ]
+    },
+    {
+      "id": "vocab-129",
+      "word": "vídeo",
+      "zh": "",
+      "sentenceIds": [
+        "line-106",
+        "line-261"
+      ]
+    },
+    {
+      "id": "vocab-130",
+      "word": "plataforma",
+      "zh": "",
+      "sentenceIds": [
+        "line-107",
+        "line-116"
+      ]
+    },
+    {
+      "id": "vocab-131",
+      "word": "partes",
+      "zh": "",
+      "sentenceIds": [
+        "line-108",
+        "line-242"
+      ]
+    },
+    {
+      "id": "vocab-132",
+      "word": "todos",
+      "zh": "",
+      "sentenceIds": [
+        "line-112",
+        "line-124"
+      ]
+    },
+    {
+      "id": "vocab-133",
+      "word": "nuestro",
+      "zh": "",
+      "sentenceIds": [
+        "line-113",
+        "line-264"
+      ]
+    },
+    {
+      "id": "vocab-134",
+      "word": "ahora",
+      "zh": "",
+      "sentenceIds": [
+        "line-118",
+        "line-255"
+      ]
+    },
+    {
+      "id": "vocab-135",
+      "word": "consigo",
+      "zh": "",
+      "sentenceIds": [
+        "line-136",
+        "line-169"
+      ]
+    },
+    {
+      "id": "vocab-136",
+      "word": "pronto",
+      "zh": "",
+      "sentenceIds": [
+        "line-142",
+        "line-143"
+      ]
+    },
+    {
+      "id": "vocab-137",
+      "word": "jugar",
+      "zh": "",
+      "sentenceIds": [
+        "line-142",
+        "line-144"
+      ]
+    },
+    {
+      "id": "vocab-138",
+      "word": "mis",
+      "zh": "",
+      "sentenceIds": [
+        "line-147",
+        "line-227"
+      ]
+    },
+    {
+      "id": "vocab-139",
+      "word": "levantarme",
+      "zh": "",
+      "sentenceIds": [
+        "line-156",
+        "line-182"
+      ]
+    },
+    {
+      "id": "vocab-140",
+      "word": "otro",
+      "zh": "",
+      "sentenceIds": [
+        "line-156",
+        "line-160"
+      ]
+    },
+    {
+      "id": "vocab-141",
+      "word": "Eso",
+      "zh": "",
+      "sentenceIds": [
+        "line-157",
+        "line-195"
+      ]
+    },
+    {
+      "id": "vocab-142",
+      "word": "gustaría",
+      "zh": "",
+      "sentenceIds": [
+        "line-157",
+        "line-167"
+      ]
+    },
+    {
+      "id": "vocab-143",
+      "word": "otros",
+      "zh": "",
+      "sentenceIds": [
+        "line-159",
+        "line-160"
+      ]
+    },
+    {
+      "id": "vocab-144",
+      "word": "cual",
+      "zh": "",
+      "sentenceIds": [
+        "line-161",
+        "line-190"
+      ]
+    },
+    {
+      "id": "vocab-145",
+      "word": "verdad",
+      "zh": "",
+      "sentenceIds": [
+        "line-162",
+        "line-237"
+      ]
+    },
+    {
+      "id": "vocab-146",
+      "word": "gimnasio",
+      "zh": "",
+      "sentenceIds": [
+        "line-168",
+        "line-169"
+      ]
+    },
+    {
+      "id": "vocab-147",
+      "word": "durante",
+      "zh": "",
+      "sentenceIds": [
+        "line-173",
+        "line-244"
+      ]
+    },
+    {
+      "id": "vocab-148",
+      "word": "menos",
+      "zh": "",
+      "sentenceIds": [
+        "line-177",
+        "line-203"
+      ]
+    },
+    {
+      "id": "vocab-149",
+      "word": "persona",
+      "zh": "",
+      "sentenceIds": [
+        "line-187",
+        "line-189"
+      ]
+    },
+    {
+      "id": "vocab-150",
+      "word": "hace",
+      "zh": "",
+      "sentenceIds": [
+        "line-195",
+        "line-225"
+      ]
+    },
+    {
+      "id": "vocab-151",
+      "word": "personalidad",
+      "zh": "",
+      "sentenceIds": [
+        "line-201",
+        "line-208"
+      ]
+    },
+    {
+      "id": "vocab-152",
+      "word": "uno",
+      "zh": "",
+      "sentenceIds": [
+        "line-201",
+        "line-209"
+      ]
+    },
+    {
+      "id": "vocab-153",
+      "word": "última",
+      "zh": "",
+      "sentenceIds": [
+        "line-211",
+        "line-214"
+      ]
+    },
+    {
+      "id": "vocab-154",
+      "word": "seguramente",
+      "zh": "",
+      "sentenceIds": [
+        "line-217",
+        "line-218"
+      ]
+    },
+    {
+      "id": "vocab-155",
+      "word": "siguiente",
+      "zh": "",
+      "sentenceIds": [
+        "line-220",
+        "line-223"
+      ]
+    },
+    {
+      "id": "vocab-156",
+      "word": "García",
+      "zh": "",
+      "sentenceIds": [
+        "line-225",
+        "line-228"
+      ]
+    },
+    {
+      "id": "vocab-157",
+      "word": "Márquez",
+      "zh": "",
+      "sentenceIds": [
+        "line-226",
+        "line-228"
+      ]
+    },
+    {
+      "id": "vocab-158",
+      "word": "móvil",
+      "zh": "",
+      "sentenceIds": [
+        "line-237",
+        "line-238"
+      ]
+    },
+    {
+      "id": "vocab-159",
+      "word": "mirar",
+      "zh": "",
+      "sentenceIds": [
+        "line-239",
+        "line-248"
+      ]
+    },
+    {
+      "id": "vocab-160",
+      "word": "último",
+      "zh": "",
+      "sentenceIds": [
+        "line-247",
+        "line-249"
+      ]
+    },
+    {
+      "id": "vocab-161",
+      "word": "alarmas",
+      "zh": "",
+      "sentenceIds": [
+        "line-248",
+        "line-250"
+      ]
+    },
+    {
+      "id": "vocab-162",
+      "word": "ver",
+      "zh": "",
+      "sentenceIds": [
+        "line-248",
+        "line-260"
+      ]
+    },
+    {
+      "id": "vocab-163",
+      "word": "varias",
+      "zh": "",
+      "sentenceIds": [
+        "line-251",
+        "line-252"
+      ]
+    },
+    {
+      "id": "vocab-164",
+      "word": "Sara",
+      "zh": "",
+      "sentenceIds": [
+        "line-2"
+      ]
+    },
+    {
+      "id": "vocab-165",
+      "word": "has",
+      "zh": "",
+      "sentenceIds": [
+        "line-2"
+      ]
+    },
+    {
+      "id": "vocab-166",
+      "word": "copiado",
+      "zh": "",
+      "sentenceIds": [
+        "line-3"
+      ]
+    },
+    {
+      "id": "vocab-167",
+      "word": "misma",
+      "zh": "",
+      "sentenceIds": [
+        "line-3"
+      ]
+    },
+    {
+      "id": "vocab-168",
+      "word": "preguntar",
+      "zh": "",
+      "sentenceIds": [
+        "line-4"
+      ]
+    },
+    {
+      "id": "vocab-169",
+      "word": "estáis",
+      "zh": "",
+      "sentenceIds": [
+        "line-7"
+      ]
+    },
+    {
+      "id": "vocab-170",
+      "word": "listos",
+      "zh": "",
+      "sentenceIds": [
+        "line-7"
+      ]
+    },
+    {
+      "id": "vocab-171",
+      "word": "levantaste",
+      "zh": "",
+      "sentenceIds": [
+        "line-8"
+      ]
+    },
+    {
+      "id": "vocab-172",
+      "word": "Mira",
+      "zh": "",
+      "sentenceIds": [
+        "line-11"
+      ]
+    },
+    {
+      "id": "vocab-173",
+      "word": "levanté",
+      "zh": "",
+      "sentenceIds": [
+        "line-12"
+      ]
+    },
+    {
+      "id": "vocab-174",
+      "word": "sábado",
+      "zh": "",
+      "sentenceIds": [
+        "line-13"
+      ]
+    },
+    {
+      "id": "vocab-175",
+      "word": "pude",
+      "zh": "",
+      "sentenceIds": [
+        "line-13"
+      ]
+    },
+    {
+      "id": "vocab-176",
+      "word": "esta",
+      "zh": "",
+      "sentenceIds": [
+        "line-15"
+      ]
+    },
+    {
+      "id": "vocab-177",
+      "word": "despertador",
+      "zh": "",
+      "sentenceIds": [
+        "line-16"
+      ]
+    },
+    {
+      "id": "vocab-178",
+      "word": "festivo",
+      "zh": "",
+      "sentenceIds": [
+        "line-17"
+      ]
+    },
+    {
+      "id": "vocab-179",
+      "word": "establecida",
+      "zh": "",
+      "sentenceIds": [
+        "line-17"
+      ]
+    },
+    {
+      "id": "vocab-180",
+      "word": "teníamos",
+      "zh": "",
+      "sentenceIds": [
+        "line-19"
+      ]
+    },
+    {
+      "id": "vocab-181",
+      "word": "aquí",
+      "zh": "",
+      "sentenceIds": [
+        "line-20"
+      ]
+    },
+    {
+      "id": "vocab-182",
+      "word": "queríamos",
+      "zh": "",
+      "sentenceIds": [
+        "line-21"
+      ]
+    },
+    {
+      "id": "vocab-183",
+      "word": "levantarnos",
+      "zh": "",
+      "sentenceIds": [
+        "line-21"
+      ]
+    },
+    {
+      "id": "vocab-184",
+      "word": "digestión",
+      "zh": "",
+      "sentenceIds": [
+        "line-22"
+      ]
+    },
+    {
+      "id": "vocab-185",
+      "word": "prepararnos",
+      "zh": "",
+      "sentenceIds": [
+        "line-23"
+      ]
+    },
+    {
+      "id": "vocab-186",
+      "word": "empezaba",
+      "zh": "",
+      "sentenceIds": [
+        "line-23"
+      ]
+    },
+    {
+      "id": "vocab-187",
+      "word": "cuar",
+      "zh": "",
+      "sentenceIds": [
+        "line-24"
+      ]
+    },
+    {
+      "id": "vocab-188",
+      "word": "ha",
+      "zh": "",
+      "sentenceIds": [
+        "line-26"
+      ]
+    },
+    {
+      "id": "vocab-189",
+      "word": "sonado",
+      "zh": "",
+      "sentenceIds": [
+        "line-26"
+      ]
+    },
+    {
+      "id": "vocab-190",
+      "word": "alarma",
+      "zh": "",
+      "sentenceIds": [
+        "line-27"
+      ]
+    },
+    {
+      "id": "vocab-191",
+      "word": "tenía",
+      "zh": "",
+      "sentenceIds": [
+        "line-27"
+      ]
+    },
+    {
+      "id": "vocab-192",
+      "word": "había",
+      "zh": "",
+      "sentenceIds": [
+        "line-29"
+      ]
+    },
+    {
+      "id": "vocab-193",
+      "word": "quitado",
+      "zh": "",
+      "sentenceIds": [
+        "line-29"
+      ]
+    },
+    {
+      "id": "vocab-194",
+      "word": "entre",
+      "zh": "",
+      "sentenceIds": [
+        "line-29"
+      ]
+    },
+    {
+      "id": "vocab-195",
+      "word": "nosos",
+      "zh": "",
+      "sentenceIds": [
+        "line-31"
+      ]
+    },
+    {
+      "id": "vocab-196",
+      "word": "levantar",
+      "zh": "",
+      "sentenceIds": [
+        "line-31"
+      ]
+    },
+    {
+      "id": "vocab-197",
+      "word": "casualidad",
+      "zh": "",
+      "sentenceIds": [
+        "line-33"
+      ]
+    },
+    {
+      "id": "vocab-198",
+      "word": "Exacto",
+      "zh": "",
+      "sentenceIds": [
+        "line-36"
+      ]
+    },
+    {
+      "id": "vocab-199",
+      "word": "40",
+      "zh": "",
+      "sentenceIds": [
+        "line-36"
+      ]
+    },
+    {
+      "id": "vocab-200",
+      "word": "habitual",
+      "zh": "",
+      "sentenceIds": [
+        "line-39"
+      ]
+    },
+    {
+      "id": "vocab-201",
+      "word": "entreno",
+      "zh": "",
+      "sentenceIds": [
+        "line-42"
+      ]
+    },
+    {
+      "id": "vocab-202",
+      "word": "madrugo",
+      "zh": "",
+      "sentenceIds": [
+        "line-43"
+      ]
+    },
+    {
+      "id": "vocab-203",
+      "word": "muchas",
+      "zh": "",
+      "sentenceIds": [
+        "line-44"
+      ]
+    },
+    {
+      "id": "vocab-204",
+      "word": "salga",
+      "zh": "",
+      "sentenceIds": [
+        "line-46"
+      ]
+    },
+    {
+      "id": "vocab-205",
+      "word": "cuenta",
+      "zh": "",
+      "sentenceIds": [
+        "line-46"
+      ]
+    },
+    {
+      "id": "vocab-206",
+      "word": "justo",
+      "zh": "",
+      "sentenceIds": [
+        "line-46"
+      ]
+    },
+    {
+      "id": "vocab-207",
+      "word": "desvisto",
+      "zh": "",
+      "sentenceIds": [
+        "line-47"
+      ]
+    },
+    {
+      "id": "vocab-208",
+      "word": "pijama",
+      "zh": "",
+      "sentenceIds": [
+        "line-48"
+      ]
+    },
+    {
+      "id": "vocab-209",
+      "word": "ropa",
+      "zh": "",
+      "sentenceIds": [
+        "line-48"
+      ]
+    },
+    {
+      "id": "vocab-210",
+      "word": "cepillarme",
+      "zh": "",
+      "sentenceIds": [
+        "line-50"
+      ]
+    },
+    {
+      "id": "vocab-211",
+      "word": "mochila",
+      "zh": "",
+      "sentenceIds": [
+        "line-51"
+      ]
+    },
+    {
+      "id": "vocab-212",
+      "word": "visto",
+      "zh": "",
+      "sentenceIds": [
+        "line-53"
+      ]
+    },
+    {
+      "id": "vocab-213",
+      "word": "tranquilo",
+      "zh": "",
+      "sentenceIds": [
+        "line-58"
+      ]
+    },
+    {
+      "id": "vocab-214",
+      "word": "primera",
+      "zh": "",
+      "sentenceIds": [
+        "line-61"
+      ]
+    },
+    {
+      "id": "vocab-215",
+      "word": "salir",
+      "zh": "",
+      "sentenceIds": [
+        "line-62"
+      ]
+    },
+    {
+      "id": "vocab-216",
+      "word": "terraza",
+      "zh": "",
+      "sentenceIds": [
+        "line-62"
+      ]
+    },
+    {
+      "id": "vocab-217",
+      "word": "vivo",
+      "zh": "",
+      "sentenceIds": [
+        "line-63"
+      ]
+    },
+    {
+      "id": "vocab-218",
+      "word": "delante",
+      "zh": "",
+      "sentenceIds": [
+        "line-63"
+      ]
+    },
+    {
+      "id": "vocab-219",
+      "word": "montaña",
+      "zh": "",
+      "sentenceIds": [
+        "line-63"
+      ]
+    },
+    {
+      "id": "vocab-220",
+      "word": "parque",
+      "zh": "",
+      "sentenceIds": [
+        "line-63"
+      ]
+    },
+    {
+      "id": "vocab-221",
+      "word": "natural",
+      "zh": "",
+      "sentenceIds": [
+        "line-64"
+      ]
+    },
+    {
+      "id": "vocab-222",
+      "word": "mirando",
+      "zh": "",
+      "sentenceIds": [
+        "line-64"
+      ]
+    },
+    {
+      "id": "vocab-223",
+      "word": "bosque",
+      "zh": "",
+      "sentenceIds": [
+        "line-64"
+      ]
+    },
+    {
+      "id": "vocab-224",
+      "word": "verano",
+      "zh": "",
+      "sentenceIds": [
+        "line-65"
+      ]
+    },
+    {
+      "id": "vocab-225",
+      "word": "estupenda",
+      "zh": "",
+      "sentenceIds": [
+        "line-65"
+      ]
+    },
+    {
+      "id": "vocab-226",
+      "word": "invierno",
+      "zh": "",
+      "sentenceIds": [
+        "line-66"
+      ]
+    },
+    {
+      "id": "vocab-227",
+      "word": "abrigadita",
+      "zh": "",
+      "sentenceIds": [
+        "line-66"
+      ]
+    },
+    {
+      "id": "vocab-228",
+      "word": "despertarme",
+      "zh": "",
+      "sentenceIds": [
+        "line-69"
+      ]
+    },
+    {
+      "id": "vocab-229",
+      "word": "primordial",
+      "zh": "",
+      "sentenceIds": [
+        "line-71"
+      ]
+    },
+    {
+      "id": "vocab-230",
+      "word": "dos",
+      "zh": "",
+      "sentenceIds": [
+        "line-71"
+      ]
+    },
+    {
+      "id": "vocab-231",
+      "word": "tazas",
+      "zh": "",
+      "sentenceIds": [
+        "line-71"
+      ]
+    },
+    {
+      "id": "vocab-232",
+      "word": "estropeada",
+      "zh": "",
+      "sentenceIds": [
+        "line-72"
+      ]
+    },
+    {
+      "id": "vocab-233",
+      "word": "tomas",
+      "zh": "",
+      "sentenceIds": [
+        "line-73"
+      ]
+    },
+    {
+      "id": "vocab-234",
+      "word": "aa",
+      "zh": "",
+      "sentenceIds": [
+        "line-73"
+      ]
+    },
+    {
+      "id": "vocab-235",
+      "word": "americana",
+      "zh": "",
+      "sentenceIds": [
+        "line-73"
+      ]
+    },
+    {
+      "id": "vocab-236",
+      "word": "vaso",
+      "zh": "",
+      "sentenceIds": [
+        "line-73"
+      ]
+    },
+    {
+      "id": "vocab-237",
+      "word": "grande",
+      "zh": "",
+      "sentenceIds": [
+        "line-74"
+      ]
+    },
+    {
+      "id": "vocab-238",
+      "word": "Expreso",
+      "zh": "",
+      "sentenceIds": [
+        "line-75"
+      ]
+    },
+    {
+      "id": "vocab-239",
+      "word": "típica",
+      "zh": "",
+      "sentenceIds": [
+        "line-76"
+      ]
+    },
+    {
+      "id": "vocab-240",
+      "word": "cafetera",
+      "zh": "",
+      "sentenceIds": [
+        "line-76"
+      ]
+    },
+    {
+      "id": "vocab-241",
+      "word": "italiana",
+      "zh": "",
+      "sentenceIds": [
+        "line-77"
+      ]
+    },
+    {
+      "id": "vocab-242",
+      "word": "esperar",
+      "zh": "",
+      "sentenceIds": [
+        "line-77"
+      ]
+    },
+    {
+      "id": "vocab-243",
+      "word": "poquito",
+      "zh": "",
+      "sentenceIds": [
+        "line-78"
+      ]
+    },
+    {
+      "id": "vocab-244",
+      "word": "almorzar",
+      "zh": "",
+      "sentenceIds": [
+        "line-79"
+      ]
+    },
+    {
+      "id": "vocab-245",
+      "word": "seguir",
+      "zh": "",
+      "sentenceIds": [
+        "line-81"
+      ]
+    },
+    {
+      "id": "vocab-246",
+      "word": "preparo",
+      "zh": "",
+      "sentenceIds": [
+        "line-81"
+      ]
+    },
+    {
+      "id": "vocab-247",
+      "word": "des",
+      "zh": "",
+      "sentenceIds": [
+        "line-83"
+      ]
+    },
+    {
+      "id": "vocab-248",
+      "word": "bocadillo",
+      "zh": "",
+      "sentenceIds": [
+        "line-84"
+      ]
+    },
+    {
+      "id": "vocab-249",
+      "word": "queso",
+      "zh": "",
+      "sentenceIds": [
+        "line-85"
+      ]
+    },
+    {
+      "id": "vocab-250",
+      "word": "embutido",
+      "zh": "",
+      "sentenceIds": [
+        "line-85"
+      ]
+    },
+    {
+      "id": "vocab-251",
+      "word": "zumo",
+      "zh": "",
+      "sentenceIds": [
+        "line-85"
+      ]
+    },
+    {
+      "id": "vocab-252",
+      "word": "naranja",
+      "zh": "",
+      "sentenceIds": [
+        "line-86"
+      ]
+    },
+    {
+      "id": "vocab-253",
+      "word": "tostadas",
+      "zh": "",
+      "sentenceIds": [
+        "line-87"
+      ]
+    },
+    {
+      "id": "vocab-254",
+      "word": "tostada",
+      "zh": "",
+      "sentenceIds": [
+        "line-88"
+      ]
+    },
+    {
+      "id": "vocab-255",
+      "word": "mermelada",
+      "zh": "",
+      "sentenceIds": [
+        "line-88"
+      ]
+    },
+    {
+      "id": "vocab-256",
+      "word": "clásico",
+      "zh": "",
+      "sentenceIds": [
+        "line-89"
+      ]
+    },
+    {
+      "id": "vocab-257",
+      "word": "pasta",
+      "zh": "",
+      "sentenceIds": [
+        "line-90"
+      ]
+    },
+    {
+      "id": "vocab-258",
+      "word": "bollería",
+      "zh": "",
+      "sentenceIds": [
+        "line-90"
+      ]
+    },
+    {
+      "id": "vocab-259",
+      "word": "sándwich",
+      "zh": "",
+      "sentenceIds": [
+        "line-91"
+      ]
+    },
+    {
+      "id": "vocab-260",
+      "word": "arpa",
+      "zh": "",
+      "sentenceIds": [
+        "line-91"
+      ]
+    },
+    {
+      "id": "vocab-261",
+      "word": "fruta",
+      "zh": "",
+      "sentenceIds": [
+        "line-92"
+      ]
+    },
+    {
+      "id": "vocab-262",
+      "word": "varía",
+      "zh": "",
+      "sentenceIds": [
+        "line-92"
+      ]
+    },
+    {
+      "id": "vocab-263",
+      "word": "pancakes",
+      "zh": "",
+      "sentenceIds": [
+        "line-94"
+      ]
+    },
+    {
+      "id": "vocab-264",
+      "word": "varí",
+      "zh": "",
+      "sentenceIds": [
+        "line-94"
+      ]
+    },
+    {
+      "id": "vocab-265",
+      "word": "igual",
+      "zh": "",
+      "sentenceIds": [
+        "line-95"
+      ]
+    },
+    {
+      "id": "vocab-266",
+      "word": "pierdo",
+      "zh": "",
+      "sentenceIds": [
+        "line-95"
+      ]
+    },
+    {
+      "id": "vocab-267",
+      "word": "pensando",
+      "zh": "",
+      "sentenceIds": [
+        "line-95"
+      ]
+    },
+    {
+      "id": "vocab-268",
+      "word": "lavo",
+      "zh": "",
+      "sentenceIds": [
+        "line-97"
+      ]
+    },
+    {
+      "id": "vocab-269",
+      "word": "peino",
+      "zh": "",
+      "sentenceIds": [
+        "line-98"
+      ]
+    },
+    {
+      "id": "vocab-270",
+      "word": "coo",
+      "zh": "",
+      "sentenceIds": [
+        "line-98"
+      ]
+    },
+    {
+      "id": "vocab-271",
+      "word": "bolso",
+      "zh": "",
+      "sentenceIds": [
+        "line-98"
+      ]
+    },
+    {
+      "id": "vocab-272",
+      "word": "preparé",
+      "zh": "",
+      "sentenceIds": [
+        "line-99"
+      ]
+    },
+    {
+      "id": "vocab-273",
+      "word": "Música",
+      "zh": "",
+      "sentenceIds": [
+        "line-100"
+      ]
+    },
+    {
+      "id": "vocab-274",
+      "word": "corriendo",
+      "zh": "",
+      "sentenceIds": [
+        "line-101"
+      ]
+    },
+    {
+      "id": "vocab-275",
+      "word": "marcada",
+      "zh": "",
+      "sentenceIds": [
+        "line-102"
+      ]
+    },
+    {
+      "id": "vocab-276",
+      "word": "complicado",
+      "zh": "",
+      "sentenceIds": [
+        "line-103"
+      ]
+    },
+    {
+      "id": "vocab-277",
+      "word": "profesor",
+      "zh": "",
+      "sentenceIds": [
+        "line-103"
+      ]
+    },
+    {
+      "id": "vocab-278",
+      "word": "tutor",
+      "zh": "",
+      "sentenceIds": [
+        "line-104"
+      ]
+    },
+    {
+      "id": "vocab-279",
+      "word": "necesites",
+      "zh": "",
+      "sentenceIds": [
+        "line-105"
+      ]
+    },
+    {
+      "id": "vocab-280",
+      "word": "entra",
+      "zh": "",
+      "sentenceIds": [
+        "line-105"
+      ]
+    },
+    {
+      "id": "vocab-281",
+      "word": "patrocinador",
+      "zh": "",
+      "sentenceIds": [
+        "line-106"
+      ]
+    },
+    {
+      "id": "vocab-282",
+      "word": "italki",
+      "zh": "",
+      "sentenceIds": [
+        "line-107"
+      ]
+    },
+    {
+      "id": "vocab-283",
+      "word": "puedes",
+      "zh": "",
+      "sentenceIds": [
+        "line-107"
+      ]
+    },
+    {
+      "id": "vocab-284",
+      "word": "profesores",
+      "zh": "",
+      "sentenceIds": [
+        "line-108"
+      ]
+    },
+    {
+      "id": "vocab-285",
+      "word": "mundo",
+      "zh": "",
+      "sentenceIds": [
+        "line-109"
+      ]
+    },
+    {
+      "id": "vocab-286",
+      "word": "aseguras",
+      "zh": "",
+      "sentenceIds": [
+        "line-109"
+      ]
+    },
+    {
+      "id": "vocab-287",
+      "word": "alguien",
+      "zh": "",
+      "sentenceIds": [
+        "line-109"
+      ]
+    },
+    {
+      "id": "vocab-288",
+      "word": "perfecta",
+      "zh": "",
+      "sentenceIds": [
+        "line-110"
+      ]
+    },
+    {
+      "id": "vocab-289",
+      "word": "caro",
+      "zh": "",
+      "sentenceIds": [
+        "line-111"
+      ]
+    },
+    {
+      "id": "vocab-290",
+      "word": "piensas",
+      "zh": "",
+      "sentenceIds": [
+        "line-112"
+      ]
+    },
+    {
+      "id": "vocab-291",
+      "word": "presupuestos",
+      "zh": "",
+      "sentenceIds": [
+        "line-113"
+      ]
+    },
+    {
+      "id": "vocab-292",
+      "word": "además",
+      "zh": "",
+      "sentenceIds": [
+        "line-113"
+      ]
+    },
+    {
+      "id": "vocab-293",
+      "word": "link",
+      "zh": "",
+      "sentenceIds": [
+        "line-113"
+      ]
+    },
+    {
+      "id": "vocab-294",
+      "word": "go",
+      "zh": "",
+      "sentenceIds": [
+        "line-114"
+      ]
+    },
+    {
+      "id": "vocab-295",
+      "word": "ity",
+      "zh": "",
+      "sentenceIds": [
+        "line-114"
+      ]
+    },
+    {
+      "id": "vocab-296",
+      "word": "com",
+      "zh": "",
+      "sentenceIds": [
+        "line-114"
+      ]
+    },
+    {
+      "id": "vocab-297",
+      "word": "baras",
+      "zh": "",
+      "sentenceIds": [
+        "line-114"
+      ]
+    },
+    {
+      "id": "vocab-298",
+      "word": "spanish",
+      "zh": "",
+      "sentenceIds": [
+        "line-114"
+      ]
+    },
+    {
+      "id": "vocab-299",
+      "word": "obtendrás",
+      "zh": "",
+      "sentenceIds": [
+        "line-115"
+      ]
+    },
+    {
+      "id": "vocab-300",
+      "word": "crédito",
+      "zh": "",
+      "sentenceIds": [
+        "line-115"
+      ]
+    },
+    {
+      "id": "vocab-301",
+      "word": "utilizar",
+      "zh": "",
+      "sentenceIds": [
+        "line-116"
+      ]
+    },
+    {
+      "id": "vocab-302",
+      "word": "gastar",
+      "zh": "",
+      "sentenceIds": [
+        "line-117"
+      ]
+    },
+    {
+      "id": "vocab-303",
+      "word": "tus",
+      "zh": "",
+      "sentenceIds": [
+        "line-117"
+      ]
+    },
+    {
+      "id": "vocab-304",
+      "word": "primeros",
+      "zh": "",
+      "sentenceIds": [
+        "line-117"
+      ]
+    },
+    {
+      "id": "vocab-305",
+      "word": "buena",
+      "zh": "",
+      "sentenceIds": [
+        "line-117"
+      ]
+    },
+    {
+      "id": "vocab-306",
+      "word": "oferta",
+      "zh": "",
+      "sentenceIds": [
+        "line-118"
+      ]
+    },
+    {
+      "id": "vocab-307",
+      "word": "seguimos",
+      "zh": "",
+      "sentenceIds": [
+        "line-118"
+      ]
+    },
+    {
+      "id": "vocab-308",
+      "word": "entrevistas",
+      "zh": "",
+      "sentenceIds": [
+        "line-119"
+      ]
+    },
+    {
+      "id": "vocab-309",
+      "word": "pone",
+      "zh": "",
+      "sentenceIds": [
+        "line-121"
+      ]
+    },
+    {
+      "id": "vocab-310",
+      "word": "malas",
+      "zh": "",
+      "sentenceIds": [
+        "line-122"
+      ]
+    },
+    {
+      "id": "vocab-311",
+      "word": "básico",
+      "zh": "",
+      "sentenceIds": [
+        "line-122"
+      ]
+    },
+    {
+      "id": "vocab-312",
+      "word": "equipo",
+      "zh": "",
+      "sentenceIds": [
+        "line-123"
+      ]
+    },
+    {
+      "id": "vocab-313",
+      "word": "buscamos",
+      "zh": "",
+      "sentenceIds": [
+        "line-123"
+      ]
+    },
+    {
+      "id": "vocab-314",
+      "word": "rompamos",
+      "zh": "",
+      "sentenceIds": [
+        "line-124"
+      ]
+    },
+    {
+      "id": "vocab-315",
+      "word": "media",
+      "zh": "",
+      "sentenceIds": [
+        "line-125"
+      ]
+    },
+    {
+      "id": "vocab-316",
+      "word": "bajemos",
+      "zh": "",
+      "sentenceIds": [
+        "line-125"
+      ]
+    },
+    {
+      "id": "vocab-317",
+      "word": "desconectemos",
+      "zh": "",
+      "sentenceIds": [
+        "line-125"
+      ]
+    },
+    {
+      "id": "vocab-318",
+      "word": "desayunemos",
+      "zh": "",
+      "sentenceIds": [
+        "line-126"
+      ]
+    },
+    {
+      "id": "vocab-319",
+      "word": "juntos",
+      "zh": "",
+      "sentenceIds": [
+        "line-126"
+      ]
+    },
+    {
+      "id": "vocab-320",
+      "word": "básicamente",
+      "zh": "",
+      "sentenceIds": [
+        "line-127"
+      ]
+    },
+    {
+      "id": "vocab-321",
+      "word": "trasnochado",
+      "zh": "",
+      "sentenceIds": [
+        "line-128"
+      ]
+    },
+    {
+      "id": "vocab-322",
+      "word": "salido",
+      "zh": "",
+      "sentenceIds": [
+        "line-128"
+      ]
+    },
+    {
+      "id": "vocab-323",
+      "word": "acabo",
+      "zh": "",
+      "sentenceIds": [
+        "line-129"
+      ]
+    },
+    {
+      "id": "vocab-324",
+      "word": "despertando",
+      "zh": "",
+      "sentenceIds": [
+        "line-129"
+      ]
+    },
+    {
+      "id": "vocab-325",
+      "word": "horos",
+      "zh": "",
+      "sentenceIds": [
+        "line-130"
+      ]
+    },
+    {
+      "id": "vocab-326",
+      "word": "comidas",
+      "zh": "",
+      "sentenceIds": [
+        "line-131"
+      ]
+    },
+    {
+      "id": "vocab-327",
+      "word": "cambien",
+      "zh": "",
+      "sentenceIds": [
+        "line-131"
+      ]
+    },
+    {
+      "id": "vocab-328",
+      "word": "alteren",
+      "zh": "",
+      "sentenceIds": [
+        "line-131"
+      ]
+    },
+    {
+      "id": "vocab-329",
+      "word": "directamente",
+      "zh": "",
+      "sentenceIds": [
+        "line-133"
+      ]
+    },
+    {
+      "id": "vocab-330",
+      "word": "pase",
+      "zh": "",
+      "sentenceIds": [
+        "line-133"
+      ]
+    },
+    {
+      "id": "vocab-331",
+      "word": "comida",
+      "zh": "",
+      "sentenceIds": [
+        "line-133"
+      ]
+    },
+    {
+      "id": "vocab-332",
+      "word": "evite",
+      "zh": "",
+      "sentenceIds": [
+        "line-134"
+      ]
+    },
+    {
+      "id": "vocab-333",
+      "word": "empieza",
+      "zh": "",
+      "sentenceIds": [
+        "line-135"
+      ]
+    },
+    {
+      "id": "vocab-334",
+      "word": "va",
+      "zh": "",
+      "sentenceIds": [
+        "line-135"
+      ]
+    },
+    {
+      "id": "vocab-335",
+      "word": "mal",
+      "zh": "",
+      "sentenceIds": [
+        "line-136"
+      ]
+    },
+    {
+      "id": "vocab-336",
+      "word": "Met",
+      "zh": "",
+      "sentenceIds": [
+        "line-137"
+      ]
+    },
+    {
+      "id": "vocab-337",
+      "word": "acción",
+      "zh": "",
+      "sentenceIds": [
+        "line-138"
+      ]
+    },
+    {
+      "id": "vocab-338",
+      "word": "app",
+      "zh": "",
+      "sentenceIds": [
+        "line-138"
+      ]
+    },
+    {
+      "id": "vocab-339",
+      "word": "uso",
+      "zh": "",
+      "sentenceIds": [
+        "line-138"
+      ]
+    },
+    {
+      "id": "vocab-340",
+      "word": "juego",
+      "zh": "",
+      "sentenceIds": [
+        "line-140"
+      ]
+    },
+    {
+      "id": "vocab-341",
+      "word": "Golf",
+      "zh": "",
+      "sentenceIds": [
+        "line-140"
+      ]
+    },
+    {
+      "id": "vocab-342",
+      "word": "predicción",
+      "zh": "",
+      "sentenceIds": [
+        "line-145"
+      ]
+    },
+    {
+      "id": "vocab-343",
+      "word": "natación",
+      "zh": "",
+      "sentenceIds": [
+        "line-147"
+      ]
+    },
+    {
+      "id": "vocab-344",
+      "word": "clases",
+      "zh": "",
+      "sentenceIds": [
+        "line-147"
+      ]
+    },
+    {
+      "id": "vocab-345",
+      "word": "inglés",
+      "zh": "",
+      "sentenceIds": [
+        "line-148"
+      ]
+    },
+    {
+      "id": "vocab-346",
+      "word": "llaves",
+      "zh": "",
+      "sentenceIds": [
+        "line-148"
+      ]
+    },
+    {
+      "id": "vocab-347",
+      "word": "entro",
+      "zh": "",
+      "sentenceIds": [
+        "line-149"
+      ]
+    },
+    {
+      "id": "vocab-348",
+      "word": "enre",
+      "zh": "",
+      "sentenceIds": [
+        "line-150"
+      ]
+    },
+    {
+      "id": "vocab-349",
+      "word": "seman",
+      "zh": "",
+      "sentenceIds": [
+        "line-151"
+      ]
+    },
+    {
+      "id": "vocab-350",
+      "word": "contrario",
+      "zh": "",
+      "sentenceIds": [
+        "line-152"
+      ]
+    },
+    {
+      "id": "vocab-351",
+      "word": "antir",
+      "zh": "",
+      "sentenceIds": [
+        "line-152"
+      ]
+    },
+    {
+      "id": "vocab-352",
+      "word": "pudiera",
+      "zh": "",
+      "sentenceIds": [
+        "line-153"
+      ]
+    },
+    {
+      "id": "vocab-353",
+      "word": "ninguna",
+      "zh": "",
+      "sentenceIds": [
+        "line-153"
+      ]
+    },
+    {
+      "id": "vocab-354",
+      "word": "encantaría",
+      "zh": "",
+      "sentenceIds": [
+        "line-154"
+      ]
+    },
+    {
+      "id": "vocab-355",
+      "word": "apetece",
+      "zh": "",
+      "sentenceIds": [
+        "line-155"
+      ]
+    },
+    {
+      "id": "vocab-356",
+      "word": "diferente",
+      "zh": "",
+      "sentenceIds": [
+        "line-156"
+      ]
+    },
+    {
+      "id": "vocab-357",
+      "word": "laboralmente",
+      "zh": "",
+      "sentenceIds": [
+        "line-158"
+      ]
+    },
+    {
+      "id": "vocab-358",
+      "word": "desde",
+      "zh": "",
+      "sentenceIds": [
+        "line-159"
+      ]
+    },
+    {
+      "id": "vocab-359",
+      "word": "visito",
+      "zh": "",
+      "sentenceIds": [
+        "line-160"
+      ]
+    },
+    {
+      "id": "vocab-360",
+      "word": "clientes",
+      "zh": "",
+      "sentenceIds": [
+        "line-160"
+      ]
+    },
+    {
+      "id": "vocab-361",
+      "word": "proyectos",
+      "zh": "",
+      "sentenceIds": [
+        "line-161"
+      ]
+    },
+    {
+      "id": "vocab-362",
+      "word": "siento",
+      "zh": "",
+      "sentenceIds": [
+        "line-162"
+      ]
+    },
+    {
+      "id": "vocab-363",
+      "word": "levantarte",
+      "zh": "",
+      "sentenceIds": [
+        "line-163"
+      ]
+    },
+    {
+      "id": "vocab-364",
+      "word": "cas",
+      "zh": "",
+      "sentenceIds": [
+        "line-163"
+      ]
+    },
+    {
+      "id": "vocab-365",
+      "word": "caso",
+      "zh": "",
+      "sentenceIds": [
+        "line-164"
+      ]
+    },
+    {
+      "id": "vocab-366",
+      "word": "suerte",
+      "zh": "",
+      "sentenceIds": [
+        "line-164"
+      ]
+    },
+    {
+      "id": "vocab-367",
+      "word": "cuesta",
+      "zh": "",
+      "sentenceIds": [
+        "line-165"
+      ]
+    },
+    {
+      "id": "vocab-368",
+      "word": "entrar",
+      "zh": "",
+      "sentenceIds": [
+        "line-165"
+      ]
+    },
+    {
+      "id": "vocab-369",
+      "word": "disciplinada",
+      "zh": "",
+      "sentenceIds": [
+        "line-167"
+      ]
+    },
+    {
+      "id": "vocab-370",
+      "word": "ejercicio",
+      "zh": "",
+      "sentenceIds": [
+        "line-168"
+      ]
+    },
+    {
+      "id": "vocab-371",
+      "word": "tiemp",
+      "zh": "",
+      "sentenceIds": [
+        "line-170"
+      ]
+    },
+    {
+      "id": "vocab-372",
+      "word": "Considero",
+      "zh": "",
+      "sentenceIds": [
+        "line-171"
+      ]
+    },
+    {
+      "id": "vocab-373",
+      "word": "marcar",
+      "zh": "",
+      "sentenceIds": [
+        "line-172"
+      ]
+    },
+    {
+      "id": "vocab-374",
+      "word": "disciplina",
+      "zh": "",
+      "sentenceIds": [
+        "line-172"
+      ]
+    },
+    {
+      "id": "vocab-375",
+      "word": "objetivo",
+      "zh": "",
+      "sentenceIds": [
+        "line-173"
+      ]
+    },
+    {
+      "id": "vocab-376",
+      "word": "mente",
+      "zh": "",
+      "sentenceIds": [
+        "line-173"
+      ]
+    },
+    {
+      "id": "vocab-377",
+      "word": "esos",
+      "zh": "",
+      "sentenceIds": [
+        "line-174"
+      ]
+    },
+    {
+      "id": "vocab-378",
+      "word": "meses",
+      "zh": "",
+      "sentenceIds": [
+        "line-174"
+      ]
+    },
+    {
+      "id": "vocab-379",
+      "word": "dependiendo",
+      "zh": "",
+      "sentenceIds": [
+        "line-174"
+      ]
+    },
+    {
+      "id": "vocab-380",
+      "word": "temporada",
+      "zh": "",
+      "sentenceIds": [
+        "line-174"
+      ]
+    },
+    {
+      "id": "vocab-381",
+      "word": "final",
+      "zh": "",
+      "sentenceIds": [
+        "line-176"
+      ]
+    },
+    {
+      "id": "vocab-382",
+      "word": "orden",
+      "zh": "",
+      "sentenceIds": [
+        "line-176"
+      ]
+    },
+    {
+      "id": "vocab-383",
+      "word": "mental",
+      "zh": "",
+      "sentenceIds": [
+        "line-176"
+      ]
+    },
+    {
+      "id": "vocab-384",
+      "word": "determinada",
+      "zh": "",
+      "sentenceIds": [
+        "line-178"
+      ]
+    },
+    {
+      "id": "vocab-385",
+      "word": "seguridad",
+      "zh": "",
+      "sentenceIds": [
+        "line-179"
+      ]
+    },
+    {
+      "id": "vocab-386",
+      "word": "mismo",
+      "zh": "",
+      "sentenceIds": [
+        "line-180"
+      ]
+    },
+    {
+      "id": "vocab-387",
+      "word": "creo",
+      "zh": "",
+      "sentenceIds": [
+        "line-180"
+      ]
+    },
+    {
+      "id": "vocab-388",
+      "word": "productivo",
+      "zh": "",
+      "sentenceIds": [
+        "line-181"
+      ]
+    },
+    {
+      "id": "vocab-389",
+      "word": "sepa",
+      "zh": "",
+      "sentenceIds": [
+        "line-185"
+      ]
+    },
+    {
+      "id": "vocab-390",
+      "word": "memoria",
+      "zh": "",
+      "sentenceIds": [
+        "line-185"
+      ]
+    },
+    {
+      "id": "vocab-391",
+      "word": "metódico",
+      "zh": "",
+      "sentenceIds": [
+        "line-186"
+      ]
+    },
+    {
+      "id": "vocab-392",
+      "word": "metódica",
+      "zh": "",
+      "sentenceIds": [
+        "line-187"
+      ]
+    },
+    {
+      "id": "vocab-393",
+      "word": "esto",
+      "zh": "",
+      "sentenceIds": [
+        "line-187"
+      ]
+    },
+    {
+      "id": "vocab-394",
+      "word": "rutinas",
+      "zh": "",
+      "sentenceIds": [
+        "line-189"
+      ]
+    },
+    {
+      "id": "vocab-395",
+      "word": "quiere",
+      "zh": "",
+      "sentenceIds": [
+        "line-190"
+      ]
+    },
+    {
+      "id": "vocab-396",
+      "word": "decir",
+      "zh": "",
+      "sentenceIds": [
+        "line-190"
+      ]
+    },
+    {
+      "id": "vocab-397",
+      "word": "repente",
+      "zh": "",
+      "sentenceIds": [
+        "line-190"
+      ]
+    },
+    {
+      "id": "vocab-398",
+      "word": "digan",
+      "zh": "",
+      "sentenceIds": [
+        "line-191"
+      ]
+    },
+    {
+      "id": "vocab-399",
+      "word": "tal",
+      "zh": "",
+      "sentenceIds": [
+        "line-191"
+      ]
+    },
+    {
+      "id": "vocab-400",
+      "word": "sitio",
+      "zh": "",
+      "sentenceIds": [
+        "line-191"
+      ]
+    },
+    {
+      "id": "vocab-401",
+      "word": "dejo",
+      "zh": "",
+      "sentenceIds": [
+        "line-191"
+      ]
+    },
+    {
+      "id": "vocab-402",
+      "word": "veces",
+      "zh": "",
+      "sentenceIds": [
+        "line-192"
+      ]
+    },
+    {
+      "id": "vocab-403",
+      "word": "rompe",
+      "zh": "",
+      "sentenceIds": [
+        "line-193"
+      ]
+    },
+    {
+      "id": "vocab-404",
+      "word": "sentimos",
+      "zh": "",
+      "sentenceIds": [
+        "line-194"
+      ]
+    },
+    {
+      "id": "vocab-405",
+      "word": "estamos",
+      "zh": "",
+      "sentenceIds": [
+        "line-194"
+      ]
+    },
+    {
+      "id": "vocab-406",
+      "word": "fuera",
+      "zh": "",
+      "sentenceIds": [
+        "line-194"
+      ]
+    },
+    {
+      "id": "vocab-407",
+      "word": "nuestra",
+      "zh": "",
+      "sentenceIds": [
+        "line-194"
+      ]
+    },
+    {
+      "id": "vocab-408",
+      "word": "zona",
+      "zh": "",
+      "sentenceIds": [
+        "line-195"
+      ]
+    },
+    {
+      "id": "vocab-409",
+      "word": "Confort",
+      "zh": "",
+      "sentenceIds": [
+        "line-195"
+      ]
+    },
+    {
+      "id": "vocab-410",
+      "word": "estemos",
+      "zh": "",
+      "sentenceIds": [
+        "line-195"
+      ]
+    },
+    {
+      "id": "vocab-411",
+      "word": "desubicados",
+      "zh": "",
+      "sentenceIds": [
+        "line-196"
+      ]
+    },
+    {
+      "id": "vocab-412",
+      "word": "pensemos",
+      "zh": "",
+      "sentenceIds": [
+        "line-196"
+      ]
+    },
+    {
+      "id": "vocab-413",
+      "word": "hemos",
+      "zh": "",
+      "sentenceIds": [
+        "line-196"
+      ]
+    },
+    {
+      "id": "vocab-414",
+      "word": "aprovechado",
+      "zh": "",
+      "sentenceIds": [
+        "line-197"
+      ]
+    },
+    {
+      "id": "vocab-415",
+      "word": "suficientemente",
+      "zh": "",
+      "sentenceIds": [
+        "line-197"
+      ]
+    },
+    {
+      "id": "vocab-416",
+      "word": "sintamos",
+      "zh": "",
+      "sentenceIds": [
+        "line-198"
+      ]
+    },
+    {
+      "id": "vocab-417",
+      "word": "incluso",
+      "zh": "",
+      "sentenceIds": [
+        "line-198"
+      ]
+    },
+    {
+      "id": "vocab-418",
+      "word": "culpables",
+      "zh": "",
+      "sentenceIds": [
+        "line-198"
+      ]
+    },
+    {
+      "id": "vocab-419",
+      "word": "necesariamente",
+      "zh": "",
+      "sentenceIds": [
+        "line-199"
+      ]
+    },
+    {
+      "id": "vocab-420",
+      "word": "somos",
+      "zh": "",
+      "sentenceIds": [
+        "line-199"
+      ]
+    },
+    {
+      "id": "vocab-421",
+      "word": "animales",
+      "zh": "",
+      "sentenceIds": [
+        "line-200"
+      ]
+    },
+    {
+      "id": "vocab-422",
+      "word": "dependerá",
+      "zh": "",
+      "sentenceIds": [
+        "line-201"
+      ]
+    },
+    {
+      "id": "vocab-423",
+      "word": "habrá",
+      "zh": "",
+      "sentenceIds": [
+        "line-202"
+      ]
+    },
+    {
+      "id": "vocab-424",
+      "word": "creativa",
+      "zh": "",
+      "sentenceIds": [
+        "line-202"
+      ]
+    },
+    {
+      "id": "vocab-425",
+      "word": "rutinaria",
+      "zh": "",
+      "sentenceIds": [
+        "line-203"
+      ]
+    },
+    {
+      "id": "vocab-426",
+      "word": "cliché",
+      "zh": "",
+      "sentenceIds": [
+        "line-205"
+      ]
+    },
+    {
+      "id": "vocab-427",
+      "word": "personas",
+      "zh": "",
+      "sentenceIds": [
+        "line-205"
+      ]
+    },
+    {
+      "id": "vocab-428",
+      "word": "científicas",
+      "zh": "",
+      "sentenceIds": [
+        "line-206"
+      ]
+    },
+    {
+      "id": "vocab-429",
+      "word": "necesitan",
+      "zh": "",
+      "sentenceIds": [
+        "line-206"
+      ]
+    },
+    {
+      "id": "vocab-430",
+      "word": "revés",
+      "zh": "",
+      "sentenceIds": [
+        "line-207"
+      ]
+    },
+    {
+      "id": "vocab-431",
+      "word": "según",
+      "zh": "",
+      "sentenceIds": [
+        "line-208"
+      ]
+    },
+    {
+      "id": "vocab-432",
+      "word": "irá",
+      "zh": "",
+      "sentenceIds": [
+        "line-209"
+      ]
+    },
+    {
+      "id": "vocab-433",
+      "word": "otra",
+      "zh": "",
+      "sentenceIds": [
+        "line-210"
+      ]
+    },
+    {
+      "id": "vocab-434",
+      "word": "terminar",
+      "zh": "",
+      "sentenceIds": [
+        "line-210"
+      ]
+    },
+    {
+      "id": "vocab-435",
+      "word": "hacéis",
+      "zh": "",
+      "sentenceIds": [
+        "line-211"
+      ]
+    },
+    {
+      "id": "vocab-436",
+      "word": "irme",
+      "zh": "",
+      "sentenceIds": [
+        "line-212"
+      ]
+    },
+    {
+      "id": "vocab-437",
+      "word": "tiktok",
+      "zh": "",
+      "sentenceIds": [
+        "line-212"
+      ]
+    },
+    {
+      "id": "vocab-438",
+      "word": "relax",
+      "zh": "",
+      "sentenceIds": [
+        "line-214"
+      ]
+    },
+    {
+      "id": "vocab-439",
+      "word": "Uf",
+      "zh": "",
+      "sentenceIds": [
+        "line-215"
+      ]
+    },
+    {
+      "id": "vocab-440",
+      "word": "fija",
+      "zh": "",
+      "sentenceIds": [
+        "line-215"
+      ]
+    },
+    {
+      "id": "vocab-441",
+      "word": "sabría",
+      "zh": "",
+      "sentenceIds": [
+        "line-216"
+      ]
+    },
+    {
+      "id": "vocab-442",
+      "word": "decirte",
+      "zh": "",
+      "sentenceIds": [
+        "line-216"
+      ]
+    },
+    {
+      "id": "vocab-443",
+      "word": "lavarme",
+      "zh": "",
+      "sentenceIds": [
+        "line-217"
+      ]
+    },
+    {
+      "id": "vocab-444",
+      "word": "recojo",
+      "zh": "",
+      "sentenceIds": [
+        "line-218"
+      ]
+    },
+    {
+      "id": "vocab-445",
+      "word": "quede",
+      "zh": "",
+      "sentenceIds": [
+        "line-219"
+      ]
+    },
+    {
+      "id": "vocab-446",
+      "word": "recogida",
+      "zh": "",
+      "sentenceIds": [
+        "line-220"
+      ]
+    },
+    {
+      "id": "vocab-447",
+      "word": "escribirse",
+      "zh": "",
+      "sentenceIds": [
+        "line-220"
+      ]
+    },
+    {
+      "id": "vocab-448",
+      "word": "tareas",
+      "zh": "",
+      "sentenceIds": [
+        "line-221"
+      ]
+    },
+    {
+      "id": "vocab-449",
+      "word": "pendientes",
+      "zh": "",
+      "sentenceIds": [
+        "line-221"
+      ]
+    },
+    {
+      "id": "vocab-450",
+      "word": "trato",
+      "zh": "",
+      "sentenceIds": [
+        "line-221"
+      ]
+    },
+    {
+      "id": "vocab-451",
+      "word": "escribirlas",
+      "zh": "",
+      "sentenceIds": [
+        "line-222"
+      ]
+    },
+    {
+      "id": "vocab-452",
+      "word": "anterior",
+      "zh": "",
+      "sentenceIds": [
+        "line-222"
+      ]
+    },
+    {
+      "id": "vocab-453",
+      "word": "claras",
+      "zh": "",
+      "sentenceIds": [
+        "line-223"
+      ]
+    },
+    {
+      "id": "vocab-454",
+      "word": "veo",
+      "zh": "",
+      "sentenceIds": [
+        "line-224"
+      ]
+    },
+    {
+      "id": "vocab-455",
+      "word": "películas",
+      "zh": "",
+      "sentenceIds": [
+        "line-224"
+      ]
+    },
+    {
+      "id": "vocab-456",
+      "word": "Leo",
+      "zh": "",
+      "sentenceIds": [
+        "line-224"
+      ]
+    },
+    {
+      "id": "vocab-457",
+      "word": "terminado",
+      "zh": "",
+      "sentenceIds": [
+        "line-225"
+      ]
+    },
+    {
+      "id": "vocab-458",
+      "word": "Uy",
+      "zh": "",
+      "sentenceIds": [
+        "line-226"
+      ]
+    },
+    {
+      "id": "vocab-459",
+      "word": "título",
+      "zh": "",
+      "sentenceIds": [
+        "line-226"
+      ]
+    },
+    {
+      "id": "vocab-460",
+      "word": "raro",
+      "zh": "",
+      "sentenceIds": [
+        "line-226"
+      ]
+    },
+    {
+      "id": "vocab-461",
+      "word": "Memorias",
+      "zh": "",
+      "sentenceIds": [
+        "line-227"
+      ]
+    },
+    {
+      "id": "vocab-462",
+      "word": "tristes",
+      "zh": "",
+      "sentenceIds": [
+        "line-228"
+      ]
+    },
+    {
+      "id": "vocab-463",
+      "word": "escribió",
+      "zh": "",
+      "sentenceIds": [
+        "line-228"
+      ]
+    },
+    {
+      "id": "vocab-464",
+      "word": "leer",
+      "zh": "",
+      "sentenceIds": [
+        "line-229"
+      ]
+    },
+    {
+      "id": "vocab-465",
+      "word": "últimamente",
+      "zh": "",
+      "sentenceIds": [
+        "line-229"
+      ]
+    },
+    {
+      "id": "vocab-466",
+      "word": "Cojo",
+      "zh": "",
+      "sentenceIds": [
+        "line-229"
+      ]
+    },
+    {
+      "id": "vocab-467",
+      "word": "quedo",
+      "zh": "",
+      "sentenceIds": [
+        "line-230"
+      ]
+    },
+    {
+      "id": "vocab-468",
+      "word": "dormida",
+      "zh": "",
+      "sentenceIds": [
+        "line-231"
+      ]
+    },
+    {
+      "id": "vocab-469",
+      "word": "posible",
+      "zh": "",
+      "sentenceIds": [
+        "line-231"
+      ]
+    },
+    {
+      "id": "vocab-470",
+      "word": "acabe",
+      "zh": "",
+      "sentenceIds": [
+        "line-231"
+      ]
+    },
+    {
+      "id": "vocab-471",
+      "word": "ruedas",
+      "zh": "",
+      "sentenceIds": [
+        "line-231"
+      ]
+    },
+    {
+      "id": "vocab-472",
+      "word": "informativas",
+      "zh": "",
+      "sentenceIds": [
+        "line-232"
+      ]
+    },
+    {
+      "id": "vocab-473",
+      "word": "acabar",
+      "zh": "",
+      "sentenceIds": [
+        "line-232"
+      ]
+    },
+    {
+      "id": "vocab-474",
+      "word": "machacarte",
+      "zh": "",
+      "sentenceIds": [
+        "line-233"
+      ]
+    },
+    {
+      "id": "vocab-475",
+      "word": "dormirte",
+      "zh": "",
+      "sentenceIds": [
+        "line-233"
+      ]
+    },
+    {
+      "id": "vocab-476",
+      "word": "seguro",
+      "zh": "",
+      "sentenceIds": [
+        "line-234"
+      ]
+    },
+    {
+      "id": "vocab-477",
+      "word": "debe",
+      "zh": "",
+      "sentenceIds": [
+        "line-235"
+      ]
+    },
+    {
+      "id": "vocab-478",
+      "word": "revisar",
+      "zh": "",
+      "sentenceIds": [
+        "line-238"
+      ]
+    },
+    {
+      "id": "vocab-479",
+      "word": "YouTube",
+      "zh": "",
+      "sentenceIds": [
+        "line-239"
+      ]
+    },
+    {
+      "id": "vocab-480",
+      "word": "luz",
+      "zh": "",
+      "sentenceIds": [
+        "line-240"
+      ]
+    },
+    {
+      "id": "vocab-481",
+      "word": "azul",
+      "zh": "",
+      "sentenceIds": [
+        "line-240"
+      ]
+    },
+    {
+      "id": "vocab-482",
+      "word": "entendido",
+      "zh": "",
+      "sentenceIds": [
+        "line-241"
+      ]
+    },
+    {
+      "id": "vocab-483",
+      "word": "despierta",
+      "zh": "",
+      "sentenceIds": [
+        "line-242"
+      ]
+    },
+    {
+      "id": "vocab-484",
+      "word": "ciertas",
+      "zh": "",
+      "sentenceIds": [
+        "line-242"
+      ]
+    },
+    {
+      "id": "vocab-485",
+      "word": "cerebro",
+      "zh": "",
+      "sentenceIds": [
+        "line-242"
+      ]
+    },
+    {
+      "id": "vocab-486",
+      "word": "activa",
+      "zh": "",
+      "sentenceIds": [
+        "line-244"
+      ]
+    },
+    {
+      "id": "vocab-487",
+      "word": "previas",
+      "zh": "",
+      "sentenceIds": [
+        "line-245"
+      ]
+    },
+    {
+      "id": "vocab-488",
+      "word": "igualmente",
+      "zh": "",
+      "sentenceIds": [
+        "line-246"
+      ]
+    },
+    {
+      "id": "vocab-489",
+      "word": "hacerlo",
+      "zh": "",
+      "sentenceIds": [
+        "line-247"
+      ]
+    },
+    {
+      "id": "vocab-490",
+      "word": "puestas",
+      "zh": "",
+      "sentenceIds": [
+        "line-249"
+      ]
+    },
+    {
+      "id": "vocab-491",
+      "word": "poder",
+      "zh": "",
+      "sentenceIds": [
+        "line-250"
+      ]
+    },
+    {
+      "id": "vocab-492",
+      "word": "88",
+      "zh": "",
+      "sentenceIds": [
+        "line-252"
+      ]
+    },
+    {
+      "id": "vocab-493",
+      "word": "05",
+      "zh": "",
+      "sentenceIds": [
+        "line-252"
+      ]
+    },
+    {
+      "id": "vocab-494",
+      "word": "doy",
+      "zh": "",
+      "sentenceIds": [
+        "line-253"
+      ]
+    },
+    {
+      "id": "vocab-495",
+      "word": "beso",
+      "zh": "",
+      "sentenceIds": [
+        "line-253"
+      ]
+    },
+    {
+      "id": "vocab-496",
+      "word": "tapo",
+      "zh": "",
+      "sentenceIds": [
+        "line-254"
+      ]
+    },
+    {
+      "id": "vocab-497",
+      "word": "duerme",
+      "zh": "",
+      "sentenceIds": [
+        "line-254"
+      ]
+    },
+    {
+      "id": "vocab-498",
+      "word": "toca",
+      "zh": "",
+      "sentenceIds": [
+        "line-255"
+      ]
+    },
+    {
+      "id": "vocab-499",
+      "word": "quita",
+      "zh": "",
+      "sentenceIds": [
+        "line-256"
+      ]
+    },
+    {
+      "id": "vocab-500",
+      "word": "Harry",
+      "zh": "",
+      "sentenceIds": [
+        "line-256"
+      ]
+    },
+    {
+      "id": "vocab-501",
+      "word": "déjanos",
+      "zh": "",
+      "sentenceIds": [
+        "line-257"
+      ]
+    },
+    {
+      "id": "vocab-502",
+      "word": "comentarios",
+      "zh": "",
+      "sentenceIds": [
+        "line-257"
+      ]
+    },
+    {
+      "id": "vocab-503",
+      "word": "normal",
+      "zh": "",
+      "sentenceIds": [
+        "line-258"
+      ]
+    },
+    {
+      "id": "vocab-504",
+      "word": "queréis",
+      "zh": "",
+      "sentenceIds": [
+        "line-259"
+      ]
+    },
+    {
+      "id": "vocab-505",
+      "word": "profundizar",
+      "zh": "",
+      "sentenceIds": [
+        "line-259"
+      ]
+    },
+    {
+      "id": "vocab-506",
+      "word": "tema",
+      "zh": "",
+      "sentenceIds": [
+        "line-260"
+      ]
+    },
+    {
+      "id": "vocab-507",
+      "word": "recomendamos",
+      "zh": "",
+      "sentenceIds": [
+        "line-260"
+      ]
+    },
+    {
+      "id": "vocab-508",
+      "word": "hizo",
+      "zh": "",
+      "sentenceIds": [
+        "line-261"
+      ]
+    },
+    {
+      "id": "vocab-509",
+      "word": "Paulina",
+      "zh": "",
+      "sentenceIds": [
+        "line-261"
+      ]
+    },
+    {
+      "id": "vocab-510",
+      "word": "despertarse",
+      "zh": "",
+      "sentenceIds": [
+        "line-262"
+      ]
+    },
+    {
+      "id": "vocab-511",
+      "word": "México",
+      "zh": "",
+      "sentenceIds": [
+        "line-263"
+      ]
+    },
+    {
+      "id": "vocab-512",
+      "word": "olvidéis",
+      "zh": "",
+      "sentenceIds": [
+        "line-263"
+      ]
+    },
+    {
+      "id": "vocab-513",
+      "word": "suscribiros",
+      "zh": "",
+      "sentenceIds": [
+        "line-264"
+      ]
+    },
+    {
+      "id": "vocab-514",
+      "word": "canal",
+      "zh": "",
+      "sentenceIds": [
+        "line-264"
+      ]
+    },
+    {
+      "id": "vocab-515",
+      "word": "vemos",
+      "zh": "",
+      "sentenceIds": [
+        "line-264"
+      ]
+    },
+    {
+      "id": "vocab-516",
+      "word": "próxima",
+      "zh": "",
+      "sentenceIds": [
+        "line-265"
+      ]
+    },
+    {
+      "id": "vocab-517",
+      "word": "adiós",
+      "zh": "",
+      "sentenceIds": [
+        "line-266"
+      ]
+    }
+  ],
+  "patterns": [
+    {
+      "id": "pattern-1",
+      "pattern": "A qué hora te",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-2",
+      "pattern": "levantas yo a las 7:45 y tú Sara me has",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-3",
+      "pattern": "copiado yo a la misma",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-4",
+      "pattern": "hora Bueno hoy vamos a preguntar no solo",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-5",
+      "pattern": "a qué hora te levantas pero todo acerca",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-6",
+      "pattern": "de la rutina diaria de la gente en",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-7",
+      "pattern": "vamos a qué hora os levantaste",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-8",
+      "pattern": "hoy un poco tarde hoy fin de semana a",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-9",
+      "pattern": "Mira pues yo hoy me he levantado a las",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-10",
+      "pattern": "9:45 horas de la mañana Hoy me levanté a",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-11",
+      "pattern": "las 10 de la mañana sábado pude",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-12",
+      "pattern": "6:30 esta mañana a las 7 de la mañana sí",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-13",
+      "pattern": "el despertador son a las 7 aunque sea un",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-14",
+      "pattern": "día festivo tengo una rutina establecida",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-15",
+      "pattern": "y bueno a las 7 ya estoy levantado a las",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-16",
+      "pattern": "7 el fin de Por qué hoy hoy teníamos una",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-17",
+      "pattern": "carrera aquí en Barcelona y bueno y",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-18",
+      "pattern": "queríamos levantarnos con tiempo para",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-19",
+      "pattern": "desayunar bien y y hacer la digestión",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-20",
+      "pattern": "prepararnos para la carrera que empezaba",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-21",
+      "pattern": "a las 9 a las 8 y cuar bastante temprano",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-22",
+      "pattern": "para un Sí muy temprano y siempre te",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-23",
+      "pattern": "levantas a esa hora no me ha sonado la",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-24",
+      "pattern": "alarma porque la tenía del trabajo de",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-25",
+      "pattern": "lunes a viernes y claro Pues hoy no la",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-26",
+      "pattern": "había quitado entre semana a qué hora te",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-27",
+      "pattern": "levantas Ah normalmente a las 8 8:3",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-28",
+      "pattern": "quizás nosos levantar a las 7 de lunes a",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-29",
+      "pattern": "viernes a las 6:15 de la mañana yo las",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-30",
+      "pattern": "6:20 pero sí sí casualidad Necesito una",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-31",
+      "pattern": "hora para prepararme antes de de ir a",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-32",
+      "pattern": "trabajar entonces Salgo de casa a las",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-33",
+      "pattern": "7:20 Exacto 40 minutos de metro y a las",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-34",
+      "pattern": "8 llego al trabajo sobre las 6 6:15 de",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-35",
+      "pattern": "la mañana mucho más temprano sí que lo",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-36",
+      "pattern": "que es lo habitual sí me levanto a las 5",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-37",
+      "pattern": "las 5 a las 5 5:30 Sí por qué tan",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-38",
+      "pattern": "me entreno Y también voy a trabajar",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-39",
+      "pattern": "madrugo sí sí me levanto temprano porque",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-40",
+      "pattern": "tengo que trabajar muchas horas y tengo",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-41",
+      "pattern": "que empezar muy temprano para que me",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-42",
+      "pattern": "salga cuenta y qué haces justo después",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-43",
+      "pattern": "eh salgo de la cama me desvisto del",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-44",
+      "pattern": "pijama me pongo la ropa del trabajo y",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-45",
+      "pattern": "después Bueno pues yo vestirme",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-46",
+      "pattern": "cepillarme los dientes prepararme la",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-47",
+      "pattern": "mochila para ir al trabajo yo me voy al",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-48",
+      "pattern": "baño hago todo lo que tengo que hacer y",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-49",
+      "pattern": "después me he visto y vas al Cole sí voy",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-50",
+      "pattern": "al Cole pues ducharme lo primero",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-51",
+      "pattern": "ducharme y después desayunar Luche",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-52",
+      "pattern": "desayunar Luche vestirme claro y",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-53",
+      "pattern": "desayunar Bueno pues me levanto me tomo",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-54",
+      "pattern": "un café tranquilo me ducho necesito",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-55",
+      "pattern": "Bueno me gusta tener un tiempo por la",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-56",
+      "pattern": "mañana antes de de empezar el día no la",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-57",
+      "pattern": "primera cosa que hago es ir a la cocina",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-58",
+      "pattern": "prepararme un café salir a la terraza",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-59",
+      "pattern": "vivo delante de la montaña en un parque",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-60",
+      "pattern": "natural y me pongo mirando el bosque Y",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-61",
+      "pattern": "me tomo mi café si es verano estupenda",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-62",
+      "pattern": "si es invierno un poco abrigadita Ah lo",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-63",
+      "pattern": "primero que café sin café no puedo vivir",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-64",
+      "pattern": "entonces me ducho miro un poco las",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-65",
+      "pattern": "noticias para despertarme y entonces ya",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-66",
+      "pattern": "a por el metro Es una rutina es",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-67",
+      "pattern": "primordial dos tazas de café todas las",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-68",
+      "pattern": "mañanas si no mi día está estropeada",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-69",
+      "pattern": "cómo tomas tu café aa americana un vaso",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-70",
+      "pattern": "Expreso siempre siempre eh con leche",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-71",
+      "pattern": "pero lo hago en la típica cafetera",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-72",
+      "pattern": "italiana eh y tengo que esperar un",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-73",
+      "pattern": "poquito pero está bueno está rico está",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-74",
+      "pattern": "rico Yo tengo que almorzar si no",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-75",
+      "pattern": "desayuno bien no no puedo no puedo",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-76",
+      "pattern": "seguir el día entonces me preparo mi",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-77",
+      "pattern": "desayuno desayuno con las noticias y",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-78",
+      "pattern": "luego ya me voy para el trabajo qué des",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-79",
+      "pattern": "unas Pues un bocadillo de lo que sea",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-80",
+      "pattern": "pues jamón queso embutido y un zumo de",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-81",
+      "pattern": "naranja y un café hoy yo desayuno mi",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-82",
+      "pattern": "café con leche tostadas con jamón y",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-83",
+      "pattern": "también una tostada con con mermelada",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-84",
+      "pattern": "siempre lo clásico un café con hecho con",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-85",
+      "pattern": "una pasta una bollería ya es de siempre",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-86",
+      "pattern": "puede ser un sándwich puede ser una arpa",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-87",
+      "pattern": "puede ser fruta varía Yo sí varía un",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-88",
+      "pattern": "pancakes yo no varí nada yo siempre",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-89",
+      "pattern": "igual así no pierdo tiempo pensando que",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-90",
+      "pattern": "voy a desayunar de la cocina me voy al",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-91",
+      "pattern": "baño me lavo los",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-92",
+      "pattern": "dientes me peino y ya está coo el bolso",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-93",
+      "pattern": "que lo preparé por la noche y me voy",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-94",
+      "pattern": "corriendo Sí tú también tienes una",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-95",
+      "pattern": "rutina muy marcada me imagino que puede",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-96",
+      "pattern": "ser complicado encontrar un profesor o",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-97",
+      "pattern": "tutor particular que tenga la",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-98",
+      "pattern": "disponibilidad que necesites pues entra",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-99",
+      "pattern": "el patrocinador de este vídeo que es",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-100",
+      "pattern": "italki es una plataforma donde puedes",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-101",
+      "pattern": "encontrar profesores de todas partes del",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-102",
+      "pattern": "mundo así aseguras de encontrar alguien",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-103",
+      "pattern": "que tenga la disponibilidad perfecta",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-104",
+      "pattern": "para ti puede ser muy caro quizás",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-105",
+      "pattern": "piensas pues de hecho hay de todos los",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-106",
+      "pattern": "presupuestos y además con nuestro link",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-107",
+      "pattern": "que es go. ity.com baras spanish",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-108",
+      "pattern": "obtendrás $10 de crédito eh para",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-109",
+      "pattern": "utilizar en la plataforma después de",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-110",
+      "pattern": "gastar tus primeros 20 es una buena",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-111",
+      "pattern": "oferta Bueno ahora seguimos con las",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-112",
+      "pattern": "entrevistas Hay algo en particular en la",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-113",
+      "pattern": "mañana que es muy importante para ti si",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-114",
+      "pattern": "lo no lo haces es un poco te pone de",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-115",
+      "pattern": "malas o no sé sí hay algo básico y para",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-116",
+      "pattern": "mí para mi equipo siempre buscamos el",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-117",
+      "pattern": "desayuno intento que todos rompamos",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-118",
+      "pattern": "media mañana bajemos desconectemos 20",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-119",
+      "pattern": "minutos y desayunemos juntos yo",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-120",
+      "pattern": "básicamente O sea si por ejemplo he",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-121",
+      "pattern": "trasnochado O sea que he salido de noche",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-122",
+      "pattern": "y me acabo despertando muy tarde lo que",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-123",
+      "pattern": "intento es que que los horos de las",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-124",
+      "pattern": "comidas no se cambien no se alteren",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-125",
+      "pattern": "mucho Entonces ya lo que puede ser es",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-126",
+      "pattern": "que directamente pase a la comida y",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-127",
+      "pattern": "entonces evite el desayuno Porque si",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-128",
+      "pattern": "empieza a ir todo tarde luego todo va",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-129",
+      "pattern": "mal intento aunque no lo consigo cada",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-130",
+      "pattern": "día pero intento hacer un poco de Met",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-131",
+      "pattern": "acción con un app que uso como 10",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-132",
+      "pattern": "minutos cada mañana Bueno por ejemplo",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-133",
+      "pattern": "juego al Golf juego al Golf sí por las",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-134",
+      "pattern": "mañanas algún día o sea me levanto",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-135",
+      "pattern": "pronto algún día para jugar o sea los",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-136",
+      "pattern": "días que más pronto me levanto es para",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-137",
+      "pattern": "jugar porque luego tengo que trabajar no",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-138",
+      "pattern": "miro la predicción del tiempo que",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-139",
+      "pattern": "también me gusta y Bueno luego ya o voy",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-140",
+      "pattern": "a natación o voy a mis clases de",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-141",
+      "pattern": "inglés las llaves de la",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-142",
+      "pattern": "oficina y porque si no no entro para ti",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-143",
+      "pattern": "es importante tener una rutina enre",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-144",
+      "pattern": "seman así eh Para mí la rutina no es",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-145",
+      "pattern": "importante al contrario soy antir rutina",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-146",
+      "pattern": "pudiera vivir sin ninguna rutina Me",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-147",
+      "pattern": "encantaría de hacer cada momento lo que",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-148",
+      "pattern": "me apetece en cada momento y un día",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-149",
+      "pattern": "levantarme una hora otro otro diferente",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-150",
+      "pattern": "Eso es lo que me gustaría hacer pero no",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-151",
+      "pattern": "puedo no no no porque laboralmente puedo",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-152",
+      "pattern": "trabajar desde casa otros días Voy a la",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-153",
+      "pattern": "oficina otros días visito clientes otro",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-154",
+      "pattern": "día voy a proyectos con lo cual es la",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-155",
+      "pattern": "verdad no me siento esa rutina diaria",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-156",
+      "pattern": "levantarte oficina cas no no no no no en",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-157",
+      "pattern": "mi caso tengo suerte y no",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-158",
+      "pattern": "no no yo no me de hecho me cuesta entrar",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-159",
+      "pattern": "en una rutina por ejemplo me",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-160",
+      "pattern": "gustaría ser más disciplinada con el",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-161",
+      "pattern": "gimnasio o el ejercicio pero no lo",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-162",
+      "pattern": "consigo normalmente voy al gimnasio",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-163",
+      "pattern": "cuando tengo tiemp Cuando tenga tiempo",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-164",
+      "pattern": "pero pero sí Considero que la rutina es",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-165",
+      "pattern": "importante para marcar disciplina si",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-166",
+      "pattern": "tienes algún objetivo en mente durante",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-167",
+      "pattern": "esos meses dependiendo de la temporada",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-168",
+      "pattern": "que sea la rutina es importante Bueno al",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-169",
+      "pattern": "final es como un orden mental porque si",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-170",
+      "pattern": "te levantas temprano o al menos a una",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-171",
+      "pattern": "hora determinada es como que siempre",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-172",
+      "pattern": "tienes la seguridad de que vas a hacer",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-173",
+      "pattern": "lo mismo y Bueno pues creo que soy un",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-174",
+      "pattern": "poco más productivo también al",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-175",
+      "pattern": "levantarme temprano tengo más horas para",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-176",
+      "pattern": "trabajar sí sí sobre todo porque me",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-177",
+      "pattern": "gusta mucho dormir y si no tengo una",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-178",
+      "pattern": "rutina que sepa muy de memoria llego",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-179",
+      "pattern": "tarde eh yo soy muy metódico soy una soy",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-180",
+      "pattern": "una persona muy metódica y porque esto",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-181",
+      "pattern": "la rutina para mí es muy importante",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-182",
+      "pattern": "para mí sí yo soy una persona de rutinas",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-183",
+      "pattern": "lo cual no quiere decir que de repente",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-184",
+      "pattern": "me digan algo vamos a tal sitio lo dejo",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-185",
+      "pattern": "todo y voy no a veces cuando se nos",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-186",
+      "pattern": "eh sentimos que estamos fuera de nuestra",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-187",
+      "pattern": "zona de Confort Y eso hace que estemos",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-188",
+      "pattern": "más desubicados pensemos que no hemos",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-189",
+      "pattern": "aprovechado suficientemente la mañana o",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-190",
+      "pattern": "que nos sintamos incluso culpables no es",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-191",
+      "pattern": "necesariamente así pero pero eh somos",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-192",
+      "pattern": "animales de rutina Bueno me imagino que",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-193",
+      "pattern": "dependerá de la personalidad de cada uno",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-194",
+      "pattern": "no habrá gente a lo mejor más creativa",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-195",
+      "pattern": "eh que a lo mejor es más menos rutinaria",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-196",
+      "pattern": "y a lo mejor gente más yo que sé es un",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-197",
+      "pattern": "poco cliché no pero a lo mejor personas",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-198",
+      "pattern": "más científicas que a lo mejor necesitan",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-199",
+      "pattern": "una rutina o a lo mejor es al revés No",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-200",
+      "pattern": "lo sé pero cada según la personalidad de",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-201",
+      "pattern": "cada uno pues no te irá mejor una cosa u",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-202",
+      "pattern": "otra no Y para terminar Cuál es la",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-203",
+      "pattern": "última cosa que hacéis antes de",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-204",
+      "pattern": "dormir Ah irme en tiktok es mi momento",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-205",
+      "pattern": "relax la última cosa antes de",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-206",
+      "pattern": "dormir Uf no tengo una rutina fija No",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-207",
+      "pattern": "sabría decirte no no no hay algo",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-208",
+      "pattern": "seguramente lavarme los dientes",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-209",
+      "pattern": "seguramente antes de dormir bueno recojo",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-210",
+      "pattern": "la cocina me gusta que quede la cocina",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-211",
+      "pattern": "recogida escribirse el día siguiente",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-212",
+      "pattern": "tengo tareas pendientes por hacer trato",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-213",
+      "pattern": "de escribirlas la noche anterior así ya",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-214",
+      "pattern": "el día siguiente las las tengo claras o",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-215",
+      "pattern": "e veo películas o Leo un libro he",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-216",
+      "pattern": "terminado hace poco un libro de García",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-217",
+      "pattern": "Márquez sí cuál Uy el título es raro eh",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-218",
+      "pattern": "tristes lo escribió García Márquez yo",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-219",
+      "pattern": "no me gusta leer Pero últimamente Cojo",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-220",
+      "pattern": "un libro y me quedo",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-221",
+      "pattern": "dormida es posible que acabe con ruedas",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-222",
+      "pattern": "informativas de noticias ya para acabar",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-223",
+      "pattern": "de machacarte o sea de de dormirte",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-224",
+      "pattern": "seguro y entonces ya me levanto y me voy",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-225",
+      "pattern": "a la cama Pues algo que no se debe hacer",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-226",
+      "pattern": "que es estar con el",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-227",
+      "pattern": "móvil pues estoy con el móvil la verdad",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-228",
+      "pattern": "y no debería pero revisar el móvil A lo",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-229",
+      "pattern": "mejor mirar s algo en YouTube o algo así",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-230",
+      "pattern": "que no debería eh Por la luz azul tengo",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-231",
+      "pattern": "eh despierta ciertas partes del cerebro",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-232",
+      "pattern": "eh estar tan activa durante las horas",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-233",
+      "pattern": "previas a ir a dormir y sé que no",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-234",
+      "pattern": "debería pero bueno igualmente lo hago",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-235",
+      "pattern": "intento no hacerlo lo último lo último",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-236",
+      "pattern": "mirar las alarmas a ver si están todas",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-237",
+      "pattern": "bien puestas es como lo último que hago",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-238",
+      "pattern": "antes de poder dormir las alarmas hay",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-239",
+      "pattern": "sí tengo varias tengo a las 8 88:05",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-240",
+      "pattern": "8:15 nada nada No yo te doy un beso y te",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-241",
+      "pattern": "tapo bien y se duerme si no no duerme",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-242",
+      "pattern": "bien y ahora te toca a ti A mí no a",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-243",
+      "pattern": "déjanos en los comentarios Cómo es un",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-244",
+      "pattern": "día eh normal para ti cuál es tu rutina",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-245",
+      "pattern": "y si queréis profundizar un poco más",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-246",
+      "pattern": "acerca de este tema os recomendamos ver",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-247",
+      "pattern": "el vídeo que hizo Paulina acerca de",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-248",
+      "pattern": "despertarse la rutina por la mañana de",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-249",
+      "pattern": "la gente en México nada más no olvidéis",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    },
+    {
+      "id": "pattern-250",
+      "pattern": "suscribiros a nuestro canal y nos vemos",
+      "zh": "",
+      "grammar": "句型",
+      "examples": []
+    }
+  ],
+  "parseStatus": "pending",
+  "createdAt": "2026-07-15T08:01:49.398Z",
+  "updatedAt": "2026-07-15T08:02:26.506Z"
+}

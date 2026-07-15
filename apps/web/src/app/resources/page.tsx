@@ -103,7 +103,7 @@ function ResourcesPage() {
     files?: { video?: File | null; subtitle?: File | null }
   ) {
     setLoading(true);
-    setImportStatus("正在导入并解析…");
+    setImportStatus("正在导入（不会自动解析，省 Token）…");
     const fd = new FormData();
     fd.append("sourceType", sourceType);
     appendImportFormFields(
@@ -119,12 +119,11 @@ function ResourcesPage() {
     const data = await res.json();
     setLoading(false);
 
-    if (data.id) {
-      if (data.parseStatus === "ready") {
-        setImportStatus("导入并解析完成，正在前往「听」页面…");
-      } else {
-        setImportStatus(data.message || "导入完成，部分解析待完善");
-      }
+      if (data.id) {
+        setImportStatus(
+          data.message ||
+            "导入完成。请到「听」页上传字幕（如需）并点「准备解析」。"
+        );
       setVideoFile(null);
       setSubtitleFile(null);
       router.push(`/listen?new=${data.id}`);
@@ -138,7 +137,8 @@ function ResourcesPage() {
       <div>
         <h1 className="text-2xl font-bold">导入学习资源</h1>
         <p className="text-muted-foreground">
-          支持本地上传、YouTube/B站/百度网盘链接、粘贴字幕。在设置页登录 B站/百度网盘后，粘贴 URL 即可自动下载视频、拉字幕并用 Cursor 全量解析词汇与句型。
+          支持本地上传、YouTube/B站/百度网盘链接、粘贴字幕。导入后不会默认解析；请先上传原声语种
+          SRT，再在「听」卡片点「准备解析」确认分段后开始（省 Token）。
         </p>
         {syncing && (
           <p className="mt-1 text-sm text-muted-foreground">正在从 GitHub 拉取最新数据…</p>

@@ -9,10 +9,10 @@ import {
   getEnPatterns,
 } from "@/lib/level-reference/filter";
 import { lookupDictionary } from "@/lib/dictionary/lookup";
-import { isLikelyWordNotPhrase } from "@/lib/vocab-extract";
+import { isLikelyWordNotPhrase, isBasicSkipWord, isLikelyAcronym, isKatakanaLoanword } from "@/lib/vocab-extract";
 import { ensureFullPatterns } from "@/lib/pack-patterns";
 import { translateToZh, hasChineseText, isMyMemoryQuotaExhausted } from "@/lib/translate-zh";
-import { getParseRules, dictSourcesLabel } from "@/lib/parse-rules";
+import { getParseRules, dictSourcesLabel, conjugationDictUrl } from "@/lib/parse-rules";
 import { saveContentPack } from "@/lib/data";
 
 const POS_ZH: Record<string, string> = {
@@ -74,6 +74,7 @@ export async function enrichFromReference(
   const vocab: VocabularyItem[] = [];
   for (const v of pack.manifest.vocabulary) {
     if (!isLikelyWordNotPhrase(v.word, lang)) continue;
+    if (isBasicSkipWord(v.word, lang)) continue;
 
     const lex = lang === "ja" ? lookupJaLexicon(v.word) : undefined;
     const wordLevel = v.level || lookupWordLevel(v.word, lang);
@@ -92,7 +93,25 @@ export async function enrichFromReference(
       reading: v.reading || lex?.reading,
       partOfSpeech: mapPos(v.partOfSpeech || lex?.pos) || v.partOfSpeech,
       level: wordLevel || v.level,
+      glossJa:
+        v.glossJa ||
+        (lang === "ja" && lex?.gloss && lex.gloss !== lex.zh
+          ? lex.gloss
+          : v.glossJa),
+      glossEn: v.glossEn,
+      lemma: v.lemma,
+      dictUrl: v.dictUrl,
+      etymology: v.etymology,
+      notes: v.notes,
+      isAcronym: v.isAcronym || isLikelyAcronym(v.word),
+      isLoanword: v.isLoanword || (lang === "ja" && isKatakanaLoanword(v.word)),
     };
+    if (next.isAcronym && !next.notes) {
+      next.notes = "缩写/专有缩略语：请结合语境理解全称";
+    }
+    if (next.isLoanword && !next.etymology) {
+      next.etymology = "外来语（片假名）：来源待标（原语言与原词）";
+    }
     if (next.zh && next.zh !== next.word) vocabFilled += 1;
     vocab.push(next);
   }
@@ -130,6 +149,12 @@ export async function enrichFromReference(
         .filter(Boolean)
         .slice(0, 6)
         .join("；");
+      // 英/西/法：保留英文释义
+      if (lang === "en" || lang === "es" || lang === "fr") {
+        if (!v.glossEn || v.glossEn === v.word) {
+          v.glossEn = gloss;
+        }
+      }
       if (nativeZh) {
         if ((lang === "es" || lang === "fr") && hasChineseText(gloss)) {
           v.zh = gloss;
@@ -151,9 +176,39 @@ export async function enrichFromReference(
       v.reading = v.reading || hit.reading;
       v.partOfSpeech =
         v.partOfSpeech || mapPos(hit.senses[0].partOfSpeech[0]);
+      // 西/法：词形变化 → 用 headword 作原型并附词典变位链接
+      if ((lang === "es" || lang === "fr") && hit.headword) {
+        v.lemma = v.lemma || hit.headword;
+        v.dictUrl =
+          v.dictUrl || conjugationDictUrl(lang, hit.headword) || undefined;
+      }
+      if (lang === "en" && !v.dictUrl) {
+        v.dictUrl = conjugationDictUrl("en", v.word);
+      }
+      if (lang === "ja" && !v.dictUrl) {
+        v.dictUrl = conjugationDictUrl("ja", v.word);
+      }
       await new Promise((r) => setTimeout(r, dictDelayMs));
     } catch {
       /* ignore */
+    }
+  }
+
+  // 语种字段兜底：原型链接 / 外来语标记
+  for (const v of vocab) {
+    if ((lang === "es" || lang === "fr") && !v.dictUrl) {
+      const lemma = v.lemma || v.word;
+      v.lemma = lemma;
+      v.dictUrl = conjugationDictUrl(lang, lemma);
+    }
+    if (v.isAcronym && !v.notes) {
+      v.notes = "缩写/专有缩略语：请结合语境理解全称";
+    }
+    if (lang === "ja" && isKatakanaLoanword(v.word)) {
+      v.isLoanword = true;
+      if (!v.etymology) {
+        v.etymology = "外来语（片假名）：来源待标（原语言与原词）";
+      }
     }
   }
 
@@ -395,50 +450,59 @@ function inferJapaneseGrammar(text: string): string {
   if (/たことがある/.test(text)) return "〜たことがある：经验「曾经…」";
   if (/ではなく/.test(text)) return "〜ではなく：不是 A 而是 B";
   if (/装って|装い/.test(text)) return "〜を装って：装作…／伪装成…";
-  return "实用表达：结合字幕语境理解该句功能与搭配";
+  return "实用表达：留意习惯用法/俚语；结合字幕语境理解该句功能与搭配";
 }
 
 function inferEnglishGrammar(text: string): string {
   const t = text.toLowerCase();
   if (/you'd better|you had better/.test(t)) {
-    return "You'd better + V：建议・紧迫「最好…」";
+    return "You'd better + V：建议・紧迫「最好…」；口语习惯";
   }
   if (/there's something wrong with/.test(t)) {
-    return "There's something wrong with…：指出问题";
+    return "There's something wrong with…：指出问题（习惯用法）";
   }
-  if (/don't ever|never /.test(t)) return "Don't ever / Never + V：禁止";
-  if (/make sure (that )?/.test(t)) return "Make sure (that)…：确保";
+  if (/don't ever|never /.test(t)) return "Don't ever / Never + V：禁止（强语气）";
+  if (/make sure (that )?/.test(t)) return "Make sure (that)…：确保（习惯用法）";
   if (/you seem /.test(t)) return "You seem + adj：观察感受";
   if (/if I were you/.test(t)) return "If I were you…：虚拟建议";
   if (/\bused to\b/.test(t)) return "used to + V：过去习惯";
   if (/\bhave been\b|\bhas been\b/.test(t)) return "现在完成进行／状态";
   if (/\bgoing to\b/.test(t)) return "be going to：计划・预测";
   if (/\brather than\b/.test(t)) return "rather than：而不是…";
-  return "Common conversational pattern：结合语境理解";
+  if (/\bgotta\b|\bgonna\b|\bwanna\b|\bkinda\b/.test(t)) {
+    return "口语缩约/俚语（gotta/gonna/wanna/kinda）：非正式语体";
+  }
+  return "Common conversational pattern：留意俚语与习惯搭配；结合语境理解";
 }
 
 function inferSpanishGrammar(text: string): string {
   const t = text.toLowerCase();
-  if (/\bhay que\b/.test(t)) return "hay que + infinitivo：必须…";
+  if (/\bhay que\b/.test(t)) return "hay que + infinitivo：必须…（习惯用法）";
   if (/\btiene que\b|\btienen que\b/.test(t)) {
     return "tener que + infinitivo：不得不…";
   }
-  if (/\bes que\b/.test(t)) return "es que…：原因解释「是因为…」";
+  if (/\bes que\b/.test(t)) return "es que…：原因解释「是因为…」（口语）";
   if (/\baunque\b/.test(t)) return "aunque：虽然／即使";
   if (/\bpara que\b/.test(t)) return "para que + subjuntivo：为了…";
   if (/\bse me\b|\bse te\b|\bse le\b/.test(t)) {
     return "se + me/te/le：非自主发生（忘了／掉了）";
   }
-  return "Expresión frecuente：结合语境理解该句功能";
+  if (/\btío\b|\btía\b|\bvale\b|\bcurrar\b/.test(t)) {
+    return "口语/俚语表达：结合西语语境理解语体";
+  }
+  return "Expresión frecuente：留意习惯用法与俚语；结合语境理解";
 }
 
 function inferFrenchGrammar(text: string): string {
   const t = text.toLowerCase();
   if (/\bne\s+\w+\s+pas\b/.test(t)) return "ne … pas：否定结构";
-  if (/\bavoir besoin de\b/.test(t)) return "avoir besoin de：需要…";
+  if (/\bavoir besoin de\b/.test(t)) return "avoir besoin de：需要…（习惯搭配）";
   if (/\bvenir de\b/.test(t)) return "venir de + inf.：刚刚…";
   if (/\bavoir l'air\b/.test(t)) return "avoir l'air：看起来…";
   if (/\bplutôt que\b/.test(t)) return "plutôt que：而不是…";
   if (/\bbien que\b/.test(t)) return "bien que + subj.：虽然…";
-  return "Expression courante：结合语境理解该句功能";
+  if (/\btruc\b|\bbidule\b|\bvachement\b/.test(t)) {
+    return "口语/俚语表达：结合法语语境理解语体";
+  }
+  return "Expression courante：留意习惯用法与俚语；结合语境理解";
 }

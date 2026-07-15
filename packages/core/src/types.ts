@@ -65,10 +65,27 @@ export interface VocabularyItem {
   id: string;
   word: string;
   reading?: string;
+  /** 中文释义（可多义；；分隔） */
   zh: string;
+  /** 英文释义（英/西/法语词汇展示用） */
+  glossEn?: string;
+  /** 日文释义（日语词汇中日双语展示用） */
+  glossJa?: string;
   partOfSpeech?: string;
   sentenceIds: string[];
   level?: string;
+  /** 动词等变化形对应的词典原型（infinitivo / infinitif） */
+  lemma?: string;
+  /** 词形变化 / 原型词典链接 */
+  dictUrl?: string;
+  /** 片假名外来语来源，如「英語: computer」 */
+  etymology?: string;
+  /** 专业词 / 缩写补充说明 */
+  notes?: string;
+  /** 是否缩写/首字母缩略 */
+  isAcronym?: boolean;
+  /** 是否片假名外来语 */
+  isLoanword?: boolean;
 }
 
 export interface PatternItem {
