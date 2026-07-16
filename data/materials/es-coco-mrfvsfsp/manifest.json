@@ -33,9 +33,207 @@
       }
     ]
   },
-  "vocabulary": [],
-  "patterns": [],
+  "vocabulary": [
+    {
+      "id": "vocab-1",
+      "word": "estar",
+      "lemma": "estar",
+      "zh": "在,处于",
+      "partOfSpeech": "",
+      "dictUrl": "https://www.spanishdict.com/conjugate/estar",
+      "notes": "字幕形：estoy",
+      "sentenceIds": []
+    },
+    {
+      "id": "vocab-2",
+      "word": "pasar",
+      "lemma": "pasar",
+      "zh": "运,穿过,经过,胜过,超过,遭受,过滤",
+      "partOfSpeech": "",
+      "dictUrl": "https://www.spanishdict.com/conjugate/pasar",
+      "notes": "字幕形：pasó",
+      "sentenceIds": []
+    },
+    {
+      "id": "vocab-3",
+      "word": "ver",
+      "lemma": "ver",
+      "zh": "看见,查看,拜访,观看,了解,察觉,理解,论及",
+      "partOfSpeech": "",
+      "dictUrl": "https://www.spanishdict.com/conjugate/ver",
+      "notes": "字幕形：Verán",
+      "sentenceIds": []
+    },
+    {
+      "id": "vocab-4",
+      "word": "hacer",
+      "lemma": "hacer",
+      "zh": "造,作,干,偷盗,扮演,假装,以为,等于,排泄,使,让",
+      "partOfSpeech": "",
+      "dictUrl": "https://www.spanishdict.com/conjugate/hacer",
+      "notes": "字幕形：Hace",
+      "sentenceIds": []
+    },
+    {
+      "id": "vocab-5",
+      "word": "haber",
+      "lemma": "haber",
+      "zh": "m.财产,资产haber2vt.有,抓住,逮住aux.与过去分词连用,构成复合时态,表示完成的动作i...",
+      "partOfSpeech": "",
+      "dictUrl": "https://www.spanishdict.com/conjugate/haber",
+      "notes": "字幕形：había",
+      "sentenceIds": []
+    },
+    {
+      "id": "vocab-6",
+      "word": "cantar",
+      "lemma": "cantar",
+      "zh": "m.民歌cantar2vt.唱,唱歌,歌颂,招供",
+      "partOfSpeech": "",
+      "dictUrl": "https://www.spanishdict.com/conjugate/cantar",
+      "notes": "字幕形：cantaban",
+      "sentenceIds": []
+    },
+    {
+      "id": "vocab-7",
+      "word": "bailar",
+      "lemma": "bailar",
+      "zh": "跳舞,摇动,旋转",
+      "partOfSpeech": "",
+      "dictUrl": "https://www.spanishdict.com/conjugate/bailar",
+      "notes": "字幕形：bailaban",
+      "sentenceIds": []
+    },
+    {
+      "id": "vocab-8",
+      "word": "tener",
+      "lemma": "tener",
+      "zh": "有,拥有,具有,感到,受到,拿着,盛,装,渡过,当做",
+      "partOfSpeech": "",
+      "dictUrl": "https://www.spanishdict.com/conjugate/tener",
+      "notes": "字幕形：tuvo",
+      "sentenceIds": [
+        "line-13",
+        "line-15",
+        "line-16"
+      ]
+    },
+    {
+      "id": "vocab-9",
+      "word": "encontrar",
+      "lemma": "encontrar",
+      "zh": "遇到,碰到,找到",
+      "partOfSpeech": "",
+      "dictUrl": "https://www.spanishdict.com/conjugate/encontrar",
+      "notes": "字幕形：encontró",
+      "sentenceIds": [
+        "line-13",
+        "line-15",
+        "line-16"
+      ]
+    },
+    {
+      "id": "vocab-10",
+      "word": "suber",
+      "lemma": "suber",
+      "zh": "木栓质",
+      "partOfSpeech": "",
+      "dictUrl": "https://www.spanishdict.com/conjugate/suber",
+      "notes": "字幕形：subió",
+      "sentenceIds": [
+        "line-13",
+        "line-15",
+        "line-16"
+      ]
+    },
+    {
+      "id": "vocab-11",
+      "word": "destrozar",
+      "lemma": "destrozar",
+      "zh": "弄碎,击溃,破坏",
+      "partOfSpeech": "",
+      "dictUrl": "https://www.spanishdict.com/conjugate/destrozar",
+      "notes": "字幕形：destrozado",
+      "sentenceIds": [
+        "line-27"
+      ]
+    },
+    {
+      "id": "vocab-12",
+      "word": "morir",
+      "lemma": "morir",
+      "zh": "死 去世",
+      "partOfSpeech": "",
+      "dictUrl": "https://www.spanishdict.com/conjugate/morir",
+      "notes": "字幕形：Murió",
+      "sentenceIds": []
+    },
+    {
+      "id": "vocab-13",
+      "word": "aprender",
+      "lemma": "aprender",
+      "zh": "«a, de, por» 学习, 学会, 掌握:~ un idioma 学习一种语言. ...",
+      "partOfSpeech": "",
+      "dictUrl": "https://www.spanishdict.com/conjugate/aprender",
+      "notes": "字幕形：aprendió",
+      "sentenceIds": [
+        "line-17",
+        "line-16",
+        "line-18"
+      ]
+    },
+    {
+      "id": "vocab-14",
+      "word": "subir",
+      "lemma": "subir",
+      "zh": "上,上升,增到,升迁,晋级vt.举起,使加高,提高",
+      "partOfSpeech": "",
+      "dictUrl": "https://www.spanishdict.com/conjugate/subir",
+      "notes": "字幕形：subió",
+      "sentenceIds": [
+        "line-17",
+        "line-16",
+        "line-18"
+      ]
+    },
+    {
+      "id": "vocab-15",
+      "word": "hechar",
+      "lemma": "hechar",
+      "zh": "f.[古]事情.de esta &lt",
+      "partOfSpeech": "",
+      "dictUrl": "https://www.spanishdict.com/conjugate/hechar",
+      "notes": "字幕形：hecho",
+      "sentenceIds": [
+        "line-17",
+        "line-16",
+        "line-18"
+      ]
+    },
+    {
+      "id": "vocab-16",
+      "word": "dulces",
+      "lemma": "dulces",
+      "zh": "甜的 和蔼可亲的 柔和的甜食 果脯",
+      "partOfSpeech": "",
+      "dictUrl": "https://www.spanishdict.com/conjugate/dulces",
+      "sentenceIds": [
+        "line-17",
+        "line-16",
+        "line-18"
+      ]
+    }
+  ],
+  "patterns": [
+    {
+      "id": "pattern-1",
+      "pattern": "Murió mucho antes\nde que yo naciera.",
+      "zh": "去世的时间要早得多\n我出生了。",
+      "grammar": "",
+      "examples": []
+    }
+  ],
   "parseStatus": "processing",
   "createdAt": "2026-07-11T04:45:20.762Z",
-  "updatedAt": "2026-07-16T03:02:09.492Z"
+  "updatedAt": "2026-07-16T16:34:52.695Z"
 }
