@@ -4,7 +4,6 @@ import { useEffect, useState, useRef, useMemo, useCallback } from "react";
 import type {
   ContentPack,
   TranscriptLine,
-  MaterialMarks,
   ResolvedMedia,
   VocabularyItem,
 } from "@langtube/core";
@@ -22,7 +21,7 @@ import { resolveMediaClient } from "@/lib/media-resolver";
 import { mediaUrlForMaterial } from "@/lib/material-id";
 import { buildReadingMap } from "@/lib/japanese-ruby";
 import { JapaneseRubyText } from "@/components/japanese-ruby-text";
-import { Star } from "lucide-react";
+import { resolvePatternAudioRange } from "@/lib/pattern-audio-range";
 import Link from "next/link";
 
 export default function ShadowReadingPage({
@@ -32,12 +31,6 @@ export default function ShadowReadingPage({
 }) {
   const [materialId, setMaterialId] = useState("");
   const [pack, setPack] = useState<ContentPack | null>(null);
-  const [marks, setMarks] = useState<MaterialMarks>({
-    lines: [],
-    vocabulary: [],
-    patterns: [],
-    updatedAt: "",
-  });
   const [media, setMedia] = useState<ResolvedMedia | null>(null);
   const [mediaStatus, setMediaStatus] = useState<
     "idle" | "resolving" | "downloading" | "ready" | "failed"
@@ -45,7 +38,6 @@ export default function ShadowReadingPage({
   const [mediaMessage, setMediaMessage] = useState("");
   const [lineIndex, setLineIndex] = useState(0);
   const [delayMode, setDelayMode] = useState(false);
-  const [markedOnly, setMarkedOnly] = useState(false);
   const [isRecording, setIsRecording] = useState(false);
   const [userSpeech, setUserSpeech] = useState("");
   const [similarity, setSimilarity] = useState<number | null>(null);
@@ -157,12 +149,10 @@ export default function ShadowReadingPage({
   useEffect(() => {
     params.then(async (p) => {
       setMaterialId(p.materialId);
-      const [packData, marksData] = await Promise.all([
-        fetch(`/api/materials/${p.materialId}`).then((r) => r.json()),
-        fetch(`/api/marks/${p.materialId}`).then((r) => r.json()),
-      ]);
+      const packData = await fetch(`/api/materials/${p.materialId}`).then((r) =>
+        r.json()
+      );
       setPack(packData);
-      setMarks(marksData);
       await resolvePlayback(packData);
     });
   }, [params, resolvePlayback]);
@@ -176,14 +166,25 @@ export default function ShadowReadingPage({
 
   const queue = useMemo(() => {
     if (!pack) return [];
-    const all = pack.transcript.lines;
-    const marked = all.filter((l) => marks.lines.includes(l.id));
-    const rest = all.filter((l) => !marks.lines.includes(l.id));
-    if (markedOnly) return marked;
-    return [...marked, ...rest];
-  }, [pack, marks, markedOnly]);
+    const patterns = pack.manifest.patterns ?? [];
+    // 影子跟读改为使用听辨「句型 / 语法」内容
+    if (patterns.length === 0) return [];
+    const lang = pack.manifest.sourceLang;
+    const lines = pack.transcript.lines ?? [];
+    return patterns.map((p) => {
+      const range = resolvePatternAudioRange(p.pattern, lines, lang);
+      return {
+        id: p.id,
+        start: range.start,
+        end: range.end,
+        text: p.pattern,
+        translation: p.zh || "",
+      } satisfies TranscriptLine;
+    });
+  }, [pack]);
 
   const currentLine: TranscriptLine | undefined = queue[lineIndex];
+  const patternCount = pack?.manifest.patterns.length ?? 0;
   const hasDirectAudio = media?.type === "direct" && Boolean(media.url);
   const remoteUrl =
     pack?.storage?.url || pack?.manifest?.sourceUrl || "";
@@ -321,15 +322,20 @@ export default function ShadowReadingPage({
     return <div className="py-12 text-center">加载中...</div>;
   }
 
-  const markedCount = marks.lines.length;
-
   return (
     <div className="mx-auto max-w-2xl space-y-6">
       <h1 className="text-2xl font-bold">影子跟读 — {pack.manifest.title}</h1>
 
-      {markedCount > 0 && (
+      {patternCount > 0 ? (
         <p className="text-sm text-primary">
-          优先跟读 {markedCount} 句（来自听模块标记）
+          跟读 {patternCount} 条句型（来自听辨「句型 / 语法」）
+        </p>
+      ) : (
+        <p className="text-sm text-muted-foreground">
+          暂无句型。请先到听辨页勾选字幕并解析句型。{" "}
+          <Link href={`/listen/${materialId}`} className="text-primary underline">
+            去听辨
+          </Link>
         </p>
       )}
 
@@ -340,16 +346,6 @@ export default function ShadowReadingPage({
           onClick={() => setDelayMode(!delayMode)}
         >
           {delayMode ? "延迟跟读 (0.5s)" : "同步跟读"}
-        </Button>
-        <Button
-          size="sm"
-          variant={markedOnly ? "default" : "outline"}
-          onClick={() => {
-            setMarkedOnly(!markedOnly);
-            setLineIndex(0);
-          }}
-        >
-          {markedOnly ? "仅练标记句" : "全部句子"}
         </Button>
         {remoteUrl && (
           <Button
@@ -427,9 +423,6 @@ export default function ShadowReadingPage({
         <CardHeader>
           <CardDescription>
             第 {lineIndex + 1} / {queue.length} 句
-            {marks.lines.includes(currentLine?.id ?? "") && (
-              <Star className="ml-1 inline h-4 w-4 fill-yellow-400 text-yellow-400" />
-            )}
             {currentLine && (
               <span className="ml-2 text-xs">
                 {currentLine.start.toFixed(1)}s – {currentLine.end.toFixed(1)}s

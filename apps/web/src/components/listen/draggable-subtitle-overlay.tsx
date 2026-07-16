@@ -6,6 +6,7 @@ import {
   useRef,
   useState,
   type PointerEvent as ReactPointerEvent,
+  type ReactNode,
 } from "react";
 import { cn } from "@/lib/utils";
 
@@ -44,6 +45,7 @@ type Props = {
   /** 按素材区分记忆位置；缺省用全局 key */
   materialId?: string;
   className?: string;
+  children?: ReactNode;
 };
 
 /**
@@ -54,6 +56,7 @@ export function DraggableSubtitleOverlay({
   text,
   materialId,
   className,
+  children,
 }: Props) {
   const storageKey = materialId
     ? `${STORAGE_KEY}.${materialId}`
@@ -106,6 +109,8 @@ export function DraggableSubtitleOverlay({
 
   function onPointerDown(e: ReactPointerEvent<HTMLDivElement>) {
     if (e.button !== 0) return;
+    // 点选单词时不启动拖拽
+    if ((e.target as HTMLElement).closest("button")) return;
     const box = boxRef.current;
     const current = posRef.current;
     if (!box || !current) return;
@@ -170,11 +175,11 @@ export function DraggableSubtitleOverlay({
           e.preventDefault();
           resetPosition();
         }}
-        title="拖拽调整字幕位置；双击复位到底部居中"
+        title="拖拽空白处调整位置；双击复位；点选单词可解析"
       >
-        <p className="rounded bg-black/75 px-3 py-1.5 text-center text-sm leading-snug text-white shadow-md">
-          {text}
-        </p>
+        <div className="rounded bg-black/75 px-3 py-1.5 text-center text-sm leading-snug text-white shadow-md">
+          {children ?? text}
+        </div>
       </div>
     </div>
   );

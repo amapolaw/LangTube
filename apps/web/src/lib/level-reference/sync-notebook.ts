@@ -33,7 +33,7 @@ export async function applyLevelFilterAndNotebook(
 
   const lang = pack.manifest.sourceLang;
   const level = pack.manifest.level || (lang === "ja" ? "N3" : "B1");
-  const addToNotebook = opts?.addToNotebook !== false;
+  const addToNotebook = opts?.addToNotebook === true;
   const maxCards = opts?.maxNotebookCards ?? 40;
 
   const filter = filterPackByLevel(

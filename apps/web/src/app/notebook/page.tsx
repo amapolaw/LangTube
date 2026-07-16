@@ -155,7 +155,8 @@ export default function NotebookPage() {
         )}
       </div>
       <p className="text-xs text-muted-foreground">
-        正面为原文；背面为权威词典释义、用法与例句（日语 JMDict / 英语公开词典）。
+        卡片来自听辨页：在「词汇表 / 句型」中勾选后点「加入 Notebook」。
+        正面为原文；背面为释义、用法与例句。
       </p>
       {enrichMsg && (
         <p className="text-xs text-muted-foreground">{enrichMsg}</p>

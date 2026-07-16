@@ -23,6 +23,8 @@ import {
   isPackFullyEnriched,
 } from "@/lib/pack-readiness";
 import { getParseRules } from "@/lib/parse-rules";
+import { hasDisplayableGrammar } from "@/lib/pattern-grammar";
+import { hasSyntheticUniformTiming } from "@/lib/transcript-timing";
 import { Button } from "@/components/ui/button";
 import { Checkbox } from "@/components/ui/checkbox";
 import { Input } from "@/components/ui/input";
@@ -38,6 +40,10 @@ import {
 } from "@/components/ui/card";
 import { Progress } from "@/components/ui/progress";
 import { DraggableSubtitleOverlay } from "@/components/listen/draggable-subtitle-overlay";
+import { SelectableSubtitleText } from "@/components/listen/selectable-subtitle-text";
+import type { ParsedWordState } from "@/components/listen/selectable-subtitle-text";
+import { guessLemmaKey } from "@/lib/lemma-keys";
+import type { VocabIndexHit } from "@/lib/vocab-index";
 import { Star } from "lucide-react";
 
 export default function ListenDetailPage({
@@ -60,6 +66,10 @@ export default function ListenDetailPage({
   const [showSubtitles, setShowSubtitles] = useState(true);
   const [selectedVocab, setSelectedVocab] = useState<Set<string>>(new Set());
   const [selectedPatterns, setSelectedPatterns] = useState<Set<string>>(new Set());
+  const [pendingWords, setPendingWords] = useState<Set<string>>(new Set());
+  const [pendingLineIds, setPendingLineIds] = useState<Set<string>>(new Set());
+  const [selectionParsing, setSelectionParsing] = useState(false);
+  const [vocabIndexHits, setVocabIndexHits] = useState<VocabIndexHit[]>([]);
   const [media, setMedia] = useState<ResolvedMedia | null>(null);
   const [transcriptDraft, setTranscriptDraft] = useState("");
   const [savingTranscript, setSavingTranscript] = useState(false);
@@ -72,6 +82,7 @@ export default function ListenDetailPage({
   const videoRef = useRef<HTMLVideoElement>(null);
   const subtitleListRef = useRef<HTMLDivElement>(null);
   const activeSubtitleRef = useRef<HTMLDivElement>(null);
+  const autoRealignDoneRef = useRef(false);
 
   async function loadPack(id: string) {
     const materialId = normalizeMaterialId(id);
@@ -106,6 +117,10 @@ export default function ListenDetailPage({
     const marksRes = await fetch(
       `/api/marks/${encodeURIComponent(materialId)}`
     ).then((r) => r.json());
+    const vocabIndexRes = await fetch("/api/vocabulary-index").then((r) =>
+      r.json()
+    );
+    setVocabIndexHits(vocabIndexRes.hits ?? []);
 
     setPack(packRes);
     setMarks(marksRes);
@@ -181,19 +196,41 @@ export default function ListenDetailPage({
     setSegmentStart(0);
     setSegmentEnd(Math.max(fullEnd, 60));
 
+    // 有字幕即可听辨；词汇/句型改为点选按需解析，不再自动全量 LLM
     if (isPackContentReady(packRes)) {
-      const translated = (packRes.transcript?.lines ?? []).filter(
-        (l: { translation?: string }) => l.translation?.trim()
-      ).length;
-      const total = packRes.transcript?.lines?.length ?? 0;
-      const needsCursor =
-        packRes.manifest?.enrichmentMode === "rules" &&
-        total > 0 &&
-        translated < total * 0.3;
-      if (!needsCursor) return;
-      setParsing(true);
-      setParseMessage("正在用 Cursor 全量生成双语字幕、词汇与句型…");
-      await autoParseSubtitles(materialId, packRes, true);
+      const lines = packRes.transcript?.lines ?? [];
+      if (
+        hasSyntheticUniformTiming(lines) &&
+        !autoRealignDoneRef.current
+      ) {
+        autoRealignDoneRef.current = true;
+        setParseMessage("检测到等间隔假时间轴，正在自动按语速对齐字幕…");
+        setRealigning(true);
+        try {
+          const res = await fetch(
+            `/api/materials/${encodeURIComponent(materialId)}/realign-subtitles`,
+            {
+              method: "POST",
+              headers: { "Content-Type": "application/json" },
+              body: JSON.stringify({ mode: "speech-rate" }),
+            }
+          );
+          const data = await res.json();
+          setParseMessage(data.message || (data.ok ? "字幕已自动对齐" : "自动对齐失败"));
+          if (data.ok) {
+            const refreshed = await fetch(
+              `/api/materials/${encodeURIComponent(materialId)}`
+            ).then((r) => r.json());
+            if (refreshed?.manifest) setPack(refreshed);
+          }
+        } catch {
+          setParseMessage("自动对齐请求失败，可手动点「按语速对齐」");
+        } finally {
+          setRealigning(false);
+        }
+      } else {
+        setParseMessage("字幕已就绪。点选单词/句子后再解析，可写入词汇表与句型。");
+      }
       return;
     }
 
@@ -201,10 +238,10 @@ export default function ListenDetailPage({
       const hasLines = (packRes.transcript?.lines?.length ?? 0) > 0;
       if (hasLines) {
         setParsing(false);
-        setParseMessage("后台解析进行中，可先浏览已有字幕与句型");
+        setParseMessage("后台获取字幕中，可先浏览已有内容");
       } else {
         setParsing(true);
-        setParseMessage("正在解析字幕与词汇…");
+        setParseMessage("正在获取字幕…");
       }
     } else {
       await autoParseSubtitles(materialId, packRes);
@@ -260,14 +297,14 @@ export default function ListenDetailPage({
     const hasLines = (initialPack?.transcript?.lines?.length ?? 0) > 0;
     setParseMessage(
       hasLines
-        ? "正在 LLM 生成翻译、词汇表与句型语法…"
-        : "正在获取字幕 → LLM 分析…"
+        ? "正在确认字幕（不批量解析词汇/句型）…"
+        : "正在获取字幕（优先已上传/粘贴的 SRT）…"
     );
     try {
       const res = await fetch(`/api/materials/${id}/parse`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ force }),
+        body: JSON.stringify({ force, subtitlesOnly: true }),
       });
       const data = await res.json();
       setParseMessage(data.message ?? "");
@@ -279,12 +316,20 @@ export default function ListenDetailPage({
       setMarks(marksRes);
       if (isPackContentReady(packRes)) {
         setParsing(false);
-        setParseMessage("解析完成");
+        if (hasSyntheticUniformTiming(packRes.transcript?.lines ?? [])) {
+          setParseMessage("字幕已获取；正在自动对齐时间轴…");
+          await realignSubtitles("speech-rate");
+        } else {
+          setParseMessage(
+            data.message ||
+              "字幕就绪。请点选单词或句子后，再解析到词汇表 / 句型。"
+          );
+        }
       } else if (data.parseStatus !== "processing") {
         setParsing(false);
         if (!data.message) {
           setParseMessage(
-            "解析未完成。B站视频需 Whisper 转写视频原声（语种与素材一致）；YouTube 等链接需 yt-dlp；本地文件需 ffmpeg + whisper。在 Cursor IDE 终端运行可使用已登录会话生成翻译。"
+            "未能获取字幕。请上传与视频原声一致的 SRT，或在解析对话框勾选「允许自动获取字幕」。"
           );
         }
       }
@@ -292,6 +337,206 @@ export default function ListenDetailPage({
       setParsing(false);
       setParseMessage("解析请求失败，请稍后重试");
     }
+  }
+
+  async function parsePendingVocabulary() {
+    if (!pack || pendingWords.size === 0) return;
+    setSelectionParsing(true);
+    setParseMessage(`正在解析 ${pendingWords.size} 个选中词…`);
+    try {
+      const res = await fetch(
+        `/api/materials/${encodeURIComponent(pack.manifest.id)}/parse-selection`,
+        {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            kind: "vocabulary",
+            words: [...pendingWords],
+            lineIds: [...pendingLineIds],
+          }),
+        }
+      );
+      const data = await res.json();
+      setParseMessage(data.message || (data.ok ? "词汇解析完成" : "词汇解析失败"));
+      if (data.ok) {
+        setPendingWords(new Set());
+        const [packRes, vocabIndexRes] = await Promise.all([
+          fetch(`/api/materials/${encodeURIComponent(pack.manifest.id)}`).then(
+            (r) => r.json()
+          ),
+          fetch("/api/vocabulary-index").then((r) => r.json()),
+        ]);
+        setPack(packRes);
+        setVocabIndexHits(vocabIndexRes.hits ?? []);
+      }
+    } catch {
+      setParseMessage("词汇解析请求失败");
+    } finally {
+      setSelectionParsing(false);
+    }
+  }
+
+  async function reparseVocabulary() {
+    if (!pack || selectedVocab.size === 0) {
+      setParseMessage("请先在词汇表中勾选要重新解析的词");
+      return;
+    }
+    setSelectionParsing(true);
+    setParseMessage(`正在重新解析 ${selectedVocab.size} 个词…`);
+    try {
+      const res = await fetch(
+        `/api/materials/${encodeURIComponent(pack.manifest.id)}/parse-selection`,
+        {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            kind: "vocabulary",
+            vocabIds: [...selectedVocab],
+            reparse: true,
+          }),
+        }
+      );
+      const data = await res.json();
+      setParseMessage(data.message || (data.ok ? "重新解析完成" : "重新解析失败"));
+      if (data.ok) {
+        const [packRes, vocabIndexRes] = await Promise.all([
+          fetch(`/api/materials/${encodeURIComponent(pack.manifest.id)}`).then(
+            (r) => r.json()
+          ),
+          fetch("/api/vocabulary-index").then((r) => r.json()),
+        ]);
+        setPack(packRes);
+        setVocabIndexHits(vocabIndexRes.hits ?? []);
+        setSelectedVocab(new Set());
+      }
+    } catch {
+      setParseMessage("词汇重新解析请求失败");
+    } finally {
+      setSelectionParsing(false);
+    }
+  }
+
+  async function parsePendingPatterns() {
+    if (!pack || pendingLineIds.size === 0) return;
+    setSelectionParsing(true);
+    setParseMessage(`正在合并解析 ${pendingLineIds.size} 行字幕为句型…`);
+    try {
+      const res = await fetch(
+        `/api/materials/${encodeURIComponent(pack.manifest.id)}/parse-selection`,
+        {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            kind: "patterns",
+            lineIds: [...pendingLineIds],
+            merge: true,
+          }),
+        }
+      );
+      const data = await res.json();
+      setParseMessage(data.message || (data.ok ? "句型解析完成" : "句型解析失败"));
+      if (data.ok) {
+        setPendingLineIds(new Set());
+        const packRes = await fetch(
+          `/api/materials/${encodeURIComponent(pack.manifest.id)}`
+        ).then((r) => r.json());
+        setPack(packRes);
+      }
+    } catch {
+      setParseMessage("句型解析请求失败");
+    } finally {
+      setSelectionParsing(false);
+    }
+  }
+
+  async function reparsePatterns() {
+    if (!pack) return;
+    const patternIds = [...selectedPatterns];
+    const lineIds = [...pendingLineIds];
+    if (!patternIds.length && !lineIds.length) {
+      setParseMessage("请勾选「句型 / 语法」中的条目，或选中字幕行后再重新解析");
+      return;
+    }
+    setSelectionParsing(true);
+    setParseMessage(
+      patternIds.length
+        ? `正在重新解析 ${patternIds.length} 条句型…`
+        : `正在重新解析 ${lineIds.length} 行字幕句型…`
+    );
+    try {
+      const res = await fetch(
+        `/api/materials/${encodeURIComponent(pack.manifest.id)}/parse-selection`,
+        {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            kind: "patterns",
+            patternIds: patternIds.length ? patternIds : undefined,
+            lineIds: lineIds.length ? lineIds : undefined,
+            merge: lineIds.length > 1,
+            reparse: true,
+          }),
+        }
+      );
+      const data = await res.json();
+      setParseMessage(data.message || (data.ok ? "重新解析完成" : "重新解析失败"));
+      if (data.ok) {
+        const packRes = await fetch(
+          `/api/materials/${encodeURIComponent(pack.manifest.id)}`
+        ).then((r) => r.json());
+        setPack(packRes);
+        setSelectedPatterns(new Set());
+      }
+    } catch {
+      setParseMessage("重新解析请求失败");
+    } finally {
+      setSelectionParsing(false);
+    }
+  }
+
+  function selectPendingWord(word: string) {
+    if (!pack) return;
+    const lang = pack.manifest.sourceLang;
+    const key = guessLemmaKey(word, lang);
+    if (parsedWordStates.has(key)) return;
+    setPendingWords((prev) => {
+      const next = new Set(prev);
+      const exists = [...next].some((w) => guessLemmaKey(w, lang) === key);
+      if (!exists) next.add(word);
+      return next;
+    });
+  }
+
+  function deselectPendingWord(word: string) {
+    if (!pack) return;
+    const lang = pack.manifest.sourceLang;
+    const key = guessLemmaKey(word, lang);
+    setPendingWords((prev) => {
+      const next = new Set(prev);
+      for (const w of next) {
+        if (guessLemmaKey(w, lang) === key) next.delete(w);
+      }
+      return next;
+    });
+  }
+
+  function selectAllVocabulary() {
+    if (!pack) return;
+    setSelectedVocab(new Set(pack.manifest.vocabulary.map((v) => v.id)));
+  }
+
+  function selectAllPatterns() {
+    if (!pack) return;
+    setSelectedPatterns(new Set(pack.manifest.patterns.map((p) => p.id)));
+  }
+
+  function togglePendingLine(lineId: string) {
+    setPendingLineIds((prev) => {
+      const next = new Set(prev);
+      if (next.has(lineId)) next.delete(lineId);
+      else next.add(lineId);
+      return next;
+    });
   }
 
   const linesInSegment = useMemo(() => {
@@ -307,6 +552,30 @@ export default function ListenDetailPage({
     [pack]
   );
 
+  const parsedWordStates = useMemo(() => {
+    const map = new Map<string, ParsedWordState>();
+    if (!pack) return map;
+    const lang = pack.manifest.sourceLang;
+    for (const v of pack.manifest.vocabulary) {
+      const head = (v.lemma?.trim() || v.word).trim();
+      if (!head) continue;
+      map.set(guessLemmaKey(head, lang), { kind: "local" });
+      if (v.word.trim() && v.word !== head) {
+        map.set(guessLemmaKey(v.word, lang), { kind: "local" });
+      }
+    }
+    for (const hit of vocabIndexHits) {
+      if (hit.materialId === pack.manifest.id) continue;
+      if (!map.has(hit.key)) {
+        map.set(hit.key, {
+          kind: "global",
+          materialTitle: hit.materialTitle,
+        });
+      }
+    }
+    return map;
+  }, [pack, vocabIndexHits]);
+
   const activeLine = useMemo(() => {
     if (!pack) return null;
     const t = videoTime - subtitleOffsetSec;
@@ -321,7 +590,7 @@ export default function ListenDetailPage({
     mode: "speech-rate" | "offset" | "refetch",
     extra?: { offsetSec?: number }
   ) {
-    if (!pack) return;
+    if (!materialId) return;
     setRealigning(true);
     setParseMessage(
       mode === "speech-rate"
@@ -332,7 +601,7 @@ export default function ListenDetailPage({
     );
     try {
       const res = await fetch(
-        `/api/materials/${encodeURIComponent(pack.manifest.id)}/realign-subtitles`,
+        `/api/materials/${encodeURIComponent(materialId)}/realign-subtitles`,
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },
@@ -421,28 +690,6 @@ export default function ListenDetailPage({
     setSelectedVocab(new Set());
     setSelectedPatterns(new Set());
     alert("已加入 Notebook");
-  }
-
-  async function syncLevelToNotebook() {
-    if (!pack) return;
-    setParseMessage("正在按等级甄别并写入 Notebook…");
-    try {
-      const res = await fetch(
-        `/api/materials/${pack.manifest.id}/level-sync`,
-        { method: "POST" }
-      );
-      const data = await res.json();
-      if (!res.ok) {
-        alert(data.error || "等级同步失败");
-        return;
-      }
-      await loadPack(pack.manifest.id);
-      alert(data.message || "已按等级写入 Notebook");
-    } catch (err) {
-      alert(err instanceof Error ? err.message : "等级同步失败");
-    } finally {
-      setParseMessage("");
-    }
   }
 
   async function saveTranscript() {
@@ -732,7 +979,17 @@ export default function ListenDetailPage({
                 <DraggableSubtitleOverlay
                   text={activeLine.text}
                   materialId={materialId}
-                />
+                >
+                  <SelectableSubtitleText
+                    text={activeLine.text}
+                    lang={pack.manifest.sourceLang}
+                    selectedWords={pendingWords}
+                    parsedStates={parsedWordStates}
+                    onSelectWord={selectPendingWord}
+                    onDeselectWord={deselectPendingWord}
+                    className="text-white"
+                  />
+                </DraggableSubtitleOverlay>
               )}
             </div>
           ) : media?.type === "embed" && media.embedSrc ? (
@@ -853,17 +1110,61 @@ export default function ListenDetailPage({
             <CardTitle className="text-base">字幕对照</CardTitle>
             <CardDescription>
               {hasTranscript
-                ? "仅展示视频语种跟随字幕 · 自动滚动 · 点击跳转"
+                ? "点选单词→解析到词汇表（字典型）；已解析词为绿色不可选，连点两下取消待选。勾选句子→解析句型"
                 : "解析或粘贴字幕后显示跟随字幕"}
             </CardDescription>
           </CardHeader>
-          <CardContent
+          <CardContent className="space-y-2">
+            {hasTranscript && (
+              <div className="flex flex-wrap items-center gap-2 border-b pb-2">
+                <Button
+                  size="sm"
+                  disabled={selectionParsing || pendingWords.size === 0}
+                  onClick={() => void parsePendingVocabulary()}
+                >
+                  解析选中词 ({pendingWords.size})
+                </Button>
+                <Button
+                  size="sm"
+                  variant="secondary"
+                  disabled={selectionParsing || pendingLineIds.size === 0}
+                  onClick={() => void parsePendingPatterns()}
+                >
+                  合并解析选中句 ({pendingLineIds.size})
+                </Button>
+                <Button
+                  size="sm"
+                  variant="secondary"
+                  disabled={
+                    selectionParsing ||
+                    (selectedPatterns.size === 0 && pendingLineIds.size === 0)
+                  }
+                  onClick={() => void reparsePatterns()}
+                >
+                  重新解析
+                </Button>
+                <Button
+                  size="sm"
+                  variant="ghost"
+                  disabled={
+                    pendingWords.size === 0 && pendingLineIds.size === 0
+                  }
+                  onClick={() => {
+                    setPendingWords(new Set());
+                    setPendingLineIds(new Set());
+                  }}
+                >
+                  清空选择
+                </Button>
+              </div>
+            )}
+          <div
             ref={subtitleListRef}
             className="max-h-[480px] flex-1 space-y-2 overflow-y-auto scroll-smooth"
           >
             {!hasTranscript && (
               <p className="py-8 text-center text-sm text-muted-foreground">
-                {parsing ? "正在解析字幕…" : "暂无字幕内容"}
+                {parsing ? "正在获取字幕…" : "暂无字幕内容"}
               </p>
             )}
             {showSubtitles &&
@@ -877,6 +1178,11 @@ export default function ListenDetailPage({
                     : "hover:bg-muted"
                 }`}
               >
+                <Checkbox
+                  checked={pendingLineIds.has(line.id)}
+                  onCheckedChange={() => togglePendingLine(line.id)}
+                  title="选中此句以解析句型"
+                />
                 <button
                   type="button"
                   onClick={() => toggleMark("lines", line.id)}
@@ -900,7 +1206,14 @@ export default function ListenDetailPage({
                         line.start + subtitleOffsetSec;
                   }}
                 >
-                  <p className="font-medium">{line.text}</p>
+                  <SelectableSubtitleText
+                    text={line.text}
+                    lang={pack.manifest.sourceLang}
+                    selectedWords={pendingWords}
+                    parsedStates={parsedWordStates}
+                    onSelectWord={selectPendingWord}
+                    onDeselectWord={deselectPendingWord}
+                  />
                 </div>
                 </div>
               ))}
@@ -909,6 +1222,7 @@ export default function ListenDetailPage({
                 字幕已关闭
               </p>
             )}
+          </div>
           </CardContent>
         </Card>
       </div>
@@ -923,11 +1237,21 @@ export default function ListenDetailPage({
               <div className="flex gap-2">
                 <Button
                   size="sm"
-                  variant="secondary"
-                  onClick={syncLevelToNotebook}
-                  title="对照 Language 参考资料，按素材等级甄别并写入 Notebook"
+                  variant="outline"
+                  disabled={
+                    selectionParsing || pack.manifest.vocabulary.length === 0
+                  }
+                  onClick={selectAllVocabulary}
                 >
-                  按等级写入 Notebook
+                  全选
+                </Button>
+                <Button
+                  size="sm"
+                  variant="secondary"
+                  disabled={selectionParsing || selectedVocab.size === 0}
+                  onClick={() => void reparseVocabulary()}
+                >
+                  重新解析 ({selectedVocab.size})
                 </Button>
                 <Button
                   size="sm"
@@ -938,8 +1262,16 @@ export default function ListenDetailPage({
                 </Button>
               </div>
             </div>
+            <CardDescription>
+              点选单词并解析后以字典型（原形）展示；绿色为已解析不可选
+            </CardDescription>
           </CardHeader>
           <CardContent className="max-h-[28rem] space-y-1 overflow-y-auto">
+            {pack.manifest.vocabulary.length === 0 && (
+              <p className="py-6 text-center text-sm text-muted-foreground">
+                暂无词汇。请在字幕对照中点选单词后解析。
+              </p>
+            )}
             {pack.manifest.vocabulary.map((v: VocabularyItem) => (
               <label
                 key={v.id}
@@ -1044,8 +1376,36 @@ export default function ListenDetailPage({
             <CardTitle className="text-base">
               句型 / 语法 ({pack.manifest.patterns.length})
             </CardTitle>
+            <CardDescription>
+              在上方勾选字幕并解析；固定搭配会写入讲解。说/读/写练习取用此处内容
+            </CardDescription>
           </CardHeader>
           <CardContent className="max-h-[28rem] space-y-2 overflow-y-auto">
+            {pack.manifest.patterns.length > 0 && (
+              <div className="flex flex-wrap gap-2 border-b pb-2">
+                <Button
+                  size="sm"
+                  variant="outline"
+                  disabled={selectionParsing}
+                  onClick={selectAllPatterns}
+                >
+                  全选
+                </Button>
+                <Button
+                  size="sm"
+                  variant="secondary"
+                  disabled={selectionParsing || selectedPatterns.size === 0}
+                  onClick={() => void reparsePatterns()}
+                >
+                  重新解析 ({selectedPatterns.size || pendingLineIds.size})
+                </Button>
+              </div>
+            )}
+            {pack.manifest.patterns.length === 0 && (
+              <p className="py-6 text-center text-sm text-muted-foreground">
+                暂无句型。请勾选字幕句后解析。
+              </p>
+            )}
             {pack.manifest.patterns.map((p: PatternItem) => (
               <label
                 key={p.id}
@@ -1086,9 +1446,11 @@ export default function ListenDetailPage({
                   {p.zh && (
                     <p className="text-xs text-muted-foreground">中文：{p.zh}</p>
                   )}
-                  <p className="text-xs text-muted-foreground">
-                    {parseRules.patternLabel}：{p.grammar}
-                  </p>
+                  {hasDisplayableGrammar(p.grammar) && (
+                    <p className="whitespace-pre-wrap text-xs text-muted-foreground">
+                      {parseRules.patternLabel}：{p.grammar}
+                    </p>
+                  )}
                 </div>
               </label>
             ))}

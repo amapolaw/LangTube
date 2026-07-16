@@ -1,11 +1,9 @@
 import type { ContentPack, TranscriptLine } from "@langtube/core";
-import {
-  extractVocabulary,
-  extractPatterns,
-  isLikelyWordNotPhrase,
-  isBasicSkipWord,
-} from "@/lib/vocab-extract";
 
+/**
+ * 仅写入字幕时间轴与分段；不再批量抽取词汇/句型（省 Token）。
+ * 词汇与句型由听辨页点选后按需解析写入。
+ */
 export async function applyTranscriptLines(
   pack: ContentPack,
   lines: TranscriptLine[]
@@ -13,17 +11,11 @@ export async function applyTranscriptLines(
   const duration = lines.length > 0 ? lines[lines.length - 1].end : 600;
 
   pack.transcript.lines = lines;
-  const vocab = await extractVocabulary(lines, pack.manifest.sourceLang);
-  pack.manifest.vocabulary = vocab.filter(
-    (v) =>
-      isLikelyWordNotPhrase(v.word, pack.manifest.sourceLang) &&
-      !isBasicSkipWord(v.word, pack.manifest.sourceLang)
-  );
-  pack.manifest.patterns = extractPatterns(lines, pack.manifest.sourceLang);
-  // 仅写入字幕；ready 由 material-parser 在增强达标后设置
-  pack.manifest.parseStatus = "pending";
-  pack.manifest.enrichmentMode = undefined;
-  // 字幕跟随覆盖全片；勿把 extensive 写成固定 3 分钟，否则听辨页 3 分钟后无字幕
+  // 保留用户已按需解析的词汇/句型；若此前无字幕则保持空数组
+  if (!Array.isArray(pack.manifest.vocabulary)) pack.manifest.vocabulary = [];
+  if (!Array.isArray(pack.manifest.patterns)) pack.manifest.patterns = [];
+  pack.manifest.parseStatus = "ready";
+  pack.manifest.enrichmentMode = "rules";
   const durationMinutes = Math.max(1, Math.round(duration / 60));
   pack.manifest.segments = {
     extensive: [

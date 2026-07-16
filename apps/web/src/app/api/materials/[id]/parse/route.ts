@@ -25,6 +25,7 @@ export async function POST(
   let rangeStartSec: number | undefined;
   let rangeEndSec: number | undefined;
   let offlineOnly = false;
+  let subtitlesOnly = true;
 
   try {
     const body = (await req.json()) as {
@@ -34,10 +35,12 @@ export async function POST(
       rangeStartSec?: number;
       rangeEndSec?: number;
       offlineOnly?: boolean;
+      subtitlesOnly?: boolean;
     };
     force = Boolean(body?.force);
     allowAutoSubtitles = Boolean(body?.allowAutoSubtitles);
     offlineOnly = Boolean(body?.offlineOnly);
+    if (body?.subtitlesOnly === false) subtitlesOnly = false;
     if (typeof body?.segmentMinutes === "number" && body.segmentMinutes > 0) {
       segmentMinutes = body.segmentMinutes;
     }
@@ -93,6 +96,7 @@ export async function POST(
     rangeStartSec,
     rangeEndSec,
     offlineOnly,
+    subtitlesOnly,
   };
 
   if (lineCount > 0 && shouldParseInBackground(lineCount)) {

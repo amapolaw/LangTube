@@ -72,6 +72,11 @@ export type ParseMaterialOptions = {
   /** 只解析该时间窗（秒） */
   rangeStartSec?: number;
   rangeEndSec?: number;
+  /**
+   * 仅获取/清洗字幕并标记 ready，不批量解析词汇/句型（默认 true，省 Token）。
+   * 词汇与句型请用 parse-selection 按需解析。
+   */
+  subtitlesOnly?: boolean;
 };
 
 export type ParseStage =
@@ -434,6 +439,49 @@ export async function parseMaterial(
     }
 
     const durationSec = transcriptDurationSec(pack.transcript.lines);
+    const subtitlesOnly = options?.subtitlesOnly !== false;
+
+    // 省 Token：默认仅字幕就绪，词汇/句型由听辨页按需点选解析
+    if (subtitlesOnly) {
+      if (!pack.transcript.lines.length) {
+        const message =
+          acquireMessage ||
+          "尚无字幕。请上传 SRT，或勾选允许自动获取后再解析。";
+        pack.manifest.parseStatus = "pending";
+        pack.manifest.updatedAt = new Date().toISOString();
+        await saveContentPack(pack);
+        await failAgentTask(materialId, message);
+        await pushSyncSafe("no-subtitles", options?.skipSync);
+        return {
+          parseStatus: "pending",
+          lines: 0,
+          source,
+          message,
+          stage: "failed",
+        };
+      }
+
+      pack.manifest.parseStatus = "ready";
+      pack.manifest.enrichmentMode = pack.manifest.enrichmentMode ?? "rules";
+      pack.manifest.updatedAt = new Date().toISOString();
+      await saveContentPack(pack);
+      await completeAgentTask(materialId);
+      await pushSyncSafe("subtitles-ready", options?.skipSync);
+      return {
+        parseStatus: "ready",
+        lines: pack.transcript.lines.length,
+        source,
+        message: [
+          acquireMessage,
+          `字幕就绪（${pack.transcript.lines.length} 行）。词汇/句型请在听辨页点选后再解析。`,
+        ]
+          .filter(Boolean)
+          .join("；"),
+        stage: "done",
+        llmEnriched: false,
+      };
+    }
+
     if (
       needsSegmentMinutesConfirm({
         lineCount: pack.transcript.lines.length,
@@ -535,7 +583,7 @@ export async function parseMaterial(
     try {
       const finalized = finalizeManifestForListen(pack);
       const levelSync = await applyLevelFilterAndNotebook(pack, {
-        addToNotebook: true,
+        addToNotebook: false,
         maxNotebookCards: 40,
       });
       levelMessage = `${levelSync.message}；听辨页展示 ${finalized.vocabCount} 词 / ${finalized.patternCount} 句型（已去重）`;

@@ -2,8 +2,6 @@
 
 import { useEffect, useMemo, useState } from "react";
 import type {
-  NotebookCard,
-  MaterialMarks,
   SupportedLanguage,
   MaterialIndexEntry,
 } from "@langtube/core";
@@ -36,17 +34,9 @@ const TOPICS = [
 interface PracticeItem {
   text: string;
   translation: string;
-  source: "listen-mark" | "notebook" | "weak";
+  source: "listen-vocab" | "listen-pattern";
   language: SupportedLanguage;
   errorCount?: number;
-}
-
-function inferLanguageFromText(text: string): SupportedLanguage | null {
-  if (/[\u3040-\u30ff\u4e00-\u9fff]/.test(text)) return "ja";
-  if (/[áéíóúñü¿¡]/i.test(text)) return "es";
-  if (/[àâçéèêëîïôùûüœæ]/i.test(text)) return "fr";
-  if (/[a-zA-Z]/.test(text)) return "en";
-  return null;
 }
 
 function langLabel(lang: SupportedLanguage): string {
@@ -77,12 +67,8 @@ export default function WritePracticePage() {
   }, []);
 
   async function loadItems() {
-    const [weakRes, strugglingRes, marksRes, materialsRes] = await Promise.all([
-      fetch("/api/notebook?weak=true").then((r) => r.json()),
-      fetch("/api/notebook?struggling=true").then((r) => r.json()),
-      fetch("/api/marks").then((r) => r.json()),
-      fetch("/api/materials").then((r) => r.json()),
-    ]);
+    const materialsRes = await fetch("/api/materials").then((r) => r.json());
+    const materials: MaterialIndexEntry[] = materialsRes.materials ?? [];
 
     const merged: PracticeItem[] = [];
     const seen = new Set<string>();
@@ -94,67 +80,30 @@ export default function WritePracticePage() {
       merged.push(item);
     }
 
-    const materials: MaterialIndexEntry[] = materialsRes.materials ?? [];
-    const langByMaterialId = new Map(
-      materials.map((m) => [
-        m.id,
-        sourceLangFromMaterial(m.id, m.sourceLang) as SupportedLanguage,
-      ])
-    );
-
     for (const m of materials) {
-      const marks: MaterialMarks = marksRes[m.id];
-      if (!marks) continue;
-      const materialLang = langByMaterialId.get(m.id) ?? m.sourceLang;
+      const materialLang = sourceLangFromMaterial(
+        m.id,
+        m.sourceLang
+      ) as SupportedLanguage;
       const pack = await fetch(`/api/materials/${m.id}`).then((r) => r.json());
-      for (const pid of marks.patterns ?? []) {
-        const p = pack.manifest?.patterns?.find(
-          (x: { id: string }) => x.id === pid
-        );
-        if (p)
+      for (const p of pack.manifest?.patterns ?? []) {
+        if (p?.pattern)
           add({
             text: p.pattern,
-            translation: p.zh,
-            source: "listen-mark",
+            translation: p.zh ?? "",
+            source: "listen-pattern",
             language: materialLang,
           });
       }
-      for (const vid of marks.vocabulary ?? []) {
-        const v = pack.manifest?.vocabulary?.find(
-          (x: { id: string }) => x.id === vid
-        );
-        if (v)
+      for (const v of pack.manifest?.vocabulary ?? []) {
+        if (v?.word)
           add({
             text: v.word,
-            translation: v.zh,
-            source: "listen-mark",
+            translation: v.zh ?? "",
+            source: "listen-vocab",
             language: materialLang,
           });
       }
-    }
-
-    for (const card of strugglingRes as NotebookCard[]) {
-      add({
-        text: card.front,
-        translation: card.back,
-        source: "notebook",
-        language: card.language,
-      });
-    }
-
-    for (const w of weakRes) {
-      const fromMaterial = w.materialId
-        ? langByMaterialId.get(w.materialId)
-        : undefined;
-      const lang =
-        fromMaterial ?? inferLanguageFromText(w.text) ?? ("ja" as SupportedLanguage);
-      add({
-        text: w.text,
-        translation: w.translation,
-        source: "weak",
-        language: lang,
-        errorCount: w.errorCount,
-      });
     }
 
     setItems(merged);
@@ -165,15 +114,16 @@ export default function WritePracticePage() {
   }
 
   const sourceLabel = {
-    "listen-mark": "听-标记",
-    notebook: "Notebook",
-    weak: "练习错误",
+    "listen-vocab": "听-词汇表",
+    "listen-pattern": "听-句型",
   };
 
   function checkWriting() {
     const required = filteredItems.slice(0, 8);
     if (!required.length) {
-      setFeedback(`当前语种（${langLabel(language)}）暂无薄弱词/句，请先标记或复习。`);
+      setFeedback(
+        `当前语种（${langLabel(language)}）暂无词汇/句型。请先到听辨页点选解析后再来写作。`
+      );
       return;
     }
 
@@ -186,11 +136,11 @@ export default function WritePracticePage() {
 
     if (used.length >= 3) {
       setFeedback(
-        `很好！在${langLabel(language)}写作中使用了 ${used.length}/${required.length} 个薄弱词/句。`
+        `很好！在${langLabel(language)}写作中使用了 ${used.length}/${required.length} 个听辨词汇/句型。`
       );
     } else {
       setFeedback(
-        `请使用更多${langLabel(language)}标记词/句。已用：${used.map((u) => u.text).join(", ") || "无"}。缺少：${missing.map((m) => m.text).join(", ")}`
+        `请使用更多${langLabel(language)}听辨词汇/句型。已用：${used.map((u) => u.text).join(", ") || "无"}。缺少：${missing.map((m) => m.text).join(", ")}`
       );
     }
   }
@@ -203,7 +153,7 @@ export default function WritePracticePage() {
         <CardHeader>
           <CardTitle>随机主题</CardTitle>
           <CardDescription>
-            选择语种后，薄弱词/句与写作检查均对应该目标语言
+            选择语种后，练习词句来自听辨页「词汇表」与「句型 / 语法」
           </CardDescription>
         </CardHeader>
         <CardContent className="space-y-4">
@@ -238,17 +188,17 @@ export default function WritePracticePage() {
       <Card>
         <CardHeader>
           <CardTitle className="text-base">
-            必须使用的薄弱词/句（{langLabel(language)}）
+            必须使用的词汇/句型（{langLabel(language)}）
           </CardTitle>
           <CardDescription>
-            左侧为目标语原文，右侧为中文释义提示
+            来自听辨「词汇表」与「句型 / 语法」；左侧原文，右侧中文提示
           </CardDescription>
         </CardHeader>
         <CardContent>
           {filteredItems.length === 0 ? (
             <p className="text-muted-foreground">
-              当前语种暂无薄弱项。请先在听模块标记{langLabel(language)}
-              句型/词汇，或在 Notebook 中复习并选择 Again/Hard。
+              当前语种暂无内容。请先到听辨页点选单词/句子并解析{langLabel(language)}
+              词汇与句型。
             </p>
           ) : (
             <ul className="space-y-2">

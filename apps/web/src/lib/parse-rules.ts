@@ -34,9 +34,10 @@ export const PARSE_RULES: Record<SupportedLanguage, LangParseRules> = {
 - 代词 / 冠词 / 疑问词（what/who/where/when/why/how/which…）跳过，不解析不展示
 - 专业词汇与缩写（NASA、API、GDP 等）必须收录：isAcronym=true，notes 写全称与简要解释
 句型 / 语法：
-- 完整一句 + zh 中文释义 + grammar 句型讲解
-- 习惯用法、俚语、固定搭配须在 grammar 中重点讲解
-- 已出现的重复句型 / 同一 grammar 不解析不展示`,
+- 完整一句 + zh 中文释义；grammar 仅写具体语法点/固定搭配/俚语习惯用法
+- 禁止笼统套话（如「关注主谓结构、时态与关键搭配」）；若无具体点则 grammar 留空
+- 已出现过的同一语法点/搭配/俚语，后续句不再重复解析展示
+- 习惯用法、俚语、固定搭配若有则在 grammar 中重点讲解`,
   },
   ja: {
     subtitleFollowSourceOnly: true,
@@ -56,10 +57,10 @@ export const PARSE_RULES: Record<SupportedLanguage, LangParseRules> = {
 - 代词 / 助词性功能词 / 疑问词（誰/何/どこ/いつ/なぜ/どう…）跳过，不解析不展示
 - 片假名外来语：isLoanword=true，etymology 标示来源语言与原词（例：「英語: computer」）
 句型 / 语法：
-- 完整一句 + zh 中文释义 + grammar 句型讲解
+- 完整一句 + zh 中文释义；grammar 仅写具体语法点/固定搭配/俚语习惯用法
+- 禁止笼统套话（如「关注句尾谓语与助词搭配」）；若无具体点则 grammar 留空
 - 句中汉字词须能依托 vocabulary.reading 做平假名注音（reading 填平/片假名均可）
-- 习惯用法、俚语、ロール語須在 grammar 中重点讲解
-- 重复句型不解析不展示`,
+- 已出现过的同一语法点/搭配/俚语，后续句不再重复解析展示`,
   },
   es: {
     subtitleFollowSourceOnly: true,
@@ -84,8 +85,9 @@ export const PARSE_RULES: Record<SupportedLanguage, LangParseRules> = {
 - 有时态或人称变化的动词：lemma 填不定式原型，dictUrl 给变化表链接（SpanishDict conjugate）
 - 词条 word 可保留字幕中的变化形，但必须附带 lemma + dictUrl
 句型 / 语法：
-- 完整一句 + zh 中文释义 + grammar；习惯用法、俚语重点讲解
-- 重复句型不解析不展示`,
+- 完整一句 + zh 中文释义；grammar 仅写具体语法点/固定搭配/俚语习惯用法
+- 禁止笼统套话；若无具体点则 grammar 留空
+- 已出现过的同一语法点/搭配/俚语，后续句不再重复解析展示`,
   },
   fr: {
     subtitleFollowSourceOnly: true,
@@ -108,8 +110,9 @@ export const PARSE_RULES: Record<SupportedLanguage, LangParseRules> = {
 - 有时态或人称变化的动词：lemma 填不定式原型，dictUrl 给变位表链接（WordReference / 法语助手）
 - 词条 word 可保留字幕中的变化形，但必须附带 lemma + dictUrl
 句型 / 语法：
-- 完整一句 + zh 中文释义 + grammar；习惯用法、俚语重点讲解
-- 重复句型不解析不展示`,
+- 完整一句 + zh 中文释义；grammar 仅写具体语法点/固定搭配/俚语习惯用法
+- 禁止笼统套话；若无具体点则 grammar 留空
+- 已出现过的同一语法点/搭配/俚语，后续句不再重复解析展示`,
   },
 };
 
@@ -162,7 +165,7 @@ export function buildEnrichSystemPrompt(pack: ContentPack): string {
 1. lines：字幕跟随只保留原声文本；translation 一律 ""。
 2. 跳过无用行（BGM/广告/语气词/无正文），不为它们生成词汇或句型。
 3. vocabulary：只要单词；同一词只出现一次；跳过代词/冠词/疑问词/超基础功能词。
-4. patterns：只解析完整一句；grammar 须具体；习惯用法/俚语重点讲；重复句型跳过。
+4. patterns：只解析完整一句；grammar 须具体（语法点/搭配/俚语）；无具体点则 grammar 留空；禁止笼统套话；重复知识点跳过。
 5. 仅第一批可带 segments。
 
 ## 语种专属规则（必须遵守）

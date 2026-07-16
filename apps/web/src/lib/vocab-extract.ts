@@ -438,7 +438,7 @@ export function extractPatterns(
       id: `pattern-${out.length + 1}`,
       pattern: text,
       zh: (line.translation || "").trim(),
-      grammar: "句型",
+      grammar: "",
       examples: [],
     });
   }

@@ -59,9 +59,22 @@ export default function SpeakDrillPage() {
   useEffect(() => {
     fetch("/api/materials")
       .then((r) => r.json())
-      .then((data) => {
-        setMaterials(data.materials ?? []);
-        if (data.materials?.[0]) setMaterialId(data.materials[0].id);
+      .then(async (data) => {
+        const list: { id: string; title: string }[] = data.materials ?? [];
+        const withPatterns: { id: string; title: string }[] = [];
+        await Promise.all(
+          list.map(async (m) => {
+            const pack = await fetch(`/api/materials/${m.id}`).then((r) =>
+              r.json()
+            );
+            if ((pack.manifest?.patterns?.length ?? 0) > 0) {
+              withPatterns.push(m);
+            }
+          })
+        );
+        setMaterials(withPatterns);
+        if (withPatterns[0]) setMaterialId(withPatterns[0].id);
+        else setMaterialId("");
       });
   }, []);
 
@@ -231,7 +244,17 @@ export default function SpeakDrillPage() {
   return (
     <div className="mx-auto max-w-2xl space-y-6">
       <h1 className="text-2xl font-bold">说 — FSI Pattern Drill</h1>
+      <p className="text-sm text-muted-foreground">
+        练习句型来自听辨页「句型 / 语法」。请先在听辨中勾选字幕并解析句型。
+      </p>
 
+      {materials.length === 0 ? (
+        <Card>
+          <CardContent className="py-8 text-center text-sm text-muted-foreground">
+            暂无句型素材。请到听辨页解析句型后再来练习。
+          </CardContent>
+        </Card>
+      ) : (
       <select
         className="flex h-10 w-full rounded-md border px-3 text-sm"
         value={materialId}
@@ -248,7 +271,9 @@ export default function SpeakDrillPage() {
           </option>
         ))}
       </select>
+      )}
 
+      {materials.length > 0 && (
       <Card>
         <CardHeader>
           <CardTitle>
@@ -369,11 +394,12 @@ export default function SpeakDrillPage() {
           )}
           {!currentDrill && (
             <p className="text-muted-foreground">
-              暂无 Drill 数据。请导入资料或使用 Agent 生成 drills.json
+              暂无可用句型。请先到听辨页勾选字幕并解析「句型 / 语法」。
             </p>
           )}
         </CardContent>
       </Card>
+      )}
     </div>
   );
 }

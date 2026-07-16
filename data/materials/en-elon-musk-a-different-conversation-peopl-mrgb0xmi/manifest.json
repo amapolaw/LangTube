@@ -36,1705 +36,2074 @@
   "vocabulary": [
     {
       "id": "vocab-1",
-      "word": "know",
-      "zh": "知识；知晓的状态。感知真理或事实；确定或确定。要意识到；要认识到。",
-      "reading": "/nəʊ/",
+      "word": "wager",
+      "zh": "赌注",
+      "reading": "/ˈweɪdʒɚ/",
       "partOfSpeech": "noun",
-      "sentenceIds": [
-        "line-36",
-        "line-60",
-        "line-64",
-        "line-67",
-        "line-69",
-        "line-78",
-        "line-81",
-        "line-116",
-        "line-120",
-        "line-145",
-        "line-187",
-        "line-189",
-        "line-198",
-        "line-215",
-        "line-226",
-        "line-234",
-        "line-239",
-        "line-250",
-        "line-252",
-        "line-256",
-        "line-258",
-        "line-273",
-        "line-278",
-        "line-290",
-        "line-298",
-        "line-313",
-        "line-318",
-        "line-335",
-        "line-337",
-        "line-343"
-      ],
-      "level": "A1"
+      "glossEn": "Something deposited, laid, or hazarded on the event of a contest or an unsettled question; a bet; a stake; a pledge.; That on which bets are laid; the subject of a bet.; To bet something; to put it up as collateral; To suppose; to dare say.",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/wager",
+      "sentenceIds": [],
+      "lemma": "wager"
     },
     {
       "id": "vocab-2",
-      "word": "like",
-      "zh": "（通常为复数）一个人喜欢（更喜欢）的东西。表示支持或批准互联网上发布的内容的个人投票。享受，高兴;青睐;赞成。；请。",
-      "reading": "/laɪk/",
-      "partOfSpeech": "noun",
-      "sentenceIds": [
-        "line-9",
-        "line-56",
-        "line-104",
-        "line-106",
-        "line-116",
-        "line-124",
-        "line-146",
-        "line-157",
-        "line-162",
-        "line-163",
-        "line-185",
-        "line-196",
-        "line-199",
-        "line-200",
-        "line-203",
-        "line-211",
-        "line-215",
-        "line-232",
-        "line-233",
-        "line-234",
-        "line-248",
-        "line-250",
-        "line-274",
-        "line-283",
-        "line-308",
-        "line-334",
-        "line-335",
-        "line-342"
-      ],
-      "level": "A1"
+      "word": "decent",
+      "zh": "正派的",
+      "reading": "/ˈdiːsənt/",
+      "partOfSpeech": "adjective",
+      "glossEn": "Appropriate; suitable for the circumstances.; (of a person) Having a suitable conformity to basic moral standards; showing integrity, fairness, or other characteristics associated with moral uprightness.",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/decent",
+      "sentenceIds": [],
+      "lemma": "decent"
     },
     {
       "id": "vocab-3",
-      "word": "what",
-      "zh": "（新加坡式英语）用来反驳对话者持有的基本假设。事物；事物；事物；事物的身份，作为什么问题的答案； （通常后跟“与” ，但有时“会”或“可能” ，特别是在金融领域）在某种程度上；部分地；部分地。另请参阅what with ； Such.",
-      "reading": "/wɔt/",
-      "partOfSpeech": "adverb",
-      "sentenceIds": [
-        "line-53",
-        "line-90",
-        "line-106",
-        "line-141",
-        "line-166",
-        "line-175",
-        "line-185",
-        "line-195",
-        "line-219",
-        "line-249",
-        "line-253",
-        "line-254",
-        "line-255",
-        "line-260",
-        "line-266",
-        "line-272",
-        "line-283",
-        "line-288",
-        "line-294"
-      ]
+      "word": "perspective",
+      "zh": "（观察问题的）视角，观点",
+      "reading": "/pɚˈspɛktɪv/",
+      "partOfSpeech": "noun",
+      "glossEn": "A view, vista or outlook.; The appearance of depth in objects, especially as perceived using binocular vision.; Of, in or relating to perspective.; Providing visual aid; of or relating to the science of vision; optical.",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/perspective",
+      "sentenceIds": [],
+      "lemma": "perspective"
     },
     {
       "id": "vocab-4",
-      "word": "think",
-      "zh": "思考的行为； （对某事的）考虑。沉思，在脑海中走过。在脑海中与自己沟通，试图找到问题的解决方案。",
-      "reading": "/θɪŋk/",
+      "word": "centrist",
+      "zh": "持温和政治观点的",
       "partOfSpeech": "noun",
-      "sentenceIds": [
-        "line-70",
-        "line-75",
-        "line-76",
-        "line-77",
-        "line-82",
-        "line-92",
-        "line-115",
-        "line-124",
-        "line-154",
-        "line-155",
-        "line-166",
-        "line-168",
-        "line-187",
-        "line-192",
-        "line-194",
-        "line-218",
-        "line-292",
-        "line-334"
-      ],
-      "level": "A1"
+      "glossEn": "A person who advocates centrism.; Of, pertaining to, or advocating centrism.",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/centrist",
+      "sentenceIds": [],
+      "lemma": "centrist"
     },
     {
       "id": "vocab-5",
-      "word": "people",
-      "zh": "用作复数人；一般或集体考虑的人体；两人或两人以上的群体。构成或属于某一特定群体的人，如民族、阶级、族裔群体、国家、家庭等。与人或居民一起囤积；像人一样填充；填充。成为人口稠密或人口稠密。个体；通常是人。",
-      "reading": "/ˈpiːpəl/",
+      "word": "consciousness",
+      "zh": "知觉，清醒",
+      "reading": "/ˈkɒnʃəsnəs/",
       "partOfSpeech": "noun",
-      "sentenceIds": [
-        "line-67",
-        "line-76",
-        "line-122",
-        "line-128",
-        "line-131",
-        "line-175",
-        "line-195",
-        "line-219",
-        "line-224",
-        "line-226",
-        "line-302",
-        "line-305",
-        "line-313",
-        "line-318",
-        "line-323",
-        "line-334"
-      ],
-      "level": "A1"
+      "glossEn": "The state of being conscious or aware; awareness.",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/consciousness",
+      "sentenceIds": [],
+      "lemma": "consciousness"
     },
     {
       "id": "vocab-6",
-      "word": "there",
-      "zh": "那个地方；那个状态；那个位置； （位置）在离演讲者一定距离的地方或地点（说明、暗示或以其他方式表示） （在此处比较）。在该事项中，关系等;在该点，阶段等，被视为一个独特的地方。用作“存在”意义上的咒骂主题，语义，通常是不确定的主题被推迟或（偶尔）暗示。",
-      "reading": "/ðeː(ɹ)/",
+      "word": "dopamine",
+      "zh": "多巴胺（神经细胞产生的一种作用于其他细胞的化学物质 ）",
+      "reading": "/ˈdəʊpəmiːn/",
       "partOfSpeech": "noun",
-      "sentenceIds": [
-        "line-54",
-        "line-59",
-        "line-62",
-        "line-63",
-        "line-71",
-        "line-72",
-        "line-143",
-        "line-172",
-        "line-177",
-        "line-200",
-        "line-239",
-        "line-241",
-        "line-312",
-        "line-343",
-        "line-346"
-      ]
+      "glossEn": "A neurotransmitter associated with movement, attention, learning, and the brain’s pleasure and reward system.",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/dopamine",
+      "sentenceIds": [],
+      "lemma": "dopamine"
     },
     {
       "id": "vocab-7",
-      "word": "just",
-      "zh": "事实正确，正确；事实。理性正确，正确；只有，简单，仅仅； （句副词）用于减少命令的力量；简单。表示沮丧或不满。",
-      "reading": "/d͡ʒʌst/",
-      "partOfSpeech": "adjective",
-      "sentenceIds": [
-        "line-137",
-        "line-139",
-        "line-141",
-        "line-147",
-        "line-171",
-        "line-184",
-        "line-189",
-        "line-190",
-        "line-208",
-        "line-223",
-        "line-242",
-        "line-259",
-        "line-328",
-        "line-341"
-      ]
+      "word": "substance",
+      "zh": "物质，材料",
+      "reading": "/ˈsʌbstəns/",
+      "partOfSpeech": "noun",
+      "glossEn": "Physical matter; material.; The essential part of anything; the most vital part.; To give substance to; to make real or substantial.",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/substance",
+      "sentenceIds": [],
+      "lemma": "substance"
     },
     {
       "id": "vocab-8",
-      "word": "going",
-      "zh": "移动： （主要是机器）工作或运行（正确） ；移动或执行（根据需要）。出发；地面是否适合骑行、步行等。；可能继续；可行。",
-      "reading": "/ˈɡəʊɪŋ/",
-      "partOfSpeech": "verb",
-      "sentenceIds": [
-        "line-24",
-        "line-78",
-        "line-93",
-        "line-94",
-        "line-97",
-        "line-108",
-        "line-195",
-        "line-197",
-        "line-260",
-        "line-261",
-        "line-312",
-        "line-328"
-      ]
+      "word": "synaps",
+      "zh": "突触",
+      "partOfSpeech": "noun",
+      "glossEn": "The junction between the terminal of a neuron and either another neuron or a muscle or gland cell, over which nerve impulses pass.; To form a synapse.; To undergo synapsis.; The association of homologous maternal and paternal chromosomes during the initial part of meiosis.",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/synaps",
+      "sentenceIds": [],
+      "lemma": "synaps",
+      "notes": "字幕形：synapses"
     },
     {
       "id": "vocab-9",
-      "word": "One",
-      "zh": "数字或图1。环中关于乘法的中性元素。使成为一个整体；聚集成一个整体；团结起来。一段时间，是特别的。为单一、未指明的事物； a; any.",
-      "reading": "/wan/",
-      "partOfSpeech": "noun",
-      "sentenceIds": [
-        "line-38",
-        "line-83",
-        "line-110",
-        "line-121",
-        "line-164",
-        "line-186",
-        "line-191",
-        "line-215",
-        "line-229",
-        "line-330",
-        "line-335"
-      ]
+      "word": "universe",
+      "zh": "宇宙，天地万物（the universe）",
+      "reading": "/ˈjuːnɪˌvɜːs/",
+      "partOfSpeech": "proper noun",
+      "glossEn": "Our universe, the sum of everything that exists in the cosmos, including time and space itself.; The sum of everything that exists in the cosmos, including time and space itself.; An entity similar to our universe; one component of a larger entity known as the multiverse.",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/universe",
+      "sentenceIds": [],
+      "lemma": "universe"
     },
     {
       "id": "vocab-10",
-      "word": "video",
-      "zh": "电视、电视节目、电影。有音频或无音频的短片剪辑（如音乐视频，或YouTube等网站上大量用户生成的短片之一）。使用摄像机录制，录像；录制电视节目",
-      "reading": "/ˈvɪ.di.əʊ/",
-      "partOfSpeech": "noun",
-      "sentenceIds": [
-        "line-72",
-        "line-74",
-        "line-87",
-        "line-93",
-        "line-95",
-        "line-96",
-        "line-100",
-        "line-108",
-        "line-177",
-        "line-179",
-        "line-186"
-      ]
+      "word": "disguis",
+      "zh": "假扮，伪装",
+      "reading": "/dɪsˈɡaɪzd/",
+      "partOfSpeech": "verb",
+      "glossEn": "To change the appearance of (a person or thing) so as to hide, or to assume an identity.; To avoid giving away or revealing (something secret); to hide by a false appearance.; Wearing a disguise; dressed in strange or unusual clothes, especially to conceal one's identity.; Drunk.",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/disguis",
+      "sentenceIds": [],
+      "lemma": "disguis",
+      "notes": "字幕形：disguised"
     },
     {
       "id": "vocab-11",
-      "word": "most",
-      "zh": "最大量；大部分。形成许多形容词的最高级别。在很大程度上或程度上；高度；非常。一个群体的大部分，特别是一群人。",
-      "reading": "/ˈməʊst/",
+      "word": "gladiator",
+      "zh": "斗剑者",
+      "reading": "/ˈɡlædiˌeɪtɚ/",
       "partOfSpeech": "noun",
-      "sentenceIds": [
-        "line-92",
-        "line-94",
-        "line-97",
-        "line-99",
-        "line-100",
-        "line-106",
-        "line-128",
-        "line-185",
-        "line-258",
-        "line-334",
-        "line-342"
-      ]
+      "glossEn": "(in ancient Rome) A person (professional or slave) who entertained the public by engaging in mortal combat with another, or with a wild animal.; (by extension) A disputant in a public controversy or debate.; To fight as entertainment for others.; To compete in a public contest.",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/gladiator",
+      "sentenceIds": [],
+      "lemma": "gladiator",
+      "notes": "字幕形：Gladiator"
     },
     {
       "id": "vocab-12",
-      "word": "mean",
-      "zh": "哀叹；故意。传达（一种含义）。",
-      "reading": "/miːn/",
-      "partOfSpeech": "verb",
-      "sentenceIds": [
-        "line-35",
-        "line-50",
-        "line-71",
-        "line-120",
-        "line-163",
-        "line-168",
-        "line-171",
-        "line-242",
-        "line-284",
-        "line-312"
-      ]
+      "word": "crowd",
+      "zh": "人群",
+      "reading": "/kɹaʊd/",
+      "partOfSpeech": "noun",
+      "glossEn": "A group of people congregated or collected into a close body without order.; Several things collected or closely pressed together; also, some things adjacent to each other.; To press forward; to advance by pushing.; To press together or collect in numbers",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/crowd",
+      "sentenceIds": [],
+      "lemma": "crowd"
     },
     {
       "id": "vocab-13",
-      "word": "say",
-      "zh": "发言的机会；影响或做出决定的权利或权力。发音；背诵。；例如；让我们假设。",
-      "reading": "/seɪ/",
+      "word": "nuance",
+      "zh": "细微差别",
       "partOfSpeech": "noun",
-      "sentenceIds": [
-        "line-43",
-        "line-106",
-        "line-122",
-        "line-127",
-        "line-175",
-        "line-176",
-        "line-196",
-        "line-219",
-        "line-223",
-        "line-232"
-      ]
+      "glossEn": "A minor distinction.; Subtlety or fine detail.; To apply a nuance to; to change or redefine in a subtle way.",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/nuance",
+      "sentenceIds": [],
+      "lemma": "nuance"
     },
     {
       "id": "vocab-14",
-      "word": "where",
-      "zh": "发生事情的地方。疑问副词，用于直接或间接的问题：在哪个地方；在哪个地方；在哪个地方。在什么情况下；在哪个地方。",
-      "reading": "/wɛə(ɹ)/",
+      "word": "suspect",
+      "zh": "猜想，认为（某事有可能）",
+      "reading": "/ˈsʌs.pɛkt/",
       "partOfSpeech": "noun",
-      "sentenceIds": [
-        "line-75",
-        "line-78",
-        "line-129",
-        "line-172",
-        "line-175",
-        "line-177",
-        "line-253",
-        "line-265",
-        "line-278",
-        "line-324"
-      ]
+      "glossEn": "A person who is suspected of something, in particular of committing a crime.; To imagine or suppose (something) to be true, or to exist, without proof.; To distrust or have doubts about (something or someone).; Viewed with suspicion; suspected.",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/suspect",
+      "sentenceIds": [],
+      "lemma": "suspect"
     },
     {
       "id": "vocab-15",
-      "word": "guess",
-      "zh": "得出部分（或完全）不合格的结论。用正确的猜想来求解；用正确的猜想来求解。",
-      "reading": "/ɡɛs/",
-      "partOfSpeech": "verb",
-      "sentenceIds": [
-        "line-32",
-        "line-86",
-        "line-184",
-        "line-206",
-        "line-230",
-        "line-232",
-        "line-242",
-        "line-248",
-        "line-259"
-      ]
+      "word": "euphemism",
+      "zh": "委婉语，委婉说法",
+      "reading": "/ˈjuː.fəˌmɪ.z(ə)m/",
+      "partOfSpeech": "noun",
+      "glossEn": "The use of a word or phrase to replace another with one that is considered less offensive, blunt or vulgar than the word or phrase which it replaces.; A word or phrase that is used to replace another in this way.",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/euphemism",
+      "sentenceIds": [],
+      "lemma": "euphemism"
     },
     {
       "id": "vocab-16",
-      "word": "re",
-      "zh": "关于、关于、关于；特别是在信件、文件和电子邮件中。",
-      "reading": "/ɹeɪ/",
-      "partOfSpeech": "preposition",
-      "sentenceIds": [
-        "line-43",
-        "line-135",
-        "line-137",
-        "line-138",
-        "line-139",
-        "line-163",
-        "line-180",
-        "line-189",
-        "line-335"
-      ]
+      "word": "cellular",
+      "zh": "由细胞组成的，细胞的",
+      "partOfSpeech": "noun",
+      "glossEn": "A cellular phone (mobile phone).; Of, relating to, consisting of, or resembling a cell or cells.",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/cellular",
+      "sentenceIds": [],
+      "lemma": "cellular"
     },
     {
       "id": "vocab-17",
-      "word": "don",
-      "zh": "大学教授，特别是牛津或剑桥的教授。居住在学生公寓中的大学生公寓的员工。",
-      "reading": "/dɒn/",
-      "partOfSpeech": "noun",
-      "sentenceIds": [
-        "line-60",
-        "line-63",
-        "line-123",
-        "line-168",
-        "line-255",
-        "line-257",
-        "line-290",
-        "line-316",
-        "line-317"
-      ]
+      "word": "multisellular",
+      "zh": "[生物] 多细胞的",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/multisellular",
+      "sentenceIds": [],
+      "lemma": "multisellular"
     },
     {
       "id": "vocab-18",
-      "word": "Why",
-      "zh": "原因；是什么原因、原因或目的（疑问副词）。出于何种原因、理由或目的（相对副词）。用于表示愤慨、轻微惊讶或不耐烦的感叹号。",
-      "reading": "/waɪ/",
+      "word": "wiggle",
+      "zh": "（使）扭动，摆动",
+      "reading": "/ˈwɪɡəl/",
       "partOfSpeech": "noun",
-      "sentenceIds": [
-        "line-22",
-        "line-227",
-        "line-231",
-        "line-233",
-        "line-241",
-        "line-250",
-        "line-251",
-        "line-252"
-      ]
+      "glossEn": "A rapid movement in alternating opposite directions, not necessarily regular.; An alternating state or characteristic.; To move with irregular, back and forward or side to side motions; To shake or jiggle.",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/wiggle",
+      "sentenceIds": [],
+      "lemma": "wiggle"
     },
     {
       "id": "vocab-19",
-      "word": "Well",
-      "zh": "身体健康；良好，内容丰富； （方式）准确、称职、满意； （方式）完全、充分。用于确认陈述或情况。",
-      "reading": "/wɛl/",
-      "partOfSpeech": "adjective",
-      "sentenceIds": [
-        "line-56",
-        "line-58",
-        "line-122",
-        "line-168",
-        "line-285",
-        "line-311",
-        "line-316"
-      ]
+      "word": "qualitative",
+      "zh": "质量的，定性的，性质的",
+      "partOfSpeech": "adverb",
+      "glossEn": "In a qualitative manner.; With respect to quality rather than quantity.",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/qualitative",
+      "sentenceIds": [],
+      "lemma": "qualitative",
+      "reading": "/ˈkwɒl.ɪ.tə.tɪv/",
+      "notes": "字幕形：qualitatively"
     },
     {
       "id": "vocab-20",
-      "word": "world",
-      "zh": "（与“the” ）人类集体存在；一般存在。从全球视角考虑或促使从全球视角考虑；作为一个整体考虑，而不是做出或关注国家或其他方面的区别；比较全球化。使真实；使世俗。",
-      "reading": "/wɝld/",
+      "word": "spaceship",
+      "zh": "宇宙飞船",
       "partOfSpeech": "noun",
-      "sentenceIds": [
-        "line-60",
-        "line-63",
-        "line-83",
-        "line-119",
-        "line-128",
-        "line-167",
-        "line-181"
-      ]
+      "glossEn": "A vehicle that flies through space.; A finite pattern that reappears after a certain number of generations in the same orientation but in a different position.",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/spaceship",
+      "sentenceIds": [],
+      "lemma": "spaceship"
     },
     {
       "id": "vocab-21",
-      "word": "right",
-      "zh": "直线，不弯曲；角度，大小为90度，或完整旋转的四分之一；两条垂直线之间的角度。",
-      "partOfSpeech": "adjective",
-      "sentenceIds": [
-        "line-99",
-        "line-132",
-        "line-135",
-        "line-136",
-        "line-202",
-        "line-326",
-        "line-336"
-      ]
+      "word": "spiritual",
+      "zh": "精神的，心灵的",
+      "reading": "/ˈspɪɹɪtjʊəl/",
+      "partOfSpeech": "noun",
+      "glossEn": "A Christian religious song, especially one in an African-American style, or a similar non-religious song.; Any spiritual function, office, or affair.; Of or pertaining to the spirit or the soul.; Of or pertaining to God or a place of worship; sacred.",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/spiritual",
+      "sentenceIds": [],
+      "lemma": "spiritual"
     },
     {
       "id": "vocab-22",
-      "word": "when",
-      "zh": "事情发生的时间； （疑问）什么时候？什么时候？什么情况下？用于介绍有关时间的直接或间接问题。在较早的时间和不同的，通常不太有利的情况下； （疑问）什么时候；什么时候。；的时间。",
-      "reading": "/ʍɛn/",
-      "partOfSpeech": "noun",
-      "sentenceIds": [
-        "line-111",
-        "line-154",
-        "line-155",
-        "line-265",
-        "line-298",
-        "line-302",
-        "line-305"
-      ]
+      "word": "predictive",
+      "zh": "预言性的",
+      "partOfSpeech": "adjective",
+      "glossEn": "Useful in predicting.; Describing a predictor.",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/predictive",
+      "sentenceIds": [],
+      "lemma": "predictive"
     },
     {
       "id": "vocab-23",
-      "word": "much",
-      "zh": "大，非常好；持续时间长。；在很大程度上。经常；经常；数量大或程度大。",
-      "reading": "/mʌt͡ʃ/",
-      "partOfSpeech": "adjective",
-      "sentenceIds": [
-        "line-10",
-        "line-39",
-        "line-87",
-        "line-168",
-        "line-287",
-        "line-308"
-      ]
+      "word": "stock",
+      "zh": "现货，存货",
+      "reading": "/stɒks/",
+      "partOfSpeech": "noun",
+      "glossEn": "A store or supply.; The capital raised by a company through the issue of shares. The total of shares held by an individual shareholder.; To have on hand for sale.; To provide with material requisites; to store; to fill; to supply.",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/stock",
+      "sentenceIds": [],
+      "lemma": "stock",
+      "notes": "字幕形：stocks"
     },
     {
       "id": "vocab-24",
-      "word": "want",
-      "zh": "一种欲望，愿望，渴望； （经常紧随其后的是）缺乏，缺席。希望或渴望（某物） ；感到需要或渴望；渴望或要求； （特别是）希望、渴望或要求看到、出现或与之做生意。",
-      "reading": "/wɔnt/",
+      "word": "preface",
+      "zh": "（书的）前言，（演讲的）开场白",
+      "reading": "/ˈpɹɛfəs/",
       "partOfSpeech": "noun",
-      "sentenceIds": [
-        "line-21",
-        "line-40",
-        "line-171",
-        "line-176",
-        "line-196",
-        "line-208"
-      ],
-      "level": "A1"
+      "glossEn": "The beginning or introductory portion that comes before the main text of a document or book.; An introduction, or series of preliminary remarks.; To introduce or make a comment before (the main point).; To give a preface to.",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/preface",
+      "sentenceIds": [],
+      "lemma": "preface"
     },
     {
       "id": "vocab-25",
-      "word": "thing",
-      "zh": "被认为作为一个单独的实体、对象、质量或概念存在的东西。可用于指代任何实体的单词、符号、标志或其他指称。表达为一种事物；具体化。",
-      "reading": "/θɪŋ/",
-      "partOfSpeech": "noun",
-      "sentenceIds": [
-        "line-38",
-        "line-43",
-        "line-65",
-        "line-125",
-        "line-204",
-        "line-337"
-      ]
+      "word": "ambitiou",
+      "zh": "有抱负的，野心勃勃的",
+      "reading": "/æmˈbɪʃ.əs/",
+      "partOfSpeech": "adjective",
+      "glossEn": "(of a person or their character) Having or showing ambition; wanting a lot of power, honor, respect, superiority, or other distinction.; (followed by \"of\" or the infinitive) Very desirous",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/ambitiou",
+      "sentenceIds": [],
+      "lemma": "ambitiou",
+      "notes": "字幕形：ambitious"
     },
     {
       "id": "vocab-26",
-      "word": "sort",
-      "zh": "一般类型；方式；存在或行动的形式。",
+      "word": "convergence",
+      "zh": "趋同",
+      "reading": "/kɒnˈvɜː(ɹ)d͡ʒəns/",
       "partOfSpeech": "noun",
-      "sentenceIds": [
-        "line-118",
-        "line-212",
-        "line-248",
-        "line-273",
-        "line-312",
-        "line-338"
-      ]
+      "glossEn": "The act of moving toward union or uniformity.; A meeting place.",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/convergence",
+      "sentenceIds": [],
+      "lemma": "convergence"
     },
     {
       "id": "vocab-27",
-      "word": "because",
-      "zh": "出于这个原因。；由于（的）缘故，为了（的）缘故。；因为，因为。由于或出于原因；出于这个原因；出于这个原因。已知、推断或确定的事实。",
-      "reading": "/bɪˈkɒz/",
-      "partOfSpeech": "adverb",
-      "sentenceIds": [
-        "line-11",
-        "line-79",
-        "line-129",
-        "line-137",
-        "line-217"
-      ],
-      "level": "A2"
+      "word": "autonomou",
+      "zh": "自治的，有自治权的",
+      "reading": "/ɔːˈtɒnəməs/",
+      "partOfSpeech": "adjective",
+      "glossEn": "Self-governing. Intelligent, sentient, self-aware, thinking, feeling, governing independently.; Acting on one's own or independently; of a child, acting without being governed by parental or guardian rules.",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/autonomou",
+      "sentenceIds": [],
+      "lemma": "autonomou",
+      "notes": "字幕形：autonomous"
     },
     {
       "id": "vocab-28",
-      "word": "ve",
-      "zh": "（ epicene ）性别中立的第三人称单数主语代词，相当于单数they。",
-      "reading": "/vi/",
-      "partOfSpeech": "pronoun",
-      "sentenceIds": [
-        "line-11",
-        "line-88",
-        "line-141",
-        "line-178",
-        "line-216"
-      ]
+      "word": "progress",
+      "zh": "进步，进展",
+      "reading": "/ˈpɹɒɡɹɛs/",
+      "partOfSpeech": "noun",
+      "glossEn": "Movement or advancement through a series of events, or points in time; development through time.; Specifically, advancement to a higher or more developed state; development, growth.",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/progress",
+      "sentenceIds": [],
+      "lemma": "progress"
     },
     {
       "id": "vocab-29",
-      "word": "get",
-      "zh": "后代；血统；获得；获得。；收取。",
-      "reading": "/ɡɛt/",
+      "word": "battery",
+      "zh": "电池，蓄电池",
+      "reading": "/ˈbætəɹi/",
       "partOfSpeech": "noun",
-      "sentenceIds": [
-        "line-31",
-        "line-60",
-        "line-139",
-        "line-265",
-        "line-280"
-      ]
+      "glossEn": "A device used to power electric devices, consisting of a set of electrically connected electrochemical or, archaically, electrostatic cells. A single such cell when used by itself.; The infliction of unlawful physical violence on a person, legally distinguished from assault, which includes the threat of impending violence.",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/battery",
+      "sentenceIds": [],
+      "lemma": "battery"
     },
     {
       "id": "vocab-30",
-      "word": "lot",
-      "zh": "数量或数量很大；非常多。一个单独的部分；一些东西合在一起。分配；排序；分配。计数或计算（当天或当天）。",
-      "reading": "/lɒt/",
+      "word": "pack",
+      "zh": "（把……）打包，收拾（行李）",
+      "reading": "/pæks/",
       "partOfSpeech": "noun",
-      "sentenceIds": [
-        "line-44",
-        "line-72",
-        "line-77",
-        "line-131",
-        "line-195"
-      ]
+      "glossEn": "A bundle made up and prepared to be carried; especially, a bundle to be carried on the back, but also a load for an animal, a bale.; A number or quantity equal to the contents of a pack; (physical) To put or bring things together in a limited or confined space, especially for storage or transport.; (social) To cheat.",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/pack",
+      "sentenceIds": [],
+      "lemma": "pack",
+      "notes": "字幕形：packs"
     },
     {
       "id": "vocab-31",
-      "word": "some",
-      "zh": "测量的：大致、粗略。一定数量，至少两个。数量不定。",
-      "reading": "/sɐm/",
-      "partOfSpeech": "adverb",
-      "sentenceIds": [
-        "line-59",
-        "line-62",
-        "line-121",
-        "line-146",
-        "line-321"
-      ]
+      "word": "reliable",
+      "zh": "可靠的，可信赖的",
+      "reading": "/ɹɪˈlaɪəbəl/",
+      "partOfSpeech": "noun",
+      "glossEn": "Something or someone reliable or dependable; Suitable or fit to be relied on; worthy of dependence, reliance or trust; dependable, trustworthy; (of a communication protocol) Such that either a sent packet will reach its destination, even if it requires retransmission, or the sender will be told that it didn't",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/reliable",
+      "sentenceIds": [],
+      "lemma": "reliable"
     },
     {
       "id": "vocab-32",
-      "word": "far",
-      "zh": "遥远；在太空中遥远。在时间上遥远；在空间、时间或其他范围内到达、离开或超过很远的距离。；非常喜欢；非常喜欢。",
-      "reading": "/fɑː/",
-      "partOfSpeech": "adjective",
-      "sentenceIds": [
-        "line-84",
-        "line-127",
-        "line-135",
-        "line-136",
-        "line-139"
-      ]
+      "word": "latency",
+      "zh": "潜伏",
+      "reading": "/ˈleɪ.tən.si/",
+      "partOfSpeech": "noun",
+      "glossEn": "The state of being latent.; A delay, a period between the initiation of something and the occurrence.",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/latency",
+      "sentenceIds": [],
+      "lemma": "latency"
     },
     {
       "id": "vocab-33",
-      "word": "social",
-      "zh": "举办节日聚会，促进自我介绍。举行舞会，为新婚夫妇筹集资金。外向或外向。社会的或与社会有关的。允许用户相互交互和发布的交互式媒体形式，通常通过互联网进行。",
-      "reading": "/ˈsəʊʃəl/",
-      "partOfSpeech": "noun",
-      "sentenceIds": [
-        "line-84",
-        "line-154",
-        "line-155",
-        "line-165",
-        "line-170"
-      ]
+      "word": "geostationary",
+      "zh": "与地球旋转同步的",
+      "partOfSpeech": "adjective",
+      "glossEn": "At a fixed distance in three dimensions relative to a particular point on the Earth's surface; generally only possible with orbital satellites.",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/geostationary",
+      "sentenceIds": [],
+      "lemma": "geostationary"
     },
     {
       "id": "vocab-34",
-      "word": "media",
-      "zh": "血管或淋巴管壁的中间层，由结缔组织和肌肉组织组成。带浊音的停止辅音。",
-      "reading": "/ˈmiːdɪə/",
+      "word": "fiber",
+      "zh": "纤维（等于 fibre）",
+      "reading": "/ˈfaɪ.bə/",
       "partOfSpeech": "noun",
-      "sentenceIds": [
-        "line-84",
-        "line-154",
-        "line-155",
-        "line-165",
-        "line-170"
-      ]
+      "glossEn": "A single elongated piece of a given material, roughly round in cross-section, often twisted with other fibers to form thread.; A material in the form of fibers.",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/fiber",
+      "sentenceIds": [],
+      "lemma": "fiber"
     },
     {
       "id": "vocab-35",
-      "word": "important",
-      "zh": "具有相关和关键的价值。浮夸；自以为是。",
-      "reading": "/ɪmˈpɔːtənt/",
-      "partOfSpeech": "adjective",
-      "sentenceIds": [
-        "line-115",
-        "line-228",
-        "line-231",
-        "line-251",
-        "line-258"
-      ],
-      "level": "A2"
+      "word": "mesh",
+      "zh": "网，网状物",
+      "reading": "/mɛʃ/",
+      "partOfSpeech": "noun",
+      "glossEn": "A structure made of connected strands of metal, fiber, or other flexible/ductile material, with evenly spaced openings between them.; The opening or space enclosed by the threads of a net between knot and knot, or the threads enclosing such a space.; To connect together by interlocking, as gears do.; (by extension) To fit in; to come together harmoniously.",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/mesh",
+      "sentenceIds": [],
+      "lemma": "mesh"
     },
     {
       "id": "vocab-36",
-      "word": "even",
-      "zh": "（小）一个偶数。；使平坦和水平。；等于。；平坦和水平。；无较大差异。",
-      "reading": "/ˈiːvən/",
+      "word": "laser",
+      "zh": "激光（器）",
+      "reading": "/ˈleɪz.ə(ɹ)/",
       "partOfSpeech": "noun",
-      "sentenceIds": [
-        "line-133",
-        "line-157",
-        "line-162",
-        "line-256",
-        "line-257"
-      ]
+      "glossEn": "A device that produces a monochromatic, coherent beam of light.; A beam of light produced by such a device; a laser beam.; To cut with a laser; To throw with laser-like precision",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/laser",
+      "sentenceIds": [],
+      "lemma": "laser"
     },
     {
       "id": "vocab-37",
-      "word": "out",
-      "zh": "一种出入境、逃生、缓刑等手段。击球队成员由于各种比赛规则的应用而被除名的状态，例如击球、击中被外场球队在弹跳前抓住的飞球等。；弹出；排出。揭示（一个人）为LGBT + （同性恋、跨性别者等）。不在家；不在办公室或工作地点。",
-      "reading": "/æɔt/",
+      "word": "connectivity",
+      "zh": "连通（性），联结（度）",
       "partOfSpeech": "noun",
-      "sentenceIds": [
-        "line-201",
-        "line-279",
-        "line-280",
-        "line-284",
-        "line-330"
-      ]
+      "glossEn": "The state of being connected; The ability to make a connection between two or more points in a network",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/connectivity",
+      "sentenceIds": [],
+      "lemma": "connectivity"
     },
     {
       "id": "vocab-38",
-      "word": "feel",
-      "zh": "通过触摸体验的对象的质量。模糊的心理印象； （标题）使用或体验触觉； （标题）感知或思考情感或判断。",
-      "reading": "/fiːl/",
-      "partOfSpeech": "noun",
-      "sentenceIds": [
-        "line-9",
-        "line-157",
-        "line-334",
-        "line-342"
-      ]
+      "word": "stink",
+      "zh": "发恶臭，有异味",
+      "reading": "/ˈstɪŋkɪŋ/",
+      "partOfSpeech": "verb",
+      "glossEn": "To have a strong bad smell.; To be greatly inferior; to perform badly.; Having a pungent smell.; Very bad and undesirable.",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/stink",
+      "sentenceIds": [],
+      "lemma": "stink",
+      "notes": "字幕形：stinking"
     },
     {
       "id": "vocab-39",
-      "word": "all",
-      "zh": "（用占有代词）一个人所能做到的一切。一个人所有的全部。全部消失；死亡； （度）强化剂。完全地；完全地；完全地。",
-      "reading": "/ɔːl/",
-      "partOfSpeech": "noun",
-      "sentenceIds": [
-        "line-10",
-        "line-16",
-        "line-32",
-        "line-329"
-      ]
+      "word": "robust",
+      "zh": "强健的，强壮的",
+      "reading": "/ɹəʊˈbʌst/",
+      "partOfSpeech": "adjective",
+      "glossEn": "Evincing strength and health; strong.; Violent; rough; rude.",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/robust",
+      "sentenceIds": [],
+      "lemma": "robust"
     },
     {
       "id": "vocab-40",
-      "word": "different",
-      "zh": "不同的理想；不一样；表现出不同。种类繁多，种类繁多；",
-      "reading": "/ˈdɪf.(ə)ɹ.ənt/",
-      "partOfSpeech": "noun",
-      "sentenceIds": [
-        "line-12",
-        "line-184",
-        "line-220",
-        "line-315"
-      ],
-      "level": "A2"
+      "word": "complimentary",
+      "zh": "赞美的，表示钦佩的",
+      "reading": "/ˌkɒmplɪ̈ˈmɛnt(ə)ɹi/",
+      "partOfSpeech": "adjective",
+      "glossEn": "In the nature of a compliment.; Free; provided at no charge.",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/complimentary",
+      "sentenceIds": [],
+      "lemma": "complimentary"
     },
     {
       "id": "vocab-41",
-      "word": "coffee",
-      "zh": "将咖啡豆浸泡在热水中制成的饮料。；一份这种饮料。喝咖啡；淡棕色，如牛奶咖啡。桌子：一张小而低的桌子，适合坐在休息室座位上的人放置咖啡杯。",
-      "reading": "/ˈkɑ.fi/",
+      "word": "beam",
+      "zh": "梁，横梁",
+      "reading": "/biːmz/",
       "partOfSpeech": "noun",
-      "sentenceIds": [
-        "line-21",
-        "line-30",
-        "line-31",
-        "line-34"
-      ]
+      "glossEn": "Any large piece of timber or iron long in proportion to its thickness, and prepared for use.; One of the principal horizontal timbers of a building; one of the transverse members of a ship's frame on which the decks are laid — supported at the sides by knees in wooden ships and by stringers in steel ones.; To emit beams of light; shine; radiate.; To smile broadly or especially cheerfully.",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/beam",
+      "sentenceIds": [],
+      "lemma": "beam",
+      "notes": "字幕形：beams"
     },
     {
       "id": "vocab-42",
-      "word": "kind",
-      "zh": "类型、种族或类别；一组具有共同特征的实体，以便它们可以组合在一起。临时或其他非典型样品。",
-      "reading": "/kaɪnd/",
-      "partOfSpeech": "noun",
-      "sentenceIds": [
-        "line-38",
-        "line-173",
-        "line-311",
-        "line-321"
-      ]
+      "word": "sparse",
+      "zh": "稀少的，稀疏的",
+      "partOfSpeech": "adverb",
+      "glossEn": "In a scattered or sparse manner; widely apart; thinly.",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/sparse",
+      "sentenceIds": [],
+      "lemma": "sparse",
+      "reading": "/spɑːs/",
+      "notes": "字幕形：sparsely"
     },
     {
       "id": "vocab-43",
-      "word": "pretty",
-      "zh": "一个漂亮的人；对一个漂亮的人说话的术语。；漂亮的东西。美丽；美化；视觉或其他感官愉快；有吸引力，尤其是女性或儿童，但不如美丽的东西那么引人注目。对象或事物：好看、有吸引力。",
-      "reading": "/ˈpɹɪti/",
+      "word": "inefficient",
+      "zh": "效率低的，能力差的，浪费的",
+      "reading": "/ɪnɪˈfɪʃənt/",
       "partOfSpeech": "noun",
-      "sentenceIds": [
-        "line-39",
-        "line-65",
-        "line-101",
-        "line-127"
-      ]
+      "glossEn": "A person who cannot or does not work efficiently.; Not efficient; not producing the effect intended or desired; inefficacious; Incapable of, or indisposed to, effective action; habitually slack or unproductive; effecting little or nothing",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/inefficient",
+      "sentenceIds": [],
+      "lemma": "inefficient"
     },
     {
       "id": "vocab-44",
-      "word": "Really",
-      "zh": "以某种方式或方式是真实的，而不是不真实的； （情态）实际上；实际上；在现实中。对一些新信息表示惊讶或要求确认；表示怀疑； （讽刺，通常是夸张的问题。）表明刚才说的话是显而易见和不必要的；人为的怀疑",
-      "reading": "/ˈɹɪəli/",
-      "partOfSpeech": "adverb",
-      "sentenceIds": [
-        "line-49",
-        "line-180",
-        "line-205",
-        "line-208"
-      ]
+      "word": "rural",
+      "zh": "农村的，乡村的",
+      "reading": "/ˈɹɔːɹəl/",
+      "partOfSpeech": "noun",
+      "glossEn": "A person from the countryside; a rustic.; Relating to the countryside or to agriculture.",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/rural",
+      "sentenceIds": [],
+      "lemma": "rural"
     },
     {
       "id": "vocab-45",
-      "word": "number",
-      "zh": "用于描述数量的抽象实体。；数字：非负整数的符号。用数字标记（项） ；将数字分配给（项）。总计或计数；金额至。",
-      "reading": "/ˈnʌmbə/",
+      "word": "flashlight",
+      "zh": "手电筒",
+      "reading": "/ˈflæʃˌlaɪt/",
       "partOfSpeech": "noun",
-      "sentenceIds": [
-        "line-55",
-        "line-65",
-        "line-82",
-        "line-341"
-      ]
+      "glossEn": "A battery-powered hand-held light source.; A flashgun (device used to create flashes of light for photography).; To illuminate with a flashlight.",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/flashlight",
+      "sentenceIds": [],
+      "lemma": "flashlight"
     },
     {
       "id": "vocab-46",
-      "word": "up",
-      "zh": "与重力相反的方向。一个积极的事情；增加或提高。晋升；面向上。",
-      "reading": "/ap/",
+      "word": "cone",
+      "zh": "圆锥体",
+      "reading": "/kəʊn/",
       "partOfSpeech": "noun",
-      "sentenceIds": [
-        "line-58",
-        "line-60",
-        "line-166",
-        "line-282"
-      ]
+      "glossEn": "A surface of revolution formed by rotating a segment of a line around another line that intersects the first line.; A solid of revolution formed by rotating a triangle around one of its altitudes.; To fashion into the shape of a cone.; To form a cone shape.",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/cone",
+      "sentenceIds": [],
+      "lemma": "cone"
     },
     {
       "id": "vocab-47",
-      "word": "point",
-      "zh": "某事的离散划分。锋利的肢体。",
-      "partOfSpeech": "noun",
-      "sentenceIds": [
-        "line-74",
-        "line-148",
-        "line-266",
-        "line-317"
-      ]
+      "word": "culde",
+      "zh": "死胡同",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/culde",
+      "sentenceIds": [],
+      "lemma": "culde"
     },
     {
       "id": "vocab-48",
-      "word": "how",
-      "zh": "完成某件事的方法。在何种程度上；以何种方式。的方式或方式。那个，那个事实，那个方式。",
-      "reading": "/hæŏ/",
+      "word": "optional",
+      "zh": "可选择的，选修的",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/optional",
+      "sentenceIds": [],
+      "lemma": "optional",
       "partOfSpeech": "noun",
-      "sentenceIds": [
-        "line-87",
-        "line-91",
-        "line-98",
-        "line-290"
-      ]
+      "glossEn": "Something that is not compulsory, especially part of an academic course.; (sometimes capitalized) In various programming languages, a kind of variable that is assigned a specific data type but may or may not hold an actual value.; Not compulsory; left to personal choice; elective."
     },
     {
       "id": "vocab-49",
-      "word": "now",
-      "zh": "现在； （经常带有“the” ）不关注未来或过去的状态。当前；当前；时尚；流行；最新；当前。；目前。",
-      "reading": "/naʊ/",
-      "partOfSpeech": "noun",
-      "sentenceIds": [
-        "line-99",
-        "line-123",
-        "line-146",
-        "line-330"
-      ]
+      "word": "innate",
+      "zh": "先天的，固有的",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/innate",
+      "sentenceIds": [],
+      "lemma": "innate",
+      "reading": "/ɪˈneɪt/",
+      "partOfSpeech": "adverb",
+      "glossEn": "In an innate manner, referring to a property that is possessed merely by its nature.",
+      "notes": "字幕形：innately"
     },
     {
       "id": "vocab-50",
-      "word": "left",
-      "zh": "左侧或方向。左翼政党的总和。作为一个群体持有左翼观点的人。与右相反；朝向西方时朝向北方。指政治左派。；在左侧。",
-      "reading": "/lɛft/",
+      "word": "alpha",
+      "zh": "希腊字母表的第一个字母",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/alpha",
+      "sentenceIds": [],
+      "lemma": "alpha",
+      "reading": "/ˈælfə/",
       "partOfSpeech": "noun",
-      "sentenceIds": [
-        "line-127",
-        "line-135",
-        "line-139",
-        "line-337"
-      ]
+      "glossEn": "The name of the first letter of the Greek alphabet (Α,  α), followed by beta. In the Latin alphabet it is the predecessor to A.; Latin alpha; Designates the first in an order of precedence.; (of person, object or action) exhibiting characteristics of the alpha male/female archetype."
     },
     {
       "id": "vocab-51",
-      "word": "answer",
-      "zh": "回应或答复；为回应陈述或问题而说或做的事情。问题的解决方案。",
-      "reading": "/ˈan.sə/",
+      "word": "singularity",
+      "zh": "奇特，奇怪",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/singularity",
+      "sentenceIds": [],
+      "lemma": "singularity",
+      "reading": "/ˌsɪŋɡjəˈlæɹətɪ/",
       "partOfSpeech": "noun",
-      "sentenceIds": [
-        "line-280",
-        "line-282",
-        "line-286",
-        "line-295"
-      ]
+      "glossEn": "The state of being singular, distinct, peculiar, uncommon or unusual; A point where all parallel lines meet"
     },
     {
       "id": "vocab-52",
-      "word": "each",
-      "zh": "（操作）单个项目：分组中数量最少的单位。一人；每件；每件。每一个；每一样东西。",
-      "reading": "/iːt͡ʃ/",
+      "word": "saturate",
+      "zh": "使湿透，浸透",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/saturate",
+      "sentenceIds": [],
+      "lemma": "saturate",
+      "reading": "/ˈsætʃəˌɹeɪt/",
       "partOfSpeech": "noun",
-      "sentenceIds": [
-        "line-306",
-        "line-313",
-        "line-318",
-        "line-324"
-      ]
+      "glossEn": "Something saturated, especially a saturated fat.; To cause to become completely impregnated, or soaked (especially with a liquid).; To fill to excess.; Saturated; wet."
     },
     {
       "id": "vocab-53",
-      "word": "other",
-      "zh": "另一个人，另一个人（人等） ，更经常被呈现为另一个人。另一个；两个中的第二个。将“他人”视为、标记或对待，不属于同一群体；将“他人”视为不同和外来者。以不同或分离的方式对待；隔离；排斥。参见下面的其他（确定器）",
-      "reading": "/ˈɐðə/",
+      "word": "marshmallow",
+      "zh": "棉花软糖",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/marshmallow",
+      "sentenceIds": [],
+      "lemma": "marshmallow",
+      "reading": "/mɑːʃˈmæləʊ/",
       "partOfSpeech": "noun",
-      "sentenceIds": [
-        "line-306",
-        "line-313",
-        "line-319",
-        "line-324"
-      ]
+      "glossEn": "A species of mallow, Althaea officinalis, that grows in marshy terrain.; A type of confectionery, originally (since Ancient Egyptian times) made from this plant, but now generally made of sugar or corn syrup, gelatin that has been pre-softened in water, gum arabic, flavorings, and sometimes beaten egg whites, all whipped to a spongy consistency.; To soften (literally or figuratively)"
     },
     {
       "id": "vocab-54",
-      "word": "many",
-      "zh": "一大群人；一大群人；一大群人；普遍性；普通牛群。数量可观；数量庞大；数量众多。无限数量的人或事。",
-      "reading": "/ˈmæni/",
+      "word": "testament",
+      "zh": "证明，证据",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/testament",
+      "sentenceIds": [],
+      "lemma": "testament",
+      "reading": "/ˈtɛst.ə.mənt/",
       "partOfSpeech": "noun",
-      "sentenceIds": [
-        "line-11",
-        "line-12",
-        "line-219"
-      ]
+      "glossEn": "A solemn, authentic instrument in writing, by which a person declares his or her will as to disposal of his or her inheritance (estate and effects) after his or her death, benefiting specified heir(s).; One of the two parts to the scriptures of the Christian religion: the New Testament, considered by Christians to be a continuation of the Hebrew scriptures, and the Hebrew scriptures themselves, which they refer to as the Old Testament."
     },
     {
       "id": "vocab-55",
-      "word": "center",
-      "zh": "圆的内部点，与圆周上的所有点等距。球体内部与圆周上所有点等距离的点。使（一个物体）占据一个区域的中心。使（某些属性，如情绪或电压）调整到极端之间的中间值。；中心的、中心的或与中心有关的。",
-      "reading": "/ˈsɛn.tə(ɹ)/",
+      "word": "gratification",
+      "zh": "满足，令人喜悦的事物",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/gratification",
+      "sentenceIds": [],
+      "lemma": "gratification",
+      "reading": "/ˌɡɹætɪfɪˈkeɪʃən/",
       "partOfSpeech": "noun",
-      "sentenceIds": [
-        "line-16",
-        "line-134",
-        "line-136"
-      ]
+      "glossEn": "The act of gratifying, or pleasing, either the mind, the taste, or the appetite.; A feeling of pleasure; satisfaction"
     },
     {
       "id": "vocab-56",
-      "word": "type",
-      "zh": "基于共同特征的分组；一个类。被认为是其阶级的典型个体，被认为是某一职业、环境等的典型个体。使用打字机将文本放在纸上。；使用键盘在计算机中输入文本或命令。",
-      "reading": "/taɪp/",
-      "partOfSpeech": "noun",
-      "sentenceIds": [
-        "line-64",
-        "line-204",
-        "line-337"
-      ]
+      "word": "heterogeneou",
+      "zh": "有很多种类组成的",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/heterogeneou",
+      "sentenceIds": [],
+      "lemma": "heterogeneou",
+      "partOfSpeech": "adjective",
+      "glossEn": "Diverse in kind or nature; composed of diverse parts.; Incommensurable because of different kinds.",
+      "notes": "字幕形：heterogeneous"
     },
     {
       "id": "vocab-57",
-      "word": "form",
-      "zh": "（标题，物理）与形状有关； （社会）与结构或程序有关。假设（某种形状或可见结构）。赋予事物或人（形状或可见结构）。",
-      "reading": "/fɔːm/",
+      "word": "revisit",
+      "zh": "重游",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/revisit",
+      "sentenceIds": [],
+      "lemma": "revisit",
       "partOfSpeech": "noun",
-      "sentenceIds": [
-        "line-84",
-        "line-89",
-        "line-91"
-      ]
+      "glossEn": "An act of revisiting; a second or subsequent visit.; To visit again.; To reconsider or re-experience something."
     },
     {
       "id": "vocab-58",
-      "word": "text",
-      "zh": "由多个字形、字符、符号或句子组成的书写。一本书、一本书或其他著作。向发送短信；即在通信设备（特别是手机）之间使用短信服务（ SMS ）或类似服务传输文本。发送和接收短信。",
-      "reading": "/tɛkst/",
-      "partOfSpeech": "noun",
-      "sentenceIds": [
-        "line-87",
-        "line-100",
-        "line-102"
-      ]
+      "word": "allocate",
+      "zh": "分配，分派，划拨",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/allocate",
+      "sentenceIds": [],
+      "lemma": "allocate",
+      "reading": "/ˈæl.ə.keɪt/",
+      "partOfSpeech": "verb",
+      "glossEn": "To set aside for a purpose.; To distribute according to a plan, generally followed by the adposition to."
     },
     {
       "id": "vocab-59",
-      "word": "very",
-      "zh": "真、真、实；相同；相同。；在很大程度上或程度上。符合事实、现实或规则；真实。",
-      "reading": "/ˈvɛɹi/",
-      "partOfSpeech": "adjective",
-      "sentenceIds": [
-        "line-110",
-        "line-308",
-        "line-315"
-      ]
+      "word": "speculate",
+      "zh": "猜测，推测",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/speculate",
+      "sentenceIds": [],
+      "lemma": "speculate",
+      "partOfSpeech": "verb",
+      "glossEn": "To think, meditate or reflect on a subject; to consider, to deliberate or cogitate.; To make an inference based on inconclusive evidence; to surmise or conjecture."
     },
     {
       "id": "vocab-60",
-      "word": "which",
-      "zh": "（疑问）一个或多个（提到或暗示的）。；该/任何；以其为准。",
-      "reading": "/wɪt͡ʃ/",
-      "partOfSpeech": "pronoun",
-      "sentenceIds": [
-        "line-187",
-        "line-268",
-        "line-271"
-      ]
+      "word": "strand",
+      "zh": "（绳、线、毛发等的）股，缕",
+      "partOfSpeech": "verb",
+      "glossEn": "To run aground; to beach.; To leave (someone) in a difficult situation; to abandon or desert.; To break a strand of (a rope).; To form by uniting strands.",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/strand",
+      "sentenceIds": [],
+      "lemma": "strand",
+      "reading": "/stɹænd/",
+      "notes": "字幕形：stranded"
     },
     {
       "id": "vocab-61",
-      "word": "life",
-      "zh": "生物体在死亡之前的状态，其特征是生物过程，如新陈代谢和繁殖，并将其与无生命的物体区分开来；活着和活着的状态。使无机事物或概念在隐喻上保持活力（动态、相关等）并使其成为“活的文件”、“活的体质”等的动画原理或力量。",
-      "reading": "/laɪf/",
-      "partOfSpeech": "noun",
-      "sentenceIds": [
-        "line-250",
-        "line-266",
-        "line-281"
-      ]
+      "word": "longwind",
+      "zh": "说话冗长的",
+      "partOfSpeech": "adjective",
+      "glossEn": "Tediously long in speaking; consuming much time; unnecessarily verbose.",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/longwind",
+      "sentenceIds": [],
+      "lemma": "longwind",
+      "notes": "字幕形：longwinded"
     },
     {
       "id": "vocab-62",
-      "word": "ask",
-      "zh": "询问的行为或实例。有些事情要求或要求。请求（信息或问题的答案）。提出要回答的（问题）。",
-      "reading": "/ˈask/",
-      "partOfSpeech": "noun",
-      "sentenceIds": [
-        "line-256",
-        "line-258",
-        "line-294"
-      ]
+      "word": "artistical",
+      "zh": "艺术的",
+      "partOfSpeech": "adverb",
+      "glossEn": "In an artistic manner.",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/artistical",
+      "sentenceIds": [],
+      "lemma": "artistical",
+      "notes": "字幕形：artistically"
     },
     {
       "id": "vocab-63",
-      "word": "kill",
-      "zh": "杀戮行为。具体来说，就是致命一击。处死；扑灭的生命。渲染失效。",
-      "reading": "/kɪl/",
-      "partOfSpeech": "noun",
-      "sentenceIds": [
-        "line-306",
-        "line-313",
-        "line-318"
-      ]
+      "word": "legislate",
+      "zh": "通过立法实施",
+      "reading": "/ˈlɛdʒɪsˌleɪt/",
+      "partOfSpeech": "verb",
+      "glossEn": "To pass laws (including the amending or repeal of existing laws).",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/legislate",
+      "sentenceIds": [],
+      "lemma": "legislate"
     },
     {
       "id": "vocab-64",
-      "word": "over",
-      "zh": "一组六个合法球投球。任何剩余金额的金钱、交付的货物等。翻过去，或跳过去。待运行；已停产；已结束或已结束。",
-      "partOfSpeech": "noun",
-      "sentenceIds": [
-        "line-12",
-        "line-331"
-      ]
+      "word": "facto",
+      "zh": "实际上地",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/facto",
+      "sentenceIds": [],
+      "lemma": "facto"
     },
     {
       "id": "vocab-65",
-      "word": "speak",
-      "zh": "谈话，交谈",
-      "reading": "/spiːk/",
-      "partOfSpeech": "noun",
-      "sentenceIds": [
-        "line-15",
-        "line-88"
-      ]
+      "word": "abundant",
+      "zh": "大量的，丰富的，充足的",
+      "reading": "/əˈbʌn.dn̩t/",
+      "partOfSpeech": "adjective",
+      "glossEn": "Fully sufficient; found in copious supply; in great quantity; overflowing.; Richly supplied; wealthy; possessing in great quantity.",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/abundant",
+      "sentenceIds": [],
+      "lemma": "abundant"
     },
     {
       "id": "vocab-66",
-      "word": "them",
-      "zh": "他们",
-      "partOfSpeech": "pronoun",
-      "sentenceIds": [
-        "line-15",
-        "line-146"
-      ]
+      "word": "thrive",
+      "zh": "茁壮成长，兴旺，繁荣",
+      "reading": "/θɹaɪv/",
+      "partOfSpeech": "verb",
+      "glossEn": "To grow or increase stature; to grow vigorously or luxuriantly, to flourish.; To increase in wealth or success; to prosper, be profitable.",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/thrive",
+      "sentenceIds": [],
+      "lemma": "thrive"
     },
     {
       "id": "vocab-67",
-      "word": "today",
-      "zh": "今天，今日",
-      "reading": "/təˈdeɪ/",
+      "word": "digression",
+      "zh": "离题",
+      "reading": "/dɪˈɡɹɛʃən/",
       "partOfSpeech": "noun",
-      "sentenceIds": [
-        "line-15",
-        "line-315"
-      ],
-      "level": "A1"
+      "glossEn": "An aside, an act of straying from the main subject in speech or writing.; The act of straying from the main subject in speech or writing, particularly for rhetorical effect.",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/digression",
+      "sentenceIds": [],
+      "lemma": "digression"
     },
     {
       "id": "vocab-68",
-      "word": "maybe",
-      "zh": "（不确定）大概，或许",
-      "reading": "/ˈmeɪbi/",
+      "word": "conventional",
+      "zh": "依照惯例的，遵循习俗的",
+      "reading": "/kənˈvɛnʃənl/",
       "partOfSpeech": "noun",
-      "sentenceIds": [
-        "line-18",
-        "line-88"
-      ]
+      "glossEn": "A conventional gilt-edged security, a kind of bond paying the holder a fixed cash payment (or coupon) every six months until maturity, at which point the holder receives the final payment and the return of the principal.; Pertaining to a convention, as in following generally accepted principles, methods and behaviour.; Ordinary, commonplace.",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/conventional",
+      "sentenceIds": [],
+      "lemma": "conventional"
     },
     {
       "id": "vocab-69",
-      "word": "sure",
-      "zh": "确信的，有把握的",
-      "reading": "/ʃoː/",
-      "partOfSpeech": "adjective",
-      "sentenceIds": [
-        "line-22",
-        "line-27"
-      ]
+      "word": "decouple",
+      "zh": "减弱震波",
+      "reading": "[diːˈkʊpəɫ]",
+      "partOfSpeech": "verb",
+      "glossEn": "To unlink; to take or come apart.",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/decouple",
+      "sentenceIds": [],
+      "lemma": "decouple"
     },
     {
       "id": "vocab-70",
-      "word": "Good",
-      "zh": "（美）古德（人名）",
-      "reading": "/ɡʊ(d)/",
+      "word": "monetary",
+      "zh": "货币的，金融的",
+      "reading": "/ˈmʌnɪtəɹi/",
       "partOfSpeech": "adjective",
-      "sentenceIds": [
-        "line-27",
-        "line-41"
-      ],
-      "level": "A1"
+      "glossEn": "Of, pertaining to, or consisting of money.",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/monetary",
+      "sentenceIds": [],
+      "lemma": "monetary"
     },
     {
       "id": "vocab-71",
-      "word": "usually",
-      "zh": "通常地，经常地",
-      "reading": "/ˈjuːʒju(ə)li/",
-      "partOfSpeech": "adverb",
-      "sentenceIds": [
-        "line-36",
-        "line-336"
-      ],
-      "level": "A2"
+      "word": "deflate",
+      "zh": "放气",
+      "reading": "/diːˈfleɪt/",
+      "partOfSpeech": "verb",
+      "glossEn": "To remove air or some other gas from within an elastic container, e.g. a balloon or tyre; To cause an object to decrease or become smaller in some parameter, e.g. to shrink",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/deflate",
+      "sentenceIds": [],
+      "lemma": "deflate"
     },
     {
       "id": "vocab-72",
-      "word": "bigger",
-      "zh": "更大的（big 的比较级）",
-      "reading": "/ˈbɪɡə/",
-      "partOfSpeech": "adjective",
-      "sentenceIds": [
-        "line-44",
-        "line-287"
-      ]
+      "word": "transition",
+      "zh": "过渡，转变",
+      "reading": "/tɹænˈzɪʃən/",
+      "partOfSpeech": "noun",
+      "glossEn": "The process of change from one form, state, style or place to another.; A word or phrase connecting one part of a discourse to another.; To make a transition.; To bring through a transition; to change.",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/transition",
+      "sentenceIds": [],
+      "lemma": "transition"
     },
     {
       "id": "vocab-73",
-      "word": "make",
-      "zh": "制造",
-      "reading": "/meɪk/",
-      "partOfSpeech": "noun",
-      "sentenceIds": [
-        "line-47",
-        "line-187"
-      ]
+      "word": "inacronistic",
+      "zh": "inacronistic",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/inacronistic",
+      "sentenceIds": [],
+      "lemma": "inacronistic"
     },
     {
       "id": "vocab-74",
-      "word": "spend",
-      "zh": "度过，花（时间）",
-      "reading": "/spɛnd/",
-      "partOfSpeech": "noun",
-      "sentenceIds": [
-        "line-54",
-        "line-194"
-      ]
+      "word": "insane",
+      "zh": "疯癫的，精神失常的",
+      "reading": "/ɪnˈseɪnli/",
+      "partOfSpeech": "adverb",
+      "glossEn": "In an insane manner; not sanely.; To a great degree; very much.",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/insane",
+      "sentenceIds": [],
+      "lemma": "insane",
+      "notes": "字幕形：insanely"
     },
     {
       "id": "vocab-75",
-      "word": "major",
-      "zh": "重大的，主要的",
-      "partOfSpeech": "noun",
-      "sentenceIds": [
-        "line-59",
-        "line-62"
-      ]
+      "word": "exce",
+      "zh": "微软电子表格软件",
+      "reading": "/ɪkˈsiːd/",
+      "partOfSpeech": "verb",
+      "glossEn": "To be larger, greater than (something).; To be better than (something).",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/exce",
+      "sentenceIds": [],
+      "lemma": "exce",
+      "notes": "字幕形：exceed"
     },
     {
       "id": "vocab-76",
-      "word": "event",
-      "zh": "事件，大事",
-      "reading": "/əˈvɛnt/",
+      "word": "deflation",
+      "zh": "通货紧缩",
+      "reading": "/dɪˈfleɪʃən/",
       "partOfSpeech": "noun",
-      "sentenceIds": [
-        "line-59",
-        "line-62"
-      ]
+      "glossEn": "An act or instance of deflating.; A decrease in the general price level, that is, in the nominal cost of goods and services as well as wages.",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/deflation",
+      "sentenceIds": [],
+      "lemma": "deflation"
     },
     {
       "id": "vocab-77",
-      "word": "per",
-      "zh": "每，每一",
-      "reading": "/pɜː(ɹ)/",
-      "partOfSpeech": "preposition",
-      "sentenceIds": [
-        "line-64",
-        "line-310"
-      ]
+      "word": "complicat",
+      "zh": "复杂的，难处理的",
+      "reading": "/ˈkɒmplɪkeɪtɪd/",
+      "partOfSpeech": "verb",
+      "glossEn": "To make complex; to modify so as to make something intricate or difficult.; To involve in a convoluted matter.; Difficult or convoluted.; Folded longitudinally (as in the wings of certain insects).",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/complicat",
+      "sentenceIds": [],
+      "lemma": "complicat",
+      "notes": "字幕形：complicated"
     },
     {
       "id": "vocab-78",
-      "word": "tends",
-      "zh": "",
-      "reading": "/tɛndz/",
-      "partOfSpeech": "verb",
-      "sentenceIds": [
-        "line-66",
-        "line-102"
-      ]
+      "word": "hazard",
+      "zh": "危险，危害",
+      "reading": "/ˈhazəd/",
+      "partOfSpeech": "noun",
+      "glossEn": "The chance of suffering harm; danger, peril, risk of loss.; An obstacle or other feature which causes risk or danger; originally in sports, and now applied more generally.; To expose to chance; to take a risk.; To risk (something); to venture, to incur, or bring on.",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/hazard",
+      "sentenceIds": [],
+      "lemma": "hazard"
     },
     {
       "id": "vocab-79",
-      "word": "read",
-      "zh": "阅读，读懂",
-      "reading": "/ɹiːd/",
-      "partOfSpeech": "noun",
-      "sentenceIds": [
-        "line-67",
-        "line-77"
-      ]
+      "word": "entic",
+      "zh": "诱使，引诱",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/entic",
+      "sentenceIds": [],
+      "lemma": "entic",
+      "notes": "字幕形：Entic"
     },
     {
       "id": "vocab-80",
-      "word": "among",
-      "zh": "在……当中，周围是",
-      "reading": "/əˈmɒŋ/",
-      "partOfSpeech": "preposition",
-      "sentenceIds": [
-        "line-76",
-        "line-81"
-      ]
+      "word": "substantial",
+      "zh": "大量的，价值巨大的",
+      "partOfSpeech": "adverb",
+      "glossEn": "In a strong substantial manner; considerably.; To a great extent; in essence; essentially.",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/substantial",
+      "sentenceIds": [],
+      "lemma": "substantial",
+      "reading": "/səbˈstænʃəl/",
+      "notes": "字幕形：substantially"
     },
     {
       "id": "vocab-81",
-      "word": "who",
-      "zh": "谁",
-      "reading": "/huː/",
+      "word": "deficit",
+      "zh": "亏损，赤字，不足额",
       "partOfSpeech": "noun",
-      "sentenceIds": [
-        "line-76",
-        "line-77"
-      ]
+      "glossEn": "Deficiency in amount or quality; a falling short; lack.; A situation wherein, or amount whereby, spending exceeds government revenue.",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/deficit",
+      "sentenceIds": [],
+      "lemma": "deficit",
+      "reading": "/ˈdɛfɪsɪt/",
+      "notes": "字幕形：deficits"
     },
     {
       "id": "vocab-82",
-      "word": "words",
-      "zh": "[计]字（word 的复数）",
-      "reading": "/wɜːdz/",
+      "word": "anoma",
+      "zh": "异常事物，反常现象",
       "partOfSpeech": "noun",
-      "sentenceIds": [
-        "line-79",
-        "line-176"
-      ]
+      "glossEn": "A deviation from a rule or from what is regarded as normal; an outlier.; Something or someone that is strange or unusual.",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/anoma",
+      "sentenceIds": [],
+      "lemma": "anoma",
+      "notes": "字幕形：anomaly"
     },
     {
       "id": "vocab-83",
-      "word": "tomorrow",
-      "zh": "在明天，在明日",
-      "reading": "/təˈmɔɹoʊ/",
+      "word": "probability",
+      "zh": "可能性，或然性",
+      "reading": "/pɹɒbəˈbɪlɪti/",
       "partOfSpeech": "noun",
-      "sentenceIds": [
-        "line-86",
-        "line-167"
-      ],
-      "level": "A1"
+      "glossEn": "The state of being probable; likelihood.; An event that is likely to occur.",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/probability",
+      "sentenceIds": [],
+      "lemma": "probability"
     },
     {
       "id": "vocab-84",
-      "word": "AI",
-      "zh": "人工智能（artificial intelligence）",
-      "reading": "/ˈɑ.i/",
+      "word": "simulation",
+      "zh": "模拟，仿造物",
+      "reading": "/sɪmjʊleɪʃən/",
       "partOfSpeech": "noun",
-      "sentenceIds": [
-        "line-90",
-        "line-95"
-      ]
+      "glossEn": "Something that simulates a system or environment in order to predict actual behaviour.; The process of simulating.",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/simulation",
+      "sentenceIds": [],
+      "lemma": "simulation"
     },
     {
       "id": "vocab-85",
-      "word": "small",
-      "zh": "小型的",
-      "reading": "/smoːl/",
+      "word": "advancement",
+      "zh": "前进，行进",
+      "reading": "/ædˈvæns.mɛnt/",
       "partOfSpeech": "noun",
-      "sentenceIds": [
-        "line-101",
-        "line-110"
-      ],
-      "level": "A1"
+      "glossEn": "The act of advancing, ; promotion to a higher place or dignity; The state of being advanced",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/advancement",
+      "sentenceIds": [],
+      "lemma": "advancement"
     },
     {
       "id": "vocab-86",
-      "word": "more",
-      "zh": "（数、量等）更多的，更大的（much、a lot of 和 many 的比较级）",
-      "reading": "/ˈmɔː/",
-      "partOfSpeech": "adverb",
-      "sentenceIds": [
-        "line-103",
-        "line-118"
-      ]
+      "word": "rectangle",
+      "zh": "矩形，长方形",
+      "partOfSpeech": "noun",
+      "glossEn": "A quadrilateral having opposing sides parallel and four right angles.",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/rectangle",
+      "sentenceIds": [],
+      "lemma": "rectangle",
+      "reading": "/ˈrɛktæŋɡ(ə)l/",
+      "notes": "字幕形：rectangles"
     },
     {
       "id": "vocab-87",
-      "word": "bought",
-      "zh": "买（buy 的过去式和过去分词）",
-      "reading": "/bɔːt/",
-      "partOfSpeech": "verb",
-      "sentenceIds": [
-        "line-111",
-        "line-112"
-      ]
+      "word": "photorealistic",
+      "zh": "照相写实主义的",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/photorealistic",
+      "sentenceIds": [],
+      "lemma": "photorealistic"
     },
     {
       "id": "vocab-88",
-      "word": "way",
-      "zh": "方法，手段",
-      "reading": "/weɪ/",
-      "partOfSpeech": "noun",
-      "sentenceIds": [
-        "line-123",
-        "line-193"
-      ]
+      "word": "simultaneous",
+      "zh": "同时发生的，同步的",
+      "reading": "/ˌsɪməlˈteɪnɪəsli/",
+      "partOfSpeech": "adverb",
+      "glossEn": "Occurring at the same time.",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/simultaneous",
+      "sentenceIds": [],
+      "lemma": "simultaneous",
+      "notes": "字幕形：simultaneously"
     },
     {
       "id": "vocab-89",
-      "word": "San",
-      "zh": "制裁",
+      "word": "indistinguishable",
+      "zh": "难以区别的，难以分辨的",
       "partOfSpeech": "noun",
-      "sentenceIds": [
-        "line-130",
-        "line-140"
-      ]
+      "glossEn": "Any of a set of things that cannot be distinguished.; Not distinguishable; not capable of being perceived, known, or discriminated as separate and distinct; Not capable of being perceived or known.",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/indistinguishable",
+      "sentenceIds": [],
+      "lemma": "indistinguishable"
     },
     {
       "id": "vocab-90",
-      "word": "any",
-      "zh": "任何的，任一的",
-      "reading": "/ˈæni/",
-      "partOfSpeech": "adverb",
-      "sentenceIds": [
-        "line-143",
-        "line-150"
-      ]
+      "word": "intelligent",
+      "zh": "聪明的",
+      "reading": "/ɪnˈtɛlɪd͡ʒənt/",
+      "partOfSpeech": "adjective",
+      "glossEn": "Of high or especially quick cognitive capacity, bright.; Well thought-out, well considered.",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/intelligent",
+      "sentenceIds": [],
+      "lemma": "intelligent"
     },
     {
       "id": "vocab-91",
-      "word": "voices",
-      "zh": "[声] 声音",
-      "reading": "/ˈvɔɪsɪz/",
-      "partOfSpeech": "noun",
-      "sentenceIds": [
-        "line-144",
-        "line-343"
-      ]
+      "word": "sophisticat",
+      "zh": "见多识广的，老练的，见过世面的",
+      "partOfSpeech": "verb",
+      "glossEn": "To make less natural or innocent.; To practice sophistry; change the meaning of, or be vague about in order to mislead or deceive.; Having obtained worldly experience, and lacking naiveté; cosmopolitan.; Elegant, refined.",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/sophisticat",
+      "sentenceIds": [],
+      "lemma": "sophisticat",
+      "notes": "字幕形：sophisticated"
     },
     {
       "id": "vocab-92",
-      "word": "go",
-      "zh": "",
-      "sentenceIds": [
-        "line-147",
-        "line-318"
-      ],
-      "level": "A1"
+      "word": "assume",
+      "zh": "假定，假设，认为",
+      "reading": "/əˈsuːm/",
+      "partOfSpeech": "verb",
+      "glossEn": "To authenticate by means of belief; to surmise; to suppose to be true, especially without proof; To take on a position, duty or form",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/assume",
+      "sentenceIds": [],
+      "lemma": "assume"
     },
     {
       "id": "vocab-93",
-      "word": "system",
-      "zh": "",
-      "sentenceIds": [
-        "line-150",
-        "line-178"
-      ]
+      "word": "distillation",
+      "zh": "精馏，蒸馏，净化",
+      "reading": "/dɪstɪˈleɪʃən/",
+      "partOfSpeech": "noun",
+      "glossEn": "The act of falling in drops, or the act of pouring out in drops.; That which falls in drops.",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/distillation",
+      "sentenceIds": [],
+      "lemma": "distillation"
     },
     {
       "id": "vocab-94",
-      "word": "laws",
-      "zh": "",
-      "sentenceIds": [
-        "line-151",
-        "line-152"
-      ]
+      "word": "stuff",
+      "zh": "东西，物品",
+      "reading": "/stʌf/",
+      "partOfSpeech": "noun",
+      "glossEn": "Miscellaneous items or objects; (with possessive) personal effects.; Unspecified things or matters.; To fill by packing or crowding something into; to cram with something; to load to excess.; To fill a space with (something) in a compressed manner.",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/stuff",
+      "sentenceIds": [],
+      "lemma": "stuff"
     },
     {
       "id": "vocab-95",
-      "word": "scale",
-      "zh": "",
-      "sentenceIds": [
-        "line-152",
-        "line-293"
-      ]
+      "word": "extrapolate",
+      "zh": "外推",
+      "partOfSpeech": "verb",
+      "glossEn": "To infer by extending known information.; To estimate the value of a variable outside a known range from values within that range by assuming that the estimated value follows logically from the known ones",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/extrapolate",
+      "sentenceIds": [],
+      "lemma": "extrapolate"
     },
     {
       "id": "vocab-96",
-      "word": "global",
-      "zh": "",
-      "sentenceIds": [
-        "line-173",
-        "line-209"
-      ]
+      "word": "ascribe",
+      "zh": "把……归因于",
+      "partOfSpeech": "verb",
+      "glossEn": "To attribute a cause or characteristic to someone or something.; To attribute a book, painting or any work of art or literature to a writer or creator.",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/ascribe",
+      "sentenceIds": [],
+      "lemma": "ascribe"
     },
     {
       "id": "vocab-97",
-      "word": "trying",
-      "zh": "",
-      "sentenceIds": [
-        "line-180",
-        "line-259"
-      ]
+      "word": "spinoza",
+      "zh": "斯宾诺沙（荷兰唯物主义哲学家）",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/spinoza",
+      "sentenceIds": [],
+      "lemma": "spinoza",
+      "notes": "字幕形：Spinoza"
     },
     {
       "id": "vocab-98",
-      "word": "bring",
-      "zh": "",
-      "sentenceIds": [
-        "line-181",
-        "line-218"
-      ]
+      "word": "moral",
+      "zh": "有关道德的",
+      "reading": "/ˈmɒɹəlz/",
+      "partOfSpeech": "noun",
+      "glossEn": "(of a narrative) The ethical significance or practical lesson.; (chiefly in the plural) Moral practices or teachings: modes of conduct.",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/moral",
+      "sentenceIds": [],
+      "lemma": "moral",
+      "notes": "字幕形：morals"
     },
     {
       "id": "vocab-99",
-      "word": "saying",
-      "zh": "",
-      "sentenceIds": [
-        "line-185",
-        "line-289"
-      ]
+      "word": "morality",
+      "zh": "道德，品行",
+      "reading": "/məˈɹælɪti/",
+      "partOfSpeech": "noun",
+      "glossEn": "Recognition of the distinction between good and evil or between right and wrong; respect for and obedience to the rules of right conduct; the mental disposition or characteristic of behaving in a manner intended to produce morally good results.; A set of social rules, customs, traditions, beliefs, or practices which specify proper, acceptable forms of conduct.",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/morality",
+      "sentenceIds": [],
+      "lemma": "morality"
     },
     {
       "id": "vocab-100",
-      "word": "bit",
-      "zh": "",
-      "sentenceIds": [
-        "line-188",
-        "line-242"
-      ]
+      "word": "religiou",
+      "zh": "宗教的，与宗教相关的",
+      "reading": "/ɹɪ.ˈlɪ.d͡ʒəs/",
+      "partOfSpeech": "noun",
+      "glossEn": "A member of a religious order, i.e. a monk or nun.; Concerning religion.; Committed to the practice or adherence of religion.",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/religiou",
+      "sentenceIds": [],
+      "lemma": "religiou",
+      "notes": "字幕形：religious"
     },
     {
       "id": "vocab-101",
-      "word": "after",
-      "zh": "",
-      "sentenceIds": [
-        "line-191",
-        "line-205"
-      ]
+      "word": "spinosa",
+      "zh": "一种植物的通称，通常指具有刺或棘的植物。",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/spinosa",
+      "sentenceIds": [],
+      "lemma": "spinosa",
+      "notes": "字幕形：Spinosa"
     },
     {
       "id": "vocab-102",
-      "word": "great",
-      "zh": "",
-      "sentenceIds": [
-        "line-193",
-        "line-218"
-      ]
+      "word": "doctrine",
+      "zh": "教义，主义，信条",
+      "reading": "/ˈdɒktɹɪn/",
+      "partOfSpeech": "noun",
+      "glossEn": "A belief or tenet, especially about philosophical or theological matters.; The body of teachings of an ideology, most often a religion, or of an ideological or religious leader, organization, group or text.",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/doctrine",
+      "sentenceIds": [],
+      "lemma": "doctrine"
     },
     {
       "id": "vocab-103",
-      "word": "time",
-      "zh": "",
-      "sentenceIds": [
-        "line-194",
-        "line-342"
-      ],
-      "level": "A1"
+      "word": "commandment",
+      "zh": "戒律",
+      "reading": "/kəˈmɑːndmənt/",
+      "partOfSpeech": "noun",
+      "glossEn": "A divinely ordained command, especially one of the Ten Commandments.; Something that must be obeyed; a command or edict.",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/commandment",
+      "sentenceIds": [],
+      "lemma": "commandment"
     },
     {
       "id": "vocab-104",
-      "word": "watch",
-      "zh": "",
-      "sentenceIds": [
-        "line-196",
-        "line-318"
-      ]
+      "word": "proce",
+      "zh": "过程",
+      "reading": "/pɹəˈsiːd/",
+      "partOfSpeech": "verb",
+      "glossEn": "To move, pass, or go forward or onward; to advance; to carry on; To pass from one point, topic, or stage, to another.",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/proce",
+      "sentenceIds": [],
+      "lemma": "proce",
+      "notes": "字幕形：proceed"
     },
     {
       "id": "vocab-105",
-      "word": "group",
-      "zh": "",
-      "sentenceIds": [
-        "line-224",
-        "line-227"
-      ]
+      "word": "wanting",
+      "zh": "缺乏的",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/wanting",
+      "sentenceIds": [],
+      "lemma": "wanting",
+      "reading": "/ˈwɒntɪŋ/",
+      "partOfSpeech": "verb",
+      "glossEn": "To wish for or desire (something); to feel a need or desire for; to crave or demand.; (in particular) To wish, desire or demand to see, have the presence of or do business with.; That wants or desires.; Absent or lacking.",
+      "notes": "字幕形：wantingly"
     },
     {
       "id": "vocab-106",
-      "word": "humans",
-      "zh": "",
-      "sentenceIds": [
-        "line-234",
-        "line-235"
-      ]
+      "word": "christianity",
+      "zh": "基督教",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/christianity",
+      "sentenceIds": [],
+      "lemma": "christianity",
+      "notes": "字幕形：Christianity"
     },
     {
       "id": "vocab-107",
-      "word": "30",
-      "zh": "",
-      "sentenceIds": [
-        "line-235",
-        "line-331"
-      ]
+      "word": "empathy",
+      "zh": "共鸣，同情",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/empathy",
+      "sentenceIds": [],
+      "lemma": "empathy"
     },
     {
       "id": "vocab-108",
-      "word": "cells",
-      "zh": "",
-      "sentenceIds": [
-        "line-236",
-        "line-331"
-      ]
+      "word": "fellow",
+      "zh": "小伙子，家伙",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/fellow",
+      "sentenceIds": [],
+      "lemma": "fellow"
     },
     {
       "id": "vocab-109",
-      "word": "mind",
-      "zh": "",
-      "sentenceIds": [
-        "line-240",
-        "line-338"
-      ]
+      "word": "redraw",
+      "zh": "重画",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/redraw",
+      "sentenceIds": [],
+      "lemma": "redraw"
     },
     {
       "id": "vocab-110",
-      "word": "Adams",
-      "zh": "",
-      "sentenceIds": [
-        "line-269",
-        "line-289"
-      ]
+      "word": "resketch",
+      "zh": "重新绘制，重新勾画：对原有的草图或设计进行修改或重新绘制。",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/resketch",
+      "sentenceIds": [],
+      "lemma": "resketch"
     },
     {
       "id": "vocab-111",
-      "word": "Guide",
-      "zh": "",
-      "sentenceIds": [
-        "line-270",
-        "line-273"
-      ]
+      "word": "plague",
+      "zh": "瘟疫，传染病",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/plague",
+      "sentenceIds": [],
+      "lemma": "plague"
     },
     {
       "id": "vocab-112",
-      "word": "Galaxy",
-      "zh": "",
-      "sentenceIds": [
-        "line-270",
-        "line-274"
-      ]
+      "word": "starvation",
+      "zh": "饥饿，捱饿，饿死",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/starvation",
+      "sentenceIds": [],
+      "lemma": "starvation"
     },
     {
       "id": "vocab-113",
-      "word": "Earth",
-      "zh": "",
-      "sentenceIds": [
-        "line-278",
-        "line-288"
-      ]
+      "word": "antibiotic",
+      "zh": "抗生素，抗菌素",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/antibiotic",
+      "sentenceIds": [],
+      "lemma": "antibiotic",
+      "notes": "字幕形：antibiotics"
     },
     {
       "id": "vocab-114",
-      "word": "turns",
-      "zh": "",
-      "sentenceIds": [
-        "line-278",
-        "line-284"
-      ]
+      "word": "diarrhea",
+      "zh": "腹泻（=diarrhoea）",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/diarrhea",
+      "sentenceIds": [],
+      "lemma": "diarrhea"
     },
     {
       "id": "vocab-115",
-      "word": "42",
-      "zh": "",
-      "sentenceIds": [
-        "line-282",
-        "line-284"
-      ]
+      "word": "dentry",
+      "zh": "目录项",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/dentry",
+      "sentenceIds": [],
+      "lemma": "dentry"
     },
     {
       "id": "vocab-116",
-      "word": "mob",
-      "zh": "",
-      "sentenceIds": [
-        "line-309",
-        "line-311"
-      ]
+      "word": "bunch",
+      "zh": "束，串，扎",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/bunch",
+      "sentenceIds": [],
+      "lemma": "bunch"
     },
     {
       "id": "vocab-117",
-      "word": "doesn",
-      "zh": "",
-      "sentenceIds": [
-        "line-309",
-        "line-342"
-      ]
+      "word": "siobhan",
+      "zh": "（Siobhan）人名",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/siobhan",
+      "sentenceIds": [],
+      "lemma": "siobhan",
+      "notes": "字幕形：Siobhan"
     },
     {
       "id": "vocab-118",
-      "word": "sports",
-      "zh": "",
-      "sentenceIds": [
-        "line-322",
-        "line-323"
-      ]
+      "word": "ancestry",
+      "zh": "祖先，血统",
+      "reading": "/ˈæn.sɛs.tɹi/",
+      "partOfSpeech": "noun",
+      "glossEn": "Condition as to ancestors; ancestral lineage; hence, birth or honorable descent.; A series of ancestors or progenitors; lineage, or those who compose the line of natural descent.",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/ancestry",
+      "sentenceIds": [],
+      "lemma": "ancestry",
+      "notes": "字幕形：Ancestry"
     },
     {
       "id": "vocab-119",
-      "word": "hand",
-      "zh": "",
-      "sentenceIds": [
-        "line-336",
-        "line-337"
-      ]
+      "word": "replenishment",
+      "zh": "补充，补给",
+      "partOfSpeech": "noun",
+      "glossEn": "The act of replenishing.; A new supply of something.",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/replenishment",
+      "sentenceIds": [],
+      "lemma": "replenishment"
     },
     {
       "id": "vocab-120",
-      "word": "day",
-      "zh": "",
-      "sentenceIds": [
-        "line-38"
-      ],
-      "level": "A1"
+      "word": "consciou",
+      "zh": "意识到的",
+      "reading": "/ˈkɒn.ʃəs/",
+      "partOfSpeech": "noun",
+      "glossEn": "The part of the mind that is aware of itself; the consciousness.; Alert, awake; with one's mental faculties active.; Aware of one's own existence; aware of one's own awareness.",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/consciou",
+      "sentenceIds": [],
+      "lemma": "consciou",
+      "notes": "字幕形：conscious"
     },
     {
       "id": "vocab-121",
-      "word": "although",
-      "zh": "",
-      "sentenceIds": [
-        "line-58"
-      ],
-      "level": "A2"
+      "word": "themsel",
+      "zh": "他们自己",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/themsel",
+      "sentenceIds": [],
+      "lemma": "themsel"
     },
     {
       "id": "vocab-122",
-      "word": "information",
-      "zh": "",
-      "sentenceIds": [
-        "line-104"
-      ],
-      "level": "A2"
+      "word": "circuit",
+      "zh": "电路，回路",
+      "reading": "[ˈsəɾ.kɪʈ]",
+      "partOfSpeech": "noun",
+      "glossEn": "The act of moving or revolving around, or as in a circle or orbit; a revolution; The circumference of, or distance around, any space; the measure of a line around an area.; To move in a circle; to go round; to circulate.; To travel around.",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/circuit",
+      "sentenceIds": [],
+      "lemma": "circuit"
     },
     {
       "id": "vocab-123",
-      "word": "work",
-      "zh": "",
-      "sentenceIds": [
-        "line-167"
-      ],
-      "level": "A1"
+      "word": "dexterity",
+      "zh": "灵巧",
+      "reading": "/dɛksˈtɛɹɪti/",
+      "partOfSpeech": "noun",
+      "glossEn": "Skill in performing tasks, especially with the hands.",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/dexterity",
+      "sentenceIds": [],
+      "lemma": "dexterity"
     },
     {
       "id": "vocab-124",
-      "word": "come",
-      "zh": "",
-      "sentenceIds": [
-        "line-211"
-      ],
-      "level": "A1"
+      "word": "actuate",
+      "zh": "开动（机器等）",
+      "partOfSpeech": "verb",
+      "glossEn": "To activate, or to put into motion; to animate.; To incite to action; to motivate.",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/actuate",
+      "sentenceIds": [],
+      "lemma": "actuate"
     },
     {
       "id": "vocab-125",
-      "word": "possible",
-      "zh": "",
-      "sentenceIds": [
-        "line-214"
-      ],
-      "level": "A2"
+      "word": "postwork",
+      "zh": "后期工作：在完成一个项目或任务后所进行的工作，如修改、修订或整理。",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/postwork",
+      "sentenceIds": [],
+      "lemma": "postwork"
     },
     {
       "id": "vocab-126",
-      "word": "example",
-      "zh": "",
-      "sentenceIds": [
-        "line-216"
-      ],
-      "level": "A2"
+      "word": "tsunami",
+      "zh": "海啸，海震",
+      "reading": "/suˈnæmi/",
+      "partOfSpeech": "noun",
+      "glossEn": "A very large and destructive wave, generally caused by a tremendous disturbance in the ocean, such as an undersea earthquake or volcanic eruption. Tsunami are usually a series of waves, or wave train.; A large and generally unstoppable surge.",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/tsunami",
+      "sentenceIds": [],
+      "lemma": "tsunami"
     },
     {
       "id": "vocab-127",
-      "word": "school",
-      "zh": "",
-      "sentenceIds": [
-        "line-270"
-      ],
-      "level": "A1"
+      "word": "radical",
+      "zh": "根本的，彻底的",
+      "reading": "/ˈɹædɪkəl/",
+      "partOfSpeech": "noun",
+      "glossEn": "(historical: 19th-century Britain) A member of the most progressive wing of the Liberal Party; someone favouring social reform (but generally stopping short of socialism).; (historical: early 20th-century France) A member of an influential, centrist political party favouring moderate social reform, a republican constitution, and secular politics.; Favoring fundamental change, or change at the root cause of a matter.; Pertaining to a root (of a plant).",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/radical",
+      "sentenceIds": [],
+      "lemma": "radical"
     },
     {
       "id": "vocab-128",
-      "word": "book",
-      "zh": "",
-      "sentenceIds": [
-        "line-274"
-      ],
-      "level": "A1"
+      "word": "dystopian",
+      "zh": "反面假想国的",
+      "reading": "/dɪs.ˈtoʊ.pi.ən/",
+      "partOfSpeech": "adjective",
+      "glossEn": "Of or pertaining to a dystopia.; Dire; characterized by human suffering or misery.",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/dystopian",
+      "sentenceIds": [],
+      "lemma": "dystopian"
     },
     {
       "id": "vocab-129",
-      "word": "need",
-      "zh": "",
-      "sentenceIds": [
-        "line-287"
-      ],
-      "level": "A1"
+      "word": "falsehood",
+      "zh": "虚假，不真实",
+      "partOfSpeech": "noun",
+      "glossEn": "The property of being false.; A false statement, especially an intentional one; a lie.",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/falsehood",
+      "sentenceIds": [],
+      "lemma": "falsehood",
+      "reading": "/ˈfɒlsˌhʊd/",
+      "notes": "字幕形：falsehoods"
     },
     {
       "id": "vocab-130",
-      "word": "see",
-      "zh": "",
-      "sentenceIds": [
-        "line-312"
-      ],
-      "level": "A1"
+      "word": "appreciation",
+      "zh": "欣赏，鉴赏",
+      "reading": "/əˌpɹiː.ʃiˈeɪ.ʃən/",
+      "partOfSpeech": "noun",
+      "glossEn": "A fair valuation or estimate of merit, worth, weight, etc.; recognition of excellence.; Accurate perception; true estimation.",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/appreciation",
+      "sentenceIds": [],
+      "lemma": "appreciation"
+    },
+    {
+      "id": "vocab-131",
+      "word": "absurdity",
+      "zh": "荒谬，荒唐",
+      "partOfSpeech": "noun",
+      "glossEn": "That which is absurd; an absurd action; a logical contradiction.; The quality of being absurd or inconsistent with obvious truth, reason, or sound judgment.",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/absurdity",
+      "sentenceIds": [],
+      "lemma": "absurdity",
+      "reading": "/əbˈsɜːd.ɪ.ti/",
+      "notes": "字幕形：absurdities"
+    },
+    {
+      "id": "vocab-132",
+      "word": "atrocity",
+      "zh": "（常伴有暴力伤害的）恶行，暴行",
+      "partOfSpeech": "noun",
+      "glossEn": "An extremely cruel act; a horrid act of injustice.; The quality or state of being atrocious; enormous wickedness; extreme criminality or cruelty.",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/atrocity",
+      "sentenceIds": [],
+      "lemma": "atrocity",
+      "notes": "字幕形：atrocities"
+    },
+    {
+      "id": "vocab-133",
+      "word": "paraphras",
+      "zh": "释义，改述",
+      "partOfSpeech": "verb",
+      "glossEn": "To restate something as, or to compose a paraphrase.; A paraphrased statement.",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/paraphras",
+      "sentenceIds": [],
+      "lemma": "paraphras",
+      "notes": "字幕形：paraphrasing"
+    },
+    {
+      "id": "vocab-134",
+      "word": "absurd",
+      "zh": "愚蠢的，荒谬的",
+      "reading": "/æbˈzɝd/",
+      "partOfSpeech": "noun",
+      "glossEn": "An absurdity.; (often preceded by the) The opposition between the human search for meaning in life and the inability to find any; the state or condition in which man exists in an irrational universe and his life has no meaning outside of his existence.; Contrary to reason or propriety; obviously and flatly opposed to manifest truth; inconsistent with the plain dictates of common sense; logically contradictory; nonsensical; ridiculous; silly.; Inharmonious; dissonant.",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/absurd",
+      "sentenceIds": [],
+      "lemma": "absurd"
+    },
+    {
+      "id": "vocab-135",
+      "word": "odyssey",
+      "zh": "漫长而惊险的旅程",
+      "reading": "/ˈɒ.də.si/",
+      "partOfSpeech": "noun",
+      "glossEn": "An extended adventurous voyage.; An intellectual or spiritual quest.",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/odyssey",
+      "sentenceIds": [],
+      "lemma": "odyssey"
+    },
+    {
+      "id": "vocab-136",
+      "word": "astronaut",
+      "zh": "宇航员，太空人",
+      "partOfSpeech": "noun",
+      "glossEn": "A member of the crew of a spaceship or other spacecraft that travels beyond Earth's atmosphere, or someone trained to serve that purpose.; A returnee who frequently flies back and forth between Hong Kong and his/her adopted home country.",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/astronaut",
+      "sentenceIds": [],
+      "lemma": "astronaut",
+      "reading": "/ˈæstɹəˌnɒt/",
+      "notes": "字幕形：astronauts"
+    },
+    {
+      "id": "vocab-137",
+      "word": "monolith",
+      "zh": "整块石料",
+      "reading": "/ˈmɒnlɪθ/",
+      "partOfSpeech": "noun",
+      "glossEn": "A large, single block of stone which is a natural feature; or a block of stone or other similar material used in architecture and sculpture, especially one carved into a monument in ancient times.; Anything massive, uniform, and unmovable, especially a towering and impersonal cultural, political, or social organization or structure.; To create (something) as, or convert (one or more things) into, a monolith.",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/monolith",
+      "sentenceIds": [],
+      "lemma": "monolith"
+    },
+    {
+      "id": "vocab-138",
+      "word": "adherence",
+      "zh": "（尤指对规则、信念等的）遵守，坚持",
+      "partOfSpeech": "noun",
+      "glossEn": "A close physical union of two objects.; Faithful support for some cause.",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/adherence",
+      "sentenceIds": [],
+      "lemma": "adherence"
+    },
+    {
+      "id": "vocab-139",
+      "word": "propaganda",
+      "zh": "宣传，鼓吹",
+      "reading": "[ˌpɹɒp.ə.ˈɡæn.də]",
+      "partOfSpeech": "noun",
+      "glossEn": "A concerted set of messages aimed at influencing the opinions or behavior of large numbers of people.",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/propaganda",
+      "sentenceIds": [],
+      "lemma": "propaganda"
+    },
+    {
+      "id": "vocab-140",
+      "word": "absorb",
+      "zh": "吸收",
+      "reading": "/əbˈsɔːb/",
+      "partOfSpeech": "verb",
+      "glossEn": "To include so that it no longer has separate existence; to overwhelm; to cause to disappear as if by swallowing up; to incorporate; to assimilate; to take in and use up.; To engulf, as in water; to swallow up.",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/absorb",
+      "sentenceIds": [],
+      "lemma": "absorb"
+    },
+    {
+      "id": "vocab-141",
+      "word": "incompatible",
+      "zh": "不相容的，不能共存的",
+      "reading": "/ˌɪŋkəmˈpætɪbəl/",
+      "partOfSpeech": "noun",
+      "glossEn": "(chiefly in the plural) An incompatible substance; one of a group of things that cannot be placed or used together because of a change of chemical composition or opposing medicinal qualities.; A consequent of a contrary.; Of two things: that cannot coexist; not congruous because of differences; Incapable of being together without mutual reaction or decomposition, as certain medicines.",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/incompatible",
+      "sentenceIds": [],
+      "lemma": "incompatible"
+    },
+    {
+      "id": "vocab-142",
+      "word": "aimatic",
+      "zh": "样片",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/aimatic",
+      "sentenceIds": [],
+      "lemma": "aimatic"
+    },
+    {
+      "id": "vocab-143",
+      "word": "odd",
+      "zh": "奇怪的，反常的",
+      "reading": "/ɒdz/",
+      "partOfSpeech": "noun",
+      "glossEn": "(diminutive) An odd number.; Something left over, not forming part of a set.; The ratio of the probability of an event happening to that of it not happening.; The ratio of winnings to stake in betting situations.",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/odd",
+      "sentenceIds": [],
+      "lemma": "odd",
+      "notes": "字幕形：odds"
+    },
+    {
+      "id": "vocab-144",
+      "word": "ephemeral",
+      "zh": "短暂的",
+      "reading": "/əˈfɛ.mə.ɹəl/",
+      "partOfSpeech": "noun",
+      "glossEn": "Something which lasts for a short period of time.; Lasting for a short period of time.; Existing for only one day, as with some flowers, insects, and diseases.",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/ephemeral",
+      "sentenceIds": [],
+      "lemma": "ephemeral"
+    },
+    {
+      "id": "vocab-145",
+      "word": "prosperity",
+      "zh": "繁荣，成功",
+      "reading": "/pɹɒˈspɛɹ.ɪ.ti/",
+      "partOfSpeech": "noun",
+      "glossEn": "The condition of being prosperous, of having good fortune",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/prosperity",
+      "sentenceIds": [],
+      "lemma": "prosperity"
+    },
+    {
+      "id": "vocab-146",
+      "word": "weave",
+      "zh": "（用织布机）编，织",
+      "reading": "/wiːv/",
+      "partOfSpeech": "noun",
+      "glossEn": "A type or way of weaving.; Human or artificial hair worn to alter one's appearance, either to supplement or to cover the natural hair.; To form something by passing lengths or strands of material over and under one another.; To spin a cocoon or a web.",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/weave",
+      "sentenceIds": [],
+      "lemma": "weave"
+    },
+    {
+      "id": "vocab-147",
+      "word": "narrator",
+      "zh": "（小说或电影的）叙述者，叙事人",
+      "reading": "/nəˈɹeɪtə/",
+      "partOfSpeech": "noun",
+      "glossEn": "One who narrates or tells stories.; The person or the \"voice\" whose viewpoint is used in telling a story.",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/narrator",
+      "sentenceIds": [],
+      "lemma": "narrator"
+    },
+    {
+      "id": "vocab-148",
+      "word": "sought",
+      "zh": "寻找（seek 的过去式和过去分词）",
+      "reading": "/sɔːt/",
+      "partOfSpeech": "verb",
+      "glossEn": "To try to find; to look for; to search for.; To ask for; to solicit; to beseech.",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/sought",
+      "sentenceIds": [],
+      "lemma": "sought"
+    },
+    {
+      "id": "vocab-149",
+      "word": "bandwidth",
+      "zh": "[电子][物] 带宽",
+      "reading": "/ˈbændwɪdθ/",
+      "partOfSpeech": "noun",
+      "glossEn": "The width, usually measured in hertz, of a frequency band.; Of a signal, the width of the smallest frequency band within which the signal can fit.",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/bandwidth",
+      "sentenceIds": [],
+      "lemma": "bandwidth"
+    },
+    {
+      "id": "vocab-150",
+      "word": "overwhelming",
+      "zh": "难以抗拒的，令人不知所措的",
+      "partOfSpeech": "adverb",
+      "glossEn": "In an overwhelming manner; very greatly or intensely.",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/overwhelming",
+      "sentenceIds": [],
+      "lemma": "overwhelming",
+      "reading": "/ˌəʊvəˈwɛlmɪŋ/",
+      "notes": "字幕形：overwhelmingly"
+    },
+    {
+      "id": "vocab-151",
+      "word": "resonate",
+      "zh": "发出回响，回荡",
+      "reading": "/ˈɹɛz.əˌneɪt/",
+      "partOfSpeech": "verb",
+      "glossEn": "To vibrate or sound, especially in response to another vibration.; To have an effect or impact; to influence; to engender support.",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/resonate",
+      "sentenceIds": [],
+      "lemma": "resonate"
+    },
+    {
+      "id": "vocab-152",
+      "word": "scar",
+      "zh": "伤疤，疤痕",
+      "reading": "/skɑː(ɹ)d/",
+      "partOfSpeech": "verb",
+      "glossEn": "To mark the skin permanently.; To form a scar.; Having a scar or scars.",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/scar",
+      "sentenceIds": [],
+      "lemma": "scar",
+      "notes": "字幕形：scarred"
+    },
+    {
+      "id": "vocab-153",
+      "word": "impressive",
+      "zh": "给人印象深刻的，令人钦佩的",
+      "reading": "/ɪmˈpɹɛsɪv/",
+      "partOfSpeech": "adjective",
+      "glossEn": "Making, or tending to make, a positive impression; having power to impress; Capable of being impressed.",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/impressive",
+      "sentenceIds": [],
+      "lemma": "impressive"
+    },
+    {
+      "id": "vocab-154",
+      "word": "ubiquitou",
+      "zh": "普遍存在的，无所不在的",
+      "partOfSpeech": "adjective",
+      "glossEn": "Being everywhere at once: omnipresent.; Appearing to be everywhere at once; being or seeming to be in more than one location at the same time.",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/ubiquitou",
+      "sentenceIds": [],
+      "lemma": "ubiquitou",
+      "notes": "字幕形：ubiquitous"
+    },
+    {
+      "id": "vocab-155",
+      "word": "commodity",
+      "zh": "商品，货物",
+      "reading": "/kəˈmɒdəti/",
+      "partOfSpeech": "noun",
+      "glossEn": "Anything movable (a good) that is bought and sold.; Something useful or valuable.",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/commodity",
+      "sentenceIds": [],
+      "lemma": "commodity"
+    },
+    {
+      "id": "vocab-156",
+      "word": "scarce",
+      "zh": "缺乏的，不足的",
+      "reading": "/ˈskɛəs/",
+      "partOfSpeech": "adjective",
+      "glossEn": "Uncommon, rare; difficult to find; insufficient to meet a demand.; Scantily supplied (with); deficient (in); used with of.; Scarcely, only just.",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/scarce",
+      "sentenceIds": [],
+      "lemma": "scarce"
+    },
+    {
+      "id": "vocab-157",
+      "word": "premium",
+      "zh": "保险费",
+      "reading": "/ˈpɹimiəm/",
+      "partOfSpeech": "noun",
+      "glossEn": "A prize or award.; Something offered at a reduced price as an inducement to buy something else.; Superior in quality; higher in price or value.; High-end; belonging to the market segment between mid-market and luxury.",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/premium",
+      "sentenceIds": [],
+      "lemma": "premium"
+    },
+    {
+      "id": "vocab-158",
+      "word": "scarcity",
+      "zh": "不足，缺乏",
+      "partOfSpeech": "noun",
+      "glossEn": "The condition of something being scarce or deficient; An inadequate amount of something; a shortage",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/scarcity",
+      "sentenceIds": [],
+      "lemma": "scarcity"
+    },
+    {
+      "id": "vocab-159",
+      "word": "valuation",
+      "zh": "评价，估价",
+      "partOfSpeech": "noun",
+      "glossEn": "An estimation of something's worth.; The process of estimating the value of a financial asset or liability.",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/valuation",
+      "sentenceIds": [],
+      "lemma": "valuation",
+      "reading": "/ˌvæ.ljuːˈeɪ.ʃən/",
+      "notes": "字幕形：valuations"
+    },
+    {
+      "id": "vocab-160",
+      "word": "immense",
+      "zh": "极大的，巨大的",
+      "reading": "/ɪˈmɛns/",
+      "partOfSpeech": "noun",
+      "glossEn": "Immense extent or expanse; immensity; Huge, gigantic, very large.; Supremely good.",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/immense",
+      "sentenceIds": [],
+      "lemma": "immense"
+    },
+    {
+      "id": "vocab-161",
+      "word": "dwarf",
+      "zh": "（神话中有魔法的）小矮人",
+      "reading": "/dwɔːf/",
+      "partOfSpeech": "noun",
+      "glossEn": "Any member of a race of beings from (especially Scandinavian and other Germanic) folklore, usually depicted as having some sort of supernatural powers and being skilled in crafting and metalworking, often as short with long beards, and sometimes as clashing with elves.; A person of short stature, often one whose limbs are disproportionately small in relation to the body as compared with normal adults, usually as the result of a genetic condition.; To render (much) smaller, turn into a dwarf (version).; To make appear (much) smaller, puny, tiny.",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/dwarf",
+      "sentenceIds": [],
+      "lemma": "dwarf"
+    },
+    {
+      "id": "vocab-162",
+      "word": "armor",
+      "zh": "盔甲，甲胄",
+      "reading": "/ˈɑː.mə/",
+      "partOfSpeech": "noun",
+      "glossEn": "A protective layer over a body, vehicle, or other object intended to deflect or diffuse damaging forces.; A natural form of this kind of protection on an animal's body.; To equip something with armor or a protective coating or hardening.; To provide something with an analogous form of protection.",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/armor",
+      "sentenceIds": [],
+      "lemma": "armor"
+    },
+    {
+      "id": "vocab-163",
+      "word": "manageable",
+      "zh": "易管理的",
+      "reading": "/ˈmænɪd͡ʒəbl̩/",
+      "partOfSpeech": "adjective",
+      "glossEn": "Capable of being managed or controlled.; Capable of being done or fulfilled; achievable.",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/manageable",
+      "sentenceIds": [],
+      "lemma": "manageable"
+    },
+    {
+      "id": "vocab-164",
+      "word": "legalize",
+      "zh": "使合法化，使得到法律认可",
+      "reading": "/ˈliːɡəlaɪz/",
+      "partOfSpeech": "verb",
+      "glossEn": "To make legal or permit under law. Either by decriminalising something that has been illegal or by specifically permitting it.",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/legalize",
+      "sentenceIds": [],
+      "lemma": "legalize"
+    },
+    {
+      "id": "vocab-165",
+      "word": "vulgar",
+      "zh": "粗俗的，庸俗的，不雅的",
+      "reading": "/ˈvʌl.ɡə/",
+      "partOfSpeech": "noun",
+      "glossEn": "(classicism) A common, ordinary person.; (collective) The common people.; Debased, uncouth, distasteful, obscene.; (classical sense) Having to do with ordinary, common people.",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/vulgar",
+      "sentenceIds": [],
+      "lemma": "vulgar"
+    },
+    {
+      "id": "vocab-166",
+      "word": "mutual",
+      "zh": "相互的，彼此的",
+      "reading": "/ˈmjuːt͡ʃuəl/",
+      "partOfSpeech": "noun",
+      "glossEn": "A mutual fund.; A mutual organization.; Having the same relationship, each to each other.; Collective, done or held in common.",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/mutual",
+      "sentenceIds": [],
+      "lemma": "mutual"
+    },
+    {
+      "id": "vocab-167",
+      "word": "admiration",
+      "zh": "钦佩，赞美，欣赏",
+      "reading": "/ˌæd.mɚˈeɪʃ.ən/",
+      "partOfSpeech": "noun",
+      "glossEn": "A positive emotion including wonder and approbation; the regarding of another as being wonderful; Wondering or questioning (without any particular positive or negative attitude to the subject).",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/admiration",
+      "sentenceIds": [],
+      "lemma": "admiration"
+    },
+    {
+      "id": "vocab-168",
+      "word": "tir",
+      "zh": "疲倦的，累的",
+      "partOfSpeech": "verb",
+      "glossEn": "To become sleepy or weary.; To make sleepy or weary.; To dress or adorn.; To seize, pull, and tear prey, as a hawk does.",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/tir",
+      "sentenceIds": [],
+      "lemma": "tir",
+      "notes": "字幕形：tiring"
+    },
+    {
+      "id": "vocab-169",
+      "word": "hang",
+      "zh": "悬挂，吊",
+      "reading": "/ˈhæŋɪŋ/",
+      "partOfSpeech": "verb",
+      "glossEn": "To be or remain suspended.; To float, as if suspended.; Suspended.; (of a piece) Unprotected and exposed to capture.",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/hang",
+      "sentenceIds": [],
+      "lemma": "hang",
+      "notes": "字幕形：Hanging"
+    },
+    {
+      "id": "vocab-170",
+      "word": "miserable",
+      "zh": "痛苦的，使人难受的",
+      "reading": "/ˈmɪz(ə)ɹəbəl/",
+      "partOfSpeech": "noun",
+      "glossEn": "A miserable person; a wretch.; In a state of misery: very sad, ill, or poor.; Very bad (at something); unskilled, incompetent.",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/miserable",
+      "sentenceIds": [],
+      "lemma": "miserable"
+    },
+    {
+      "id": "vocab-171",
+      "word": "alleged",
+      "zh": "（未经证实而）声称的，所谓的",
+      "partOfSpeech": "adverb",
+      "glossEn": "According to someone's allegation.; According to someone's conspicuous impressions (which could be alleged ensuingly).",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/alleged",
+      "sentenceIds": [],
+      "lemma": "alleged",
+      "notes": "字幕形：allegedly"
+    },
+    {
+      "id": "vocab-172",
+      "word": "syphili",
+      "zh": "[性病] 梅毒",
+      "reading": "/ˈsɪfɪlɪs/",
+      "partOfSpeech": "noun",
+      "glossEn": "A disease spread via sexual activity, caused by the bacterium Treponema pallidum.",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/syphili",
+      "sentenceIds": [],
+      "lemma": "syphili",
+      "notes": "字幕形：syphilis"
+    },
+    {
+      "id": "vocab-173",
+      "word": "ravagon",
+      "zh": "严重毁坏，摧毁（ravage 的现在分词）",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/ravagon",
+      "sentenceIds": [],
+      "lemma": "ravagon"
+    },
+    {
+      "id": "vocab-174",
+      "word": "tariff",
+      "zh": "（政府对进出口货物征收的）关税，关税表",
+      "partOfSpeech": "noun",
+      "glossEn": "A system of government-imposed duties levied on imported or exported goods; a list of such duties, or the duties themselves.; A schedule of rates, fees or prices.",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/tariff",
+      "sentenceIds": [],
+      "lemma": "tariff",
+      "reading": "/ˈtæɹəf/",
+      "notes": "字幕形：tariffs"
+    },
+    {
+      "id": "vocab-175",
+      "word": "dissuade",
+      "zh": "劝阻，劝止",
+      "reading": "/dɪˈsweɪd/",
+      "partOfSpeech": "verb",
+      "glossEn": "To convince not to try or do.",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/dissuade",
+      "sentenceIds": [],
+      "lemma": "dissuade"
+    },
+    {
+      "id": "vocab-176",
+      "word": "profitable",
+      "zh": "盈利的，有利可图的",
+      "reading": "/ˈpɹɒfɪtəbl̩/",
+      "partOfSpeech": "adjective",
+      "glossEn": "Producing a profit.",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/profitable",
+      "sentenceIds": [],
+      "lemma": "profitable"
+    },
+    {
+      "id": "vocab-177",
+      "word": "sculpt",
+      "zh": "造型",
+      "partOfSpeech": "verb",
+      "glossEn": "To form by sculpture.; To work as a sculptor.; The act or product of one who sculpts; sculpture.",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/sculpt",
+      "sentenceIds": [],
+      "lemma": "sculpt",
+      "notes": "字幕形：sculpting"
+    },
+    {
+      "id": "vocab-178",
+      "word": "recipient",
+      "zh": "<正式>接受者，领受者",
+      "partOfSpeech": "noun",
+      "glossEn": "One who receives.; An individual receiving donor organs or tissues.",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/recipient",
+      "sentenceIds": [],
+      "lemma": "recipient",
+      "reading": "/ɹəˈsɪp.i.ənt/",
+      "notes": "字幕形：recipients"
+    },
+    {
+      "id": "vocab-179",
+      "word": "fraudster",
+      "zh": "骗子",
+      "partOfSpeech": "noun",
+      "glossEn": "A person who practices fraud; a swindler.",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/fraudster",
+      "sentenceIds": [],
+      "lemma": "fraudster",
+      "notes": "字幕形：fraudsters"
+    },
+    {
+      "id": "vocab-180",
+      "word": "sympathetic",
+      "zh": "同情的，有同情心的",
+      "reading": "/ˌsɪmpəˈθɛtɪk/",
+      "partOfSpeech": "adjective",
+      "glossEn": "Of, related to, showing, or characterized by sympathy; Relating to similarity",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/sympathetic",
+      "sentenceIds": [],
+      "lemma": "sympathetic"
+    },
+    {
+      "id": "vocab-181",
+      "word": "unanimou",
+      "zh": "（投票、决定、协议等）全体同意的，无异议的",
+      "partOfSpeech": "adjective",
+      "glossEn": "Based on unanimity, assent or agreement.; Sharing the same views or opinions, and being in harmony or accord.",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/unanimou",
+      "sentenceIds": [],
+      "lemma": "unanimou",
+      "notes": "字幕形：unanimous"
+    },
+    {
+      "id": "vocab-182",
+      "word": "fraction",
+      "zh": "分数，小数",
+      "reading": "/ˈfɹæk.ʃən/",
+      "partOfSpeech": "noun",
+      "glossEn": "A part of a whole, especially a comparatively small part.; A ratio of two numbers, the numerator and the denominator, usually written one above the other and separated by a horizontal bar.; To divide or break into fractions.",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/fraction",
+      "sentenceIds": [],
+      "lemma": "fraction"
+    },
+    {
+      "id": "vocab-183",
+      "word": "perception",
+      "zh": "看法，认识",
+      "reading": "/pəˈsɛpʃ(ə)n/",
+      "partOfSpeech": "noun",
+      "glossEn": "The organisation, identification and interpretation of sensory information.; Conscious understanding of something.",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/perception",
+      "sentenceIds": [],
+      "lemma": "perception"
+    },
+    {
+      "id": "vocab-184",
+      "word": "bar",
+      "zh": "酒吧",
+      "reading": "/ˈbɑː(ɹ)d/",
+      "partOfSpeech": "verb",
+      "glossEn": "To obstruct the passage of (someone or something).; To prohibit.; Having bars; striped.; Prevented, either by a physical barrier or by conditions.",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/bar",
+      "sentenceIds": [],
+      "lemma": "bar",
+      "notes": "字幕形：barred"
+    },
+    {
+      "id": "vocab-185",
+      "word": "massive",
+      "zh": "大而重的，结实的",
+      "reading": "/ˈmæs.ɪv/",
+      "partOfSpeech": "noun",
+      "glossEn": "A homogeneous mass of rock, not layered and without an obvious crystal structure.; A group of people from a locality, or sharing a collective aim, interest, etc.; Very large in size or extent; Very large or bulky and heavy and solid",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/massive",
+      "sentenceIds": [],
+      "lemma": "massive"
+    },
+    {
+      "id": "vocab-186",
+      "word": "philanthropy",
+      "zh": "慈善，仁慈",
+      "reading": "/fɪˈlænθɹəpiː/",
+      "partOfSpeech": "noun",
+      "glossEn": "Benevolent altruism with the intention of increasing the well-being of humankind.; Charitable giving, charity.",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/philanthropy",
+      "sentenceIds": [],
+      "lemma": "philanthropy"
+    },
+    {
+      "id": "vocab-187",
+      "word": "fraudulent",
+      "zh": "欺诈的，诈骗的",
+      "reading": "/ˈfɹɔː.djə.lənt/",
+      "partOfSpeech": "adjective",
+      "glossEn": "Dishonest; based on fraud or deception.; False, phony.",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/fraudulent",
+      "sentenceIds": [],
+      "lemma": "fraudulent"
+    },
+    {
+      "id": "vocab-188",
+      "word": "confess",
+      "zh": "供认，招供",
+      "reading": "/kənˈfɛs/",
+      "partOfSpeech": "verb",
+      "glossEn": "To admit to the truth, particularly in the context of sins or crimes committed.; To acknowledge faith in; to profess belief in.",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/confess",
+      "sentenceIds": [],
+      "lemma": "confess"
+    },
+    {
+      "id": "vocab-189",
+      "word": "trivial",
+      "zh": "琐碎的，不重要的",
+      "reading": "/ˈtɹɪ.vi.əl/",
+      "partOfSpeech": "noun",
+      "glossEn": "Any of the three liberal arts forming the trivium.; Ignorable; of little significance or value.; Commonplace, ordinary.",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/trivial",
+      "sentenceIds": [],
+      "lemma": "trivial"
+    },
+    {
+      "id": "vocab-190",
+      "word": "congressional",
+      "zh": "立法机构的，代表大会的，（美国）国会的",
+      "reading": "/kəŋˈɡɹɛʃn̩əl/",
+      "partOfSpeech": "adjective",
+      "glossEn": "Of or pertaining to a congress.",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/congressional",
+      "sentenceIds": [],
+      "lemma": "congressional"
     }
   ],
   "patterns": [
     {
       "id": "pattern-1",
-      "pattern": "entrepreneurs in India. And I feel like",
-      "zh": "印度的企业家。我觉得",
-      "grammar": "I feel like",
-      "examples": [
-        "I feel like 的場景對話",
-        "Zoe 和 Alex 正享受着周末的悠闲时光。",
-        "Zoe: This weekend is just perfect. I feel like going for a walk by the beach."
-      ]
+      "pattern": ">> The first thing I must say is you're a lot bigger and bulkier, muscular than I would have thought you are.",
+      "zh": "> >我首先要说的是，你是 比我更大更笨重，肌肉发达 会以为你是。",
+      "grammar": "",
+      "examples": []
+    },
+    {
+      "id": "pattern-2",
+      "pattern": ">> Um well, although it it can spike up if there's if there's some major event in the world, it can get up to I don't know 800 million or or or a billion.",
+      "zh": "> >嗯，虽然它可能会飙升，如果 如果有一些重大事件 世界，它可以达到我不知道 8亿或10亿。",
+      "grammar": "",
+      "examples": []
+    },
+    {
+      "id": "pattern-3",
+      "pattern": ">> as far as social media goes the form if you had to wager a guess for tomorrow >> how much is text how much is video I've heard you speak about maybe voice and hearing being the next form of communication with AI, what happens to X in its true form? How does it evolve?",
+      "zh": "> >就社交媒体而言， 如果你不得不猜测明天 > >短信多少钱视频多少钱 我听你说过也许是声音 听力是下一种形式的 与人工智能的沟通， X会发生什么 以其真实形式？它是如何演变的？",
+      "grammar": "",
+      "examples": []
     }
   ],
   "parseStatus": "ready",
   "createdAt": "2026-07-11T11:51:51.354Z",
-  "updatedAt": "2026-07-15T07:30:48.071Z",
+  "updatedAt": "2026-07-16T09:26:01.312Z",
   "enrichmentMode": "rules"
 }
