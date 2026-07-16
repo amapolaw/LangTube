@@ -32,9 +32,79 @@
       }
     ]
   },
-  "vocabulary": [],
-  "patterns": [],
+  "vocabulary": [
+    {
+      "id": "vocab-1",
+      "word": "れっきとした",
+      "lemma": "れっきとした",
+      "zh": "直截了当",
+      "dictUrl": "https://www.mojidict.com/searchText/%E3%82%8C%E3%81%A3%E3%81%8D%E3%81%A8%E3%81%97%E3%81%9F",
+      "sentenceIds": [],
+      "reading": "レッキトシタ",
+      "partOfSpeech": "連体詞"
+    },
+    {
+      "id": "vocab-2",
+      "word": "受け取る",
+      "lemma": "受け取る",
+      "zh": "接收；领取",
+      "reading": "うけとる",
+      "partOfSpeech": "他动词",
+      "dictUrl": "https://www.mojidict.com/searchText/%E5%8F%97%E3%81%91%E5%8F%96%E3%82%8B",
+      "notes": "字幕形：受け取ると",
+      "sentenceIds": []
+    },
+    {
+      "id": "vocab-3",
+      "word": "改まる",
+      "lemma": "改まる",
+      "zh": "郑重；正式；拘谨",
+      "reading": "きまる",
+      "partOfSpeech": "自动词",
+      "dictUrl": "https://www.mojidict.com/searchText/%E6%94%B9%E3%81%BE%E3%82%8B",
+      "notes": "字幕形：そんなに改まって",
+      "sentenceIds": []
+    },
+    {
+      "id": "vocab-4",
+      "word": "喋る",
+      "lemma": "喋る",
+      "zh": "说话；闲聊",
+      "reading": "しゃべる",
+      "partOfSpeech": "他动词",
+      "dictUrl": "https://www.mojidict.com/searchText/%E5%96%8B%E3%82%8B",
+      "notes": "字幕形：喋るんだよ",
+      "sentenceIds": []
+    },
+    {
+      "id": "vocab-5",
+      "word": "黙る",
+      "lemma": "黙る",
+      "zh": "沉默；保持安静",
+      "reading": "だまる",
+      "partOfSpeech": "自动词",
+      "dictUrl": "https://www.mojidict.com/searchText/%E9%BB%99%E3%82%8B",
+      "notes": "出自短语：春海に黙ってられんのかな",
+      "sentenceIds": []
+    }
+  ],
+  "patterns": [
+    {
+      "id": "pattern-1",
+      "pattern": "っていうか コーヒーを入れるためだけに\n朝の５時半まで起きてるの？",
+      "zh": "或者说，你早上五点半就起床，就只是为了泡咖啡？",
+      "grammar": "【语法点】っていうか：更正说法，「或者说…」\n【语法点】〜（ため）だけに：专门为了…目的\n【语法点】〜ている：动作进行或结果状态",
+      "examples": []
+    },
+    {
+      "id": "pattern-2",
+      "pattern": "じゃあ その前に ちょっといい？みんなにも聞いてほしいことが\nあるんだけど",
+      "zh": "那个，在那之前方便问一下吗？我有件事想让大家也听一听。",
+      "grammar": "【语法点】〜んだけど：口语转折/铺垫，「是…不过…」\n【固定搭配】聞いてほしい — 希望对方听我说/听一下\n【固定搭配】ちょっといい？ — 方便占用一点时间吗？",
+      "examples": []
+    }
+  ],
   "parseStatus": "pending",
   "createdAt": "2026-07-11T03:04:30.587Z",
-  "updatedAt": "2026-07-16T03:02:09.519Z"
+  "updatedAt": "2026-07-16T16:38:56.198Z"
 }
