@@ -9,7 +9,7 @@
   ],
   "sourceUrl": "https://www.bilibili.com/video/BV1TyTB6GERP?spm_id_from=333.788.videopod.sections&vd_source=575dde8aaa5216721d951e465f92f0d8&p=2",
   "storage": {
-    "mode": "local",
+    "mode": "remote",
     "provider": "local",
     "url": "https://www.bilibili.com/video/BV1TyTB6GERP?spm_id_from=333.788.videopod.sections&vd_source=575dde8aaa5216721d951e465f92f0d8&p=2"
   },
