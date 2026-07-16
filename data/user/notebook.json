@@ -298,11 +298,11 @@
     ],
     "id": "card-1784197775140-p4iy20u",
     "easeFactor": 2.5,
-    "interval": 0,
-    "repetitions": 0,
-    "nextReview": "2026-07-16T10:29:35.140Z",
+    "interval": 1,
+    "repetitions": 1,
+    "nextReview": "2026-07-17T14:37:55.814Z",
     "createdAt": "2026-07-16T10:29:35.140Z",
-    "lastReview": "2026-07-16T10:29:48.592Z",
+    "lastReview": "2026-07-16T14:37:55.813Z",
     "lastRating": "good",
     "dictSource": "Cambridge 风格 / Free Dictionary（英义转中文）"
   },
@@ -347,11 +347,13 @@
     ],
     "id": "card-1784197794247-g2s6k6o",
     "easeFactor": 2.5,
-    "interval": 0,
-    "repetitions": 0,
-    "nextReview": "2026-07-16T10:29:54.247Z",
+    "interval": 1,
+    "repetitions": 1,
+    "nextReview": "2026-07-17T14:38:04.985Z",
     "createdAt": "2026-07-16T10:29:54.247Z",
-    "dictSource": "Cambridge 风格 / Free Dictionary（英义转中文）"
+    "dictSource": "Cambridge 风格 / Free Dictionary（英义转中文）",
+    "lastReview": "2026-07-16T14:38:04.985Z",
+    "lastRating": "good"
   },
   {
     "type": "vocabulary",
@@ -368,10 +370,12 @@
     ],
     "id": "card-1784197795478-bpbgbw1",
     "easeFactor": 2.5,
-    "interval": 0,
-    "repetitions": 0,
-    "nextReview": "2026-07-16T10:29:55.478Z",
-    "createdAt": "2026-07-16T10:29:55.478Z"
+    "interval": 1,
+    "repetitions": 1,
+    "nextReview": "2026-07-17T14:38:09.313Z",
+    "createdAt": "2026-07-16T10:29:55.478Z",
+    "lastReview": "2026-07-16T14:38:09.313Z",
+    "lastRating": "good"
   },
   {
     "type": "vocabulary",
@@ -389,10 +393,12 @@
     ],
     "id": "card-1784197812748-2m3hb4d",
     "easeFactor": 2.5,
-    "interval": 0,
-    "repetitions": 0,
-    "nextReview": "2026-07-16T10:30:12.748Z",
-    "createdAt": "2026-07-16T10:30:12.748Z"
+    "interval": 1,
+    "repetitions": 1,
+    "nextReview": "2026-07-17T14:38:13.608Z",
+    "createdAt": "2026-07-16T10:30:12.748Z",
+    "lastReview": "2026-07-16T14:38:13.608Z",
+    "lastRating": "good"
   },
   {
     "type": "vocabulary",
@@ -414,11 +420,13 @@
     ],
     "id": "card-1784197815445-yl898bo",
     "easeFactor": 2.5,
-    "interval": 0,
-    "repetitions": 0,
-    "nextReview": "2026-07-16T10:30:15.445Z",
+    "interval": 1,
+    "repetitions": 1,
+    "nextReview": "2026-07-17T14:38:38.617Z",
     "createdAt": "2026-07-16T10:30:15.445Z",
-    "dictSource": "Cambridge 风格 / Free Dictionary（英义转中文）"
+    "dictSource": "Cambridge 风格 / Free Dictionary（英义转中文）",
+    "lastReview": "2026-07-16T14:38:38.617Z",
+    "lastRating": "good"
   },
   {
     "type": "vocabulary",
@@ -438,11 +446,13 @@
     ],
     "id": "card-1784197829038-e4npuet",
     "easeFactor": 2.5,
-    "interval": 0,
-    "repetitions": 0,
-    "nextReview": "2026-07-16T10:30:29.038Z",
+    "interval": 1,
+    "repetitions": 1,
+    "nextReview": "2026-07-17T14:38:59.652Z",
     "createdAt": "2026-07-16T10:30:29.038Z",
-    "dictSource": "Cambridge 风格 / Free Dictionary（英义转中文）"
+    "dictSource": "Cambridge 风格 / Free Dictionary（英义转中文）",
+    "lastReview": "2026-07-16T14:38:59.652Z",
+    "lastRating": "good"
   },
   {
     "type": "vocabulary",
@@ -461,10 +471,12 @@
     ],
     "id": "card-1784197834783-1vcvb9z",
     "easeFactor": 2.5,
-    "interval": 0,
-    "repetitions": 0,
-    "nextReview": "2026-07-16T10:30:34.783Z",
+    "interval": 1,
+    "repetitions": 1,
+    "nextReview": "2026-07-17T14:39:03.126Z",
     "createdAt": "2026-07-16T10:30:34.783Z",
-    "dictSource": "Cambridge 风格 / Free Dictionary（英义转中文）"
+    "dictSource": "Cambridge 风格 / Free Dictionary（英义转中文）",
+    "lastReview": "2026-07-16T14:39:03.126Z",
+    "lastRating": "good"
   }
 ]
