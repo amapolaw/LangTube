@@ -1,4 +1,5 @@
 {
-  "mode": "local",
-  "provider": "local"
+  "mode": "remote",
+  "provider": "local",
+  "url": "https://www.bilibili.com/video/BV1oWKE6cE3G/?vd_source=575dde8aaa5216721d951e465f92f0d8"
 }
