@@ -2,6 +2,66 @@
   "version": 1,
   "materials": [
     {
+      "id": "en-ai-has-hacked-the-code-of-human-civiliza-mrlks8tp",
+      "title": "AI has hacked the code of human civilization | Yuval Noah Harari",
+      "sourceLang": "en",
+      "nativeLang": "zh",
+      "level": "A2",
+      "topics": [
+        "general"
+      ],
+      "storageLocation": "local",
+      "parseStatus": "pending",
+      "createdAt": "2026-07-15T04:23:53.005Z",
+      "updatedAt": "2026-07-16T17:25:39.248Z",
+      "sourceUrl": "https://www.bilibili.com/video/BV1TyTB6GERP?spm_id_from=333.788.videopod.sections&vd_source=575dde8aaa5216721d951e465f92f0d8&p=2"
+    },
+    {
+      "id": "es--c-mo-empiezas-el-d-a-easy-spanish-342-mrlskimu",
+      "title": "¿Cómo empiezas el día? | Easy Spanish 342",
+      "sourceLang": "es",
+      "nativeLang": "zh",
+      "level": "A1",
+      "topics": [
+        "general"
+      ],
+      "storageLocation": "local",
+      "parseStatus": "pending",
+      "createdAt": "2026-07-15T08:01:49.398Z",
+      "updatedAt": "2026-07-16T17:21:41.651Z",
+      "sourceUrl": "https://www.bilibili.com/video/BV1Hb4y1K7ww/?spm_id_from=333.337.search-card.all.click&vd_source=575dde8aaa5216721d951e465f92f0d8"
+    },
+    {
+      "id": "ja-untitled-mrhunnt8",
+      "title": "俺の話は長い 03",
+      "sourceLang": "ja",
+      "nativeLang": "zh",
+      "level": "N3",
+      "topics": [
+        "general"
+      ],
+      "storageLocation": "local",
+      "parseStatus": "pending",
+      "createdAt": "2026-07-12T15:53:28.016Z",
+      "updatedAt": "2026-07-16T17:20:22.367Z",
+      "sourceUrl": ""
+    },
+    {
+      "id": "ja-俺-話-長-01-mrehoi9z",
+      "title": "俺の話は長い 01",
+      "sourceLang": "ja",
+      "nativeLang": "zh",
+      "level": "N3",
+      "topics": [
+        "general"
+      ],
+      "storageLocation": "local",
+      "parseStatus": "pending",
+      "createdAt": "2026-07-10T05:22:36.551Z",
+      "updatedAt": "2026-07-16T17:15:33.502Z",
+      "sourceUrl": ""
+    },
+    {
       "id": "ja-俺-話-長-02-mrfs6rgb",
       "title": "俺の話は長い 02",
       "sourceLang": "ja",
@@ -51,36 +111,6 @@
       "sourceUrl": "https://www.bilibili.com/video/BV1mTSkBHEwo/?spm_id_from=333.337.search-card.all.click&vd_source=575dde8aaa5216721d951e465f92f0d8"
     },
     {
-      "id": "ja-俺-話-長-01-mrehoi9z",
-      "title": "俺の話は長い 01",
-      "sourceLang": "ja",
-      "nativeLang": "zh",
-      "level": "N3",
-      "topics": [
-        "general"
-      ],
-      "storageLocation": "local",
-      "parseStatus": "pending",
-      "createdAt": "2026-07-10T05:22:36.551Z",
-      "updatedAt": "2026-07-16T16:53:59.972Z",
-      "sourceUrl": ""
-    },
-    {
-      "id": "ja-untitled-mrhunnt8",
-      "title": "俺の話は長い 03",
-      "sourceLang": "ja",
-      "nativeLang": "zh",
-      "level": "N3",
-      "topics": [
-        "general"
-      ],
-      "storageLocation": "local",
-      "parseStatus": "pending",
-      "createdAt": "2026-07-12T15:53:28.016Z",
-      "updatedAt": "2026-07-16T03:02:09.503Z",
-      "sourceUrl": ""
-    },
-    {
       "id": "es--c-mo-ligar-en-espa-ol-easy-spanish-188-mrlsye3z",
       "title": "¿Cómo ligar en español? | Easy Spanish 188",
       "sourceLang": "es",
@@ -92,38 +122,8 @@
       "storageLocation": "local",
       "parseStatus": "pending",
       "createdAt": "2026-07-15T08:12:36.719Z",
-      "updatedAt": "2026-07-16T03:02:09.480Z",
-      "sourceUrl": ""
-    },
-    {
-      "id": "es--c-mo-empiezas-el-d-a-easy-spanish-342-mrlskimu",
-      "title": "¿Cómo empiezas el día? | Easy Spanish 342",
-      "sourceLang": "es",
-      "nativeLang": "zh",
-      "level": "A1",
-      "topics": [
-        "general"
-      ],
-      "storageLocation": "local",
-      "parseStatus": "pending",
-      "createdAt": "2026-07-15T08:01:49.398Z",
-      "updatedAt": "2026-07-16T03:02:09.467Z",
-      "sourceUrl": "https://www.bilibili.com/video/BV1Hb4y1K7ww/?spm_id_from=333.337.search-card.all.click&vd_source=575dde8aaa5216721d951e465f92f0d8"
-    },
-    {
-      "id": "en-ai-has-hacked-the-code-of-human-civiliza-mrlks8tp",
-      "title": "AI has hacked the code of human civilization | Yuval Noah Harari",
-      "sourceLang": "en",
-      "nativeLang": "zh",
-      "level": "A2",
-      "topics": [
-        "general"
-      ],
-      "storageLocation": "local",
-      "parseStatus": "pending",
-      "createdAt": "2026-07-15T04:23:53.005Z",
-      "updatedAt": "2026-07-16T03:02:09.446Z",
-      "sourceUrl": "https://www.bilibili.com/video/BV1TyTB6GERP?spm_id_from=333.788.videopod.sections&vd_source=575dde8aaa5216721d951e465f92f0d8&p=2"
+      "updatedAt": "2026-07-17T05:26:55.430Z",
+      "sourceUrl": "https://www.bilibili.com/video/BV1oWKE6cE3G/?vd_source=575dde8aaa5216721d951e465f92f0d8"
     }
   ]
 }
