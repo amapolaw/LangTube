@@ -31,22 +31,9 @@
       }
     ]
   },
-  "vocabulary": [
-    {
-      "id": "vocab-1",
-      "word": "copiar",
-      "lemma": "copiar",
-      "zh": "复制",
-      "partOfSpeech": "",
-      "dictUrl": "https://www.spanishdict.com/conjugate/copiar",
-      "notes": "字幕形：copiado",
-      "sentenceIds": [
-        "line-3"
-      ]
-    }
-  ],
+  "vocabulary": [],
   "patterns": [],
   "parseStatus": "pending",
   "createdAt": "2026-07-15T08:01:49.398Z",
-  "updatedAt": "2026-07-16T17:21:41.651Z"
+  "updatedAt": "2026-07-17T05:47:38.429Z"
 }
