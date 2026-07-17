@@ -31,9 +31,74 @@
       }
     ]
   },
-  "vocabulary": [],
-  "patterns": [],
+  "vocabulary": [
+    {
+      "id": "vocab-1",
+      "word": "defill",
+      "lemma": "defill",
+      "zh": "污损，弄脏",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/defill",
+      "sentenceIds": [
+        "line-10",
+        "line-16",
+        "line-18"
+      ]
+    },
+    {
+      "id": "vocab-2",
+      "word": "knight",
+      "lemma": "knight",
+      "zh": "年轻的仆人或追随者；为领主服务的受过训练的军事服务员。;一个拥有光荣军衔的小贵族，曾担任过侍从和侍从。",
+      "reading": "/naɪts/",
+      "partOfSpeech": "noun",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/knight",
+      "notes": "字幕形：knights",
+      "sentenceIds": [
+        "line-10",
+        "line-16",
+        "line-18"
+      ]
+    },
+    {
+      "id": "vocab-3",
+      "word": "gunpowder",
+      "lemma": "gunpowder",
+      "zh": "硝石（硝酸钾）、木炭和硫磺的爆炸性混合物；以前用于火炮，但现在主要用于烟花。;火药茶的缩写。",
+      "reading": "/ˈɡʌnˌpaʊdə/",
+      "partOfSpeech": "noun",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/gunpowder",
+      "sentenceIds": [
+        "line-10",
+        "line-16",
+        "line-18"
+      ]
+    },
+    {
+      "id": "vocab-4",
+      "word": "bureaucrat",
+      "lemma": "bureaucrat",
+      "zh": "隶属于官僚机构的官员。; （ WMF术语）有权更改用户访问级别的Wiki用户。",
+      "reading": "/ˈbjʊəɹəkɹæt/",
+      "partOfSpeech": "noun",
+      "dictUrl": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/bureaucrat",
+      "notes": "字幕形：bureaucrats",
+      "sentenceIds": [
+        "line-10",
+        "line-16",
+        "line-18"
+      ]
+    }
+  ],
+  "patterns": [
+    {
+      "id": "pattern-1",
+      "pattern": "And an agent should be able to change by itself in ways that its creators don't anticipate.",
+      "zh": "客服代表应该能够以创作者无法预料的方式自行改变。",
+      "grammar": "",
+      "examples": []
+    }
+  ],
   "parseStatus": "pending",
   "createdAt": "2026-07-15T04:23:53.005Z",
-  "updatedAt": "2026-07-16T03:02:09.446Z"
+  "updatedAt": "2026-07-16T17:25:39.248Z"
 }
