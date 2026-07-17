@@ -31,9 +31,80 @@
       }
     ]
   },
-  "vocabulary": [],
-  "patterns": [],
+  "vocabulary": [
+    {
+      "id": "vocab-1",
+      "word": "段ﾎﾞｰﾙ",
+      "lemma": "段ﾎﾞｰﾙ",
+      "zh": "阶梯;阶梯;阶梯; step; stair",
+      "reading": "だん",
+      "partOfSpeech": "名词",
+      "dictUrl": "https://www.mojidict.com/searchText/%E6%AE%B5%EF%BE%8E%EF%BE%9E%EF%BD%B0%EF%BE%99",
+      "sentenceIds": [
+        "line-1",
+        "line-5",
+        "line-6"
+      ]
+    },
+    {
+      "id": "vocab-2",
+      "word": "トラック",
+      "lemma": "トラック",
+      "zh": "卡车/货车",
+      "reading": "トラック",
+      "partOfSpeech": "名词",
+      "dictUrl": "https://www.mojidict.com/searchText/%E3%83%88%E3%83%A9%E3%83%83%E3%82%AF",
+      "sentenceIds": [
+        "line-1",
+        "line-5",
+        "line-6"
+      ]
+    },
+    {
+      "id": "vocab-3",
+      "word": "ﾘｻｲｸﾙｼｮｯﾌﾟ",
+      "lemma": "ﾘｻｲｸﾙｼｮｯﾌﾟ",
+      "zh": "休闲商店",
+      "partOfSpeech": "名詞",
+      "dictUrl": "https://www.mojidict.com/searchText/%EF%BE%98%EF%BD%BB%EF%BD%B2%EF%BD%B8%EF%BE%99%EF%BD%BC%EF%BD%AE%EF%BD%AF%EF%BE%8C%EF%BE%9F",
+      "sentenceIds": [
+        "line-1",
+        "line-5",
+        "line-6"
+      ]
+    },
+    {
+      "id": "vocab-4",
+      "word": "思い通り",
+      "lemma": "思い通り",
+      "zh": "随心所欲；随心所欲；随心所欲",
+      "reading": "おもいどおり",
+      "partOfSpeech": "名词",
+      "dictUrl": "https://www.mojidict.com/searchText/%E6%80%9D%E3%81%84%E9%80%9A%E3%82%8A",
+      "sentenceIds": [
+        "line-1",
+        "line-5",
+        "line-6"
+      ]
+    }
+  ],
+  "patterns": [
+    {
+      "id": "pattern-1",
+      "pattern": "あの段ボールの量で\n幾らぐらいになったんですかね？",
+      "zh": "那么多纸箱，大概卖了多少钱呢？",
+      "grammar": "",
+      "examples": []
+    },
+    {
+      "id": "pattern-2",
+      "pattern": "毎朝 入れてくれてたコーヒーも\nやめさせて全部 道具も処分させて満に無理させ過ぎてないかと 心配で…",
+      "zh": "（把他）每天早上为我泡的咖啡也让他停了。 担心是不是让满太勉强了……",
+      "grammar": "",
+      "examples": []
+    }
+  ],
   "parseStatus": "pending",
   "createdAt": "2026-07-12T15:53:28.016Z",
-  "updatedAt": "2026-07-16T03:02:09.503Z"
+  "updatedAt": "2026-07-16T17:20:22.367Z"
 }
