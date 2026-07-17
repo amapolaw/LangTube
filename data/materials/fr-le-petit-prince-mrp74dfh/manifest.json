@@ -1,0 +1,39 @@
+{
+  "id": "fr-le-petit-prince-mrp74dfh",
+  "title": "Le Petit Prince",
+  "sourceLang": "fr",
+  "nativeLang": "zh",
+  "level": "A1",
+  "topics": [
+    "general"
+  ],
+  "sourceUrl": "https://pan.baidu.com/s/1TTJQfAh7GW3PcVEs-Dls2g?pwd=c1v6",
+  "storage": {
+    "mode": "remote",
+    "provider": "local",
+    "url": "https://pan.baidu.com/s/1TTJQfAh7GW3PcVEs-Dls2g?pwd=c1v6"
+  },
+  "segments": {
+    "extensive": [
+      {
+        "start": 0,
+        "end": 600,
+        "reason": "全片字幕跟随，适合泛听建立整体语境",
+        "durationMinutes": 10
+      }
+    ],
+    "intensive": [
+      {
+        "start": 60,
+        "end": 600,
+        "reason": "默认可精听全片；可用开始/结束秒收窄区间",
+        "durationMinutes": 10
+      }
+    ]
+  },
+  "vocabulary": [],
+  "patterns": [],
+  "parseStatus": "pending",
+  "createdAt": "2026-07-17T17:12:28.925Z",
+  "updatedAt": "2026-07-17T17:12:28.925Z"
+}
