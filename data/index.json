@@ -2,19 +2,19 @@
   "version": 1,
   "materials": [
     {
-      "id": "en-ai-has-hacked-the-code-of-human-civiliza-mrlks8tp",
-      "title": "AI has hacked the code of human civilization | Yuval Noah Harari",
-      "sourceLang": "en",
+      "id": "es--c-mo-ligar-en-espa-ol-easy-spanish-188-mrlsye3z",
+      "title": "¿Cómo ligar en español? | Easy Spanish 188",
+      "sourceLang": "es",
       "nativeLang": "zh",
-      "level": "A2",
+      "level": "A1",
       "topics": [
         "general"
       ],
       "storageLocation": "local",
       "parseStatus": "pending",
-      "createdAt": "2026-07-15T04:23:53.005Z",
-      "updatedAt": "2026-07-16T17:25:39.248Z",
-      "sourceUrl": "https://www.bilibili.com/video/BV1TyTB6GERP?spm_id_from=333.788.videopod.sections&vd_source=575dde8aaa5216721d951e465f92f0d8&p=2"
+      "createdAt": "2026-07-15T08:12:36.719Z",
+      "updatedAt": "2026-07-17T17:00:00.798Z",
+      "sourceUrl": "https://www.bilibili.com/video/BV1oWKE6cE3G/?vd_source=575dde8aaa5216721d951e465f92f0d8"
     },
     {
       "id": "es--c-mo-empiezas-el-d-a-easy-spanish-342-mrlskimu",
@@ -28,8 +28,23 @@
       "storageLocation": "local",
       "parseStatus": "pending",
       "createdAt": "2026-07-15T08:01:49.398Z",
-      "updatedAt": "2026-07-16T17:21:41.651Z",
+      "updatedAt": "2026-07-17T05:47:38.429Z",
       "sourceUrl": "https://www.bilibili.com/video/BV1Hb4y1K7ww/?spm_id_from=333.337.search-card.all.click&vd_source=575dde8aaa5216721d951e465f92f0d8"
+    },
+    {
+      "id": "en-ai-has-hacked-the-code-of-human-civiliza-mrlks8tp",
+      "title": "AI has hacked the code of human civilization | Yuval Noah Harari",
+      "sourceLang": "en",
+      "nativeLang": "zh",
+      "level": "A2",
+      "topics": [
+        "general"
+      ],
+      "storageLocation": "local",
+      "parseStatus": "pending",
+      "createdAt": "2026-07-15T04:23:53.005Z",
+      "updatedAt": "2026-07-16T17:25:39.248Z",
+      "sourceUrl": "https://www.bilibili.com/video/BV1TyTB6GERP?spm_id_from=333.788.videopod.sections&vd_source=575dde8aaa5216721d951e465f92f0d8&p=2"
     },
     {
       "id": "ja-untitled-mrhunnt8",
@@ -111,9 +126,9 @@
       "sourceUrl": "https://www.bilibili.com/video/BV1mTSkBHEwo/?spm_id_from=333.337.search-card.all.click&vd_source=575dde8aaa5216721d951e465f92f0d8"
     },
     {
-      "id": "es--c-mo-ligar-en-espa-ol-easy-spanish-188-mrlsye3z",
-      "title": "¿Cómo ligar en español? | Easy Spanish 188",
-      "sourceLang": "es",
+      "id": "fr-le-petit-prince-mrp74dfh",
+      "title": "Le Petit Prince",
+      "sourceLang": "fr",
       "nativeLang": "zh",
       "level": "A1",
       "topics": [
@@ -121,9 +136,9 @@
       ],
       "storageLocation": "local",
       "parseStatus": "pending",
-      "createdAt": "2026-07-15T08:12:36.719Z",
-      "updatedAt": "2026-07-17T05:26:55.430Z",
-      "sourceUrl": "https://www.bilibili.com/video/BV1oWKE6cE3G/?vd_source=575dde8aaa5216721d951e465f92f0d8"
+      "createdAt": "2026-07-17T17:12:28.925Z",
+      "updatedAt": "2026-07-17T17:12:28.925Z",
+      "sourceUrl": "https://pan.baidu.com/s/1TTJQfAh7GW3PcVEs-Dls2g?pwd=c1v6"
     }
   ]
 }
