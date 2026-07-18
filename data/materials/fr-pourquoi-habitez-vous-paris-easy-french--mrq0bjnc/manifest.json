@@ -17,23 +17,3606 @@
     "extensive": [
       {
         "start": 0,
-        "end": 600,
+        "end": 515.71,
         "reason": "全片字幕跟随，适合泛听建立整体语境",
-        "durationMinutes": 10
+        "durationMinutes": 9
       }
     ],
     "intensive": [
       {
         "start": 60,
-        "end": 600,
+        "end": 515.71,
         "reason": "默认可精听全片；可用开始/结束秒收窄区间",
-        "durationMinutes": 10
+        "durationMinutes": 9
       }
     ]
   },
-  "vocabulary": [],
+  "vocabulary": [
+    {
+      "id": "vocab-1",
+      "word": "paris",
+      "zh": "",
+      "sentenceIds": [
+        "line-4",
+        "line-7",
+        "line-9",
+        "line-10",
+        "line-12",
+        "line-23",
+        "line-24",
+        "line-25",
+        "line-39",
+        "line-42",
+        "line-43",
+        "line-55",
+        "line-58",
+        "line-61",
+        "line-70",
+        "line-71",
+        "line-73",
+        "line-77",
+        "line-79",
+        "line-85",
+        "line-86",
+        "line-89",
+        "line-92",
+        "line-105",
+        "line-108",
+        "line-110",
+        "line-118",
+        "line-120",
+        "line-125",
+        "line-131",
+        "line-135",
+        "line-136",
+        "line-139",
+        "line-142",
+        "line-144",
+        "line-145",
+        "line-171",
+        "line-172",
+        "line-185",
+        "line-188",
+        "line-198",
+        "line-208"
+      ]
+    },
+    {
+      "id": "vocab-2",
+      "word": "mais",
+      "zh": "",
+      "sentenceIds": [
+        "line-57",
+        "line-58",
+        "line-93",
+        "line-113",
+        "line-114",
+        "line-127",
+        "line-143",
+        "line-159",
+        "line-171",
+        "line-175",
+        "line-179",
+        "line-182",
+        "line-203",
+        "line-209"
+      ]
+    },
+    {
+      "id": "vocab-3",
+      "word": "non",
+      "zh": "",
+      "sentenceIds": [
+        "line-9",
+        "line-10",
+        "line-11",
+        "line-55",
+        "line-118",
+        "line-119",
+        "line-137",
+        "line-156",
+        "line-175",
+        "line-198",
+        "line-202",
+        "line-213"
+      ]
+    },
+    {
+      "id": "vocab-4",
+      "word": "qu",
+      "zh": "",
+      "sentenceIds": [
+        "line-7",
+        "line-22",
+        "line-32",
+        "line-43",
+        "line-117",
+        "line-138",
+        "line-144",
+        "line-158",
+        "line-176",
+        "line-204",
+        "line-222"
+      ]
+    },
+    {
+      "id": "vocab-5",
+      "word": "ai",
+      "zh": "",
+      "sentenceIds": [
+        "line-14",
+        "line-74",
+        "line-79",
+        "line-83",
+        "line-111",
+        "line-115",
+        "line-147",
+        "line-171",
+        "line-172",
+        "line-184",
+        "line-213"
+      ]
+    },
+    {
+      "id": "vocab-6",
+      "word": "ça",
+      "zh": "",
+      "sentenceIds": [
+        "line-13",
+        "line-18",
+        "line-21",
+        "line-45",
+        "line-55",
+        "line-102",
+        "line-103",
+        "line-133",
+        "line-156",
+        "line-173"
+      ]
+    },
+    {
+      "id": "vocab-7",
+      "word": "ya",
+      "zh": "",
+      "sentenceIds": [
+        "line-16",
+        "line-32",
+        "line-44",
+        "line-48",
+        "line-51",
+        "line-81",
+        "line-157",
+        "line-179",
+        "line-199",
+        "line-204"
+      ]
+    },
+    {
+      "id": "vocab-8",
+      "word": "beaucoup",
+      "zh": "",
+      "sentenceIds": [
+        "line-69",
+        "line-80",
+        "line-102",
+        "line-129",
+        "line-140",
+        "line-152",
+        "line-160",
+        "line-168",
+        "line-169",
+        "line-171"
+      ]
+    },
+    {
+      "id": "vocab-9",
+      "word": "donc",
+      "zh": "",
+      "sentenceIds": [
+        "line-84",
+        "line-113",
+        "line-119",
+        "line-122",
+        "line-124",
+        "line-147",
+        "line-151",
+        "line-192",
+        "line-201",
+        "line-206"
+      ]
+    },
+    {
+      "id": "vocab-10",
+      "word": "est-ce",
+      "zh": "",
+      "sentenceIds": [
+        "line-6",
+        "line-9",
+        "line-10",
+        "line-23",
+        "line-38",
+        "line-41",
+        "line-89",
+        "line-131",
+        "line-175"
+      ]
+    },
+    {
+      "id": "vocab-11",
+      "word": "habitez",
+      "zh": "",
+      "sentenceIds": [
+        "line-10",
+        "line-19",
+        "line-39",
+        "line-42",
+        "line-69",
+        "line-71",
+        "line-89",
+        "line-131",
+        "line-163"
+      ]
+    },
+    {
+      "id": "vocab-12",
+      "word": "oui",
+      "zh": "",
+      "sentenceIds": [
+        "line-13",
+        "line-24",
+        "line-61",
+        "line-70",
+        "line-86",
+        "line-131",
+        "line-160",
+        "line-198",
+        "line-207"
+      ]
+    },
+    {
+      "id": "vocab-13",
+      "word": "ville",
+      "zh": "",
+      "sentenceIds": [
+        "line-26",
+        "line-43",
+        "line-59",
+        "line-73",
+        "line-90",
+        "line-108",
+        "line-144",
+        "line-173"
+      ]
+    },
+    {
+      "id": "vocab-14",
+      "word": "parce",
+      "zh": "",
+      "sentenceIds": [
+        "line-26",
+        "line-43",
+        "line-47",
+        "line-79",
+        "line-100",
+        "line-137",
+        "line-145",
+        "line-198"
+      ]
+    },
+    {
+      "id": "vocab-15",
+      "word": "toujours",
+      "zh": "",
+      "sentenceIds": [
+        "line-32",
+        "line-48",
+        "line-54",
+        "line-79",
+        "line-118",
+        "line-134",
+        "line-170",
+        "line-211"
+      ]
+    },
+    {
+      "id": "vocab-16",
+      "word": "quartier",
+      "zh": "",
+      "sentenceIds": [
+        "line-40",
+        "line-61",
+        "line-66",
+        "line-67",
+        "line-163",
+        "line-166",
+        "line-167",
+        "line-170"
+      ]
+    },
+    {
+      "id": "vocab-17",
+      "word": "arrondissement",
+      "zh": "",
+      "sentenceIds": [
+        "line-3",
+        "line-72",
+        "line-117",
+        "line-188",
+        "line-212",
+        "line-215",
+        "line-218"
+      ]
+    },
+    {
+      "id": "vocab-18",
+      "word": "ok",
+      "zh": "",
+      "sentenceIds": [
+        "line-18",
+        "line-41",
+        "line-71",
+        "line-122",
+        "line-124",
+        "line-160",
+        "line-165"
+      ]
+    },
+    {
+      "id": "vocab-19",
+      "word": "bien",
+      "zh": "",
+      "sentenceIds": [
+        "line-22",
+        "line-86",
+        "line-97",
+        "line-112",
+        "line-114",
+        "line-139",
+        "line-176"
+      ]
+    },
+    {
+      "id": "vocab-20",
+      "word": "autre",
+      "zh": "",
+      "sentenceIds": [
+        "line-38",
+        "line-43",
+        "line-59",
+        "line-73",
+        "line-78",
+        "line-90",
+        "line-108"
+      ]
+    },
+    {
+      "id": "vocab-21",
+      "word": "avez",
+      "zh": "",
+      "sentenceIds": [
+        "line-54",
+        "line-56",
+        "line-118",
+        "line-124",
+        "line-134",
+        "line-170",
+        "line-211"
+      ]
+    },
+    {
+      "id": "vocab-22",
+      "word": "au",
+      "zh": "",
+      "sentenceIds": [
+        "line-6",
+        "line-77",
+        "line-85",
+        "line-100",
+        "line-117",
+        "line-167"
+      ]
+    },
+    {
+      "id": "vocab-23",
+      "word": "habité",
+      "zh": "",
+      "sentenceIds": [
+        "line-55",
+        "line-79",
+        "line-134",
+        "line-171",
+        "line-211",
+        "line-213"
+      ]
+    },
+    {
+      "id": "vocab-24",
+      "word": "fait",
+      "zh": "",
+      "sentenceIds": [
+        "line-55",
+        "line-74",
+        "line-85",
+        "line-92",
+        "line-141",
+        "line-198"
+      ]
+    },
+    {
+      "id": "vocab-25",
+      "word": "suis",
+      "zh": "",
+      "sentenceIds": [
+        "line-73",
+        "line-100",
+        "line-109",
+        "line-114",
+        "line-119",
+        "line-157"
+      ]
+    },
+    {
+      "id": "vocab-26",
+      "word": "autres",
+      "zh": "",
+      "sentenceIds": [
+        "line-115",
+        "line-126",
+        "line-127",
+        "line-157",
+        "line-176",
+        "line-180"
+      ]
+    },
+    {
+      "id": "vocab-27",
+      "word": "aime",
+      "zh": "",
+      "sentenceIds": [
+        "line-15",
+        "line-28",
+        "line-69",
+        "line-80",
+        "line-152"
+      ]
+    },
+    {
+      "id": "vocab-28",
+      "word": "travaille",
+      "zh": "",
+      "sentenceIds": [
+        "line-27",
+        "line-74",
+        "line-121",
+        "line-162",
+        "line-187"
+      ]
+    },
+    {
+      "id": "vocab-29",
+      "word": "accord",
+      "zh": "",
+      "sentenceIds": [
+        "line-58",
+        "line-72",
+        "line-133",
+        "line-134",
+        "line-196"
+      ]
+    },
+    {
+      "id": "vocab-30",
+      "word": "france",
+      "zh": "",
+      "sentenceIds": [
+        "line-158",
+        "line-180",
+        "line-200",
+        "line-203",
+        "line-211"
+      ]
+    },
+    {
+      "id": "vocab-31",
+      "word": "parisien",
+      "zh": "",
+      "sentenceIds": [
+        "line-6",
+        "line-45",
+        "line-88",
+        "line-109"
+      ]
+    },
+    {
+      "id": "vocab-32",
+      "word": "voilà",
+      "zh": "",
+      "sentenceIds": [
+        "line-9",
+        "line-76",
+        "line-147",
+        "line-192"
+      ]
+    },
+    {
+      "id": "vocab-33",
+      "word": "moins",
+      "zh": "",
+      "sentenceIds": [
+        "line-13",
+        "line-20",
+        "line-22",
+        "line-169"
+      ]
+    },
+    {
+      "id": "vocab-34",
+      "word": "études",
+      "zh": "",
+      "sentenceIds": [
+        "line-15",
+        "line-59",
+        "line-75",
+        "line-128"
+      ]
+    },
+    {
+      "id": "vocab-35",
+      "word": "vraiment",
+      "zh": "",
+      "sentenceIds": [
+        "line-15",
+        "line-111",
+        "line-140",
+        "line-141"
+      ]
+    },
+    {
+      "id": "vocab-36",
+      "word": "si",
+      "zh": "",
+      "sentenceIds": [
+        "line-26",
+        "line-69",
+        "line-139",
+        "line-170"
+      ]
+    },
+    {
+      "id": "vocab-37",
+      "word": "habite",
+      "zh": "",
+      "sentenceIds": [
+        "line-41",
+        "line-43",
+        "line-70",
+        "line-120"
+      ]
+    },
+    {
+      "id": "vocab-38",
+      "word": "ans",
+      "zh": "",
+      "sentenceIds": [
+        "line-55",
+        "line-123",
+        "line-124",
+        "line-219"
+      ]
+    },
+    {
+      "id": "vocab-39",
+      "word": "ici",
+      "zh": "",
+      "sentenceIds": [
+        "line-56",
+        "line-74",
+        "line-76",
+        "line-95"
+      ]
+    },
+    {
+      "id": "vocab-40",
+      "word": "peu",
+      "zh": "",
+      "sentenceIds": [
+        "line-57",
+        "line-199",
+        "line-202",
+        "line-223"
+      ]
+    },
+    {
+      "id": "vocab-41",
+      "word": "travail",
+      "zh": "",
+      "sentenceIds": [
+        "line-59",
+        "line-125",
+        "line-127",
+        "line-160"
+      ]
+    },
+    {
+      "id": "vocab-42",
+      "word": "partir",
+      "zh": "",
+      "sentenceIds": [
+        "line-93",
+        "line-96",
+        "line-97",
+        "line-186"
+      ]
+    },
+    {
+      "id": "vocab-43",
+      "word": "depuis",
+      "zh": "",
+      "sentenceIds": [
+        "line-120",
+        "line-122",
+        "line-132",
+        "line-218"
+      ]
+    },
+    {
+      "id": "vocab-44",
+      "word": "Musique",
+      "zh": "",
+      "sentenceIds": [
+        "line-178",
+        "line-216",
+        "line-220",
+        "line-233"
+      ]
+    },
+    {
+      "id": "vocab-45",
+      "word": "entrepreneurs",
+      "zh": "",
+      "sentenceIds": [
+        "line-189",
+        "line-193",
+        "line-199",
+        "line-205"
+      ]
+    },
+    {
+      "id": "vocab-46",
+      "word": "partout",
+      "zh": "",
+      "sentenceIds": [
+        "line-199",
+        "line-202",
+        "line-205",
+        "line-206"
+      ]
+    },
+    {
+      "id": "vocab-47",
+      "word": "suisse",
+      "zh": "",
+      "sentenceIds": [
+        "line-19",
+        "line-20",
+        "line-155"
+      ]
+    },
+    {
+      "id": "vocab-48",
+      "word": "inviter",
+      "zh": "",
+      "sentenceIds": [
+        "line-23",
+        "line-25",
+        "line-85"
+      ]
+    },
+    {
+      "id": "vocab-49",
+      "word": "notre",
+      "zh": "",
+      "sentenceIds": [
+        "line-26",
+        "line-136",
+        "line-228"
+      ]
+    },
+    {
+      "id": "vocab-50",
+      "word": "tout",
+      "zh": "",
+      "sentenceIds": [
+        "line-28",
+        "line-81",
+        "line-91"
+      ]
+    },
+    {
+      "id": "vocab-51",
+      "word": "trouve",
+      "zh": "",
+      "sentenceIds": [
+        "line-29",
+        "line-32",
+        "line-37"
+      ]
+    },
+    {
+      "id": "vocab-52",
+      "word": "ouais",
+      "zh": "",
+      "sentenceIds": [
+        "line-39",
+        "line-137",
+        "line-159"
+      ]
+    },
+    {
+      "id": "vocab-53",
+      "word": "gens",
+      "zh": "",
+      "sentenceIds": [
+        "line-47",
+        "line-101",
+        "line-202"
+      ]
+    },
+    {
+      "id": "vocab-54",
+      "word": "tous",
+      "zh": "",
+      "sentenceIds": [
+        "line-49",
+        "line-66",
+        "line-80"
+      ]
+    },
+    {
+      "id": "vocab-55",
+      "word": "aller",
+      "zh": "",
+      "sentenceIds": [
+        "line-52",
+        "line-113",
+        "line-184"
+      ]
+    },
+    {
+      "id": "vocab-56",
+      "word": "mieux",
+      "zh": "",
+      "sentenceIds": [
+        "line-53",
+        "line-207",
+        "line-224"
+      ]
+    },
+    {
+      "id": "vocab-57",
+      "word": "vidéo",
+      "zh": "",
+      "sentenceIds": [
+        "line-54",
+        "line-226",
+        "line-231"
+      ]
+    },
+    {
+      "id": "vocab-58",
+      "word": "été",
+      "zh": "",
+      "sentenceIds": [
+        "line-57",
+        "line-172",
+        "line-173"
+      ]
+    },
+    {
+      "id": "vocab-59",
+      "word": "font",
+      "zh": "",
+      "sentenceIds": [
+        "line-59",
+        "line-158",
+        "line-177"
+      ]
+    },
+    {
+      "id": "vocab-60",
+      "word": "entre",
+      "zh": "",
+      "sentenceIds": [
+        "line-76",
+        "line-106",
+        "line-193"
+      ]
+    },
+    {
+      "id": "vocab-61",
+      "word": "était",
+      "zh": "",
+      "sentenceIds": [
+        "line-82",
+        "line-127",
+        "line-129"
+      ]
+    },
+    {
+      "id": "vocab-62",
+      "word": "facile",
+      "zh": "",
+      "sentenceIds": [
+        "line-84",
+        "line-88",
+        "line-130"
+      ]
+    },
+    {
+      "id": "vocab-63",
+      "word": "ailleurs",
+      "zh": "",
+      "sentenceIds": [
+        "line-93",
+        "line-112",
+        "line-210"
+      ]
+    },
+    {
+      "id": "vocab-64",
+      "word": "bordeaux",
+      "zh": "",
+      "sentenceIds": [
+        "line-98",
+        "line-99",
+        "line-149"
+      ]
+    },
+    {
+      "id": "vocab-65",
+      "word": "parisiens",
+      "zh": "",
+      "sentenceIds": [
+        "line-104",
+        "line-143",
+        "line-224"
+      ]
+    },
+    {
+      "id": "vocab-66",
+      "word": "villes",
+      "zh": "",
+      "sentenceIds": [
+        "line-140",
+        "line-157",
+        "line-177"
+      ]
+    },
+    {
+      "id": "vocab-67",
+      "word": "me",
+      "zh": "",
+      "sentenceIds": [
+        "line-149",
+        "line-159",
+        "line-174"
+      ]
+    },
+    {
+      "id": "vocab-68",
+      "word": "entreprise",
+      "zh": "",
+      "sentenceIds": [
+        "line-192",
+        "line-195",
+        "line-208"
+      ]
+    },
+    {
+      "id": "vocab-69",
+      "word": "épisode",
+      "zh": "",
+      "sentenceIds": [
+        "line-2",
+        "line-221"
+      ]
+    },
+    {
+      "id": "vocab-70",
+      "word": "10e",
+      "zh": "",
+      "sentenceIds": [
+        "line-3",
+        "line-188"
+      ]
+    },
+    {
+      "id": "vocab-71",
+      "word": "quartiers",
+      "zh": "",
+      "sentenceIds": [
+        "line-4",
+        "line-35"
+      ]
+    },
+    {
+      "id": "vocab-72",
+      "word": "capitale",
+      "zh": "",
+      "sentenceIds": [
+        "line-5",
+        "line-81"
+      ]
+    },
+    {
+      "id": "vocab-73",
+      "word": "ont",
+      "zh": "",
+      "sentenceIds": [
+        "line-7",
+        "line-57"
+      ]
+    },
+    {
+      "id": "vocab-74",
+      "word": "aimeriez",
+      "zh": "",
+      "sentenceIds": [
+        "line-11",
+        "line-60"
+      ]
+    },
+    {
+      "id": "vocab-75",
+      "word": "moi",
+      "zh": "",
+      "sentenceIds": [
+        "line-14",
+        "line-97"
+      ]
+    },
+    {
+      "id": "vocab-76",
+      "word": "culturelle",
+      "zh": "",
+      "sentenceIds": [
+        "line-16",
+        "line-44"
+      ]
+    },
+    {
+      "id": "vocab-77",
+      "word": "se",
+      "zh": "",
+      "sentenceIds": [
+        "line-17",
+        "line-174"
+      ]
+    },
+    {
+      "id": "vocab-78",
+      "word": "maintenant",
+      "zh": "",
+      "sentenceIds": [
+        "line-18",
+        "line-26"
+      ]
+    },
+    {
+      "id": "vocab-79",
+      "word": "rigolo",
+      "zh": "",
+      "sentenceIds": [
+        "line-20",
+        "line-22"
+      ]
+    },
+    {
+      "id": "vocab-80",
+      "word": "heure",
+      "zh": "",
+      "sentenceIds": [
+        "line-31",
+        "line-91"
+      ]
+    },
+    {
+      "id": "vocab-81",
+      "word": "15e",
+      "zh": "",
+      "sentenceIds": [
+        "line-41",
+        "line-215"
+      ]
+    },
+    {
+      "id": "vocab-82",
+      "word": "dit",
+      "zh": "",
+      "sentenceIds": [
+        "line-46",
+        "line-160"
+      ]
+    },
+    {
+      "id": "vocab-83",
+      "word": "sais",
+      "zh": "",
+      "sentenceIds": [
+        "line-46",
+        "line-113"
+      ]
+    },
+    {
+      "id": "vocab-84",
+      "word": "faire",
+      "zh": "",
+      "sentenceIds": [
+        "line-48",
+        "line-228"
+      ]
+    },
+    {
+      "id": "vocab-85",
+      "word": "regarder",
+      "zh": "",
+      "sentenceIds": [
+        "line-49",
+        "line-221"
+      ]
+    },
+    {
+      "id": "vocab-86",
+      "word": "cool",
+      "zh": "",
+      "sentenceIds": [
+        "line-54",
+        "line-102"
+      ]
+    },
+    {
+      "id": "vocab-87",
+      "word": "vivre",
+      "zh": "",
+      "sentenceIds": [
+        "line-60",
+        "line-85"
+      ]
+    },
+    {
+      "id": "vocab-88",
+      "word": "vos",
+      "zh": "",
+      "sentenceIds": [
+        "line-62",
+        "line-173"
+      ]
+    },
+    {
+      "id": "vocab-89",
+      "word": "rêves",
+      "zh": "",
+      "sentenceIds": [
+        "line-62",
+        "line-173"
+      ]
+    },
+    {
+      "id": "vocab-90",
+      "word": "cas",
+      "zh": "",
+      "sentenceIds": [
+        "line-69",
+        "line-80"
+      ]
+    },
+    {
+      "id": "vocab-91",
+      "word": "assez",
+      "zh": "",
+      "sentenceIds": [
+        "line-84",
+        "line-86"
+      ]
+    },
+    {
+      "id": "vocab-92",
+      "word": "allez",
+      "zh": "",
+      "sentenceIds": [
+        "line-86",
+        "line-228"
+      ]
+    },
+    {
+      "id": "vocab-93",
+      "word": "français",
+      "zh": "",
+      "sentenceIds": [
+        "line-87",
+        "line-155"
+      ]
+    },
+    {
+      "id": "vocab-94",
+      "word": "difficile",
+      "zh": "",
+      "sentenceIds": [
+        "line-94",
+        "line-97"
+      ]
+    },
+    {
+      "id": "vocab-95",
+      "word": "aimerais",
+      "zh": "",
+      "sentenceIds": [
+        "line-97",
+        "line-112"
+      ]
+    },
+    {
+      "id": "vocab-96",
+      "word": "sud-ouest",
+      "zh": "",
+      "sentenceIds": [
+        "line-100",
+        "line-101"
+      ]
+    },
+    {
+      "id": "vocab-97",
+      "word": "là",
+      "zh": "",
+      "sentenceIds": [
+        "line-102",
+        "line-162"
+      ]
+    },
+    {
+      "id": "vocab-98",
+      "word": "abord",
+      "zh": "",
+      "sentenceIds": [
+        "line-103",
+        "line-213"
+      ]
+    },
+    {
+      "id": "vocab-99",
+      "word": "vivez",
+      "zh": "",
+      "sentenceIds": [
+        "line-105",
+        "line-225"
+      ]
+    },
+    {
+      "id": "vocab-100",
+      "word": "instant",
+      "zh": "",
+      "sentenceIds": [
+        "line-116",
+        "line-183"
+      ]
+    },
+    {
+      "id": "vocab-101",
+      "word": "20",
+      "zh": "",
+      "sentenceIds": [
+        "line-123",
+        "line-219"
+      ]
+    },
+    {
+      "id": "vocab-102",
+      "word": "raisons",
+      "zh": "",
+      "sentenceIds": [
+        "line-126",
+        "line-127"
+      ]
+    },
+    {
+      "id": "vocab-103",
+      "word": "vie",
+      "zh": "",
+      "sentenceIds": [
+        "line-136",
+        "line-161"
+      ]
+    },
+    {
+      "id": "vocab-104",
+      "word": "monde",
+      "zh": "",
+      "sentenceIds": [
+        "line-137",
+        "line-141"
+      ]
+    },
+    {
+      "id": "vocab-105",
+      "word": "tour",
+      "zh": "",
+      "sentenceIds": [
+        "line-141",
+        "line-228"
+      ]
+    },
+    {
+      "id": "vocab-106",
+      "word": "peut-être",
+      "zh": "",
+      "sentenceIds": [
+        "line-143",
+        "line-179"
+      ]
+    },
+    {
+      "id": "vocab-107",
+      "word": "déménager",
+      "zh": "",
+      "sentenceIds": [
+        "line-145",
+        "line-148"
+      ]
+    },
+    {
+      "id": "vocab-108",
+      "word": "culture",
+      "zh": "",
+      "sentenceIds": [
+        "line-150",
+        "line-151"
+      ]
+    },
+    {
+      "id": "vocab-109",
+      "word": "réseau",
+      "zh": "",
+      "sentenceIds": [
+        "line-189",
+        "line-201"
+      ]
+    },
+    {
+      "id": "vocab-110",
+      "word": "chefs",
+      "zh": "",
+      "sentenceIds": [
+        "line-189",
+        "line-191"
+      ]
+    },
+    {
+      "id": "vocab-111",
+      "word": "entreprises",
+      "zh": "",
+      "sentenceIds": [
+        "line-190",
+        "line-197"
+      ]
+    },
+    {
+      "id": "vocab-112",
+      "word": "digital",
+      "zh": "",
+      "sentenceIds": [
+        "line-208",
+        "line-210"
+      ]
+    },
+    {
+      "id": "vocab-113",
+      "word": "14e",
+      "zh": "",
+      "sentenceIds": [
+        "line-212",
+        "line-218"
+      ]
+    },
+    {
+      "id": "vocab-114",
+      "word": "ensuite",
+      "zh": "",
+      "sentenceIds": [
+        "line-214",
+        "line-217"
+      ]
+    },
+    {
+      "id": "vocab-115",
+      "word": "bonjour",
+      "zh": "",
+      "sentenceIds": [
+        "line-1"
+      ]
+    },
+    {
+      "id": "vocab-116",
+      "word": "bienvenue",
+      "zh": "",
+      "sentenceIds": [
+        "line-1"
+      ]
+    },
+    {
+      "id": "vocab-117",
+      "word": "nouvel",
+      "zh": "",
+      "sentenceIds": [
+        "line-1"
+      ]
+    },
+    {
+      "id": "vocab-118",
+      "word": "easy",
+      "zh": "",
+      "sentenceIds": [
+        "line-2"
+      ]
+    },
+    {
+      "id": "vocab-119",
+      "word": "french",
+      "zh": "",
+      "sentenceIds": [
+        "line-2"
+      ]
+    },
+    {
+      "id": "vocab-120",
+      "word": "aujourd",
+      "zh": "",
+      "sentenceIds": [
+        "line-2"
+      ]
+    },
+    {
+      "id": "vocab-121",
+      "word": "hui",
+      "zh": "",
+      "sentenceIds": [
+        "line-2"
+      ]
+    },
+    {
+      "id": "vocab-122",
+      "word": "sommes",
+      "zh": "",
+      "sentenceIds": [
+        "line-3"
+      ]
+    },
+    {
+      "id": "vocab-123",
+      "word": "nouveaux",
+      "zh": "",
+      "sentenceIds": [
+        "line-4"
+      ]
+    },
+    {
+      "id": "vocab-124",
+      "word": "jeune",
+      "zh": "",
+      "sentenceIds": [
+        "line-4"
+      ]
+    },
+    {
+      "id": "vocab-125",
+      "word": "branché",
+      "zh": "",
+      "sentenceIds": [
+        "line-5"
+      ]
+    },
+    {
+      "id": "vocab-126",
+      "word": "allons",
+      "zh": "",
+      "sentenceIds": [
+        "line-5"
+      ]
+    },
+    {
+      "id": "vocab-127",
+      "word": "demander",
+      "zh": "",
+      "sentenceIds": [
+        "line-6"
+      ]
+    },
+    {
+      "id": "vocab-128",
+      "word": "décidé",
+      "zh": "",
+      "sentenceIds": [
+        "line-7"
+      ]
+    },
+    {
+      "id": "vocab-129",
+      "word": "emménager",
+      "zh": "",
+      "sentenceIds": [
+        "line-7"
+      ]
+    },
+    {
+      "id": "vocab-130",
+      "word": "va",
+      "zh": "",
+      "sentenceIds": [
+        "line-8"
+      ]
+    },
+    {
+      "id": "vocab-131",
+      "word": "évitez",
+      "zh": "",
+      "sentenceIds": [
+        "line-9"
+      ]
+    },
+    {
+      "id": "vocab-132",
+      "word": "habiter",
+      "zh": "",
+      "sentenceIds": [
+        "line-11"
+      ]
+    },
+    {
+      "id": "vocab-133",
+      "word": "vécu",
+      "zh": "",
+      "sentenceIds": [
+        "line-14"
+      ]
+    },
+    {
+      "id": "vocab-134",
+      "word": "quelques",
+      "zh": "",
+      "sentenceIds": [
+        "line-14"
+      ]
+    },
+    {
+      "id": "vocab-135",
+      "word": "mois",
+      "zh": "",
+      "sentenceIds": [
+        "line-14"
+      ]
+    },
+    {
+      "id": "vocab-136",
+      "word": "énormément",
+      "zh": "",
+      "sentenceIds": [
+        "line-15"
+      ]
+    },
+    {
+      "id": "vocab-137",
+      "word": "offre",
+      "zh": "",
+      "sentenceIds": [
+        "line-16"
+      ]
+    },
+    {
+      "id": "vocab-138",
+      "word": "tellement",
+      "zh": "",
+      "sentenceIds": [
+        "line-16"
+      ]
+    },
+    {
+      "id": "vocab-139",
+      "word": "choses",
+      "zh": "",
+      "sentenceIds": [
+        "line-17"
+      ]
+    },
+    {
+      "id": "vocab-140",
+      "word": "passent",
+      "zh": "",
+      "sentenceIds": [
+        "line-17"
+      ]
+    },
+    {
+      "id": "vocab-141",
+      "word": "temps",
+      "zh": "",
+      "sentenceIds": [
+        "line-17"
+      ]
+    },
+    {
+      "id": "vocab-142",
+      "word": "principalement",
+      "zh": "",
+      "sentenceIds": [
+        "line-18"
+      ]
+    },
+    {
+      "id": "vocab-143",
+      "word": "reviens",
+      "zh": "",
+      "sentenceIds": [
+        "line-20"
+      ]
+    },
+    {
+      "id": "vocab-144",
+      "word": "dépend",
+      "zh": "",
+      "sentenceIds": [
+        "line-21"
+      ]
+    },
+    {
+      "id": "vocab-145",
+      "word": "mai",
+      "zh": "",
+      "sentenceIds": [
+        "line-21"
+      ]
+    },
+    {
+      "id": "vocab-146",
+      "word": "peser",
+      "zh": "",
+      "sentenceIds": [
+        "line-22"
+      ]
+    },
+    {
+      "id": "vocab-147",
+      "word": "valises",
+      "zh": "",
+      "sentenceIds": [
+        "line-24"
+      ]
+    },
+    {
+      "id": "vocab-148",
+      "word": "cela",
+      "zh": "",
+      "sentenceIds": [
+        "line-29"
+      ]
+    },
+    {
+      "id": "vocab-149",
+      "word": "particulièrement",
+      "zh": "",
+      "sentenceIds": [
+        "line-29"
+      ]
+    },
+    {
+      "id": "vocab-150",
+      "word": "belle",
+      "zh": "",
+      "sentenceIds": [
+        "line-30"
+      ]
+    },
+    {
+      "id": "vocab-151",
+      "word": "soient",
+      "zh": "",
+      "sentenceIds": [
+        "line-30"
+      ]
+    },
+    {
+      "id": "vocab-152",
+      "word": "saisons",
+      "zh": "",
+      "sentenceIds": [
+        "line-30"
+      ]
+    },
+    {
+      "id": "vocab-153",
+      "word": "soit",
+      "zh": "",
+      "sentenceIds": [
+        "line-31"
+      ]
+    },
+    {
+      "id": "vocab-154",
+      "word": "jour",
+      "zh": "",
+      "sentenceIds": [
+        "line-31"
+      ]
+    },
+    {
+      "id": "vocab-155",
+      "word": "lumière",
+      "zh": "",
+      "sentenceIds": [
+        "line-32"
+      ]
+    },
+    {
+      "id": "vocab-156",
+      "word": "exceptionnelle",
+      "zh": "",
+      "sentenceIds": [
+        "line-33"
+      ]
+    },
+    {
+      "id": "vocab-157",
+      "word": "plupart",
+      "zh": "",
+      "sentenceIds": [
+        "line-33"
+      ]
+    },
+    {
+      "id": "vocab-158",
+      "word": "bâtiments",
+      "zh": "",
+      "sentenceIds": [
+        "line-34"
+      ]
+    },
+    {
+      "id": "vocab-159",
+      "word": "beaux",
+      "zh": "",
+      "sentenceIds": [
+        "line-34"
+      ]
+    },
+    {
+      "id": "vocab-160",
+      "word": "puis",
+      "zh": "",
+      "sentenceIds": [
+        "line-34"
+      ]
+    },
+    {
+      "id": "vocab-161",
+      "word": "complètement",
+      "zh": "",
+      "sentenceIds": [
+        "line-35"
+      ]
+    },
+    {
+      "id": "vocab-162",
+      "word": "différents",
+      "zh": "",
+      "sentenceIds": [
+        "line-36"
+      ]
+    },
+    {
+      "id": "vocab-163",
+      "word": "voyage",
+      "zh": "",
+      "sentenceIds": [
+        "line-38"
+      ]
+    },
+    {
+      "id": "vocab-164",
+      "word": "endroit",
+      "zh": "",
+      "sentenceIds": [
+        "line-38"
+      ]
+    },
+    {
+      "id": "vocab-165",
+      "word": "g8",
+      "zh": "",
+      "sentenceIds": [
+        "line-39"
+      ]
+    },
+    {
+      "id": "vocab-166",
+      "word": "wen",
+      "zh": "",
+      "sentenceIds": [
+        "line-40"
+      ]
+    },
+    {
+      "id": "vocab-167",
+      "word": "densité",
+      "zh": "",
+      "sentenceIds": [
+        "line-44"
+      ]
+    },
+    {
+      "id": "vocab-168",
+      "word": "rigoler",
+      "zh": "",
+      "sentenceIds": [
+        "line-45"
+      ]
+    },
+    {
+      "id": "vocab-169",
+      "word": "comme",
+      "zh": "",
+      "sentenceIds": [
+        "line-45"
+      ]
+    },
+    {
+      "id": "vocab-170",
+      "word": "rien",
+      "zh": "",
+      "sentenceIds": [
+        "line-45"
+      ]
+    },
+    {
+      "id": "vocab-171",
+      "word": "puisque",
+      "zh": "",
+      "sentenceIds": [
+        "line-46"
+      ]
+    },
+    {
+      "id": "vocab-172",
+      "word": "inspirant",
+      "zh": "",
+      "sentenceIds": [
+        "line-47"
+      ]
+    },
+    {
+      "id": "vocab-173",
+      "word": "sympas",
+      "zh": "",
+      "sentenceIds": [
+        "line-47"
+      ]
+    },
+    {
+      "id": "vocab-174",
+      "word": "quelque",
+      "zh": "",
+      "sentenceIds": [
+        "line-48"
+      ]
+    },
+    {
+      "id": "vocab-175",
+      "word": "chose",
+      "zh": "",
+      "sentenceIds": [
+        "line-48"
+      ]
+    },
+    {
+      "id": "vocab-176",
+      "word": "jours",
+      "zh": "",
+      "sentenceIds": [
+        "line-49"
+      ]
+    },
+    {
+      "id": "vocab-177",
+      "word": "êtes",
+      "zh": "",
+      "sentenceIds": [
+        "line-49"
+      ]
+    },
+    {
+      "id": "vocab-178",
+      "word": "train",
+      "zh": "",
+      "sentenceIds": [
+        "line-50"
+      ]
+    },
+    {
+      "id": "vocab-179",
+      "word": "montrer",
+      "zh": "",
+      "sentenceIds": [
+        "line-50"
+      ]
+    },
+    {
+      "id": "vocab-180",
+      "word": "vais",
+      "zh": "",
+      "sentenceIds": [
+        "line-50"
+      ]
+    },
+    {
+      "id": "vocab-181",
+      "word": "rues",
+      "zh": "",
+      "sentenceIds": [
+        "line-51"
+      ]
+    },
+    {
+      "id": "vocab-182",
+      "word": "personne",
+      "zh": "",
+      "sentenceIds": [
+        "line-51"
+      ]
+    },
+    {
+      "id": "vocab-183",
+      "word": "génial",
+      "zh": "",
+      "sentenceIds": [
+        "line-51"
+      ]
+    },
+    {
+      "id": "vocab-184",
+      "word": "15",
+      "zh": "",
+      "sentenceIds": [
+        "line-52"
+      ]
+    },
+    {
+      "id": "vocab-185",
+      "word": "heures",
+      "zh": "",
+      "sentenceIds": [
+        "line-52"
+      ]
+    },
+    {
+      "id": "vocab-186",
+      "word": "faim",
+      "zh": "",
+      "sentenceIds": [
+        "line-52"
+      ]
+    },
+    {
+      "id": "vocab-187",
+      "word": "peut",
+      "zh": "",
+      "sentenceIds": [
+        "line-52"
+      ]
+    },
+    {
+      "id": "vocab-188",
+      "word": "bouffer",
+      "zh": "",
+      "sentenceIds": [
+        "line-53"
+      ]
+    },
+    {
+      "id": "vocab-189",
+      "word": "sympa",
+      "zh": "",
+      "sentenceIds": [
+        "line-53"
+      ]
+    },
+    {
+      "id": "vocab-190",
+      "word": "sept",
+      "zh": "",
+      "sentenceIds": [
+        "line-55"
+      ]
+    },
+    {
+      "id": "vocab-191",
+      "word": "engagé",
+      "zh": "",
+      "sentenceIds": [
+        "line-56"
+      ]
+    },
+    {
+      "id": "vocab-192",
+      "word": "directement",
+      "zh": "",
+      "sentenceIds": [
+        "line-56"
+      ]
+    },
+    {
+      "id": "vocab-193",
+      "word": "compliqué",
+      "zh": "",
+      "sentenceIds": [
+        "line-57"
+      ]
+    },
+    {
+      "id": "vocab-194",
+      "word": "reconnus",
+      "zh": "",
+      "sentenceIds": [
+        "line-57"
+      ]
+    },
+    {
+      "id": "vocab-195",
+      "word": "centre",
+      "zh": "",
+      "sentenceIds": [
+        "line-60"
+      ]
+    },
+    {
+      "id": "vocab-196",
+      "word": "serait",
+      "zh": "",
+      "sentenceIds": [
+        "line-61"
+      ]
+    },
+    {
+      "id": "vocab-197",
+      "word": "cinquième",
+      "zh": "",
+      "sentenceIds": [
+        "line-63"
+      ]
+    },
+    {
+      "id": "vocab-198",
+      "word": "car",
+      "zh": "",
+      "sentenceIds": [
+        "line-64"
+      ]
+    },
+    {
+      "id": "vocab-199",
+      "word": "luxembourg",
+      "zh": "",
+      "sentenceIds": [
+        "line-64"
+      ]
+    },
+    {
+      "id": "vocab-200",
+      "word": "jardin",
+      "zh": "",
+      "sentenceIds": [
+        "line-65"
+      ]
+    },
+    {
+      "id": "vocab-201",
+      "word": "librairies",
+      "zh": "",
+      "sentenceIds": [
+        "line-65"
+      ]
+    },
+    {
+      "id": "vocab-202",
+      "word": "cinéma",
+      "zh": "",
+      "sentenceIds": [
+        "line-65"
+      ]
+    },
+    {
+      "id": "vocab-203",
+      "word": "petits",
+      "zh": "",
+      "sentenceIds": [
+        "line-66"
+      ]
+    },
+    {
+      "id": "vocab-204",
+      "word": "cinémas",
+      "zh": "",
+      "sentenceIds": [
+        "line-66"
+      ]
+    },
+    {
+      "id": "vocab-205",
+      "word": "100e",
+      "zh": "",
+      "sentenceIds": [
+        "line-67"
+      ]
+    },
+    {
+      "id": "vocab-206",
+      "word": "charme",
+      "zh": "",
+      "sentenceIds": [
+        "line-67"
+      ]
+    },
+    {
+      "id": "vocab-207",
+      "word": "hauteur",
+      "zh": "",
+      "sentenceIds": [
+        "line-68"
+      ]
+    },
+    {
+      "id": "vocab-208",
+      "word": "8ème",
+      "zh": "",
+      "sentenceIds": [
+        "line-71"
+      ]
+    },
+    {
+      "id": "vocab-209",
+      "word": "né",
+      "zh": "",
+      "sentenceIds": [
+        "line-73"
+      ]
+    },
+    {
+      "id": "vocab-210",
+      "word": "états",
+      "zh": "",
+      "sentenceIds": [
+        "line-76"
+      ]
+    },
+    {
+      "id": "vocab-211",
+      "word": "unis",
+      "zh": "",
+      "sentenceIds": [
+        "line-76"
+      ]
+    },
+    {
+      "id": "vocab-212",
+      "word": "retourne",
+      "zh": "",
+      "sentenceIds": [
+        "line-77"
+      ]
+    },
+    {
+      "id": "vocab-213",
+      "word": "bercail",
+      "zh": "",
+      "sentenceIds": [
+        "line-77"
+      ]
+    },
+    {
+      "id": "vocab-214",
+      "word": "île",
+      "zh": "",
+      "sentenceIds": [
+        "line-78"
+      ]
+    },
+    {
+      "id": "vocab-215",
+      "word": "cherchais",
+      "zh": "",
+      "sentenceIds": [
+        "line-83"
+      ]
+    },
+    {
+      "id": "vocab-216",
+      "word": "boulots",
+      "zh": "",
+      "sentenceIds": [
+        "line-83"
+      ]
+    },
+    {
+      "id": "vocab-217",
+      "word": "jamais",
+      "zh": "",
+      "sentenceIds": [
+        "line-83"
+      ]
+    },
+    {
+      "id": "vocab-218",
+      "word": "galères",
+      "zh": "",
+      "sentenceIds": [
+        "line-84"
+      ]
+    },
+    {
+      "id": "vocab-219",
+      "word": "axa",
+      "zh": "",
+      "sentenceIds": [
+        "line-87"
+      ]
+    },
+    {
+      "id": "vocab-220",
+      "word": "typique",
+      "zh": "",
+      "sentenceIds": [
+        "line-88"
+      ]
+    },
+    {
+      "id": "vocab-221",
+      "word": "justement",
+      "zh": "",
+      "sentenceIds": [
+        "line-90"
+      ]
+    },
+    {
+      "id": "vocab-222",
+      "word": "parlait",
+      "zh": "",
+      "sentenceIds": [
+        "line-91"
+      ]
+    },
+    {
+      "id": "vocab-223",
+      "word": "coincé",
+      "zh": "",
+      "sentenceIds": [
+        "line-92"
+      ]
+    },
+    {
+      "id": "vocab-224",
+      "word": "rêve",
+      "zh": "",
+      "sentenceIds": [
+        "line-93"
+      ]
+    },
+    {
+      "id": "vocab-225",
+      "word": "après",
+      "zh": "",
+      "sentenceIds": [
+        "line-93"
+      ]
+    },
+    {
+      "id": "vocab-226",
+      "word": "évolue",
+      "zh": "",
+      "sentenceIds": [
+        "line-94"
+      ]
+    },
+    {
+      "id": "vocab-227",
+      "word": "enfants",
+      "zh": "",
+      "sentenceIds": [
+        "line-94"
+      ]
+    },
+    {
+      "id": "vocab-228",
+      "word": "métiers",
+      "zh": "",
+      "sentenceIds": [
+        "line-95"
+      ]
+    },
+    {
+      "id": "vocab-229",
+      "word": "couples",
+      "zh": "",
+      "sentenceIds": [
+        "line-96"
+      ]
+    },
+    {
+      "id": "vocab-230",
+      "word": "bleu",
+      "zh": "",
+      "sentenceIds": [
+        "line-96"
+      ]
+    },
+    {
+      "id": "vocab-231",
+      "word": "attachée",
+      "zh": "",
+      "sentenceIds": [
+        "line-100"
+      ]
+    },
+    {
+      "id": "vocab-232",
+      "word": "aux",
+      "zh": "",
+      "sentenceIds": [
+        "line-101"
+      ]
+    },
+    {
+      "id": "vocab-233",
+      "word": "laver",
+      "zh": "",
+      "sentenceIds": [
+        "line-101"
+      ]
+    },
+    {
+      "id": "vocab-234",
+      "word": "bas",
+      "zh": "",
+      "sentenceIds": [
+        "line-102"
+      ]
+    },
+    {
+      "id": "vocab-235",
+      "word": "évite",
+      "zh": "",
+      "sentenceIds": [
+        "line-102"
+      ]
+    },
+    {
+      "id": "vocab-236",
+      "word": "avant",
+      "zh": "",
+      "sentenceIds": [
+        "line-103"
+      ]
+    },
+    {
+      "id": "vocab-237",
+      "word": "éviterait",
+      "zh": "",
+      "sentenceIds": [
+        "line-103"
+      ]
+    },
+    {
+      "id": "vocab-238",
+      "word": "pâtir",
+      "zh": "",
+      "sentenceIds": [
+        "line-103"
+      ]
+    },
+    {
+      "id": "vocab-239",
+      "word": "exemple",
+      "zh": "",
+      "sentenceIds": [
+        "line-104"
+      ]
+    },
+    {
+      "id": "vocab-240",
+      "word": "saluant",
+      "zh": "",
+      "sentenceIds": [
+        "line-105"
+      ]
+    },
+    {
+      "id": "vocab-241",
+      "word": "ainsi",
+      "zh": "",
+      "sentenceIds": [
+        "line-105"
+      ]
+    },
+    {
+      "id": "vocab-242",
+      "word": "deuxième",
+      "zh": "",
+      "sentenceIds": [
+        "line-105"
+      ]
+    },
+    {
+      "id": "vocab-243",
+      "word": "gare",
+      "zh": "",
+      "sentenceIds": [
+        "line-106"
+      ]
+    },
+    {
+      "id": "vocab-244",
+      "word": "lyon",
+      "zh": "",
+      "sentenceIds": [
+        "line-106"
+      ]
+    },
+    {
+      "id": "vocab-245",
+      "word": "bastille",
+      "zh": "",
+      "sentenceIds": [
+        "line-107"
+      ]
+    },
+    {
+      "id": "vocab-246",
+      "word": "sang",
+      "zh": "",
+      "sentenceIds": [
+        "line-109"
+      ]
+    },
+    {
+      "id": "vocab-247",
+      "word": "chaud",
+      "zh": "",
+      "sentenceIds": [
+        "line-109"
+      ]
+    },
+    {
+      "id": "vocab-248",
+      "word": "devant",
+      "zh": "",
+      "sentenceIds": [
+        "line-110"
+      ]
+    },
+    {
+      "id": "vocab-249",
+      "word": "dix",
+      "zh": "",
+      "sentenceIds": [
+        "line-110"
+      ]
+    },
+    {
+      "id": "vocab-250",
+      "word": "famille",
+      "zh": "",
+      "sentenceIds": [
+        "line-111"
+      ]
+    },
+    {
+      "id": "vocab-251",
+      "word": "pourtant",
+      "zh": "",
+      "sentenceIds": [
+        "line-112"
+      ]
+    },
+    {
+      "id": "vocab-252",
+      "word": "repartir",
+      "zh": "",
+      "sentenceIds": [
+        "line-113"
+      ]
+    },
+    {
+      "id": "vocab-253",
+      "word": "gs",
+      "zh": "",
+      "sentenceIds": [
+        "line-114"
+      ]
+    },
+    {
+      "id": "vocab-254",
+      "word": "points",
+      "zh": "",
+      "sentenceIds": [
+        "line-115"
+      ]
+    },
+    {
+      "id": "vocab-255",
+      "word": "chute",
+      "zh": "",
+      "sentenceIds": [
+        "line-116"
+      ]
+    },
+    {
+      "id": "vocab-256",
+      "word": "vis",
+      "zh": "",
+      "sentenceIds": [
+        "line-116"
+      ]
+    },
+    {
+      "id": "vocab-257",
+      "word": "14ème",
+      "zh": "",
+      "sentenceIds": [
+        "line-117"
+      ]
+    },
+    {
+      "id": "vocab-258",
+      "word": "hockey",
+      "zh": "",
+      "sentenceIds": [
+        "line-117"
+      ]
+    },
+    {
+      "id": "vocab-259",
+      "word": "cuves",
+      "zh": "",
+      "sentenceIds": [
+        "line-118"
+      ]
+    },
+    {
+      "id": "vocab-260",
+      "word": "provincial",
+      "zh": "",
+      "sentenceIds": [
+        "line-119"
+      ]
+    },
+    {
+      "id": "vocab-261",
+      "word": "picardie",
+      "zh": "",
+      "sentenceIds": [
+        "line-120"
+      ]
+    },
+    {
+      "id": "vocab-262",
+      "word": "piquant",
+      "zh": "",
+      "sentenceIds": [
+        "line-122"
+      ]
+    },
+    {
+      "id": "vocab-263",
+      "word": "coup",
+      "zh": "",
+      "sentenceIds": [
+        "line-122"
+      ]
+    },
+    {
+      "id": "vocab-264",
+      "word": "âge",
+      "zh": "",
+      "sentenceIds": [
+        "line-123"
+      ]
+    },
+    {
+      "id": "vocab-265",
+      "word": "murphy",
+      "zh": "",
+      "sentenceIds": [
+        "line-123"
+      ]
+    },
+    {
+      "id": "vocab-266",
+      "word": "précisément",
+      "zh": "",
+      "sentenceIds": [
+        "line-124"
+      ]
+    },
+    {
+      "id": "vocab-267",
+      "word": "40",
+      "zh": "",
+      "sentenceIds": [
+        "line-124"
+      ]
+    },
+    {
+      "id": "vocab-268",
+      "word": "emménagé",
+      "zh": "",
+      "sentenceIds": [
+        "line-125"
+      ]
+    },
+    {
+      "id": "vocab-269",
+      "word": "juste",
+      "zh": "",
+      "sentenceIds": [
+        "line-125"
+      ]
+    },
+    {
+      "id": "vocab-270",
+      "word": "avait",
+      "zh": "",
+      "sentenceIds": [
+        "line-126"
+      ]
+    },
+    {
+      "id": "vocab-271",
+      "word": "pouvais",
+      "zh": "",
+      "sentenceIds": [
+        "line-128"
+      ]
+    },
+    {
+      "id": "vocab-272",
+      "word": "continuer",
+      "zh": "",
+      "sentenceIds": [
+        "line-128"
+      ]
+    },
+    {
+      "id": "vocab-273",
+      "word": "étant",
+      "zh": "",
+      "sentenceIds": [
+        "line-129"
+      ]
+    },
+    {
+      "id": "vocab-274",
+      "word": "pari",
+      "zh": "",
+      "sentenceIds": [
+        "line-129"
+      ]
+    },
+    {
+      "id": "vocab-275",
+      "word": "longtemps",
+      "zh": "",
+      "sentenceIds": [
+        "line-132"
+      ]
+    },
+    {
+      "id": "vocab-276",
+      "word": "naissance",
+      "zh": "",
+      "sentenceIds": [
+        "line-132"
+      ]
+    },
+    {
+      "id": "vocab-277",
+      "word": "16e",
+      "zh": "",
+      "sentenceIds": [
+        "line-133"
+      ]
+    },
+    {
+      "id": "vocab-278",
+      "word": "jolie",
+      "zh": "",
+      "sentenceIds": [
+        "line-138"
+      ]
+    },
+    {
+      "id": "vocab-279",
+      "word": "visité",
+      "zh": "",
+      "sentenceIds": [
+        "line-140"
+      ]
+    },
+    {
+      "id": "vocab-280",
+      "word": "magique",
+      "zh": "",
+      "sentenceIds": [
+        "line-142"
+      ]
+    },
+    {
+      "id": "vocab-281",
+      "word": "motivé",
+      "zh": "",
+      "sentenceIds": [
+        "line-145"
+      ]
+    },
+    {
+      "id": "vocab-282",
+      "word": "viens",
+      "zh": "",
+      "sentenceIds": [
+        "line-146"
+      ]
+    },
+    {
+      "id": "vocab-283",
+      "word": "démarrer",
+      "zh": "",
+      "sentenceIds": [
+        "line-146"
+      ]
+    },
+    {
+      "id": "vocab-284",
+      "word": "nouveau",
+      "zh": "",
+      "sentenceIds": [
+        "line-146"
+      ]
+    },
+    {
+      "id": "vocab-285",
+      "word": "master",
+      "zh": "",
+      "sentenceIds": [
+        "line-146"
+      ]
+    },
+    {
+      "id": "vocab-286",
+      "word": "école",
+      "zh": "",
+      "sentenceIds": [
+        "line-147"
+      ]
+    },
+    {
+      "id": "vocab-287",
+      "word": "commerce",
+      "zh": "",
+      "sentenceIds": [
+        "line-147"
+      ]
+    },
+    {
+      "id": "vocab-288",
+      "word": "dû",
+      "zh": "",
+      "sentenceIds": [
+        "line-147"
+      ]
+    },
+    {
+      "id": "vocab-289",
+      "word": "zhang",
+      "zh": "",
+      "sentenceIds": [
+        "line-149"
+      ]
+    },
+    {
+      "id": "vocab-290",
+      "word": "base",
+      "zh": "",
+      "sentenceIds": [
+        "line-149"
+      ]
+    },
+    {
+      "id": "vocab-291",
+      "word": "sens",
+      "zh": "",
+      "sentenceIds": [
+        "line-149"
+      ]
+    },
+    {
+      "id": "vocab-292",
+      "word": "maison",
+      "zh": "",
+      "sentenceIds": [
+        "line-150"
+      ]
+    },
+    {
+      "id": "vocab-293",
+      "word": "française",
+      "zh": "",
+      "sentenceIds": [
+        "line-150"
+      ]
+    },
+    {
+      "id": "vocab-294",
+      "word": "alémanique",
+      "zh": "",
+      "sentenceIds": [
+        "line-151"
+      ]
+    },
+    {
+      "id": "vocab-295",
+      "word": "miles",
+      "zh": "",
+      "sentenceIds": [
+        "line-153"
+      ]
+    },
+    {
+      "id": "vocab-296",
+      "word": "concerts",
+      "zh": "",
+      "sentenceIds": [
+        "line-154"
+      ]
+    },
+    {
+      "id": "vocab-297",
+      "word": "question",
+      "zh": "",
+      "sentenceIds": [
+        "line-154"
+      ]
+    },
+    {
+      "id": "vocab-298",
+      "word": "piège",
+      "zh": "",
+      "sentenceIds": [
+        "line-154"
+      ]
+    },
+    {
+      "id": "vocab-299",
+      "word": "raclette",
+      "zh": "",
+      "sentenceIds": [
+        "line-155"
+      ]
+    },
+    {
+      "id": "vocab-300",
+      "word": "lah",
+      "zh": "",
+      "sentenceIds": [
+        "line-156"
+      ]
+    },
+    {
+      "id": "vocab-301",
+      "word": "dues",
+      "zh": "",
+      "sentenceIds": [
+        "line-156"
+      ]
+    },
+    {
+      "id": "vocab-302",
+      "word": "contre",
+      "zh": "",
+      "sentenceIds": [
+        "line-156"
+      ]
+    },
+    {
+      "id": "vocab-303",
+      "word": "sûr",
+      "zh": "",
+      "sentenceIds": [
+        "line-157"
+      ]
+    },
+    {
+      "id": "vocab-304",
+      "word": "envie",
+      "zh": "",
+      "sentenceIds": [
+        "line-158"
+      ]
+    },
+    {
+      "id": "vocab-305",
+      "word": "moment",
+      "zh": "",
+      "sentenceIds": [
+        "line-159"
+      ]
+    },
+    {
+      "id": "vocab-306",
+      "word": "reste",
+      "zh": "",
+      "sentenceIds": [
+        "line-160"
+      ]
+    },
+    {
+      "id": "vocab-307",
+      "word": "faites",
+      "zh": "",
+      "sentenceIds": [
+        "line-161"
+      ]
+    },
+    {
+      "id": "vocab-308",
+      "word": "émission",
+      "zh": "",
+      "sentenceIds": [
+        "line-162"
+      ]
+    },
+    {
+      "id": "vocab-309",
+      "word": "télé",
+      "zh": "",
+      "sentenceIds": [
+        "line-163"
+      ]
+    },
+    {
+      "id": "vocab-310",
+      "word": "tel",
+      "zh": "",
+      "sentenceIds": [
+        "line-163"
+      ]
+    },
+    {
+      "id": "vocab-311",
+      "word": "avais",
+      "zh": "",
+      "sentenceIds": [
+        "line-164"
+      ]
+    },
+    {
+      "id": "vocab-312",
+      "word": "trévoux",
+      "zh": "",
+      "sentenceIds": [
+        "line-164"
+      ]
+    },
+    {
+      "id": "vocab-313",
+      "word": "gauche",
+      "zh": "",
+      "sentenceIds": [
+        "line-164"
+      ]
+    },
+    {
+      "id": "vocab-314",
+      "word": "or",
+      "zh": "",
+      "sentenceIds": [
+        "line-166"
+      ]
+    },
+    {
+      "id": "vocab-315",
+      "word": "puces",
+      "zh": "",
+      "sentenceIds": [
+        "line-166"
+      ]
+    },
+    {
+      "id": "vocab-316",
+      "word": "côté",
+      "zh": "",
+      "sentenceIds": [
+        "line-166"
+      ]
+    },
+    {
+      "id": "vocab-317",
+      "word": "invalides",
+      "zh": "",
+      "sentenceIds": [
+        "line-167"
+      ]
+    },
+    {
+      "id": "vocab-318",
+      "word": "ministères",
+      "zh": "",
+      "sentenceIds": [
+        "line-167"
+      ]
+    },
+    {
+      "id": "vocab-319",
+      "word": "bourgeois",
+      "zh": "",
+      "sentenceIds": [
+        "line-169"
+      ]
+    },
+    {
+      "id": "vocab-320",
+      "word": "amusant",
+      "zh": "",
+      "sentenceIds": [
+        "line-169"
+      ]
+    },
+    {
+      "id": "vocab-321",
+      "word": "voyagé",
+      "zh": "",
+      "sentenceIds": [
+        "line-171"
+      ]
+    },
+    {
+      "id": "vocab-322",
+      "word": "élevé",
+      "zh": "",
+      "sentenceIds": [
+        "line-172"
+      ]
+    },
+    {
+      "id": "vocab-323",
+      "word": "aurait",
+      "zh": "",
+      "sentenceIds": [
+        "line-173"
+      ]
+    },
+    {
+      "id": "vocab-324",
+      "word": "parent",
+      "zh": "",
+      "sentenceIds": [
+        "line-174"
+      ]
+    },
+    {
+      "id": "vocab-325",
+      "word": "proche",
+      "zh": "",
+      "sentenceIds": [
+        "line-174"
+      ]
+    },
+    {
+      "id": "vocab-326",
+      "word": "conçois",
+      "zh": "",
+      "sentenceIds": [
+        "line-174"
+      ]
+    },
+    {
+      "id": "vocab-327",
+      "word": "dire",
+      "zh": "",
+      "sentenceIds": [
+        "line-174"
+      ]
+    },
+    {
+      "id": "vocab-328",
+      "word": "barre",
+      "zh": "",
+      "sentenceIds": [
+        "line-175"
+      ]
+    },
+    {
+      "id": "vocab-329",
+      "word": "emmené",
+      "zh": "",
+      "sentenceIds": [
+        "line-176"
+      ]
+    },
+    {
+      "id": "vocab-330",
+      "word": "rêver",
+      "zh": "",
+      "sentenceIds": [
+        "line-177"
+      ]
+    },
+    {
+      "id": "vocab-331",
+      "word": "gilles",
+      "zh": "",
+      "sentenceIds": [
+        "line-179"
+      ]
+    },
+    {
+      "id": "vocab-332",
+      "word": "coins",
+      "zh": "",
+      "sentenceIds": [
+        "line-180"
+      ]
+    },
+    {
+      "id": "vocab-333",
+      "word": "bourgogne",
+      "zh": "",
+      "sentenceIds": [
+        "line-180"
+      ]
+    },
+    {
+      "id": "vocab-334",
+      "word": "bretagne",
+      "zh": "",
+      "sentenceIds": [
+        "line-181"
+      ]
+    },
+    {
+      "id": "vocab-335",
+      "word": "attire",
+      "zh": "",
+      "sentenceIds": [
+        "line-182"
+      ]
+    },
+    {
+      "id": "vocab-336",
+      "word": "mal",
+      "zh": "",
+      "sentenceIds": [
+        "line-182"
+      ]
+    },
+    {
+      "id": "vocab-337",
+      "word": "encore",
+      "zh": "",
+      "sentenceIds": [
+        "line-183"
+      ]
+    },
+    {
+      "id": "vocab-338",
+      "word": "fois",
+      "zh": "",
+      "sentenceIds": [
+        "line-183"
+      ]
+    },
+    {
+      "id": "vocab-339",
+      "word": "résoudre",
+      "zh": "",
+      "sentenceIds": [
+        "line-184"
+      ]
+    },
+    {
+      "id": "vocab-340",
+      "word": "raison",
+      "zh": "",
+      "sentenceIds": [
+        "line-185"
+      ]
+    },
+    {
+      "id": "vocab-341",
+      "word": "rester",
+      "zh": "",
+      "sentenceIds": [
+        "line-185"
+      ]
+    },
+    {
+      "id": "vocab-342",
+      "word": "travailler",
+      "zh": "",
+      "sentenceIds": [
+        "line-186"
+      ]
+    },
+    {
+      "id": "vocab-343",
+      "word": "dirige",
+      "zh": "",
+      "sentenceIds": [
+        "line-188"
+      ]
+    },
+    {
+      "id": "vocab-344",
+      "word": "engagés",
+      "zh": "",
+      "sentenceIds": [
+        "line-190"
+      ]
+    },
+    {
+      "id": "vocab-345",
+      "word": "accompagner",
+      "zh": "",
+      "sentenceIds": [
+        "line-191"
+      ]
+    },
+    {
+      "id": "vocab-346",
+      "word": "jeunes",
+      "zh": "",
+      "sentenceIds": [
+        "line-191"
+      ]
+    },
+    {
+      "id": "vocab-347",
+      "word": "mets",
+      "zh": "",
+      "sentenceIds": [
+        "line-192"
+      ]
+    },
+    {
+      "id": "vocab-348",
+      "word": "lien",
+      "zh": "",
+      "sentenceIds": [
+        "line-192"
+      ]
+    },
+    {
+      "id": "vocab-349",
+      "word": "6e",
+      "zh": "",
+      "sentenceIds": [
+        "line-193"
+      ]
+    },
+    {
+      "id": "vocab-350",
+      "word": "eux",
+      "zh": "",
+      "sentenceIds": [
+        "line-193"
+      ]
+    },
+    {
+      "id": "vocab-351",
+      "word": "développer",
+      "zh": "",
+      "sentenceIds": [
+        "line-194"
+      ]
+    },
+    {
+      "id": "vocab-352",
+      "word": "leur",
+      "zh": "",
+      "sentenceIds": [
+        "line-194"
+      ]
+    },
+    {
+      "id": "vocab-353",
+      "word": "vocation",
+      "zh": "",
+      "sentenceIds": [
+        "line-194"
+      ]
+    },
+    {
+      "id": "vocab-354",
+      "word": "chaque",
+      "zh": "",
+      "sentenceIds": [
+        "line-194"
+      ]
+    },
+    {
+      "id": "vocab-355",
+      "word": "effectivement",
+      "zh": "",
+      "sentenceIds": [
+        "line-196"
+      ]
+    },
+    {
+      "id": "vocab-356",
+      "word": "créer",
+      "zh": "",
+      "sentenceIds": [
+        "line-196"
+      ]
+    },
+    {
+      "id": "vocab-357",
+      "word": "pratique",
+      "zh": "",
+      "sentenceIds": [
+        "line-197"
+      ]
+    },
+    {
+      "id": "vocab-358",
+      "word": "alors",
+      "zh": "",
+      "sentenceIds": [
+        "line-198"
+      ]
+    },
+    {
+      "id": "vocab-359",
+      "word": "international",
+      "zh": "",
+      "sentenceIds": [
+        "line-201"
+      ]
+    },
+    {
+      "id": "vocab-360",
+      "word": "seulement",
+      "zh": "",
+      "sentenceIds": [
+        "line-203"
+      ]
+    },
+    {
+      "id": "vocab-361",
+      "word": "étranger",
+      "zh": "",
+      "sentenceIds": [
+        "line-203"
+      ]
+    },
+    {
+      "id": "vocab-362",
+      "word": "voit",
+      "zh": "",
+      "sentenceIds": [
+        "line-204"
+      ]
+    },
+    {
+      "id": "vocab-363",
+      "word": "création",
+      "zh": "",
+      "sentenceIds": [
+        "line-206"
+      ]
+    },
+    {
+      "id": "vocab-364",
+      "word": "emplois",
+      "zh": "",
+      "sentenceIds": [
+        "line-206"
+      ]
+    },
+    {
+      "id": "vocab-365",
+      "word": "réalité",
+      "zh": "",
+      "sentenceIds": [
+        "line-207"
+      ]
+    },
+    {
+      "id": "vocab-366",
+      "word": "monte",
+      "zh": "",
+      "sentenceIds": [
+        "line-207"
+      ]
+    },
+    {
+      "id": "vocab-367",
+      "word": "notamment",
+      "zh": "",
+      "sentenceIds": [
+        "line-208"
+      ]
+    },
+    {
+      "id": "vocab-368",
+      "word": "forcément",
+      "zh": "",
+      "sentenceIds": [
+        "line-209"
+      ]
+    },
+    {
+      "id": "vocab-369",
+      "word": "nécessaire",
+      "zh": "",
+      "sentenceIds": [
+        "line-209"
+      ]
+    },
+    {
+      "id": "vocab-370",
+      "word": "champions",
+      "zh": "",
+      "sentenceIds": [
+        "line-210"
+      ]
+    },
+    {
+      "id": "vocab-371",
+      "word": "banlieue",
+      "zh": "",
+      "sentenceIds": [
+        "line-214"
+      ]
+    },
+    {
+      "id": "vocab-372",
+      "word": "parisienne",
+      "zh": "",
+      "sentenceIds": [
+        "line-214"
+      ]
+    },
+    {
+      "id": "vocab-373",
+      "word": "gonesse",
+      "zh": "",
+      "sentenceIds": [
+        "line-214"
+      ]
+    },
+    {
+      "id": "vocab-374",
+      "word": "pièces",
+      "zh": "",
+      "sentenceIds": [
+        "line-217"
+      ]
+    },
+    {
+      "id": "vocab-375",
+      "word": "12e",
+      "zh": "",
+      "sentenceIds": [
+        "line-218"
+      ]
+    },
+    {
+      "id": "vocab-376",
+      "word": "merci",
+      "zh": "",
+      "sentenceIds": [
+        "line-221"
+      ]
+    },
+    {
+      "id": "vocab-377",
+      "word": "espoirs",
+      "zh": "",
+      "sentenceIds": [
+        "line-222"
+      ]
+    },
+    {
+      "id": "vocab-378",
+      "word": "plu",
+      "zh": "",
+      "sentenceIds": [
+        "line-222"
+      ]
+    },
+    {
+      "id": "vocab-379",
+      "word": "permis",
+      "zh": "",
+      "sentenceIds": [
+        "line-223"
+      ]
+    },
+    {
+      "id": "vocab-380",
+      "word": "connaître",
+      "zh": "",
+      "sentenceIds": [
+        "line-223"
+      ]
+    },
+    {
+      "id": "vocab-381",
+      "word": "comprendre",
+      "zh": "",
+      "sentenceIds": [
+        "line-223"
+      ]
+    },
+    {
+      "id": "vocab-382",
+      "word": "dites",
+      "zh": "",
+      "sentenceIds": [
+        "line-224"
+      ]
+    },
+    {
+      "id": "vocab-383",
+      "word": "attendant",
+      "zh": "",
+      "sentenceIds": [
+        "line-226"
+      ]
+    },
+    {
+      "id": "vocab-384",
+      "word": "cliquez",
+      "zh": "",
+      "sentenceIds": [
+        "line-226"
+      ]
+    },
+    {
+      "id": "vocab-385",
+      "word": "abonnez",
+      "zh": "",
+      "sentenceIds": [
+        "line-226"
+      ]
+    },
+    {
+      "id": "vocab-386",
+      "word": "rater",
+      "zh": "",
+      "sentenceIds": [
+        "line-227"
+      ]
+    },
+    {
+      "id": "vocab-387",
+      "word": "aucun",
+      "zh": "",
+      "sentenceIds": [
+        "line-227"
+      ]
+    },
+    {
+      "id": "vocab-388",
+      "word": "épisodes",
+      "zh": "",
+      "sentenceIds": [
+        "line-227"
+      ]
+    },
+    {
+      "id": "vocab-389",
+      "word": "surtout",
+      "zh": "",
+      "sentenceIds": [
+        "line-228"
+      ]
+    },
+    {
+      "id": "vocab-390",
+      "word": "page",
+      "zh": "",
+      "sentenceIds": [
+        "line-229"
+      ]
+    },
+    {
+      "id": "vocab-391",
+      "word": "long",
+      "zh": "",
+      "sentenceIds": [
+        "line-229"
+      ]
+    },
+    {
+      "id": "vocab-392",
+      "word": "pourrez",
+      "zh": "",
+      "sentenceIds": [
+        "line-229"
+      ]
+    },
+    {
+      "id": "vocab-393",
+      "word": "accès",
+      "zh": "",
+      "sentenceIds": [
+        "line-230"
+      ]
+    },
+    {
+      "id": "vocab-394",
+      "word": "exercices",
+      "zh": "",
+      "sentenceIds": [
+        "line-230"
+      ]
+    },
+    {
+      "id": "vocab-395",
+      "word": "relié",
+      "zh": "",
+      "sentenceIds": [
+        "line-230"
+      ]
+    },
+    {
+      "id": "vocab-396",
+      "word": "toutes",
+      "zh": "",
+      "sentenceIds": [
+        "line-230"
+      ]
+    },
+    {
+      "id": "vocab-397",
+      "word": "nos",
+      "zh": "",
+      "sentenceIds": [
+        "line-230"
+      ]
+    },
+    {
+      "id": "vocab-398",
+      "word": "vidéos",
+      "zh": "",
+      "sentenceIds": [
+        "line-231"
+      ]
+    },
+    {
+      "id": "vocab-399",
+      "word": "dollars",
+      "zh": "",
+      "sentenceIds": [
+        "line-231"
+      ]
+    },
+    {
+      "id": "vocab-400",
+      "word": "bientôt",
+      "zh": "",
+      "sentenceIds": [
+        "line-232"
+      ]
+    }
+  ],
   "patterns": [],
   "parseStatus": "pending",
   "createdAt": "2026-07-18T06:49:52.440Z",
-  "updatedAt": "2026-07-18T06:49:52.440Z"
+  "updatedAt": "2026-07-18T07:12:35.021Z"
 }
