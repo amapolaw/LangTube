@@ -1,0 +1,803 @@
+{
+  "materialId": "fr-conversations-du-quotidien-en-fran-ais-l-mrq0mypd",
+  "lines": [
+    {
+      "id": "line-1",
+      "start": 0.28,
+      "end": 3.879,
+      "text": "bonjour les amis et bienvenue dans ce",
+      "translation": ""
+    },
+    {
+      "id": "line-2",
+      "start": 3.879,
+      "end": 7.72,
+      "text": "nouvel épisode aujourd'hui nous allons",
+      "translation": ""
+    },
+    {
+      "id": "line-3",
+      "start": 7.72,
+      "end": 11.12,
+      "text": "avoir une conversation tout à fait",
+      "translation": ""
+    },
+    {
+      "id": "line-4",
+      "start": 11.12,
+      "end": 14.719,
+      "text": "ordinaire parler de la météo de nos",
+      "translation": ""
+    },
+    {
+      "id": "line-5",
+      "start": 14.719,
+      "end": 17.92,
+      "text": "projets pour le weekend bref faire un",
+      "translation": ""
+    },
+    {
+      "id": "line-6",
+      "start": 17.92,
+      "end": 21.72,
+      "text": "peu de small talk mais en français",
+      "translation": ""
+    },
+    {
+      "id": "line-7",
+      "start": 21.72,
+      "end": 25.72,
+      "text": "lent et avant de commencer on vous",
+      "translation": ""
+    },
+    {
+      "id": "line-8",
+      "start": 25.72,
+      "end": 30.119,
+      "text": "rappelle que le 1er avril notre club de",
+      "translation": ""
+    },
+    {
+      "id": "line-9",
+      "start": 30.119,
+      "end": 34.239,
+      "text": "lecture commence sur discord avec tous",
+      "translation": ""
+    },
+    {
+      "id": "line-10",
+      "start": 34.239,
+      "end": 37.16,
+      "text": "les membres de la communauté easy French",
+      "translation": ""
+    },
+    {
+      "id": "line-11",
+      "start": 37.16,
+      "end": 41,
+      "text": "nous allons lire ensemble le livre une",
+      "translation": ""
+    },
+    {
+      "id": "line-12",
+      "start": 41,
+      "end": 44.92,
+      "text": "famille compliquée de France du bain et",
+      "translation": ""
+    },
+    {
+      "id": "line-13",
+      "start": 44.92,
+      "end": 48.44,
+      "text": "à l'issue de ce projet nous allons la",
+      "translation": ""
+    },
+    {
+      "id": "line-14",
+      "start": 48.44,
+      "end": 53.64,
+      "text": "rencontrer en live pour nous rejoindre",
+      "translation": ""
+    },
+    {
+      "id": "line-15",
+      "start": 53.64,
+      "end": 57.76,
+      "text": "inscrivez-vous sur le lien",
+      "translation": ""
+    },
+    {
+      "id": "line-16",
+      "start": 58.92,
+      "end": 60.559,
+      "text": "easy-french.org/",
+      "translation": ""
+    },
+    {
+      "id": "line-17",
+      "start": 60.559,
+      "end": 65.68,
+      "text": "membership toutes les infos sont là et",
+      "translation": ""
+    },
+    {
+      "id": "line-18",
+      "start": 65.68,
+      "end": 68,
+      "text": "maintenant passons à la",
+      "translation": ""
+    },
+    {
+      "id": "line-19",
+      "start": 68,
+      "end": 70.21,
+      "text": "vidéo c'est",
+      "translation": ""
+    },
+    {
+      "id": "line-20",
+      "start": 70.21,
+      "end": 71.36,
+      "text": "[Musique]",
+      "translation": ""
+    },
+    {
+      "id": "line-21",
+      "start": 71.36,
+      "end": 77.36,
+      "text": "parti alors comment ça va ça va bien et",
+      "translation": ""
+    },
+    {
+      "id": "line-22",
+      "start": 77.36,
+      "end": 83,
+      "text": "toi ça va un peu fatigué mais ça va tu",
+      "translation": ""
+    },
+    {
+      "id": "line-23",
+      "start": 83,
+      "end": 86.64,
+      "text": "es fatigué à cause du",
+      "translation": ""
+    },
+    {
+      "id": "line-24",
+      "start": 86.64,
+      "end": 90.079,
+      "text": "travail oui et j'étais de garde à",
+      "translation": ""
+    },
+    {
+      "id": "line-25",
+      "start": 90.079,
+      "end": 93.6,
+      "text": "l'hôpital tout le weekend donc je n'ai",
+      "translation": ""
+    },
+    {
+      "id": "line-26",
+      "start": 93.6,
+      "end": 100,
+      "text": "pas pu me reposer oh ma pauvre",
+      "translation": ""
+    },
+    {
+      "id": "line-27",
+      "start": 100,
+      "end": 103.92,
+      "text": "oui c'était dur heureusement j'ai eu un",
+      "translation": ""
+    },
+    {
+      "id": "line-28",
+      "start": 103.92,
+      "end": 107.32,
+      "text": "jour de repos mais je n'ai pas",
+      "translation": ""
+    },
+    {
+      "id": "line-29",
+      "start": 107.32,
+      "end": 111.84,
+      "text": "complètement récupéré et toi tu as fait",
+      "translation": ""
+    },
+    {
+      "id": "line-30",
+      "start": 111.84,
+      "end": 117.039,
+      "text": "quoi ce weekend je suis allée à Bordeaux",
+      "translation": ""
+    },
+    {
+      "id": "line-31",
+      "start": 117.039,
+      "end": 121.039,
+      "text": "pour voir mes parents et ma sœur",
+      "translation": ""
+    },
+    {
+      "id": "line-32",
+      "start": 121.039,
+      "end": 125.68,
+      "text": "ah super c'était comment c'était très",
+      "translation": ""
+    },
+    {
+      "id": "line-33",
+      "start": 125.68,
+      "end": 130.56,
+      "text": "sympa il a fait très beau donc on a même",
+      "translation": ""
+    },
+    {
+      "id": "line-34",
+      "start": 130.56,
+      "end": 136.12,
+      "text": "pu aller au bord de la mer oh la chance",
+      "translation": ""
+    },
+    {
+      "id": "line-35",
+      "start": 136.12,
+      "end": 140.08,
+      "text": "tu t'es baigné non quand même pas il ne",
+      "translation": ""
+    },
+    {
+      "id": "line-36",
+      "start": 140.08,
+      "end": 144.16,
+      "text": "faisait pas assez chaud mais c'était",
+      "translation": ""
+    },
+    {
+      "id": "line-37",
+      "start": 144.16,
+      "end": 148.4,
+      "text": "quand même sympa de se promener sur la",
+      "translation": ""
+    },
+    {
+      "id": "line-38",
+      "start": 148.4,
+      "end": 151.319,
+      "text": "plage depuis depuis qu'il a commencé à",
+      "translation": ""
+    },
+    {
+      "id": "line-39",
+      "start": 151.319,
+      "end": 155.48,
+      "text": "faire beau on est plus en forme oui",
+      "translation": ""
+    },
+    {
+      "id": "line-40",
+      "start": 155.48,
+      "end": 159.92,
+      "text": "c'est fou j'ai beaucoup plus",
+      "translation": ""
+    },
+    {
+      "id": "line-41",
+      "start": 159.92,
+      "end": 164.159,
+      "text": "d'énergie depuis qu'on a un peu de",
+      "translation": ""
+    },
+    {
+      "id": "line-42",
+      "start": 164.159,
+      "end": 168.68,
+      "text": "soleil j'espère que ça va durer je crois",
+      "translation": ""
+    },
+    {
+      "id": "line-43",
+      "start": 168.68,
+      "end": 174.239,
+      "text": "qu'il va pleuvoir ce weekend oh non",
+      "translation": ""
+    },
+    {
+      "id": "line-44",
+      "start": 174.239,
+      "end": 177.72,
+      "text": "j'avais envie d'aller me promener au",
+      "translation": ""
+    },
+    {
+      "id": "line-45",
+      "start": 177.72,
+      "end": 178.84,
+      "text": "bois de",
+      "translation": ""
+    },
+    {
+      "id": "line-46",
+      "start": 178.84,
+      "end": 180.72,
+      "text": "Vincen",
+      "translation": ""
+    },
+    {
+      "id": "line-47",
+      "start": 180.72,
+      "end": 183.64,
+      "text": "je vais peut-être faire autre chose du",
+      "translation": ""
+    },
+    {
+      "id": "line-48",
+      "start": 183.64,
+      "end": 188.519,
+      "text": "coup et toi tu as prévu quelque chose",
+      "translation": ""
+    },
+    {
+      "id": "line-49",
+      "start": 188.519,
+      "end": 193.08,
+      "text": "samedi je vais prendre un café avec une",
+      "translation": ""
+    },
+    {
+      "id": "line-50",
+      "start": 193.08,
+      "end": 197.56,
+      "text": "amie et si on a le temps on ira",
+      "translation": ""
+    },
+    {
+      "id": "line-51",
+      "start": 197.56,
+      "end": 199.76,
+      "text": "peut-être au",
+      "translation": ""
+    },
+    {
+      "id": "line-52",
+      "start": 199.76,
+      "end": 203.92,
+      "text": "cinéma dimanche je vais sûrement rester",
+      "translation": ""
+    },
+    {
+      "id": "line-53",
+      "start": 203.92,
+      "end": 208.76,
+      "text": "à la maison et faire la laissise et le",
+      "translation": ""
+    },
+    {
+      "id": "line-54",
+      "start": 208.76,
+      "end": 213.239,
+      "text": "ménage oui moi aussi je vais faire ça",
+      "translation": ""
+    },
+    {
+      "id": "line-55",
+      "start": 213.239,
+      "end": 217.48,
+      "text": "dimanche j'ai beaucoup de lessives en",
+      "translation": ""
+    },
+    {
+      "id": "line-56",
+      "start": 217.48,
+      "end": 220.84,
+      "text": "retard mais je vais quand même faire la",
+      "translation": ""
+    },
+    {
+      "id": "line-57",
+      "start": 220.84,
+      "end": 223.64,
+      "text": "grâce matinée tu as",
+      "translation": ""
+    },
+    {
+      "id": "line-58",
+      "start": 223.64,
+      "end": 227.68,
+      "text": "raison bon ça te dit qu'on aille se",
+      "translation": ""
+    },
+    {
+      "id": "line-59",
+      "start": 227.68,
+      "end": 229.28,
+      "text": "balader",
+      "translation": ""
+    },
+    {
+      "id": "line-60",
+      "start": 229.28,
+      "end": 234.519,
+      "text": "allez je vais payer et on y",
+      "translation": ""
+    },
+    {
+      "id": "line-61",
+      "start": 234.78,
+      "end": 238.079,
+      "text": "[Musique]",
+      "translation": ""
+    },
+    {
+      "id": "line-62",
+      "start": 238.079,
+      "end": 243.68,
+      "text": "va ah ah c'est agréable de profiter du",
+      "translation": ""
+    },
+    {
+      "id": "line-63",
+      "start": 243.68,
+      "end": 245.36,
+      "text": "beau temps comme",
+      "translation": ""
+    },
+    {
+      "id": "line-64",
+      "start": 245.36,
+      "end": 250.28,
+      "text": "ça j'ai l'impression d'être en",
+      "translation": ""
+    },
+    {
+      "id": "line-65",
+      "start": 250.28,
+      "end": 255.28,
+      "text": "vacances oui moi aussi d'ailleurs tu as",
+      "translation": ""
+    },
+    {
+      "id": "line-66",
+      "start": 255.28,
+      "end": 259.04,
+      "text": "prévu de partir bientôt en vacances",
+      "translation": ""
+    },
+    {
+      "id": "line-67",
+      "start": 259.04,
+      "end": 264.56,
+      "text": "oui cet été je vais passer une semaine",
+      "translation": ""
+    },
+    {
+      "id": "line-68",
+      "start": 264.56,
+      "end": 267.68,
+      "text": "dans le sud près de",
+      "translation": ""
+    },
+    {
+      "id": "line-69",
+      "start": 267.68,
+      "end": 270.44,
+      "text": "Toulon trop bien",
+      "translation": ""
+    },
+    {
+      "id": "line-70",
+      "start": 270.44,
+      "end": 275.84,
+      "text": "tu pars avec ta famille oui je pars avec",
+      "translation": ""
+    },
+    {
+      "id": "line-71",
+      "start": 275.84,
+      "end": 280.32,
+      "text": "toute ma famille et avec mon",
+      "translation": ""
+    },
+    {
+      "id": "line-72",
+      "start": 280.32,
+      "end": 286.56,
+      "text": "copain j'ai trop hâte tu",
+      "translation": ""
+    },
+    {
+      "id": "line-73",
+      "start": 287.56,
+      "end": 292.08,
+      "text": "m'étonnes et toi tu vas partir en Corse",
+      "translation": ""
+    },
+    {
+      "id": "line-74",
+      "start": 292.08,
+      "end": 293.8,
+      "text": "je suppose",
+      "translation": ""
+    },
+    {
+      "id": "line-75",
+      "start": 293.8,
+      "end": 298.039,
+      "text": "non tu sais cet été personne ne peut",
+      "translation": ""
+    },
+    {
+      "id": "line-76",
+      "start": 298.039,
+      "end": 301.4,
+      "text": "prendre de vacances à l'hôpital à cause",
+      "translation": ""
+    },
+    {
+      "id": "line-77",
+      "start": 301.4,
+      "end": 303.52,
+      "text": "des Jeux Olympiques",
+      "translation": ""
+    },
+    {
+      "id": "line-78",
+      "start": 303.52,
+      "end": 306.8,
+      "text": "ah oui c'est",
+      "translation": ""
+    },
+    {
+      "id": "line-79",
+      "start": 306.8,
+      "end": 311.84,
+      "text": "vrai mais tu pourras peut-être partir en",
+      "translation": ""
+    },
+    {
+      "id": "line-80",
+      "start": 311.84,
+      "end": 313.759,
+      "text": "septembre",
+      "translation": ""
+    },
+    {
+      "id": "line-81",
+      "start": 313.759,
+      "end": 319.4,
+      "text": "oui on va faire ça et les billets seront",
+      "translation": ""
+    },
+    {
+      "id": "line-82",
+      "start": 319.4,
+      "end": 325.56,
+      "text": "moins chers c'est sûr et il y aura moins",
+      "translation": ""
+    },
+    {
+      "id": "line-83",
+      "start": 325.56,
+      "end": 330.8,
+      "text": "de monde et il fera encore chaud",
+      "translation": ""
+    },
+    {
+      "id": "line-84",
+      "start": 330.8,
+      "end": 334.12,
+      "text": "mais ça va être long d'attendre tout",
+      "translation": ""
+    },
+    {
+      "id": "line-85",
+      "start": 334.12,
+      "end": 338.199,
+      "text": "l'été ah oui je",
+      "translation": ""
+    },
+    {
+      "id": "line-86",
+      "start": 338.199,
+      "end": 344,
+      "text": "comprend en plus Paris ne va pas être",
+      "translation": ""
+    },
+    {
+      "id": "line-87",
+      "start": 344,
+      "end": 349.56,
+      "text": "très agréable oui ça va être bon d",
+      "translation": ""
+    },
+    {
+      "id": "line-88",
+      "start": 349.56,
+      "end": 355.16,
+      "text": "j'espère au moins qu'il n'y aura pas de",
+      "translation": ""
+    },
+    {
+      "id": "line-89",
+      "start": 355.16,
+      "end": 358.639,
+      "text": "canicule on verra",
+      "translation": ""
+    },
+    {
+      "id": "line-90",
+      "start": 358.639,
+      "end": 360.61,
+      "text": "bien",
+      "translation": ""
+    },
+    {
+      "id": "line-91",
+      "start": 360.61,
+      "end": 365.16,
+      "text": "[Musique]",
+      "translation": ""
+    },
+    {
+      "id": "line-92",
+      "start": 365.16,
+      "end": 368.8,
+      "text": "pour le moment il faut juste profiter du",
+      "translation": ""
+    },
+    {
+      "id": "line-93",
+      "start": 368.8,
+      "end": 372.8,
+      "text": "printemps le soleil nous a manqué cet",
+      "translation": ""
+    },
+    {
+      "id": "line-94",
+      "start": 372.8,
+      "end": 378.16,
+      "text": "hiver c'est sûr mais il faut quand même",
+      "translation": ""
+    },
+    {
+      "id": "line-95",
+      "start": 378.16,
+      "end": 382.599,
+      "text": "qu'on se remette au travail non on a une",
+      "translation": ""
+    },
+    {
+      "id": "line-96",
+      "start": 382.599,
+      "end": 387.72,
+      "text": "vidéo à terminer mais la vidéo est",
+      "translation": ""
+    },
+    {
+      "id": "line-97",
+      "start": 387.72,
+      "end": 391.8,
+      "text": "terminée non ah",
+      "translation": ""
+    },
+    {
+      "id": "line-98",
+      "start": 391.96,
+      "end": 396.72,
+      "text": "bon merci les amis d'avoir regardé cet",
+      "translation": ""
+    },
+    {
+      "id": "line-99",
+      "start": 396.72,
+      "end": 400.24,
+      "text": "épisode on espère qu'il vous a plu",
+      "translation": ""
+    },
+    {
+      "id": "line-100",
+      "start": 400.24,
+      "end": 403.88,
+      "text": "n'oubliez pas de mettre un petit like de",
+      "translation": ""
+    },
+    {
+      "id": "line-101",
+      "start": 403.88,
+      "end": 407.56,
+      "text": "vous abonner à notre chaîne et de nous",
+      "translation": ""
+    },
+    {
+      "id": "line-102",
+      "start": 407.56,
+      "end": 411.28,
+      "text": "laisser un petit commentaire en",
+      "translation": ""
+    },
+    {
+      "id": "line-103",
+      "start": 411.28,
+      "end": 413.68,
+      "text": "français on vous dit à la semaine",
+      "translation": ""
+    },
+    {
+      "id": "line-104",
+      "start": 413.68,
+      "end": 415.599,
+      "text": "prochaine",
+      "translation": ""
+    },
+    {
+      "id": "line-105",
+      "start": 415.599,
+      "end": 418.72,
+      "text": "salut c'est pas un peu penché là si",
+      "translation": ""
+    },
+    {
+      "id": "line-106",
+      "start": 418.72,
+      "end": 420.08,
+      "text": "ouais carément",
+      "translation": ""
+    },
+    {
+      "id": "line-107",
+      "start": 420.08,
+      "end": 422.24,
+      "text": "mais",
+      "translation": ""
+    },
+    {
+      "id": "line-108",
+      "start": 422.72,
+      "end": 425.319,
+      "text": "alors c'est encore pché encore pché",
+      "translation": ""
+    },
+    {
+      "id": "line-109",
+      "start": 425.319,
+      "end": 426.879,
+      "text": "c'est V je sais pas je vois la ligne qui",
+      "translation": ""
+    },
+    {
+      "id": "line-110",
+      "start": 426.879,
+      "end": 430.68,
+      "text": "a pas l'air droite ouis",
+      "translation": ""
+    },
+    {
+      "id": "line-111",
+      "start": 430.68,
+      "end": 433.36,
+      "text": "ouais",
+      "translation": ""
+    },
+    {
+      "id": "line-112",
+      "start": 433.72,
+      "end": 436.15,
+      "text": "ok oui mais j'ai mis mes",
+      "translation": ""
+    },
+    {
+      "id": "line-113",
+      "start": 436.15,
+      "end": 440.68,
+      "text": "[Musique]",
+      "translation": ""
+    },
+    {
+      "id": "line-114",
+      "start": 440.68,
+      "end": 443.68,
+      "text": "chaussur",
+      "translation": ""
+    }
+  ]
+}
