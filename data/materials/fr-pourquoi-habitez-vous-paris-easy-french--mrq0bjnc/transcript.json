@@ -1,4 +1,1643 @@
 {
   "materialId": "fr-pourquoi-habitez-vous-paris-easy-french--mrq0bjnc",
-  "lines": []
+  "lines": [
+    {
+      "id": "line-1",
+      "start": 0,
+      "end": 1.8599999999999999,
+      "text": "bonjour et bienvenue dans un nouvel",
+      "translation": ""
+    },
+    {
+      "id": "line-2",
+      "start": 1.8599999999999999,
+      "end": 3.87,
+      "text": "épisode d' easy french aujourd'hui nous",
+      "translation": ""
+    },
+    {
+      "id": "line-3",
+      "start": 3.87,
+      "end": 5.549,
+      "text": "sommes dans le 10e arrondissement de",
+      "translation": ""
+    },
+    {
+      "id": "line-4",
+      "start": 5.549,
+      "end": 7.98,
+      "text": "paris un des nouveaux quartiers jeune et",
+      "translation": ""
+    },
+    {
+      "id": "line-5",
+      "start": 7.98,
+      "end": 9.929,
+      "text": "branché de la capitale et nous allons",
+      "translation": ""
+    },
+    {
+      "id": "line-6",
+      "start": 9.929,
+      "end": 11.849,
+      "text": "demander au parisien pourquoi est-ce",
+      "translation": ""
+    },
+    {
+      "id": "line-7",
+      "start": 11.849,
+      "end": 13.92,
+      "text": "qu'ils ont décidé d'emménager à paris on",
+      "translation": ""
+    },
+    {
+      "id": "line-8",
+      "start": 13.92,
+      "end": 16.099,
+      "text": "y va",
+      "translation": ""
+    },
+    {
+      "id": "line-9",
+      "start": 25.34,
+      "end": 29.97,
+      "text": "est-ce que vous évitez à paris non voilà",
+      "translation": ""
+    },
+    {
+      "id": "line-10",
+      "start": 29.97,
+      "end": 31.41,
+      "text": "est-ce que vous vous habitez à paris non",
+      "translation": ""
+    },
+    {
+      "id": "line-11",
+      "start": 31.41,
+      "end": 33.87,
+      "text": "et non est ce que vous aimeriez habiter",
+      "translation": ""
+    },
+    {
+      "id": "line-12",
+      "start": 33.87,
+      "end": 34.23,
+      "text": "à paris",
+      "translation": ""
+    },
+    {
+      "id": "line-13",
+      "start": 34.23,
+      "end": 38.66,
+      "text": "oui ça l'est moins et pourquoi",
+      "translation": ""
+    },
+    {
+      "id": "line-14",
+      "start": 38.75,
+      "end": 40.88,
+      "text": "moi j'ai vécu quelques mois pour mes",
+      "translation": ""
+    },
+    {
+      "id": "line-15",
+      "start": 40.88,
+      "end": 43.76,
+      "text": "études et j'aime vraiment énormément de",
+      "translation": ""
+    },
+    {
+      "id": "line-16",
+      "start": 43.76,
+      "end": 45.56,
+      "text": "l'offre culturelle et il ya tellement de",
+      "translation": ""
+    },
+    {
+      "id": "line-17",
+      "start": 45.56,
+      "end": 47.5,
+      "text": "choses qui se passent où le temps est",
+      "translation": ""
+    },
+    {
+      "id": "line-18",
+      "start": 47.5,
+      "end": 49.43,
+      "text": "principalement pour ça ok maintenant",
+      "translation": ""
+    },
+    {
+      "id": "line-19",
+      "start": 49.43,
+      "end": 52.63,
+      "text": "vous habitez ou en suisse",
+      "translation": ""
+    },
+    {
+      "id": "line-20",
+      "start": 52.63,
+      "end": 55.63,
+      "text": "je reviens c'est moins rigolo la suisse",
+      "translation": ""
+    },
+    {
+      "id": "line-21",
+      "start": 55.63,
+      "end": 57.05,
+      "text": "ça dépend où mai",
+      "translation": ""
+    },
+    {
+      "id": "line-22",
+      "start": 57.05,
+      "end": 58.489,
+      "text": "c'est moins bien peser moins rigolo qu'à",
+      "translation": ""
+    },
+    {
+      "id": "line-23",
+      "start": 58.489,
+      "end": 60.77,
+      "text": "paris est-ce que vous inviter à paris",
+      "translation": ""
+    },
+    {
+      "id": "line-24",
+      "start": 60.77,
+      "end": 62.39,
+      "text": "oui valises à paris",
+      "translation": ""
+    },
+    {
+      "id": "line-25",
+      "start": 62.39,
+      "end": 64.4,
+      "text": "pourquoi vous inviter à paris et",
+      "translation": ""
+    },
+    {
+      "id": "line-26",
+      "start": 64.4,
+      "end": 67.82,
+      "text": "maintenant si notre ville parce que j'y",
+      "translation": ""
+    },
+    {
+      "id": "line-27",
+      "start": 67.82,
+      "end": 69.72,
+      "text": "travaille",
+      "translation": ""
+    },
+    {
+      "id": "line-28",
+      "start": 69.72,
+      "end": 73.3,
+      "text": "et que j'aime c'est tout",
+      "translation": ""
+    },
+    {
+      "id": "line-29",
+      "start": 73.3,
+      "end": 75.52,
+      "text": "pourquoi cela trouve particulièrement",
+      "translation": ""
+    },
+    {
+      "id": "line-30",
+      "start": 75.52,
+      "end": 78.58,
+      "text": "belle quelles que soient les saisons et",
+      "translation": ""
+    },
+    {
+      "id": "line-31",
+      "start": 78.58,
+      "end": 80.08,
+      "text": "quelle que soit l'heure du jour je",
+      "translation": ""
+    },
+    {
+      "id": "line-32",
+      "start": 80.08,
+      "end": 80.95,
+      "text": "trouve qu'il ya toujours une lumière",
+      "translation": ""
+    },
+    {
+      "id": "line-33",
+      "start": 80.95,
+      "end": 83.23,
+      "text": "exceptionnelle et que la plupart des",
+      "translation": ""
+    },
+    {
+      "id": "line-34",
+      "start": 83.23,
+      "end": 85.34,
+      "text": "bâtiments sont très beaux et puis",
+      "translation": ""
+    },
+    {
+      "id": "line-35",
+      "start": 85.34,
+      "end": 86.63,
+      "text": "les quartiers sont complètement",
+      "translation": ""
+    },
+    {
+      "id": "line-36",
+      "start": 86.63,
+      "end": 89.049,
+      "text": "différents",
+      "translation": ""
+    },
+    {
+      "id": "line-37",
+      "start": 89.09,
+      "end": 90.33,
+      "text": "je trouve",
+      "translation": ""
+    },
+    {
+      "id": "line-38",
+      "start": 90.33,
+      "end": 92.88,
+      "text": "voyage d'un endroit à l'autre est-ce que",
+      "translation": ""
+    },
+    {
+      "id": "line-39",
+      "start": 92.88,
+      "end": 94.92,
+      "text": "vous habitez à paris ouais g8 à paris",
+      "translation": ""
+    },
+    {
+      "id": "line-40",
+      "start": 94.92,
+      "end": 96,
+      "text": "wen dans quel quartier",
+      "translation": ""
+    },
+    {
+      "id": "line-41",
+      "start": 96,
+      "end": 98.97,
+      "text": "j'habite dans le 15e ok pourquoi est-ce",
+      "translation": ""
+    },
+    {
+      "id": "line-42",
+      "start": 98.97,
+      "end": 100.32,
+      "text": "que vous habitez à paris et pas dans une",
+      "translation": ""
+    },
+    {
+      "id": "line-43",
+      "start": 100.32,
+      "end": 102.33,
+      "text": "autre ville j'habite à paris parce qu'il",
+      "translation": ""
+    },
+    {
+      "id": "line-44",
+      "start": 102.33,
+      "end": 109.05,
+      "text": "ya une densité culturelle que très",
+      "translation": ""
+    },
+    {
+      "id": "line-45",
+      "start": 109.05,
+      "end": 110.46,
+      "text": "parisien de rigoler comme ça pour rien",
+      "translation": ""
+    },
+    {
+      "id": "line-46",
+      "start": 110.46,
+      "end": 114.42,
+      "text": "on dit aussi je sais pas puisque c'est",
+      "translation": ""
+    },
+    {
+      "id": "line-47",
+      "start": 114.42,
+      "end": 116.04,
+      "text": "inspirant parce que les gens sont sympas",
+      "translation": ""
+    },
+    {
+      "id": "line-48",
+      "start": 116.04,
+      "end": 116.97,
+      "text": "il ya toujours quelque chose à faire",
+      "translation": ""
+    },
+    {
+      "id": "line-49",
+      "start": 116.97,
+      "end": 118.5,
+      "text": "tous les jours regarder vous êtes en",
+      "translation": ""
+    },
+    {
+      "id": "line-50",
+      "start": 118.5,
+      "end": 119.46,
+      "text": "train de montrer que je vais dans des",
+      "translation": ""
+    },
+    {
+      "id": "line-51",
+      "start": 119.46,
+      "end": 121.89,
+      "text": "rues où il ya personne c'est génial il",
+      "translation": ""
+    },
+    {
+      "id": "line-52",
+      "start": 121.89,
+      "end": 123.03,
+      "text": "est 15 heures on a faim on peut aller",
+      "translation": ""
+    },
+    {
+      "id": "line-53",
+      "start": 123.03,
+      "end": 124.59,
+      "text": "bouffer c'est sympa c'est mieux c'est",
+      "translation": ""
+    },
+    {
+      "id": "line-54",
+      "start": 124.59,
+      "end": 131.73,
+      "text": "cool quoi cette vidéo vous avez toujours",
+      "translation": ""
+    },
+    {
+      "id": "line-55",
+      "start": 131.73,
+      "end": 134.56,
+      "text": "habité à paris non ça fait sept ans",
+      "translation": ""
+    },
+    {
+      "id": "line-56",
+      "start": 134.56,
+      "end": 137.88,
+      "text": "et vous avez engagé ici directement",
+      "translation": ""
+    },
+    {
+      "id": "line-57",
+      "start": 138.22,
+      "end": 140.08,
+      "text": "un peu compliqué mais ont été reconnus",
+      "translation": ""
+    },
+    {
+      "id": "line-58",
+      "start": 140.08,
+      "end": 141.61,
+      "text": "d'accord mais pourquoi paris et pas une",
+      "translation": ""
+    },
+    {
+      "id": "line-59",
+      "start": 141.61,
+      "end": 143.83,
+      "text": "autre ville font travail et les études",
+      "translation": ""
+    },
+    {
+      "id": "line-60",
+      "start": 143.83,
+      "end": 146.2,
+      "text": "centre est ce que vous aimeriez vivre à",
+      "translation": ""
+    },
+    {
+      "id": "line-61",
+      "start": 146.2,
+      "end": 149.68,
+      "text": "paris oui oui quel serait le quartier de",
+      "translation": ""
+    },
+    {
+      "id": "line-62",
+      "start": 149.68,
+      "end": 150.39,
+      "text": "vos rêves",
+      "translation": ""
+    },
+    {
+      "id": "line-63",
+      "start": 150.39,
+      "end": 152.93,
+      "text": "le cinquième",
+      "translation": ""
+    },
+    {
+      "id": "line-64",
+      "start": 152.93,
+      "end": 156.61,
+      "text": "car luxembourg pourquoi",
+      "translation": ""
+    },
+    {
+      "id": "line-65",
+      "start": 156.61,
+      "end": 159.14,
+      "text": "pour le jardin les librairies le cinéma",
+      "translation": ""
+    },
+    {
+      "id": "line-66",
+      "start": 159.14,
+      "end": 160.37,
+      "text": "tous les petits cinémas de quartier du",
+      "translation": ""
+    },
+    {
+      "id": "line-67",
+      "start": 160.37,
+      "end": 163.77,
+      "text": "100e le charme de ce quartier",
+      "translation": ""
+    },
+    {
+      "id": "line-68",
+      "start": 163.77,
+      "end": 165.76,
+      "text": "sa hauteur aussi",
+      "translation": ""
+    },
+    {
+      "id": "line-69",
+      "start": 165.76,
+      "end": 168.129,
+      "text": "j'aime beaucoup ce cas si vous habitez à",
+      "translation": ""
+    },
+    {
+      "id": "line-70",
+      "start": 168.129,
+      "end": 169.659,
+      "text": "paris oui j'habite à paris",
+      "translation": ""
+    },
+    {
+      "id": "line-71",
+      "start": 169.659,
+      "end": 171.64,
+      "text": "ok vous habitez ou à paris dans le 8ème",
+      "translation": ""
+    },
+    {
+      "id": "line-72",
+      "start": 171.64,
+      "end": 173.68,
+      "text": "arrondissement d'accord c'est pourquoi",
+      "translation": ""
+    },
+    {
+      "id": "line-73",
+      "start": 173.68,
+      "end": 175.299,
+      "text": "paris et pas une autre ville je suis né",
+      "translation": ""
+    },
+    {
+      "id": "line-74",
+      "start": 175.299,
+      "end": 177.28,
+      "text": "ici je travaille ici j'ai fait mes",
+      "translation": ""
+    },
+    {
+      "id": "line-75",
+      "start": 177.28,
+      "end": 177.819,
+      "text": "études",
+      "translation": ""
+    },
+    {
+      "id": "line-76",
+      "start": 177.819,
+      "end": 179.709,
+      "text": "entre ici et les états unis voilà je",
+      "translation": ""
+    },
+    {
+      "id": "line-77",
+      "start": 179.709,
+      "end": 184.329,
+      "text": "retourne au bercail pourquoi paris et",
+      "translation": ""
+    },
+    {
+      "id": "line-78",
+      "start": 184.329,
+      "end": 186.37,
+      "text": "pas une autre île",
+      "translation": ""
+    },
+    {
+      "id": "line-79",
+      "start": 186.37,
+      "end": 188.64,
+      "text": "parce que j'ai toujours habité à paris",
+      "translation": ""
+    },
+    {
+      "id": "line-80",
+      "start": 188.64,
+      "end": 190.38,
+      "text": "dans tous les cas j'aime beaucoup la",
+      "translation": ""
+    },
+    {
+      "id": "line-81",
+      "start": 190.38,
+      "end": 192.19,
+      "text": "capitale ya tout",
+      "translation": ""
+    },
+    {
+      "id": "line-82",
+      "start": 192.19,
+      "end": 193.33,
+      "text": "c'était",
+      "translation": ""
+    },
+    {
+      "id": "line-83",
+      "start": 193.33,
+      "end": 196.15,
+      "text": "je cherchais des boulots j'ai jamais",
+      "translation": ""
+    },
+    {
+      "id": "line-84",
+      "start": 196.15,
+      "end": 197.95,
+      "text": "galères et donc aussi assez facile de",
+      "translation": ""
+    },
+    {
+      "id": "line-85",
+      "start": 197.95,
+      "end": 199.99,
+      "text": "vivre à paris au fait que vous inviter à",
+      "translation": ""
+    },
+    {
+      "id": "line-86",
+      "start": 199.99,
+      "end": 203.26,
+      "text": "paris oui oui oui vous allez bien assez",
+      "translation": ""
+    },
+    {
+      "id": "line-87",
+      "start": 203.26,
+      "end": 205.23,
+      "text": "des français axa",
+      "translation": ""
+    },
+    {
+      "id": "line-88",
+      "start": 205.23,
+      "end": 207.56,
+      "text": "c'est un parisien typique très facile",
+      "translation": ""
+    },
+    {
+      "id": "line-89",
+      "start": 207.56,
+      "end": 209.73,
+      "text": "pourquoi est-ce que vous habitez à paris",
+      "translation": ""
+    },
+    {
+      "id": "line-90",
+      "start": 209.73,
+      "end": 211.65,
+      "text": "et pas dans une autre ville justement on",
+      "translation": ""
+    },
+    {
+      "id": "line-91",
+      "start": 211.65,
+      "end": 212.37,
+      "text": "en parlait tout à l'heure",
+      "translation": ""
+    },
+    {
+      "id": "line-92",
+      "start": 212.37,
+      "end": 214.89,
+      "text": "en fait on on est coincé à paris mon",
+      "translation": ""
+    },
+    {
+      "id": "line-93",
+      "start": 214.89,
+      "end": 216.84,
+      "text": "rêve de partir ailleurs mais après c'est",
+      "translation": ""
+    },
+    {
+      "id": "line-94",
+      "start": 216.84,
+      "end": 218.97,
+      "text": "difficile on évolue on a des enfants on",
+      "translation": ""
+    },
+    {
+      "id": "line-95",
+      "start": 218.97,
+      "end": 220.54,
+      "text": "a des métiers ici on a des",
+      "translation": ""
+    },
+    {
+      "id": "line-96",
+      "start": 220.54,
+      "end": 222.939,
+      "text": "des couples c'est partir en bleu plus",
+      "translation": ""
+    },
+    {
+      "id": "line-97",
+      "start": 222.939,
+      "end": 224.349,
+      "text": "difficile moi j'aimerais bien partir à",
+      "translation": ""
+    },
+    {
+      "id": "line-98",
+      "start": 224.349,
+      "end": 225.54,
+      "text": "bordeaux",
+      "translation": ""
+    },
+    {
+      "id": "line-99",
+      "start": 225.54,
+      "end": 227.53,
+      "text": "pourquoi bordeaux pourquoi bordeaux",
+      "translation": ""
+    },
+    {
+      "id": "line-100",
+      "start": 227.53,
+      "end": 228.879,
+      "text": "parce que je suis attachée au sud-ouest",
+      "translation": ""
+    },
+    {
+      "id": "line-101",
+      "start": 228.879,
+      "end": 230.56,
+      "text": "aux gens du sud-ouest à laver qui est",
+      "translation": ""
+    },
+    {
+      "id": "line-102",
+      "start": 230.56,
+      "end": 233.14,
+      "text": "beaucoup plus cool là bas et ça m'évite",
+      "translation": ""
+    },
+    {
+      "id": "line-103",
+      "start": 233.14,
+      "end": 237.37,
+      "text": "avant ça m'éviterait d'abord à pâtir des",
+      "translation": ""
+    },
+    {
+      "id": "line-104",
+      "start": 237.37,
+      "end": 239.319,
+      "text": "parisiens par exemple est ce que vous",
+      "translation": ""
+    },
+    {
+      "id": "line-105",
+      "start": 239.319,
+      "end": 242.579,
+      "text": "vivez à paris saluant ainsi la deuxième",
+      "translation": ""
+    },
+    {
+      "id": "line-106",
+      "start": 242.579,
+      "end": 244.45,
+      "text": "gare de lyon entre gare de lyon et",
+      "translation": ""
+    },
+    {
+      "id": "line-107",
+      "start": 244.45,
+      "end": 245.74,
+      "text": "bastille",
+      "translation": ""
+    },
+    {
+      "id": "line-108",
+      "start": 245.74,
+      "end": 249.44,
+      "text": "pourquoi paris et pas une autre ville",
+      "translation": ""
+    },
+    {
+      "id": "line-109",
+      "start": 249.44,
+      "end": 252.44,
+      "text": "je suis un parisien dans le sang chaud",
+      "translation": ""
+    },
+    {
+      "id": "line-110",
+      "start": 252.44,
+      "end": 253.43,
+      "text": "devant dix à paris",
+      "translation": ""
+    },
+    {
+      "id": "line-111",
+      "start": 253.43,
+      "end": 254.81,
+      "text": "j'ai pas vraiment de famille est",
+      "translation": ""
+    },
+    {
+      "id": "line-112",
+      "start": 254.81,
+      "end": 257.12,
+      "text": "ailleurs et pourtant j'aimerais bien",
+      "translation": ""
+    },
+    {
+      "id": "line-113",
+      "start": 257.12,
+      "end": 259.44,
+      "text": "repartir mais je sais pas où aller donc",
+      "translation": ""
+    },
+    {
+      "id": "line-114",
+      "start": 259.44,
+      "end": 261.87,
+      "text": "gs je suis bien mais",
+      "translation": ""
+    },
+    {
+      "id": "line-115",
+      "start": 261.87,
+      "end": 263.58,
+      "text": "j'ai pas j'ai pas d'autres points de",
+      "translation": ""
+    },
+    {
+      "id": "line-116",
+      "start": 263.58,
+      "end": 265.08,
+      "text": "chute pour l'instant je vis dans le",
+      "translation": ""
+    },
+    {
+      "id": "line-117",
+      "start": 265.08,
+      "end": 267.51,
+      "text": "14ème arrondissement plus qu'au hockey",
+      "translation": ""
+    },
+    {
+      "id": "line-118",
+      "start": 267.51,
+      "end": 269.91,
+      "text": "vous avez toujours des cuves à paris non",
+      "translation": ""
+    },
+    {
+      "id": "line-119",
+      "start": 269.91,
+      "end": 272.76,
+      "text": "non donc je suis provincial c'est une et",
+      "translation": ""
+    },
+    {
+      "id": "line-120",
+      "start": 272.76,
+      "end": 275.34,
+      "text": "en picardie et j'habite paris depuis que",
+      "translation": ""
+    },
+    {
+      "id": "line-121",
+      "start": 275.34,
+      "end": 275.96,
+      "text": "je travaille",
+      "translation": ""
+    },
+    {
+      "id": "line-122",
+      "start": 275.96,
+      "end": 278.22,
+      "text": "ok et de piquant du coup donc depuis",
+      "translation": ""
+    },
+    {
+      "id": "line-123",
+      "start": 278.22,
+      "end": 280.11,
+      "text": "l'âge de 20 ans avec murphy plus",
+      "translation": ""
+    },
+    {
+      "id": "line-124",
+      "start": 280.11,
+      "end": 284.22,
+      "text": "précisément 40 ans ok et donc vous avez",
+      "translation": ""
+    },
+    {
+      "id": "line-125",
+      "start": 284.22,
+      "end": 285.87,
+      "text": "emménagé à paris juste pour le travail",
+      "translation": ""
+    },
+    {
+      "id": "line-126",
+      "start": 285.87,
+      "end": 290.37,
+      "text": "il y avait d'autres raisons pour le",
+      "translation": ""
+    },
+    {
+      "id": "line-127",
+      "start": 290.37,
+      "end": 292.05,
+      "text": "travail mais les autres raisons c'était",
+      "translation": ""
+    },
+    {
+      "id": "line-128",
+      "start": 292.05,
+      "end": 295.62,
+      "text": "que je pouvais continuer mes études en",
+      "translation": ""
+    },
+    {
+      "id": "line-129",
+      "start": 295.62,
+      "end": 296.82,
+      "text": "étant un pari c'était beaucoup plus",
+      "translation": ""
+    },
+    {
+      "id": "line-130",
+      "start": 296.82,
+      "end": 297.15,
+      "text": "facile",
+      "translation": ""
+    },
+    {
+      "id": "line-131",
+      "start": 297.15,
+      "end": 299.37,
+      "text": "est-ce que vous habitez à paris oui",
+      "translation": ""
+    },
+    {
+      "id": "line-132",
+      "start": 299.37,
+      "end": 301.35,
+      "text": "depuis longtemps de ma naissance",
+      "translation": ""
+    },
+    {
+      "id": "line-133",
+      "start": 301.35,
+      "end": 306.389,
+      "text": "d'accord où ça dans le 16e 1 16e",
+      "translation": ""
+    },
+    {
+      "id": "line-134",
+      "start": 306.389,
+      "end": 307.71,
+      "text": "d'accord vous avez toujours habité à",
+      "translation": ""
+    },
+    {
+      "id": "line-135",
+      "start": 307.71,
+      "end": 308.96,
+      "text": "paris",
+      "translation": ""
+    },
+    {
+      "id": "line-136",
+      "start": 308.96,
+      "end": 310.729,
+      "text": "et pourquoi paris est pas notre vie",
+      "translation": ""
+    },
+    {
+      "id": "line-137",
+      "start": 310.729,
+      "end": 314.09,
+      "text": "parce que le monde nous c'est non ouais",
+      "translation": ""
+    },
+    {
+      "id": "line-138",
+      "start": 314.09,
+      "end": 315.35,
+      "text": "pourquoi est ce qu'elle est jolie qu'est",
+      "translation": ""
+    },
+    {
+      "id": "line-139",
+      "start": 315.35,
+      "end": 316.669,
+      "text": "ce qui est si bien paris pour avoir",
+      "translation": ""
+    },
+    {
+      "id": "line-140",
+      "start": 316.669,
+      "end": 318.62,
+      "text": "visité beaucoup de villes vraiment avoir",
+      "translation": ""
+    },
+    {
+      "id": "line-141",
+      "start": 318.62,
+      "end": 319.669,
+      "text": "fait vraiment le tour du monde",
+      "translation": ""
+    },
+    {
+      "id": "line-142",
+      "start": 319.669,
+      "end": 322.06,
+      "text": "paris c'est magique",
+      "translation": ""
+    },
+    {
+      "id": "line-143",
+      "start": 322.06,
+      "end": 323.29,
+      "text": "peut-être pas les parisiens mais la",
+      "translation": ""
+    },
+    {
+      "id": "line-144",
+      "start": 323.29,
+      "end": 325.03,
+      "text": "ville de paris qu'est ce qui vous a",
+      "translation": ""
+    },
+    {
+      "id": "line-145",
+      "start": 325.03,
+      "end": 327.85,
+      "text": "motivé la déménager à paris parce que je",
+      "translation": ""
+    },
+    {
+      "id": "line-146",
+      "start": 327.85,
+      "end": 330.34,
+      "text": "viens de démarrer un nouveau master dans",
+      "translation": ""
+    },
+    {
+      "id": "line-147",
+      "start": 330.34,
+      "end": 332.62,
+      "text": "une école de commerce donc voilà j'ai dû",
+      "translation": ""
+    },
+    {
+      "id": "line-148",
+      "start": 332.62,
+      "end": 333.19,
+      "text": "déménager",
+      "translation": ""
+    },
+    {
+      "id": "line-149",
+      "start": 333.19,
+      "end": 336.13,
+      "text": "zhang bordeaux a la base je me sens plus",
+      "translation": ""
+    },
+    {
+      "id": "line-150",
+      "start": 336.13,
+      "end": 337.27,
+      "text": "à la maison dans la culture française",
+      "translation": ""
+    },
+    {
+      "id": "line-151",
+      "start": 337.27,
+      "end": 341.11,
+      "text": "que dans la culture alémanique donc",
+      "translation": ""
+    },
+    {
+      "id": "line-152",
+      "start": 341.11,
+      "end": 342.2,
+      "text": "j'aime beaucoup",
+      "translation": ""
+    },
+    {
+      "id": "line-153",
+      "start": 342.2,
+      "end": 343.87,
+      "text": "c'est des miles",
+      "translation": ""
+    },
+    {
+      "id": "line-154",
+      "start": 343.87,
+      "end": 349.54,
+      "text": "à des concerts une question piège à",
+      "translation": ""
+    },
+    {
+      "id": "line-155",
+      "start": 349.54,
+      "end": 352.11,
+      "text": "raclette ces français ou 6,6 en suisse",
+      "translation": ""
+    },
+    {
+      "id": "line-156",
+      "start": 352.11,
+      "end": 355.27,
+      "text": "non non la lah sont dues par contre ça",
+      "translation": ""
+    },
+    {
+      "id": "line-157",
+      "start": 355.27,
+      "end": 359.17,
+      "text": "je suis pas sûr il ya d'autres villes",
+      "translation": ""
+    },
+    {
+      "id": "line-158",
+      "start": 359.17,
+      "end": 360.79,
+      "text": "qu'ils vous font envie en france",
+      "translation": ""
+    },
+    {
+      "id": "line-159",
+      "start": 360.79,
+      "end": 362.5,
+      "text": "ouais ouais mais pour le moment je me",
+      "translation": ""
+    },
+    {
+      "id": "line-160",
+      "start": 362.5,
+      "end": 365.41,
+      "text": "reste beaucoup de travail et dit oui ok",
+      "translation": ""
+    },
+    {
+      "id": "line-161",
+      "start": 365.41,
+      "end": 366.22,
+      "text": "vous faites quoi dans la vie",
+      "translation": ""
+    },
+    {
+      "id": "line-162",
+      "start": 366.22,
+      "end": 367.87,
+      "text": "là je travaille pour une émission de",
+      "translation": ""
+    },
+    {
+      "id": "line-163",
+      "start": 367.87,
+      "end": 369.69,
+      "text": "télé vous habitez dans tel quartier où",
+      "translation": ""
+    },
+    {
+      "id": "line-164",
+      "start": 369.69,
+      "end": 371.71,
+      "text": "j'avais trévoux gauche",
+      "translation": ""
+    },
+    {
+      "id": "line-165",
+      "start": 371.71,
+      "end": 373.2,
+      "text": "ok",
+      "translation": ""
+    },
+    {
+      "id": "line-166",
+      "start": 373.2,
+      "end": 375.03,
+      "text": "or puces dans le quartier du côté des",
+      "translation": ""
+    },
+    {
+      "id": "line-167",
+      "start": 375.03,
+      "end": 378.27,
+      "text": "invalides au quartier des ministères qui",
+      "translation": ""
+    },
+    {
+      "id": "line-168",
+      "start": 378.27,
+      "end": 380.22,
+      "text": "est beaucoup plus",
+      "translation": ""
+    },
+    {
+      "id": "line-169",
+      "start": 380.22,
+      "end": 383.23,
+      "text": "beaucoup plus bourgeois et moins amusant",
+      "translation": ""
+    },
+    {
+      "id": "line-170",
+      "start": 383.23,
+      "end": 385.27,
+      "text": "que ce quartier si vous avez toujours",
+      "translation": ""
+    },
+    {
+      "id": "line-171",
+      "start": 385.27,
+      "end": 388.12,
+      "text": "habité à paris j'ai beaucoup voyagé mais",
+      "translation": ""
+    },
+    {
+      "id": "line-172",
+      "start": 388.12,
+      "end": 390.889,
+      "text": "j'ai été élevé à paris est pour vous",
+      "translation": ""
+    },
+    {
+      "id": "line-173",
+      "start": 390.889,
+      "end": 394.3,
+      "text": "la ville de vos rêves ça aurait été",
+      "translation": ""
+    },
+    {
+      "id": "line-174",
+      "start": 394.889,
+      "end": 397.979,
+      "text": "parent proche je conçois se dire je me",
+      "translation": ""
+    },
+    {
+      "id": "line-175",
+      "start": 397.979,
+      "end": 400.08,
+      "text": "barre et quoi mais non ou pas est-ce",
+      "translation": ""
+    },
+    {
+      "id": "line-176",
+      "start": 400.08,
+      "end": 401.34,
+      "text": "qu'on vous l'a emmené bien d'autres",
+      "translation": ""
+    },
+    {
+      "id": "line-177",
+      "start": 401.34,
+      "end": 402.64,
+      "text": "villes qui vous font rêver",
+      "translation": ""
+    },
+    {
+      "id": "line-178",
+      "start": 402.64,
+      "end": 403.77,
+      "text": "[Musique]",
+      "translation": ""
+    },
+    {
+      "id": "line-179",
+      "start": 403.77,
+      "end": 405.539,
+      "text": "des gilles peut-être pas mais il ya",
+      "translation": ""
+    },
+    {
+      "id": "line-180",
+      "start": 405.539,
+      "end": 407.58,
+      "text": "d'autres coins en france la bourgogne la",
+      "translation": ""
+    },
+    {
+      "id": "line-181",
+      "start": 407.58,
+      "end": 408.78,
+      "text": "bretagne",
+      "translation": ""
+    },
+    {
+      "id": "line-182",
+      "start": 408.78,
+      "end": 410.3,
+      "text": "qui m'attire pas mal mais",
+      "translation": ""
+    },
+    {
+      "id": "line-183",
+      "start": 410.3,
+      "end": 412.03,
+      "text": "et encore une fois pour l'instant",
+      "translation": ""
+    },
+    {
+      "id": "line-184",
+      "start": 412.03,
+      "end": 414.79,
+      "text": "j'ai pas résoudre y aller j'ai plus de",
+      "translation": ""
+    },
+    {
+      "id": "line-185",
+      "start": 414.79,
+      "end": 416.32,
+      "text": "raison de rester à paris que de raison",
+      "translation": ""
+    },
+    {
+      "id": "line-186",
+      "start": 416.32,
+      "end": 417.43,
+      "text": "de partir travailler",
+      "translation": ""
+    },
+    {
+      "id": "line-187",
+      "start": 417.43,
+      "end": 419.5,
+      "text": "je travaille dans le",
+      "translation": ""
+    },
+    {
+      "id": "line-188",
+      "start": 419.5,
+      "end": 422.92,
+      "text": "10e arrondissement de paris je dirige un",
+      "translation": ""
+    },
+    {
+      "id": "line-189",
+      "start": 422.92,
+      "end": 424.54,
+      "text": "réseau d'entrepreneurs de chefs",
+      "translation": ""
+    },
+    {
+      "id": "line-190",
+      "start": 424.54,
+      "end": 426.94,
+      "text": "d'entreprises qui sont engagés pour",
+      "translation": ""
+    },
+    {
+      "id": "line-191",
+      "start": 426.94,
+      "end": 427.96,
+      "text": "accompagner des plus jeunes chefs",
+      "translation": ""
+    },
+    {
+      "id": "line-192",
+      "start": 427.96,
+      "end": 429.61,
+      "text": "d'entreprise donc voilà je mets en lien",
+      "translation": ""
+    },
+    {
+      "id": "line-193",
+      "start": 429.61,
+      "end": 431.44,
+      "text": "des entrepreneurs en 6e entre eux pour",
+      "translation": ""
+    },
+    {
+      "id": "line-194",
+      "start": 431.44,
+      "end": 433.75,
+      "text": "développer leur vocation de chaque",
+      "translation": ""
+    },
+    {
+      "id": "line-195",
+      "start": 433.75,
+      "end": 434.14,
+      "text": "entreprise",
+      "translation": ""
+    },
+    {
+      "id": "line-196",
+      "start": 434.14,
+      "end": 435.73,
+      "text": "d'accord et effectivement pour créer des",
+      "translation": ""
+    },
+    {
+      "id": "line-197",
+      "start": 435.73,
+      "end": 436.87,
+      "text": "entreprises c'est du pratique d'être à",
+      "translation": ""
+    },
+    {
+      "id": "line-198",
+      "start": 436.87,
+      "end": 439.6,
+      "text": "paris alors oui et non parce que en fait",
+      "translation": ""
+    },
+    {
+      "id": "line-199",
+      "start": 439.6,
+      "end": 440.68,
+      "text": "ya des entrepreneurs un peu partout en",
+      "translation": ""
+    },
+    {
+      "id": "line-200",
+      "start": 440.68,
+      "end": 440.98,
+      "text": "france",
+      "translation": ""
+    },
+    {
+      "id": "line-201",
+      "start": 440.98,
+      "end": 442.96,
+      "text": "nous on a un réseau international donc",
+      "translation": ""
+    },
+    {
+      "id": "line-202",
+      "start": 442.96,
+      "end": 444.04,
+      "text": "on a des gens un peu partout non",
+      "translation": ""
+    },
+    {
+      "id": "line-203",
+      "start": 444.04,
+      "end": 445.18,
+      "text": "seulement en france mais à l'étranger et",
+      "translation": ""
+    },
+    {
+      "id": "line-204",
+      "start": 445.18,
+      "end": 446.26,
+      "text": "ce qu'on voit c'est qu'il ya des",
+      "translation": ""
+    },
+    {
+      "id": "line-205",
+      "start": 446.26,
+      "end": 449.11,
+      "text": "entrepreneurs partout il y a",
+      "translation": ""
+    },
+    {
+      "id": "line-206",
+      "start": 449.11,
+      "end": 450.82,
+      "text": "la création d'emplois partout donc en",
+      "translation": ""
+    },
+    {
+      "id": "line-207",
+      "start": 450.82,
+      "end": 452.41,
+      "text": "réalité oui c'est mieux quand on monte",
+      "translation": ""
+    },
+    {
+      "id": "line-208",
+      "start": 452.41,
+      "end": 454.12,
+      "text": "une entreprise digital notamment à paris",
+      "translation": ""
+    },
+    {
+      "id": "line-209",
+      "start": 454.12,
+      "end": 456.61,
+      "text": "mais c'est pas forcément nécessaire et",
+      "translation": ""
+    },
+    {
+      "id": "line-210",
+      "start": 456.61,
+      "end": 458.35,
+      "text": "des champions de digital aussi ailleurs",
+      "translation": ""
+    },
+    {
+      "id": "line-211",
+      "start": 458.35,
+      "end": 460.63,
+      "text": "en france et vous avez toujours habité",
+      "translation": ""
+    },
+    {
+      "id": "line-212",
+      "start": 460.63,
+      "end": 461.77,
+      "text": "dans le 14e arrondissement",
+      "translation": ""
+    },
+    {
+      "id": "line-213",
+      "start": 461.77,
+      "end": 464.5,
+      "text": "non j'ai habité d'abord le",
+      "translation": ""
+    },
+    {
+      "id": "line-214",
+      "start": 464.5,
+      "end": 467.71,
+      "text": "la banlieue parisienne gonesse ensuite",
+      "translation": ""
+    },
+    {
+      "id": "line-215",
+      "start": 467.71,
+      "end": 469.41,
+      "text": "le 15e arrondissement",
+      "translation": ""
+    },
+    {
+      "id": "line-216",
+      "start": 469.41,
+      "end": 470.6,
+      "text": "[Musique]",
+      "translation": ""
+    },
+    {
+      "id": "line-217",
+      "start": 470.6,
+      "end": 473.87,
+      "text": "qui de pièces ensuite",
+      "translation": ""
+    },
+    {
+      "id": "line-218",
+      "start": 473.87,
+      "end": 476.48,
+      "text": "le 12e arrondissement est le 14e depuis",
+      "translation": ""
+    },
+    {
+      "id": "line-219",
+      "start": 476.48,
+      "end": 477.52,
+      "text": "20 ans",
+      "translation": ""
+    },
+    {
+      "id": "line-220",
+      "start": 477.52,
+      "end": 484.689,
+      "text": "[Musique]",
+      "translation": ""
+    },
+    {
+      "id": "line-221",
+      "start": 484.689,
+      "end": 486.61,
+      "text": "merci d'avoir regarder cet épisode en",
+      "translation": ""
+    },
+    {
+      "id": "line-222",
+      "start": 486.61,
+      "end": 488.349,
+      "text": "espoirs qui vous a plu qu'il vous a",
+      "translation": ""
+    },
+    {
+      "id": "line-223",
+      "start": 488.349,
+      "end": 490.209,
+      "text": "permis de connaître de comprendre un peu",
+      "translation": ""
+    },
+    {
+      "id": "line-224",
+      "start": 490.209,
+      "end": 492.249,
+      "text": "mieux les parisiens vous aussi dites",
+      "translation": ""
+    },
+    {
+      "id": "line-225",
+      "start": 492.249,
+      "end": 494.019,
+      "text": "nous où vous vivez et pourquoi",
+      "translation": ""
+    },
+    {
+      "id": "line-226",
+      "start": 494.019,
+      "end": 496.509,
+      "text": "en attendant cliquez cette vidéo abonnez",
+      "translation": ""
+    },
+    {
+      "id": "line-227",
+      "start": 496.509,
+      "end": 498.249,
+      "text": "vous pour ne rater aucun de mes épisodes",
+      "translation": ""
+    },
+    {
+      "id": "line-228",
+      "start": 498.249,
+      "end": 500.349,
+      "text": "et surtout allez faire un tour sur notre",
+      "translation": ""
+    },
+    {
+      "id": "line-229",
+      "start": 500.349,
+      "end": 502.299,
+      "text": "page pas très long vous pourrez avoir",
+      "translation": ""
+    },
+    {
+      "id": "line-230",
+      "start": 502.299,
+      "end": 504.549,
+      "text": "accès à des exercices relié à toutes nos",
+      "translation": ""
+    },
+    {
+      "id": "line-231",
+      "start": 504.549,
+      "end": 506.769,
+      "text": "vidéos pour en dollars par vidéo à",
+      "translation": ""
+    },
+    {
+      "id": "line-232",
+      "start": 506.769,
+      "end": 508.07,
+      "text": "bientôt",
+      "translation": ""
+    },
+    {
+      "id": "line-233",
+      "start": 508.07,
+      "end": 513.71,
+      "text": "[Musique]",
+      "translation": ""
+    },
+    {
+      "id": "line-234",
+      "start": 513.71,
+      "end": 515.71,
+      "text": "1",
+      "translation": ""
+    }
+  ]
 }
