@@ -7,10 +7,11 @@
   "topics": [
     "general"
   ],
-  "sourceUrl": "",
+  "sourceUrl": "https://www.bilibili.com/video/BV1DKKw6BE35/#reply116940030940163",
   "storage": {
-    "mode": "local",
-    "provider": "local"
+    "mode": "remote",
+    "provider": "local",
+    "url": "https://www.bilibili.com/video/BV1DKKw6BE35/#reply116940030940163"
   },
   "segments": {
     "extensive": [
@@ -2184,5 +2185,5 @@
   "patterns": [],
   "parseStatus": "pending",
   "createdAt": "2026-07-18T06:58:45.169Z",
-  "updatedAt": "2026-07-18T06:58:45.169Z"
+  "updatedAt": "2026-07-18T08:47:01.801Z"
 }
