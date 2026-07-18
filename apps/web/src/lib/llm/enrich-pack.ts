@@ -54,6 +54,7 @@ async function enrichWithLlm(pack: ContentPack): Promise<EnrichResult> {
   let lastError = "";
   let consecutiveFails = 0;
   const lang = pack.manifest.sourceLang;
+  const batchSize = adaptiveBatchSize(lines.length);
   const tokenVocab =
     lang === "ja" || lang === "es" || lang === "fr"
       ? []
