@@ -1,4 +1,6 @@
 import type { SupportedLanguage } from "@langtube/core";
+import { guessSpanishLemma } from "@/lib/spanish-lemmatize";
+import { guessFrenchLemma } from "@/lib/french-lemmatize";
 
 /** 词汇去重 / 已解析判定用的规范 key（纯函数，可安全用于客户端） */
 export function vocabKey(word: string, lang: SupportedLanguage): string {
@@ -15,6 +17,14 @@ export function guessLemmaKey(
   const s = surface.trim();
   if (!s) return "";
   if (lang === "ja") return s;
+
+  if (lang === "es") {
+    const lower = s.toLowerCase();
+    if (/mente$/i.test(lower) && lower.length > 6) {
+      return lower.slice(0, -5);
+    }
+    return guessSpanishLemma(s);
+  }
 
   const lower = s.toLowerCase();
 
@@ -100,16 +110,8 @@ export function guessLemmaKey(
     }
   }
 
-  if (lang === "es" || lang === "fr") {
-    if (/mente$/i.test(lower) && lower.length > 6) {
-      return lower.slice(0, -5);
-    }
-    if (lang === "es" && /(ando|iendo|ado|ido)$/i.test(lower)) {
-      return lower.replace(/(ando|iendo|ado|ido)$/i, "ar");
-    }
-    if (lang === "fr" && /(ant|é|ée|és|ées|ait|aient)$/i.test(lower)) {
-      return lower.replace(/(ant|é|ée|és|ées|ait|aient)$/i, "er");
-    }
+  if (lang === "fr") {
+    return guessFrenchLemma(s);
   }
 
   return lower;

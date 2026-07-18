@@ -5,7 +5,11 @@
  * - 西/法语：多源释义（SpanishDict / esdict / Frdic 风格）
  */
 
-import { translateToZh, hasChineseText } from "@/lib/translate-zh";
+import { translateToZh, translateEsWordToZh, translateFrWordToZh, hasChineseText } from "@/lib/translate-zh";
+import { guessSpanishLemma } from "@/lib/spanish-lemmatize";
+import { guessFrenchLemma } from "@/lib/french-lemmatize";
+import { isBadSpanishGloss, lookupCommonSpanishZh } from "@/lib/spanish-gloss";
+import { isBadFrenchGloss, lookupCommonFrenchZh } from "@/lib/french-gloss";
 
 export type DictionarySense = {
   glossEn: string[];
@@ -237,11 +241,27 @@ async function lookupRomanceWord(
   const word = normalizeQuery(query).split(/\s+/)[0];
   if (!word || word.length < 2) return null;
 
-  const zh = await translateToZh(word, language);
-  if (!zh || !hasChineseText(zh)) return null;
+  if (language === "es") {
+    const lemma = guessSpanishLemma(word);
+    const zh =
+      lookupCommonSpanishZh(lemma) ??
+      (await translateEsWordToZh(lemma, word));
+    if (!zh || !hasChineseText(zh) || isBadSpanishGloss(lemma, zh)) return null;
+    return {
+      headword: lemma,
+      senses: [{ glossEn: [zh], partOfSpeech: [] }],
+      examples: [],
+      source: sourceLabel,
+      query: word,
+    };
+  }
+
+  const lemma = guessFrenchLemma(word);
+  const zh = await translateFrWordToZh(lemma, word, query);
+  if (!zh || !hasChineseText(zh) || isBadFrenchGloss(lemma, zh)) return null;
 
   return {
-    headword: word,
+    headword: lemma,
     senses: [{ glossEn: [zh], partOfSpeech: [] }],
     examples: [],
     source: sourceLabel,

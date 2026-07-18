@@ -50,21 +50,22 @@ export const PARSE_RULES: Record<SupportedLanguage, LangParseRules> = {
       { name: "MOJi辞書", url: "https://www.mojidict.com/" },
     ],
     dictionaryBackend: "moji-jmdict",
-    langSpecificRules: `【日语专属】
-字幕对照：优先使用已上传/粘贴的日语字幕；只展示跟随字幕（原声日文），不写行级对照译文。
-词汇表：
-- 展示 word + reading(假名) + 全部中文释义(zh) + 日文释义(glossJa，可简短)
-- 代词 / 助词性功能词 / 疑问词（誰/何/どこ/いつ/なぜ/どう…）跳过，不解析不展示
-- 片假名外来语：isLoanword=true，etymology 标示来源语言与原词（例：「英語: computer」）
-句型 / 语法：
-- 完整一句 + zh 中文释义；grammar 仅写具体语法点/固定搭配/俚语习惯用法
-- 禁止笼统套话（如「关注句尾谓语与助词搭配」）；若无具体点则 grammar 留空
-- 句中汉字词须能依托 vocabulary.reading 做平假名注音（reading 填平/片假名均可）
-- 已出现过的同一语法点/搭配/俚语，后续句不再重复解析展示`,
+    langSpecificRules: `【日语专属 · 与听辨页 mrfs6rgb 一致】
+字幕对照：只展示原声日文，不写行级对照译文。
+词汇表（仅点选解析写入，禁止全量自动抽取）：
+- 展示 word（原形/词典形）+ reading（假名读音）+ 中文释义(zh)；不展示 glossEn / glossJa
+- 误选整句/短语时重新解析须拆成单词（如 黙る，而非整句）
+- 字幕变化形写入 notes（字幕形：… / 出自短语：…）
+- 词性用中文（他动词/自动词/连体词等）
+- 跳过助词/疑问词等功能词
+句型 / 语法（仅勾选字幕句后解析）：
+- 完整一句原文 + zh 中文句意 + grammar 具体语法点/固定搭配（中文）
+- 禁止笼统套话；无具体点则 grammar 留空
+- 已出现过的同一语法点/搭配不重复`,
   },
   es: {
     subtitleFollowSourceOnly: true,
-    vocabLabel: "中英文释义",
+    vocabLabel: "中文释义",
     patternLabel: "句型讲解",
     vocabDictSources: [
       { name: "SpanishDict", url: "https://www.spanishdict.com/" },
@@ -77,21 +78,20 @@ export const PARSE_RULES: Record<SupportedLanguage, LangParseRules> = {
       { name: "西语助手", url: "https://www.esdict.cn/" },
     ],
     dictionaryBackend: "spanish-multisource",
-    langSpecificRules: `【西班牙语专属】
-字幕对照：优先使用已上传/粘贴的西语字幕；只展示跟随字幕（原声西语），不写行级对照译文。
-词汇表：
-- 展示 word + 全部中文释义(zh) + 全部英文释义(glossEn)
-- 冠词 / 疑问词（qué/quién/dónde/cuándo/cómo/cuál…）跳过，不解析不展示
-- 有时态或人称变化的动词：lemma 填不定式原型，dictUrl 给变化表链接（SpanishDict conjugate）
-- 词条 word 可保留字幕中的变化形，但必须附带 lemma + dictUrl
-句型 / 语法：
-- 完整一句 + zh 中文释义；grammar 仅写具体语法点/固定搭配/俚语习惯用法
-- 禁止笼统套话；若无具体点则 grammar 留空
-- 已出现过的同一语法点/搭配/俚语，后续句不再重复解析展示`,
+    langSpecificRules: `【西班牙语专属 · 与听辨页 es-coco 一致】
+字幕对照：只展示原声西语，不写行级对照译文。
+词汇表（仅点选解析写入，禁止全量自动抽取）：
+- 展示 word/lemma（动词不定式原形）+ 中文释义(zh)；不展示 glossEn
+- 字幕变化形写入 notes（字幕形：…）
+- dictUrl 指向 SpanishDict 变位表
+- 跳过冠词/代词/疑问词等功能词
+句型 / 语法（仅勾选字幕句后解析）：
+- 完整一句原文 + zh 中文句意 + grammar 具体语法点/固定搭配（中文）
+- 禁止笼统套话；无具体点则 grammar 留空`,
   },
   fr: {
     subtitleFollowSourceOnly: true,
-    vocabLabel: "中英文释义",
+    vocabLabel: "中文释义",
     patternLabel: "句型讲解",
     vocabDictSources: [
       { name: "CuteSlator", url: "https://www.cuteslator.com/dictionary/fr" },
@@ -102,17 +102,16 @@ export const PARSE_RULES: Record<SupportedLanguage, LangParseRules> = {
       { name: "法语助手", url: "https://www.frdic.com/" },
     ],
     dictionaryBackend: "french-multisource",
-    langSpecificRules: `【法语专属】
-字幕对照：优先使用已上传/粘贴的法语字幕；只展示跟随字幕（原声法语），不写行级对照译文。
-词汇表：
-- 展示 word + 全部中文释义(zh) + 全部英文释义(glossEn)
-- 冠词 / 疑问词（qui/que/quoi/où/quand/comment/lequel…）跳过，不解析不展示
-- 有时态或人称变化的动词：lemma 填不定式原型，dictUrl 给变位表链接（WordReference / 法语助手）
-- 词条 word 可保留字幕中的变化形，但必须附带 lemma + dictUrl
-句型 / 语法：
-- 完整一句 + zh 中文释义；grammar 仅写具体语法点/固定搭配/俚语习惯用法
-- 禁止笼统套话；若无具体点则 grammar 留空
-- 已出现过的同一语法点/搭配/俚语，后续句不再重复解析展示`,
+    langSpecificRules: `【法语专属 · 与听辨页 petit prince 一致】
+字幕对照：只展示原声法语，不写行级对照译文。
+词汇表（仅点选解析写入，禁止全量自动抽取）：
+- 展示 word/lemma（动词不定式原形）+ 中文释义(zh)；不展示 glossEn
+- 字幕变化形写入 notes（字幕形：…）；搭配写入 notes（搭配：…）
+- dictUrl 指向 WordReference 词典页
+- 跳过冠词/代词/疑问词等功能词
+句型 / 语法（仅勾选字幕句后解析）：
+- 完整一句原文 + zh 中文句意 + grammar 具体语法点/固定搭配（中文）
+- 禁止笼统套话；无具体点则 grammar 留空`,
   },
 };
 
@@ -144,6 +143,11 @@ export function conjugationDictUrl(
     return `https://www.mojidict.com/searchText/${encodeURIComponent(lemma.trim())}`;
   }
   return undefined;
+}
+
+/** 法语词条词典链接（名词/形容词/动词通用） */
+export function frenchDictUrl(word: string): string {
+  return `https://www.wordreference.com/fren/${encodeURIComponent(word.trim().toLowerCase())}`;
 }
 
 /** LLM 省 Token + 语种专属增强提示 */

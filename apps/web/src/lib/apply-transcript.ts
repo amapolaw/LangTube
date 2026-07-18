@@ -1,4 +1,9 @@
 import type { ContentPack, TranscriptLine } from "@langtube/core";
+import {
+  looksLikeFragmentedTranscript,
+  mergeTranscriptIntoSentences,
+  shouldMergeTranscriptSentences,
+} from "@/lib/transcript-sentence-merge";
 
 /**
  * 仅写入字幕时间轴与分段；不再批量抽取词汇/句型（省 Token）。
@@ -8,9 +13,19 @@ export async function applyTranscriptLines(
   pack: ContentPack,
   lines: TranscriptLine[]
 ): Promise<ContentPack> {
-  const duration = lines.length > 0 ? lines[lines.length - 1].end : 600;
+  const lang = pack.manifest.sourceLang;
+  let normalized = lines;
+  if (
+    shouldMergeTranscriptSentences(lang) &&
+    looksLikeFragmentedTranscript(lines, lang)
+  ) {
+    normalized = mergeTranscriptIntoSentences(lines, lang);
+  }
 
-  pack.transcript.lines = lines;
+  const duration =
+    normalized.length > 0 ? normalized[normalized.length - 1]!.end : 600;
+
+  pack.transcript.lines = normalized;
   // 保留用户已按需解析的词汇/句型；若此前无字幕则保持空数组
   if (!Array.isArray(pack.manifest.vocabulary)) pack.manifest.vocabulary = [];
   if (!Array.isArray(pack.manifest.patterns)) pack.manifest.patterns = [];

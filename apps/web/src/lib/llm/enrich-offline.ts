@@ -23,7 +23,38 @@ export async function enrichOffline(
     return { enriched: false, message: "无字幕行可增强", mode: "rules" };
   }
 
-  const vocab = await extractVocabulary(lines, pack.manifest.sourceLang);
+  const lang = pack.manifest.sourceLang;
+
+  // 日语 / 西语：词汇与句型仅在听辨页点选解析
+  if (lang === "ja") {
+    pack.manifest.enrichmentMode = "rules";
+    return {
+      enriched: false,
+      message:
+        "日语素材：请在听辨页点选单词/句子后解析（与「俺の話は長い 02」一致）",
+      mode: "rules",
+    };
+  }
+  if (lang === "es") {
+    pack.manifest.enrichmentMode = "rules";
+    return {
+      enriched: false,
+      message:
+        "西语素材：请在听辨页点选单词/句子后解析（与 es-coco 一致）",
+      mode: "rules",
+    };
+  }
+  if (lang === "fr") {
+    pack.manifest.enrichmentMode = "rules";
+    return {
+      enriched: false,
+      message:
+        "法语素材：请在听辨页点选单词/句子后解析（与「Le Petit Prince」一致）",
+      mode: "rules",
+    };
+  }
+
+  const vocab = await extractVocabulary(lines, lang);
   pack.manifest.vocabulary = vocab.filter(
     (v) =>
       isLikelyWordNotPhrase(v.word, pack.manifest.sourceLang) &&

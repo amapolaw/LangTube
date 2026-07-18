@@ -53,8 +53,11 @@ async function enrichWithLlm(pack: ContentPack): Promise<EnrichResult> {
   let batchesOk = 0;
   let lastError = "";
   let consecutiveFails = 0;
-  const batchSize = adaptiveBatchSize(lines.length);
-  const tokenVocab = await extractVocabulary(lines, pack.manifest.sourceLang);
+  const lang = pack.manifest.sourceLang;
+  const tokenVocab =
+    lang === "ja" || lang === "es" || lang === "fr"
+      ? []
+      : await extractVocabulary(lines, lang);
 
   for (let i = 0; i < lines.length; i += batchSize) {
     const batch = lines.slice(i, i + batchSize);
@@ -224,6 +227,12 @@ export async function enrichContentPack(
 ): Promise<EnrichResult> {
   if (!pack.transcript.lines.length) {
     return { enriched: false, message: "无字幕行可增强" };
+  }
+
+  const lang = pack.manifest.sourceLang;
+  // 日/西/法语：词汇与句型仅听辨页点选解析（与 petit prince / es-coco 一致）
+  if (lang === "ja" || lang === "es" || lang === "fr") {
+    return enrichOffline(pack, options?.referenceOptions);
   }
 
   if (

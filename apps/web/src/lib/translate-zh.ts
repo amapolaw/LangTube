@@ -1,6 +1,14 @@
 import fs from "fs";
 import path from "path";
 import { getUserDir } from "./paths";
+import {
+  isBadSpanishGloss,
+  lookupCommonSpanishZh,
+} from "./spanish-gloss";
+import {
+  isBadFrenchGloss,
+  lookupCommonFrenchZh,
+} from "./french-gloss";
 
 const LANG_PAIR: Record<string, string> = {
   ja: "ja|zh-CN",
@@ -231,7 +239,7 @@ export async function translateToZh(
 
   if (!result) result = await translateWithMyMemory(trimmed, sourceLang);
   if (!result) result = await translateWithLingva(trimmed, sourceLang);
-  if (!result && ["en", "es", "fr", "de"].includes(sourceLang)) {
+  if (!result && ["en", "es", "fr", "de", "ja"].includes(sourceLang)) {
     result = await translateWithGtx(trimmed, sourceLang);
   }
 
@@ -239,5 +247,111 @@ export async function translateToZh(
     writeTranslateCacheEntry(key, result);
   }
 
+  return result;
+}
+
+/** 西语单词 → 中文（常用表优先，过滤误译如 rutina→芦丁） */
+export async function translateEsWordToZh(
+  word: string,
+  surface?: string
+): Promise<string | null> {
+  const lemma = word.trim().toLowerCase();
+  if (!lemma) return null;
+
+  const common = lookupCommonSpanishZh(lemma);
+  if (common) return common;
+
+  const key = cacheKey("es", lemma);
+  const cached = readTranslateCache()[key];
+  if (cached && hasChineseText(cached) && !isBadSpanishGloss(lemma, cached)) {
+    return cached;
+  }
+
+  const tryAccept = (zh: string | null): string | null => {
+    if (!zh || !hasChineseText(zh) || isBadSpanishGloss(lemma, zh)) return null;
+    return zh;
+  };
+
+  let result =
+    tryAccept(await translateWordWithYoudao(lemma, "es")) ??
+    tryAccept(await translateWithMyMemory(lemma, "es"));
+
+  if (!result) {
+    try {
+      const url = `https://api.mymemory.translated.net/get?q=${encodeURIComponent(lemma.slice(0, 120))}&langpair=es|en`;
+      const res = await fetch(url, { signal: AbortSignal.timeout(12000) });
+      if (res.ok) {
+        const data = (await res.json()) as {
+          responseData?: { translatedText?: string };
+        };
+        const en = data.responseData?.translatedText?.trim();
+        if (en && !/MYMEMORY WARNING/i.test(en) && !hasChineseText(en)) {
+          result = tryAccept(await translateWithMyMemory(en, "en"));
+        }
+      }
+    } catch {
+      /* ignore pivot errors */
+    }
+  }
+
+  if (!result) result = tryAccept(await translateWithLingva(lemma, "es"));
+  if (!result) result = tryAccept(await translateWithGtx(lemma, "es"));
+
+  if (result) writeTranslateCacheEntry(key, result);
+  return result;
+}
+
+/** 法语单词 → 中文（常用表 + 搭配优先，过滤误译） */
+export async function translateFrWordToZh(
+  word: string,
+  surface?: string,
+  contextLine?: string
+): Promise<string | null> {
+  const lemma = word.trim().toLowerCase();
+  if (!lemma) return null;
+
+  const common = lookupCommonFrenchZh(lemma, contextLine);
+  if (common) return common;
+
+  const cacheKeySuffix = contextLine
+    ? `${lemma}::${contextLine.slice(0, 40)}`
+    : lemma;
+  const key = cacheKey("fr", cacheKeySuffix);
+  const cached = readTranslateCache()[key];
+  if (cached && hasChineseText(cached) && !isBadFrenchGloss(lemma, cached)) {
+    return cached;
+  }
+
+  const tryAccept = (zh: string | null): string | null => {
+    if (!zh || !hasChineseText(zh) || isBadFrenchGloss(lemma, zh)) return null;
+    return zh;
+  };
+
+  let result =
+    tryAccept(await translateWordWithYoudao(lemma, "fr")) ??
+    tryAccept(await translateWithMyMemory(lemma, "fr"));
+
+  if (!result) {
+    try {
+      const url = `https://api.mymemory.translated.net/get?q=${encodeURIComponent(lemma.slice(0, 120))}&langpair=fr|en`;
+      const res = await fetch(url, { signal: AbortSignal.timeout(12000) });
+      if (res.ok) {
+        const data = (await res.json()) as {
+          responseData?: { translatedText?: string };
+        };
+        const en = data.responseData?.translatedText?.trim();
+        if (en && !/MYMEMORY WARNING/i.test(en) && !hasChineseText(en)) {
+          result = tryAccept(await translateWithMyMemory(en, "en"));
+        }
+      }
+    } catch {
+      /* ignore pivot errors */
+    }
+  }
+
+  if (!result) result = tryAccept(await translateWithLingva(lemma, "fr"));
+  if (!result) result = tryAccept(await translateWithGtx(lemma, "fr"));
+
+  if (result) writeTranslateCacheEntry(key, result);
   return result;
 }

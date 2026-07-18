@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState, useRef, useMemo } from "react";
+import { useEffect, useState, useRef, useMemo, useCallback } from "react";
 import Link from "next/link";
 import type {
   ContentPack,
@@ -11,19 +11,19 @@ import type {
   PatternItem,
 } from "@langtube/core";
 import { formatDuration } from "@langtube/core";
-import { resolveMediaClient } from "@/lib/media-resolver";
+import { resolveListenPlaybackMedia } from "@/lib/resolve-listen-media";
 import { MaterialResourceUpload } from "@/components/material-resource-upload";
 import { sourceLangFromMaterial } from "@/lib/material-form";
-import {
-  mediaUrlForMaterial,
-  normalizeMaterialId,
-} from "@/lib/material-id";
+import { normalizeMaterialId } from "@/lib/material-id";
 import {
   isPackContentReady,
   isPackFullyEnriched,
 } from "@/lib/pack-readiness";
 import { getParseRules } from "@/lib/parse-rules";
-import { hasDisplayableGrammar } from "@/lib/pattern-grammar";
+
+function hasChinese(text: string): boolean {
+  return /[\u4e00-\u9fff]/.test(text);
+}
 import { hasSyntheticUniformTiming } from "@/lib/transcript-timing";
 import { Button } from "@/components/ui/button";
 import { Checkbox } from "@/components/ui/checkbox";
@@ -42,6 +42,14 @@ import { Progress } from "@/components/ui/progress";
 import { DraggableSubtitleOverlay } from "@/components/listen/draggable-subtitle-overlay";
 import { SelectableSubtitleText } from "@/components/listen/selectable-subtitle-text";
 import type { ParsedWordState } from "@/components/listen/selectable-subtitle-text";
+import {
+  ListenPatternCardRow,
+  ListenVocabCardRow,
+} from "@/components/listen/learning-card-rows";
+import {
+  buildNotebookPatternPayload,
+  buildNotebookVocabPayload,
+} from "@/lib/japanese-card";
 import { guessLemmaKey } from "@/lib/lemma-keys";
 import type { VocabIndexHit } from "@/lib/vocab-index";
 import { Star } from "lucide-react";
@@ -66,7 +74,9 @@ export default function ListenDetailPage({
   const [showSubtitles, setShowSubtitles] = useState(true);
   const [selectedVocab, setSelectedVocab] = useState<Set<string>>(new Set());
   const [selectedPatterns, setSelectedPatterns] = useState<Set<string>>(new Set());
-  const [pendingWords, setPendingWords] = useState<Set<string>>(new Set());
+  const [pendingWords, setPendingWords] = useState<Map<string, string>>(
+    () => new Map()
+  );
   const [pendingLineIds, setPendingLineIds] = useState<Set<string>>(new Set());
   const [selectionParsing, setSelectionParsing] = useState(false);
   const [vocabIndexHits, setVocabIndexHits] = useState<VocabIndexHit[]>([]);
@@ -124,66 +134,24 @@ export default function ListenDetailPage({
 
     setPack(packRes);
     setMarks(marksRes);
-    const remoteUrl =
-      packRes.storage?.url || packRes.manifest?.sourceUrl || "";
-    const localUrl = mediaUrlForMaterial(materialId);
-    const resolved = resolveMediaClient(
-      packRes.storage,
-      packRes.manifest?.sourceUrl,
-      materialId
-    );
 
-    // 有本地文件：materialId 直链（规范化后只编码一次）
-    if (packRes.storage?.path) {
-      const head = await fetch(localUrl, { method: "HEAD" }).catch(() => null);
-      if (head?.ok) {
-        setMedia({
-          type: "direct",
-          url: localUrl,
-          sourceUrl: remoteUrl || undefined,
-        });
-        setParseMessage(
-          "本地视频加载中（MOV/HEVC 首次会自动转码为可播 MP4，请稍候）"
-        );
-      } else if (remoteUrl.includes("bilibili.com")) {
-        try {
-          const fallback = await fetch(
-            `/api/media/resolve?url=${encodeURIComponent(remoteUrl)}`
-          ).then((r) => r.json());
-          setMedia(
-            fallback?.type === "direct"
-              ? fallback
-              : { type: "direct", url: localUrl, sourceUrl: remoteUrl }
-          );
-        } catch {
-          setMedia({ type: "direct", url: localUrl, sourceUrl: remoteUrl });
-        }
-      } else {
-        setMedia({
-          type: "direct",
-          url: localUrl,
-          sourceUrl: remoteUrl || undefined,
-        });
-      }
-    } else if (
-      remoteUrl.includes("bilibili.com") ||
-      resolved.type === "external"
+    const remoteUrl =
+      packRes.storage?.url?.trim() || packRes.manifest?.sourceUrl?.trim() || "";
+    if (
+      remoteUrl.includes("pan.baidu.com") &&
+      !packRes.storage?.path
     ) {
-      try {
-        const fallback = await fetch(
-          `/api/media/resolve?url=${encodeURIComponent(remoteUrl)}`
-        ).then((r) => r.json());
-        if (fallback?.type === "direct" && fallback.url) {
-          setMedia(fallback);
-        } else {
-          setMedia(resolved);
-        }
-      } catch {
-        setMedia(resolved);
-      }
-    } else {
-      setMedia(resolved);
+      setParseMessage("正在从百度网盘下载视频，首次可能需要几分钟…");
     }
+
+    const { media: playbackMedia, message: mediaMessage } =
+      await resolveListenPlaybackMedia(materialId, packRes);
+    setMedia(playbackMedia);
+    const mediaHadError =
+      !!mediaMessage &&
+      (/无法|未连接|失败/.test(mediaMessage) ||
+        (playbackMedia.type === "external" && !playbackMedia.url));
+    if (mediaMessage) setParseMessage(mediaMessage);
 
     // 默认展示全片字幕区间（勿只用 extensive 前 3 分钟）
     const lines = packRes.transcript?.lines ?? [];
@@ -228,7 +196,7 @@ export default function ListenDetailPage({
         } finally {
           setRealigning(false);
         }
-      } else {
+      } else if (!mediaHadError) {
         setParseMessage("字幕已就绪。点选单词/句子后再解析，可写入词汇表与句型。");
       }
       return;
@@ -351,7 +319,7 @@ export default function ListenDetailPage({
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({
             kind: "vocabulary",
-            words: [...pendingWords],
+            words: [...pendingWords.values()],
             lineIds: [...pendingLineIds],
           }),
         }
@@ -359,7 +327,7 @@ export default function ListenDetailPage({
       const data = await res.json();
       setParseMessage(data.message || (data.ok ? "词汇解析完成" : "词汇解析失败"));
       if (data.ok) {
-        setPendingWords(new Set());
+        setPendingWords(new Map());
         const [packRes, vocabIndexRes] = await Promise.all([
           fetch(`/api/materials/${encodeURIComponent(pack.manifest.id)}`).then(
             (r) => r.json()
@@ -494,28 +462,38 @@ export default function ListenDetailPage({
     }
   }
 
-  function selectPendingWord(word: string) {
+  function selectPendingWord(word: string, lineId?: string, lemma?: string) {
     if (!pack) return;
     const lang = pack.manifest.sourceLang;
-    const key = guessLemmaKey(word, lang);
+    const key =
+      (lang === "ja" || lang === "es" || lang === "fr") && lemma?.trim()
+        ? lemma.trim()
+        : guessLemmaKey(word, lang);
     if (parsedWordStates.has(key)) return;
     setPendingWords((prev) => {
-      const next = new Set(prev);
-      const exists = [...next].some((w) => guessLemmaKey(w, lang) === key);
-      if (!exists) next.add(word);
+      const next = new Map(prev);
+      next.set(key, word);
       return next;
     });
+    if (lineId) {
+      setPendingLineIds((prev) => {
+        const next = new Set(prev);
+        next.add(lineId);
+        return next;
+      });
+    }
   }
 
-  function deselectPendingWord(word: string) {
+  function deselectPendingWord(word: string, lemma?: string) {
     if (!pack) return;
     const lang = pack.manifest.sourceLang;
-    const key = guessLemmaKey(word, lang);
+    const key =
+      (lang === "ja" || lang === "es" || lang === "fr") && lemma?.trim()
+        ? lemma.trim()
+        : guessLemmaKey(word, lang);
     setPendingWords((prev) => {
-      const next = new Set(prev);
-      for (const w of next) {
-        if (guessLemmaKey(w, lang) === key) next.delete(w);
-      }
+      const next = new Map(prev);
+      next.delete(key);
       return next;
     });
   }
@@ -577,14 +555,18 @@ export default function ListenDetailPage({
   }, [pack, vocabIndexHits]);
 
   const activeLine = useMemo(() => {
-    if (!pack) return null;
+    if (!pack || !linesInSegment.length) return null;
     const t = videoTime - subtitleOffsetSec;
-    return (
-      linesInSegment.find((l) => t >= l.start && t < l.end) ??
-      linesInSegment[currentLine] ??
-      null
-    );
-  }, [pack, linesInSegment, currentLine, videoTime, subtitleOffsetSec]);
+    const exact = linesInSegment.find((l) => t >= l.start && t < l.end);
+    if (exact) return exact;
+    let lastStarted = -1;
+    for (let i = 0; i < linesInSegment.length; i++) {
+      if (linesInSegment[i]!.start <= t) lastStarted = i;
+      else break;
+    }
+    if (lastStarted >= 0) return linesInSegment[lastStarted] ?? null;
+    return linesInSegment[0] ?? null;
+  }, [pack, linesInSegment, videoTime, subtitleOffsetSec]);
 
   async function realignSubtitles(
     mode: "speech-rate" | "offset" | "refetch",
@@ -638,33 +620,10 @@ export default function ListenDetailPage({
     for (const id of selectedVocab) {
       const v = pack.manifest.vocabulary.find((x) => x.id === id);
       if (v) {
-        const exampleLines = (v.sentenceIds ?? [])
-          .map((sid) => pack.transcript.lines.find((l) => l.id === sid))
-          .filter(Boolean)
-          .slice(0, 3)
-          .map((l) =>
-            l!.translation
-              ? `${l!.text} / ${l!.translation}`
-              : l!.text
-          );
-
         await fetch("/api/notebook", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({
-            type: "vocabulary",
-            front: v.word,
-            back: v.zh || "",
-            reading: v.reading,
-            partOfSpeech: v.partOfSpeech,
-            explanation: v.partOfSpeech
-              ? `词性：${v.partOfSpeech}`
-              : undefined,
-            examples: exampleLines,
-            language: pack.manifest.sourceLang,
-            materialId: pack.manifest.id,
-            tags: pack.manifest.topics ?? [],
-          }),
+          body: JSON.stringify(buildNotebookVocabPayload(v, pack)),
         });
       }
     }
@@ -674,16 +633,7 @@ export default function ListenDetailPage({
         await fetch("/api/notebook", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({
-            type: "pattern",
-            front: p.pattern,
-            back: p.zh || "",
-            explanation: p.grammar,
-            examples: p.examples ?? [],
-            language: pack.manifest.sourceLang,
-            materialId: pack.manifest.id,
-            tags: pack.manifest.topics ?? [],
-          }),
+          body: JSON.stringify(buildNotebookPatternPayload(p, pack)),
         });
       }
     }
@@ -727,21 +677,28 @@ export default function ListenDetailPage({
     }
   }, [mode, pack]);
 
-  useEffect(() => {
-    const video = videoRef.current;
-    if (!video || !pack?.transcript.lines.length) return;
-
-    function onTimeUpdate() {
-      const t = video!.currentTime;
+  const syncSubtitleToTime = useCallback(
+    (t: number) => {
+      if (!linesInSegment.length) return;
       setVideoTime(t);
       const adj = t - subtitleOffsetSec;
-      const idx = linesInSegment.findIndex((l) => adj >= l.start && adj < l.end);
-      if (idx >= 0) setCurrentLine(idx);
-    }
-
-    video.addEventListener("timeupdate", onTimeUpdate);
-    return () => video.removeEventListener("timeupdate", onTimeUpdate);
-  }, [pack, linesInSegment, subtitleOffsetSec]);
+      const idx = linesInSegment.findIndex(
+        (l) => adj >= l.start && adj < l.end
+      );
+      if (idx >= 0) {
+        setCurrentLine(idx);
+        return;
+      }
+      // 句间空白：高亮最近一条已开始字幕
+      let lastStarted = -1;
+      for (let i = 0; i < linesInSegment.length; i++) {
+        if (linesInSegment[i]!.start <= adj) lastStarted = i;
+        else break;
+      }
+      if (lastStarted >= 0) setCurrentLine(lastStarted);
+    },
+    [linesInSegment, subtitleOffsetSec]
+  );
 
   // 字幕对照跟随视频进度自动滚动到当前句
   useEffect(() => {
@@ -974,6 +931,15 @@ export default function ListenDetailPage({
                 src={media.url}
                 controls
                 className="aspect-video w-full rounded-lg bg-black"
+                onTimeUpdate={(e) =>
+                  syncSubtitleToTime(e.currentTarget.currentTime)
+                }
+                onSeeked={(e) =>
+                  syncSubtitleToTime(e.currentTarget.currentTime)
+                }
+                onLoadedMetadata={(e) =>
+                  syncSubtitleToTime(e.currentTarget.currentTime)
+                }
               />
               {showSubtitles && activeLine && (
                 <DraggableSubtitleOverlay
@@ -983,10 +949,11 @@ export default function ListenDetailPage({
                   <SelectableSubtitleText
                     text={activeLine.text}
                     lang={pack.manifest.sourceLang}
-                    selectedWords={pendingWords}
+                    selectedWords={new Set(pendingWords.keys())}
                     parsedStates={parsedWordStates}
                     onSelectWord={selectPendingWord}
                     onDeselectWord={deselectPendingWord}
+                    lineId={activeLine.id}
                     className="text-white"
                   />
                 </DraggableSubtitleOverlay>
@@ -1150,7 +1117,7 @@ export default function ListenDetailPage({
                     pendingWords.size === 0 && pendingLineIds.size === 0
                   }
                   onClick={() => {
-                    setPendingWords(new Set());
+                    setPendingWords(new Map());
                     setPendingLineIds(new Set());
                   }}
                 >
@@ -1209,10 +1176,11 @@ export default function ListenDetailPage({
                   <SelectableSubtitleText
                     text={line.text}
                     lang={pack.manifest.sourceLang}
-                    selectedWords={pendingWords}
+                    selectedWords={new Set(pendingWords.keys())}
                     parsedStates={parsedWordStates}
                     onSelectWord={selectPendingWord}
                     onDeselectWord={deselectPendingWord}
+                    lineId={line.id}
                   />
                 </div>
                 </div>
@@ -1273,100 +1241,23 @@ export default function ListenDetailPage({
               </p>
             )}
             {pack.manifest.vocabulary.map((v: VocabularyItem) => (
-              <label
+              <ListenVocabCardRow
                 key={v.id}
-                className="flex cursor-pointer items-start gap-2 rounded p-1 hover:bg-muted"
-              >
-                <Checkbox
-                  checked={selectedVocab.has(v.id)}
-                  onCheckedChange={() => {
-                    setSelectedVocab((prev) => {
-                      const next = new Set(prev);
-                      if (next.has(v.id)) next.delete(v.id);
-                      else next.add(v.id);
-                      return next;
-                    });
-                  }}
-                />
-                <button
-                  type="button"
-                  onClick={(e) => {
-                    e.preventDefault();
-                    toggleMark("vocabulary", v.id);
-                  }}
-                  className={
-                    marks.vocabulary.includes(v.id)
-                      ? "text-yellow-500"
-                      : "text-muted-foreground"
-                  }
-                >
-                  <Star
-                    className="h-3 w-3"
-                    fill={
-                      marks.vocabulary.includes(v.id) ? "currentColor" : "none"
-                    }
-                  />
-                </button>
-                <div className="min-w-0">
-                  <div className="flex flex-wrap items-baseline gap-x-2 gap-y-0.5">
-                    <span className="font-medium">{v.word}</span>
-                    {v.reading && (
-                      <span className="text-xs text-muted-foreground">
-                        〔{v.reading}〕
-                      </span>
-                    )}
-                    {v.lemma && v.lemma.toLowerCase() !== v.word.toLowerCase() && (
-                      <span className="text-xs text-muted-foreground">
-                        原型 {v.lemma}
-                      </span>
-                    )}
-                    {v.isAcronym && (
-                      <span className="rounded bg-amber-500/15 px-1 text-[10px] text-amber-800 dark:text-amber-200">
-                        缩写
-                      </span>
-                    )}
-                    {v.isLoanword && (
-                      <span className="rounded bg-sky-500/15 px-1 text-[10px] text-sky-800 dark:text-sky-200">
-                        外来语
-                      </span>
-                    )}
-                  </div>
-                  {v.zh && v.zh !== v.word && (
-                    <p className="text-sm text-muted-foreground">
-                      中文：{v.zh}
-                    </p>
-                  )}
-                  {v.glossEn && (
-                    <p className="text-sm text-muted-foreground">
-                      EN：{v.glossEn}
-                    </p>
-                  )}
-                  {v.glossJa && (
-                    <p className="text-sm text-muted-foreground">
-                      日文：{v.glossJa}
-                    </p>
-                  )}
-                  {v.etymology && (
-                    <p className="text-xs text-muted-foreground">
-                      来源：{v.etymology}
-                    </p>
-                  )}
-                  {v.notes && (
-                    <p className="text-xs text-muted-foreground">{v.notes}</p>
-                  )}
-                  {v.dictUrl && (
-                    <a
-                      href={v.dictUrl}
-                      target="_blank"
-                      rel="noreferrer"
-                      className="text-xs text-primary underline"
-                      onClick={(e) => e.stopPropagation()}
-                    >
-                      词典 / 词形变化
-                    </a>
-                  )}
-                </div>
-              </label>
+                item={v}
+                lang={pack.manifest.sourceLang}
+                patternLabel={parseRules.patternLabel}
+                selected={selectedVocab.has(v.id)}
+                marked={marks.vocabulary.includes(v.id)}
+                onToggleSelect={() => {
+                  setSelectedVocab((prev) => {
+                    const next = new Set(prev);
+                    if (next.has(v.id)) next.delete(v.id);
+                    else next.add(v.id);
+                    return next;
+                  });
+                }}
+                onToggleMark={() => toggleMark("vocabulary", v.id)}
+              />
             ))}
           </CardContent>
         </Card>
@@ -1407,52 +1298,23 @@ export default function ListenDetailPage({
               </p>
             )}
             {pack.manifest.patterns.map((p: PatternItem) => (
-              <label
+              <ListenPatternCardRow
                 key={p.id}
-                className="flex cursor-pointer items-start gap-2 rounded p-1 hover:bg-muted"
-              >
-                <Checkbox
-                  checked={selectedPatterns.has(p.id)}
-                  onCheckedChange={() => {
-                    setSelectedPatterns((prev) => {
-                      const next = new Set(prev);
-                      if (next.has(p.id)) next.delete(p.id);
-                      else next.add(p.id);
-                      return next;
-                    });
-                  }}
-                />
-                <button
-                  type="button"
-                  onClick={(e) => {
-                    e.preventDefault();
-                    toggleMark("patterns", p.id);
-                  }}
-                  className={
-                    marks.patterns.includes(p.id)
-                      ? "text-yellow-500"
-                      : "text-muted-foreground"
-                  }
-                >
-                  <Star
-                    className="h-3 w-3"
-                    fill={
-                      marks.patterns.includes(p.id) ? "currentColor" : "none"
-                    }
-                  />
-                </button>
-                <div className="min-w-0">
-                  <p className="text-sm">{p.pattern}</p>
-                  {p.zh && (
-                    <p className="text-xs text-muted-foreground">中文：{p.zh}</p>
-                  )}
-                  {hasDisplayableGrammar(p.grammar) && (
-                    <p className="whitespace-pre-wrap text-xs text-muted-foreground">
-                      {parseRules.patternLabel}：{p.grammar}
-                    </p>
-                  )}
-                </div>
-              </label>
+                item={p}
+                lang={pack.manifest.sourceLang}
+                patternLabel={parseRules.patternLabel}
+                selected={selectedPatterns.has(p.id)}
+                marked={marks.patterns.includes(p.id)}
+                onToggleSelect={() => {
+                  setSelectedPatterns((prev) => {
+                    const next = new Set(prev);
+                    if (next.has(p.id)) next.delete(p.id);
+                    else next.add(p.id);
+                    return next;
+                  });
+                }}
+                onToggleMark={() => toggleMark("patterns", p.id)}
+              />
             ))}
           </CardContent>
         </Card>

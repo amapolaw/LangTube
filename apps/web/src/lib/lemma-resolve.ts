@@ -1,6 +1,9 @@
 import type { SupportedLanguage } from "@langtube/core";
 import { lookupDictionary } from "@/lib/dictionary/lookup";
-import { conjugationDictUrl } from "@/lib/parse-rules";
+import { resolveJapaneseLemma } from "@/lib/japanese-tokenize";
+import { resolveSpanishLemma } from "@/lib/spanish-lemmatize";
+import { resolveFrenchLemma } from "@/lib/french-lemmatize";
+import { conjugationDictUrl, frenchDictUrl } from "@/lib/parse-rules";
 import { guessLemmaKey } from "@/lib/lemma-keys";
 
 export { guessLemmaKey, vocabKey } from "@/lib/lemma-keys";
@@ -25,17 +28,54 @@ export async function resolveLemma(
   }
 
   const hit = await lookupDictionary(raw, lang);
+  let dictHit = hit;
   let lemma =
     hit?.headword?.trim() ||
     (lang === "ja" ? raw : guessLemmaKey(raw, lang));
 
-  if (lang !== "ja" && lemma === raw.toLowerCase()) {
+  let reading = hit?.reading;
+  let partOfSpeech = hit?.senses?.[0]?.partOfSpeech?.join(", ") || undefined;
+
+  if (lang === "ja") {
+    const ja = await resolveJapaneseLemma(raw);
+    lemma = ja.lemma || lemma;
+    reading = reading || ja.reading;
+    partOfSpeech = partOfSpeech || ja.partOfSpeech;
+    const lemmaHit = lemma !== raw ? await lookupDictionary(lemma, lang) : hit;
+    if (lemmaHit && lemma !== raw) {
+      if (!reading) reading = lemmaHit.reading;
+      if (!partOfSpeech) {
+        partOfSpeech =
+          lemmaHit.senses?.[0]?.partOfSpeech?.join(", ") || undefined;
+      }
+    }
+  } else if (lang === "es") {
+    const es = resolveSpanishLemma(raw);
+    lemma = es.lemma;
+    const lemmaHit = await lookupDictionary(lemma, lang);
+    if (lemmaHit?.headword?.trim()) {
+      lemma = lemmaHit.headword.trim().toLowerCase();
+    }
+    if (lemmaHit) {
+      dictHit = lemmaHit;
+    }
+  } else if (lang === "fr") {
+    const fr = resolveFrenchLemma(raw);
+    lemma = fr.lemma;
+    const lemmaHit = await lookupDictionary(lemma, lang);
+    if (lemmaHit?.headword?.trim()) {
+      lemma = lemmaHit.headword.trim().toLowerCase();
+    }
+    if (lemmaHit) {
+      dictHit = lemmaHit;
+    }
+  } else if (lemma === raw.toLowerCase()) {
     const guessed = guessLemmaKey(raw, lang);
     if (guessed && guessed !== lemma) lemma = guessed;
   }
 
   const glossEn =
-    hit?.senses
+    dictHit?.senses
       ?.flatMap((s) => s.glossEn ?? [])
       .filter(Boolean)
       .slice(0, 4)
@@ -44,9 +84,9 @@ export async function resolveLemma(
   return {
     lemma,
     surface: raw,
-    reading: hit?.reading,
-    partOfSpeech: hit?.senses?.[0]?.partOfSpeech?.join(", ") || undefined,
+    reading,
+    partOfSpeech,
     glossEn,
-    dictUrl: conjugationDictUrl(lang, lemma),
+    dictUrl: lang === "fr" ? frenchDictUrl(lemma) : conjugationDictUrl(lang, lemma),
   };
 }

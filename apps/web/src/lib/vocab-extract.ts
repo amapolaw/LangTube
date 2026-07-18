@@ -486,10 +486,19 @@ export function isLikelyWordNotPhrase(
   if (/[。！？.!?，,]/.test(t)) return false;
   if (/\s/.test(t) && lang !== "en") return false;
   if (lang === "ja") {
-    if (t.length > 12) return false;
-    // 含多个助词的长串更像短语
-    const particles = t.match(/[はがをにでとへも]/g) ?? [];
+    // 动词活用、补助表达、终助词 → 短语而非单词
+    if (
+      /(?:て|で)[いきさし]|っ(?:て|た)|[られ]れ[んな]|っていうか|んだけど|て(?:い|お)?る|ている|てお|かな$|じゃない|わけじゃ|な(?:の|ん)?[?？]?$/.test(
+        t
+      )
+    ) {
+      return false;
+    }
+    if (t.length > 10) return false;
+    // 含多个助词/终助词的长串更像短语（含 の・か・ね 等）
+    const particles = t.match(/[はがをにでとへもやかなねよわさの]/g) ?? [];
     if (particles.length >= 2) return false;
+    if (t.length > 6 && particles.length >= 1) return false;
   } else if (t.split(/\s+/).length > 2) {
     return false;
   }

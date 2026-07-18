@@ -33,6 +33,7 @@ export async function buildVocabularyIndex(): Promise<VocabIndexHit[]> {
     } catch {
       continue;
     }
+    if (!pack) continue;
     const lang = pack.manifest.sourceLang as SupportedLanguage;
     for (const v of pack.manifest.vocabulary ?? []) {
       if (!v.word?.trim()) continue;

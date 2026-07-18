@@ -1,6 +1,28 @@
 import type { ResolvedMedia, StorageConfig } from "@langtube/core";
 import { mediaUrlForMaterial } from "@/lib/material-id";
 
+export function isBaiduPanUrl(url: string): boolean {
+  try {
+    const u = new URL(url);
+    return (
+      u.hostname.includes("pan.baidu.com") ||
+      u.hostname.includes("yun.baidu.com")
+    );
+  } catch {
+    return false;
+  }
+}
+
+export function isRemoteVideoPageUrl(url: string): boolean {
+  if (!url.trim()) return false;
+  return (
+    isBaiduPanUrl(url) ||
+    url.includes("bilibili.com") ||
+    url.includes("youtube.com") ||
+    url.includes("youtu.be")
+  );
+}
+
 export function resolveMediaClient(
   storage: StorageConfig,
   sourceUrl?: string,
@@ -8,10 +30,10 @@ export function resolveMediaClient(
 ): ResolvedMedia {
   const url = storage.url ?? sourceUrl ?? "";
 
-  if (storage.path || materialId) {
+  if (storage.path) {
     const mediaUrl = materialId
       ? mediaUrlForMaterial(materialId)
-      : `/api/media?path=${encodeURIComponent(storage.path!)}`;
+      : `/api/media?path=${encodeURIComponent(storage.path)}`;
     return {
       type: "direct",
       url: mediaUrl,
@@ -21,7 +43,6 @@ export function resolveMediaClient(
 
   const bili = parseBilibiliUrl(url);
   if (bili) {
-    // 先给 embed 兜底；听辨页会再请求 /api/media/resolve 换成可播直链
     const params = new URLSearchParams({
       bvid: bili.bvid,
       page: String(bili.page),
@@ -42,6 +63,10 @@ export function resolveMediaClient(
       embedSrc: `https://www.youtube.com/embed/${yt}`,
       sourceUrl: url,
     };
+  }
+
+  if (isBaiduPanUrl(url)) {
+    return { type: "external", sourceUrl: url, url };
   }
 
   if (url) {

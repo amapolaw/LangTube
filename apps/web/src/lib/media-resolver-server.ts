@@ -8,7 +8,7 @@ import {
   bilibiliReferer,
   resolveBilibiliPlayUrl,
 } from "@/lib/bilibili-media";
-import { parseBilibiliUrl } from "@/lib/media-resolver";
+import { parseBilibiliUrl, isBaiduPanUrl } from "@/lib/media-resolver";
 import { getPlatformSession, getYtDlpAuthAttempts } from "@/lib/platform-session";
 
 const execFileAsync = promisify(execFile);
@@ -61,6 +61,17 @@ export function toProxiedMediaUrl(cdnUrl: string, referer: string): string {
   return `/api/media/proxy?${params.toString()}`;
 }
 
+function ytdlpExtraArgs(url: string): string[] {
+  if (!isBaiduPanUrl(url)) return [];
+  try {
+    const pwd = new URL(url).searchParams.get("pwd");
+    if (pwd) return ["--extractor-args", `pan.baidu:password=${pwd}`];
+  } catch {
+    /* ignore */
+  }
+  return [];
+}
+
 export async function resolveWithYtDlp(
   url: string
 ): Promise<ResolvedMedia | null> {
@@ -68,13 +79,14 @@ export async function resolveWithYtDlp(
   if (!ytdlp) return null;
 
   const authAttempts = await getYtDlpAuthAttempts(url);
+  const extra = ytdlpExtraArgs(url);
   const formatArgs = ["-g", "--no-playlist", "-f", "b/bv*+ba/best"];
 
   for (const authArgs of [...authAttempts, []]) {
     try {
       const { stdout } = await execFileAsync(
         ytdlp,
-        [...formatArgs, ...authArgs, url],
+        [...formatArgs, ...extra, ...authArgs, url],
         {
           timeout: 90000,
           env: ytdlpEnv(),

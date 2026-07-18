@@ -67,11 +67,23 @@ function resolveYtDlpBin(): string | null {
   return null;
 }
 
+function ytdlpExtraArgs(url: string): string[] {
+  if (!isBaiduPanUrl(url)) return [];
+  try {
+    const pwd = new URL(url).searchParams.get("pwd");
+    if (pwd) return ["--extractor-args", `pan.baidu:password=${pwd}`];
+  } catch {
+    /* ignore */
+  }
+  return [];
+}
+
 /** yt-dlp 下载完整 mp4（B站/百度分享链接兜底） */
 async function downloadWithYtDlp(url: string, dest: string): Promise<boolean> {
   const ytdlp = resolveYtDlpBin();
   if (!ytdlp) return false;
   const attempts = await getYtDlpAuthAttempts(url);
+  const extra = ytdlpExtraArgs(url);
   const tmp = `${dest}.ytdlp.mp4`;
   for (const authArgs of attempts) {
     try {
@@ -80,6 +92,7 @@ async function downloadWithYtDlp(url: string, dest: string): Promise<boolean> {
         ytdlp,
         [
           ...authArgs,
+          ...extra,
           "-f",
           "bv*+ba/b",
           "--merge-output-format",

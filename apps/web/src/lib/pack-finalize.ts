@@ -8,8 +8,11 @@ import {
   filterPackByLevel,
   lookupJaLexicon,
 } from "@/lib/level-reference/filter";
-import { isBasicSkipWord } from "@/lib/vocab-extract";
+import { normalizeJaVocabCard } from "@/lib/japanese-card";
+import { normalizeEsVocabCard } from "@/lib/spanish-card";
+import { normalizeFrVocabCard } from "@/lib/french-card";
 import { isCompleteLearningSentence } from "@/lib/transcript-noise-filter";
+import { isBasicSkipWord } from "@/lib/vocab-extract";
 
 function normalizeWordKey(word: string, lang: SupportedLanguage): string {
   const w = word.trim();
@@ -120,14 +123,20 @@ export function finalizeManifestForListen(pack: ContentPack): {
   if (lang === "ja") {
     vocabulary = vocabulary.map((v) => {
       const lex = lookupJaLexicon(v.word);
-      if (!lex) return v;
-      return {
-        ...v,
-        zh: mergeZhMeanings(v.zh, lex.zh || lex.gloss),
-        reading: v.reading || lex.reading,
-        partOfSpeech: v.partOfSpeech || lex.pos,
-      };
+      const merged = lex
+        ? {
+            ...v,
+            zh: mergeZhMeanings(v.zh, lex.zh || lex.gloss),
+            reading: v.reading || lex.reading,
+            partOfSpeech: v.partOfSpeech || lex.pos,
+          }
+        : v;
+      return normalizeJaVocabCard(merged);
     });
+  } else if (lang === "es") {
+    vocabulary = vocabulary.map((v) => normalizeEsVocabCard(v));
+  } else if (lang === "fr") {
+    vocabulary = vocabulary.map((v) => normalizeFrVocabCard(v));
   }
 
   const patterns = dedupePatternsByGrammar(

@@ -10,6 +10,12 @@ import {
  */
 export function ensureFullPatterns(pack: ContentPack): void {
   const lang = pack.manifest.sourceLang;
+  if (lang === "ja" || lang === "es" || lang === "fr") {
+    pack.manifest.patterns = pack.manifest.patterns.filter((p) =>
+      isCompleteLearningSentence(p.pattern, lang)
+    );
+    return;
+  }
   const byText = new Map(
     pack.manifest.patterns.map((p) => [
       p.pattern.replace(/\s+/g, " ").trim(),

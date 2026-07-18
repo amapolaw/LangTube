@@ -234,22 +234,34 @@ export async function POST(req: Request) {
               },
             ],
           }),
-    vocabulary: lines.length
-      ? (
-          await extractVocabulary(
-            lines,
-            sourceLang as MaterialManifest["sourceLang"]
+    vocabulary:
+      lines.length &&
+      sourceLang !== "ja" &&
+      sourceLang !== "es" &&
+      sourceLang !== "fr"
+        ? (
+            await extractVocabulary(
+              lines,
+              sourceLang as MaterialManifest["sourceLang"]
+            )
+          ).filter((v) =>
+            isLikelyWordNotPhrase(
+              v.word,
+              sourceLang as MaterialManifest["sourceLang"]
+            )
           )
-        ).filter((v) =>
-          isLikelyWordNotPhrase(
-            v.word,
-            sourceLang as MaterialManifest["sourceLang"]
-          )
-        )
-      : (existingPack?.manifest.vocabulary ?? []),
-    patterns: lines.length
-      ? extractPatterns(lines, sourceLang as MaterialManifest["sourceLang"])
-      : (existingPack?.manifest.patterns ?? []),
+        : sourceLang === "ja" || sourceLang === "es" || sourceLang === "fr"
+          ? []
+          : (existingPack?.manifest.vocabulary ?? []),
+    patterns:
+      lines.length &&
+      sourceLang !== "ja" &&
+      sourceLang !== "es" &&
+      sourceLang !== "fr"
+        ? extractPatterns(lines, sourceLang as MaterialManifest["sourceLang"])
+        : sourceLang === "ja" || sourceLang === "es" || sourceLang === "fr"
+          ? []
+          : (existingPack?.manifest.patterns ?? []),
     parseStatus: "pending",
     enrichmentMode: hasNewSubtitle ? undefined : existingPack?.manifest.enrichmentMode,
     createdAt: existingPack?.manifest.createdAt ?? now,
