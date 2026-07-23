@@ -12,14 +12,14 @@
       "id": "line-2",
       "start": 11.267,
       "end": 14.333,
-      "text": "続いては 最新のニュースを\nお伝えします",
+      "text": "続いては 最新のニュースを お伝えします",
       "translation": ""
     },
     {
       "id": "line-3",
       "start": 14.333,
       "end": 18.7,
-      "text": "この後も引き続き 音楽と共に\nステキな午後をお過ごしください",
+      "text": "この後も引き続き 音楽と共に ステキな午後をお過ごしください",
       "translation": ""
     },
     {
@@ -33,7 +33,7 @@
       "id": "line-5",
       "start": 28.233,
       "end": 32.167,
-      "text": "そしたら島田さんが 血相変えて\n｢表 出ろ｣って怒鳴ったんだけど",
+      "text": "そしたら島田さんが 血相変えて ｢表 出ろ｣って怒鳴ったんだけど",
       "translation": ""
     },
     {
@@ -68,7 +68,7 @@
       "id": "line-10",
       "start": 38.533,
       "end": 41.167,
-      "text": "｢先に出て待ってろ｣って\n土砂降りの中 立たせて",
+      "text": "｢先に出て待ってろ｣って 土砂降りの中 立たせて",
       "translation": ""
     },
     {
@@ -89,7 +89,7 @@
       "id": "line-13",
       "start": 43.8,
       "end": 47.233,
-      "text": "そのせいで大事なお客さん\n１人 失ったのよね",
+      "text": "そのせいで大事なお客さん １人 失ったのよね",
       "translation": ""
     },
     {
@@ -159,7 +159,7 @@
       "id": "line-23",
       "start": 65.433,
       "end": 68,
-      "text": "ＡＴＭだったら\n５０枚まで硬貨 入れられるから",
+      "text": "ＡＴＭだったら ５０枚まで硬貨 入れられるから",
       "translation": ""
     },
     {
@@ -215,7 +215,7 @@
       "id": "line-31",
       "start": 92.433,
       "end": 95.1,
-      "text": "本格的なコーヒー屋さん\nやってたんだけどね",
+      "text": "本格的なコーヒー屋さん やってたんだけどね",
       "translation": ""
     },
     {
@@ -229,21 +229,21 @@
       "id": "line-33",
       "start": 96.7,
       "end": 100.4,
-      "text": "作業着で行ったら\n露骨に嫌な顔されましたからね",
+      "text": "作業着で行ったら 露骨に嫌な顔されましたからね",
       "translation": ""
     },
     {
       "id": "line-34",
       "start": 100.4,
       "end": 103.633,
-      "text": "しかし あそこまで\n流行らないとは思わなかったな",
+      "text": "しかし あそこまで 流行らないとは思わなかったな",
       "translation": ""
     },
     {
       "id": "line-35",
       "start": 103.633,
       "end": 105.8,
-      "text": "何で そんなに\nうれしそうに言うんですか？",
+      "text": "何で そんなに うれしそうに言うんですか？",
       "translation": ""
     },
     {
@@ -263,5577 +263,5199 @@
     {
       "id": "line-38",
       "start": 108.667,
-      "end": 110,
-      "text": "９か月",
+      "end": 113.9,
+      "text": "９か月この店を継ぐ気はないんですか？",
       "translation": ""
     },
     {
       "id": "line-39",
-      "start": 111.867,
-      "end": 113.9,
-      "text": "この店を継ぐ気はないんですか？",
-      "translation": ""
-    },
-    {
-      "id": "line-40",
       "start": 113.9,
       "end": 116.233,
       "text": "絶っ対 嫌なんだって",
       "translation": ""
     },
     {
-      "id": "line-41",
+      "id": "line-40",
       "start": 116.233,
       "end": 117.567,
       "text": "どうしてです？",
       "translation": ""
     },
     {
-      "id": "line-42",
+      "id": "line-41",
       "start": 117.567,
       "end": 120.667,
       "text": "満 プライドだけは 超一流だから",
       "translation": ""
     },
     {
-      "id": "line-43",
+      "id": "line-42",
       "start": 127.633,
       "end": 130.333,
       "text": "ウチで出すコーヒーは 偽物だって",
       "translation": ""
     },
     {
-      "id": "line-44",
+      "id": "line-43",
       "start": 130.333,
       "end": 132.3,
       "text": "偽物にしちゃ うまいよ",
       "translation": ""
     },
     {
-      "id": "line-45",
+      "id": "line-44",
       "start": 133,
       "end": 135.567,
-      "text": "俺も ママさんのコーヒーのほうが\nおいしいと思うけどな",
+      "text": "俺も ママさんのコーヒーのほうが おいしいと思うけどな",
       "translation": ""
     },
     {
-      "id": "line-46",
+      "id": "line-45",
       "start": 135.567,
       "end": 137.6,
       "text": "ありがとう",
       "translation": ""
     },
     {
-      "id": "line-47",
+      "id": "line-46",
       "start": 137.6,
-      "end": 140.833,
-      "text": "でもね あの子が入れてくれた\nコーヒー飲むと",
+      "end": 142,
+      "text": "でもね あの子が入れてくれた コーヒー飲むとやっぱり違うなって",
+      "translation": ""
+    },
+    {
+      "id": "line-47",
+      "start": 142,
+      "end": 143.167,
+      "text": "思わされちゃう",
       "translation": ""
     },
     {
       "id": "line-48",
-      "start": 140.833,
-      "end": 143.167,
-      "text": "やっぱり違うなって 思わされちゃう",
-      "translation": ""
-    },
-    {
-      "id": "line-49",
       "start": 143.167,
       "end": 144.6,
       "text": "入れてくれたりするの？",
       "translation": ""
     },
     {
-      "id": "line-50",
+      "id": "line-49",
       "start": 144.6,
       "end": 146.9,
       "text": "毎朝 １杯だけね",
       "translation": ""
     },
     {
-      "id": "line-51",
+      "id": "line-50",
       "start": 146.9,
       "end": 148.9,
       "text": "それは初耳だねぇ",
       "translation": ""
     },
     {
-      "id": "line-52",
+      "id": "line-51",
       "start": 148.9,
       "end": 150.667,
       "text": "俺は知ってたけどな",
       "translation": ""
     },
     {
-      "id": "line-53",
+      "id": "line-52",
       "start": 151.5,
       "end": 152.967,
       "text": "でもね…",
       "translation": ""
     },
     {
-      "id": "line-54",
+      "id": "line-53",
       "start": 152.967,
       "end": 155.733,
       "text": "それ以外は 何にもやらないからね",
       "translation": ""
     },
     {
-      "id": "line-55",
+      "id": "line-54",
       "start": 155.733,
       "end": 157.233,
       "text": "ホント どうしようもないわよ",
       "translation": ""
     },
     {
-      "id": "line-56",
+      "id": "line-55",
       "start": 190.333,
-      "end": 191.8,
-      "text": "身近なお悩みメールに",
+      "end": 193.2,
+      "text": "身近なお悩みメールに我々",
+      "translation": ""
+    },
+    {
+      "id": "line-56",
+      "start": 193.2,
+      "end": 194.6,
+      "text": "マシンガンズが誠心誠意",
       "translation": ""
     },
     {
       "id": "line-57",
-      "start": 191.8,
-      "end": 194.6,
-      "text": "我々 マシンガンズが誠心誠意",
+      "start": 194.6,
+      "end": 198.633,
+      "text": "相談に乗って 何とか 解決策をひねり出したいな",
       "translation": ""
     },
     {
       "id": "line-58",
-      "start": 194.6,
-      "end": 198.633,
-      "text": "相談に乗って 何とか\n解決策をひねり出したいな",
+      "start": 198.633,
+      "end": 201.033,
+      "text": "-と思っております ﾄﾞｶﾝとやってやります -そうですね",
       "translation": ""
     },
     {
       "id": "line-59",
-      "start": 198.633,
-      "end": 201.033,
-      "text": "-と思っております\nﾄﾞｶﾝとやってやります -そうですね",
-      "translation": ""
-    },
-    {
-      "id": "line-60",
       "start": 201.033,
       "end": 202.633,
       "text": "ええ 最初のﾒｰﾙはですね",
       "translation": ""
     },
     {
-      "id": "line-61",
+      "id": "line-60",
       "start": 202.633,
       "end": 204.867,
       "text": "ラジオネーム ｢恋するＪＫ｣",
       "translation": ""
     },
     {
-      "id": "line-62",
+      "id": "line-61",
       "start": 204.867,
       "end": 206.467,
       "text": "｢私には好きな人が…｣",
       "translation": ""
     },
     {
-      "id": "line-63",
+      "id": "line-62",
       "start": 206.467,
       "end": 207.933,
       "text": "春海？",
       "translation": ""
     },
     {
-      "id": "line-64",
+      "id": "line-63",
       "start": 211,
       "end": 213.3,
-      "text": "今から おばあちゃん家\n行くけど 行かない？",
+      "text": "今から おばあちゃん家 行くけど 行かない？",
+      "translation": ""
+    },
+    {
+      "id": "line-64",
+      "start": 213.3,
+      "end": 215.867,
+      "text": "すき焼きの おいしいお肉 買って来たから",
       "translation": ""
     },
     {
       "id": "line-65",
-      "start": 213.3,
-      "end": 215.867,
-      "text": "すき焼きの おいしいお肉\n買って来たから",
+      "start": 216.833,
+      "end": 220.767,
+      "text": "いい春海が喜ぶと思って 買って来たのよ？",
       "translation": ""
     },
     {
       "id": "line-66",
-      "start": 216.833,
-      "end": 217.933,
-      "text": "いい",
-      "translation": ""
-    },
-    {
-      "id": "line-67",
-      "start": 217.933,
-      "end": 220.767,
-      "text": "春海が喜ぶと思って 買って来たのよ？",
-      "translation": ""
-    },
-    {
-      "id": "line-68",
       "start": 221.8,
       "end": 223.433,
       "text": "晩ごはん どうするの？",
       "translation": ""
     },
     {
-      "id": "line-69",
+      "id": "line-67",
       "start": 223.433,
       "end": 225.467,
       "text": "昼の残り 食べるから",
       "translation": ""
     },
     {
-      "id": "line-70",
+      "id": "line-68",
       "start": 226.867,
       "end": 229.233,
       "text": "先生から連絡あったわよ",
       "translation": ""
     },
     {
-      "id": "line-71",
+      "id": "line-69",
       "start": 229.233,
       "end": 232.233,
       "text": "来週から 学校 来られそうか？って",
       "translation": ""
     },
     {
-      "id": "line-72",
+      "id": "line-70",
       "start": 232.233,
       "end": 234.4,
       "text": "一度 会って話したいそうよ",
       "translation": ""
     },
     {
-      "id": "line-73",
+      "id": "line-71",
       "start": 235.267,
       "end": 238.667,
-      "text": "来られない理由が分からなきゃ\n協力もできないって",
+      "text": "来られない理由が分からなきゃ 協力もできないって",
       "translation": ""
     },
     {
-      "id": "line-74",
+      "id": "line-72",
       "start": 240.033,
       "end": 241.933,
       "text": "聞いてるの？",
       "translation": ""
     },
     {
-      "id": "line-75",
+      "id": "line-73",
       "start": 243.8,
       "end": 247.633,
-      "text": "来週も休むんだったら\nお父さんに直接 頼みなさい",
+      "text": "来週も休むんだったら お父さんに直接 頼みなさい",
       "translation": ""
     },
     {
-      "id": "line-76",
+      "id": "line-74",
       "start": 247.633,
       "end": 249.667,
       "text": "私は もう一切 連絡しないから",
       "translation": ""
     },
     {
-      "id": "line-77",
+      "id": "line-75",
       "start": 273.8,
       "end": 275.733,
       "text": "ネギ２本あれば足りるかしら？",
       "translation": ""
     },
     {
-      "id": "line-78",
+      "id": "line-76",
       "start": 275.733,
       "end": 277,
       "text": "ねぇ ザラメどこ？",
       "translation": ""
     },
     {
-      "id": "line-79",
+      "id": "line-77",
       "start": 277,
       "end": 278.3,
       "text": "そこの棚にあるわよ",
       "translation": ""
     },
     {
-      "id": "line-80",
+      "id": "line-78",
       "start": 278.3,
       "end": 280.1,
       "text": "見たけど ないって",
       "translation": ""
     },
     {
-      "id": "line-81",
+      "id": "line-79",
       "start": 282.733,
       "end": 284.067,
       "text": "何か手伝うことある？",
       "translation": ""
     },
     {
-      "id": "line-82",
+      "id": "line-80",
       "start": 284.067,
       "end": 285.867,
-      "text": "取り皿 用意するとか\n箸 用意するとか",
+      "text": "取り皿 用意するとか 箸 用意するとか",
       "translation": ""
     },
     {
-      "id": "line-83",
+      "id": "line-81",
       "start": 285.867,
       "end": 287.533,
       "text": "いくらでもあるでしょ",
       "translation": ""
     },
     {
-      "id": "line-84",
+      "id": "line-82",
       "start": 287.533,
       "end": 288.967,
       "text": "取り皿は…",
       "translation": ""
     },
     {
-      "id": "line-85",
+      "id": "line-83",
       "start": 288.967,
       "end": 290.633,
       "text": "右の上から２段目",
       "translation": ""
     },
     {
-      "id": "line-86",
+      "id": "line-84",
       "start": 290.633,
       "end": 292.233,
       "text": "右の上から２段目…",
       "translation": ""
     },
     {
-      "id": "line-87",
+      "id": "line-85",
       "start": 292.233,
       "end": 293.467,
       "text": "初めて来る家じゃないんだからさぁ",
       "translation": ""
     },
     {
-      "id": "line-88",
+      "id": "line-86",
       "start": 293.467,
       "end": 296.233,
-      "text": "変な遠慮とかしてないで\n自発的にやってよね",
+      "text": "変な遠慮とかしてないで 自発的にやってよね",
       "translation": ""
     },
     {
-      "id": "line-89",
+      "id": "line-87",
       "start": 296.233,
-      "end": 298.233,
-      "text": "そんな言い方しないの",
-      "translation": ""
-    },
-    {
-      "id": "line-90",
-      "start": 298.233,
       "end": 299.433,
-      "text": "僕が悪いんですよ",
+      "text": "そんな言い方しないの僕が悪いんですよ",
       "translation": ""
     },
     {
-      "id": "line-91",
+      "id": "line-88",
       "start": 299.433,
       "end": 301.333,
       "text": "駐車場で車こすっちゃって",
       "translation": ""
     },
     {
-      "id": "line-92",
+      "id": "line-89",
       "start": 301.333,
-      "end": 302.5,
-      "text": "そう",
-      "translation": ""
-    },
-    {
-      "id": "line-93",
-      "start": 302.5,
       "end": 304.267,
-      "text": "慣れてないと あそこ狭いから…",
+      "text": "そう慣れてないと あそこ狭いから…",
       "translation": ""
     },
     {
-      "id": "line-94",
+      "id": "line-90",
       "start": 304.267,
-      "end": 306.567,
-      "text": "だから 私が運転するって言ったのに",
+      "end": 307.32233333333335,
+      "text": "だから 私が運転するって言ったのにヤダ",
       "translation": ""
     },
     {
-      "id": "line-95",
-      "start": 306.567,
+      "id": "line-91",
+      "start": 307.32233333333335,
       "end": 308.833,
-      "text": "ヤダ 卵 忘れて来ちゃった",
+      "text": "卵 忘れて来ちゃった",
       "translation": ""
     },
     {
-      "id": "line-96",
+      "id": "line-92",
       "start": 308.833,
       "end": 309.667,
       "text": "僕 取って来ましょうか",
       "translation": ""
     },
     {
-      "id": "line-97",
+      "id": "line-93",
       "start": 309.667,
       "end": 310.833,
       "text": "ううん ありがとう",
       "translation": ""
     },
     {
-      "id": "line-98",
+      "id": "line-94",
       "start": 313.467,
       "end": 315.933,
       "text": "取り皿 取り皿… 取り皿ね",
       "translation": ""
     },
     {
-      "id": "line-99",
+      "id": "line-95",
       "start": 317.667,
       "end": 319.867,
-      "text": "何 やってんの？\n目の前にあるでしょう",
+      "text": "何 やってんの？ 目の前にあるでしょう",
       "translation": ""
     },
     {
-      "id": "line-100",
+      "id": "line-96",
       "start": 320.867,
       "end": 322.933,
-      "text": "-これでいいの？\n-それのどこがダメなの？",
+      "text": "-これでいいの？ -それのどこがダメなの？",
       "translation": ""
     },
     {
-      "id": "line-101",
+      "id": "line-97",
       "start": 322.933,
       "end": 325.5,
-      "text": "取り皿っていうから もっと\nこう 浅い皿かと思って…",
+      "text": "取り皿っていうから もっと こう 浅い皿かと思って…",
       "translation": ""
     },
     {
-      "id": "line-102",
+      "id": "line-98",
       "start": 325.5,
       "end": 327.3,
       "text": "だって 今からすき焼き食べるんだよ？",
       "translation": ""
     },
     {
-      "id": "line-103",
+      "id": "line-99",
       "start": 327.3,
       "end": 330.367,
-      "text": "-他にも取り皿が必要な おかず作れ\nってこと？  -いや そうじゃないってば",
+      "text": "-他にも取り皿が必要な おかず作れ ってこと？ -いや そうじゃないってば",
       "translation": ""
     },
     {
-      "id": "line-104",
+      "id": "line-100",
       "start": 330.367,
       "end": 332.233,
       "text": "ただいま～",
       "translation": ""
     },
     {
-      "id": "line-105",
+      "id": "line-101",
       "start": 332.233,
       "end": 334.5,
-      "text": "満に ｢すぐ ごはんだから｣\nって言って来て",
+      "text": "満に ｢すぐ ごはんだから｣ って言って来て",
       "translation": ""
     },
     {
-      "id": "line-106",
+      "id": "line-102",
       "start": 334.5,
-      "end": 335.7,
-      "text": "はいはい",
-      "translation": ""
-    },
-    {
-      "id": "line-107",
-      "start": 338.5,
-      "end": 340.167,
-      "text": "こんばんは",
-      "translation": ""
-    },
-    {
-      "id": "line-108",
-      "start": 340.167,
       "end": 341.7,
-      "text": "お久しぶりです",
+      "text": "はいはいこんばんはお久しぶりです",
       "translation": ""
     },
     {
-      "id": "line-109",
+      "id": "line-103",
       "start": 341.7,
       "end": 343.433,
       "text": "もう ごはん出来るって",
       "translation": ""
     },
     {
-      "id": "line-110",
+      "id": "line-104",
       "start": 344.333,
       "end": 347.2,
       "text": "あれ 光司さん 痩せました？",
       "translation": ""
     },
     {
-      "id": "line-111",
+      "id": "line-105",
       "start": 347.2,
       "end": 349.633,
-      "text": "いや 最近 ｢痩せた｣って\nよく言われるんだけど",
+      "text": "いや 最近 ｢痩せた｣って よく言われるんだけど",
       "translation": ""
     },
     {
-      "id": "line-112",
+      "id": "line-106",
       "start": 349.633,
       "end": 352.033,
       "text": "半年で ５ｋｇも太っちゃってさ",
       "translation": ""
     },
     {
-      "id": "line-113",
+      "id": "line-107",
       "start": 352.033,
       "end": 354.5,
-      "text": "太ってるのに\n｢痩せた｣って言われると怖いよね",
+      "text": "太ってるのに ｢痩せた｣って言われると怖いよね",
       "translation": ""
     },
     {
-      "id": "line-114",
+      "id": "line-108",
       "start": 354.5,
       "end": 356.833,
-      "text": "逆に 痩せたら\n何て言われるんですかね？",
+      "text": "逆に 痩せたら 何て言われるんですかね？",
       "translation": ""
     },
     {
-      "id": "line-115",
+      "id": "line-109",
       "start": 357.667,
       "end": 359.967,
       "text": "でも 今日は ほら すき焼きだから",
       "translation": ""
     },
     {
-      "id": "line-116",
+      "id": "line-110",
       "start": 359.967,
       "end": 361.433,
       "text": "たくさん食べちゃうよね…",
       "translation": ""
     },
     {
-      "id": "line-117",
+      "id": "line-111",
       "start": 362.633,
       "end": 363.9,
       "text": "すき焼き？",
       "translation": ""
     },
     {
-      "id": "line-118",
+      "id": "line-112",
       "start": 364.567,
       "end": 366.9,
       "text": "いや 綾子がさ もう奮発して",
       "translation": ""
     },
     {
-      "id": "line-119",
+      "id": "line-113",
       "start": 366.9,
       "end": 369.367,
       "text": "米沢牛のいい肉 買って来てくれて",
       "translation": ""
     },
     {
-      "id": "line-120",
+      "id": "line-114",
       "start": 372.633,
       "end": 373.933,
       "text": "あり得ない",
       "translation": ""
     },
     {
-      "id": "line-121",
+      "id": "line-115",
       "start": 375.067,
       "end": 376.4,
       "text": "米沢牛 嫌いなの？",
       "translation": ""
     },
     {
-      "id": "line-122",
+      "id": "line-116",
       "start": 376.4,
       "end": 378.7,
       "text": "すき焼きのほうですよ",
       "translation": ""
     },
     {
-      "id": "line-123",
+      "id": "line-117",
       "start": 378.7,
       "end": 381.1,
       "text": "すき焼き苦手な人って いるんだ",
       "translation": ""
     },
     {
-      "id": "line-124",
+      "id": "line-118",
       "start": 381.1,
       "end": 384.1,
-      "text": "肉の食べ方として\n間違ってますからね？",
+      "text": "肉の食べ方として 間違ってますからね？",
       "translation": ""
     },
     {
-      "id": "line-125",
+      "id": "line-119",
       "start": 389.7,
       "end": 392.2,
-      "text": "-間違ってるの？すき焼きが\n-そう思いません？",
+      "text": "-間違ってるの？すき焼きが -そう思いません？",
       "translation": ""
     },
     {
-      "id": "line-126",
+      "id": "line-120",
       "start": 392.2,
       "end": 393.6,
       "text": "考えたこともないけど",
       "translation": ""
     },
     {
-      "id": "line-127",
+      "id": "line-121",
       "start": 393.6,
       "end": 395.3,
       "text": "じゃあ 冷静に考えてみてください",
       "translation": ""
     },
     {
-      "id": "line-128",
+      "id": "line-122",
       "start": 395.3,
       "end": 398.333,
-      "text": "最高級の霜降り肉を\n自由に食べていいって言われて",
+      "text": "最高級の霜降り肉を 自由に食べていいって言われて",
       "translation": ""
     },
     {
-      "id": "line-129",
+      "id": "line-123",
       "start": 398.333,
       "end": 400.333,
-      "text": "すき焼き 焼き肉\nしゃぶしゃぶの中から",
+      "text": "すき焼き 焼き肉 しゃぶしゃぶの中から",
       "translation": ""
     },
     {
-      "id": "line-130",
+      "id": "line-124",
       "start": 400.333,
       "end": 402.567,
       "text": "すき焼き 選びますか？",
       "translation": ""
     },
     {
-      "id": "line-131",
+      "id": "line-125",
       "start": 402.567,
       "end": 404.133,
-      "text": "まぁ その日の\n体調によるかもしれないね",
+      "text": "まぁ その日の 体調によるかもしれないね",
       "translation": ""
     },
     {
-      "id": "line-132",
+      "id": "line-126",
       "start": 404.133,
       "end": 406.833,
-      "text": "体調も天気も世界情勢も\n関係ありません",
+      "text": "体調も天気も世界情勢も 関係ありません",
       "translation": ""
     },
     {
-      "id": "line-133",
+      "id": "line-127",
       "start": 406.833,
       "end": 408.933,
       "text": "すき焼きだけは論外です",
       "translation": ""
     },
     {
-      "id": "line-134",
+      "id": "line-128",
       "start": 408.933,
       "end": 410.4,
       "text": "いや それは好みの問題でしょ",
       "translation": ""
     },
     {
-      "id": "line-135",
+      "id": "line-129",
       "start": 410.4,
       "end": 413.233,
-      "text": "上質な素材は\n余計なことしなくていいんです",
+      "text": "上質な素材は 余計なことしなくていいんです",
       "translation": ""
     },
     {
-      "id": "line-136",
+      "id": "line-130",
       "start": 413.233,
       "end": 416.867,
-      "text": "美人が厚化粧してるのを\n見たことありますか？",
+      "text": "美人が厚化粧してるのを 見たことありますか？",
       "translation": ""
     },
     {
-      "id": "line-137",
+      "id": "line-131",
       "start": 416.867,
       "end": 418.167,
       "text": "名古屋で１回だけあるな",
       "translation": ""
     },
     {
-      "id": "line-138",
+      "id": "line-132",
       "start": 418.167,
       "end": 420.067,
       "text": "その時 どう思いました？",
       "translation": ""
     },
     {
-      "id": "line-139",
+      "id": "line-133",
       "start": 421.767,
       "end": 423.967,
       "text": "-もったいない -はい",
       "translation": ""
     },
     {
-      "id": "line-140",
+      "id": "line-134",
       "start": 423.967,
       "end": 426,
       "text": "はい 同じことですよ",
       "translation": ""
     },
     {
-      "id": "line-141",
+      "id": "line-135",
       "start": 426,
       "end": 428.433,
-      "text": "霜降りの肉に 余計な装飾\nいらないんです",
+      "text": "霜降りの肉に 余計な装飾 いらないんです",
       "translation": ""
     },
     {
-      "id": "line-142",
+      "id": "line-136",
       "start": 428.433,
-      "end": 430.3,
-      "text": "すき焼きなんて\nドス黒いタレで煮込んで",
+      "end": 431.7886666666667,
+      "text": "すき焼きなんて ドス黒いタレで煮込んで-さらに 生卵ですよ？",
       "translation": ""
     },
     {
-      "id": "line-143",
-      "start": 430.3,
-      "end": 432.533,
-      "text": "-さらに 生卵ですよ？ -生卵ね",
-      "translation": ""
-    },
-    {
-      "id": "line-144",
-      "start": 432.533,
+      "id": "line-137",
+      "start": 431.7886666666667,
       "end": 434.8,
-      "text": "何してんの？",
+      "text": "-生卵ね何してんの？",
       "translation": ""
     },
     {
-      "id": "line-145",
+      "id": "line-138",
       "start": 434.8,
       "end": 437,
       "text": "早く下りて来なさいよ",
       "translation": ""
     },
     {
-      "id": "line-146",
+      "id": "line-139",
       "start": 438.467,
       "end": 439.933,
       "text": "嫌がらせ？",
       "translation": ""
     },
     {
-      "id": "line-147",
+      "id": "line-140",
       "start": 439.933,
       "end": 441.1,
       "text": "何が？",
       "translation": ""
     },
     {
-      "id": "line-148",
+      "id": "line-141",
       "start": 441.1,
       "end": 443.833,
-      "text": "俺が すき焼き嫌いなの分かってて\nすき焼きにしたんだろ？",
+      "text": "俺が すき焼き嫌いなの分かってて すき焼きにしたんだろ？",
       "translation": ""
     },
     {
-      "id": "line-149",
+      "id": "line-142",
       "start": 443.833,
       "end": 445,
       "text": "知らないわよ",
       "translation": ""
     },
     {
-      "id": "line-150",
+      "id": "line-143",
       "start": 445,
       "end": 446.5,
       "text": "そんなこと 知らないわけないだろ",
       "translation": ""
     },
     {
-      "id": "line-151",
+      "id": "line-144",
       "start": 446.5,
       "end": 449.5,
-      "text": "母さんが すき焼き作って\n俺がキレてるとこ 何回も見てるよね？",
+      "text": "母さんが すき焼き作って 俺がキレてるとこ 何回も見てるよね？",
       "translation": ""
     },
     {
-      "id": "line-152",
+      "id": "line-145",
       "start": 449.5,
       "end": 452.133,
       "text": "何十年前の話 してんのよ",
       "translation": ""
     },
     {
-      "id": "line-153",
+      "id": "line-146",
       "start": 452.133,
       "end": 455.1,
-      "text": "ごめん 満が嫌いなの\nすっかり忘れてた",
+      "text": "ごめん 満が嫌いなの すっかり忘れてた",
       "translation": ""
     },
     {
-      "id": "line-154",
+      "id": "line-147",
       "start": 456.4,
       "end": 458.533,
-      "text": "えっ どうして\nそんな見え透いたウソつくの？",
+      "text": "えっ どうして そんな見え透いたウソつくの？",
       "translation": ""
     },
     {
-      "id": "line-155",
+      "id": "line-148",
       "start": 458.533,
       "end": 459.867,
       "text": "ウソなんか つかないわよ",
       "translation": ""
     },
     {
-      "id": "line-156",
+      "id": "line-149",
       "start": 459.867,
       "end": 461.967,
-      "text": "自分が すき焼き食べたいから\n黙ってたんだろ？",
+      "text": "自分が すき焼き食べたいから 黙ってたんだろ？",
       "translation": ""
     },
     {
-      "id": "line-157",
+      "id": "line-150",
       "start": 461.967,
       "end": 463.5,
       "text": "ホントに忘れてただけよ",
       "translation": ""
     },
     {
-      "id": "line-158",
+      "id": "line-151",
       "start": 463.5,
       "end": 465.633,
-      "text": "だとしたら マジで 病院\n行って来たほうがいいよ",
+      "text": "だとしたら マジで 病院 行って来たほうがいいよ",
       "translation": ""
     },
     {
-      "id": "line-159",
+      "id": "line-152",
       "start": 465.633,
       "end": 467.767,
       "text": "最近 物忘れ 激し過ぎるから",
       "translation": ""
     },
     {
-      "id": "line-160",
+      "id": "line-153",
       "start": 467.767,
-      "end": 470.867,
-      "text": "ホントよね さっきも卵\n店に忘れて来ちゃったの",
+      "end": 473.067,
+      "text": "ホントよね さっきも卵 店に忘れて来ちゃったの春海の大好物だから",
       "translation": ""
     },
     {
-      "id": "line-161",
-      "start": 474.567,
+      "id": "line-154",
+      "start": 473.067,
       "end": 479.667,
-      "text": "春海の大好物だから すき焼きにする\nって言ったら 来るかと思ったのよ",
+      "text": "すき焼きにする って言ったら 来るかと思ったのよ",
       "translation": ""
     },
     {
-      "id": "line-162",
+      "id": "line-155",
       "start": 479.667,
       "end": 481.8,
       "text": "春海 来てんの？",
       "translation": ""
     },
     {
-      "id": "line-163",
+      "id": "line-156",
       "start": 481.8,
       "end": 484.133,
       "text": "来てないけど…",
       "translation": ""
     },
     {
-      "id": "line-164",
+      "id": "line-157",
       "start": 484.133,
       "end": 486.133,
       "text": "なおさら おかしくない？",
       "translation": ""
     },
     {
-      "id": "line-165",
+      "id": "line-158",
       "start": 486.133,
       "end": 488.8,
-      "text": "春海 来なかった時点で\nすき焼きにする必然性ないよね？",
+      "text": "春海 来なかった時点で すき焼きにする必然性ないよね？",
       "translation": ""
     },
     {
-      "id": "line-166",
+      "id": "line-159",
       "start": 488.8,
       "end": 491.067,
-      "text": "すき焼き用の肉 買っちゃったんだから\nしょうがないでしょ？",
+      "text": "すき焼き用の肉 買っちゃったんだから しょうがないでしょ？",
       "translation": ""
     },
     {
-      "id": "line-167",
+      "id": "line-160",
       "start": 491.067,
       "end": 494.567,
-      "text": "すき焼き用の肉を すき焼き以外に\n使ったら 罰せられるんですか？",
+      "text": "すき焼き用の肉を すき焼き以外に 使ったら 罰せられるんですか？",
       "translation": ""
     },
     {
-      "id": "line-168",
+      "id": "line-161",
       "start": 494.567,
       "end": 497.1,
-      "text": "だから 満が そこまで嫌いだって\n知らなかったからさ",
+      "text": "だから 満が そこまで嫌いだって 知らなかったからさ",
       "translation": ""
     },
     {
-      "id": "line-169",
+      "id": "line-162",
       "start": 497.1,
-      "end": 501.162,
-      "text": "大体さ 春海が 食べ物で簡単に釣られる\nような性格じゃ ないってことは",
-      "translation": ""
-    },
-    {
-      "id": "line-170",
-      "start": 501.163,
       "end": 502.433,
-      "text": "分かってたはずだよね？",
+      "text": "大体さ 春海が 食べ物で簡単に釣られる ような性格じゃ ないってことは分かってたはずだよね？",
       "translation": ""
     },
     {
-      "id": "line-171",
+      "id": "line-163",
       "start": 502.433,
       "end": 504.7,
       "text": "曲がりなりにも母親でしょ？",
       "translation": ""
     },
     {
-      "id": "line-172",
+      "id": "line-164",
       "start": 504.7,
       "end": 507.9,
-      "text": "そんなに食べたくなかったら\nいいよ 食べてもらわなくて",
+      "text": "そんなに食べたくなかったら いいよ 食べてもらわなくて",
       "translation": ""
     },
     {
-      "id": "line-173",
+      "id": "line-165",
       "start": 509.967,
       "end": 513.2,
-      "text": "じゃあさ 満君の分だけ焼き肉にする\nっていうのは どうかな？",
+      "text": "じゃあさ 満君の分だけ焼き肉にする っていうのは どうかな？",
       "translation": ""
     },
     {
-      "id": "line-174",
+      "id": "line-166",
       "start": 513.2,
       "end": 515.133,
       "text": "そうしてもらえると助かります",
       "translation": ""
     },
     {
-      "id": "line-175",
+      "id": "line-167",
       "start": 515.133,
       "end": 516.567,
       "text": "私が買って来た肉だよ",
       "translation": ""
     },
     {
-      "id": "line-176",
+      "id": "line-168",
       "start": 516.567,
-      "end": 519.757,
-      "text": "いや だから聞いて？ 俺が\nすき焼きとして食べる分の 肉だけを",
-      "translation": ""
-    },
-    {
-      "id": "line-177",
-      "start": 519.758,
       "end": 520.967,
-      "text": "焼き肉にするって話だから",
+      "text": "いや だから聞いて？ 俺が すき焼きとして食べる分の 肉だけを焼き肉にするって話だから",
       "translation": ""
     },
     {
-      "id": "line-178",
+      "id": "line-169",
       "start": 520.967,
       "end": 521.8,
       "text": "ダメ 許さない",
       "translation": ""
     },
     {
-      "id": "line-179",
+      "id": "line-170",
       "start": 521.8,
-      "end": 522.667,
-      "text": "綾子",
-      "translation": ""
-    },
-    {
-      "id": "line-180",
-      "start": 522.667,
       "end": 525.333,
-      "text": "そんなに焼き肉が食べたかったら\n自分で買って来な",
+      "text": "綾子そんなに焼き肉が食べたかったら 自分で買って来な",
       "translation": ""
     },
     {
-      "id": "line-181",
+      "id": "line-171",
       "start": 533.3,
       "end": 534.733,
       "text": "参ったなぁ～ こりゃ",
       "translation": ""
     },
     {
-      "id": "line-182",
+      "id": "line-172",
       "start": 554.567,
       "end": 556.967,
       "text": "さっきの時間 何だったんだよ",
       "translation": ""
     },
     {
-      "id": "line-183",
+      "id": "line-173",
       "start": 556.967,
       "end": 559.033,
-      "text": "ギリギリ\n食べられないレベルではないよ",
+      "text": "ギリギリ 食べられないレベルではないよ",
       "translation": ""
     },
     {
-      "id": "line-184",
+      "id": "line-174",
       "start": 559.033,
       "end": 561.433,
       "text": "そもそも 肉のレベルは高いんだし",
       "translation": ""
     },
     {
-      "id": "line-185",
+      "id": "line-175",
       "start": 561.433,
       "end": 562.867,
       "text": "ただ 食べ方としては…",
       "translation": ""
     },
     {
-      "id": "line-186",
+      "id": "line-176",
       "start": 562.867,
       "end": 564.967,
       "text": "うるさい 黙って食え",
       "translation": ""
     },
     {
-      "id": "line-187",
+      "id": "line-177",
       "start": 566,
       "end": 570.533,
-      "text": "満君 もしかして\n牛丼にも生卵かけないタイプ？",
+      "text": "満君 もしかして 牛丼にも生卵かけないタイプ？",
       "translation": ""
     },
     {
-      "id": "line-188",
+      "id": "line-178",
       "start": 570.533,
       "end": 574.2,
       "text": "それが 牛丼には 生卵ないと怒るのよ",
       "translation": ""
     },
     {
-      "id": "line-189",
+      "id": "line-179",
       "start": 574.2,
       "end": 576.5,
-      "text": "じゃあホントは すき焼き\n好きなんじゃない？ ねぇ",
+      "text": "じゃあホントは すき焼き 好きなんじゃない？ ねぇ",
       "translation": ""
     },
     {
-      "id": "line-190",
+      "id": "line-180",
       "start": 576.5,
-      "end": 577.667,
-      "text": "光司さん",
-      "translation": ""
-    },
-    {
-      "id": "line-191",
-      "start": 577.667,
       "end": 583.033,
-      "text": "牛丼に生卵かける話と すき焼きの肉に\n生卵 付ける話 これ全然違う話ですよ",
+      "text": "光司さん牛丼に生卵かける話と すき焼きの肉に 生卵 付ける話 これ全然違う話ですよ",
       "translation": ""
     },
     {
-      "id": "line-192",
+      "id": "line-181",
       "start": 583.033,
       "end": 584.167,
       "text": "そうかなぁ？",
       "translation": ""
     },
     {
-      "id": "line-193",
+      "id": "line-182",
       "start": 584.167,
-      "end": 585.3,
-      "text": "余計なこと言わなくていいの",
+      "end": 586.3223333333333,
+      "text": "余計なこと言わなくていいのこいつはね",
       "translation": ""
     },
     {
-      "id": "line-194",
-      "start": 585.3,
+      "id": "line-183",
+      "start": 586.3223333333333,
       "end": 588.367,
-      "text": "こいつはね 誰でもいいから\n人間と喋りたいだけなんだから",
+      "text": "誰でもいいから 人間と喋りたいだけなんだから",
       "translation": ""
     },
     {
-      "id": "line-195",
+      "id": "line-184",
       "start": 588.367,
       "end": 590.6,
       "text": "それは心外だなぁ",
       "translation": ""
     },
     {
-      "id": "line-196",
+      "id": "line-185",
       "start": 591.267,
       "end": 593.167,
       "text": "お義母さん ビールいかがですか？",
       "translation": ""
     },
     {
-      "id": "line-197",
+      "id": "line-186",
       "start": 593.167,
       "end": 594.667,
       "text": "まだあるから 大丈夫",
       "translation": ""
     },
     {
-      "id": "line-198",
+      "id": "line-187",
       "start": 594.667,
       "end": 596.3,
       "text": "気にしないで どんどん食べて",
       "translation": ""
     },
     {
-      "id": "line-199",
+      "id": "line-188",
       "start": 596.3,
       "end": 597.7,
       "text": "いただいてます いただいてます",
       "translation": ""
     },
     {
-      "id": "line-200",
+      "id": "line-189",
       "start": 597.7,
       "end": 600.167,
-      "text": "この前 来た時より\n少し痩せたんじゃない？",
+      "text": "この前 来た時より 少し痩せたんじゃない？",
       "translation": ""
     },
     {
-      "id": "line-201",
+      "id": "line-190",
       "start": 601.433,
       "end": 603.2,
       "text": "それが逆なんですよ",
       "translation": ""
     },
     {
-      "id": "line-202",
+      "id": "line-191",
       "start": 603.2,
       "end": 605.1,
       "text": "半年間で５ｋｇも太っちゃって",
       "translation": ""
     },
     {
-      "id": "line-203",
+      "id": "line-192",
       "start": 605.1,
       "end": 607.267,
       "text": "そう 全然 見えないけど",
       "translation": ""
     },
     {
-      "id": "line-204",
+      "id": "line-193",
       "start": 609.6,
       "end": 611.433,
       "text": "今日 何で来たの？",
       "translation": ""
     },
     {
-      "id": "line-205",
+      "id": "line-194",
       "start": 611.433,
       "end": 614.533,
-      "text": "ウチに飯だけ食いに来た\nってわけでもないでしょ？",
+      "text": "ウチに飯だけ食いに来た ってわけでもないでしょ？",
       "translation": ""
     },
     {
-      "id": "line-206",
+      "id": "line-195",
       "start": 618.1,
-      "end": 620.267,
-      "text": "２人に相談があって来たの",
-      "translation": ""
-    },
-    {
-      "id": "line-207",
-      "start": 621.333,
       "end": 622.267,
-      "text": "何の？",
+      "text": "２人に相談があって来たの何の？",
       "translation": ""
     },
     {
-      "id": "line-208",
+      "id": "line-196",
       "start": 622.267,
       "end": 624.4,
       "text": "家を建て替えようと思ってね",
       "translation": ""
     },
     {
-      "id": "line-209",
+      "id": "line-197",
       "start": 625.133,
       "end": 626.333,
       "text": "そんなお金あんの？",
       "translation": ""
     },
     {
-      "id": "line-210",
+      "id": "line-198",
       "start": 626.333,
       "end": 627.567,
       "text": "いや はっきり言ってギリギリ",
       "translation": ""
     },
     {
-      "id": "line-211",
+      "id": "line-199",
       "start": 627.567,
       "end": 630.267,
-      "text": "でも 建て替えるなら\n今しかないかなってﾀｲﾐﾝｸﾞだから",
+      "text": "でも 建て替えるなら 今しかないかなってﾀｲﾐﾝｸﾞだから",
       "translation": ""
     },
     {
-      "id": "line-212",
+      "id": "line-200",
       "start": 630.267,
       "end": 632.067,
       "text": "ウチだって そんな余裕ないよね？",
       "translation": ""
     },
     {
-      "id": "line-213",
+      "id": "line-201",
       "start": 632.067,
       "end": 634.4,
       "text": "あんたが働かないからでしょ!?",
       "translation": ""
     },
     {
-      "id": "line-214",
+      "id": "line-202",
       "start": 637.867,
       "end": 640.133,
       "text": "綾子 落ち着いて",
       "translation": ""
     },
     {
-      "id": "line-215",
+      "id": "line-203",
       "start": 640.133,
-      "end": 641.833,
-      "text": "大きな声 出さないの",
-      "translation": ""
-    },
-    {
-      "id": "line-216",
-      "start": 644.767,
       "end": 646.967,
-      "text": "お金の相談じゃないんだ",
+      "text": "大きな声 出さないのお金の相談じゃないんだ",
       "translation": ""
     },
     {
-      "id": "line-217",
+      "id": "line-204",
       "start": 646.967,
       "end": 649.767,
-      "text": "そっちは こっちで\n何とかなりそうなんだけど…",
+      "text": "そっちは こっちで 何とかなりそうなんだけど…",
       "translation": ""
     },
     {
-      "id": "line-218",
+      "id": "line-205",
       "start": 649.767,
       "end": 652.233,
-      "text": "じゃあ 別に自由にやったら\nいいじゃないですか",
+      "text": "じゃあ 別に自由にやったら いいじゃないですか",
       "translation": ""
     },
     {
-      "id": "line-219",
+      "id": "line-206",
       "start": 652.233,
       "end": 655.133,
-      "text": "母さんや俺に 許可\n求めるような ことでもないんだし",
+      "text": "母さんや俺に 許可 求めるような ことでもないんだし",
       "translation": ""
     },
     {
-      "id": "line-220",
+      "id": "line-207",
       "start": 655.133,
       "end": 658,
-      "text": "だから 建て替えが終わるまでの\n３か月間だけ",
+      "text": "だから 建て替えが終わるまでの ３か月間だけ",
       "translation": ""
     },
     {
-      "id": "line-221",
+      "id": "line-208",
       "start": 658,
-      "end": 661.233,
-      "text": "家族３人 同居させてほしいの",
-      "translation": ""
-    },
-    {
-      "id": "line-222",
-      "start": 663.467,
       "end": 667.967,
-      "text": "お義母さんには 事前に電話で\n相談させてもらったこと なんだけど",
+      "text": "家族３人 同居させてほしいのお義母さんには 事前に電話で 相談させてもらったこと なんだけど",
       "translation": ""
     },
     {
-      "id": "line-223",
+      "id": "line-209",
       "start": 667.967,
       "end": 671.967,
-      "text": "直接 お２人に会って お願いするのが\n筋じゃないかと思いまして",
+      "text": "直接 お２人に会って お願いするのが 筋じゃないかと思いまして",
       "translation": ""
     },
     {
-      "id": "line-224",
+      "id": "line-210",
       "start": 671.967,
-      "end": 676,
-      "text": "私は もう賛成してるから\nあとは 満の返事次第なの",
-      "translation": ""
-    },
-    {
-      "id": "line-225",
-      "start": 676,
       "end": 677.633,
-      "text": "ダメに決まってんじゃん",
+      "text": "私は もう賛成してるから あとは 満の返事次第なのダメに決まってんじゃん",
       "translation": ""
     },
     {
-      "id": "line-226",
+      "id": "line-211",
       "start": 678.733,
       "end": 680.433,
       "text": "丁重にお断りしま～す",
       "translation": ""
     },
     {
-      "id": "line-227",
+      "id": "line-212",
       "start": 680.433,
       "end": 681.7,
       "text": "どうしてよ",
       "translation": ""
     },
     {
-      "id": "line-228",
+      "id": "line-213",
       "start": 684.933,
       "end": 687.433,
       "text": "ねぇ 何で？ 理由を教えて",
       "translation": ""
     },
     {
-      "id": "line-229",
+      "id": "line-214",
       "start": 687.433,
-      "end": 689.467,
-      "text": "-分かんないの？\n-分からないから聞いてるの",
+      "end": 690.567,
+      "text": "-分かんないの？ -分からないから聞いてるの俺に相談に来といて",
       "translation": ""
     },
     {
-      "id": "line-230",
-      "start": 690.767,
+      "id": "line-215",
+      "start": 690.567,
       "end": 693.867,
-      "text": "俺に相談に来といて すき焼き\n出すのは あり得ないよね",
+      "text": "すき焼き 出すのは あり得ないよね",
       "translation": ""
     },
     {
-      "id": "line-231",
+      "id": "line-216",
       "start": 694.467,
       "end": 695.5,
       "text": "そこなの？",
       "translation": ""
     },
     {
-      "id": "line-232",
+      "id": "line-217",
       "start": 695.5,
       "end": 697.3,
-      "text": "だから 嫌いだって知らなかった\nって言ってるじゃん",
+      "text": "だから 嫌いだって知らなかった って言ってるじゃん",
       "translation": ""
     },
     {
-      "id": "line-233",
+      "id": "line-218",
       "start": 697.3,
       "end": 699.267,
-      "text": "姉弟で知らないなんて\n通用すると思う？",
+      "text": "姉弟で知らないなんて 通用すると思う？",
       "translation": ""
     },
     {
-      "id": "line-234",
+      "id": "line-219",
       "start": 699.267,
       "end": 701.433,
-      "text": "じゃあ 私の嫌いな食べ物\n言ってみなよ",
+      "text": "じゃあ 私の嫌いな食べ物 言ってみなよ",
       "translation": ""
     },
     {
-      "id": "line-235",
+      "id": "line-220",
       "start": 701.433,
-      "end": 702.9,
-      "text": "ピータン",
-      "translation": ""
-    },
-    {
-      "id": "line-236",
-      "start": 702.9,
       "end": 704.433,
-      "text": "きくらげ ホヤの塩辛",
+      "text": "ピータンきくらげ ホヤの塩辛",
       "translation": ""
     },
     {
-      "id": "line-237",
+      "id": "line-221",
       "start": 704.433,
       "end": 708.633,
-      "text": "はい 残念 ホヤの塩辛は克服して\n今や 大好物になりました",
+      "text": "はい 残念 ホヤの塩辛は克服して 今や 大好物になりました",
       "translation": ""
     },
     {
-      "id": "line-238",
+      "id": "line-222",
       "start": 708.633,
       "end": 711.567,
       "text": "立場を考えてほしいんだ 立場をね",
       "translation": ""
     },
     {
-      "id": "line-239",
+      "id": "line-223",
       "start": 711.567,
       "end": 714.233,
-      "text": "姉ちゃんは 相談するほう\n俺は されるほう",
+      "text": "姉ちゃんは 相談するほう 俺は されるほう",
       "translation": ""
     },
     {
-      "id": "line-240",
+      "id": "line-224",
       "start": 714.233,
       "end": 717.533,
-      "text": "例えば 仕事で先方に\n相談事があったとしようよ",
+      "text": "例えば 仕事で先方に 相談事があったとしようよ",
       "translation": ""
     },
     {
-      "id": "line-241",
+      "id": "line-225",
       "start": 717.533,
       "end": 719.628,
       "text": "何か手土産を 持って行こうと思ったら",
       "translation": ""
     },
     {
-      "id": "line-242",
+      "id": "line-226",
       "start": 719.629,
       "end": 722.4,
-      "text": "相手の好き嫌いを\n入念にリサーチするでしょ？",
+      "text": "相手の好き嫌いを 入念にリサーチするでしょ？",
       "translation": ""
     },
     {
-      "id": "line-243",
+      "id": "line-227",
       "start": 722.4,
       "end": 724.315,
-      "text": "クライアントの嫌いなもの\n持って行くって",
+      "text": "クライアントの嫌いなもの 持って行くって",
       "translation": ""
     },
     {
-      "id": "line-244",
+      "id": "line-228",
       "start": 724.316,
       "end": 726.5,
-      "text": "ビジネスの世界で 一番\nやっちゃいけないことだからね",
+      "text": "ビジネスの世界で 一番 やっちゃいけないことだからね",
       "translation": ""
     },
     {
-      "id": "line-245",
+      "id": "line-229",
       "start": 726.5,
       "end": 728.733,
-      "text": "ニートの分際で\nビジネス語るんじゃねえよ",
+      "text": "ニートの分際で ビジネス語るんじゃねえよ",
       "translation": ""
     },
     {
-      "id": "line-246",
+      "id": "line-230",
       "start": 728.733,
       "end": 730.7,
       "text": "-綾子 -いいんだよ 母さん",
       "translation": ""
     },
     {
-      "id": "line-247",
+      "id": "line-231",
       "start": 730.7,
       "end": 732.567,
       "text": "痛いとこ突かれて 気が動転してんだよ",
       "translation": ""
     },
     {
-      "id": "line-248",
+      "id": "line-232",
       "start": 732.567,
       "end": 734.267,
       "text": "してねえわ",
       "translation": ""
     },
     {
-      "id": "line-249",
+      "id": "line-233",
       "start": 734.267,
       "end": 736.633,
       "text": "じゃあさ あの 満君",
       "translation": ""
     },
     {
-      "id": "line-250",
+      "id": "line-234",
       "start": 736.633,
       "end": 739.033,
-      "text": "もし 今日の晩ごはんが\nすき焼きじゃなくて",
+      "text": "もし 今日の晩ごはんが すき焼きじゃなくて",
       "translation": ""
     },
     {
-      "id": "line-251",
+      "id": "line-235",
       "start": 739.033,
       "end": 741.533,
-      "text": "しゃぶしゃぶか焼き肉だったら\nＯＫしてくれたってこと？",
+      "text": "しゃぶしゃぶか焼き肉だったら ＯＫしてくれたってこと？",
       "translation": ""
     },
     {
-      "id": "line-252",
+      "id": "line-236",
       "start": 741.533,
       "end": 742.4,
       "text": "もちろんですよ",
       "translation": ""
     },
     {
-      "id": "line-253",
+      "id": "line-237",
       "start": 742.4,
       "end": 743.867,
       "text": "-ウソつくなよ -ホントだって",
       "translation": ""
     },
     {
-      "id": "line-254",
+      "id": "line-238",
       "start": 743.867,
       "end": 746.8,
-      "text": "すき焼きじゃなくても 他に難癖つけて\n反対してたに決まってんじゃん",
+      "text": "すき焼きじゃなくても 他に難癖つけて 反対してたに決まってんじゃん",
       "translation": ""
     },
     {
-      "id": "line-255",
+      "id": "line-239",
       "start": 746.8,
       "end": 748.633,
       "text": "どうして決め付けるの？",
       "translation": ""
     },
     {
-      "id": "line-256",
+      "id": "line-240",
       "start": 748.633,
       "end": 752.133,
-      "text": "どうして自分の思い通りじゃ\nなきゃ気が済まないの？",
+      "text": "どうして自分の思い通りじゃ なきゃ気が済まないの？",
       "translation": ""
     },
     {
-      "id": "line-257",
+      "id": "line-241",
       "start": 752.133,
       "end": 754.833,
       "text": "満に相談した私がバカだったよ",
       "translation": ""
     },
     {
-      "id": "line-258",
+      "id": "line-242",
       "start": 754.833,
       "end": 756.833,
-      "text": "お金もったいないけど\nホテルでも ﾏﾝｼｮﾝでも借りるから",
+      "text": "お金もったいないけど ホテルでも ﾏﾝｼｮﾝでも借りるから",
       "translation": ""
     },
     {
-      "id": "line-259",
+      "id": "line-243",
       "start": 756.833,
-      "end": 758.167,
-      "text": "忘れて",
-      "translation": ""
-    },
-    {
-      "id": "line-260",
-      "start": 758.167,
       "end": 759.233,
-      "text": "綾子 待ちなさいって",
+      "text": "忘れて綾子 待ちなさいって",
       "translation": ""
     },
     {
-      "id": "line-261",
+      "id": "line-244",
       "start": 759.233,
       "end": 760.767,
       "text": "いやいや 姉ちゃん 違うんだってねっ",
       "translation": ""
     },
     {
-      "id": "line-262",
+      "id": "line-245",
       "start": 760.767,
-      "end": 763.033,
-      "text": "俺に相談すること自体は\n間違ってないの",
-      "translation": ""
-    },
-    {
-      "id": "line-263",
-      "start": 763.033,
       "end": 764.3,
-      "text": "相談の仕方が間違ってるって話…",
+      "text": "俺に相談すること自体は 間違ってないの相談の仕方が間違ってるって話…",
       "translation": ""
     },
     {
-      "id": "line-264",
+      "id": "line-246",
       "start": 764.3,
       "end": 766.6,
       "text": "いいから黙って",
       "translation": ""
     },
     {
-      "id": "line-265",
+      "id": "line-247",
       "start": 770.2,
       "end": 774,
-      "text": "すき焼きのことは\n私も申し訳なかったから",
+      "text": "すき焼きのことは 私も申し訳なかったから",
       "translation": ""
     },
     {
-      "id": "line-266",
+      "id": "line-248",
       "start": 774,
       "end": 775.933,
       "text": "何で お母さんが謝るの？",
       "translation": ""
     },
     {
-      "id": "line-267",
+      "id": "line-249",
       "start": 775.933,
-      "end": 778.933,
-      "text": "満が すき焼き 嫌いだって\nホントに忘れてたの",
+      "end": 779.811,
+      "text": "満が すき焼き 嫌いだって ホントに忘れてたのだから",
       "translation": ""
     },
     {
-      "id": "line-268",
-      "start": 778.933,
+      "id": "line-250",
+      "start": 779.811,
       "end": 781.567,
-      "text": "だから 言われた通り\n病院にも行くことにするから…",
+      "text": "言われた通り 病院にも行くことにするから…",
       "translation": ""
     },
     {
-      "id": "line-269",
+      "id": "line-251",
       "start": 781.567,
       "end": 783.933,
-      "text": "もう 冗談で言ったんだから\n真に受けんなよ",
+      "text": "もう 冗談で言ったんだから 真に受けんなよ",
       "translation": ""
     },
     {
-      "id": "line-270",
+      "id": "line-252",
       "start": 783.933,
-      "end": 788.2,
-      "text": "だから 仮住まいの話は\n協力してあげてほしいの",
+      "end": 789.1165000000001,
+      "text": "だから 仮住まいの話は 協力してあげてほしいのねっ？",
       "translation": ""
     },
     {
-      "id": "line-271",
-      "start": 788.2,
+      "id": "line-253",
+      "start": 789.1165000000001,
       "end": 790.033,
-      "text": "ねっ？ いいでしょ？",
+      "text": "いいでしょ？",
       "translation": ""
     },
     {
-      "id": "line-272",
+      "id": "line-254",
       "start": 791.533,
       "end": 793.167,
       "text": "僕からも お願いします",
       "translation": ""
     },
     {
-      "id": "line-273",
+      "id": "line-255",
       "start": 798,
-      "end": 799.9,
-      "text": "じゃあ",
-      "translation": ""
-    },
-    {
-      "id": "line-274",
-      "start": 799.9,
       "end": 803.533,
-      "text": "この後の肉を 焼き肉で\n食べていいと仮定してだよ？",
+      "text": "じゃあこの後の肉を 焼き肉で 食べていいと仮定してだよ？",
       "translation": ""
     },
     {
-      "id": "line-275",
+      "id": "line-256",
       "start": 803.533,
       "end": 805.433,
       "text": "仮定じゃなくて食べてよ",
       "translation": ""
     },
     {
-      "id": "line-276",
+      "id": "line-257",
       "start": 805.433,
       "end": 807.033,
       "text": "綾子 いいよな？",
       "translation": ""
     },
     {
-      "id": "line-277",
+      "id": "line-258",
       "start": 807.967,
       "end": 811.767,
-      "text": "そもそもウチに ３人も住む部屋\nなんて空いてないよね",
+      "text": "そもそもウチに ３人も住む部屋 なんて空いてないよね",
       "translation": ""
     },
     {
-      "id": "line-278",
+      "id": "line-259",
       "start": 811.767,
       "end": 815.2,
-      "text": "物置になってる綾子の部屋と\nお父さんの部屋を片付ければ",
+      "text": "物置になってる綾子の部屋と お父さんの部屋を片付ければ",
       "translation": ""
     },
     {
-      "id": "line-279",
+      "id": "line-260",
       "start": 815.2,
       "end": 816.467,
       "text": "何とかなるわよ",
       "translation": ""
     },
     {
-      "id": "line-280",
+      "id": "line-261",
       "start": 816.467,
       "end": 820.7,
-      "text": "光司さんだって 相手の実家で生活する\nなんて ホントは ヤでしょ？",
+      "text": "光司さんだって 相手の実家で生活する なんて ホントは ヤでしょ？",
       "translation": ""
     },
     {
-      "id": "line-281",
+      "id": "line-262",
       "start": 820.7,
       "end": 822.5,
       "text": "僕は もう全然平気",
       "translation": ""
     },
     {
-      "id": "line-282",
+      "id": "line-263",
       "start": 822.5,
       "end": 825.167,
-      "text": "元々 どんな所でも寝られる\n人間だから",
+      "text": "元々 どんな所でも寝られる 人間だから",
       "translation": ""
     },
     {
-      "id": "line-283",
+      "id": "line-264",
       "start": 826.233,
       "end": 827.9,
       "text": "春海 どうすんの？",
       "translation": ""
     },
     {
-      "id": "line-284",
+      "id": "line-265",
       "start": 827.9,
-      "end": 830.1,
-      "text": "これから受験 控えた 大切な時期に",
+      "end": 831.011,
+      "text": "これから受験 控えた 大切な時期に環境",
       "translation": ""
     },
     {
-      "id": "line-285",
-      "start": 830.1,
+      "id": "line-266",
+      "start": 831.011,
       "end": 832.833,
-      "text": "環境 ガラっと変えんの\nかわいそうだって",
+      "text": "ガラっと変えんの かわいそうだって",
       "translation": ""
     },
     {
-      "id": "line-286",
+      "id": "line-267",
       "start": 835.867,
       "end": 838.133,
       "text": "お母さんから聞いてないの？",
       "translation": ""
     },
     {
-      "id": "line-287",
+      "id": "line-268",
       "start": 838.133,
       "end": 840.033,
       "text": "まだ話してない",
       "translation": ""
     },
     {
-      "id": "line-288",
+      "id": "line-269",
       "start": 841.233,
       "end": 843.167,
       "text": "えっ 何？ どうかしたの？",
       "translation": ""
     },
     {
-      "id": "line-289",
+      "id": "line-270",
       "start": 843.167,
       "end": 846.833,
-      "text": "１０月になってから まだ一日も\n学校に行ってないんだって",
+      "text": "１０月になってから まだ一日も 学校に行ってないんだって",
       "translation": ""
     },
     {
-      "id": "line-290",
+      "id": "line-271",
       "start": 848.167,
       "end": 850.267,
       "text": "理由は分からないんだけど",
       "translation": ""
     },
     {
-      "id": "line-291",
+      "id": "line-272",
       "start": 850.267,
       "end": 852.467,
       "text": "｢行きたくない｣の一点張りでね",
       "translation": ""
     },
     {
-      "id": "line-292",
+      "id": "line-273",
       "start": 853.2,
       "end": 855.367,
       "text": "綾子には 前にも言ったんだけど",
       "translation": ""
     },
     {
-      "id": "line-293",
+      "id": "line-274",
       "start": 855.367,
       "end": 859.833,
-      "text": "あの家 子供を育てること考えたら\nあんまり いい間取りじゃないのよね",
+      "text": "あの家 子供を育てること考えたら あんまり いい間取りじゃないのよね",
       "translation": ""
     },
     {
-      "id": "line-294",
+      "id": "line-275",
       "start": 859.833,
       "end": 860.833,
       "text": "風水ですか？",
       "translation": ""
     },
     {
-      "id": "line-295",
+      "id": "line-276",
       "start": 860.833,
       "end": 862.167,
       "text": "後から言うの やめてよ",
       "translation": ""
     },
     {
-      "id": "line-296",
+      "id": "line-277",
       "start": 862.167,
       "end": 865.267,
-      "text": "そう思ってたんだったら\n家を買う前に言ってほしかったし",
+      "text": "そう思ってたんだったら 家を買う前に言ってほしかったし",
       "translation": ""
     },
     {
-      "id": "line-297",
+      "id": "line-278",
       "start": 867.667,
       "end": 871.6,
-      "text": "まぁ 俺はいつか\nこうなるような気は してたけどね",
+      "text": "まぁ 俺はいつか こうなるような気は してたけどね",
       "translation": ""
     },
     {
-      "id": "line-298",
+      "id": "line-279",
       "start": 871.6,
       "end": 875.267,
-      "text": "春海が不登校になる\n予感があったってこと？",
+      "text": "春海が不登校になる 予感があったってこと？",
       "translation": ""
     },
     {
-      "id": "line-299",
+      "id": "line-280",
       "start": 875.267,
       "end": 878.533,
-      "text": "夏休み ウチに\n泊まりに来てたじゃないですか",
+      "text": "夏休み ウチに 泊まりに来てたじゃないですか",
       "translation": ""
     },
     {
-      "id": "line-300",
+      "id": "line-281",
       "start": 878.533,
       "end": 881.867,
-      "text": "まぁ その時に\nいろいろ話したりもしたんでね",
+      "text": "まぁ その時に いろいろ話したりもしたんでね",
       "translation": ""
     },
     {
-      "id": "line-301",
+      "id": "line-282",
       "start": 881.867,
       "end": 883.033,
       "text": "いろいろって？",
       "translation": ""
     },
     {
-      "id": "line-302",
+      "id": "line-283",
       "start": 883.033,
       "end": 885.433,
-      "text": "いや 親には言えない悩みも\nあるでしょ",
+      "text": "いや 親には言えない悩みも あるでしょ",
       "translation": ""
     },
     {
-      "id": "line-303",
+      "id": "line-284",
       "start": 886.167,
       "end": 889.033,
       "text": "生まれた時は ｢片岡春海｣で生まれて",
       "translation": ""
     },
     {
-      "id": "line-304",
+      "id": "line-285",
       "start": 889.033,
       "end": 893.467,
-      "text": "小学校 入る前に離婚して\n｢岸辺春海｣になってさ",
+      "text": "小学校 入る前に離婚して ｢岸辺春海｣になってさ",
       "translation": ""
     },
     {
-      "id": "line-305",
+      "id": "line-286",
       "start": 893.467,
       "end": 898.9,
-      "text": "で 光司さんと再婚して 中学から\n｢秋葉春海｣になったわけでしょ？",
+      "text": "で 光司さんと再婚して 中学から ｢秋葉春海｣になったわけでしょ？",
       "translation": ""
     },
     {
-      "id": "line-306",
+      "id": "line-287",
       "start": 900.1,
       "end": 903.833,
       "text": "だって ｢秋葉春海｣だよ？",
       "translation": ""
     },
     {
-      "id": "line-307",
+      "id": "line-288",
       "start": 903.833,
       "end": 906.233,
       "text": "秋の葉っぱに 春の海だよ？",
       "translation": ""
     },
     {
-      "id": "line-308",
+      "id": "line-289",
       "start": 906.233,
       "end": 908.1,
       "text": "俺だったら 確実にグレてるしね",
       "translation": ""
     },
     {
-      "id": "line-309",
+      "id": "line-290",
       "start": 908.1,
       "end": 911.1,
       "text": "そんなこと言わないの いい名前よ",
       "translation": ""
     },
     {
-      "id": "line-310",
+      "id": "line-291",
       "start": 911.8,
       "end": 914.129,
       "text": "いや まぁ むしろ大した問題も起こさず",
       "translation": ""
     },
     {
-      "id": "line-311",
+      "id": "line-292",
       "start": 914.13,
       "end": 916.8,
-      "text": "ここまで真っすぐ\n育って来たほうだと思うよ",
+      "text": "ここまで真っすぐ 育って来たほうだと思うよ",
       "translation": ""
     },
     {
-      "id": "line-312",
+      "id": "line-293",
       "start": 916.8,
       "end": 919.433,
       "text": "全部 私が悪いのよ",
       "translation": ""
     },
     {
-      "id": "line-313",
+      "id": "line-294",
       "start": 919.433,
       "end": 921.3,
       "text": "綾子は悪くない",
       "translation": ""
     },
     {
-      "id": "line-314",
+      "id": "line-295",
       "start": 921.3,
       "end": 922.767,
       "text": "悪いのは僕なんです",
       "translation": ""
     },
     {
-      "id": "line-315",
+      "id": "line-296",
       "start": 923.5,
       "end": 924.6,
       "text": "２人が悪いなんて 言ってませんよ",
       "translation": ""
     },
     {
-      "id": "line-316",
+      "id": "line-297",
       "start": 924.6,
       "end": 927.333,
       "text": "いやいや 僕の責任なんです",
       "translation": ""
     },
     {
-      "id": "line-317",
+      "id": "line-298",
       "start": 929.8,
       "end": 931.767,
       "text": "彼女の新しい父親として",
       "translation": ""
     },
     {
-      "id": "line-318",
+      "id": "line-299",
       "start": 931.767,
       "end": 935.667,
-      "text": "ちゃんと 向き合えているかといえば\n決して そうではありません",
+      "text": "ちゃんと 向き合えているかといえば 決して そうではありません",
       "translation": ""
     },
     {
-      "id": "line-319",
+      "id": "line-300",
       "start": 935.667,
-      "end": 937.267,
-      "text": "そうね",
-      "translation": ""
-    },
-    {
-      "id": "line-320",
-      "start": 938.433,
       "end": 942.067,
-      "text": "春海も どう接していいのか\n分からない部分が あるみたいだし",
+      "text": "そうね春海も どう接していいのか 分からない部分が あるみたいだし",
       "translation": ""
     },
     {
-      "id": "line-321",
+      "id": "line-301",
       "start": 942.067,
       "end": 943.523,
       "text": "光司さんから もう少し",
       "translation": ""
     },
     {
-      "id": "line-322",
+      "id": "line-302",
       "start": 943.524,
       "end": 946.967,
-      "text": "父親としての働き掛けがあっても\nよかったのかもしれない",
+      "text": "父親としての働き掛けがあっても よかったのかもしれない",
       "translation": ""
     },
     {
-      "id": "line-323",
+      "id": "line-303",
       "start": 946.967,
       "end": 948.667,
       "text": "-無理よ -どうして？",
       "translation": ""
     },
     {
-      "id": "line-324",
+      "id": "line-304",
       "start": 948.667,
       "end": 951.467,
-      "text": "まだ結婚したての頃\n父親ぶって説教したら",
+      "text": "まだ結婚したての頃 父親ぶって説教したら",
       "translation": ""
     },
     {
-      "id": "line-325",
+      "id": "line-305",
       "start": 951.467,
       "end": 953.9,
-      "text": "半年以上 口 利いて\nもらえなかったんだから",
+      "text": "半年以上 口 利いて もらえなかったんだから",
       "translation": ""
     },
     {
-      "id": "line-326",
+      "id": "line-306",
       "start": 955.133,
       "end": 956.5,
       "text": "そうなんです",
       "translation": ""
     },
     {
-      "id": "line-327",
+      "id": "line-307",
       "start": 957.2,
       "end": 959.667,
-      "text": "押しても引いても\nなかなか うまく行かなくて…",
+      "text": "押しても引いても なかなか うまく行かなくて…",
       "translation": ""
     },
     {
-      "id": "line-328",
+      "id": "line-308",
       "start": 963.433,
       "end": 967.4,
-      "text": "ゆっくり根気よく 向き合って\n行くしかないんじゃないかな",
+      "text": "ゆっくり根気よく 向き合って 行くしかないんじゃないかな",
       "translation": ""
     },
     {
-      "id": "line-329",
+      "id": "line-309",
       "start": 967.4,
       "end": 970.5,
-      "text": "母さんの言うように 間取りが\n良くなかったのかもしれないし",
+      "text": "母さんの言うように 間取りが 良くなかったのかもしれないし",
       "translation": ""
     },
     {
-      "id": "line-330",
+      "id": "line-310",
       "start": 970.5,
       "end": 973.967,
-      "text": "姉ちゃんの人生に\n翻弄されたのかもしれないし",
+      "text": "姉ちゃんの人生に 翻弄されたのかもしれないし",
       "translation": ""
     },
     {
-      "id": "line-331",
+      "id": "line-311",
       "start": 973.967,
       "end": 976.567,
       "text": "まぁ 光司さんとの関係が…",
       "translation": ""
     },
     {
-      "id": "line-332",
+      "id": "line-312",
       "start": 979.7,
-      "end": 981.1,
-      "text": "は～い",
-      "translation": ""
-    },
-    {
-      "id": "line-333",
-      "start": 981.1,
       "end": 982.433,
-      "text": "こんな時間に誰？",
+      "text": "は～いこんな時間に誰？",
       "translation": ""
     },
     {
-      "id": "line-334",
+      "id": "line-313",
       "start": 982.433,
-      "end": 983.667,
-      "text": "宅配便よ",
+      "end": 986.45,
+      "text": "宅配便よ通販で 冬物のコート買っちゃったのそれ",
       "translation": ""
     },
     {
-      "id": "line-335",
-      "start": 983.667,
-      "end": 985.667,
-      "text": "通販で 冬物のコート買っちゃったの",
-      "translation": ""
-    },
-    {
-      "id": "line-336",
-      "start": 985.667,
+      "id": "line-314",
+      "start": 986.45,
       "end": 987.233,
-      "text": "それ 昼に届いてたよ",
+      "text": "昼に届いてたよ",
       "translation": ""
     },
     {
-      "id": "line-337",
+      "id": "line-315",
       "start": 988.733,
       "end": 990.867,
       "text": "じゃ 誰かしら？",
       "translation": ""
     },
     {
-      "id": "line-338",
+      "id": "line-316",
       "start": 992.167,
-      "end": 993.733,
-      "text": "は～い",
-      "translation": ""
-    },
-    {
-      "id": "line-339",
-      "start": 994.867,
       "end": 996.6,
-      "text": "春海",
+      "text": "は～い春海",
       "translation": ""
     },
     {
-      "id": "line-340",
+      "id": "line-317",
       "start": 1000.667,
-      "end": 1002.367,
-      "text": "はい さぁ",
-      "translation": ""
-    },
-    {
-      "id": "line-341",
-      "start": 1003.2,
       "end": 1005.3,
-      "text": "自転車だと ３０分ぐらいかかったろ？",
+      "text": "はい さぁ自転車だと ３０分ぐらいかかったろ？",
       "translation": ""
     },
     {
-      "id": "line-342",
+      "id": "line-318",
       "start": 1005.3,
       "end": 1007.567,
       "text": "最後 迷ったから４５分くらい",
       "translation": ""
     },
     {
-      "id": "line-343",
+      "id": "line-319",
       "start": 1007.567,
       "end": 1009.667,
       "text": "じゃあ 疲れたでしょう",
       "translation": ""
     },
     {
-      "id": "line-344",
+      "id": "line-320",
       "start": 1009.667,
-      "end": 1012.033,
-      "text": "電話くれれば 車で迎えに行ったのに",
-      "translation": ""
-    },
-    {
-      "id": "line-345",
-      "start": 1015.433,
       "end": 1017.5,
-      "text": "ごはん食べて来たの？",
+      "text": "電話くれれば 車で迎えに行ったのにごはん食べて来たの？",
       "translation": ""
     },
     {
-      "id": "line-346",
+      "id": "line-321",
       "start": 1019.767,
       "end": 1021.467,
       "text": "たくさん食べなさい",
       "translation": ""
     },
     {
-      "id": "line-347",
+      "id": "line-322",
       "start": 1022.133,
       "end": 1024.667,
       "text": "春海のために すき焼きにしたんだから",
       "translation": ""
     },
     {
-      "id": "line-348",
+      "id": "line-323",
       "start": 1029.167,
       "end": 1031.4,
       "text": "まさかとは思うけど",
       "translation": ""
     },
     {
-      "id": "line-349",
+      "id": "line-324",
       "start": 1031.4,
       "end": 1034.033,
-      "text": "すき焼き 我慢できなくて\nウチまで来たの？",
+      "text": "すき焼き 我慢できなくて ウチまで来たの？",
       "translation": ""
     },
     {
-      "id": "line-350",
+      "id": "line-325",
       "start": 1034.033,
       "end": 1035.567,
       "text": "悪い？",
       "translation": ""
     },
     {
-      "id": "line-351",
+      "id": "line-326",
       "start": 1035.567,
       "end": 1039.5,
-      "text": "変わってんなぁ 学校で\n変人扱いされてんじゃないの？",
+      "text": "変わってんなぁ 学校で 変人扱いされてんじゃないの？",
       "translation": ""
     },
     {
-      "id": "line-352",
+      "id": "line-327",
       "start": 1039.5,
       "end": 1041.1,
       "text": "-満 -どういう意味？",
       "translation": ""
     },
     {
-      "id": "line-353",
+      "id": "line-328",
       "start": 1041.1,
       "end": 1043.967,
-      "text": "だって すき焼き\n好きなんだろ？ 絶対 変じゃん",
+      "text": "だって すき焼き 好きなんだろ？ 絶対 変じゃん",
       "translation": ""
     },
     {
-      "id": "line-354",
+      "id": "line-329",
       "start": 1043.967,
       "end": 1046.333,
       "text": "満は すき焼き嫌いなんだって",
       "translation": ""
     },
     {
-      "id": "line-355",
+      "id": "line-330",
       "start": 1046.333,
       "end": 1048.333,
       "text": "そっちのほうが変だし",
       "translation": ""
     },
     {
-      "id": "line-356",
+      "id": "line-331",
       "start": 1048.333,
       "end": 1050.033,
       "text": "じゃあ 冷静に考えて",
       "translation": ""
     },
     {
-      "id": "line-357",
+      "id": "line-332",
       "start": 1050.033,
       "end": 1052.667,
-      "text": "この霜降り肉を\n自由に食べていいって言われて",
+      "text": "この霜降り肉を 自由に食べていいって言われて",
       "translation": ""
     },
     {
-      "id": "line-358",
+      "id": "line-333",
       "start": 1052.667,
       "end": 1055.467,
-      "text": "すき焼き 焼き肉\nしゃぶしゃぶの中で どれ選ぶ？",
+      "text": "すき焼き 焼き肉 しゃぶしゃぶの中で どれ選ぶ？",
       "translation": ""
     },
     {
-      "id": "line-359",
+      "id": "line-334",
       "start": 1055.467,
       "end": 1057.167,
-      "text": "っていうか\nそもそも質問がおかしいから",
+      "text": "っていうか そもそも質問がおかしいから",
       "translation": ""
     },
     {
-      "id": "line-360",
+      "id": "line-335",
       "start": 1057.167,
       "end": 1058.1,
       "text": "どこが？",
       "translation": ""
     },
     {
-      "id": "line-361",
+      "id": "line-336",
       "start": 1058.1,
       "end": 1061.867,
-      "text": "すき焼きは 焼き肉と\nしゃぶしゃぶと並べる 食べ物じゃないし",
+      "text": "すき焼きは 焼き肉と しゃぶしゃぶと並べる 食べ物じゃないし",
       "translation": ""
     },
     {
-      "id": "line-362",
+      "id": "line-337",
       "start": 1061.867,
       "end": 1063.467,
       "text": "どうして？ 同じ肉料理じゃん",
       "translation": ""
     },
     {
-      "id": "line-363",
+      "id": "line-338",
       "start": 1063.467,
       "end": 1066.567,
-      "text": "すき焼きを 肉料理に分類してる\n時点で浅いんだよね",
+      "text": "すき焼きを 肉料理に分類してる 時点で浅いんだよね",
       "translation": ""
     },
     {
-      "id": "line-364",
+      "id": "line-339",
       "start": 1066.567,
       "end": 1068.1,
       "text": "いいぞいいぞ",
       "translation": ""
     },
     {
-      "id": "line-365",
+      "id": "line-340",
       "start": 1068.1,
       "end": 1071.3,
-      "text": "すき焼きは 肉がメインに見えて\n実は裏方だから",
+      "text": "すき焼きは 肉がメインに見えて 実は裏方だから",
       "translation": ""
     },
     {
-      "id": "line-366",
+      "id": "line-341",
       "start": 1071.3,
       "end": 1074.6,
-      "text": "肉のうま味を吸った豆腐と\nしらたきを味わう鍋料理だから",
+      "text": "肉のうま味を吸った豆腐と しらたきを味わう鍋料理だから",
       "translation": ""
     },
     {
-      "id": "line-367",
+      "id": "line-342",
       "start": 1074.6,
       "end": 1076.833,
       "text": "そう 春海の言う通り",
       "translation": ""
     },
     {
-      "id": "line-368",
+      "id": "line-343",
       "start": 1076.833,
       "end": 1077.9,
       "text": "ただの へ理屈だね",
       "translation": ""
     },
     {
-      "id": "line-369",
+      "id": "line-344",
       "start": 1077.9,
       "end": 1078.9,
       "text": "お前が言うなよ",
       "translation": ""
     },
     {
-      "id": "line-370",
+      "id": "line-345",
       "start": 1078.9,
       "end": 1080.633,
-      "text": "いや だって 誰がどう見ても\n肉料理でしょ？",
+      "text": "いや だって 誰がどう見ても 肉料理でしょ？",
       "translation": ""
     },
     {
-      "id": "line-371",
+      "id": "line-346",
       "start": 1080.633,
       "end": 1082.7,
       "text": "満君は 肉８枚 食べてるからね",
       "translation": ""
     },
     {
-      "id": "line-372",
+      "id": "line-347",
       "start": 1083.4,
       "end": 1085.233,
-      "text": "いや そんな食ってるわけ\nないじゃないですか",
+      "text": "いや そんな食ってるわけ ないじゃないですか",
       "translation": ""
     },
     {
-      "id": "line-373",
+      "id": "line-348",
       "start": 1085.233,
       "end": 1086.933,
       "text": "数えてたから間違いない",
       "translation": ""
     },
     {
-      "id": "line-374",
+      "id": "line-349",
       "start": 1086.933,
       "end": 1089.067,
       "text": "その肉 １枚幾らするか分かってんの？",
       "translation": ""
     },
     {
-      "id": "line-375",
+      "id": "line-350",
       "start": 1089.067,
       "end": 1091.4,
       "text": "分かってたら こんなに食えないよ",
       "translation": ""
     },
     {
-      "id": "line-376",
+      "id": "line-351",
       "start": 1091.4,
       "end": 1093.3,
       "text": "ホント 何様のつもりだよ",
       "translation": ""
     },
     {
-      "id": "line-377",
+      "id": "line-352",
       "start": 1093.3,
       "end": 1097.267,
-      "text": "だってさ 今日はさ 俺と母さんを\n接待しに来てるわけでしょ？",
+      "text": "だってさ 今日はさ 俺と母さんを 接待しに来てるわけでしょ？",
       "translation": ""
     },
     {
-      "id": "line-378",
+      "id": "line-353",
       "start": 1097.267,
       "end": 1100.167,
-      "text": "そこまで言われる筋合い\nなくない？ 文句",
+      "text": "そこまで言われる筋合い なくない？ 文句",
       "translation": ""
     },
     {
-      "id": "line-379",
+      "id": "line-354",
       "start": 1100.167,
       "end": 1102.033,
       "text": "何？ 接待って",
       "translation": ""
     },
     {
-      "id": "line-380",
+      "id": "line-355",
       "start": 1102.033,
       "end": 1105.767,
-      "text": "いや お前たち家族３人が\nウチに仮住まいするって話",
+      "text": "いや お前たち家族３人が ウチに仮住まいするって話",
       "translation": ""
     },
     {
-      "id": "line-381",
+      "id": "line-356",
       "start": 1105.767,
-      "end": 1107.467,
-      "text": "何それ",
-      "translation": ""
-    },
-    {
-      "id": "line-382",
-      "start": 1111.6,
       "end": 1113.567,
-      "text": "春海に言ってないの？",
+      "text": "何それ春海に言ってないの？",
       "translation": ""
     },
     {
-      "id": "line-383",
+      "id": "line-357",
       "start": 1115.133,
       "end": 1117.867,
-      "text": "満の返事を聞いてから\nと思ってたからね",
+      "text": "満の返事を聞いてから と思ってたからね",
       "translation": ""
     },
     {
-      "id": "line-384",
+      "id": "line-358",
       "start": 1117.867,
       "end": 1121,
       "text": "もうすぐ お家 建て替えるでしょ",
       "translation": ""
     },
     {
-      "id": "line-385",
+      "id": "line-359",
       "start": 1121,
-      "end": 1125.867,
-      "text": "その間 ここで３か月だけ\n一緒に生活しようかって 相談してたの",
-      "translation": ""
-    },
-    {
-      "id": "line-386",
-      "start": 1125.867,
       "end": 1127.267,
-      "text": "もう決まってるの？",
+      "text": "その間 ここで３か月だけ 一緒に生活しようかって 相談してたのもう決まってるの？",
       "translation": ""
     },
     {
-      "id": "line-387",
+      "id": "line-360",
       "start": 1127.267,
       "end": 1129.3,
       "text": "まだ決まってないから安心して",
       "translation": ""
     },
     {
-      "id": "line-388",
+      "id": "line-361",
       "start": 1129.3,
       "end": 1131.033,
       "text": "あくまで 選択肢の１つであって",
       "translation": ""
     },
     {
-      "id": "line-389",
+      "id": "line-362",
       "start": 1131.033,
       "end": 1134.967,
-      "text": "ホテルとかマンションとか\nいくらでも候補はあるから",
+      "text": "ホテルとかマンションとか いくらでも候補はあるから",
       "translation": ""
     },
     {
-      "id": "line-390",
+      "id": "line-363",
       "start": 1134.967,
       "end": 1137.467,
-      "text": "ホテルかマンションなら\nこっちのがいいかな",
+      "text": "ホテルかマンションなら こっちのがいいかな",
       "translation": ""
     },
     {
-      "id": "line-391",
+      "id": "line-364",
       "start": 1137.467,
       "end": 1138.7,
       "text": "どうして？",
       "translation": ""
     },
     {
-      "id": "line-392",
+      "id": "line-365",
       "start": 1138.7,
       "end": 1141.933,
       "text": "学校も塾も 少し遠くなるけど平気？",
       "translation": ""
     },
     {
-      "id": "line-393",
+      "id": "line-366",
       "start": 1147.333,
       "end": 1149.467,
       "text": "おばあちゃんのごはん おいしいし",
       "translation": ""
     },
     {
-      "id": "line-394",
+      "id": "line-367",
       "start": 1151.167,
       "end": 1153.967,
       "text": "頑張って 毎日おいしいの作るわよ",
       "translation": ""
     },
     {
-      "id": "line-395",
+      "id": "line-368",
       "start": 1156.033,
       "end": 1157.733,
       "text": "どうなの？ 満",
       "translation": ""
     },
     {
-      "id": "line-396",
+      "id": "line-369",
       "start": 1160.9,
       "end": 1162.967,
       "text": "｢どうなの｣って？",
       "translation": ""
     },
     {
-      "id": "line-397",
+      "id": "line-370",
       "start": 1162.967,
       "end": 1165.133,
-      "text": "俺 別に反対するなんて\nひと言も言ってないし",
+      "text": "俺 別に反対するなんて ひと言も言ってないし",
       "translation": ""
     },
     {
-      "id": "line-398",
+      "id": "line-371",
       "start": 1165.133,
       "end": 1166.167,
       "text": "言ってたでしょう？",
       "translation": ""
     },
     {
-      "id": "line-399",
+      "id": "line-372",
       "start": 1166.167,
       "end": 1168.433,
       "text": "満君 それは さすがに無理あるな",
       "translation": ""
     },
     {
-      "id": "line-400",
+      "id": "line-373",
       "start": 1168.433,
       "end": 1171.067,
-      "text": "いや 姉ちゃんの相談の仕方が\nあり得ないとは言いましたけど",
+      "text": "いや 姉ちゃんの相談の仕方が あり得ないとは言いましたけど",
       "translation": ""
     },
     {
-      "id": "line-401",
+      "id": "line-374",
       "start": 1171.067,
       "end": 1173.933,
-      "text": "仮住まいに反対するとは\nひと言も言ってません",
+      "text": "仮住まいに反対するとは ひと言も言ってません",
       "translation": ""
     },
     {
-      "id": "line-402",
+      "id": "line-375",
       "start": 1176.667,
       "end": 1178.867,
       "text": "もう この話は おしまい",
       "translation": ""
     },
     {
-      "id": "line-403",
+      "id": "line-376",
       "start": 1178.867,
       "end": 1181.8,
-      "text": "さっさと食べないと\n締めのうどんまで 行き着かないわよ",
+      "text": "さっさと食べないと 締めのうどんまで 行き着かないわよ",
       "translation": ""
     },
     {
-      "id": "line-404",
+      "id": "line-377",
       "start": 1181.8,
       "end": 1184.167,
       "text": "-あるの？ -もちろんよ",
       "translation": ""
     },
     {
-      "id": "line-405",
+      "id": "line-378",
       "start": 1189.2,
       "end": 1191.233,
       "text": "帰り 春海の自転車どうしよう",
       "translation": ""
     },
     {
-      "id": "line-406",
+      "id": "line-379",
       "start": 1191.233,
       "end": 1192.267,
       "text": "置いてったらいいじゃない",
       "translation": ""
     },
     {
-      "id": "line-407",
+      "id": "line-380",
       "start": 1192.267,
       "end": 1194.2,
       "text": "明日 使うから乗って帰るよ",
       "translation": ""
     },
     {
-      "id": "line-408",
+      "id": "line-381",
       "start": 1194.2,
       "end": 1196.5,
       "text": "ダメよ こんな遅い時間に",
       "translation": ""
     },
     {
-      "id": "line-409",
+      "id": "line-382",
       "start": 1196.5,
       "end": 1198.467,
       "text": "じゃあ 僕が乗って帰りますよ",
       "translation": ""
     },
     {
-      "id": "line-410",
+      "id": "line-383",
       "start": 1200.833,
       "end": 1204.1,
-      "text": "私 飲んじゃってるんだよ\n誰が 車 運転するのよ",
+      "text": "私 飲んじゃってるんだよ 誰が 車 運転するのよ",
       "translation": ""
     },
     {
-      "id": "line-411",
+      "id": "line-384",
       "start": 1204.1,
       "end": 1205.367,
       "text": "そっか…",
       "translation": ""
     },
     {
-      "id": "line-412",
+      "id": "line-385",
       "start": 1206.3,
-      "end": 1207.433,
-      "text": "満",
-      "translation": ""
-    },
-    {
-      "id": "line-413",
-      "start": 1207.433,
       "end": 1209.133,
-      "text": "一緒に自転車で送ってあげて",
+      "text": "満一緒に自転車で送ってあげて",
       "translation": ""
     },
     {
-      "id": "line-414",
+      "id": "line-386",
       "start": 1209.133,
       "end": 1210.733,
       "text": "-それだ -いや 何で俺なんだよ",
       "translation": ""
     },
     {
-      "id": "line-415",
+      "id": "line-387",
       "start": 1210.733,
       "end": 1212.433,
       "text": "どうせ暇でしょ？",
       "translation": ""
     },
     {
-      "id": "line-416",
+      "id": "line-388",
       "start": 1215.3,
       "end": 1216.267,
       "text": "何よ？",
       "translation": ""
     },
     {
-      "id": "line-417",
+      "id": "line-389",
       "start": 1216.267,
       "end": 1219.767,
-      "text": "いや 送るにしたってね\nタダってわけには…",
+      "text": "いや 送るにしたってね タダってわけには…",
       "translation": ""
     },
     {
-      "id": "line-418",
+      "id": "line-390",
       "start": 1219.767,
       "end": 1223,
-      "text": "-ざけんなよ\n-どっちが ふざけてんのよ",
+      "text": "-ざけんなよ -どっちが ふざけてんのよ",
       "translation": ""
     },
     {
-      "id": "line-419",
+      "id": "line-391",
       "start": 1223,
       "end": 1225.5,
-      "text": "もうあれだ 送迎代いいから\n慰謝料 払って",
+      "text": "もうあれだ 送迎代いいから 慰謝料 払って",
       "translation": ""
     },
     {
-      "id": "line-420",
+      "id": "line-392",
       "start": 1225.5,
       "end": 1227.567,
       "text": "だったら先に 肉のお金 払いなさいよ",
       "translation": ""
     },
     {
-      "id": "line-421",
+      "id": "line-393",
       "start": 1227.567,
       "end": 1229.933,
       "text": "早く残りを食べて",
       "translation": ""
     },
     {
-      "id": "line-422",
+      "id": "line-394",
       "start": 1229.933,
       "end": 1231.833,
       "text": "締めのうどんが食べたいの ねっ",
       "translation": ""
     },
     {
-      "id": "line-423",
+      "id": "line-395",
       "start": 1250.267,
       "end": 1251.867,
       "text": "食べ過ぎた～",
       "translation": ""
     },
     {
-      "id": "line-424",
+      "id": "line-396",
       "start": 1254.133,
-      "end": 1255.967,
-      "text": "聞いたぞ",
-      "translation": ""
-    },
-    {
-      "id": "line-425",
-      "start": 1257.4,
       "end": 1259.367,
-      "text": "学校 行ってないんだって？",
+      "text": "聞いたぞ学校 行ってないんだって？",
       "translation": ""
     },
     {
-      "id": "line-426",
+      "id": "line-397",
       "start": 1261.2,
       "end": 1262.867,
       "text": "何か嫌なことあったの？",
       "translation": ""
     },
     {
-      "id": "line-427",
+      "id": "line-398",
       "start": 1267.333,
       "end": 1271.567,
-      "text": "満兄ちゃんって 自分の嫌なことは\n絶対やらない人でしょ",
+      "text": "満兄ちゃんって 自分の嫌なことは 絶対やらない人でしょ",
       "translation": ""
     },
     {
-      "id": "line-428",
+      "id": "line-399",
       "start": 1273.133,
       "end": 1275.567,
-      "text": "なのに 何で今日\nすき焼き食べてたの？",
+      "text": "なのに 何で今日 すき焼き食べてたの？",
       "translation": ""
     },
     {
-      "id": "line-429",
+      "id": "line-400",
       "start": 1275.567,
       "end": 1277.633,
       "text": "ホントは そんなに嫌いじゃないの？",
       "translation": ""
     },
     {
-      "id": "line-430",
+      "id": "line-401",
       "start": 1279.3,
       "end": 1281.333,
       "text": "まぁ 強いて言うなら",
       "translation": ""
     },
     {
-      "id": "line-431",
+      "id": "line-402",
       "start": 1281.333,
       "end": 1283.533,
       "text": "春海のためかな？",
       "translation": ""
     },
     {
-      "id": "line-432",
+      "id": "line-403",
       "start": 1283.533,
       "end": 1284.967,
       "text": "どういうこと？",
       "translation": ""
     },
     {
-      "id": "line-433",
+      "id": "line-404",
       "start": 1284.967,
       "end": 1286.9,
       "text": "人生のお手本だよ",
       "translation": ""
     },
     {
-      "id": "line-434",
+      "id": "line-405",
       "start": 1286.9,
-      "end": 1289.267,
-      "text": "散々 好き勝手 生きて来た俺でも",
+      "end": 1290.267,
+      "text": "散々 好き勝手 生きて来た俺でも嫌いな",
       "translation": ""
     },
     {
-      "id": "line-435",
-      "start": 1289.267,
-      "end": 1292.267,
-      "text": "嫌いな ごはんぐらいは\n我慢して食べるってこと",
-      "translation": ""
-    },
-    {
-      "id": "line-436",
-      "start": 1293.3,
+      "id": "line-406",
+      "start": 1290.267,
       "end": 1295,
-      "text": "意味分かんないし",
+      "text": "ごはんぐらいは 我慢して食べるってこと意味分かんないし",
       "translation": ""
     },
     {
-      "id": "line-437",
+      "id": "line-407",
       "start": 1295.8,
       "end": 1298.533,
       "text": "だから 何があったか知らないけどさ",
       "translation": ""
     },
     {
-      "id": "line-438",
+      "id": "line-408",
       "start": 1298.533,
       "end": 1300.533,
       "text": "学校ぐらい我慢して行っとけよ",
       "translation": ""
     },
     {
-      "id": "line-439",
+      "id": "line-409",
       "start": 1302.633,
       "end": 1304.7,
       "text": "ホント 行くのヤなんだよね",
       "translation": ""
     },
     {
-      "id": "line-440",
+      "id": "line-410",
       "start": 1304.7,
       "end": 1306.233,
       "text": "気持ち分かるよ",
       "translation": ""
     },
     {
-      "id": "line-441",
+      "id": "line-411",
       "start": 1306.233,
       "end": 1309.2,
-      "text": "俺だって全然\nすき焼き食いたくなかったし",
+      "text": "俺だって全然 すき焼き食いたくなかったし",
       "translation": ""
     },
     {
-      "id": "line-442",
+      "id": "line-412",
       "start": 1310.067,
-      "end": 1311.567,
-      "text": "一緒にしないで",
-      "translation": ""
-    },
-    {
-      "id": "line-443",
-      "start": 1312.5,
       "end": 1314.7,
-      "text": "そういうレベルの話じゃないから",
+      "text": "一緒にしないでそういうレベルの話じゃないから",
       "translation": ""
     },
     {
-      "id": "line-444",
+      "id": "line-413",
       "start": 1319.2,
       "end": 1321.067,
       "text": "これ みんなに絶対 内緒な？",
       "translation": ""
     },
     {
-      "id": "line-445",
+      "id": "line-414",
       "start": 1323.367,
       "end": 1326.1,
       "text": "１５年ぶりに すき焼き食ってみたら",
       "translation": ""
     },
     {
-      "id": "line-446",
+      "id": "line-415",
       "start": 1326.1,
       "end": 1329.1,
       "text": "想像以上にうまくてさ",
       "translation": ""
     },
     {
-      "id": "line-447",
+      "id": "line-416",
       "start": 1329.1,
       "end": 1332.833,
       "text": "焼き肉と しゃぶしゃぶ抜いて",
       "translation": ""
     },
     {
-      "id": "line-448",
+      "id": "line-417",
       "start": 1332.833,
       "end": 1335.6,
       "text": "まさかのランキング１位",
       "translation": ""
     },
     {
-      "id": "line-449",
+      "id": "line-418",
       "start": 1336.4,
       "end": 1338,
       "text": "これビックリだろ？",
       "translation": ""
     },
     {
-      "id": "line-450",
+      "id": "line-419",
       "start": 1339.8,
       "end": 1341.667,
       "text": "信じらんない",
       "translation": ""
     },
     {
-      "id": "line-451",
+      "id": "line-420",
       "start": 1342.5,
       "end": 1344.133,
       "text": "お母さん聞いたら ぶちギレるよ",
       "translation": ""
     },
     {
-      "id": "line-452",
+      "id": "line-421",
       "start": 1344.133,
       "end": 1345.767,
       "text": "だから 絶対 言うなよ",
       "translation": ""
     },
     {
-      "id": "line-453",
+      "id": "line-422",
       "start": 1346.633,
       "end": 1348.233,
       "text": "どうしよっかなぁ",
       "translation": ""
     },
     {
-      "id": "line-454",
+      "id": "line-423",
       "start": 1358.467,
       "end": 1362,
-      "text": "まだ 姉ちゃんの本気の怖さ\n知らねえだろ？",
+      "text": "まだ 姉ちゃんの本気の怖さ 知らねえだろ？",
       "translation": ""
     },
     {
-      "id": "line-455",
+      "id": "line-424",
       "start": 1362,
       "end": 1365.133,
-      "text": "知ってるよ いろんな修羅場\n見て来てるし",
+      "text": "知ってるよ いろんな修羅場 見て来てるし",
       "translation": ""
     },
     {
-      "id": "line-456",
+      "id": "line-425",
       "start": 1367.033,
       "end": 1369.433,
       "text": "もう少し 光司さんに優しくしてやれよ",
       "translation": ""
     },
     {
-      "id": "line-457",
+      "id": "line-426",
       "start": 1371.4,
       "end": 1373.767,
       "text": "頭では分かってんだけどね",
       "translation": ""
     },
     {
-      "id": "line-458",
+      "id": "line-427",
       "start": 1376.2,
       "end": 1378.3,
       "text": "私 病気なのかな？",
       "translation": ""
     },
     {
-      "id": "line-459",
+      "id": "line-428",
       "start": 1380.767,
       "end": 1384.5,
-      "text": "あそこに 豆腐と しらたき入れて\n食べたら めっちゃおいしそう",
+      "text": "あそこに 豆腐と しらたき入れて 食べたら めっちゃおいしそう",
       "translation": ""
     },
     {
-      "id": "line-460",
+      "id": "line-429",
       "start": 1389.4,
-      "end": 1391.5,
-      "text": "病気だよ",
-      "translation": ""
-    },
-    {
-      "id": "line-461",
-      "start": 1391.5,
       "end": 1393.4,
-      "text": "それも かなりの重症",
+      "text": "病気だよそれも かなりの重症",
       "translation": ""
     },
     {
-      "id": "line-462",
+      "id": "line-430",
       "start": 1396.667,
       "end": 1399.267,
-      "text": "やっぱり うどん\nお代わりしとけばよかったなぁ",
+      "text": "やっぱり うどん お代わりしとけばよかったなぁ",
       "translation": ""
     },
     {
-      "id": "line-463",
+      "id": "line-431",
       "start": 1444.6,
       "end": 1446.467,
       "text": "ねぇ 廊下の本 全部 捨てんの？",
       "translation": ""
     },
     {
-      "id": "line-464",
+      "id": "line-432",
       "start": 1446.467,
       "end": 1449.333,
-      "text": "いつまで寝てんのよ\n少しは手伝いなさいよ",
+      "text": "いつまで寝てんのよ 少しは手伝いなさいよ",
       "translation": ""
     },
     {
-      "id": "line-465",
+      "id": "line-433",
       "start": 1449.333,
       "end": 1451.767,
       "text": "何で手伝わなきゃ いけないんだっけ？",
       "translation": ""
     },
     {
-      "id": "line-466",
+      "id": "line-434",
       "start": 1451.767,
       "end": 1453.5,
       "text": "お昼 先 食べちゃったわよ",
       "translation": ""
     },
     {
-      "id": "line-467",
+      "id": "line-435",
       "start": 1453.5,
       "end": 1455.033,
       "text": "俺の分は？",
       "translation": ""
     },
     {
-      "id": "line-468",
+      "id": "line-436",
       "start": 1455.033,
       "end": 1456.567,
       "text": "台所に お弁当 置いてあるから",
       "translation": ""
     },
     {
-      "id": "line-469",
+      "id": "line-437",
       "start": 1457.5,
       "end": 1460.767,
-      "text": "ついでに そこの本\n全部 下に運んどいて",
+      "text": "ついでに そこの本 全部 下に運んどいて",
       "translation": ""
     },
     {
-      "id": "line-470",
+      "id": "line-438",
       "start": 1466.1,
       "end": 1468.5,
-      "text": "ゴミで出すから 物置の前に\n置いといてくれればいいから",
+      "text": "ゴミで出すから 物置の前に 置いといてくれればいいから",
       "translation": ""
     },
     {
-      "id": "line-471",
+      "id": "line-439",
       "start": 1470.4,
       "end": 1471.967,
       "text": "面倒くせぇな～",
       "translation": ""
     },
     {
-      "id": "line-472",
+      "id": "line-440",
       "start": 1478.067,
-      "end": 1480.567,
-      "text": "懐かしい",
-      "translation": ""
-    },
-    {
-      "id": "line-473",
-      "start": 1480.567,
       "end": 1482.233,
-      "text": "これさ 満がさ",
+      "text": "懐かしいこれさ 満がさ",
       "translation": ""
     },
     {
-      "id": "line-474",
+      "id": "line-441",
       "start": 1482.233,
       "end": 1484.233,
       "text": "泣くのよ～",
       "translation": ""
     },
     {
-      "id": "line-475",
+      "id": "line-442",
       "start": 1497.9,
       "end": 1499.233,
       "text": "俺にも ちょうだい",
       "translation": ""
     },
     {
-      "id": "line-476",
+      "id": "line-443",
       "start": 1500.967,
       "end": 1502.3,
       "text": "どっか行くの？",
       "translation": ""
     },
     {
-      "id": "line-477",
+      "id": "line-444",
       "start": 1502.3,
       "end": 1504.1,
       "text": "古本屋 お前も来る？",
       "translation": ""
     },
     {
-      "id": "line-478",
+      "id": "line-445",
       "start": 1504.1,
       "end": 1504.933,
       "text": "近い？",
       "translation": ""
     },
     {
-      "id": "line-479",
+      "id": "line-446",
       "start": 1505.867,
       "end": 1507.667,
       "text": "すぐだよ 歩いて５分",
       "translation": ""
     },
     {
-      "id": "line-480",
+      "id": "line-447",
       "start": 1507.667,
       "end": 1509.5,
       "text": "古本屋 行くの？",
       "translation": ""
     },
     {
-      "id": "line-481",
+      "id": "line-448",
       "start": 1509.5,
       "end": 1511.133,
       "text": "俺も ついて行っていいかな？",
       "translation": ""
     },
     {
-      "id": "line-482",
+      "id": "line-449",
       "start": 1511.133,
       "end": 1512.733,
       "text": "もちろんっすよ",
       "translation": ""
     },
     {
-      "id": "line-483",
+      "id": "line-450",
       "start": 1512.733,
-      "end": 1514.767,
-      "text": "｢捨てていい｣って言われた\nお義父さんの本が",
-      "translation": ""
-    },
-    {
-      "id": "line-484",
-      "start": 1514.767,
       "end": 1516.433,
-      "text": "大量にあってさ",
+      "text": "｢捨てていい｣って言われた お義父さんの本が大量にあってさ",
       "translation": ""
     },
     {
-      "id": "line-485",
+      "id": "line-451",
       "start": 1516.433,
       "end": 1518.9,
       "text": "春海も行くよな？",
       "translation": ""
     },
     {
-      "id": "line-486",
+      "id": "line-452",
       "start": 1518.9,
-      "end": 1520.6,
-      "text": "私 やっぱ いいや",
-      "translation": ""
-    },
-    {
-      "id": "line-487",
-      "start": 1521.467,
       "end": 1522.533,
-      "text": "どうして？",
+      "text": "私 やっぱ いいやどうして？",
       "translation": ""
     },
     {
-      "id": "line-488",
+      "id": "line-453",
       "start": 1522.533,
       "end": 1524,
       "text": "塾の宿題あるし",
       "translation": ""
     },
     {
-      "id": "line-489",
+      "id": "line-454",
       "start": 1533.867,
       "end": 1535.733,
       "text": "僕 思うんですけど",
       "translation": ""
     },
     {
-      "id": "line-490",
+      "id": "line-455",
       "start": 1535.733,
       "end": 1538.967,
-      "text": "春海に 無理に好かれようとしなくて\nいいんじゃないですかね",
+      "text": "春海に 無理に好かれようとしなくて いいんじゃないですかね",
       "translation": ""
     },
     {
-      "id": "line-491",
+      "id": "line-456",
       "start": 1538.967,
       "end": 1540.567,
       "text": "そんなつもりはないんだけどさ",
       "translation": ""
     },
     {
-      "id": "line-492",
+      "id": "line-457",
       "start": 1540.567,
       "end": 1544.567,
-      "text": "好かれようとして 媚びるから\n逆に嫌われるっていうか",
+      "text": "好かれようとして 媚びるから 逆に嫌われるっていうか",
       "translation": ""
     },
     {
-      "id": "line-493",
+      "id": "line-458",
       "start": 1544.567,
       "end": 1546.067,
       "text": "やっぱり俺 嫌われてる？",
       "translation": ""
     },
     {
-      "id": "line-494",
+      "id": "line-459",
       "start": 1546.067,
       "end": 1547.4,
       "text": "嫌われてはないです",
       "translation": ""
     },
     {
-      "id": "line-495",
+      "id": "line-460",
       "start": 1547.4,
       "end": 1549.033,
       "text": "それはウソでしょ",
       "translation": ""
     },
     {
-      "id": "line-496",
+      "id": "line-461",
       "start": 1550.3,
       "end": 1551.5,
       "text": "ごめんなさい",
       "translation": ""
     },
     {
-      "id": "line-497",
+      "id": "line-462",
       "start": 1551.5,
       "end": 1553.9,
-      "text": "あの 今 勢いで\nウソをついちゃいましたけど…",
+      "text": "あの 今 勢いで ウソをついちゃいましたけど…",
       "translation": ""
     },
     {
-      "id": "line-498",
+      "id": "line-463",
       "start": 1557.233,
       "end": 1559.467,
       "text": "家族に嫌われるって つらいよ～",
       "translation": ""
     },
     {
-      "id": "line-499",
+      "id": "line-464",
       "start": 1560.9,
       "end": 1563.467,
       "text": "光司さんは いい人過ぎますよ",
       "translation": ""
     },
     {
-      "id": "line-500",
+      "id": "line-465",
       "start": 1563.467,
       "end": 1566.467,
-      "text": "姉ちゃんにも 春海にも\nもっと強気でいいと思います",
+      "text": "姉ちゃんにも 春海にも もっと強気でいいと思います",
       "translation": ""
     },
     {
-      "id": "line-501",
+      "id": "line-466",
       "start": 1566.467,
       "end": 1569.267,
-      "text": "まともに やり合っても\n勝ち目ないの分かってるから…",
+      "text": "まともに やり合っても 勝ち目ないの分かってるから…",
       "translation": ""
     },
     {
-      "id": "line-502",
+      "id": "line-467",
       "start": 1570.133,
       "end": 1573.133,
       "text": "じゃあ 一緒に戦いましょう",
       "translation": ""
     },
     {
-      "id": "line-503",
+      "id": "line-468",
       "start": 1575.733,
       "end": 1579.633,
-      "text": "仮住まいの３か月間\n僕は全面的に光司さんの味方です",
+      "text": "仮住まいの３か月間 僕は全面的に光司さんの味方です",
       "translation": ""
     },
     {
-      "id": "line-504",
+      "id": "line-469",
       "start": 1579.633,
       "end": 1581.633,
-      "text": "あいつらの好き放題には\nさせませんから",
+      "text": "あいつらの好き放題には させませんから",
       "translation": ""
     },
     {
-      "id": "line-505",
+      "id": "line-470",
       "start": 1582.5,
-      "end": 1584.133,
-      "text": "心強いね",
-      "translation": ""
-    },
-    {
-      "id": "line-506",
-      "start": 1584.133,
       "end": 1586.9,
-      "text": "姉ちゃん やり込めて",
+      "text": "心強いね姉ちゃん やり込めて",
       "translation": ""
     },
     {
-      "id": "line-507",
+      "id": "line-471",
       "start": 1586.9,
       "end": 1590,
       "text": "春海 見返してやりましょうよ",
       "translation": ""
     },
     {
-      "id": "line-508",
+      "id": "line-472",
       "start": 1590,
       "end": 1592.067,
       "text": "満君…",
       "translation": ""
     },
     {
-      "id": "line-509",
+      "id": "line-473",
       "start": 1592.067,
       "end": 1593.567,
       "text": "頼りにしてます",
       "translation": ""
     },
     {
-      "id": "line-510",
+      "id": "line-474",
       "start": 1594.3,
       "end": 1596.2,
       "text": "お互い 助け合いましょう",
       "translation": ""
     },
     {
-      "id": "line-511",
+      "id": "line-475",
       "start": 1605.1,
       "end": 1606.467,
       "text": "ねぇ 満 知らない？",
       "translation": ""
     },
     {
-      "id": "line-512",
+      "id": "line-476",
       "start": 1606.467,
       "end": 1607.9,
       "text": "古本屋に行った",
       "translation": ""
     },
     {
-      "id": "line-513",
+      "id": "line-477",
       "start": 1607.9,
       "end": 1610.2,
       "text": "牧本さんとこかしら？",
       "translation": ""
     },
     {
-      "id": "line-514",
+      "id": "line-478",
       "start": 1610.2,
       "end": 1612.1,
       "text": "どうかしたの？",
       "translation": ""
     },
     {
-      "id": "line-515",
+      "id": "line-479",
       "start": 1612.1,
       "end": 1616.367,
-      "text": "ホームセンターに車 出して\nもらおうかと思ったんだけど",
+      "text": "ホームセンターに車 出して もらおうかと思ったんだけど",
       "translation": ""
     },
     {
-      "id": "line-516",
+      "id": "line-480",
       "start": 1616.367,
       "end": 1618.633,
       "text": "満兄ちゃん スマホ持ってないの？",
       "translation": ""
     },
     {
-      "id": "line-517",
+      "id": "line-481",
       "start": 1618.633,
       "end": 1620.633,
-      "text": "昔の古いケータイなら\n持ってるんだけど",
+      "text": "昔の古いケータイなら 持ってるんだけど",
       "translation": ""
     },
     {
-      "id": "line-518",
+      "id": "line-482",
       "start": 1620.633,
       "end": 1623.3,
-      "text": "どうせ鳴らないって\n全然 持ち歩かないの",
+      "text": "どうせ鳴らないって 全然 持ち歩かないの",
       "translation": ""
     },
     {
-      "id": "line-519",
+      "id": "line-483",
       "start": 1623.3,
       "end": 1625.233,
       "text": "じゃあ 光司さんに電話してみたら？",
       "translation": ""
     },
     {
-      "id": "line-520",
+      "id": "line-484",
       "start": 1625.233,
       "end": 1626.8,
       "text": "光司さんも一緒なの？",
       "translation": ""
     },
     {
-      "id": "line-521",
+      "id": "line-485",
       "start": 1626.8,
       "end": 1629.533,
-      "text": "おじいちゃんの本\n処分するって 一緒に行ったけど",
+      "text": "おじいちゃんの本 処分するって 一緒に行ったけど",
       "translation": ""
     },
     {
-      "id": "line-522",
+      "id": "line-486",
       "start": 1632.267,
       "end": 1634,
       "text": "何？",
       "translation": ""
     },
     {
-      "id": "line-523",
+      "id": "line-487",
       "start": 1635.567,
       "end": 1639.833,
-      "text": "光司さんのこと まだ｢お父さん｣って\n呼んであげてないんでしょ？",
+      "text": "光司さんのこと まだ｢お父さん｣って 呼んであげてないんでしょ？",
       "translation": ""
     },
     {
-      "id": "line-524",
+      "id": "line-488",
       "start": 1639.833,
       "end": 1642.167,
       "text": "もう 今更いいでしょ",
       "translation": ""
     },
     {
-      "id": "line-525",
+      "id": "line-489",
       "start": 1642.833,
       "end": 1645.3,
       "text": "でも ずっと待ってると思うな",
       "translation": ""
     },
     {
-      "id": "line-526",
+      "id": "line-490",
       "start": 1645.3,
       "end": 1647.467,
       "text": "そう言われると 余計 言えないよね",
       "translation": ""
     },
     {
-      "id": "line-527",
+      "id": "line-491",
       "start": 1671.1,
       "end": 1675.067,
-      "text": "巌さんが こんなに いいご趣味してた\nとは 知りませんでしたよ",
+      "text": "巌さんが こんなに いいご趣味してた とは 知りませんでしたよ",
       "translation": ""
     },
     {
-      "id": "line-528",
+      "id": "line-492",
       "start": 1675.067,
       "end": 1679.633,
-      "text": "生前 あまり お話しできなかったのが\nホントに心残りです",
+      "text": "生前 あまり お話しできなかったのが ホントに心残りです",
       "translation": ""
     },
     {
-      "id": "line-529",
+      "id": "line-493",
       "start": 1679.633,
-      "end": 1684,
-      "text": "まぁしかし このタイミングで亡くなった\nご主人の本を 手放すというのは",
-      "translation": ""
-    },
-    {
-      "id": "line-530",
-      "start": 1684,
       "end": 1687.567,
-      "text": "房枝さんに何か心変わりでも\nあったんでしょうかね？",
+      "text": "まぁしかし このタイミングで亡くなった ご主人の本を 手放すというのは房枝さんに何か心変わりでも あったんでしょうかね？",
       "translation": ""
     },
     {
-      "id": "line-531",
+      "id": "line-494",
       "start": 1687.567,
       "end": 1690.367,
-      "text": "いや 単に部屋を片付けたかった\nからではないんですか？",
+      "text": "いや 単に部屋を片付けたかった からではないんですか？",
       "translation": ""
     },
     {
-      "id": "line-532",
+      "id": "line-495",
       "start": 1690.367,
       "end": 1692.733,
       "text": "そんな軽い気持ちじゃ ないはずです",
       "translation": ""
     },
     {
-      "id": "line-533",
+      "id": "line-496",
       "start": 1692.733,
       "end": 1697.433,
-      "text": "前向きな意味での\n未練を断ち切る決意 といいますか",
+      "text": "前向きな意味での 未練を断ち切る決意 といいますか",
       "translation": ""
     },
     {
-      "id": "line-534",
+      "id": "line-497",
       "start": 1697.433,
       "end": 1701.467,
-      "text": "新たな出会いを受け入れる\n巣作りを始めた とでもいいましょうか",
+      "text": "新たな出会いを受け入れる 巣作りを始めた とでもいいましょうか",
       "translation": ""
     },
     {
-      "id": "line-535",
+      "id": "line-498",
       "start": 1701.467,
       "end": 1704.2,
-      "text": "話し込んでないで さっさと\n査定してもらえませんか？",
+      "text": "話し込んでないで さっさと 査定してもらえませんか？",
       "translation": ""
     },
     {
-      "id": "line-536",
+      "id": "line-499",
       "start": 1704.2,
       "end": 1705.9,
       "text": "お前も さっさと働いたらどうだ？",
       "translation": ""
     },
     {
-      "id": "line-537",
+      "id": "line-500",
       "start": 1705.9,
       "end": 1707.067,
       "text": "おじさんに関係ないでしょ",
       "translation": ""
     },
     {
-      "id": "line-538",
+      "id": "line-501",
       "start": 1707.067,
       "end": 1709.467,
       "text": "果たして本当に無関係だろうか？",
       "translation": ""
     },
     {
-      "id": "line-539",
+      "id": "line-502",
       "start": 1709.467,
       "end": 1713.033,
       "text": "光司さん あっちに珍しい本ありますよ",
       "translation": ""
     },
     {
-      "id": "line-540",
+      "id": "line-503",
       "start": 1714.267,
       "end": 1716.667,
-      "text": "房枝さんを早く楽させてやろう\nとは思わないのか!?",
+      "text": "房枝さんを早く楽させてやろう とは思わないのか!?",
       "translation": ""
     },
     {
-      "id": "line-541",
+      "id": "line-504",
       "start": 1717.633,
       "end": 1719,
       "text": "聞いてるのか",
       "translation": ""
     },
     {
-      "id": "line-542",
+      "id": "line-505",
       "start": 1721.233,
       "end": 1723.833,
       "text": "お母さんは満に甘過ぎるよ",
       "translation": ""
     },
     {
-      "id": "line-543",
+      "id": "line-506",
       "start": 1723.833,
       "end": 1725.433,
       "text": "そんなことないわよ",
       "translation": ""
     },
     {
-      "id": "line-544",
+      "id": "line-507",
       "start": 1725.433,
       "end": 1727.633,
-      "text": "満が働かないのは\nお母さんのせいだからね",
+      "text": "満が働かないのは お母さんのせいだからね",
       "translation": ""
     },
     {
-      "id": "line-545",
+      "id": "line-508",
       "start": 1727.633,
       "end": 1730.5,
       "text": "どうして私のせいになるのよ？",
       "translation": ""
     },
     {
-      "id": "line-546",
+      "id": "line-509",
       "start": 1730.5,
       "end": 1733.033,
       "text": "｢満が３０過ぎても無職だったら",
       "translation": ""
     },
     {
-      "id": "line-547",
+      "id": "line-510",
       "start": 1733.033,
       "end": 1736.067,
-      "text": "ウチを追い出してでも働かせる｣\nって言ったんだよ？",
+      "text": "ウチを追い出してでも働かせる｣ って言ったんだよ？",
       "translation": ""
     },
     {
-      "id": "line-548",
+      "id": "line-511",
       "start": 1736.067,
       "end": 1737.933,
       "text": "覚えてるわよ",
       "translation": ""
     },
     {
-      "id": "line-549",
+      "id": "line-512",
       "start": 1737.933,
       "end": 1741.367,
-      "text": "でも それは お父さんが\nまだ元気だった頃の話でしょう？",
+      "text": "でも それは お父さんが まだ元気だった頃の話でしょう？",
       "translation": ""
     },
     {
-      "id": "line-550",
+      "id": "line-513",
       "start": 1741.367,
       "end": 1742.7,
       "text": "そうだけど…",
       "translation": ""
     },
     {
-      "id": "line-551",
+      "id": "line-514",
       "start": 1743.867,
       "end": 1746.067,
       "text": "お父さんが亡くなった後",
       "translation": ""
     },
     {
-      "id": "line-552",
+      "id": "line-515",
       "start": 1746.067,
       "end": 1749.133,
       "text": "私をそばで支えてくれたのは 満よ",
       "translation": ""
     },
     {
-      "id": "line-553",
+      "id": "line-516",
       "start": 1750,
       "end": 1753.333,
-      "text": "支えてくれたって\nあいつが何したのよ？",
+      "text": "支えてくれたって あいつが何したのよ？",
       "translation": ""
     },
     {
-      "id": "line-554",
+      "id": "line-517",
       "start": 1753.333,
       "end": 1756.433,
-      "text": "毎朝 おいしいコーヒー\n入れてくれるわよ",
+      "text": "毎朝 おいしいコーヒー 入れてくれるわよ",
       "translation": ""
     },
     {
-      "id": "line-555",
+      "id": "line-518",
       "start": 1756.433,
       "end": 1758.1,
       "text": "それだけでしょ？",
       "translation": ""
     },
     {
-      "id": "line-556",
+      "id": "line-519",
       "start": 1758.1,
       "end": 1761.333,
       "text": "月命日には お墓まで車 出してくれて",
       "translation": ""
     },
     {
-      "id": "line-557",
+      "id": "line-520",
       "start": 1761.333,
-      "end": 1762.867,
-      "text": "ホント 助かるの",
-      "translation": ""
-    },
-    {
-      "id": "line-558",
-      "start": 1762.867,
       "end": 1765.1,
-      "text": "｢助かる｣って言うけど",
+      "text": "ホント 助かるの｢助かる｣って言うけど",
       "translation": ""
     },
     {
-      "id": "line-559",
+      "id": "line-521",
       "start": 1765.1,
       "end": 1766.767,
       "text": "お小遣い 渡してるんでしょ？",
       "translation": ""
     },
     {
-      "id": "line-560",
+      "id": "line-522",
       "start": 1766.767,
       "end": 1768.167,
       "text": "渡してないわよ",
       "translation": ""
     },
     {
-      "id": "line-561",
+      "id": "line-523",
       "start": 1768.167,
       "end": 1770.567,
       "text": "お盆の時 春海が｢見た｣って言ってた",
       "translation": ""
     },
     {
-      "id": "line-562",
+      "id": "line-524",
       "start": 1770.567,
-      "end": 1772.7,
-      "text": "あれは お小遣いじゃないの",
+      "end": 1774.0165000000002,
+      "text": "あれは お小遣いじゃないのお花代とか",
       "translation": ""
     },
     {
-      "id": "line-563",
-      "start": 1772.7,
+      "id": "line-525",
+      "start": 1774.0165000000002,
       "end": 1775.333,
-      "text": "お花代とか ガソリン代とか",
+      "text": "ガソリン代とか",
       "translation": ""
     },
     {
-      "id": "line-564",
+      "id": "line-526",
       "start": 1775.333,
       "end": 1777,
       "text": "立て替えてもらった分を 支払っただけ",
       "translation": ""
     },
     {
-      "id": "line-565",
+      "id": "line-527",
       "start": 1777,
       "end": 1778.833,
-      "text": "じゃあ ちゃんと\nお釣り もらってる？",
+      "text": "じゃあ ちゃんと お釣り もらってる？",
       "translation": ""
     },
     {
-      "id": "line-566",
+      "id": "line-528",
       "start": 1778.833,
       "end": 1780.967,
-      "text": "そういう時\nレシート見せてもらってるの？",
+      "text": "そういう時 レシート見せてもらってるの？",
       "translation": ""
     },
     {
-      "id": "line-567",
+      "id": "line-529",
       "start": 1780.967,
       "end": 1785.1,
-      "text": "会社じゃあるまいし 何も そこまで\n厳密にやることないでしょう",
+      "text": "会社じゃあるまいし 何も そこまで 厳密にやることないでしょう",
       "translation": ""
     },
     {
-      "id": "line-568",
+      "id": "line-530",
       "start": 1785.1,
       "end": 1789.467,
-      "text": "あいつはね そういう小銭を\nため込んで生き延びてるんだよ？",
+      "text": "あいつはね そういう小銭を ため込んで生き延びてるんだよ？",
       "translation": ""
     },
     {
-      "id": "line-569",
+      "id": "line-531",
       "start": 1789.467,
       "end": 1790.933,
       "text": "いいじゃない そのぐらい",
       "translation": ""
     },
     {
-      "id": "line-570",
+      "id": "line-532",
       "start": 1790.933,
       "end": 1792.233,
       "text": "今は まだいいよ？",
       "translation": ""
     },
     {
-      "id": "line-571",
+      "id": "line-533",
       "start": 1792.233,
       "end": 1795.2,
-      "text": "お母さんだって働けてるし\n満も まだ３１だから…",
+      "text": "お母さんだって働けてるし 満も まだ３１だから…",
       "translation": ""
     },
     {
-      "id": "line-572",
+      "id": "line-534",
       "start": 1795.2,
       "end": 1799.633,
-      "text": "じゃあ １０年 ２０年 このままの\n生活が続いたら どうするのよ？",
+      "text": "じゃあ １０年 ２０年 このままの 生活が続いたら どうするのよ？",
       "translation": ""
     },
     {
-      "id": "line-573",
+      "id": "line-535",
       "start": 1799.633,
       "end": 1801.167,
       "text": "目も当てられないよ",
       "translation": ""
     },
     {
-      "id": "line-574",
+      "id": "line-536",
       "start": 1801.167,
       "end": 1803.433,
-      "text": "そんなに言うなら\nあなたが やりなさいよ",
+      "text": "そんなに言うなら あなたが やりなさいよ",
       "translation": ""
     },
     {
-      "id": "line-575",
+      "id": "line-537",
       "start": 1803.433,
       "end": 1804.733,
       "text": "何を？",
       "translation": ""
     },
     {
-      "id": "line-576",
+      "id": "line-538",
       "start": 1804.733,
       "end": 1808.9,
-      "text": "仮住まいしている間に\n満を追い出して 就職させてみなさいよ",
+      "text": "仮住まいしている間に 満を追い出して 就職させてみなさいよ",
       "translation": ""
     },
     {
-      "id": "line-577",
+      "id": "line-539",
       "start": 1808.9,
       "end": 1812.1,
       "text": "-元々 そのつもりでしたけど -そう",
       "translation": ""
     },
     {
-      "id": "line-578",
+      "id": "line-540",
       "start": 1812.1,
       "end": 1814.7,
-      "text": "どんなに大変なことか\nやってみたら分かるわよ",
+      "text": "どんなに大変なことか やってみたら分かるわよ",
       "translation": ""
     },
     {
-      "id": "line-579",
+      "id": "line-541",
       "start": 1817.867,
       "end": 1820.867,
       "text": "さっき 下に運ばせてた 本と漫画",
       "translation": ""
     },
     {
-      "id": "line-580",
+      "id": "line-542",
       "start": 1820.867,
       "end": 1824.433,
-      "text": "古本屋に持ってって 今頃\n満のお小遣いになってるわよ",
+      "text": "古本屋に持ってって 今頃 満のお小遣いになってるわよ",
       "translation": ""
     },
     {
-      "id": "line-581",
+      "id": "line-543",
       "start": 1824.433,
       "end": 1825.967,
       "text": "綾子も気を付けてね～",
       "translation": ""
     },
     {
-      "id": "line-582",
+      "id": "line-544",
       "start": 1834.8,
       "end": 1838.9,
       "text": "やっぱ 働いた後のビール 最高ですね",
       "translation": ""
     },
     {
-      "id": "line-583",
+      "id": "line-545",
       "start": 1838.9,
       "end": 1842,
-      "text": "綾子にさ 一応 ｢飲んで来る｣って\n連絡しといていいかな？",
+      "text": "綾子にさ 一応 ｢飲んで来る｣って 連絡しといていいかな？",
       "translation": ""
     },
     {
-      "id": "line-584",
+      "id": "line-546",
       "start": 1842,
       "end": 1843.133,
       "text": "しなくていいですよ",
       "translation": ""
     },
     {
-      "id": "line-585",
+      "id": "line-547",
       "start": 1843.133,
       "end": 1845.2,
       "text": "-でもさ… -もし 文句言われたら",
       "translation": ""
     },
     {
-      "id": "line-586",
+      "id": "line-548",
       "start": 1845.2,
       "end": 1849.233,
-      "text": "｢何度も断る光司さんを俺が強引に誘った｣\nって言いますから",
+      "text": "｢何度も断る光司さんを俺が強引に誘った｣ って言いますから",
       "translation": ""
     },
     {
-      "id": "line-587",
+      "id": "line-549",
       "start": 1849.233,
       "end": 1852.6,
-      "text": "ちゃんと｢何度も断る光司さんを｣\nって強調してくれる？",
+      "text": "ちゃんと｢何度も断る光司さんを｣ って強調してくれる？",
       "translation": ""
     },
     {
-      "id": "line-588",
+      "id": "line-550",
       "start": 1852.6,
       "end": 1854.567,
       "text": "当たり前じゃないですか",
       "translation": ""
     },
     {
-      "id": "line-589",
+      "id": "line-551",
       "start": 1854.567,
       "end": 1858.3,
-      "text": "光司さん ウチの店に\n来たこと 覚えてます？",
+      "text": "光司さん ウチの店に 来たこと 覚えてます？",
       "translation": ""
     },
     {
-      "id": "line-590",
+      "id": "line-552",
       "start": 1858.3,
       "end": 1860.1,
       "text": "やっぱり 来たことあるんだ",
       "translation": ""
     },
     {
-      "id": "line-591",
+      "id": "line-553",
       "start": 1860.1,
       "end": 1863.233,
-      "text": "入った瞬間ね\n何か見覚えあるな～とは 思ったんだけど",
+      "text": "入った瞬間ね 何か見覚えあるな～とは 思ったんだけど",
       "translation": ""
     },
     {
-      "id": "line-592",
+      "id": "line-554",
       "start": 1863.233,
-      "end": 1865.967,
-      "text": "５年前に一度だけ 綾子さんと",
+      "end": 1867.1670000000001,
+      "text": "５年前に一度だけ 綾子さんとここって",
       "translation": ""
     },
     {
-      "id": "line-593",
-      "start": 1867.033,
+      "id": "line-555",
+      "start": 1867.1670000000001,
       "end": 1869.567,
-      "text": "ここって 綾子も よく飲みに来るの？",
+      "text": "綾子も よく飲みに来るの？",
       "translation": ""
     },
     {
-      "id": "line-594",
+      "id": "line-556",
       "start": 1869.567,
       "end": 1871.567,
       "text": "いや～ もう最近は全然です",
       "translation": ""
     },
     {
-      "id": "line-595",
+      "id": "line-557",
       "start": 1871.567,
       "end": 1875.6,
-      "text": "前は ライブのチラシを 持って来る\nついでに よく来てくれてたんですけど",
+      "text": "前は ライブのチラシを 持って来る ついでに よく来てくれてたんですけど",
       "translation": ""
     },
     {
-      "id": "line-596",
+      "id": "line-558",
       "start": 1877.067,
       "end": 1879.533,
-      "text": "小雪ちゃん\nバンドでベースやってるんですよ",
+      "text": "小雪ちゃん バンドでベースやってるんですよ",
       "translation": ""
     },
     {
-      "id": "line-597",
+      "id": "line-559",
       "start": 1881.833,
       "end": 1883.467,
       "text": "何 使ってるんですか？",
       "translation": ""
     },
     {
-      "id": "line-598",
+      "id": "line-560",
       "start": 1883.467,
       "end": 1885.667,
       "text": "フェンダーのムスタングです",
       "translation": ""
     },
     {
-      "id": "line-599",
+      "id": "line-561",
       "start": 1885.667,
       "end": 1887.4,
       "text": "昔 僕も使ってましたよ",
       "translation": ""
     },
     {
-      "id": "line-600",
+      "id": "line-562",
       "start": 1887.4,
       "end": 1888.8,
       "text": "ベースやってるんですか？",
       "translation": ""
     },
     {
-      "id": "line-601",
+      "id": "line-563",
       "start": 1888.8,
       "end": 1890.233,
       "text": "いや 何言ってんの 小雪ちゃん",
       "translation": ""
     },
     {
-      "id": "line-602",
+      "id": "line-564",
       "start": 1890.233,
       "end": 1892.433,
-      "text": "光司さんは バンドで\nメジャーデビューしてたんだから",
+      "text": "光司さんは バンドで メジャーデビューしてたんだから",
       "translation": ""
     },
     {
-      "id": "line-603",
+      "id": "line-565",
       "start": 1892.433,
       "end": 1893.6,
       "text": "えっ すごい",
       "translation": ""
     },
     {
-      "id": "line-604",
+      "id": "line-566",
       "start": 1893.6,
       "end": 1895.8,
       "text": "いやいや 全然すごくないですよ",
       "translation": ""
     },
     {
-      "id": "line-605",
+      "id": "line-567",
       "start": 1895.8,
       "end": 1898.933,
-      "text": "全く売れなくて\n２年で契約 打ち切られて",
+      "text": "全く売れなくて ２年で契約 打ち切られて",
       "translation": ""
     },
     {
-      "id": "line-606",
+      "id": "line-568",
       "start": 1898.933,
       "end": 1900.767,
       "text": "すぐに解散しちゃったんでね",
       "translation": ""
     },
     {
-      "id": "line-607",
+      "id": "line-569",
       "start": 1900.767,
       "end": 1903.4,
       "text": "僕は｢ズタボロ｣ 好きでしたよ",
       "translation": ""
     },
     {
-      "id": "line-608",
+      "id": "line-570",
       "start": 1903.4,
       "end": 1904.5,
       "text": "ありがとうございます",
       "translation": ""
     },
     {
-      "id": "line-609",
+      "id": "line-571",
       "start": 1904.5,
       "end": 1906.7,
-      "text": "｢ズタボロ｣ってバンド\nだったんですか？",
+      "text": "｢ズタボロ｣ってバンド だったんですか？",
       "translation": ""
     },
     {
-      "id": "line-610",
+      "id": "line-572",
       "start": 1906.7,
       "end": 1910.567,
-      "text": "知らなくて当然だよ\n大して 有名じゃなかったし",
+      "text": "知らなくて当然だよ 大して 有名じゃなかったし",
       "translation": ""
     },
     {
-      "id": "line-611",
+      "id": "line-573",
       "start": 1910.567,
       "end": 1912.367,
       "text": "でも 光司さんのベースって",
       "translation": ""
     },
     {
-      "id": "line-612",
+      "id": "line-574",
       "start": 1912.367,
       "end": 1915.567,
       "text": "力強さの中に 哀愁と諦観があって",
       "translation": ""
     },
     {
-      "id": "line-613",
+      "id": "line-575",
       "start": 1915.567,
       "end": 1918.6,
       "text": "それが 唯一無二の音で 表現されてて",
       "translation": ""
     },
     {
-      "id": "line-614",
+      "id": "line-576",
       "start": 1918.6,
       "end": 1920.233,
       "text": "ホント 好きだったんですよ",
       "translation": ""
     },
     {
-      "id": "line-615",
+      "id": "line-577",
       "start": 1921.233,
       "end": 1923.567,
-      "text": "こんなに褒められたの\n何年ぶりかな～？",
+      "text": "こんなに褒められたの 何年ぶりかな～？",
       "translation": ""
     },
     {
-      "id": "line-616",
+      "id": "line-578",
       "start": 1923.567,
       "end": 1925.8,
       "text": "家で褒めてくれる人 いないですもんね",
       "translation": ""
     },
     {
-      "id": "line-617",
+      "id": "line-579",
       "start": 1927.867,
       "end": 1931.767,
-      "text": "よかれと思って 食器 洗っても\nスポンジの使い方で 怒られるからね",
+      "text": "よかれと思って 食器 洗っても スポンジの使い方で 怒られるからね",
       "translation": ""
     },
     {
-      "id": "line-618",
+      "id": "line-580",
       "start": 1933.3,
       "end": 1936.9,
-      "text": "姉ちゃん 何で\n光司さんと結婚したんですかね？",
+      "text": "姉ちゃん 何で 光司さんと結婚したんですかね？",
       "translation": ""
     },
     {
-      "id": "line-619",
+      "id": "line-581",
       "start": 1936.9,
       "end": 1939.367,
       "text": "いや 俺だって分かんないよ",
       "translation": ""
     },
     {
-      "id": "line-620",
+      "id": "line-582",
       "start": 1939.367,
-      "end": 1942.533,
-      "text": "ずっと クズ同然の生活をして来た人間が",
-      "translation": ""
-    },
-    {
-      "id": "line-621",
-      "start": 1942.533,
       "end": 1946.4,
-      "text": "丸の内のバリバリの キャリアウーマンと\n一緒になるなんて夢にも思わなかったから",
+      "text": "ずっと クズ同然の生活をして来た人間が丸の内のバリバリの キャリアウーマンと 一緒になるなんて夢にも思わなかったから",
       "translation": ""
     },
     {
-      "id": "line-622",
+      "id": "line-583",
       "start": 1946.4,
       "end": 1949.2,
       "text": "でも 高収入で仕事ができる 女性って",
       "translation": ""
     },
     {
-      "id": "line-623",
+      "id": "line-584",
       "start": 1949.2,
       "end": 1951.3,
-      "text": "光司さんみたいなタイプの人に\n弱いですよ",
+      "text": "光司さんみたいなタイプの人に 弱いですよ",
       "translation": ""
     },
     {
-      "id": "line-624",
+      "id": "line-585",
       "start": 1951.3,
       "end": 1952.467,
       "text": "そうなの？",
       "translation": ""
     },
     {
-      "id": "line-625",
+      "id": "line-586",
       "start": 1952.467,
       "end": 1954.533,
       "text": "ウチのお客さんにも 結構 多いですよ",
       "translation": ""
     },
     {
-      "id": "line-626",
+      "id": "line-587",
       "start": 1954.533,
       "end": 1957.067,
       "text": "女医さんと芸術家の卵とか",
       "translation": ""
     },
     {
-      "id": "line-627",
+      "id": "line-588",
       "start": 1957.067,
       "end": 1961.3,
       "text": "弁護士さんと 若手の芸人さんとか",
       "translation": ""
     },
     {
-      "id": "line-628",
+      "id": "line-589",
       "start": 1961.3,
       "end": 1966,
-      "text": "もしかして まっとうに働いてるから\nダメなんじゃないですか？",
+      "text": "もしかして まっとうに働いてるから ダメなんじゃないですか？",
       "translation": ""
     },
     {
-      "id": "line-629",
+      "id": "line-590",
       "start": 1967.033,
       "end": 1969.833,
-      "text": "でも 結婚してるし\nもう子供もいるからね",
+      "text": "でも 結婚してるし もう子供もいるからね",
       "translation": ""
     },
     {
-      "id": "line-630",
+      "id": "line-591",
       "start": 1969.833,
       "end": 1975.2,
-      "text": "その発想が 光司さん本来の魅力を\n半減させてしまってるんですよ",
+      "text": "その発想が 光司さん本来の魅力を 半減させてしまってるんですよ",
       "translation": ""
     },
     {
-      "id": "line-631",
+      "id": "line-592",
       "start": 1975.2,
       "end": 1978.267,
-      "text": "君たちは 僕に｢クズ人間に戻れ｣\nって言ってるのか？",
+      "text": "君たちは 僕に｢クズ人間に戻れ｣ って言ってるのか？",
       "translation": ""
     },
     {
-      "id": "line-632",
+      "id": "line-593",
       "start": 1978.267,
       "end": 1980.933,
-      "text": "いや だって サラリーマン\n向いてないじゃないですか",
+      "text": "いや だって サラリーマン 向いてないじゃないですか",
       "translation": ""
     },
     {
-      "id": "line-633",
+      "id": "line-594",
       "start": 1980.933,
       "end": 1983.6,
-      "text": "もちろん 自分でも\n向いてるとは思ってないけどさ",
+      "text": "もちろん 自分でも 向いてるとは思ってないけどさ",
       "translation": ""
     },
     {
-      "id": "line-634",
+      "id": "line-595",
       "start": 1983.6,
       "end": 1986.2,
-      "text": "そういう生活が向いてないって\n自覚してるから",
+      "text": "そういう生活が向いてないって 自覚してるから",
       "translation": ""
     },
     {
-      "id": "line-635",
+      "id": "line-596",
       "start": 1986.2,
       "end": 1988.833,
-      "text": "音楽で食べて行こうと\nしたんですもんね",
+      "text": "音楽で食べて行こうと したんですもんね",
       "translation": ""
     },
     {
-      "id": "line-636",
+      "id": "line-597",
       "start": 1990.767,
       "end": 1992.1,
       "text": "ちょっと待ってくれ",
       "translation": ""
     },
     {
-      "id": "line-637",
+      "id": "line-598",
       "start": 1993.867,
       "end": 1996.967,
-      "text": "俺は この店にいたら\nダメになってしまうかもしれないな",
+      "text": "俺は この店にいたら ダメになってしまうかもしれないな",
       "translation": ""
     },
     {
-      "id": "line-638",
+      "id": "line-599",
       "start": 1996.967,
       "end": 1999.267,
       "text": "ダメな男に戻ったほうが いいんです",
       "translation": ""
     },
     {
-      "id": "line-639",
+      "id": "line-600",
       "start": 1999.267,
       "end": 2002.467,
-      "text": "結婚したからって 音楽\nやめる必要もないんですよ",
+      "text": "結婚したからって 音楽 やめる必要もないんですよ",
       "translation": ""
     },
     {
-      "id": "line-640",
+      "id": "line-601",
       "start": 2002.467,
       "end": 2004.5,
       "text": "もう音楽 やってないんですか？",
       "translation": ""
     },
     {
-      "id": "line-641",
+      "id": "line-602",
       "start": 2004.5,
       "end": 2007.3,
-      "text": "やってないっていうか\nもう できないんですよ",
+      "text": "やってないっていうか もう できないんですよ",
       "translation": ""
     },
     {
-      "id": "line-642",
+      "id": "line-603",
       "start": 2007.3,
       "end": 2008.933,
       "text": "どうしてですか？",
       "translation": ""
     },
     {
-      "id": "line-643",
+      "id": "line-604",
       "start": 2008.933,
       "end": 2011.333,
-      "text": "ベースだけでも\n３０本近く 持ってたんだけど",
+      "text": "ベースだけでも ３０本近く 持ってたんだけど",
       "translation": ""
     },
     {
-      "id": "line-644",
+      "id": "line-605",
       "start": 2011.333,
       "end": 2014.133,
-      "text": "全部 売ったり あげたり\nしちゃったんでね",
+      "text": "全部 売ったり あげたり しちゃったんでね",
       "translation": ""
     },
     {
-      "id": "line-645",
+      "id": "line-606",
       "start": 2014.133,
       "end": 2015.933,
       "text": "もったいな～い",
       "translation": ""
     },
     {
-      "id": "line-646",
+      "id": "line-607",
       "start": 2015.933,
       "end": 2020.933,
-      "text": "もしかして 姉ちゃんに｢全部 処分しろ｣\nって言われたんじゃないですか？",
+      "text": "もしかして 姉ちゃんに｢全部 処分しろ｣ って言われたんじゃないですか？",
       "translation": ""
     },
     {
-      "id": "line-647",
+      "id": "line-608",
       "start": 2022.367,
       "end": 2026.733,
-      "text": "姉ちゃん 昔から ひとの大切な物を\n捨てることに無神経過ぎるんですよ",
+      "text": "姉ちゃん 昔から ひとの大切な物を 捨てることに無神経過ぎるんですよ",
       "translation": ""
     },
     {
-      "id": "line-648",
+      "id": "line-609",
       "start": 2026.733,
       "end": 2030.933,
-      "text": "俺も小さい頃 大事にしてたゲームソフト\n何本 捨てられたか 分かりませんからね",
+      "text": "俺も小さい頃 大事にしてたゲームソフト 何本 捨てられたか 分かりませんからね",
       "translation": ""
     },
     {
-      "id": "line-649",
+      "id": "line-610",
       "start": 2046.067,
       "end": 2048.067,
       "text": "いらっしゃ～い いらっしゃいませ",
       "translation": ""
     },
     {
-      "id": "line-650",
+      "id": "line-611",
       "start": 2051.6,
-      "end": 2054.1,
-      "text": "で 満君は",
-      "translation": ""
-    },
-    {
-      "id": "line-651",
-      "start": 2054.1,
       "end": 2056.833,
-      "text": "コーヒー屋さんに未練あるの？",
+      "text": "で 満君はコーヒー屋さんに未練あるの？",
       "translation": ""
     },
     {
-      "id": "line-652",
+      "id": "line-612",
       "start": 2058.133,
       "end": 2059.733,
       "text": "何で そんなこと聞くんですか？",
       "translation": ""
     },
     {
-      "id": "line-653",
+      "id": "line-613",
       "start": 2059.733,
       "end": 2063.733,
-      "text": "次の仕事を始めないってことは\nそういうことなんじゃないかな～と思って",
+      "text": "次の仕事を始めないってことは そういうことなんじゃないかな～と思って",
       "translation": ""
     },
     {
-      "id": "line-654",
+      "id": "line-614",
       "start": 2065.5,
       "end": 2069.367,
-      "text": "まぁ 男が一度は この道で食って行く\nと決めたわけですから",
+      "text": "まぁ 男が一度は この道で食って行く と決めたわけですから",
       "translation": ""
     },
     {
-      "id": "line-655",
+      "id": "line-615",
       "start": 2070.767,
       "end": 2073.067,
       "text": "未練がないはずが ないよね",
       "translation": ""
     },
     {
-      "id": "line-656",
+      "id": "line-616",
       "start": 2073.067,
       "end": 2076.033,
-      "text": "まぁ あとは あれですよ\nこっちの問題ですよ",
+      "text": "まぁ あとは あれですよ こっちの問題ですよ",
       "translation": ""
     },
     {
-      "id": "line-657",
+      "id": "line-617",
       "start": 2076.033,
       "end": 2079.067,
-      "text": "いや お金以外の相談なら\nいくらでも乗るんだけど…",
+      "text": "いや お金以外の相談なら いくらでも乗るんだけど…",
       "translation": ""
     },
     {
-      "id": "line-658",
+      "id": "line-618",
       "start": 2079.067,
       "end": 2082,
       "text": "いや あるじゃないですか お金",
       "translation": ""
     },
     {
-      "id": "line-659",
+      "id": "line-619",
       "start": 2082,
       "end": 2083.767,
       "text": "家の建て替え キャンセルして",
       "translation": ""
     },
     {
-      "id": "line-660",
+      "id": "line-620",
       "start": 2083.767,
       "end": 2086.967,
-      "text": "こっちの開業資金に\n回してくれればいいんですよ",
+      "text": "こっちの開業資金に 回してくれればいいんですよ",
       "translation": ""
     },
     {
-      "id": "line-661",
+      "id": "line-621",
       "start": 2088.833,
       "end": 2090.633,
       "text": "よし 分かった",
       "translation": ""
     },
     {
-      "id": "line-662",
+      "id": "line-622",
       "start": 2090.633,
       "end": 2093.2,
       "text": "満君の将来のためだ",
       "translation": ""
     },
     {
-      "id": "line-663",
+      "id": "line-623",
       "start": 2093.2,
       "end": 2096.467,
-      "text": "帰ったらね 綾子に\n直談判してやろうじゃないの",
+      "text": "帰ったらね 綾子に 直談判してやろうじゃないの",
       "translation": ""
     },
     {
-      "id": "line-664",
+      "id": "line-624",
       "start": 2096.467,
       "end": 2098.133,
-      "text": "じゃあ 景気づけに\nもう一杯 行きます？",
+      "text": "じゃあ 景気づけに もう一杯 行きます？",
       "translation": ""
     },
     {
-      "id": "line-665",
+      "id": "line-625",
       "start": 2098.133,
       "end": 2099.867,
       "text": "ダメだよ 満君",
       "translation": ""
     },
     {
-      "id": "line-666",
+      "id": "line-626",
       "start": 2099.867,
       "end": 2101.533,
       "text": "さすがに もう帰らなきゃ",
       "translation": ""
     },
     {
-      "id": "line-667",
+      "id": "line-627",
       "start": 2101.533,
       "end": 2104.7,
-      "text": "だって まだ ウチの小雪ちゃんに\nお酒作ってもらってないですよね",
+      "text": "だって まだ ウチの小雪ちゃんに お酒作ってもらってないですよね",
       "translation": ""
     },
     {
-      "id": "line-668",
+      "id": "line-628",
       "start": 2104.7,
       "end": 2106.233,
       "text": "君たちは さっきからグルなのか？",
       "translation": ""
     },
     {
-      "id": "line-669",
+      "id": "line-629",
       "start": 2106.233,
       "end": 2107.933,
       "text": "お作りしましょうか？",
       "translation": ""
     },
     {
-      "id": "line-670",
+      "id": "line-630",
       "start": 2107.933,
       "end": 2109.4,
       "text": "これは ズルいよ～",
       "translation": ""
     },
     {
-      "id": "line-671",
+      "id": "line-631",
       "start": 2109.4,
       "end": 2110.733,
       "text": "濃いめでお願いします",
       "translation": ""
     },
     {
-      "id": "line-672",
+      "id": "line-632",
       "start": 2115.467,
       "end": 2117,
       "text": "大変 遅くなりました",
       "translation": ""
     },
     {
-      "id": "line-673",
+      "id": "line-633",
       "start": 2117,
       "end": 2119.333,
-      "text": "片付け ほったらかして\n飲んで来たの？",
+      "text": "片付け ほったらかして 飲んで来たの？",
       "translation": ""
     },
     {
-      "id": "line-674",
+      "id": "line-634",
       "start": 2119.333,
       "end": 2120.867,
       "text": "ほったらかしたわけではなく",
       "translation": ""
     },
     {
-      "id": "line-675",
+      "id": "line-635",
       "start": 2120.867,
-      "end": 2125.2,
-      "text": "片付けの一環として 古本屋に出向き\n不要になった本を処分しに行ったのですが",
+      "end": 2125.9443333333334,
+      "text": "片付けの一環として 古本屋に出向き 不要になった本を処分しに行ったのですが尋常ならざる",
       "translation": ""
     },
     {
-      "id": "line-676",
-      "start": 2125.2,
+      "id": "line-636",
+      "start": 2125.9443333333334,
       "end": 2127.433,
-      "text": "尋常ならざる 喉の渇きに\n襲われまして…",
+      "text": "喉の渇きに 襲われまして…",
       "translation": ""
     },
     {
-      "id": "line-677",
+      "id": "line-637",
       "start": 2127.433,
       "end": 2130.967,
-      "text": "何度も断る光司さんを\n俺が しつこく誘ったんだよ",
+      "text": "何度も断る光司さんを 俺が しつこく誘ったんだよ",
       "translation": ""
     },
     {
-      "id": "line-678",
+      "id": "line-638",
       "start": 2130.967,
       "end": 2133.567,
-      "text": "光司さんには 嫌々\n付き合ってもらっただけ",
+      "text": "光司さんには 嫌々 付き合ってもらっただけ",
       "translation": ""
     },
     {
-      "id": "line-679",
+      "id": "line-639",
       "start": 2133.567,
       "end": 2136.3,
-      "text": "嫌々 付き合った割には\n相当 飲んでるみたいだけど",
+      "text": "嫌々 付き合った割には 相当 飲んでるみたいだけど",
       "translation": ""
     },
     {
-      "id": "line-680",
+      "id": "line-640",
       "start": 2136.3,
       "end": 2138.967,
-      "text": "泳がすだけ泳がしといて\n戻って来たところ説教するって",
+      "text": "泳がすだけ泳がしといて 戻って来たところ説教するって",
       "translation": ""
     },
     {
-      "id": "line-681",
+      "id": "line-641",
       "start": 2138.967,
       "end": 2141.133,
       "text": "やり方 汚くない？",
       "translation": ""
     },
     {
-      "id": "line-682",
+      "id": "line-642",
       "start": 2141.133,
       "end": 2142.867,
       "text": "満君 いいんだ",
       "translation": ""
     },
     {
-      "id": "line-683",
+      "id": "line-643",
       "start": 2142.867,
       "end": 2145.433,
       "text": "悪いのは 誘惑に屈した僕なんだから",
       "translation": ""
     },
     {
-      "id": "line-684",
+      "id": "line-644",
       "start": 2145.433,
       "end": 2146.867,
       "text": "光司さん 座って",
       "translation": ""
     },
     {
-      "id": "line-685",
+      "id": "line-645",
       "start": 2146.867,
-      "end": 2148.067,
-      "text": "はい",
-      "translation": ""
-    },
-    {
-      "id": "line-686",
-      "start": 2151.933,
       "end": 2154.6,
-      "text": "満 食べる前に 私の部屋\n見て来てくんない？",
+      "text": "はい満 食べる前に 私の部屋 見て来てくんない？",
       "translation": ""
     },
     {
-      "id": "line-687",
+      "id": "line-646",
       "start": 2154.6,
       "end": 2155.467,
       "text": "どうして？",
       "translation": ""
     },
     {
-      "id": "line-688",
+      "id": "line-647",
       "start": 2155.467,
       "end": 2157.667,
       "text": "あと残ってるの 全部 満の荷物だから",
       "translation": ""
     },
     {
-      "id": "line-689",
+      "id": "line-648",
       "start": 2157.667,
       "end": 2158.7,
       "text": "俺の？",
       "translation": ""
     },
     {
-      "id": "line-690",
+      "id": "line-649",
       "start": 2189.367,
       "end": 2191.633,
-      "text": "さっきから かんぴょう巻きしか\n食べてないでしょ？",
+      "text": "さっきから かんぴょう巻きしか 食べてないでしょ？",
       "translation": ""
     },
     {
-      "id": "line-691",
+      "id": "line-650",
       "start": 2191.633,
       "end": 2193.267,
       "text": "昔から好きなんですよ",
       "translation": ""
     },
     {
-      "id": "line-692",
+      "id": "line-651",
       "start": 2193.267,
       "end": 2195.667,
-      "text": "この歯応えと甘みが\n何とも言えなくて…",
+      "text": "この歯応えと甘みが 何とも言えなくて…",
       "translation": ""
     },
     {
-      "id": "line-693",
+      "id": "line-652",
       "start": 2200.7,
       "end": 2202.267,
       "text": "もう全部 捨てていいんだよね？",
       "translation": ""
     },
     {
-      "id": "line-694",
+      "id": "line-653",
       "start": 2202.267,
       "end": 2203.5,
       "text": "ダメに決まってんじゃん",
       "translation": ""
     },
     {
-      "id": "line-695",
+      "id": "line-654",
       "start": 2203.5,
       "end": 2204.7,
       "text": "どうして？",
       "translation": ""
     },
     {
-      "id": "line-696",
+      "id": "line-655",
       "start": 2204.7,
       "end": 2208.833,
-      "text": "何で 姉ちゃんたちが仮住まいするために\n俺の荷物を処分しなきゃ なんないわけ？",
+      "text": "何で 姉ちゃんたちが仮住まいするために 俺の荷物を処分しなきゃ なんないわけ？",
       "translation": ""
     },
     {
-      "id": "line-697",
+      "id": "line-656",
       "start": 2208.833,
       "end": 2210.533,
       "text": "じゃあ 全部 満の部屋に運べばいい？",
       "translation": ""
     },
     {
-      "id": "line-698",
+      "id": "line-657",
       "start": 2210.533,
       "end": 2211.7,
       "text": "だから おかしいでしょ？",
       "translation": ""
     },
     {
-      "id": "line-699",
+      "id": "line-658",
       "start": 2211.7,
       "end": 2214.9,
-      "text": "どうしてよ？ 私の部屋にあんたの荷物が\nあるほうが よっぽど おかしいよね？",
+      "text": "どうしてよ？ 私の部屋にあんたの荷物が あるほうが よっぽど おかしいよね？",
       "translation": ""
     },
     {
-      "id": "line-700",
+      "id": "line-659",
       "start": 2214.9,
       "end": 2218.5,
-      "text": "ウチを出て行った時点で\nあの部屋の所有権は 姉ちゃんにないから",
+      "text": "ウチを出て行った時点で あの部屋の所有権は 姉ちゃんにないから",
       "translation": ""
     },
     {
-      "id": "line-701",
+      "id": "line-660",
       "start": 2218.5,
       "end": 2220.233,
       "text": "だとしても 満の部屋じゃないよね？",
       "translation": ""
     },
     {
-      "id": "line-702",
+      "id": "line-661",
       "start": 2220.233,
       "end": 2222.567,
-      "text": "お母さんが貸してくれるって\n許可してくれたんだから",
+      "text": "お母さんが貸してくれるって 許可してくれたんだから",
       "translation": ""
     },
     {
-      "id": "line-703",
+      "id": "line-662",
       "start": 2222.567,
       "end": 2224.5,
       "text": "片付けてくれないと困るんだけど",
       "translation": ""
     },
     {
-      "id": "line-704",
+      "id": "line-663",
       "start": 2224.5,
-      "end": 2226.833,
-      "text": "俺が仮住まいを許可した時点で",
-      "translation": ""
-    },
-    {
-      "id": "line-705",
-      "start": 2226.834,
       "end": 2229.867,
-      "text": "相当な貸し借りが発生してること\nちゃんと理解してる？",
+      "text": "俺が仮住まいを許可した時点で相当な貸し借りが発生してること ちゃんと理解してる？",
       "translation": ""
     },
     {
-      "id": "line-706",
+      "id": "line-664",
       "start": 2229.867,
       "end": 2231.367,
       "text": "貸し借り？ 何？ それ",
       "translation": ""
     },
     {
-      "id": "line-707",
+      "id": "line-665",
       "start": 2231.367,
-      "end": 2234.8,
-      "text": "とにかく そっちの都合で 俺の部屋が\n狭くなるとか これまでの生活が",
+      "end": 2236.2835,
+      "text": "とにかく そっちの都合で 俺の部屋が 狭くなるとか これまでの生活が脅かされるとか",
       "translation": ""
     },
     {
-      "id": "line-708",
-      "start": 2234.8,
+      "id": "line-666",
+      "start": 2236.2835,
       "end": 2237.767,
-      "text": "脅かされるとか あり得ないから",
+      "text": "あり得ないから",
       "translation": ""
     },
     {
-      "id": "line-709",
+      "id": "line-667",
       "start": 2239.3,
       "end": 2241.833,
       "text": "じゃあ 聞くけど…",
       "translation": ""
     },
     {
-      "id": "line-710",
+      "id": "line-668",
       "start": 2241.833,
       "end": 2245.433,
-      "text": "何のために コーヒーの道具\n捨てないで 取っといてんの？",
+      "text": "何のために コーヒーの道具 捨てないで 取っといてんの？",
       "translation": ""
     },
     {
-      "id": "line-711",
+      "id": "line-669",
       "start": 2246.2,
       "end": 2248.333,
       "text": "また 店やろうと思ってんの？",
       "translation": ""
     },
     {
-      "id": "line-712",
+      "id": "line-670",
       "start": 2248.333,
       "end": 2251.133,
       "text": "思ってるわけないよね？",
       "translation": ""
     },
     {
-      "id": "line-713",
+      "id": "line-671",
       "start": 2251.133,
       "end": 2252.833,
       "text": "それ どういう意味？",
       "translation": ""
     },
     {
-      "id": "line-714",
+      "id": "line-672",
       "start": 2252.833,
       "end": 2256.567,
-      "text": "失敗して 散々 迷惑掛けて\n十分 懲りたでしょうから",
+      "text": "失敗して 散々 迷惑掛けて 十分 懲りたでしょうから",
       "translation": ""
     },
     {
-      "id": "line-715",
+      "id": "line-673",
       "start": 2256.567,
-      "end": 2260.233,
-      "text": "また 店をやろうなんて バカな考えは\nもうないでしょ？ってこと",
-      "translation": ""
-    },
-    {
-      "id": "line-716",
-      "start": 2260.233,
       "end": 2261.633,
-      "text": "ちょっと言い過ぎじゃないか？",
+      "text": "また 店をやろうなんて バカな考えは もうないでしょ？ってことちょっと言い過ぎじゃないか？",
       "translation": ""
     },
     {
-      "id": "line-717",
+      "id": "line-674",
       "start": 2261.633,
       "end": 2263.4,
       "text": "思ってないことないわよ",
       "translation": ""
     },
     {
-      "id": "line-718",
+      "id": "line-675",
       "start": 2263.4,
       "end": 2265.933,
-      "text": "未練があるから\n捨てずに取っといてるんじゃない",
+      "text": "未練があるから 捨てずに取っといてるんじゃない",
       "translation": ""
     },
     {
-      "id": "line-719",
+      "id": "line-676",
       "start": 2265.933,
       "end": 2267.1,
       "text": "ねぇ？",
       "translation": ""
     },
     {
-      "id": "line-720",
+      "id": "line-677",
       "start": 2267.1,
-      "end": 2268.533,
-      "text": "ないよ",
-      "translation": ""
-    },
-    {
-      "id": "line-721",
-      "start": 2269.4,
       "end": 2272.067,
-      "text": "未練もないし やるつもりも ないし",
+      "text": "ないよ未練もないし やるつもりも ないし",
       "translation": ""
     },
     {
-      "id": "line-722",
+      "id": "line-678",
       "start": 2272.067,
-      "end": 2273.5,
-      "text": "満君",
-      "translation": ""
-    },
-    {
-      "id": "line-723",
-      "start": 2273.5,
       "end": 2275.3,
-      "text": "本当のことを言ったほうが\nいいんじゃないかな",
+      "text": "満君本当のことを言ったほうが いいんじゃないかな",
       "translation": ""
     },
     {
-      "id": "line-724",
+      "id": "line-679",
       "start": 2275.3,
       "end": 2277.867,
-      "text": "いや 未練があったら\nとっくに やってますよ",
+      "text": "いや 未練があったら とっくに やってますよ",
       "translation": ""
     },
     {
-      "id": "line-725",
+      "id": "line-680",
       "start": 2277.867,
       "end": 2280.667,
-      "text": "本気で やりたかったら\n死ぬ気で金ためてますしね",
+      "text": "本気で やりたかったら 死ぬ気で金ためてますしね",
       "translation": ""
     },
     {
-      "id": "line-726",
+      "id": "line-681",
       "start": 2280.667,
       "end": 2281.9,
       "text": "だったら 捨てられるでしょ？",
       "translation": ""
     },
     {
-      "id": "line-727",
+      "id": "line-682",
       "start": 2281.9,
       "end": 2284.767,
-      "text": "残してたって\n何の役にも立たないんだから",
+      "text": "残してたって 何の役にも立たないんだから",
       "translation": ""
     },
     {
-      "id": "line-728",
+      "id": "line-683",
       "start": 2288.433,
-      "end": 2290.167,
-      "text": "姉ちゃんは",
+      "end": 2292.0834999999997,
+      "text": "姉ちゃんは負けた高校球児に ｢甲子園の土",
       "translation": ""
     },
     {
-      "id": "line-729",
-      "start": 2290.167,
+      "id": "line-684",
+      "start": 2292.0834999999997,
       "end": 2294,
-      "text": "負けた高校球児に ｢甲子園の土\n捨てろ｣ って言えるの？",
+      "text": "捨てろ｣ って言えるの？",
       "translation": ""
     },
     {
-      "id": "line-730",
+      "id": "line-685",
       "start": 2294.767,
       "end": 2298.1,
-      "text": "残してたって何の役にも立たないんだから\n甲子園の土なんて",
+      "text": "残してたって何の役にも立たないんだから 甲子園の土なんて",
       "translation": ""
     },
     {
-      "id": "line-731",
+      "id": "line-686",
       "start": 2298.1,
       "end": 2300.067,
       "text": "さっさと捨てろって言えちゃう人間なんだ",
       "translation": ""
     },
     {
-      "id": "line-732",
+      "id": "line-687",
       "start": 2300.067,
       "end": 2302.433,
       "text": "誰も甲子園の話なんてしてません",
       "translation": ""
     },
     {
-      "id": "line-733",
+      "id": "line-688",
       "start": 2302.433,
-      "end": 2305.333,
-      "text": "あの段ボールは 俺にとって\n甲子園の土も同然なの",
+      "end": 2306.983,
+      "text": "あの段ボールは 俺にとって 甲子園の土も同然なの絶対に捨てられない",
       "translation": ""
     },
     {
-      "id": "line-734",
-      "start": 2305.333,
-      "end": 2308.633,
-      "text": "絶対に捨てられない 青春の宝物なの",
+      "id": "line-689",
+      "start": 2306.983,
+      "end": 2309.55,
+      "text": "青春の宝物なのねぇ",
       "translation": ""
     },
     {
-      "id": "line-735",
-      "start": 2308.633,
+      "id": "line-690",
+      "start": 2309.55,
       "end": 2310.467,
-      "text": "ねぇ そこまでして邪魔したいの？",
+      "text": "そこまでして邪魔したいの？",
       "translation": ""
     },
     {
-      "id": "line-736",
+      "id": "line-691",
       "start": 2310.467,
       "end": 2313.7,
-      "text": "甲子園の土が\n段ボール６箱分も必要なの？",
+      "text": "甲子園の土が 段ボール６箱分も必要なの？",
       "translation": ""
     },
     {
-      "id": "line-737",
+      "id": "line-692",
       "start": 2313.7,
-      "end": 2314.7,
-      "text": "そうよ",
-      "translation": ""
-    },
-    {
-      "id": "line-738",
-      "start": 2314.7,
       "end": 2317.667,
-      "text": "コーヒー豆を小瓶に入れて\n部屋に飾っておけば済む話でしょ",
+      "text": "そうよコーヒー豆を小瓶に入れて 部屋に飾っておけば済む話でしょ",
       "translation": ""
     },
     {
-      "id": "line-739",
+      "id": "line-693",
       "start": 2317.667,
       "end": 2319.667,
       "text": "これ 今 完全に ばかにしたな",
       "translation": ""
     },
     {
-      "id": "line-740",
+      "id": "line-694",
       "start": 2319.667,
       "end": 2321.6,
-      "text": "そっちが訳分かんないこと\n言って来るからでしょ",
+      "text": "そっちが訳分かんないこと 言って来るからでしょ",
       "translation": ""
     },
     {
-      "id": "line-741",
+      "id": "line-695",
       "start": 2321.6,
       "end": 2324.933,
-      "text": "じゃあ もういいわよ\n３か月だけ私の部屋に置くから",
+      "text": "じゃあ もういいわよ ３か月だけ私の部屋に置くから",
       "translation": ""
     },
     {
-      "id": "line-742",
+      "id": "line-696",
       "start": 2324.933,
       "end": 2327.3,
-      "text": "そうやって甘やかすから\n調子に乗るんだよ",
+      "text": "そうやって甘やかすから 調子に乗るんだよ",
       "translation": ""
     },
     {
-      "id": "line-743",
+      "id": "line-697",
       "start": 2327.3,
       "end": 2330.233,
-      "text": "そんなに捨てたくないなら\n捨てなくてもいいと思う",
+      "text": "そんなに捨てたくないなら 捨てなくてもいいと思う",
       "translation": ""
     },
     {
-      "id": "line-744",
+      "id": "line-698",
       "start": 2333.8,
       "end": 2337.7,
-      "text": "お母さんは ひとの大切な物\n簡単に｢処分しろ｣って言い過ぎる",
+      "text": "お母さんは ひとの大切な物 簡単に｢処分しろ｣って言い過ぎる",
       "translation": ""
     },
     {
-      "id": "line-745",
+      "id": "line-699",
       "start": 2337.7,
       "end": 2339.4,
       "text": "ホント 腹立つ",
       "translation": ""
     },
     {
-      "id": "line-746",
+      "id": "line-700",
       "start": 2341.133,
       "end": 2342.633,
       "text": "私は 満のためを思って…",
       "translation": ""
     },
     {
-      "id": "line-747",
+      "id": "line-701",
       "start": 2342.633,
       "end": 2344.8,
       "text": "違うでしょ 全部 自分のためでしょ？",
       "translation": ""
     },
     {
-      "id": "line-748",
+      "id": "line-702",
       "start": 2344.8,
       "end": 2347.267,
-      "text": "いつもそうやって ｢あなたのためを思って｣\nみたいなことを言って",
+      "text": "いつもそうやって ｢あなたのためを思って｣ みたいなことを言って",
       "translation": ""
     },
     {
-      "id": "line-749",
+      "id": "line-703",
       "start": 2347.267,
-      "end": 2349.467,
-      "text": "自分の都合のいい方向に\n話 持ってくの",
+      "end": 2355.0335,
+      "text": "自分の都合のいい方向に 話 持ってくのそれが お母さんの いつものやり方なの春海に何か｢捨てろ｣なんて",
       "translation": ""
     },
     {
-      "id": "line-750",
-      "start": 2349.467,
-      "end": 2352.667,
-      "text": "それが お母さんの\nいつものやり方なの",
-      "translation": ""
-    },
-    {
-      "id": "line-751",
-      "start": 2353.933,
+      "id": "line-704",
+      "start": 2355.0335,
       "end": 2357.4,
-      "text": "春海に何か｢捨てろ｣なんて\n言ったことあった？",
+      "text": "言ったことあった？",
       "translation": ""
     },
     {
-      "id": "line-752",
+      "id": "line-705",
       "start": 2357.4,
       "end": 2361.8,
-      "text": "私が小学校 行ってる間に お父さんが\nくれた物 勝手に捨てたでしょ？",
+      "text": "私が小学校 行ってる間に お父さんが くれた物 勝手に捨てたでしょ？",
       "translation": ""
     },
     {
-      "id": "line-753",
+      "id": "line-706",
       "start": 2361.8,
       "end": 2363.633,
       "text": "今 ｢お父さん｣って",
       "translation": ""
     },
     {
-      "id": "line-754",
+      "id": "line-707",
       "start": 2364.767,
       "end": 2367.167,
       "text": "私のお父さんは １人しか いないから",
       "translation": ""
     },
     {
-      "id": "line-755",
+      "id": "line-708",
       "start": 2371,
       "end": 2373.567,
       "text": "-光司さん… -ビール 取って来ます",
       "translation": ""
     },
     {
-      "id": "line-756",
+      "id": "line-709",
       "start": 2383.033,
       "end": 2387.933,
-      "text": "その件に関しては\n本当に申し訳なかったと思ってる",
+      "text": "その件に関しては 本当に申し訳なかったと思ってる",
       "translation": ""
     },
     {
-      "id": "line-757",
+      "id": "line-710",
       "start": 2387.933,
       "end": 2391.567,
-      "text": "あの時は処分しないと\n前に進めなかったのよ",
+      "text": "あの時は処分しないと 前に進めなかったのよ",
       "translation": ""
     },
     {
-      "id": "line-758",
+      "id": "line-711",
       "start": 2392.667,
       "end": 2394.867,
       "text": "それは ｢お母さんが｣でしょ？",
       "translation": ""
     },
     {
-      "id": "line-759",
+      "id": "line-712",
       "start": 2397.133,
-      "end": 2399.9,
-      "text": "姉ちゃんが前に進むという 名目で",
-      "translation": ""
-    },
-    {
-      "id": "line-760",
-      "start": 2399.9,
       "end": 2404.033,
-      "text": "俺たちの大切な物は\nいつも犠牲になって来たんだよ",
+      "text": "姉ちゃんが前に進むという 名目で俺たちの大切な物は いつも犠牲になって来たんだよ",
       "translation": ""
     },
     {
-      "id": "line-761",
+      "id": "line-713",
       "start": 2404.033,
       "end": 2407.667,
-      "text": "光司さんにだって 大事な楽器\n全部 処分させたらしいじゃん",
+      "text": "光司さんにだって 大事な楽器 全部 処分させたらしいじゃん",
       "translation": ""
     },
     {
-      "id": "line-762",
+      "id": "line-714",
       "start": 2407.667,
       "end": 2409.5,
       "text": "何様のつもりなの？",
       "translation": ""
     },
     {
-      "id": "line-763",
+      "id": "line-715",
       "start": 2409.5,
       "end": 2411.733,
       "text": "満兄ちゃんも悪いよ",
       "translation": ""
     },
     {
-      "id": "line-764",
+      "id": "line-716",
       "start": 2413.4,
       "end": 2415.067,
       "text": "俺は長年の被害者だよ",
       "translation": ""
     },
     {
-      "id": "line-765",
+      "id": "line-717",
       "start": 2415.067,
       "end": 2417.7,
       "text": "これから どうするつもりなの？",
       "translation": ""
     },
     {
-      "id": "line-766",
+      "id": "line-718",
       "start": 2420.967,
       "end": 2422.467,
       "text": "これから…",
       "translation": ""
     },
     {
-      "id": "line-767",
+      "id": "line-719",
       "start": 2423.2,
       "end": 2426.333,
-      "text": "ハマチ食って\nイクラ食って 最後 ウニだよ",
+      "text": "ハマチ食って イクラ食って 最後 ウニだよ",
       "translation": ""
     },
     {
-      "id": "line-768",
+      "id": "line-720",
       "start": 2426.333,
       "end": 2427.767,
       "text": "ごまかさないでよ",
       "translation": ""
     },
     {
-      "id": "line-769",
+      "id": "line-721",
       "start": 2427.767,
       "end": 2430.8,
-      "text": "コーヒー屋さん ダメになってから\n何にもやってないんでしょ？",
+      "text": "コーヒー屋さん ダメになってから 何にもやってないんでしょ？",
       "translation": ""
     },
     {
-      "id": "line-770",
+      "id": "line-722",
       "start": 2430.8,
       "end": 2432.133,
       "text": "みんな 心配してるんだよ",
       "translation": ""
     },
     {
-      "id": "line-771",
+      "id": "line-723",
       "start": 2432.133,
       "end": 2434.033,
       "text": "不登校の分際で どうした？",
       "translation": ""
     },
     {
-      "id": "line-772",
+      "id": "line-724",
       "start": 2434.033,
       "end": 2436.4,
       "text": "おじさんに 説教でも始めるつもりか？",
       "translation": ""
     },
     {
-      "id": "line-773",
+      "id": "line-725",
       "start": 2438.333,
       "end": 2442.633,
-      "text": "みんな 俺なんかのことより\n何倍も お前のこと心配してんだよ",
+      "text": "みんな 俺なんかのことより 何倍も お前のこと心配してんだよ",
       "translation": ""
     },
     {
-      "id": "line-774",
+      "id": "line-726",
       "start": 2444.833,
       "end": 2446.933,
       "text": "明日から学校 行くし",
       "translation": ""
     },
     {
-      "id": "line-775",
+      "id": "line-727",
       "start": 2450.5,
       "end": 2452.833,
       "text": "私は 学校に行くから",
       "translation": ""
     },
     {
-      "id": "line-776",
+      "id": "line-728",
       "start": 2453.6,
       "end": 2455.3,
       "text": "ホントに？",
       "translation": ""
     },
     {
-      "id": "line-777",
+      "id": "line-729",
       "start": 2457.5,
       "end": 2460.367,
       "text": "みんなの前で約束できるか？",
       "translation": ""
     },
     {
-      "id": "line-778",
+      "id": "line-730",
       "start": 2460.367,
-      "end": 2462.033,
-      "text": "約束する",
-      "translation": ""
-    },
-    {
-      "id": "line-779",
-      "start": 2463.7,
       "end": 2465.8,
-      "text": "よかったじゃない",
+      "text": "約束するよかったじゃない",
       "translation": ""
     },
     {
-      "id": "line-780",
+      "id": "line-731",
       "start": 2469.333,
       "end": 2472.4,
       "text": "聞いたか？ 姉ちゃん",
       "translation": ""
     },
     {
-      "id": "line-781",
+      "id": "line-732",
       "start": 2472.4,
       "end": 2476.2,
-      "text": "春海が明日から学校に行くって\n約束してくれたよ",
+      "text": "春海が明日から学校に行くって 約束してくれたよ",
       "translation": ""
     },
     {
-      "id": "line-782",
+      "id": "line-733",
       "start": 2477.567,
       "end": 2479.033,
       "text": "だから 何よ？",
       "translation": ""
     },
     {
-      "id": "line-783",
+      "id": "line-734",
       "start": 2479.033,
       "end": 2482.433,
-      "text": "今 みんなの前で 学校に行くと\n約束してくれた春海が",
+      "text": "今 みんなの前で 学校に行くと 約束してくれた春海が",
       "translation": ""
     },
     {
-      "id": "line-784",
+      "id": "line-735",
       "start": 2482.433,
       "end": 2486.2,
-      "text": "あの段ボールは ｢捨てたくないなら\n捨てなくてもいい｣と 言ってくれている",
+      "text": "あの段ボールは ｢捨てたくないなら 捨てなくてもいい｣と 言ってくれている",
       "translation": ""
     },
     {
-      "id": "line-785",
+      "id": "line-736",
       "start": 2486.2,
       "end": 2490.082,
-      "text": "それでも姉ちゃんの希望通り\nあの段ボールは 捨てたほうがいいの？",
+      "text": "それでも姉ちゃんの希望通り あの段ボールは 捨てたほうがいいの？",
       "translation": ""
     },
     {
-      "id": "line-786",
+      "id": "line-737",
       "start": 2490.083,
       "end": 2492.167,
       "text": "捨てなくてもいいの？ どっち？",
       "translation": ""
     },
     {
-      "id": "line-787",
+      "id": "line-738",
       "start": 2493.667,
       "end": 2496.733,
-      "text": "あの部屋は 光司の部屋になるんだから\n２人で相談したら？",
+      "text": "あの部屋は 光司の部屋になるんだから ２人で相談したら？",
       "translation": ""
     },
     {
-      "id": "line-788",
+      "id": "line-739",
       "start": 2497.3,
       "end": 2499.6,
-      "text": "-それは初耳だな\n-じゃあ 大丈夫だよ",
+      "text": "-それは初耳だな -じゃあ 大丈夫だよ",
       "translation": ""
     },
     {
-      "id": "line-789",
+      "id": "line-740",
       "start": 2499.6,
       "end": 2501.6,
-      "text": "光司さん どんな所でも寝られる\nって言ってんだから",
+      "text": "光司さん どんな所でも寝られる って言ってんだから",
       "translation": ""
     },
     {
-      "id": "line-790",
+      "id": "line-741",
       "start": 2501.6,
       "end": 2503.667,
       "text": "そんなに たくさんあるの？",
       "translation": ""
     },
     {
-      "id": "line-791",
+      "id": "line-742",
       "start": 2503.667,
       "end": 2506,
-      "text": "ちょっ…\nちょっと見て来てもいいかな？",
+      "text": "ちょっ… ちょっと見て来てもいいかな？",
       "translation": ""
     },
     {
-      "id": "line-792",
+      "id": "line-743",
       "start": 2509.1,
       "end": 2510.9,
       "text": "話が違うじゃん",
       "translation": ""
     },
     {
-      "id": "line-793",
+      "id": "line-744",
       "start": 2513.067,
       "end": 2515.633,
       "text": "ハマチ食べてから イクラじゃないの？",
       "translation": ""
     },
     {
-      "id": "line-794",
+      "id": "line-745",
       "start": 2518.4,
       "end": 2521.9,
-      "text": "春海も ひとの細かいとこ\nよく見てるな～",
+      "text": "春海も ひとの細かいとこ よく見てるな～",
       "translation": ""
     },
     {
-      "id": "line-795",
+      "id": "line-746",
       "start": 2521.9,
       "end": 2525.867,
-      "text": "大体 片付けも手伝ってないヤツが\n何で高いネタばっか食ってんのよ",
+      "text": "大体 片付けも手伝ってないヤツが 何で高いネタばっか食ってんのよ",
       "translation": ""
     },
     {
-      "id": "line-796",
+      "id": "line-747",
       "start": 2525.867,
       "end": 2527.833,
-      "text": "いや 残ってるから\nもったいないな～って思って",
+      "text": "いや 残ってるから もったいないな～って思って",
       "translation": ""
     },
     {
-      "id": "line-797",
+      "id": "line-748",
       "start": 2527.833,
-      "end": 2530.4,
-      "text": "最後の楽しみに みんな取っといてんのに",
+      "end": 2532.58325,
+      "text": "最後の楽しみに みんな取っといてんのに光司さんなんて",
       "translation": ""
     },
     {
-      "id": "line-798",
-      "start": 2535.433,
+      "id": "line-749",
+      "start": 2532.58325,
       "end": 2539.133,
-      "text": "光司さんなんて さっきからカッパ巻きと\nかんぴょう巻きしか 食べてないのよ",
+      "text": "さっきからカッパ巻きと かんぴょう巻きしか 食べてないのよ",
       "translation": ""
     },
     {
-      "id": "line-799",
+      "id": "line-750",
       "start": 2539.133,
       "end": 2541.633,
-      "text": "あんまり生魚\n得意じゃないから いいのよ",
+      "text": "あんまり生魚 得意じゃないから いいのよ",
       "translation": ""
     },
     {
-      "id": "line-800",
+      "id": "line-751",
       "start": 2541.633,
       "end": 2544.133,
-      "text": "えっ それ分かってて\n寿司 頼むのひどくない？",
+      "text": "えっ それ分かってて 寿司 頼むのひどくない？",
       "translation": ""
     },
     {
-      "id": "line-801",
+      "id": "line-752",
       "start": 2544.133,
       "end": 2547.333,
-      "text": "だから 大好きなアナゴとホタテは\n取っといてあげてるんでしょ？",
+      "text": "だから 大好きなアナゴとホタテは 取っといてあげてるんでしょ？",
       "translation": ""
     },
     {
-      "id": "line-802",
+      "id": "line-753",
       "start": 2547.333,
       "end": 2549.4,
       "text": "それを｢優しさ｣と呼ぶつもり？",
       "translation": ""
     },
     {
-      "id": "line-803",
+      "id": "line-754",
       "start": 2549.4,
       "end": 2551.1,
       "text": "｢優しさ｣以外に呼び方ある？",
       "translation": ""
     },
     {
-      "id": "line-804",
+      "id": "line-755",
       "start": 2551.1,
       "end": 2553,
       "text": "シャコって 食べたことないんだけど",
       "translation": ""
     },
     {
-      "id": "line-805",
+      "id": "line-756",
       "start": 2553,
       "end": 2556.067,
-      "text": "食べてみなさいよ 見た目\nあれだけど おいしいわよ",
+      "text": "食べてみなさいよ 見た目 あれだけど おいしいわよ",
       "translation": ""
     },
     {
-      "id": "line-806",
+      "id": "line-757",
       "start": 2556.067,
       "end": 2558.5,
-      "text": "光司 シャコも食べれるから\n１個 残しといてあげて",
+      "text": "光司 シャコも食べれるから １個 残しといてあげて",
       "translation": ""
     },
     {
-      "id": "line-807",
+      "id": "line-758",
       "start": 2559.233,
       "end": 2560.8,
       "text": "光司さん 戻って来ないわね",
       "translation": ""
     },
     {
-      "id": "line-808",
+      "id": "line-759",
       "start": 2560.8,
       "end": 2563,
       "text": "-寝てんじゃないの？ -まさか",
       "translation": ""
     },
     {
-      "id": "line-809",
+      "id": "line-760",
       "start": 2563,
       "end": 2564.567,
       "text": "いや あり得るよ",
       "translation": ""
     },
     {
-      "id": "line-810",
+      "id": "line-761",
       "start": 2564.567,
       "end": 2566.8,
       "text": "ホントに どこでも寝られる人だから",
       "translation": ""
     },
     {
-      "id": "line-811",
+      "id": "line-762",
       "start": 2581.967,
       "end": 2583.2,
       "text": "シャコみたい",
       "translation": ""
     },
     {
-      "id": "line-812",
+      "id": "line-763",
       "start": 2583.2,
       "end": 2585.567,
       "text": "やめてよ これから食べるんだから",
       "translation": ""
     },
     {
-      "id": "line-813",
+      "id": "line-764",
       "start": 2607.033,
       "end": 2613.767,
       "text": "｢いくたびも 雪の深さを 尋ねけり｣",
       "translation": ""
     },
     {
-      "id": "line-814",
+      "id": "line-765",
       "start": 2613.767,
       "end": 2617,
       "text": "正岡子規",
       "translation": ""
     },
     {
-      "id": "line-815",
+      "id": "line-766",
       "start": 2617.7,
       "end": 2621.333,
-      "text": "はい この｢俳句の世界｣\nテスト 出すぞ～",
+      "text": "はい この｢俳句の世界｣ テスト 出すぞ～",
       "translation": ""
     },
     {
-      "id": "line-816",
+      "id": "line-767",
       "start": 2621.333,
       "end": 2623.567,
       "text": "ちゃんと書いたか～？",
       "translation": ""
     },
     {
-      "id": "line-817",
+      "id": "line-768",
       "start": 2635.8,
       "end": 2639.367,
       "text": "高平 何 笑ってんだ？",
       "translation": ""
     },
     {
-      "id": "line-818",
+      "id": "line-769",
       "start": 2639.367,
-      "end": 2642.3,
-      "text": "いや 作者の顔が 先生\nそっくりだったんで",
-      "translation": ""
-    },
-    {
-      "id": "line-819",
-      "start": 2642.9,
       "end": 2644.4,
-      "text": "すっげぇ似てる",
+      "text": "いや 作者の顔が 先生 そっくりだったんですっげぇ似てる",
       "translation": ""
     },
     {
-      "id": "line-820",
+      "id": "line-770",
       "start": 2644.4,
       "end": 2647.333,
       "text": "-正岡子規 -すっげぇ似てる",
       "translation": ""
     },
     {
-      "id": "line-821",
+      "id": "line-771",
       "start": 2663.8,
-      "end": 2665.933,
-      "text": "満",
-      "translation": ""
-    },
-    {
-      "id": "line-822",
-      "start": 2665.933,
       "end": 2669.8,
-      "text": "綾子から連絡あって\n引っ越し屋さん もうすぐ来るって",
+      "text": "満綾子から連絡あって 引っ越し屋さん もうすぐ来るって",
       "translation": ""
     },
     {
-      "id": "line-823",
+      "id": "line-772",
       "start": 2669.8,
-      "end": 2671.4,
-      "text": "分かった",
-      "translation": ""
-    },
-    {
-      "id": "line-824",
-      "start": 2674.067,
       "end": 2678.433,
-      "text": "コーヒーの段ボール\n片付けてくれて ありがとね",
+      "text": "分かったコーヒーの段ボール 片付けてくれて ありがとね",
       "translation": ""
     },
     {
-      "id": "line-825",
+      "id": "line-773",
       "start": 2679.833,
-      "end": 2681.267,
-      "text": "別に",
+      "end": 2683.567,
+      "text": "別にそして",
       "translation": ""
     },
     {
-      "id": "line-826",
-      "start": 2685.2,
-      "end": 2688.167,
-      "text": "そして 本日最後の エンタメ情報は",
-      "translation": ""
-    },
-    {
-      "id": "line-827",
-      "start": 2688.167,
+      "id": "line-774",
+      "start": 2683.567,
       "end": 2691.667,
-      "text": "｢あみ～ゴ｣こと\n歌手の鈴木亜美さんの情報です",
+      "text": "本日最後の エンタメ情報は｢あみ～ゴ｣こと 歌手の鈴木亜美さんの情報です",
       "translation": ""
     },
     {
-      "id": "line-828",
+      "id": "line-775",
       "start": 2691.667,
-      "end": 2695.767,
-      "text": "２０１６年に一般男性と\n結婚した鈴木亜美さんですが",
-      "translation": ""
-    },
-    {
-      "id": "line-829",
-      "start": 2695.767,
       "end": 2699.6,
-      "text": "来年３月に第２子を出産予定だそうです",
+      "text": "２０１６年に一般男性と 結婚した鈴木亜美さんですが来年３月に第２子を出産予定だそうです",
       "translation": ""
     },
     {
-      "id": "line-830",
+      "id": "line-776",
       "start": 2699.6,
       "end": 2701.9,
       "text": "ご懐妊 おめでとうございます",
       "translation": ""
     },
     {
-      "id": "line-831",
+      "id": "line-777",
       "start": 2706.867,
       "end": 2708.567,
       "text": "トゥデイズ ニュース ヘッドライン",
       "translation": ""
     },
     {
-      "id": "line-832",
+      "id": "line-778",
       "start": 2708.567,
       "end": 2711.2,
       "text": "この後は最新のニュースをお伝えします",
       "translation": ""
     },
     {
-      "id": "line-833",
+      "id": "line-779",
       "start": 2711.2,
       "end": 2714.567,
-      "text": "『ＦＭ Ｊ-ＥＡＳＴ』が\n３時をお知らせします",
+      "text": "『ＦＭ Ｊ-ＥＡＳＴ』が ３時をお知らせします",
       "translation": ""
     },
     {
-      "id": "line-834",
+      "id": "line-780",
       "start": 2722.067,
       "end": 2725.067,
       "text": "© NIPPON TV",

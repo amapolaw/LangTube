@@ -56,9 +56,21 @@ export function getAllCards(): NotebookCard[] {
   return readJson<NotebookCard[]>(getNotebookPath(), []);
 }
 
-export function getDueNotebookCards(limit?: number): NotebookCard[] {
-  const cards = getDueCards(getAllCards());
+export function getDueNotebookCards(
+  limit?: number,
+  language?: string
+): NotebookCard[] {
+  let cards = getDueCards(getAllCards());
+  if (language && language !== "all") {
+    cards = cards.filter((c) => c.language === language);
+  }
   return limit ? cards.slice(0, limit) : cards;
+}
+
+export function getCardsByLanguage(language?: string): NotebookCard[] {
+  const cards = getAllCards();
+  if (!language || language === "all") return cards;
+  return cards.filter((c) => c.language === language);
 }
 
 export function addNotebookCard(

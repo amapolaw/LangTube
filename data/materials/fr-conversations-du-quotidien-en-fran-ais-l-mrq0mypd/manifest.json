@@ -9,8 +9,9 @@
   ],
   "sourceUrl": "https://www.bilibili.com/video/BV1DKKw6BE35/#reply116940030940163",
   "storage": {
-    "mode": "remote",
+    "mode": "local",
     "provider": "local",
+    "path": "D:\\LangTube\\data\\materials\\fr-conversations-du-quotidien-en-fran-ais-l-mrq0mypd\\media\\BV1DKKw6BE35_p1.mp4",
     "url": "https://www.bilibili.com/video/BV1DKKw6BE35/#reply116940030940163"
   },
   "segments": {
@@ -35,5 +36,5 @@
   "patterns": [],
   "parseStatus": "pending",
   "createdAt": "2026-07-18T06:58:45.169Z",
-  "updatedAt": "2026-07-18T12:00:00.000Z"
+  "updatedAt": "2026-07-23T02:29:02.853Z"
 }

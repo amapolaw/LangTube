@@ -56,6 +56,12 @@ import {
   filterTranscriptForLearning,
   sliceTranscriptByRange,
 } from "@/lib/transcript-noise-filter";
+import {
+  looksLikeFragmentedTranscript,
+  mergeTranscriptIntoSentences,
+  coalesceIncompleteSemanticGroups,
+  shouldMergeTranscriptSentences,
+} from "@/lib/transcript-sentence-merge";
 import { isBasicSkipWord } from "@/lib/vocab-extract";
 
 export type ParseMaterialOptions = {
@@ -434,6 +440,32 @@ export async function parseMaterial(
         ]
           .filter(Boolean)
           .join("；");
+      }
+
+      const lang = pack.manifest.sourceLang;
+      if (shouldMergeTranscriptSentences(lang)) {
+        const before = pack.transcript.lines.length;
+        if (looksLikeFragmentedTranscript(pack.transcript.lines, lang)) {
+          pack.transcript.lines = mergeTranscriptIntoSentences(
+            pack.transcript.lines,
+            lang
+          );
+        }
+        pack.transcript.lines = coalesceIncompleteSemanticGroups(
+          pack.transcript.lines,
+          lang
+        );
+        if (pack.transcript.lines.length !== before) {
+          acquireMessage = [
+            acquireMessage,
+            `字幕已合并为完整句/语义群（${before}→${pack.transcript.lines.length} 行）`,
+          ]
+            .filter(Boolean)
+            .join("；");
+        }
+      }
+
+      if (filtered.skipped > 0 || acquireMessage.includes("字幕已合并")) {
         await saveContentPack(pack);
       }
     }

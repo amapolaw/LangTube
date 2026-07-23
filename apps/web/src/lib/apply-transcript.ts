@@ -1,5 +1,6 @@
 import type { ContentPack, TranscriptLine } from "@langtube/core";
 import {
+  coalesceIncompleteSemanticGroups,
   looksLikeFragmentedTranscript,
   mergeTranscriptIntoSentences,
   shouldMergeTranscriptSentences,
@@ -15,11 +16,11 @@ export async function applyTranscriptLines(
 ): Promise<ContentPack> {
   const lang = pack.manifest.sourceLang;
   let normalized = lines;
-  if (
-    shouldMergeTranscriptSentences(lang) &&
-    looksLikeFragmentedTranscript(lines, lang)
-  ) {
-    normalized = mergeTranscriptIntoSentences(lines, lang);
+  if (shouldMergeTranscriptSentences(lang)) {
+    if (looksLikeFragmentedTranscript(lines, lang)) {
+      normalized = mergeTranscriptIntoSentences(lines, lang);
+    }
+    normalized = coalesceIncompleteSemanticGroups(normalized, lang);
   }
 
   const duration =

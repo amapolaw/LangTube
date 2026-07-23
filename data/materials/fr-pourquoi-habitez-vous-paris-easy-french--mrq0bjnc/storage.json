@@ -1,5 +1,6 @@
 {
-  "mode": "remote",
+  "mode": "local",
   "provider": "local",
+  "path": "D:\\LangTube\\data\\materials\\fr-pourquoi-habitez-vous-paris-easy-french--mrq0bjnc\\media\\BV1L58gzUEfG_p1.mp4",
   "url": "https://www.bilibili.com/video/BV1L58gzUEfG/?spm_id_from=333.337.search-card.all.click&vd_source=575dde8aaa5216721d951e465f92f0d8"
 }

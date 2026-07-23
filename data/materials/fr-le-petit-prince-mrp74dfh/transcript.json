@@ -11,15 +11,15 @@
     {
       "id": "line-2",
       "start": 61.38,
-      "end": 64.64,
-      "text": "On disait dans le livre: \" Les serpents boas avalent leur",
+      "end": 64.94857142857143,
+      "text": "On disait dans le livre: \" Les serpents boas avalent leur proie",
       "translation": ""
     },
     {
       "id": "line-3",
-      "start": 64.76,
+      "start": 64.94857142857143,
       "end": 66.8,
-      "text": "proie tout entière, sans la mâcher. \"",
+      "text": "tout entière, sans la mâcher. \"",
       "translation": ""
     },
     {
@@ -214,6914 +214,6865 @@
     {
       "id": "line-31",
       "start": 185.92,
-      "end": 187.8,
-      "text": "Maintenant, souviens-toi d'une chose:",
+      "end": 189.97,
+      "text": "Maintenant, souviens-toi d'une chose: Si l'on en croit tous les sondages",
       "translation": ""
     },
     {
       "id": "line-32",
-      "start": 188.09,
-      "end": 189.97,
-      "text": "Si l'on en croit tous les sondages",
+      "start": 190.09,
+      "end": 192.5975,
+      "text": "si le jury penche en faveur de l'admission, il te posera",
       "translation": ""
     },
     {
       "id": "line-33",
-      "start": 190.09,
-      "end": 191.72,
-      "text": "si le jury penche en faveur de l'admission,",
+      "start": 192.5975,
+      "end": 194.06,
+      "text": "une seule et unique question.",
       "translation": ""
     },
     {
       "id": "line-34",
-      "start": 191.89,
-      "end": 194.06,
-      "text": "il te posera une seule et unique question.",
-      "translation": ""
-    },
-    {
-      "id": "line-35",
       "start": 194.18,
       "end": 195.6,
       "text": "La fameuse grande question.",
       "translation": ""
     },
     {
-      "id": "line-36",
+      "id": "line-35",
       "start": 196.14,
       "end": 198.56,
       "text": "\" Avez-vous le profil pour intégrer l'Académie Werth ? \"",
       "translation": ""
     },
     {
-      "id": "line-37",
+      "id": "line-36",
       "start": 199.77,
       "end": 202.02,
       "text": "Une, deux et trois.",
       "translation": ""
     },
     {
-      "id": "line-38",
+      "id": "line-37",
       "start": 202.11,
       "end": 204.61,
       "text": "Trois raisons font que j'ai le profil pour intégrer l'Académie.",
       "translation": ""
     },
     {
-      "id": "line-39",
+      "id": "line-38",
       "start": 211.82,
       "end": 213.37,
       "text": "Zéro, un, Sept.",
       "translation": ""
     },
     {
-      "id": "line-40",
+      "id": "line-39",
       "start": 215.83,
       "end": 216.58,
       "text": "Vas-y !",
       "translation": ""
     },
     {
-      "id": "line-41",
+      "id": "line-40",
       "start": 237.14,
       "end": 240.73,
       "text": "Nous avons donc étudié votre candidature. Bon.",
       "translation": ""
     },
     {
-      "id": "line-42",
+      "id": "line-41",
       "start": 240.98,
       "end": 241.98,
       "text": "Merci beaucoup.",
       "translation": ""
     },
     {
-      "id": "line-43",
+      "id": "line-42",
       "start": 244.07,
       "end": 245.82,
       "text": "Nous avons examiné vos relevés de notes.",
       "translation": ""
     },
     {
-      "id": "line-44",
+      "id": "line-43",
       "start": 245.94,
       "end": 247.9,
       "text": "Merci... beaucoup...",
       "translation": ""
     },
     {
-      "id": "line-45",
+      "id": "line-44",
       "start": 252.7,
       "end": 255.75,
       "text": "Lu votre rédaction: \" La puissance de transformation du zéro. \"",
       "translation": ""
     },
     {
-      "id": "line-46",
+      "id": "line-45",
       "start": 255.84,
       "end": 258.35,
       "text": "Votre analyse de fond et votre conclusion",
       "translation": ""
     },
     {
-      "id": "line-47",
+      "id": "line-46",
       "start": 258.44,
       "end": 260,
       "text": "\" Le zéro reste mon héro \"",
       "translation": ""
     },
     {
-      "id": "line-48",
+      "id": "line-47",
       "start": 263.29,
       "end": 266.34,
       "text": "Oui, c'est du bon travail, et tout nous semble en ordre.",
       "translation": ""
     },
     {
-      "id": "line-49",
+      "id": "line-48",
       "start": 268.97,
       "end": 271.72,
       "text": "À présent, nous allons vous poser une seule et unique question.",
       "translation": ""
     },
     {
-      "id": "line-50",
+      "id": "line-49",
       "start": 271.8,
       "end": 272.93,
       "text": "La grande question !",
       "translation": ""
     },
     {
-      "id": "line-51",
+      "id": "line-50",
       "start": 273.34,
       "end": 275.3,
       "text": "Avez-vous le profil pour intégrer l'Académie Werth ?",
       "translation": ""
     },
     {
-      "id": "line-52",
+      "id": "line-51",
       "start": 276.72,
       "end": 280.02,
       "text": "Que serez-vous... quand vous serez adulte ?",
       "translation": ""
     },
     {
-      "id": "line-53",
+      "id": "line-52",
       "start": 282.44,
       "end": 284.94,
       "text": "Une, deux, trois.",
       "translation": ""
     },
     {
-      "id": "line-54",
+      "id": "line-53",
       "start": 285.06,
       "end": 287.61,
       "text": "Trois raisons font que j'ai le profil pour intégrer l'Académie Werth.",
       "translation": ""
     },
     {
-      "id": "line-55",
+      "id": "line-54",
       "start": 288.4,
       "end": 290.78,
       "text": "D'une: comme votre école, je suis intelligente.",
       "translation": ""
     },
     {
-      "id": "line-56",
+      "id": "line-55",
       "start": 290.95,
       "end": 293.24,
       "text": "De deux: comme votre école, je suis sérieuse.",
       "translation": ""
     },
     {
-      "id": "line-57",
+      "id": "line-56",
       "start": 293.32,
       "end": 294.74,
       "text": "- Stop ! - De trois:",
       "translation": ""
     },
     {
-      "id": "line-58",
+      "id": "line-57",
       "start": 294.99,
       "end": 298.37,
       "text": "comme... votre... mon...",
       "translation": ""
     },
     {
-      "id": "line-59",
+      "id": "line-58",
       "start": 298.49,
       "end": 299.91,
       "text": "- Tais-toi ! - Inébranlable...",
       "translation": ""
     },
     {
-      "id": "line-60",
+      "id": "line-59",
       "start": 300,
       "end": 301.41,
       "text": "Arrête ! Arrête !",
       "translation": ""
     },
     {
-      "id": "line-61",
+      "id": "line-60",
       "start": 301.66,
       "end": 306.34,
       "text": "Volonté... pour... apprendre...",
       "translation": ""
     },
     {
-      "id": "line-62",
+      "id": "line-61",
       "start": 310.17,
       "end": 311.47,
       "text": "Merci beaucoup.",
       "translation": ""
     },
     {
-      "id": "line-63",
+      "id": "line-62",
       "start": 313.01,
       "end": 314.22,
       "text": "Ma chérie !",
       "translation": ""
     },
     {
-      "id": "line-64",
+      "id": "line-63",
       "start": 327.15,
       "end": 329.78,
       "text": "Apparemment ils ont changé la grande question.",
       "translation": ""
     },
     {
-      "id": "line-65",
+      "id": "line-64",
       "start": 332.53,
       "end": 333.95,
       "text": "J'suis désolée, Maman.",
       "translation": ""
     },
     {
-      "id": "line-66",
+      "id": "line-65",
       "start": 334.66,
       "end": 338.08,
       "text": "Ne le sois pas. Maintenant, on va attaquer le plan B.",
       "translation": ""
     },
     {
-      "id": "line-67",
+      "id": "line-66",
       "start": 338.16,
       "end": 341.23,
       "text": "Le plan B ? Mais T'avais dit que le plan B, c'était impossible.",
       "translation": ""
     },
     {
-      "id": "line-68",
+      "id": "line-67",
       "start": 341.31,
       "end": 343.12,
       "text": "c'est pour ça qu'on a pris le plan A.",
       "translation": ""
     },
     {
-      "id": "line-69",
+      "id": "line-68",
       "start": 343.25,
       "end": 345.21,
       "text": "Le plan B devient notre nouveau plan A.",
       "translation": ""
     },
     {
-      "id": "line-70",
+      "id": "line-69",
       "start": 345.33,
       "end": 348.13,
       "text": "Pas question de reculer.",
       "translation": ""
     },
     {
-      "id": "line-71",
+      "id": "line-70",
       "start": 350,
       "end": 351.71,
       "text": "Périmètre identifié. C'est fait !",
       "translation": ""
     },
     {
-      "id": "line-72",
+      "id": "line-71",
       "start": 352.05,
       "end": 354.05,
       "text": "Si par miracle, on trouve une maison abordable dans ce quartier...",
       "translation": ""
     },
     {
-      "id": "line-73",
+      "id": "line-72",
       "start": 354.22,
       "end": 356.51,
       "text": "Ben, ils seront obligés de t'accepter.",
       "translation": ""
     },
     {
-      "id": "line-74",
+      "id": "line-73",
       "start": 360.47,
       "end": 361.89,
       "text": "Ça c'est fait ! Ça c'est fait !",
       "translation": ""
     },
     {
-      "id": "line-75",
+      "id": "line-74",
       "start": 364.44,
       "end": 366.19,
       "text": "Déménagement. C'est fait !",
       "translation": ""
     },
     {
-      "id": "line-76",
+      "id": "line-75",
       "start": 366.9,
       "end": 369.57,
       "text": "parmis les sujets importants j'ai à tout dire aux sérieuses et sensées...",
       "translation": ""
     },
     {
-      "id": "line-77",
+      "id": "line-76",
       "start": 369.82,
       "end": 371.07,
       "text": "il y a le bridge, le golf...",
       "translation": ""
     },
     {
-      "id": "line-78",
+      "id": "line-77",
       "start": 371.28,
       "end": 372.36,
       "text": "C'est fait !",
       "translation": ""
     },
     {
-      "id": "line-79",
+      "id": "line-78",
       "start": 372.49,
       "end": 375.4,
       "text": "Et qu'ils le veuillent ou non, tu vas entrer à l'Académie Werth.",
       "translation": ""
     },
     {
-      "id": "line-80",
+      "id": "line-79",
       "start": 375.86,
       "end": 379.24,
       "text": "Que les volcans soient éteints ou pas, pour nous c'est pareil.",
       "translation": ""
     },
     {
-      "id": "line-81",
+      "id": "line-80",
       "start": 389.17,
       "end": 391.5,
       "text": "Notre nouveau chez nous. Ça, c'est fait !",
       "translation": ""
     },
     {
-      "id": "line-82",
+      "id": "line-81",
       "start": 410.44,
       "end": 413.19,
       "text": "C'est... trop tard pour un plan C ?",
       "translation": ""
     },
     {
-      "id": "line-83",
+      "id": "line-82",
       "start": 413.73,
       "end": 417.38,
       "text": "Ma chérie, n'oublie jamais que cette maison-là a rendu",
       "translation": ""
     },
     {
-      "id": "line-84",
+      "id": "line-83",
       "start": 417.45,
       "end": 419.45,
       "text": "cette maison-ci abordable.",
       "translation": ""
     },
     {
-      "id": "line-85",
+      "id": "line-84",
       "start": 419.53,
       "end": 421.62,
       "text": "Afin que ton avenir devienne possible.",
       "translation": ""
     },
     {
-      "id": "line-86",
+      "id": "line-85",
       "start": 440.47,
       "end": 441.43,
       "text": "Maman ?",
       "translation": ""
     },
     {
-      "id": "line-87",
+      "id": "line-86",
       "start": 448.56,
       "end": 451.19,
       "text": "Tu crois vraiment que j'ai le profil requis pour l'Académie Werth ?",
       "translation": ""
     },
     {
-      "id": "line-88",
+      "id": "line-87",
       "start": 451.4,
-      "end": 453.17,
-      "text": "Bien, tu l'auras quand même avant la fin de l'été",
+      "end": 453.42400000000004,
+      "text": "Bien, tu l'auras quand même avant la fin de l'été car",
+      "translation": ""
+    },
+    {
+      "id": "line-88",
+      "start": 453.42400000000004,
+      "end": 454.44,
+      "text": "j'ai conçu un projet.",
       "translation": ""
     },
     {
       "id": "line-89",
-      "start": 453.17,
-      "end": 454.44,
-      "text": "car j'ai conçu un projet.",
-      "translation": ""
-    },
-    {
-      "id": "line-90",
       "start": 455.23,
       "end": 456.99,
       "text": "Oh ! Juste la l'heure.",
       "translation": ""
     },
     {
-      "id": "line-91",
+      "id": "line-90",
       "start": 459.28,
       "end": 461.91,
       "text": "Je l'ai appelé ton projet de vie !",
       "translation": ""
     },
     {
-      "id": "line-92",
+      "id": "line-91",
       "start": 462.12,
       "end": 463.2,
       "text": "Mon projet de vie ?",
       "translation": ""
     },
     {
-      "id": "line-93",
+      "id": "line-92",
       "start": 466.83,
       "end": 470.54,
       "text": "Ton projet de vie. Et crois-moi, rien ne sera laissé au hasard.",
       "translation": ""
     },
     {
-      "id": "line-94",
+      "id": "line-93",
       "start": 471.21,
       "end": 474.59,
       "text": "Parce que tout est là. Orienté de haut en bas. De gauche à droite.",
       "translation": ""
     },
     {
-      "id": "line-95",
+      "id": "line-94",
       "start": 474.75,
       "end": 475.76,
       "text": "Voyons ça de plus près.",
       "translation": ""
     },
     {
-      "id": "line-96",
+      "id": "line-95",
       "start": 475.84,
       "end": 479.09,
       "text": "La minute de l'heure, l'heure du jour, le jour de la semaine,",
       "translation": ""
     },
     {
-      "id": "line-97",
+      "id": "line-96",
       "start": 479.22,
       "end": 480.13,
       "text": "la semaine du mois...",
       "translation": ""
     },
     {
-      "id": "line-98",
+      "id": "line-97",
       "start": 480.22,
       "end": 482.05,
       "text": "le mois de l'année, l'année de ta vie.",
       "translation": ""
     },
     {
-      "id": "line-99",
+      "id": "line-98",
       "start": 482.39,
       "end": 483.93,
       "text": "Tout est là. Tu saisis ?",
       "translation": ""
     },
     {
-      "id": "line-100",
+      "id": "line-99",
       "start": 488.14,
       "end": 490.65,
       "text": "J'ai même mis un tableau pour tes cadeaux d'anniversaire.",
       "translation": ""
     },
     {
-      "id": "line-101",
+      "id": "line-100",
       "start": 490.85,
       "end": 492.94,
       "text": "Pour tes neuf ans qui vont arriver, un microscope.",
       "translation": ""
     },
     {
-      "id": "line-102",
+      "id": "line-101",
       "start": 493.36,
       "end": 495.78,
       "text": "Parfait pour le cursus de biologie de l'Académie Werth.",
       "translation": ""
     },
     {
-      "id": "line-103",
+      "id": "line-102",
       "start": 496.23,
       "end": 497.57,
       "text": "Déjà emballé.",
       "translation": ""
     },
     {
-      "id": "line-104",
+      "id": "line-103",
       "start": 497.65,
       "end": 499.65,
       "text": "- WOW ! - Oui !",
       "translation": ""
     },
     {
-      "id": "line-105",
+      "id": "line-104",
       "start": 499.74,
       "end": 502.99,
       "text": "Mais pour l'instant, tu dois centrer ton attention sur ceci:",
       "translation": ""
     },
     {
-      "id": "line-106",
+      "id": "line-105",
       "start": 503.41,
       "end": 505.62,
       "text": "le premier jour dans ta nouvelle école.",
       "translation": ""
     },
     {
-      "id": "line-107",
+      "id": "line-106",
       "start": 506.49,
       "end": 508.41,
       "text": "On a 53 jours de préparation,",
       "translation": ""
     },
     {
-      "id": "line-108",
+      "id": "line-107",
       "start": 508.58,
       "end": 510.87,
       "text": "ce qui de prime abord semble très peu jusqu'à ce qu'on les divise",
       "translation": ""
     },
     {
-      "id": "line-109",
+      "id": "line-108",
       "start": 511.04,
       "end": 514.96,
       "text": "en heures, soit 1 272. Ou en minutes, soit 76 320.",
       "translation": ""
     },
     {
-      "id": "line-110",
+      "id": "line-109",
       "start": 515.84,
       "end": 518.67,
       "text": "C'est là qu'on réalise tout ce qu'on va pouvoir accomplir.",
       "translation": ""
     },
     {
-      "id": "line-111",
+      "id": "line-110",
       "start": 519.34,
       "end": 522.51,
       "text": "Tu emploieras ces minutes ces heures et ces journées en suivant ce tableau.",
       "translation": ""
     },
     {
-      "id": "line-112",
+      "id": "line-111",
       "start": 522.97,
       "end": 525.47,
       "text": "Parce que, soyons réalistes...",
       "translation": ""
     },
     {
-      "id": "line-113",
+      "id": "line-112",
       "start": 525.47,
       "end": 527.43,
       "text": "Une fois là-bas tu vas être toute seule.",
       "translation": ""
     },
     {
-      "id": "line-114",
+      "id": "line-113",
       "start": 529.02,
       "end": 531.1,
       "text": "Une grande solitude.",
       "translation": ""
     },
     {
-      "id": "line-115",
+      "id": "line-114",
       "start": 532.4,
       "end": 535.4,
       "text": "Donc, on peut plus commettre la moindre erreur,",
       "translation": ""
     },
     {
-      "id": "line-116",
+      "id": "line-115",
       "start": 535.61,
       "end": 537.65,
       "text": "- comme lors de l'entretien. - D'accord.",
       "translation": ""
     },
     {
-      "id": "line-117",
+      "id": "line-116",
       "start": 538.32,
       "end": 541.15,
       "text": "Un jour, tu deviendras une adulte formidable.",
       "translation": ""
     },
     {
-      "id": "line-118",
+      "id": "line-117",
       "start": 541.7,
       "end": 543.11,
       "text": "Merci Maman.",
       "translation": ""
     },
     {
-      "id": "line-119",
+      "id": "line-118",
       "start": 545.28,
       "end": 547.03,
       "text": "Je serais bien restée avec toi ma chérie,",
       "translation": ""
     },
     {
-      "id": "line-120",
+      "id": "line-119",
       "start": 547.16,
       "end": 549,
       "text": "mais j'ai l'audit de Davis qui m'attend.",
       "translation": ""
     },
     {
-      "id": "line-121",
+      "id": "line-120",
       "start": 549.16,
       "end": 550.79,
       "text": "Les chiffres de Kelly sur la stratégie de Miller sont problématiques",
       "translation": ""
     },
     {
-      "id": "line-122",
+      "id": "line-121",
       "start": 550.96,
       "end": 552.08,
       "text": "sauf que cette fois ci,",
       "translation": ""
     },
     {
-      "id": "line-123",
+      "id": "line-122",
       "start": 552.16,
       "end": 554.79,
       "text": "Fines est au courant, alors Logan est en panique",
       "translation": ""
     },
     {
-      "id": "line-124",
+      "id": "line-123",
       "start": 554.92,
       "end": 557.04,
       "text": "- et Fisher ne veut pas en entendre parler... - Logan.",
       "translation": ""
     },
     {
-      "id": "line-125",
+      "id": "line-124",
       "start": 557.13,
       "end": 558.25,
       "text": "Donc encore à moi de...",
       "translation": ""
     },
     {
-      "id": "line-126",
+      "id": "line-125",
       "start": 558.34,
       "end": 559.76,
       "text": "Encore à toi de sauver la situation.",
       "translation": ""
     },
     {
-      "id": "line-127",
+      "id": "line-126",
       "start": 559.88,
       "end": 562.38,
       "text": "Oui. Mais ça me semble totalement impossible.",
       "translation": ""
     },
     {
-      "id": "line-128",
+      "id": "line-127",
       "start": 562.51,
       "end": 564.3,
       "text": "Si quelqu'un peut le faire, c'est toi.",
       "translation": ""
     },
     {
-      "id": "line-129",
+      "id": "line-128",
       "start": 564.39,
       "end": 567.26,
       "text": "Allez fonce ! J'ai un projet de vie qui m'attend.",
       "translation": ""
     },
     {
-      "id": "line-130",
+      "id": "line-129",
       "start": 567.35,
       "end": 569.22,
       "text": "C'est toi ma vice-présidente !",
       "translation": ""
     },
     {
-      "id": "line-131",
+      "id": "line-130",
       "start": 580.78,
       "end": 581.99,
       "text": "Allons-y !",
       "translation": ""
     },
     {
-      "id": "line-132",
+      "id": "line-131",
       "start": 616.6,
       "end": 617.61,
       "text": "De l'essence.",
       "translation": ""
     },
     {
-      "id": "line-133",
+      "id": "line-132",
       "start": 639.79,
       "end": 642,
       "text": "Oh, non, non !",
       "translation": ""
     },
     {
-      "id": "line-134",
+      "id": "line-133",
       "start": 655.31,
       "end": 656.64,
       "text": "Ce fichu boulon...",
       "translation": ""
     },
     {
-      "id": "line-135",
+      "id": "line-134",
       "start": 657.77,
       "end": 661.07,
       "text": "Vérifier que ce machin est bien serré avant de faire ça.",
       "translation": ""
     },
     {
-      "id": "line-136",
+      "id": "line-135",
       "start": 663.11,
       "end": 664.44,
       "text": "Y a quelqu'un ?",
       "translation": ""
     },
     {
-      "id": "line-137",
+      "id": "line-136",
       "start": 675.2,
       "end": 676.87,
       "text": "C'est ma faute.",
       "translation": ""
     },
     {
-      "id": "line-138",
+      "id": "line-137",
       "start": 677,
       "end": 681.79,
       "text": "Faut y aller mollo. Ne pas bousiller les trucs les plus simples...",
       "translation": ""
     },
     {
-      "id": "line-139",
+      "id": "line-138",
       "start": 690.72,
       "end": 693.47,
       "text": "C'est inimaginable, il a vraiment un avion dans son jardin.",
       "translation": ""
     },
     {
-      "id": "line-140",
+      "id": "line-139",
       "start": 693.56,
       "end": 696.48,
       "text": "je pense que ce vieux bonhomme a du plomb dans l'aile depuis des années.",
       "translation": ""
     },
     {
-      "id": "line-141",
+      "id": "line-140",
       "start": 696.64,
       "end": 698.69,
       "text": "Une chance que nos maisons ne soient pas mitoyennes.",
       "translation": ""
     },
     {
-      "id": "line-142",
+      "id": "line-141",
       "start": 700.77,
       "end": 701.98,
       "text": "Bien reçu.",
       "translation": ""
     },
     {
-      "id": "line-143",
+      "id": "line-142",
       "start": 711.37,
       "end": 712.58,
       "text": "En voilà une surprise !",
       "translation": ""
     },
     {
-      "id": "line-144",
+      "id": "line-143",
       "start": 713.99,
       "end": 716.2,
       "text": "Monsieur l'agent, bon après-midi à vous.",
       "translation": ""
     },
     {
-      "id": "line-145",
+      "id": "line-144",
       "start": 716.41,
       "end": 717.58,
       "text": "Salut les amis !",
       "translation": ""
     },
     {
-      "id": "line-146",
+      "id": "line-145",
       "start": 724.5,
       "end": 726.01,
       "text": "J'étais en plein...",
       "translation": ""
     },
     {
-      "id": "line-147",
+      "id": "line-146",
       "start": 726.13,
       "end": 727.88,
       "text": "j'étais plongé dans une partie de bridge.",
       "translation": ""
     },
     {
-      "id": "line-148",
+      "id": "line-147",
       "start": 728.55,
       "end": 729.63,
       "text": "Ça vous tente ?",
       "translation": ""
     },
     {
-      "id": "line-149",
+      "id": "line-148",
       "start": 734.64,
       "end": 738.81,
       "text": "Monsieur ? Vous jouez avec votre aéroplane... encore ?",
       "translation": ""
     },
     {
-      "id": "line-150",
+      "id": "line-149",
       "start": 742.9,
       "end": 746.82,
       "text": "Oui. C'est exact. Je suis terriblement confusément navré.",
       "translation": ""
     },
     {
-      "id": "line-151",
+      "id": "line-150",
       "start": 746.98,
       "end": 750.4,
       "text": "J'imagine que j'ai causé des dommages considérables",
       "translation": ""
     },
     {
-      "id": "line-152",
+      "id": "line-151",
       "start": 750.53,
       "end": 752.28,
       "text": "à mes chers voisins.",
       "translation": ""
     },
     {
-      "id": "line-153",
+      "id": "line-152",
       "start": 753.49,
       "end": 754.91,
       "text": "Menottes ?",
       "translation": ""
     },
     {
-      "id": "line-154",
+      "id": "line-153",
       "start": 755.74,
       "end": 757.16,
       "text": "Non, je préfère pas.",
       "translation": ""
     },
     {
-      "id": "line-155",
+      "id": "line-154",
       "start": 758.08,
       "end": 759.08,
       "text": "Une seconde.",
       "translation": ""
     },
     {
-      "id": "line-156",
+      "id": "line-155",
       "start": 761.83,
       "end": 764.38,
       "text": "Je sais qu'il est là quelque part.",
       "translation": ""
     },
     {
-      "id": "line-157",
+      "id": "line-156",
       "start": 764.88,
       "end": 766.3,
       "text": "Monsieur ?",
       "translation": ""
     },
     {
-      "id": "line-158",
+      "id": "line-157",
       "start": 768.84,
       "end": 772.68,
       "text": "Je l'ai trouvé. Voilà, je l'ai trouvé.",
       "translation": ""
     },
     {
-      "id": "line-159",
+      "id": "line-158",
       "start": 774.47,
       "end": 775.43,
       "text": "Monsieur !",
       "translation": ""
     },
     {
-      "id": "line-160",
+      "id": "line-159",
       "start": 786.94,
       "end": 789.49,
       "text": "Chérie je suis là ! J'ai pris du chinois.",
       "translation": ""
     },
     {
-      "id": "line-161",
+      "id": "line-160",
       "start": 789.69,
       "end": 790.69,
       "text": "Maman ?",
       "translation": ""
     },
     {
-      "id": "line-162",
+      "id": "line-161",
       "start": 791.4,
       "end": 792.28,
       "text": "Bonsoir.",
       "translation": ""
     },
     {
-      "id": "line-163",
+      "id": "line-162",
       "start": 793.2,
       "end": 794.2,
       "text": "Salut.",
       "translation": ""
     },
     {
-      "id": "line-164",
+      "id": "line-163",
       "start": 797.37,
       "end": 799.12,
       "text": "Mais d'où tu sors ces pièces ?",
       "translation": ""
     },
     {
-      "id": "line-165",
+      "id": "line-164",
       "start": 800,
       "end": 801.75,
       "text": "Elles étaient au vieux voisin d'à côté.",
       "translation": ""
     },
     {
-      "id": "line-166",
+      "id": "line-165",
       "start": 802.12,
       "end": 803.08,
       "text": "Hein ?",
       "translation": ""
     },
     {
-      "id": "line-167",
+      "id": "line-166",
       "start": 803.29,
       "end": 807.04,
       "text": "Non, en fait, c'est plutôt l'agent de police qui me les a données.",
       "translation": ""
     },
     {
-      "id": "line-168",
+      "id": "line-167",
       "start": 808.21,
       "end": 809.17,
       "text": "Quoi ?",
       "translation": ""
     },
     {
-      "id": "line-169",
+      "id": "line-168",
       "start": 812.51,
       "end": 816.01,
       "text": "Quel est le givré qui s'amuse à parquer un avion dans son jardin",
       "translation": ""
     },
     {
-      "id": "line-170",
+      "id": "line-169",
       "start": 816.14,
       "end": 817.55,
       "text": "et le mettre en marche ?",
       "translation": ""
     },
     {
-      "id": "line-171",
+      "id": "line-170",
       "start": 817.72,
       "end": 819.27,
       "text": "Chérie, t'es sûre que ça va ?",
       "translation": ""
     },
     {
-      "id": "line-172",
+      "id": "line-171",
       "start": 820.98,
       "end": 822.48,
       "text": "- J'appellerai mon assurance. - C'est fait.",
       "translation": ""
     },
     {
-      "id": "line-173",
+      "id": "line-172",
       "start": 822.64,
       "end": 825.15,
       "text": "- Et je ferai un dépôt de plainte. - C'est fait. En deux exemplaires.",
       "translation": ""
     },
     {
-      "id": "line-174",
+      "id": "line-173",
       "start": 825.31,
       "end": 826.19,
       "text": "Avec photos à l'appui ?",
       "translation": ""
     },
     {
-      "id": "line-175",
+      "id": "line-174",
       "start": 826.4,
       "end": 829.02,
       "text": "Intérieur et extérieur. La lumière n'était pas top.",
       "translation": ""
     },
     {
-      "id": "line-176",
+      "id": "line-175",
       "start": 830.78,
       "end": 832.53,
       "text": "C'est pas si grave.",
       "translation": ""
     },
     {
-      "id": "line-177",
+      "id": "line-176",
       "start": 838.2,
-      "end": 841.25,
-      "text": "J'appelle une entreprise demain matin et ce sera comme si ce vieux voisin n'avait",
+      "end": 842.02,
+      "text": "J'appelle une entreprise demain matin et ce sera comme si ce vieux voisin n'avait jamais",
+      "translation": ""
+    },
+    {
+      "id": "line-177",
+      "start": 842.02,
+      "end": 842.79,
+      "text": "existé.",
       "translation": ""
     },
     {
       "id": "line-178",
-      "start": 841.37,
-      "end": 842.79,
-      "text": "jamais existé.",
-      "translation": ""
-    },
-    {
-      "id": "line-179",
       "start": 842.87,
       "end": 844.42,
       "text": "Je l'ai déjà oublié.",
       "translation": ""
     },
     {
-      "id": "line-180",
+      "id": "line-179",
       "start": 912.44,
       "end": 914.86,
       "text": "Il était une fois un petit prince",
       "translation": ""
     },
     {
-      "id": "line-181",
+      "id": "line-180",
       "start": 914.99,
-      "end": 918.03,
-      "text": "qui habitait une planète a peine plus grande que lui",
+      "end": 919.905,
+      "text": "qui habitait une planète a peine plus grande que lui et qui avait",
+      "translation": ""
+    },
+    {
+      "id": "line-181",
+      "start": 919.905,
+      "end": 921.78,
+      "text": "besoin d'un ami.",
       "translation": ""
     },
     {
       "id": "line-182",
-      "start": 919.16,
-      "end": 921.78,
-      "text": "et qui avait besoin d'un ami.",
-      "translation": ""
-    },
-    {
-      "id": "line-183",
       "start": 922.16,
       "end": 924.04,
       "text": "Je me suis dit que t'avais besoin d'un ami.",
       "translation": ""
     },
     {
-      "id": "line-184",
+      "id": "line-183",
       "start": 925.41,
       "end": 930.63,
       "text": "Non ! Je suis ici. Là-haut ! Oui, ici... Bonsoir !",
       "translation": ""
     },
     {
-      "id": "line-185",
+      "id": "line-184",
       "start": 932.63,
       "end": 935.92,
       "text": "Oh, excuse-moi ! Ça, c'est que le début de l'histoire.",
       "translation": ""
     },
     {
-      "id": "line-186",
+      "id": "line-185",
       "start": 936.22,
       "end": 938.72,
       "text": "Ça fait rien. De toute manière, personne ne la comprend.",
       "translation": ""
     },
     {
-      "id": "line-187",
+      "id": "line-186",
       "start": 939.47,
       "end": 943.1,
       "text": "D'accord. Au revoir ! A une prochaine... Peut-être.",
       "translation": ""
     },
     {
-      "id": "line-188",
+      "id": "line-187",
       "start": 962.45,
       "end": 963.77,
       "text": "Peut-être qu'au déjeuner...",
       "translation": ""
     },
     {
-      "id": "line-189",
+      "id": "line-188",
       "start": 963.77,
       "end": 964.74,
       "text": "Je peux compter les pièces !",
       "translation": ""
     },
     {
-      "id": "line-190",
+      "id": "line-189",
       "start": 1116.31,
       "end": 1120.82,
       "text": "Il était une fois un petit prince qui habitait une planète",
       "translation": ""
     },
     {
-      "id": "line-191",
+      "id": "line-190",
       "start": 1120.98,
-      "end": 1123.6,
-      "text": "à peine plus grande que lui",
+      "end": 1124.105,
+      "text": "à peine plus grande que lui et qui avait",
+      "translation": ""
+    },
+    {
+      "id": "line-191",
+      "start": 1124.105,
+      "end": 1124.61,
+      "text": "besoin d'un ami.",
       "translation": ""
     },
     {
       "id": "line-192",
-      "start": 1123.6,
-      "end": 1124.61,
-      "text": "et qui avait besoin d'un ami.",
-      "translation": ""
-    },
-    {
-      "id": "line-193",
       "start": 1141.59,
       "end": 1145.42,
       "text": "J'ai ainsi vécu seul sans personne avec qui parler véritablement.",
       "translation": ""
     },
     {
-      "id": "line-194",
+      "id": "line-193",
       "start": 1145.88,
       "end": 1147.97,
       "text": "J'ai donc appris à piloter des avions.",
       "translation": ""
     },
     {
-      "id": "line-195",
+      "id": "line-194",
       "start": 1165.49,
       "end": 1167.95,
       "text": "J'ai volé un peu partout dans le monde.",
       "translation": ""
     },
     {
-      "id": "line-196",
+      "id": "line-195",
       "start": 1168.03,
       "end": 1171.62,
       "text": "Jusqu'à une panne, dans le désert du Sahara.",
       "translation": ""
     },
     {
-      "id": "line-197",
+      "id": "line-196",
       "start": 1237.89,
       "end": 1241.69,
       "text": "S'il vous plaît, dessine-moi un mouton.",
       "translation": ""
     },
     {
-      "id": "line-198",
+      "id": "line-197",
       "start": 1245.57,
       "end": 1247.78,
       "text": "S'il vous plaît, dessine-moi un mouton.",
       "translation": ""
     },
     {
-      "id": "line-199",
+      "id": "line-198",
       "start": 1255.45,
       "end": 1257.2,
       "text": "Dessine-moi un mouton !",
       "translation": ""
     },
     {
-      "id": "line-200",
+      "id": "line-199",
       "start": 1257.83,
       "end": 1260.33,
       "text": "Quand le mystère est trop impressionnant,",
       "translation": ""
     },
     {
-      "id": "line-201",
+      "id": "line-200",
       "start": 1260.5,
       "end": 1262.21,
       "text": "on n'ose pas désobéir.",
       "translation": ""
     },
     {
-      "id": "line-202",
+      "id": "line-201",
       "start": 1262.79,
       "end": 1265.29,
       "text": "Dessiner ? Je ne sais pas dessiner.",
       "translation": ""
     },
     {
-      "id": "line-203",
+      "id": "line-202",
       "start": 1266,
       "end": 1267.42,
       "text": "Ça ne fait rien.",
       "translation": ""
     },
     {
-      "id": "line-204",
+      "id": "line-203",
       "start": 1270.09,
       "end": 1273.18,
       "text": "Le premier mouton que j'ai dessiné était trop malade.",
       "translation": ""
     },
     {
-      "id": "line-205",
+      "id": "line-204",
       "start": 1274.01,
       "end": 1276.64,
       "text": "Et le deuxième non plus n'était pas à son goût.",
       "translation": ""
     },
     {
-      "id": "line-206",
+      "id": "line-205",
       "start": 1277.97,
       "end": 1280.93,
       "text": "Tu vois bien, ce n'est pas un mouton, c'est un bélier.",
       "translation": ""
     },
     {
-      "id": "line-207",
+      "id": "line-206",
       "start": 1281.14,
       "end": 1282.14,
       "text": "Il a des cornes.",
       "translation": ""
     },
     {
-      "id": "line-208",
+      "id": "line-207",
       "start": 1283.02,
       "end": 1284.44,
       "text": "Et celui-là était...",
       "translation": ""
     },
     {
-      "id": "line-209",
+      "id": "line-208",
       "start": 1284.65,
       "end": 1285.94,
       "text": "Trop vieux !",
       "translation": ""
     },
     {
-      "id": "line-210",
+      "id": "line-209",
       "start": 1288.28,
       "end": 1291.45,
       "text": "Le mouton que je veux, il doit vivre très longtemps.",
       "translation": ""
     },
     {
-      "id": "line-211",
+      "id": "line-210",
       "start": 1295.12,
-      "end": 1296.74,
-      "text": "J'ai donc dessiné ceci:",
-      "translation": ""
-    },
-    {
-      "id": "line-212",
-      "start": 1300.87,
       "end": 1302.83,
-      "text": "Le mouton que tu veux est dedans.",
+      "text": "J'ai donc dessiné ceci: Le mouton que tu veux est dedans.",
       "translation": ""
     },
     {
-      "id": "line-213",
+      "id": "line-211",
       "start": 1304.46,
       "end": 1306.46,
       "text": "C'est tout à fait comme ça que je le voulais !",
       "translation": ""
     },
     {
-      "id": "line-214",
+      "id": "line-212",
       "start": 1309.05,
       "end": 1311.55,
       "text": "Crois-tu qu'il faille beaucoup d'herbe à ce mouton ?",
       "translation": ""
     },
     {
-      "id": "line-215",
+      "id": "line-213",
       "start": 1312.76,
       "end": 1314.84,
       "text": "Parce que chez moi, c'est tout petit.",
       "translation": ""
     },
     {
-      "id": "line-216",
+      "id": "line-214",
       "start": 1316.22,
       "end": 1318.43,
       "text": "Je pense que ça suffira largement.",
       "translation": ""
     },
     {
-      "id": "line-217",
+      "id": "line-215",
       "start": 1318.56,
       "end": 1320.18,
       "text": "Je t'ai donné un tout petit mouton.",
       "translation": ""
     },
     {
-      "id": "line-218",
+      "id": "line-216",
       "start": 1320.39,
       "end": 1322.48,
       "text": "Pas si petit que ça. Tiens, regarde, il s'est endormi.",
       "translation": ""
     },
     {
-      "id": "line-219",
+      "id": "line-217",
       "start": 1367.98,
       "end": 1369.15,
       "text": "WOW !",
       "translation": ""
     },
     {
-      "id": "line-220",
+      "id": "line-218",
       "start": 1399.14,
       "end": 1400.01,
       "text": "Bonjour !",
       "translation": ""
     },
     {
-      "id": "line-221",
+      "id": "line-219",
       "start": 1411.36,
       "end": 1412.36,
       "text": "Bonjour !",
       "translation": ""
     },
     {
-      "id": "line-222",
+      "id": "line-220",
       "start": 1413.23,
       "end": 1414.36,
       "text": "Bonjour !",
       "translation": ""
     },
     {
-      "id": "line-223",
+      "id": "line-221",
       "start": 1422.66,
       "end": 1424.29,
       "text": "Une seconde ! Ne bouge pas !",
       "translation": ""
     },
     {
-      "id": "line-224",
+      "id": "line-222",
       "start": 1431.08,
       "end": 1432.5,
       "text": "Et voilà !",
       "translation": ""
     },
     {
-      "id": "line-225",
+      "id": "line-223",
       "start": 1434.25,
       "end": 1435.38,
       "text": "WOW !",
       "translation": ""
     },
     {
-      "id": "line-226",
+      "id": "line-224",
       "start": 1457.74,
       "end": 1461.24,
       "text": "Je... je voulais juste vous rendre votre dessin.",
       "translation": ""
     },
     {
-      "id": "line-227",
+      "id": "line-225",
       "start": 1462.37,
       "end": 1465.29,
       "text": "- Il ne te plaît pas ? - Si si, non non, il me plaît beaucoup.",
       "translation": ""
     },
     {
-      "id": "line-228",
+      "id": "line-226",
       "start": 1465.41,
       "end": 1467.16,
       "text": "Non, il n'est pas très bon.",
       "translation": ""
     },
     {
-      "id": "line-229",
+      "id": "line-227",
       "start": 1467.29,
       "end": 1471.25,
       "text": "Je le trouve joli. J'ai lu l'histoire aussi. Attentivement.",
       "translation": ""
     },
     {
-      "id": "line-230",
+      "id": "line-228",
       "start": 1471.5,
       "end": 1474.46,
       "text": "Et je l'ai trouvée assez... étrange.",
       "translation": ""
     },
     {
-      "id": "line-231",
+      "id": "line-229",
       "start": 1475.38,
       "end": 1476.25,
       "text": "Étrange ?",
       "translation": ""
     },
     {
-      "id": "line-232",
+      "id": "line-230",
       "start": 1476.38,
       "end": 1479.34,
       "text": "Je veux dire curieuse, ou... intéressante.",
       "translation": ""
     },
     {
-      "id": "line-233",
+      "id": "line-231",
       "start": 1479.51,
       "end": 1481.89,
       "text": "J'ai juste un petit problème pour ce qui est des faits.",
       "translation": ""
     },
     {
-      "id": "line-234",
+      "id": "line-232",
       "start": 1482.8,
       "end": 1483.6,
       "text": "Tu as des questions ?",
       "translation": ""
     },
     {
-      "id": "line-235",
+      "id": "line-233",
       "start": 1483.68,
       "end": 1486.18,
       "text": "Je ne voudrais pas paraître impolie, mais puis-je ?",
       "translation": ""
     },
     {
-      "id": "line-236",
+      "id": "line-234",
       "start": 1486.39,
       "end": 1488.68,
       "text": "Paraître impolie ? Bien sûre, vas-y ! C'est quoi, tes questions ?",
       "translation": ""
     },
     {
-      "id": "line-237",
+      "id": "line-235",
       "start": 1489.43,
       "end": 1493.27,
       "text": "Voilà, tout d'abord, il faisait quoi cet enfant dans le désert ?",
       "translation": ""
     },
     {
-      "id": "line-238",
+      "id": "line-236",
       "start": 1493.36,
       "end": 1495.4,
       "text": "Je trouve ça très étrange. On ne survit pas longtemps dans un désert",
       "translation": ""
     },
     {
-      "id": "line-239",
+      "id": "line-237",
       "start": 1495.52,
       "end": 1497.48,
       "text": "sans nourriture, sans eau.",
       "translation": ""
     },
     {
-      "id": "line-240",
+      "id": "line-238",
       "start": 1497.61,
       "end": 1499.9,
       "text": "Ils sont où, ses parents ? Il va même pas à l'école ?",
       "translation": ""
     },
     {
-      "id": "line-241",
+      "id": "line-239",
       "start": 1500.36,
       "end": 1501.45,
       "text": "Il vit réellement là-haut ?",
       "translation": ""
     },
     {
-      "id": "line-242",
+      "id": "line-240",
       "start": 1501.57,
-      "end": 1503.45,
-      "text": "Parce que j'ai fait astronomie élémentaire et",
+      "end": 1504.3799999999999,
+      "text": "Parce que j'ai fait astronomie élémentaire et on n'a jamais",
       "translation": ""
     },
     {
-      "id": "line-243",
-      "start": 1503.62,
-      "end": 1505.62,
-      "text": "on n'a jamais évoqué l'existence d'une vie,",
-      "translation": ""
-    },
-    {
-      "id": "line-244",
-      "start": 1505.78,
+      "id": "line-241",
+      "start": 1504.3799999999999,
       "end": 1507.12,
-      "text": "ou d'enfants sur aucune autre planète.",
+      "text": "évoqué l'existence d'une vie, ou d'enfants sur aucune autre planète.",
       "translation": ""
     },
     {
-      "id": "line-245",
+      "id": "line-242",
       "start": 1507.2,
       "end": 1509.96,
       "text": "À moins, bien entendu, qu'il soit venu d'une étoile.",
       "translation": ""
     },
     {
-      "id": "line-246",
+      "id": "line-243",
       "start": 1510.04,
       "end": 1511.29,
       "text": "Mais ça semble peu probable.",
       "translation": ""
     },
     {
-      "id": "line-247",
+      "id": "line-244",
       "start": 1511.37,
       "end": 1513.96,
       "text": "Pas d'une étoile. D'un astéroïde.",
       "translation": ""
     },
     {
-      "id": "line-248",
+      "id": "line-245",
       "start": 1514.42,
       "end": 1516.71,
       "text": "L'astéroïde B-612.",
       "translation": ""
     },
     {
-      "id": "line-249",
+      "id": "line-246",
       "start": 1517.59,
       "end": 1519.67,
       "text": "Les astéroïdes, c'était pas au programme.",
       "translation": ""
     },
     {
-      "id": "line-250",
+      "id": "line-247",
       "start": 1520.47,
       "end": 1522.63,
       "text": "Mais le fait qu'il voulait un mouton...",
       "translation": ""
     },
     {
-      "id": "line-251",
+      "id": "line-248",
       "start": 1522.8,
       "end": 1526.39,
       "text": "c'est bien la preuve qu'il a existé. Tu crois pas ?",
       "translation": ""
     },
     {
-      "id": "line-252",
+      "id": "line-249",
       "start": 1533.85,
       "end": 1536.48,
       "text": "Attends, je vais te trouver un autre dessin.",
       "translation": ""
     },
     {
-      "id": "line-253",
+      "id": "line-250",
       "start": 1542.28,
       "end": 1543.36,
       "text": "WOW !",
       "translation": ""
     },
     {
-      "id": "line-254",
+      "id": "line-251",
       "start": 1544.57,
       "end": 1546.87,
       "text": "Il y aurait pas un sérieux danger d'incendie avec tout ça.",
       "translation": ""
     },
     {
-      "id": "line-255",
+      "id": "line-252",
       "start": 1547.12,
       "end": 1549.62,
       "text": "J'avais jamais vu sous cet angle-là.",
       "translation": ""
     },
     {
-      "id": "line-256",
+      "id": "line-253",
       "start": 1549.83,
       "end": 1551.12,
       "text": "D'où vous sortez tous ces objets ?",
       "translation": ""
     },
     {
-      "id": "line-257",
+      "id": "line-254",
       "start": 1551.79,
       "end": 1554.31,
       "text": "Dans la vie, tu sais, il y a des tas de trucs qu'on traîne avec soi.",
       "translation": ""
     },
     {
-      "id": "line-258",
+      "id": "line-255",
       "start": 1554.39,
       "end": 1555.71,
       "text": "On ne sait pas pourquoi.",
       "translation": ""
     },
     {
-      "id": "line-259",
+      "id": "line-256",
       "start": 1556.17,
       "end": 1558.75,
       "text": "Il y a un terme pour ça.",
       "translation": ""
     },
     {
-      "id": "line-260",
+      "id": "line-257",
       "start": 1558.96,
       "end": 1560.13,
       "text": "- Collectionner ? - Amasser !",
       "translation": ""
     },
     {
-      "id": "line-261",
+      "id": "line-258",
       "start": 1560.42,
       "end": 1561.72,
       "text": "Oui, c'est ça, amasser.",
       "translation": ""
     },
     {
-      "id": "line-262",
+      "id": "line-259",
       "start": 1562.09,
       "end": 1564.51,
       "text": "Je suis comme ça, moi aussi. Oui. J'amasse.",
       "translation": ""
     },
     {
-      "id": "line-263",
+      "id": "line-260",
       "start": 1568.93,
       "end": 1570.68,
       "text": "Comment tu t'appelles, petit renard ?",
       "translation": ""
     },
     {
-      "id": "line-264",
+      "id": "line-261",
       "start": 1571.27,
       "end": 1572.87,
       "text": "Ne t'attends pas à ce qu'il te réponde.",
       "translation": ""
     },
     {
-      "id": "line-265",
+      "id": "line-262",
       "start": 1572.95,
       "end": 1575.81,
       "text": "Il va falloir que je lui couse une nouvelle bouche.",
       "translation": ""
     },
     {
-      "id": "line-266",
+      "id": "line-263",
       "start": 1588.95,
       "end": 1591.49,
       "text": "Ça va ? Tout va bien ?",
       "translation": ""
     },
     {
-      "id": "line-267",
+      "id": "line-264",
       "start": 1591.58,
       "end": 1596.04,
       "text": "Ça va ! Ça va ! Ça m'arrive de temps en temps. Donne-moi une minute.",
       "translation": ""
     },
     {
-      "id": "line-268",
+      "id": "line-265",
       "start": 1596.12,
       "end": 1598.08,
       "text": "La dernière fois que c'est arrivé, je suis resté par terre",
       "translation": ""
     },
     {
-      "id": "line-269",
+      "id": "line-266",
       "start": 1598.21,
       "end": 1599.29,
       "text": "pendant trois jours.",
       "translation": ""
     },
     {
-      "id": "line-270",
+      "id": "line-267",
       "start": 1599.42,
       "end": 1600.71,
       "text": "- Trois jours ? - Ce n'est pas grave.",
       "translation": ""
     },
     {
-      "id": "line-271",
+      "id": "line-268",
       "start": 1600.84,
       "end": 1604.72,
       "text": "C'est pour ça que j'ai toujours un sandwich à la mortadelle dans ma poche.",
       "translation": ""
     },
     {
-      "id": "line-272",
+      "id": "line-269",
       "start": 1604.8,
       "end": 1605.8,
       "text": "T'en veux un bout ?",
       "translation": ""
     },
     {
-      "id": "line-273",
+      "id": "line-270",
       "start": 1606.97,
       "end": 1609.6,
       "text": "J'ai une intolérance à la mortadelle.",
       "translation": ""
     },
     {
-      "id": "line-274",
+      "id": "line-271",
       "start": 1610.06,
       "end": 1611.72,
       "text": "Tu sais pas ce que tu louperas.",
       "translation": ""
     },
     {
-      "id": "line-275",
+      "id": "line-272",
       "start": 1616.77,
       "end": 1618.19,
       "text": "La nuit sera belle.",
       "translation": ""
     },
     {
-      "id": "line-276",
+      "id": "line-273",
       "start": 1627.66,
       "end": 1629.62,
       "text": "Les étoiles vont pointer leur nez.",
       "translation": ""
     },
     {
-      "id": "line-277",
+      "id": "line-274",
       "start": 1631.62,
       "end": 1632.79,
       "text": "WOW !",
       "translation": ""
     },
     {
-      "id": "line-278",
+      "id": "line-275",
       "start": 1636,
       "end": 1640.21,
       "text": "Le petit prince... il aimait beaucoup les couchers de soleil.",
       "translation": ""
     },
     {
-      "id": "line-279",
+      "id": "line-276",
       "start": 1640.84,
       "end": 1643.34,
       "text": "Un jour il a vu le soleil se coucher 44 fois.",
       "translation": ""
     },
     {
-      "id": "line-280",
+      "id": "line-277",
       "start": 1644.17,
       "end": 1645.13,
       "text": "Quoi ?",
       "translation": ""
     },
     {
-      "id": "line-281",
+      "id": "line-278",
       "start": 1645.3,
-      "end": 1647.84,
-      "text": "Sa planète ! Elle était si petite qu'il",
+      "end": 1648.2282352941177,
+      "text": "Sa planète ! Elle était si petite qu'il lui suffisait",
       "translation": ""
     },
     {
-      "id": "line-282",
-      "start": 1648.05,
+      "id": "line-279",
+      "start": 1648.2282352941177,
       "end": 1651.14,
-      "text": "lui suffisait de tirer sa chaise de quelques pas pour pouvoir voir un autre coucher de soleil.",
+      "text": "de tirer sa chaise de quelques pas pour pouvoir voir un autre coucher de soleil.",
       "translation": ""
     },
     {
-      "id": "line-283",
+      "id": "line-280",
       "start": 1652.89,
       "end": 1655.31,
       "text": "Mais une si petite planète présentait aussi",
       "translation": ""
     },
     {
-      "id": "line-284",
+      "id": "line-281",
       "start": 1655.48,
       "end": 1656.48,
       "text": "des inconvénients.",
       "translation": ""
     },
     {
-      "id": "line-285",
+      "id": "line-282",
       "start": 1656.77,
       "end": 1660.19,
       "text": "Il voulait un mouton afin qu'il mange les pousses de baobab.",
       "translation": ""
     },
     {
-      "id": "line-286",
+      "id": "line-283",
       "start": 1660.36,
       "end": 1662.23,
       "text": "- De Baobab ? - Oui.",
       "translation": ""
     },
     {
-      "id": "line-287",
+      "id": "line-284",
       "start": 1662.23,
       "end": 1663.82,
       "text": "C'est un arbre très vorace.",
       "translation": ""
     },
     {
-      "id": "line-288",
+      "id": "line-285",
       "start": 1664.57,
       "end": 1667.4,
       "text": "Chaque jour, le petiti prince s'astreignait à arracher les Baobabs",
       "translation": ""
     },
     {
-      "id": "line-289",
+      "id": "line-286",
       "start": 1667.57,
       "end": 1671.57,
       "text": "avant qu'ils ne grandissent. Car si l'on si prend trop tard...",
       "translation": ""
     },
     {
-      "id": "line-290",
+      "id": "line-287",
       "start": 1672.24,
       "end": 1673.79,
       "text": "Ça devient catastrophique.",
       "translation": ""
     },
     {
-      "id": "line-291",
+      "id": "line-288",
       "start": 1674.49,
       "end": 1677.25,
       "text": "Mais heureusement, il y a aussi de bonnes graines.",
       "translation": ""
     },
     {
-      "id": "line-292",
+      "id": "line-289",
       "start": 1677.83,
       "end": 1680.79,
       "text": "Et un jour, d'une graine apportée de...",
       "translation": ""
     },
     {
-      "id": "line-293",
+      "id": "line-290",
       "start": 1681.71,
       "end": 1682.79,
       "text": "d'on ne sait où...",
       "translation": ""
     },
     {
-      "id": "line-294",
+      "id": "line-291",
       "start": 1682.88,
       "end": 1685.71,
       "text": "avait germé une nouvelle sorte de plante.",
       "translation": ""
     },
     {
-      "id": "line-295",
+      "id": "line-292",
       "start": 1693.81,
       "end": 1697.31,
       "text": "Tu seras une apparition miraculeuse. J'en suis persuadé.",
       "translation": ""
     },
     {
-      "id": "line-296",
+      "id": "line-293",
       "start": 1713.83,
       "end": 1715.45,
       "text": "Que vous êtes belle !",
       "translation": ""
     },
     {
-      "id": "line-297",
+      "id": "line-294",
       "start": 1715.99,
       "end": 1718.75,
       "text": "Je me réveille à peine. Je vous demande pardon,",
       "translation": ""
     },
     {
-      "id": "line-298",
+      "id": "line-295",
       "start": 1718.91,
       "end": 1720.25,
       "text": "je suis encore toute décoiffée.",
       "translation": ""
     },
     {
-      "id": "line-299",
+      "id": "line-296",
       "start": 1720.33,
       "end": 1721.75,
       "text": "Vous êtes parfaite.",
       "translation": ""
     },
     {
-      "id": "line-300",
+      "id": "line-297",
       "start": 1722.33,
       "end": 1723.63,
       "text": "N'est-ce pas ?",
       "translation": ""
     },
     {
-      "id": "line-301",
+      "id": "line-298",
       "start": 1724.13,
       "end": 1726.67,
       "text": "Et je suis née en même temps que le soleil.",
       "translation": ""
     },
     {
-      "id": "line-302",
+      "id": "line-299",
       "start": 1731.97,
       "end": 1735.56,
       "text": "C'est là qu'ils ont partagé leur premier lever de soleil.",
       "translation": ""
     },
     {
-      "id": "line-303",
+      "id": "line-300",
       "start": 1737.68,
       "end": 1740.52,
       "text": "Et leur premier coucher de soleil.",
       "translation": ""
     },
     {
-      "id": "line-304",
+      "id": "line-301",
       "start": 1742.19,
       "end": 1744.02,
       "text": "Il fait très froid chez vous.",
       "translation": ""
     },
     {
-      "id": "line-305",
+      "id": "line-302",
       "start": 1750.61,
       "end": 1753.35,
       "text": "Auriez-vous la bonté de penser à moi ?",
       "translation": ""
     },
     {
-      "id": "line-306",
+      "id": "line-303",
       "start": 1754.07,
       "end": 1757.99,
       "text": "Ainsi la rose l'avait-elle bien vite tourmenté par sa vanité.",
       "translation": ""
     },
     {
-      "id": "line-307",
+      "id": "line-304",
       "start": 1758.12,
       "end": 1759.87,
       "text": "J'imagine que vous n'avez pas de paravent.",
       "translation": ""
     },
     {
-      "id": "line-308",
+      "id": "line-305",
       "start": 1760.21,
       "end": 1763.07,
       "text": "Et le soir je veux que vous me mettiez sous un globe de verre.",
       "translation": ""
     },
     {
-      "id": "line-309",
+      "id": "line-306",
       "start": 1763.15,
       "end": 1766.71,
       "text": "Globe de verre, vite... pensez à moi, à ma beauté, mon paravent...",
       "translation": ""
     },
     {
-      "id": "line-310",
+      "id": "line-307",
       "start": 1766.84,
       "end": 1769.96,
       "text": "Le pire dans l'histoire c'est qu'ils s'aimaient l'un l'autre.",
       "translation": ""
     },
     {
-      "id": "line-311",
+      "id": "line-308",
       "start": 1771.3,
       "end": 1774.01,
       "text": "Mais ils étaient trop jeunes pour savoir aimer.",
       "translation": ""
     },
     {
-      "id": "line-312",
+      "id": "line-309",
       "start": 1776.51,
       "end": 1780.02,
       "text": "Assailli par le doute, il prit la fuite.",
       "translation": ""
     },
     {
-      "id": "line-313",
+      "id": "line-310",
       "start": 1781.27,
       "end": 1785.19,
       "text": "Mais oui, je t'aime. Tu n'en as rien su par ma faute.",
       "translation": ""
     },
     {
-      "id": "line-314",
+      "id": "line-311",
       "start": 1785.52,
       "end": 1787.27,
       "text": "Je te demande pardon.",
       "translation": ""
     },
     {
-      "id": "line-315",
+      "id": "line-312",
       "start": 1795.59,
       "end": 1798.41,
       "text": "Alors il l'a quittée, la laissée toute seule ?",
       "translation": ""
     },
     {
-      "id": "line-316",
+      "id": "line-313",
       "start": 1799.19,
       "end": 1800.54,
       "text": "Il est allé où ?",
       "translation": ""
     },
     {
-      "id": "line-317",
+      "id": "line-314",
       "start": 1800.91,
-      "end": 1804.92,
-      "text": "A vrai dire, il l'ignorait encore à l'époque, mais son départ n'était que",
+      "end": 1805.386,
+      "text": "A vrai dire, il l'ignorait encore à l'époque, mais son départ n'était que la première",
       "translation": ""
     },
     {
-      "id": "line-318",
-      "start": 1805.08,
+      "id": "line-315",
+      "start": 1805.386,
       "end": 1807.25,
-      "text": "la première étape d'un voyage qui le ramènerait vers elle.",
+      "text": "étape d'un voyage qui le ramènerait vers elle.",
       "translation": ""
     },
     {
-      "id": "line-319",
+      "id": "line-316",
       "start": 1807.42,
       "end": 1809.05,
       "text": "- Vraiment ? - Oui.",
       "translation": ""
     },
     {
-      "id": "line-320",
+      "id": "line-317",
       "start": 1809.75,
       "end": 1812.72,
       "text": "Tiens, regarde ! Les étoiles se sont levées.",
       "translation": ""
     },
     {
-      "id": "line-321",
+      "id": "line-318",
       "start": 1819.22,
       "end": 1822.06,
       "text": "Wow ! Comme elles brillent !",
       "translation": ""
     },
     {
-      "id": "line-322",
+      "id": "line-319",
       "start": 1823.6,
       "end": 1825.48,
       "text": "Il y en a tellement.",
       "translation": ""
     },
     {
-      "id": "line-323",
+      "id": "line-320",
       "start": 1826.48,
       "end": 1828.15,
       "text": "Par une nuit claire...",
       "translation": ""
     },
     {
-      "id": "line-324",
+      "id": "line-321",
       "start": 1828.31,
-      "end": 1829.98,
-      "text": "si j'écoute attentivement,",
-      "translation": ""
-    },
-    {
-      "id": "line-325",
-      "start": 1829.98,
       "end": 1832.57,
-      "text": "je l'entends rire là-haut sur son étoile.",
+      "text": "si j'écoute attentivement, je l'entends rire là-haut sur son étoile.",
       "translation": ""
     },
     {
-      "id": "line-326",
+      "id": "line-322",
       "start": 1847.5,
       "end": 1849.17,
       "text": "Oh, non ! Je dois rentrer.",
       "translation": ""
     },
     {
-      "id": "line-327",
+      "id": "line-323",
       "start": 1858.8,
       "end": 1860.68,
       "text": "Chérie ? Où es-tu ?",
       "translation": ""
     },
     {
-      "id": "line-328",
+      "id": "line-324",
       "start": 1866.27,
       "end": 1867.48,
       "text": "Bonsoir.",
       "translation": ""
     },
     {
-      "id": "line-329",
+      "id": "line-325",
       "start": 1867.85,
       "end": 1869.77,
       "text": "Ton bureau est un fouilli épouvantable.",
       "translation": ""
     },
     {
-      "id": "line-330",
+      "id": "line-326",
       "start": 1869.98,
       "end": 1871.4,
       "text": "Tu as terminé tes devoirs de la journée ?",
       "translation": ""
     },
     {
-      "id": "line-331",
+      "id": "line-327",
       "start": 1872.69,
       "end": 1875.24,
       "text": "Non, j'ai pas tout à fait fini.",
       "translation": ""
     },
     {
-      "id": "line-332",
+      "id": "line-328",
       "start": 1875.45,
       "end": 1877.32,
       "text": "Qu'est-ce que tu as fait de ton temps ?",
       "translation": ""
     },
     {
-      "id": "line-333",
+      "id": "line-329",
       "start": 1878.16,
       "end": 1882.41,
       "text": "J'ai beaucoup lu. Et je me suis faite un ami．",
       "translation": ""
     },
     {
-      "id": "line-334",
+      "id": "line-330",
       "start": 1884.16,
       "end": 1885.33,
       "text": "Un ami ?",
       "translation": ""
     },
     {
-      "id": "line-335",
+      "id": "line-331",
       "start": 1885.87,
       "end": 1889.71,
       "text": "Non. Non non, non non !",
       "translation": ""
     },
     {
-      "id": "line-336",
+      "id": "line-332",
       "start": 1890.17,
       "end": 1893.88,
       "text": "Non plus ! Peut-être que...",
       "translation": ""
     },
     {
-      "id": "line-337",
+      "id": "line-333",
       "start": 1895.47,
       "end": 1897.63,
       "text": "Oui ! Parfait !",
       "translation": ""
     },
     {
-      "id": "line-338",
+      "id": "line-334",
       "start": 1901.6,
       "end": 1904.21,
       "text": "Si tu étudies à fond et que tu te conformes rigoureusement",
       "translation": ""
     },
     {
-      "id": "line-339",
+      "id": "line-335",
       "start": 1904.31,
       "end": 1905.77,
       "text": "à ton projet...",
       "translation": ""
     },
     {
-      "id": "line-340",
+      "id": "line-336",
       "start": 1906.06,
       "end": 1909.23,
       "text": "tu pourras passer du temps avec ton nouvel ami... l'été prochain...",
       "translation": ""
     },
     {
-      "id": "line-341",
+      "id": "line-337",
       "start": 1909.4,
       "end": 1912.23,
       "text": "chaque jeudi de treize heures à treize heures trente. D'accord ?",
       "translation": ""
     },
     {
-      "id": "line-342",
+      "id": "line-338",
       "start": 1913.23,
       "end": 1914.57,
       "text": "J'ai hâte de faire sa connaissance.",
       "translation": ""
     },
     {
-      "id": "line-343",
+      "id": "line-339",
       "start": 1926.08,
       "end": 1932.88,
       "text": "Il se trouvait dans la région des astéroïdes 325, 326, 327...",
       "translation": ""
     },
     {
-      "id": "line-344",
+      "id": "line-340",
       "start": 1933.42,
       "end": 1939.55,
       "text": "328, 329... 330, 331...",
       "translation": ""
     },
     {
-      "id": "line-345",
+      "id": "line-341",
       "start": 1943.81,
       "end": 1946.64,
       "text": "Voilà un sujet ! Approche !",
       "translation": ""
     },
     {
-      "id": "line-346",
+      "id": "line-342",
       "start": 1947.43,
       "end": 1949.85,
       "text": "Sire, sur quoi régnez-vous ?",
       "translation": ""
     },
     {
-      "id": "line-347",
+      "id": "line-343",
       "start": 1950.06,
       "end": 1951.9,
       "text": "Je règne sur tout.",
       "translation": ""
     },
     {
-      "id": "line-348",
+      "id": "line-344",
       "start": 1952.36,
       "end": 1954.02,
       "text": "Et les étoiles vous obéissent ?",
       "translation": ""
     },
     {
-      "id": "line-349",
+      "id": "line-345",
       "start": 1954.11,
       "end": 1956.31,
       "text": "Bien sûr. Elle obéissent aussitôt.",
       "translation": ""
     },
     {
-      "id": "line-350",
+      "id": "line-346",
       "start": 1956.31,
       "end": 1958.19,
       "text": "Je ne tolère pas l'indiscipline.",
       "translation": ""
     },
     {
-      "id": "line-351",
+      "id": "line-347",
       "start": 1959.2,
       "end": 1962.03,
       "text": "J'aimerais beaucoup voir un coucher de soleil.",
       "translation": ""
     },
     {
-      "id": "line-352",
+      "id": "line-348",
       "start": 1962.2,
       "end": 1964.84,
       "text": "Cela me rappellerait ma rose sur ma planète.",
       "translation": ""
     },
     {
-      "id": "line-353",
+      "id": "line-349",
       "start": 1964.84,
       "end": 1966.66,
       "text": "Ordonnez au soleil de se coucher !",
       "translation": ""
     },
     {
-      "id": "line-354",
+      "id": "line-350",
       "start": 1970.96,
       "end": 1974.59,
       "text": "Ton coucher de soleil, tu l'auras. Je l'exigerai.",
       "translation": ""
     },
     {
-      "id": "line-355",
+      "id": "line-351",
       "start": 1974.96,
       "end": 1978.13,
       "text": "Mais j'attendrai que les conditions soient favorables.",
       "translation": ""
     },
     {
-      "id": "line-356",
+      "id": "line-352",
       "start": 1978.21,
       "end": 1979.55,
       "text": "Quand ce sera-t-il ?",
       "translation": ""
     },
     {
-      "id": "line-357",
+      "id": "line-353",
       "start": 1981.01,
       "end": 1984.51,
       "text": "Eh bien, ce sera vers... ce sera...",
       "translation": ""
     },
     {
-      "id": "line-358",
+      "id": "line-354",
       "start": 1984.73,
       "end": 1988.35,
       "text": "ton coucher de soleil, ce sera ce soir, vers vingt heures quarante.",
       "translation": ""
     },
     {
-      "id": "line-359",
+      "id": "line-355",
       "start": 1994.07,
       "end": 1997.82,
       "text": "Bonjour. C'est un drôle de chapeau que vous portez là.",
       "translation": ""
     },
     {
-      "id": "line-360",
+      "id": "line-356",
       "start": 1997.98,
       "end": 2001.24,
       "text": "Comment... Euh... Oui... C'est un chapeau pour saluer.",
       "translation": ""
     },
     {
-      "id": "line-361",
+      "id": "line-357",
       "start": 2001.41,
       "end": 2003.57,
       "text": "A vrai dire, je dois le soulever",
       "translation": ""
     },
     {
-      "id": "line-362",
+      "id": "line-358",
       "start": 2003.69,
       "end": 2005.16,
       "text": "quand je suis acclamé.",
       "translation": ""
     },
     {
-      "id": "line-363",
+      "id": "line-359",
       "start": 2006.74,
       "end": 2009.73,
       "text": "Frappe tes mains, l'une contre l'autre.",
       "translation": ""
     },
     {
-      "id": "line-364",
+      "id": "line-360",
       "start": 2009.73,
       "end": 2012.12,
       "text": "Oui. Merci beaucoup ! Merci beaucoup !",
       "translation": ""
     },
     {
-      "id": "line-365",
+      "id": "line-361",
       "start": 2013,
       "end": 2014.21,
       "text": "Tu vois ?",
       "translation": ""
     },
     {
-      "id": "line-366",
+      "id": "line-362",
       "start": 2016.92,
       "end": 2020.76,
       "text": "Est-ce que tu m'admires vraiment beaucoup ?",
       "translation": ""
     },
     {
-      "id": "line-367",
+      "id": "line-363",
       "start": 2020.84,
       "end": 2025.68,
       "text": "Ne suis-je pas l'homme le plus beau, le mieux habillé, le plus riche...",
       "translation": ""
     },
     {
-      "id": "line-368",
+      "id": "line-364",
       "start": 2026.39,
       "end": 2028.89,
       "text": "et le plus intelligent de la planète ?",
       "translation": ""
     },
     {
-      "id": "line-369",
+      "id": "line-365",
       "start": 2030.02,
       "end": 2033.19,
       "text": "Mais tu es seul sur ta planète !",
       "translation": ""
     },
     {
-      "id": "line-370",
+      "id": "line-366",
       "start": 2034.73,
       "end": 2038.86,
       "text": "Alors fais-moi ce plaisir. Admire-moi quand même.",
       "translation": ""
     },
     {
-      "id": "line-371",
+      "id": "line-367",
       "start": 2039.23,
       "end": 2040.65,
       "text": "S'il te plaît.",
       "translation": ""
     },
     {
-      "id": "line-372",
+      "id": "line-368",
       "start": 2043.7,
       "end": 2046.95,
       "text": "Je possède les étoiles. Je les gère.",
       "translation": ""
     },
     {
-      "id": "line-373",
+      "id": "line-369",
       "start": 2047.41,
       "end": 2049.24,
       "text": "Je les compte et je les recompte.",
       "translation": ""
     },
     {
-      "id": "line-374",
+      "id": "line-370",
       "start": 2049.83,
       "end": 2051.79,
       "text": "Mais à quoi cela te sert-il de les posséder ?",
       "translation": ""
     },
     {
-      "id": "line-375",
+      "id": "line-371",
       "start": 2052.08,
       "end": 2054.79,
       "text": "Et bien... Cela me sert à faire de moi un homme riche.",
       "translation": ""
     },
     {
-      "id": "line-376",
+      "id": "line-372",
       "start": 2054.91,
       "end": 2055.92,
       "text": "Que réponds-tu à cela ?",
       "translation": ""
     },
     {
-      "id": "line-377",
+      "id": "line-373",
       "start": 2056.04,
       "end": 2058.54,
       "text": "Et à quoi cela te sert-il d'être un homme riche ?",
       "translation": ""
     },
     {
-      "id": "line-378",
+      "id": "line-374",
       "start": 2058.84,
       "end": 2061.42,
       "text": "Et bien. Cela me sert à m'acheter d'autres étoiles.",
       "translation": ""
     },
     {
-      "id": "line-379",
+      "id": "line-375",
       "start": 2062.3,
       "end": 2064.59,
       "text": "Plus toutes les choses qu'il est possible d'acheter.",
       "translation": ""
     },
     {
-      "id": "line-380",
+      "id": "line-376",
       "start": 2067.18,
       "end": 2069.14,
       "text": "Les grandes personnes sont décidément",
       "translation": ""
     },
     {
-      "id": "line-381",
+      "id": "line-377",
       "start": 2069.35,
       "end": 2071.18,
       "text": "très très étranges.",
       "translation": ""
     },
     {
-      "id": "line-382",
+      "id": "line-378",
       "start": 2073.73,
       "end": 2077.86,
       "text": "C'est fait ! Et c'est fait ! Et c'est fait !",
       "translation": ""
     },
     {
-      "id": "line-383",
+      "id": "line-379",
       "start": 2078.9,
       "end": 2081.4,
       "text": "C'est fait ! C'est fait !",
       "translation": ""
     },
     {
-      "id": "line-384",
+      "id": "line-380",
       "start": 2082.69,
       "end": 2083.86,
       "text": "Et c'est fait.",
       "translation": ""
     },
     {
-      "id": "line-385",
+      "id": "line-381",
       "start": 2084.2,
       "end": 2087.78,
       "text": "Et c'est fait ! C'est fait ! C'est fait ! C'est fait! C'est fait ! C'est fait !",
       "translation": ""
     },
     {
-      "id": "line-386",
+      "id": "line-382",
       "start": 2087.95,
       "end": 2092.95,
       "text": "C'est fait ! C'est fait ! C'est fait ! C'est fait ! C'est fait !",
       "translation": ""
     },
     {
-      "id": "line-387",
+      "id": "line-383",
       "start": 2093.08,
       "end": 2095.92,
       "text": "Les grandes personnes sont décidément très très...",
       "translation": ""
     },
     {
-      "id": "line-388",
+      "id": "line-384",
       "start": 2096.12,
       "end": 2097.88,
       "text": "Très étranges.",
       "translation": ""
     },
     {
-      "id": "line-389",
+      "id": "line-385",
       "start": 2098.21,
       "end": 2100.42,
       "text": "J'ai beaucoup vécu chez de grandes personnes.",
       "translation": ""
     },
     {
-      "id": "line-390",
+      "id": "line-386",
       "start": 2100.96,
       "end": 2102.92,
       "text": "Je les ai vues de très près.",
       "translation": ""
     },
     {
-      "id": "line-391",
+      "id": "line-387",
       "start": 2103.05,
       "end": 2105.47,
       "text": "Ça n'a pas trop amélioré mon opinion.",
       "translation": ""
     },
     {
-      "id": "line-392",
+      "id": "line-388",
       "start": 2107.22,
       "end": 2109.76,
       "text": "Oui. Je crois que moi, je n'ai plus trop envie de grandir.",
       "translation": ""
     },
     {
-      "id": "line-393",
+      "id": "line-389",
       "start": 2109.85,
       "end": 2114.02,
       "text": "Grandir, c'est pas tellement ça, le problème. Le problème, c'est l'oublier.",
       "translation": ""
     },
     {
-      "id": "line-394",
+      "id": "line-390",
       "start": 2114.64,
       "end": 2116.73,
       "text": "Je n'ai pas du tout envie d'oublier, moi.",
       "translation": ""
     },
     {
-      "id": "line-395",
+      "id": "line-391",
       "start": 2117.48,
       "end": 2121.73,
       "text": "J'ai finalement réussi à grandir, mais j'ai jamais oublié le petit prince.",
       "translation": ""
     },
     {
-      "id": "line-396",
+      "id": "line-392",
       "start": 2160.15,
       "end": 2161.02,
       "text": "Bonsoir !",
       "translation": ""
     },
     {
-      "id": "line-397",
+      "id": "line-393",
       "start": 2165.15,
       "end": 2166.28,
       "text": "Bonsoir !",
       "translation": ""
     },
     {
-      "id": "line-398",
+      "id": "line-394",
       "start": 2166.36,
       "end": 2168.03,
       "text": "Sur quelle planète suis-je tombé ?",
       "translation": ""
     },
     {
-      "id": "line-399",
+      "id": "line-395",
       "start": 2168.4,
       "end": 2171.12,
       "text": "Sur la Terre... En Afrique.",
       "translation": ""
     },
     {
-      "id": "line-400",
+      "id": "line-396",
       "start": 2173.2,
       "end": 2176.58,
       "text": "Où sont les hommes ? On est un peu seul dans le désert.",
       "translation": ""
     },
     {
-      "id": "line-401",
+      "id": "line-397",
       "start": 2176.87,
       "end": 2179.08,
       "text": "On est seul aussi chez les hommes.",
       "translation": ""
     },
     {
-      "id": "line-402",
+      "id": "line-398",
       "start": 2180.04,
       "end": 2183,
       "text": "Tu es une drôle de bête. Tu es mince comme un doigt.",
       "translation": ""
     },
     {
-      "id": "line-403",
+      "id": "line-399",
       "start": 2184.96,
       "end": 2188.13,
       "text": "Mais je suis plus puissant que le doigt d'un roi.",
       "translation": ""
     },
     {
-      "id": "line-404",
+      "id": "line-400",
       "start": 2189.22,
       "end": 2192.6,
       "text": "Tu n'as même pas de pattes. Tu ne peux même pas voyager.",
       "translation": ""
     },
     {
-      "id": "line-405",
+      "id": "line-401",
       "start": 2192.89,
       "end": 2196.06,
       "text": "Je puis t'emporter plus loin qu'un navire.",
       "translation": ""
     },
     {
-      "id": "line-406",
+      "id": "line-402",
       "start": 2199.81,
       "end": 2202.98,
       "text": "Je puis t'aider un jour, si tu regrettes trop ta planète.",
       "translation": ""
     },
     {
-      "id": "line-407",
+      "id": "line-403",
       "start": 2204.19,
       "end": 2206.36,
       "text": "Je crois que j'ai très bien compris.",
       "translation": ""
     },
     {
-      "id": "line-408",
+      "id": "line-404",
       "start": 2210.32,
       "end": 2211.61,
       "text": "Voilà !",
       "translation": ""
     },
     {
-      "id": "line-409",
+      "id": "line-405",
       "start": 2211.82,
       "end": 2213.7,
       "text": "Essaye celle-là sur la gauche.",
       "translation": ""
     },
     {
-      "id": "line-410",
+      "id": "line-406",
       "start": 2215.99,
       "end": 2217.08,
       "text": "J'ai peur.",
       "translation": ""
     },
     {
-      "id": "line-411",
+      "id": "line-407",
       "start": 2217.45,
       "end": 2219.97,
       "text": "Oui. C'est normal. Ça fait peur.",
       "translation": ""
     },
     {
-      "id": "line-412",
+      "id": "line-408",
       "start": 2220.11,
       "end": 2222.38,
       "text": "Pourquoi tu comptes que je t'ai envoyée ?",
       "translation": ""
     },
     {
-      "id": "line-413",
+      "id": "line-409",
       "start": 2225.13,
       "end": 2227.55,
       "text": "Allez ! Tu y es presque... Continue comme ça.",
       "translation": ""
     },
     {
-      "id": "line-414",
+      "id": "line-410",
       "start": 2228.21,
       "end": 2230.01,
       "text": "Attrape la ficelle ! Attrape-la !",
       "translation": ""
     },
     {
-      "id": "line-415",
+      "id": "line-411",
       "start": 2231.59,
       "end": 2233.76,
       "text": "- Je l'ai. - Voilà, ça y est ! Tu la tiens !",
       "translation": ""
     },
     {
-      "id": "line-416",
+      "id": "line-412",
       "start": 2240.6,
       "end": 2242.94,
       "text": "Et bien ! C'était...",
       "translation": ""
     },
     {
-      "id": "line-417",
+      "id": "line-413",
       "start": 2243.1,
       "end": 2244.61,
       "text": "ça a fait doublement peur.",
       "translation": ""
     },
     {
-      "id": "line-418",
+      "id": "line-414",
       "start": 2245.65,
       "end": 2247.53,
       "text": "Triplement et quadruplement.",
       "translation": ""
     },
     {
-      "id": "line-419",
+      "id": "line-415",
       "start": 2248.19,
       "end": 2249.69,
       "text": "Il va falloir amputer.",
       "translation": ""
     },
     {
-      "id": "line-420",
+      "id": "line-416",
       "start": 2250.74,
       "end": 2251.61,
       "text": "Quoi ?",
       "translation": ""
     },
     {
-      "id": "line-421",
+      "id": "line-417",
       "start": 2257.58,
       "end": 2258.99,
       "text": "Ça va mieux maintenant ?",
       "translation": ""
     },
     {
-      "id": "line-422",
+      "id": "line-418",
       "start": 2259.16,
       "end": 2259.91,
       "text": "Oui.",
       "translation": ""
     },
     {
-      "id": "line-423",
+      "id": "line-419",
       "start": 2269.96,
       "end": 2273.18,
       "text": "Et puis il arriva que le petit prince, ayant longtemps marché",
       "translation": ""
     },
     {
-      "id": "line-424",
+      "id": "line-420",
       "start": 2273.3,
       "end": 2276.47,
       "text": "à travers les sables, les rocs et les neiges...",
       "translation": ""
     },
     {
-      "id": "line-425",
+      "id": "line-421",
       "start": 2276.53,
       "end": 2277.97,
       "text": "rencontra le renard.",
       "translation": ""
     },
     {
-      "id": "line-426",
+      "id": "line-422",
       "start": 2290.36,
       "end": 2292.24,
       "text": "Et oh ! Viens jouer avec moi.",
       "translation": ""
     },
     {
-      "id": "line-427",
+      "id": "line-423",
       "start": 2293.03,
       "end": 2296.66,
       "text": "Je ne peux pas jouer avec toi. Je ne suis pas apprivoisé.",
       "translation": ""
     },
     {
-      "id": "line-428",
+      "id": "line-424",
       "start": 2296.82,
       "end": 2298.24,
       "text": "Que signifie apprivoisé ?",
       "translation": ""
     },
     {
-      "id": "line-429",
+      "id": "line-425",
       "start": 2299.62,
       "end": 2301.5,
       "text": "Ça signifie \" créer des liens \".",
       "translation": ""
     },
     {
-      "id": "line-430",
+      "id": "line-426",
       "start": 2301.95,
       "end": 2304.5,
       "text": "Pour moi tu n'es encore qu'un petit garçon",
       "translation": ""
     },
     {
-      "id": "line-431",
+      "id": "line-427",
       "start": 2304.58,
       "end": 2307.21,
       "text": "tout semblable à cent mille petits garçons.",
       "translation": ""
     },
     {
-      "id": "line-432",
+      "id": "line-428",
       "start": 2307.42,
       "end": 2310.92,
       "text": "Et je n'ai pas besoin de toi. Et tu n'as pas besoin de moi.",
       "translation": ""
     },
     {
-      "id": "line-433",
+      "id": "line-429",
       "start": 2311.92,
       "end": 2315.38,
       "text": "Pour toi, je ne suis qu'un renard semblable à cent mille renards.",
       "translation": ""
     },
     {
-      "id": "line-434",
+      "id": "line-430",
       "start": 2315.84,
       "end": 2319.01,
       "text": "Mais si tu m'apprivoises, nous aurons besoin l'un de l'autre.",
       "translation": ""
     },
     {
-      "id": "line-435",
+      "id": "line-431",
       "start": 2380.78,
       "end": 2383.62,
       "text": "Regarde par ici ! Attention \" cheese \" !",
       "translation": ""
     },
     {
-      "id": "line-436",
+      "id": "line-432",
       "start": 2407.48,
       "end": 2410.04,
       "text": "Tu seras pour moi unique au monde.",
       "translation": ""
     },
     {
-      "id": "line-437",
+      "id": "line-433",
       "start": 2410.04,
       "end": 2412.61,
       "text": "Je serai pour toi unique au monde.",
       "translation": ""
     },
     {
-      "id": "line-438",
+      "id": "line-434",
       "start": 2464.78,
       "end": 2466.33,
       "text": "Mais, qui êtes-vous ?",
       "translation": ""
     },
     {
-      "id": "line-439",
+      "id": "line-435",
       "start": 2466.58,
       "end": 2469.75,
       "text": "Nous sommes des roses. Nous sommes des roses. Des roses.",
       "translation": ""
     },
     {
-      "id": "line-440",
+      "id": "line-436",
       "start": 2471.42,
       "end": 2474.79,
       "text": "Mais alors, je ne possède qu'une rose ordinaire ?",
       "translation": ""
     },
     {
-      "id": "line-441",
+      "id": "line-437",
       "start": 2475.17,
       "end": 2479.01,
       "text": "Elle qui m'avait dit qu'elle était la seule de son espèce dans tout l'univers !",
       "translation": ""
     },
     {
-      "id": "line-442",
+      "id": "line-438",
       "start": 2480.26,
       "end": 2483.64,
       "text": "Ce n'est pas une rose ordinaire. C'est ta rose.",
       "translation": ""
     },
     {
-      "id": "line-443",
+      "id": "line-439",
       "start": 2484.35,
       "end": 2486.43,
       "text": "C'est le temps que tu as consacré pour elle qui fait",
       "translation": ""
     },
     {
-      "id": "line-444",
+      "id": "line-440",
       "start": 2486.51,
       "end": 2488.47,
       "text": "ta rose si importante.",
       "translation": ""
     },
     {
-      "id": "line-445",
+      "id": "line-441",
       "start": 2488.97,
       "end": 2490.73,
       "text": "C'est ma rose.",
       "translation": ""
     },
     {
-      "id": "line-446",
+      "id": "line-442",
       "start": 2491.85,
       "end": 2493.19,
       "text": "Va la retrouver.",
       "translation": ""
     },
     {
-      "id": "line-447",
+      "id": "line-443",
       "start": 2500.57,
       "end": 2502.53,
       "text": "Oh non, tu vas pleurer ?",
       "translation": ""
     },
     {
-      "id": "line-448",
+      "id": "line-444",
       "start": 2504.49,
       "end": 2507.41,
       "text": "Alors je t'ai apprivoisé mais tu n'y gagnes rien.",
       "translation": ""
     },
     {
-      "id": "line-449",
+      "id": "line-445",
       "start": 2511.58,
       "end": 2513.62,
       "text": "Je voudrais te faire cadeau d'un secret.",
       "translation": ""
     },
     {
-      "id": "line-450",
+      "id": "line-446",
       "start": 2516.04,
       "end": 2520.09,
       "text": "Ecoute, il est très simple. On ne voit bien qu'avec le coeur.",
       "translation": ""
     },
     {
-      "id": "line-451",
+      "id": "line-447",
       "start": 2521.51,
       "end": 2525.01,
       "text": "L'essentiel est invisible pour les yeux.",
       "translation": ""
     },
     {
-      "id": "line-452",
+      "id": "line-448",
       "start": 2528.51,
       "end": 2530.14,
       "text": "Et ils ne vont plus jamais se revoir ?",
       "translation": ""
     },
     {
-      "id": "line-453",
+      "id": "line-449",
       "start": 2531.81,
       "end": 2533.02,
       "text": "Bien sûr que si.",
       "translation": ""
     },
     {
-      "id": "line-454",
+      "id": "line-450",
       "start": 2533.89,
       "end": 2537.94,
       "text": "Le renard, il voit le petit prince quand il le cherche avec son coeur.",
       "translation": ""
     },
     {
-      "id": "line-455",
+      "id": "line-451",
       "start": 2538.19,
       "end": 2541.44,
       "text": "Si tu arrives à faire ça, tu ne seras plus jamais jamais seule.",
       "translation": ""
     },
     {
-      "id": "line-456",
+      "id": "line-452",
       "start": 2542.19,
       "end": 2543.28,
       "text": "Oui. D'accord.",
       "translation": ""
     },
     {
-      "id": "line-457",
+      "id": "line-453",
       "start": 2543.45,
       "end": 2545.95,
       "text": "Mais je ne suis plus seule, puisque t'es là maintenant.",
       "translation": ""
     },
     {
-      "id": "line-458",
+      "id": "line-454",
       "start": 2546.41,
       "end": 2548.16,
       "text": "J'ai beaucoup de chance.",
       "translation": ""
     },
     {
-      "id": "line-459",
+      "id": "line-455",
       "start": 2548.41,
       "end": 2550.29,
       "text": "Moi qui croyais ne jamais trouver personne",
       "translation": ""
     },
     {
-      "id": "line-460",
+      "id": "line-456",
       "start": 2550.49,
       "end": 2553.87,
       "text": "qui veuille entendre mon histoire, voilà que tu tombes du ciel...",
       "translation": ""
     },
     {
-      "id": "line-461",
+      "id": "line-457",
       "start": 2554.04,
       "end": 2555.04,
       "text": "juste à temps.",
       "translation": ""
     },
     {
-      "id": "line-462",
+      "id": "line-458",
       "start": 2557,
       "end": 2561.13,
       "text": "Mais ? Pourquoi tu as dit \" juste à temps \" ?",
       "translation": ""
     },
     {
-      "id": "line-463",
+      "id": "line-459",
       "start": 2564.43,
       "end": 2569.76,
       "text": "Ben... on finit tous par dire au revoir... enfin, tôt ou tard.",
       "translation": ""
     },
     {
-      "id": "line-464",
+      "id": "line-460",
       "start": 2570.85,
       "end": 2572.27,
       "text": "Tu t'en vas ?",
       "translation": ""
     },
     {
-      "id": "line-465",
+      "id": "line-461",
       "start": 2572.64,
       "end": 2574.06,
       "text": "Ben...",
       "translation": ""
     },
     {
-      "id": "line-466",
+      "id": "line-462",
       "start": 2574.27,
       "end": 2578.19,
       "text": "et si... et si j'arrivais à retaper ce vieux coucou.",
       "translation": ""
     },
     {
-      "id": "line-467",
+      "id": "line-463",
       "start": 2578.77,
       "end": 2580.98,
       "text": "Si c'était l'heure pour moi de...",
       "translation": ""
     },
     {
-      "id": "line-468",
+      "id": "line-464",
       "start": 2581.15,
       "end": 2583.86,
       "text": "tu sais, de retrouver le petit prince.",
       "translation": ""
     },
     {
-      "id": "line-469",
+      "id": "line-465",
       "start": 2584.99,
       "end": 2588.49,
       "text": "Mais... mais lui, il a déjà sa rose.",
       "translation": ""
     },
     {
-      "id": "line-470",
+      "id": "line-466",
       "start": 2589.2,
       "end": 2591.16,
       "text": "Et moi j'ai besoin de toi.",
       "translation": ""
     },
     {
-      "id": "line-471",
+      "id": "line-467",
       "start": 2601.05,
       "end": 2603.92,
       "text": "Hé, hé ! Tu as faim ? J'ai une très bonne adresse",
       "translation": ""
     },
     {
-      "id": "line-472",
+      "id": "line-468",
       "start": 2604.09,
       "end": 2607.51,
       "text": "sur où on offre les pancakes aux clients dont c'est l'anniversaire.",
       "translation": ""
     },
     {
-      "id": "line-473",
+      "id": "line-469",
       "start": 2607.59,
       "end": 2609.89,
       "text": "Mais mon anniversaire, c'est dans deux semaines.",
       "translation": ""
     },
     {
-      "id": "line-474",
+      "id": "line-470",
       "start": 2610.1,
       "end": 2611.43,
       "text": "Ça, ils ne le savent pas !",
       "translation": ""
     },
     {
-      "id": "line-475",
+      "id": "line-471",
       "start": 2620.31,
       "end": 2622.82,
       "text": "C'est... c'est comme piloter un avion.",
       "translation": ""
     },
     {
-      "id": "line-476",
+      "id": "line-472",
       "start": 2625.65,
       "end": 2627.32,
       "text": "Comme le tien qui s'est écrasé ?",
       "translation": ""
     },
     {
-      "id": "line-477",
+      "id": "line-473",
       "start": 2627.4,
       "end": 2628.86,
       "text": "Absolument !",
       "translation": ""
     },
     {
-      "id": "line-478",
+      "id": "line-474",
       "start": 2629.24,
       "end": 2631.08,
       "text": "Une maison d'un prix de 100 mille euros...",
       "translation": ""
     },
     {
-      "id": "line-479",
+      "id": "line-475",
       "start": 2673.83,
       "end": 2675.45,
       "text": "Oh... Je rêve !",
       "translation": ""
     },
     {
-      "id": "line-480",
+      "id": "line-476",
       "start": 2685.05,
       "end": 2687.01,
       "text": "Rangez-vous sur le côté !",
       "translation": ""
     },
     {
-      "id": "line-481",
+      "id": "line-477",
       "start": 2698.81,
       "end": 2701.15,
       "text": "- T'as un permis de conduire ? - Non.",
       "translation": ""
     },
     {
-      "id": "line-482",
+      "id": "line-478",
       "start": 2702.6,
       "end": 2704.61,
       "text": "- Même pas un provisoire ? - Non.",
       "translation": ""
     },
     {
-      "id": "line-483",
+      "id": "line-479",
       "start": 2704.69,
       "end": 2706.28,
       "text": "Mais t'as quel âge ? Monsieur l'agent...",
       "translation": ""
     },
     {
-      "id": "line-484",
+      "id": "line-480",
       "start": 2706.36,
       "end": 2709.44,
       "text": "Vous avez sorti ce véhicule du garage encore ?",
       "translation": ""
     },
     {
-      "id": "line-485",
+      "id": "line-481",
       "start": 2710.11,
       "end": 2710.82,
       "text": "Oh... Oui.",
       "translation": ""
     },
     {
-      "id": "line-486",
+      "id": "line-482",
       "start": 2710.86,
       "end": 2712.2,
       "text": "Bonjour, monsieur l'agent.",
       "translation": ""
     },
     {
-      "id": "line-487",
+      "id": "line-483",
       "start": 2712.53,
       "end": 2714.62,
       "text": "Euh... Si je peux me permettre d'intervenir.",
       "translation": ""
     },
     {
-      "id": "line-488",
+      "id": "line-484",
       "start": 2714.83,
       "end": 2717.2,
       "text": "Aujourd'hui c'est mon anniversaire.",
       "translation": ""
     },
     {
-      "id": "line-489",
+      "id": "line-485",
       "start": 2721.25,
       "end": 2722.46,
       "text": "Maman, je peux...",
       "translation": ""
     },
     {
-      "id": "line-490",
+      "id": "line-486",
       "start": 2722.58,
       "end": 2723.17,
       "text": "Rentre à la maison !",
       "translation": ""
     },
     {
-      "id": "line-491",
+      "id": "line-487",
       "start": 2723.33,
       "end": 2725.09,
       "text": "- Mais... - Tout de suite !",
       "translation": ""
     },
     {
-      "id": "line-492",
+      "id": "line-488",
       "start": 2726.8,
       "end": 2729.09,
       "text": "Pardon de vous avoir dérangée dans votre travail.",
       "translation": ""
     },
     {
-      "id": "line-493",
+      "id": "line-489",
       "start": 2729.26,
       "end": 2731.63,
       "text": "Apparemment, ils allaient manger des pancakes.",
       "translation": ""
     },
     {
-      "id": "line-494",
+      "id": "line-490",
       "start": 2732.01,
       "end": 2733.76,
       "text": "Manger dans sa voiture ? Mais...",
       "translation": ""
     },
     {
-      "id": "line-495",
+      "id": "line-491",
       "start": 2733.84,
       "end": 2736.47,
       "text": "- Vous pourriez lui parler ? - Oui, certainement !",
       "translation": ""
     },
     {
-      "id": "line-496",
+      "id": "line-492",
       "start": 2736.6,
       "end": 2738.77,
       "text": "Ah, non... Non, non !",
       "translation": ""
     },
     {
-      "id": "line-497",
+      "id": "line-493",
       "start": 2748.48,
       "end": 2749.36,
       "text": "Monsieur Renard !",
       "translation": ""
     },
     {
-      "id": "line-498",
+      "id": "line-494",
       "start": 2751.9,
       "end": 2754.8,
       "text": "Alors, d'après le tableau, tu es encore au lit. Tu dors.",
       "translation": ""
     },
     {
-      "id": "line-499",
+      "id": "line-495",
       "start": 2754.8,
       "end": 2756.16,
       "text": "Et on est hier !",
       "translation": ""
     },
     {
-      "id": "line-500",
+      "id": "line-496",
       "start": 2757.83,
       "end": 2760.79,
       "text": "Ton ami, il n'a même pas de permis de conduire.",
       "translation": ""
     },
     {
-      "id": "line-501",
+      "id": "line-497",
       "start": 2760.87,
       "end": 2763.33,
       "text": "Non ! On lui l'a retiré la quatrième fois",
       "translation": ""
     },
     {
-      "id": "line-502",
+      "id": "line-498",
       "start": 2763.46,
       "end": 2766.29,
       "text": "qu'il a démarré avec le pistolet de la pompe accroché au réservoir.",
       "translation": ""
     },
     {
-      "id": "line-503",
+      "id": "line-499",
       "start": 2768.63,
       "end": 2770.01,
       "text": "Mais tu aurais pu te tuer !",
       "translation": ""
     },
     {
-      "id": "line-504",
+      "id": "line-500",
       "start": 2770.09,
       "end": 2771.47,
       "text": "Maman, je peux tout t'expliquer...",
       "translation": ""
     },
     {
-      "id": "line-505",
+      "id": "line-501",
       "start": 2771.55,
       "end": 2774.47,
       "text": "Ah non, non. Tu n'expliques pas, tu mens. Tu m'as menti à moi.",
       "translation": ""
     },
     {
-      "id": "line-506",
+      "id": "line-502",
       "start": 2774.55,
       "end": 2776.35,
       "text": "Tu as menti à l'officier de police.",
       "translation": ""
     },
     {
-      "id": "line-507",
+      "id": "line-503",
       "start": 2776.55,
       "end": 2778.93,
       "text": "Oui attends. Avant que j'oublie, joyeux anniversaire !",
       "translation": ""
     },
     {
-      "id": "line-508",
+      "id": "line-504",
       "start": 2780.72,
       "end": 2783.14,
       "text": "Tu as même réussi à mentir à ton projet de vie !",
       "translation": ""
     },
     {
-      "id": "line-509",
+      "id": "line-505",
       "start": 2783.31,
       "end": 2786.06,
       "text": "A Ça ? C'est qu'un tableau couvert de magnets.",
       "translation": ""
     },
     {
-      "id": "line-510",
+      "id": "line-506",
       "start": 2786.15,
       "end": 2788.27,
       "text": "Tu te préoccupes plus de ça que de moi.",
       "translation": ""
     },
     {
-      "id": "line-511",
+      "id": "line-507",
       "start": 2788.36,
       "end": 2791.36,
       "text": "C'est faux. Je m'en préoccupe autant",
       "translation": ""
     },
     {
-      "id": "line-512",
+      "id": "line-508",
       "start": 2791.49,
       "end": 2793.11,
       "text": "que je me préoccupe de toi ma puce.",
       "translation": ""
     },
     {
-      "id": "line-513",
+      "id": "line-509",
       "start": 2793.32,
       "end": 2796.32,
       "text": "C'est toi, ce tableau. C'est toute l'histoire de ta vie.",
       "translation": ""
     },
     {
-      "id": "line-514",
+      "id": "line-510",
       "start": 2796.41,
       "end": 2798.91,
       "text": "Comme je suis ta mère, j'en ai l'entière responsabilité.",
       "translation": ""
     },
     {
-      "id": "line-515",
+      "id": "line-511",
       "start": 2799.28,
       "end": 2802.58,
       "text": "C'est ta version ma vie tel que tu la vois, ce n'est pas la mienne.",
       "translation": ""
     },
     {
-      "id": "line-516",
+      "id": "line-512",
       "start": 2802.66,
       "end": 2805.33,
       "text": "Tu comprendrais mieux si t'étais plus souvent là.",
       "translation": ""
     },
     {
-      "id": "line-517",
+      "id": "line-513",
       "start": 2805.62,
       "end": 2808.88,
       "text": "Tu sais très bien pourquoi je dois travailler autant.",
       "translation": ""
     },
     {
-      "id": "line-518",
+      "id": "line-514",
       "start": 2809.46,
       "end": 2813.72,
       "text": "Mais t'es devenue comme lui. Ton boulot passe avant tout le reste.",
       "translation": ""
     },
     {
-      "id": "line-519",
+      "id": "line-515",
       "start": 2814.42,
       "end": 2816.39,
       "text": "Combien de temps avant que tu disparaisses complètement !",
       "translation": ""
     },
     {
-      "id": "line-520",
+      "id": "line-516",
       "start": 2822.43,
       "end": 2825.94,
       "text": "Je crois qu'il profita, pour son évasion, d'une migration...",
       "translation": ""
     },
     {
-      "id": "line-521",
+      "id": "line-517",
       "start": 2826.06,
       "end": 2828.23,
       "text": "d'oiseaux sauvages. C'est quoi ces absurdités ?",
       "translation": ""
     },
     {
-      "id": "line-522",
+      "id": "line-518",
       "start": 2828.36,
       "end": 2830.11,
       "text": "Non, non !",
       "translation": ""
     },
     {
-      "id": "line-523",
+      "id": "line-519",
       "start": 2830.32,
       "end": 2831.91,
       "text": "Bon ! Allez ! Fini toutes ces bêtises !",
       "translation": ""
     },
     {
-      "id": "line-524",
+      "id": "line-520",
       "start": 2832.11,
       "end": 2834.45,
       "text": "Tu as deux semaines pour revenir",
       "translation": ""
     },
     {
-      "id": "line-525",
+      "id": "line-521",
       "start": 2834.63,
       "end": 2835.87,
       "text": "Mais Maman!",
       "translation": ""
     },
     {
-      "id": "line-526",
+      "id": "line-522",
       "start": 2971.21,
       "end": 2972.62,
       "text": "Cherchons un puits.",
       "translation": ""
     },
     {
-      "id": "line-527",
+      "id": "line-523",
       "start": 3008.74,
       "end": 3010.49,
       "text": "Regarde les étoiles comme elles sont belles,",
       "translation": ""
     },
     {
-      "id": "line-528",
+      "id": "line-524",
       "start": 3010.49,
       "end": 3012.91,
       "text": "c'est grâce à une fleur qu'on ne peut pas voir.",
       "translation": ""
     },
     {
-      "id": "line-529",
+      "id": "line-525",
       "start": 3019.84,
       "end": 3021.75,
       "text": "Et ce qui embellit le désert",
       "translation": ""
     },
     {
-      "id": "line-530",
+      "id": "line-526",
       "start": 3021.83,
       "end": 3023.97,
       "text": "Et ce qui embellit le désert, c'est qu'il cache un puits quelque part.",
       "translation": ""
     },
     {
-      "id": "line-531",
+      "id": "line-527",
       "start": 3027.1,
       "end": 3030.93,
       "text": "Je regardais, à la lumière de la lune, ce front pâle,",
       "translation": ""
     },
     {
-      "id": "line-532",
+      "id": "line-528",
       "start": 3031.06,
       "end": 3032.56,
       "text": "ces yeux clos...",
       "translation": ""
     },
     {
-      "id": "line-533",
+      "id": "line-529",
       "start": 3032.93,
       "end": 3035.35,
       "text": "ces mèches de cheveux qui tremblaient au vent,",
       "translation": ""
     },
     {
-      "id": "line-534",
+      "id": "line-530",
       "start": 3035.56,
-      "end": 3036.97,
-      "text": "et je me disais",
-      "translation": ""
-    },
-    {
-      "id": "line-535",
-      "start": 3039.11,
       "end": 3040.86,
-      "text": "Ce que je vois là n'est qu'une écorce.",
+      "text": "et je me disais Ce que je vois là n'est qu'une écorce.",
       "translation": ""
     },
     {
-      "id": "line-536",
+      "id": "line-531",
       "start": 3041.94,
       "end": 3045.99,
       "text": "Le plus important c'est ce qui est invisible. \"",
       "translation": ""
     },
     {
-      "id": "line-537",
+      "id": "line-532",
       "start": 3058.46,
       "end": 3060.88,
       "text": "Nous découvrîmes le puits au lever du jour.",
       "translation": ""
     },
     {
-      "id": "line-538",
+      "id": "line-533",
       "start": 3068.05,
       "end": 3071.1,
       "text": "Les hommes de chez toi cultivent des milliers de roses",
       "translation": ""
     },
     {
-      "id": "line-539",
+      "id": "line-534",
       "start": 3071.43,
       "end": 3074.52,
       "text": "dans le même jardin et ils n'y trouvent pas ce qu'ils cherchent.",
       "translation": ""
     },
     {
-      "id": "line-540",
+      "id": "line-535",
       "start": 3076.31,
       "end": 3077.89,
       "text": "Et cependant ce qu'ils cherchent",
       "translation": ""
     },
     {
-      "id": "line-541",
+      "id": "line-536",
       "start": 3077.89,
       "end": 3079.94,
       "text": "pourrait être trouvé dans une seule rose",
       "translation": ""
     },
     {
-      "id": "line-542",
+      "id": "line-537",
       "start": 3080.02,
       "end": 3081.48,
       "text": "ou dans un peu d'eau.",
       "translation": ""
     },
     {
-      "id": "line-543",
+      "id": "line-538",
       "start": 3113.19,
       "end": 3114.39,
       "text": "On se calm !",
       "translation": ""
     },
     {
-      "id": "line-544",
+      "id": "line-539",
       "start": 3117.27,
       "end": 3118.48,
       "text": "Allons chercher un puits.",
       "translation": ""
     },
     {
-      "id": "line-545",
+      "id": "line-540",
       "start": 3119.73,
       "end": 3124.23,
       "text": "Non, écoute. J'ai commis une grosse erreur l'autre jour.",
       "translation": ""
     },
     {
-      "id": "line-546",
+      "id": "line-541",
       "start": 3124.82,
       "end": 3126.95,
       "text": "Et toi tu peux plus venir dans cette maison.",
       "translation": ""
     },
     {
-      "id": "line-547",
+      "id": "line-542",
       "start": 3127.03,
       "end": 3128.66,
       "text": "T'inquiète ! Ce sera la dernière fois.",
       "translation": ""
     },
     {
-      "id": "line-548",
+      "id": "line-543",
       "start": 3128.74,
       "end": 3130.82,
       "text": "- Quoi ? - Allons faire décoller cet avion !",
       "translation": ""
     },
     {
-      "id": "line-549",
+      "id": "line-544",
       "start": 3136.83,
       "end": 3139.79,
       "text": "Je me dis que si vous avez pu trouver un puits en plein désert...",
       "translation": ""
     },
     {
-      "id": "line-550",
+      "id": "line-545",
       "start": 3139.92,
       "end": 3142.21,
       "text": "on va bien pouvoir trouver le petit prince.",
       "translation": ""
     },
     {
-      "id": "line-551",
+      "id": "line-546",
       "start": 3144.21,
       "end": 3145.09,
       "text": "Lui pourra nous aider.",
       "translation": ""
     },
     {
-      "id": "line-552",
+      "id": "line-547",
       "start": 3145.26,
       "end": 3147.76,
       "text": "Eh Attends ! Attends, petite !",
       "translation": ""
     },
     {
-      "id": "line-553",
+      "id": "line-548",
       "start": 3148.01,
       "end": 3149.63,
       "text": "On ne va pas pouvoir décoller.",
       "translation": ""
     },
     {
-      "id": "line-554",
+      "id": "line-549",
       "start": 3150.3,
       "end": 3153.26,
       "text": "T'as raison. Faut d'abord réparer cette aile.",
       "translation": ""
     },
     {
-      "id": "line-555",
+      "id": "line-550",
       "start": 3153.43,
       "end": 3154.64,
       "text": "Non, non.",
       "translation": ""
     },
     {
-      "id": "line-556",
+      "id": "line-551",
       "start": 3155.72,
       "end": 3160.77,
       "text": "Je suis désolé mais... lorsque le moment sera venu pour moi de m'en aller ...",
       "translation": ""
     },
     {
-      "id": "line-557",
+      "id": "line-552",
       "start": 3161.56,
       "end": 3163.52,
       "text": "je devrai partir tout seul.",
       "translation": ""
     },
     {
-      "id": "line-558",
+      "id": "line-553",
       "start": 3165.48,
       "end": 3169.86,
       "text": "Mais je ne te dérangerai pas. Je ne prendrai qu'une toute petite place,",
       "translation": ""
     },
     {
-      "id": "line-559",
+      "id": "line-554",
       "start": 3169.99,
       "end": 3172.82,
       "text": "je te promets. Ne pars pas sans moi.",
       "translation": ""
     },
     {
-      "id": "line-560",
+      "id": "line-555",
       "start": 3175.33,
       "end": 3178.29,
       "text": "Je crois qu'il est temps que je te raconte la fin de l'histoire.",
       "translation": ""
     },
     {
-      "id": "line-561",
+      "id": "line-556",
       "start": 3183,
       "end": 3186.05,
       "text": "Ce soir-là, j'avais fini de réparer mon avion",
       "translation": ""
     },
     {
-      "id": "line-562",
+      "id": "line-557",
       "start": 3186.25,
       "end": 3188.13,
       "text": "et je suis allé trouver le petit prince.",
       "translation": ""
     },
     {
-      "id": "line-563",
+      "id": "line-558",
       "start": 3188.21,
       "end": 3190.93,
       "text": "Je serai là cette nuit, tu n'as qu'à m'attendre.",
       "translation": ""
     },
     {
-      "id": "line-564",
+      "id": "line-559",
       "start": 3191.18,
       "end": 3193.6,
       "text": "Tu es sûr de ne pas me faire souffrir longtemps ?",
       "translation": ""
     },
     {
-      "id": "line-565",
+      "id": "line-560",
       "start": 3204.65,
       "end": 3205.73,
       "text": "Et tu l'as tué ?",
       "translation": ""
     },
     {
-      "id": "line-566",
+      "id": "line-561",
       "start": 3206.19,
       "end": 3208.57,
       "text": "Non ! Il est disparu. Il s'est faufilé entre les pierres.",
       "translation": ""
     },
     {
-      "id": "line-567",
+      "id": "line-562",
       "start": 3208.9,
       "end": 3209.99,
       "text": "Et après ?",
       "translation": ""
     },
     {
-      "id": "line-568",
+      "id": "line-563",
       "start": 3210.86,
       "end": 3214.24,
       "text": "Apparemment, il savait que j'avais réparé mon moteur.",
       "translation": ""
     },
     {
-      "id": "line-569",
+      "id": "line-564",
       "start": 3219.25,
       "end": 3221.54,
       "text": "Moi aussi, aujourd'hui, je rentre chez moi.",
       "translation": ""
     },
     {
-      "id": "line-570",
+      "id": "line-565",
       "start": 3221.79,
       "end": 3224.75,
       "text": "C'est bien plus loin. C'est bien plus difficile.",
       "translation": ""
     },
     {
-      "id": "line-571",
+      "id": "line-566",
       "start": 3226.46,
       "end": 3227.96,
       "text": "J'ai un peu peur.",
       "translation": ""
     },
     {
-      "id": "line-572",
+      "id": "line-567",
       "start": 3232.47,
       "end": 3235.55,
       "text": "Je ne peux pas imaginer ne plus jamais t'entendre rire.",
       "translation": ""
     },
     {
-      "id": "line-573",
+      "id": "line-568",
       "start": 3236.26,
       "end": 3238.22,
       "text": "Justement, je vais te faire un cadeau.",
       "translation": ""
     },
     {
-      "id": "line-574",
+      "id": "line-569",
       "start": 3240.52,
       "end": 3243.27,
       "text": "J'habiterai là-haut, dans l'une de ces étoiles.",
       "translation": ""
     },
     {
-      "id": "line-575",
+      "id": "line-570",
       "start": 3243.65,
       "end": 3248.36,
       "text": "Je rirai dans l'une d'elles. Et toi à chaque fois que tu regarderas",
       "translation": ""
     },
     {
-      "id": "line-576",
+      "id": "line-571",
       "start": 3248.44,
       "end": 3252.65,
       "text": "le ciel la nuit, ce sera pour toi comme si riaient toutes les étoiles.",
       "translation": ""
     },
     {
-      "id": "line-577",
+      "id": "line-572",
       "start": 3260.37,
       "end": 3262.58,
       "text": "Cette nuit, tu sais, ne viens pas !",
       "translation": ""
     },
     {
-      "id": "line-578",
+      "id": "line-573",
       "start": 3262.75,
       "end": 3265.58,
       "text": "Tu l'as pas laissé partir ? Rejoindre le serpent ?",
       "translation": ""
     },
     {
-      "id": "line-579",
+      "id": "line-574",
       "start": 3266.79,
       "end": 3270.84,
       "text": "Mais je n'avais pas le choix. C'était l'heure des adieux.",
       "translation": ""
     },
     {
-      "id": "line-580",
+      "id": "line-575",
       "start": 3273.47,
       "end": 3275.35,
       "text": "Tu comprends. C'est trop loin.",
       "translation": ""
     },
     {
-      "id": "line-581",
+      "id": "line-576",
       "start": 3275.89,
       "end": 3279.39,
       "text": "Et ce corps, il est très lourd. je ne peux pas l'emporter avec moi.",
       "translation": ""
     },
     {
-      "id": "line-582",
+      "id": "line-577",
       "start": 3279.64,
       "end": 3282.52,
       "text": "Mais ce sera comme une vieille écorce abandonnée.",
       "translation": ""
     },
     {
-      "id": "line-583",
+      "id": "line-578",
       "start": 3282.68,
       "end": 3285.4,
       "text": "Ce n'est pas si triste les vieilles écorces, tu sais.",
       "translation": ""
     },
     {
-      "id": "line-584",
+      "id": "line-579",
       "start": 3298.03,
       "end": 3299.45,
       "text": "On y est. C'est là.",
       "translation": ""
     },
     {
-      "id": "line-585",
+      "id": "line-580",
       "start": 3299.62,
       "end": 3301.37,
       "text": "Je ne te quitterai pas.",
       "translation": ""
     },
     {
-      "id": "line-586",
+      "id": "line-581",
       "start": 3327.81,
       "end": 3331.03,
       "text": "Mais... Tu...",
       "translation": ""
     },
     {
-      "id": "line-587",
+      "id": "line-582",
       "start": 3339.62,
       "end": 3342.08,
       "text": "T'avais pas dit qu'il était toujours là-haut ?",
       "translation": ""
     },
     {
-      "id": "line-588",
+      "id": "line-583",
       "start": 3342.16,
       "end": 3343.58,
       "text": "Avec sa rose.",
       "translation": ""
     },
     {
-      "id": "line-589",
+      "id": "line-584",
       "start": 3343.75,
       "end": 3345.29,
       "text": "Et bien...",
       "translation": ""
     },
     {
-      "id": "line-590",
+      "id": "line-585",
       "start": 3345.79,
       "end": 3349.17,
       "text": "c'est comme lui l'a dit, la nuit je regarde les étoiles",
       "translation": ""
     },
     {
-      "id": "line-591",
+      "id": "line-586",
       "start": 3349.33,
       "end": 3350.67,
       "text": "et je l'entends rire.",
       "translation": ""
     },
     {
-      "id": "line-592",
+      "id": "line-587",
       "start": 3350.75,
       "end": 3353,
       "text": "Oui, mais tu n'en es pas totalement sûr.",
       "translation": ""
     },
     {
-      "id": "line-593",
+      "id": "line-588",
       "start": 3354.55,
       "end": 3357.16,
       "text": "Oui, c'est vrai. Ça me consolerait beaucoup",
       "translation": ""
     },
     {
-      "id": "line-594",
+      "id": "line-589",
       "start": 3357.16,
       "end": 3358.55,
       "text": "de pouvoir en être sûr mais dans la certitude,",
       "translation": ""
     },
     {
-      "id": "line-595",
+      "id": "line-590",
       "start": 3358.64,
       "end": 3362.68,
       "text": "je préfère croire qu'il est là-haut sur son étoile.",
       "translation": ""
     },
     {
-      "id": "line-596",
+      "id": "line-591",
       "start": 3366.52,
       "end": 3369.02,
       "text": "C'est ce que tu voudrais que je fasse quand tu ne seras plus là ?",
       "translation": ""
     },
     {
-      "id": "line-597",
+      "id": "line-592",
       "start": 3369.65,
       "end": 3374.11,
       "text": "Que je regarde les étoiles et que je fasse comme si tu n'étais pas parti ?",
       "translation": ""
     },
     {
-      "id": "line-598",
+      "id": "line-593",
       "start": 3374.9,
       "end": 3376.11,
       "text": "Mais...",
       "translation": ""
     },
     {
-      "id": "line-599",
+      "id": "line-594",
       "start": 3376.24,
       "end": 3380.32,
       "text": "si tu regardes avec tout ton coeur, je serai avec toi pour toujours.",
       "translation": ""
     },
     {
-      "id": "line-600",
+      "id": "line-595",
       "start": 3381.32,
       "end": 3385.2,
       "text": "Oui, tout comme je sais que le petit prince sera toujours avec sa rose.",
       "translation": ""
     },
     {
-      "id": "line-601",
+      "id": "line-596",
       "start": 3385.58,
       "end": 3387.81,
       "text": "Sauf que ça tu ne peux pas en être tout à fait sûr.",
       "translation": ""
     },
     {
-      "id": "line-602",
+      "id": "line-597",
       "start": 3387.99,
       "end": 3390.83,
       "text": "Parce que s'il n'était jamais retourné voir sa rose ?",
       "translation": ""
     },
     {
-      "id": "line-603",
+      "id": "line-598",
       "start": 3391.05,
       "end": 3393.33,
       "text": "Et... s'il était devenu un adulte ? S'il était seul ?",
       "translation": ""
     },
     {
-      "id": "line-604",
+      "id": "line-599",
       "start": 3393.43,
       "end": 3396.75,
       "text": "S'il était perdu et s'il avait tout oublié ?!",
       "translation": ""
     },
     {
-      "id": "line-605",
+      "id": "line-600",
       "start": 3396.99,
       "end": 3399.84,
       "text": "Attends, une seconde, ma petite fille, une seconde.",
       "translation": ""
     },
     {
-      "id": "line-606",
+      "id": "line-601",
       "start": 3399.97,
       "end": 3402.39,
       "text": "Le petit prince ne pourra jamais oublier.",
       "translation": ""
     },
     {
-      "id": "line-607",
+      "id": "line-602",
       "start": 3402.51,
       "end": 3405.39,
       "text": "Il sera toujours là pour nous, toujours là pour nous aider.",
       "translation": ""
     },
     {
-      "id": "line-608",
+      "id": "line-603",
       "start": 3405.47,
       "end": 3408.98,
       "text": "Je n'en veux pas de son aide ! Je déteste le petit prince.",
       "translation": ""
     },
     {
-      "id": "line-609",
+      "id": "line-604",
       "start": 3409.14,
       "end": 3411.15,
       "text": "J'ai gâché mon été à cause du petit prince !",
       "translation": ""
     },
     {
-      "id": "line-610",
+      "id": "line-605",
       "start": 3411.23,
       "end": 3411.9,
       "text": "Mais...",
       "translation": ""
     },
     {
-      "id": "line-611",
+      "id": "line-606",
       "start": 3411.94,
       "end": 3414.32,
       "text": "Tu n'aurais jamais dû me raconter une histoire aussi débile.",
       "translation": ""
     },
     {
-      "id": "line-612",
+      "id": "line-607",
       "start": 3450.6,
       "end": 3452.02,
       "text": "Le mauvais temps inattendu...",
       "translation": ""
     },
     {
-      "id": "line-613",
+      "id": "line-608",
       "start": 3452.15,
       "end": 3456.32,
       "text": "...en retard au travail de 32 personnes.",
       "translation": ""
     },
     {
-      "id": "line-614",
+      "id": "line-609",
       "start": 3456.44,
       "end": 3459.61,
       "text": "Le rendement a baissé 0,4%...",
       "translation": ""
     },
     {
-      "id": "line-615",
+      "id": "line-610",
       "start": 3459.82,
       "end": 3462.57,
       "text": "L'activité du marché continue avec une diversification",
       "translation": ""
     },
     {
-      "id": "line-616",
+      "id": "line-611",
       "start": 3462.74,
       "end": 3464.49,
       "text": "du portfeuille.",
       "translation": ""
     },
     {
-      "id": "line-617",
+      "id": "line-612",
       "start": 3466.45,
       "end": 3469.5,
       "text": "Mais ?",
       "translation": ""
     },
     {
-      "id": "line-618",
+      "id": "line-613",
       "start": 3471.16,
       "end": 3472.25,
       "text": "Ah non !",
       "translation": ""
     },
     {
-      "id": "line-619",
+      "id": "line-614",
       "start": 3479.26,
       "end": 3480.26,
       "text": "Chérie ?",
       "translation": ""
     },
     {
-      "id": "line-620",
+      "id": "line-615",
       "start": 3486.22,
       "end": 3488.51,
       "text": "Non ! Non !",
       "translation": ""
     },
     {
-      "id": "line-621",
+      "id": "line-616",
       "start": 3505.2,
       "end": 3507.03,
       "text": "Ma chérie !",
       "translation": ""
     },
     {
-      "id": "line-622",
+      "id": "line-617",
       "start": 3529.01,
       "end": 3532.52,
       "text": "Ma chérie, arrête ! Qu'est-ce que tu fais ? Arrête-toi !",
       "translation": ""
     },
     {
-      "id": "line-623",
+      "id": "line-618",
       "start": 3542.86,
       "end": 3544.15,
       "text": "Stop !",
       "translation": ""
     },
     {
-      "id": "line-624",
+      "id": "line-619",
       "start": 3544.28,
       "end": 3547.78,
       "text": "Tu ne peux pas partir. S'il te plaît, j'ai besoin de toi ici.",
       "translation": ""
     },
     {
-      "id": "line-625",
+      "id": "line-620",
       "start": 3547.91,
       "end": 3548.78,
       "text": "Oh ! Non, non !",
       "translation": ""
     },
     {
-      "id": "line-626",
+      "id": "line-621",
       "start": 3548.87,
       "end": 3551.83,
       "text": "Non ! S'il vous plaît, laissez-moi le voir !",
       "translation": ""
     },
     {
-      "id": "line-627",
+      "id": "line-622",
       "start": 3552,
       "end": 3554.96,
       "text": "- C'est interdit d'entrer. - Qu'est-ce qu'il a ? Il va guérir ?",
       "translation": ""
     },
     {
-      "id": "line-628",
+      "id": "line-623",
       "start": 3563.42,
       "end": 3569.64,
       "text": "Donc... n'oublions pas, demain est un autre jour important.",
       "translation": ""
     },
     {
-      "id": "line-629",
+      "id": "line-624",
       "start": 3606.47,
       "end": 3608.76,
       "text": "L'aviateur a besoin de toi.",
       "translation": ""
     },
     {
-      "id": "line-630",
+      "id": "line-625",
       "start": 3610.93,
       "end": 3612.47,
       "text": "Et moi je vais te retrouver.",
       "translation": ""
     },
     {
-      "id": "line-631",
+      "id": "line-626",
       "start": 3701.52,
       "end": 3703.81,
       "text": "Tu sais piloter un avion, toi ?",
       "translation": ""
     },
     {
-      "id": "line-632",
+      "id": "line-627",
       "start": 3706.86,
       "end": 3709.4,
       "text": "Ouais. J'avais quelques doutes.",
       "translation": ""
     },
     {
-      "id": "line-633",
+      "id": "line-628",
       "start": 3710.36,
       "end": 3712.2,
       "text": "Ok. Bien...",
       "translation": ""
     },
     {
-      "id": "line-634",
+      "id": "line-629",
       "start": 3714.78,
       "end": 3722.21,
       "text": "Je crois que oui, je vais y arriver. Tiens. Garde-moi ça.",
       "translation": ""
     },
     {
-      "id": "line-635",
+      "id": "line-630",
       "start": 3802.37,
       "end": 3804.54,
       "text": "Ça y est. Je crois que j'ai pigé le truc.",
       "translation": ""
     },
     {
-      "id": "line-636",
+      "id": "line-631",
       "start": 3828.77,
       "end": 3829.65,
       "text": "Je te tiens !",
       "translation": ""
     },
     {
-      "id": "line-637",
+      "id": "line-632",
       "start": 3843.33,
       "end": 3844.75,
       "text": "Elles sont où les étoiles ?",
       "translation": ""
     },
     {
-      "id": "line-638",
+      "id": "line-633",
       "start": 3849.71,
       "end": 3851.17,
       "text": "C'est quoi, ça ?",
       "translation": ""
     },
     {
-      "id": "line-639",
+      "id": "line-634",
       "start": 3854.55,
       "end": 3855.63,
       "text": "Une étoile ?",
       "translation": ""
     },
     {
-      "id": "line-640",
+      "id": "line-635",
       "start": 3857.51,
       "end": 3861.01,
       "text": "Attends, mais ce n'est pas une étoile.",
       "translation": ""
     },
     {
-      "id": "line-641",
+      "id": "line-636",
       "start": 3887.08,
       "end": 3889.17,
       "text": "L'aviateur n'a jamais parlé de cet endroit.",
       "translation": ""
     },
     {
-      "id": "line-642",
+      "id": "line-637",
       "start": 3896.21,
       "end": 3897.85,
       "text": "Ce n'est pas possible !",
       "translation": ""
     },
     {
-      "id": "line-643",
+      "id": "line-638",
       "start": 3899.59,
       "end": 3901.37,
       "text": "C'est lui ! C'est lui !",
       "translation": ""
     },
     {
-      "id": "line-644",
+      "id": "line-639",
       "start": 3901.63,
       "end": 3903.89,
       "text": "Ça alors. Qu'est-ce qu'il fait là ?",
       "translation": ""
     },
     {
-      "id": "line-645",
+      "id": "line-640",
       "start": 3905.43,
       "end": 3906.85,
       "text": "Attache ta ceinture !",
       "translation": ""
     },
     {
-      "id": "line-646",
+      "id": "line-641",
       "start": 3921.78,
       "end": 3922.87,
       "text": "Il nous faut un passage.",
       "translation": ""
     },
     {
-      "id": "line-647",
+      "id": "line-642",
       "start": 3926.79,
       "end": 3928.54,
       "text": "Je crois que j'en vois un devant nous.",
       "translation": ""
     },
     {
-      "id": "line-648",
+      "id": "line-643",
       "start": 3935.46,
       "end": 3937,
       "text": "Prépare-toi pour l'atterrissage.",
       "translation": ""
     },
     {
-      "id": "line-649",
+      "id": "line-644",
       "start": 3942.72,
       "end": 3944.26,
       "text": "On est trop forts !",
       "translation": ""
     },
     {
-      "id": "line-650",
+      "id": "line-645",
       "start": 3967.58,
       "end": 3971.16,
       "text": "C'était pas si mal. Regarde ! Là-haut !",
       "translation": ""
     },
     {
-      "id": "line-651",
+      "id": "line-646",
       "start": 3985.3,
       "end": 3987.14,
       "text": "Descendez du véhicule !",
       "translation": ""
     },
     {
-      "id": "line-652",
+      "id": "line-647",
       "start": 3988.68,
       "end": 3991.14,
       "text": "J'ai dit descendez du véhicule !",
       "translation": ""
     },
     {
-      "id": "line-653",
+      "id": "line-648",
       "start": 3991.23,
       "end": 3993.81,
       "text": "Je vous prie de m'excuser, monsieur le policier, je peux tout vous expliquer...",
       "translation": ""
     },
     {
-      "id": "line-654",
+      "id": "line-649",
       "start": 3993.94,
       "end": 3996.02,
       "text": "Gardez les mains en l'air ! Bien visible !",
       "translation": ""
     },
     {
-      "id": "line-655",
+      "id": "line-650",
       "start": 4003.07,
       "end": 4005.91,
       "text": "Vitesse dangereuse. Changements de file dangereux.",
       "translation": ""
     },
     {
-      "id": "line-656",
+      "id": "line-651",
       "start": 4006.03,
       "end": 4007.03,
       "text": "Vous êtes dangereuse à tout les niveaux.",
       "translation": ""
     },
     {
-      "id": "line-657",
+      "id": "line-652",
       "start": 4007.2,
       "end": 4007.7,
       "text": "Quoi ?",
       "translation": ""
     },
     {
-      "id": "line-658",
+      "id": "line-653",
       "start": 4007.87,
       "end": 4009.41,
       "text": "Vous avez grillé plusieurs feux rouges.",
       "translation": ""
     },
     {
-      "id": "line-659",
+      "id": "line-654",
       "start": 4009.54,
       "end": 4010.54,
       "text": "S'il vous plaît. Je suis à la recherche d'un ami.",
       "translation": ""
     },
     {
-      "id": "line-660",
+      "id": "line-655",
       "start": 4010.62,
       "end": 4012.33,
       "text": "Destruction de propriété urbaine.",
       "translation": ""
     },
     {
-      "id": "line-661",
+      "id": "line-656",
       "start": 4012.54,
       "end": 4014.83,
       "text": "Il s'agit de l'ami d'un ami, on ne s'est encore jamais rencontrés.",
       "translation": ""
     },
     {
-      "id": "line-662",
+      "id": "line-657",
       "start": 4015.04,
       "end": 4017.88,
       "text": "Non usage des feux clignotants. d'ailleurs, pas clignotant du tout.",
       "translation": ""
     },
     {
-      "id": "line-663",
+      "id": "line-658",
       "start": 4018.04,
-      "end": 4019.88,
-      "text": "Je voulais juste l'attraper au vol et le ramener chez lui",
+      "end": 4020.9425,
+      "text": "Je voulais juste l'attraper au vol et le ramener chez lui Une tentative",
       "translation": ""
     },
     {
-      "id": "line-664",
-      "start": 4021.09,
+      "id": "line-659",
+      "start": 4020.9425,
       "end": 4024.13,
-      "text": "Une tentative d'enlèvement. Voilà qui agrave votre cas.",
+      "text": "d'enlèvement. Voilà qui agrave votre cas.",
       "translation": ""
     },
     {
-      "id": "line-665",
+      "id": "line-660",
       "start": 4024.34,
       "end": 4026.93,
       "text": "J'ajoute sur ma liste. Tentative d'enlèvement !",
       "translation": ""
     },
     {
-      "id": "line-666",
+      "id": "line-661",
       "start": 4028.6,
       "end": 4031.02,
       "text": "Attendez, ce n'est pas vous le...",
       "translation": ""
     },
     {
-      "id": "line-667",
+      "id": "line-662",
       "start": 4033.43,
       "end": 4034.19,
       "text": "Merci.",
       "translation": ""
     },
     {
-      "id": "line-668",
+      "id": "line-663",
       "start": 4035.52,
       "end": 4037.27,
       "text": "Le Vaniteux, c'est bien lui.",
       "translation": ""
     },
     {
-      "id": "line-669",
+      "id": "line-664",
       "start": 4038.15,
       "end": 4041.53,
       "text": "Insubordination envers un fonctionnaire de police dans l'exerce de ses fonctions",
       "translation": ""
     },
     {
-      "id": "line-670",
+      "id": "line-665",
       "start": 4041.69,
       "end": 4043.28,
       "text": "En l'occurrence ! Moi !",
       "translation": ""
     },
     {
-      "id": "line-671",
+      "id": "line-666",
       "start": 4043.99,
       "end": 4047.03,
       "text": "Attendez ! Pourquoi vous n'êtes pas sur votre planète ?",
       "translation": ""
     },
     {
-      "id": "line-672",
+      "id": "line-667",
       "start": 4051.29,
       "end": 4053.08,
       "text": "Vous... Pourquoi êtes-vous si petite ?",
       "translation": ""
     },
     {
-      "id": "line-673",
+      "id": "line-668",
       "start": 4053.29,
       "end": 4054.91,
       "text": "Parce que je suis une enfant.",
       "translation": ""
     },
     {
-      "id": "line-674",
+      "id": "line-669",
       "start": 4056.79,
       "end": 4059.29,
       "text": "Alors ça, ce n'est absolument pas autorisé ici !",
       "translation": ""
     },
     {
-      "id": "line-675",
+      "id": "line-670",
       "start": 4059.96,
       "end": 4061.25,
       "text": "Allez, viens !",
       "translation": ""
     },
     {
-      "id": "line-676",
+      "id": "line-671",
       "start": 4065.34,
       "end": 4065.84,
       "text": "Pas si vite !",
       "translation": ""
     },
     {
-      "id": "line-677",
+      "id": "line-672",
       "start": 4074.02,
       "end": 4078.56,
       "text": "Merci ! Merci beaucoup. C'est ça encore. D'accord. Continuez !",
       "translation": ""
     },
     {
-      "id": "line-678",
+      "id": "line-673",
       "start": 4088.66,
       "end": 4090.87,
       "text": "Il va nous falloir un déguisement.",
       "translation": ""
     },
     {
-      "id": "line-679",
+      "id": "line-674",
       "start": 4111.35,
       "end": 4112.22,
       "text": "Excusez-moi.",
       "translation": ""
     },
     {
-      "id": "line-680",
+      "id": "line-675",
       "start": 4112.43,
       "end": 4116.14,
       "text": "Pardon. Désolé, je peux passer, Monsieur ?",
       "translation": ""
     },
     {
-      "id": "line-681",
+      "id": "line-676",
       "start": 4117.43,
       "end": 4121.27,
       "text": "Ah, voici mes fidèles sujets ! Approchez !",
       "translation": ""
     },
     {
-      "id": "line-682",
+      "id": "line-677",
       "start": 4121.48,
       "end": 4123.02,
       "text": "Ce ne serait pas le roi ?",
       "translation": ""
     },
     {
-      "id": "line-683",
+      "id": "line-678",
       "start": 4123.94,
       "end": 4125.57,
       "text": "- 67ème. - Bien volontiers !",
       "translation": ""
     },
     {
-      "id": "line-684",
+      "id": "line-679",
       "start": 4125.69,
       "end": 4127.19,
       "text": "- 27ème. - Accordé !",
       "translation": ""
     },
     {
-      "id": "line-685",
+      "id": "line-680",
       "start": 4127.49,
       "end": 4128.7,
       "text": "- 14ème. - Certainement !",
       "translation": ""
     },
     {
-      "id": "line-686",
+      "id": "line-681",
       "start": 4128.78,
       "end": 4130.2,
       "text": "- 142ème. - Bien sûr !",
       "translation": ""
     },
     {
-      "id": "line-687",
+      "id": "line-682",
       "start": 4130.41,
       "end": 4132.03,
       "text": "- 34ème étage. - Avec joie.",
       "translation": ""
     },
     {
-      "id": "line-688",
+      "id": "line-683",
       "start": 4134.33,
       "end": 4135.74,
       "text": "Oh, non !",
       "translation": ""
     },
     {
-      "id": "line-689",
+      "id": "line-684",
       "start": 4138.5,
       "end": 4140.12,
       "text": "La terrasse, je vous prie.",
       "translation": ""
     },
     {
-      "id": "line-690",
+      "id": "line-685",
       "start": 4142.08,
       "end": 4143.84,
       "text": "La terrasse, dites-vous ?",
       "translation": ""
     },
     {
-      "id": "line-691",
+      "id": "line-686",
       "start": 4145.09,
       "end": 4147.84,
       "text": "Lorsque les conditions seront favorables...",
       "translation": ""
     },
     {
-      "id": "line-692",
+      "id": "line-687",
       "start": 4148.34,
       "end": 4149.88,
       "text": "Votre Majesté.",
       "translation": ""
     },
     {
-      "id": "line-693",
+      "id": "line-688",
       "start": 4151.76,
       "end": 4157.14,
       "text": "Et bien, les conditions sont favorables.",
       "translation": ""
     },
     {
-      "id": "line-694",
+      "id": "line-689",
       "start": 4160.1,
       "end": 4161.77,
       "text": "Je l'ordonne.",
       "translation": ""
     },
     {
-      "id": "line-695",
+      "id": "line-690",
       "start": 4184.75,
       "end": 4185.75,
       "text": "Le voilà !",
       "translation": ""
     },
     {
-      "id": "line-696",
+      "id": "line-691",
       "start": 4192.64,
       "end": 4194.6,
       "text": "Petit prince ? Petit prince ?",
       "translation": ""
     },
     {
-      "id": "line-697",
+      "id": "line-692",
       "start": 4195.35,
       "end": 4196.01,
       "text": "Quoi ?",
       "translation": ""
     },
     {
-      "id": "line-698",
+      "id": "line-693",
       "start": 4199.56,
       "end": 4200.77,
       "text": "- J'suis désolée. - Tout va bien.",
       "translation": ""
     },
     {
-      "id": "line-699",
+      "id": "line-694",
       "start": 4203.06,
       "end": 4204.36,
       "text": "Aïe, mon menton !",
       "translation": ""
     },
     {
-      "id": "line-700",
+      "id": "line-695",
       "start": 4204.48,
       "end": 4206.52,
       "text": "- Rien de cassé ? - Ça va, ça va...",
       "translation": ""
     },
     {
-      "id": "line-701",
+      "id": "line-696",
       "start": 4206.73,
       "end": 4210.57,
       "text": "Oui. Non. Je faisais juste une petite pause, c'est tout.",
       "translation": ""
     },
     {
-      "id": "line-702",
+      "id": "line-697",
       "start": 4210.99,
       "end": 4212.2,
       "text": "Je vous ai pris pour quelqu'un d'autre.",
       "translation": ""
     },
     {
-      "id": "line-703",
+      "id": "line-698",
       "start": 4212.86,
       "end": 4216.91,
       "text": "Ah oui ? C'est génial. C'est génial.",
       "translation": ""
     },
     {
-      "id": "line-704",
+      "id": "line-699",
       "start": 4217.58,
       "end": 4219.45,
       "text": "Vous n'allez pas me dénoncer ? Fini la pause.",
       "translation": ""
     },
     {
-      "id": "line-705",
+      "id": "line-700",
       "start": 4220.12,
       "end": 4221.96,
       "text": "Vous voyez ? Je rebosse.",
       "translation": ""
     },
     {
-      "id": "line-706",
+      "id": "line-701",
       "start": 4222.96,
       "end": 4224.5,
       "text": "Boulot, boulot, boulot !",
       "translation": ""
     },
     {
-      "id": "line-707",
+      "id": "line-702",
       "start": 4224.63,
       "end": 4226.04,
       "text": "Plus besoin de me dénoncer.",
       "translation": ""
     },
     {
-      "id": "line-708",
+      "id": "line-703",
       "start": 4226.96,
       "end": 4228.84,
       "text": "Je ne crois pas que ce soit lui.",
       "translation": ""
     },
     {
-      "id": "line-709",
+      "id": "line-704",
       "start": 4228.92,
       "end": 4230.76,
       "text": "On fait quoi maintenant ?",
       "translation": ""
     },
     {
-      "id": "line-710",
+      "id": "line-705",
       "start": 4233.76,
       "end": 4234.97,
       "text": "Monsieur Prince ?",
       "translation": ""
     },
     {
-      "id": "line-711",
+      "id": "line-706",
       "start": 4238.18,
       "end": 4241.35,
       "text": "C'est possible ? Excusez-moi.",
       "translation": ""
     },
     {
-      "id": "line-712",
+      "id": "line-707",
       "start": 4245.94,
       "end": 4247.36,
       "text": "Oh, mince !",
       "translation": ""
     },
     {
-      "id": "line-713",
+      "id": "line-708",
       "start": 4250.11,
       "end": 4251.94,
       "text": "Je crois que vous avez perdu ça.",
       "translation": ""
     },
     {
-      "id": "line-714",
+      "id": "line-709",
       "start": 4252.49,
       "end": 4253.78,
       "text": "Mon badge !",
       "translation": ""
     },
     {
-      "id": "line-715",
+      "id": "line-710",
       "start": 4254.78,
       "end": 4257.28,
       "text": "- C'est catastrophique. - C'est vraiment lui !",
       "translation": ""
     },
     {
-      "id": "line-716",
+      "id": "line-711",
       "start": 4258.08,
       "end": 4258.83,
       "text": "Permettez ?",
       "translation": ""
     },
     {
-      "id": "line-717",
+      "id": "line-712",
       "start": 4258.95,
       "end": 4260.49,
       "text": "Mais qu'est-ce qui vous est arrivé ?",
       "translation": ""
     },
     {
-      "id": "line-718",
+      "id": "line-713",
       "start": 4260.66,
       "end": 4261.75,
       "text": "Donnez-moi ça.",
       "translation": ""
     },
     {
-      "id": "line-719",
+      "id": "line-714",
       "start": 4261.91,
       "end": 4262.41,
       "text": "S'il vous plaît.",
       "translation": ""
     },
     {
-      "id": "line-720",
+      "id": "line-715",
       "start": 4262.5,
       "end": 4264.08,
       "text": "L'aviateur ne sera pas très content.",
       "translation": ""
     },
     {
-      "id": "line-721",
+      "id": "line-716",
       "start": 4264.62,
       "end": 4265.33,
       "text": "Donnez...",
       "translation": ""
     },
     {
-      "id": "line-722",
+      "id": "line-717",
       "start": 4265.46,
       "end": 4267.21,
       "text": "Vous n'étiez pas censé être comme ça...",
       "translation": ""
     },
     {
-      "id": "line-723",
+      "id": "line-718",
       "start": 4267.29,
       "end": 4270.46,
       "text": "Mais rendez-moi mon badge ! Merci beaucoup !",
       "translation": ""
     },
     {
-      "id": "line-724",
+      "id": "line-719",
       "start": 4272.72,
       "end": 4274.13,
       "text": "Ca se met comment déjà ce machin ?",
       "translation": ""
     },
     {
-      "id": "line-725",
+      "id": "line-720",
       "start": 4274.43,
       "end": 4275.43,
       "text": "Ah, voilà !",
       "translation": ""
     },
     {
-      "id": "line-726",
+      "id": "line-721",
       "start": 4275.63,
       "end": 4278.01,
       "text": "C'est que je bosse, moi ! Vous voyez, je suis essentiel.",
       "translation": ""
     },
     {
-      "id": "line-727",
+      "id": "line-722",
       "start": 4278.3,
       "end": 4280.6,
       "text": "- Attendez ! Stop ! - Non non non ! Ne me parlez pas !",
       "translation": ""
     },
     {
-      "id": "line-728",
+      "id": "line-723",
       "start": 4280.72,
       "end": 4282.02,
       "text": "Je sais qui vous êtes.",
       "translation": ""
     },
     {
-      "id": "line-729",
+      "id": "line-724",
       "start": 4282.27,
       "end": 4284.35,
       "text": "Vous êtes le petit prince et vous avez peur des baobabs !",
       "translation": ""
     },
     {
-      "id": "line-730",
+      "id": "line-725",
       "start": 4284.44,
       "end": 4286.94,
       "text": "Ah non. Je suis Monsieur Prince, le gars de la maintenance,",
       "translation": ""
     },
     {
-      "id": "line-731",
+      "id": "line-726",
       "start": 4287.06,
       "end": 4288.73,
       "text": "et s'il y en a un qui me fait peur, c'est Businessman.",
       "translation": ""
     },
     {
-      "id": "line-732",
+      "id": "line-727",
       "start": 4288.81,
       "end": 4290.69,
       "text": "Vous avez rencontré un aviateur dans le désert.",
       "translation": ""
     },
     {
-      "id": "line-733",
+      "id": "line-728",
       "start": 4290.86,
       "end": 4291.78,
       "text": "Il vous a dessiné un mouton !",
       "translation": ""
     },
     {
-      "id": "line-734",
+      "id": "line-729",
       "start": 4291.86,
       "end": 4292.65,
       "text": "Vous posez trop de questions !",
       "translation": ""
     },
     {
-      "id": "line-735",
+      "id": "line-730",
       "start": 4292.86,
       "end": 4295.07,
       "text": "Vous avez aussi voyagé avec une migration d'oiseaux sauvages.",
       "translation": ""
     },
     {
-      "id": "line-736",
+      "id": "line-731",
       "start": 4295.2,
       "end": 4297.41,
       "text": "Cassez-vous ! Excusez-moi ! Je suis très occupé.",
       "translation": ""
     },
     {
-      "id": "line-737",
+      "id": "line-732",
       "start": 4298.32,
       "end": 4300.95,
       "text": "Et apprivoisé un renard. Comme celui-ci.",
       "translation": ""
     },
     {
-      "id": "line-738",
+      "id": "line-733",
       "start": 4301.12,
       "end": 4302.2,
       "text": "Jamais eu d'animal de compagnie.",
       "translation": ""
     },
     {
-      "id": "line-739",
+      "id": "line-734",
       "start": 4302.41,
       "end": 4305.12,
       "text": "C'était pas un animal de compagnie, c'est un ami.",
       "translation": ""
     },
     {
-      "id": "line-740",
+      "id": "line-735",
       "start": 4306.04,
       "end": 4308.25,
       "text": "Vous croyez que j'ai le temps d'avoir des amis ?",
       "translation": ""
     },
     {
-      "id": "line-741",
+      "id": "line-736",
       "start": 4308.42,
       "end": 4310.71,
       "text": "Je travaille.",
       "translation": ""
     },
     {
-      "id": "line-742",
+      "id": "line-737",
       "start": 4311.71,
       "end": 4313.26,
       "text": "Non !",
       "translation": ""
     },
     {
-      "id": "line-743",
+      "id": "line-738",
       "start": 4314.38,
       "end": 4319.39,
       "text": "C'était ma dernière brosse. Maintenant je vais me faire virer.",
       "translation": ""
     },
     {
-      "id": "line-744",
+      "id": "line-739",
       "start": 4319.68,
       "end": 4322.72,
       "text": "C'était ma dernière chance. C'est trop injuste !",
       "translation": ""
     },
     {
-      "id": "line-745",
+      "id": "line-740",
       "start": 4322.93,
       "end": 4325.06,
       "text": "Je faisais mon boulot.",
       "translation": ""
     },
     {
-      "id": "line-746",
+      "id": "line-741",
       "start": 4325.35,
       "end": 4328.23,
       "text": "- Regardez, il y a une autre brosse. - Merci.",
       "translation": ""
     },
     {
-      "id": "line-747",
+      "id": "line-742",
       "start": 4328.56,
       "end": 4329.86,
       "text": "Bon allez, j'ai du boulot, moi.",
       "translation": ""
     },
     {
-      "id": "line-748",
+      "id": "line-743",
       "start": 4329.98,
       "end": 4331.48,
       "text": "- Attendez ! - C'est bon, là.",
       "translation": ""
     },
     {
-      "id": "line-749",
+      "id": "line-744",
       "start": 4331.69,
       "end": 4333.32,
       "text": "Vous êtes en train de ralentir ma productivité !",
       "translation": ""
     },
     {
-      "id": "line-750",
+      "id": "line-745",
       "start": 4333.44,
       "end": 4334.65,
       "text": "Vous aviez une rose !",
       "translation": ""
     },
     {
-      "id": "line-751",
+      "id": "line-746",
       "start": 4336.49,
       "end": 4337.28,
       "text": "Une quoi ?",
       "translation": ""
     },
     {
-      "id": "line-752",
+      "id": "line-747",
       "start": 4337.78,
       "end": 4340.82,
       "text": "Une rose. Et c'était une très belle rose.",
       "translation": ""
     },
     {
-      "id": "line-753",
+      "id": "line-748",
       "start": 4340.95,
       "end": 4343.06,
       "text": "Miraculeuse, même. Et cette rose,",
       "translation": ""
     },
     {
-      "id": "line-754",
+      "id": "line-749",
       "start": 4343.06,
       "end": 4344.33,
       "text": "elle était unique au monde.",
       "translation": ""
     },
     {
-      "id": "line-755",
+      "id": "line-750",
       "start": 4346.16,
       "end": 4348.33,
       "text": "Vous savez, j'en ai ras le bol d'entendre vos bêtises.",
       "translation": ""
     },
     {
-      "id": "line-756",
+      "id": "line-751",
       "start": 4348.54,
       "end": 4350.29,
       "text": "J'ai du boulot moi. Merci.",
       "translation": ""
     },
     {
-      "id": "line-757",
+      "id": "line-752",
       "start": 4350.38,
       "end": 4353.84,
       "text": "- Vous avez donc oublié ? Vous avez donc tout oublié !",
       "translation": ""
     },
     {
-      "id": "line-758",
+      "id": "line-753",
       "start": 4353.96,
       "end": 4355.3,
       "text": "Je suis très prispar des choses très sérieuses.",
       "translation": ""
     },
     {
-      "id": "line-759",
+      "id": "line-754",
       "start": 4355.42,
       "end": 4357.47,
       "text": "Vous êtes devenu un adulte comme les autres.",
       "translation": ""
     },
     {
-      "id": "line-760",
+      "id": "line-755",
       "start": 4357.63,
       "end": 4358.84,
       "text": "Lâchez ça !",
       "translation": ""
     },
     {
-      "id": "line-761",
+      "id": "line-756",
       "start": 4362.01,
       "end": 4362.89,
       "text": "Non !",
       "translation": ""
     },
     {
-      "id": "line-762",
+      "id": "line-757",
       "start": 4369.52,
       "end": 4372.69,
       "text": "Pourquoi vous avez fait ça ? Pourquoi vous avez...",
       "translation": ""
     },
     {
-      "id": "line-763",
+      "id": "line-758",
       "start": 4375.07,
       "end": 4376.61,
       "text": "Ce n'est pas grave, je vais pas pleurer.",
       "translation": ""
     },
     {
-      "id": "line-764",
+      "id": "line-759",
       "start": 4377.78,
       "end": 4380.32,
       "text": "Ça ne sert à rien de pleurer. Je suis un adulte. Un homme, ça pleure pas.",
       "translation": ""
     },
     {
-      "id": "line-765",
+      "id": "line-760",
       "start": 4383.16,
       "end": 4385.79,
       "text": "J'ai perdu mes brosses, ce n'est pas une raison pour pleurer.",
       "translation": ""
     },
     {
-      "id": "line-766",
+      "id": "line-761",
       "start": 4387.66,
       "end": 4389.29,
       "text": "Pleurer, ça ne sert à rien !",
       "translation": ""
     },
     {
-      "id": "line-767",
+      "id": "line-762",
       "start": 4398.01,
       "end": 4399.3,
       "text": "Soufflez là-dedans !",
       "translation": ""
     },
     {
-      "id": "line-768",
+      "id": "line-763",
       "start": 4404.18,
       "end": 4406.68,
       "text": "Mais pourquoi vous êtes si petite ?",
       "translation": ""
     },
     {
-      "id": "line-769",
+      "id": "line-764",
       "start": 4407.22,
       "end": 4408.48,
       "text": "Vous avez vraiment vieille ?",
       "translation": ""
     },
     {
-      "id": "line-770",
+      "id": "line-765",
       "start": 4408.64,
       "end": 4412.02,
       "text": "Quoi ? Non ! Je suis une enfant.",
       "translation": ""
     },
     {
-      "id": "line-771",
+      "id": "line-766",
       "start": 4412.23,
       "end": 4413.86,
       "text": "Comme vous êtes censé l'être.",
       "translation": ""
     },
     {
-      "id": "line-772",
+      "id": "line-767",
       "start": 4414.06,
       "end": 4415.82,
       "text": "Tu es une enfant ?",
       "translation": ""
     },
     {
-      "id": "line-773",
+      "id": "line-768",
       "start": 4417.19,
       "end": 4419.19,
       "text": "Les enfants sont décidément très étranges.",
       "translation": ""
     },
     {
-      "id": "line-774",
+      "id": "line-769",
       "start": 4420.28,
       "end": 4421.7,
       "text": "C'est mauvais signe.",
       "translation": ""
     },
     {
-      "id": "line-775",
+      "id": "line-770",
       "start": 4422.24,
       "end": 4424.12,
       "text": "Je crois que j'ai quelqu'un qui peut t'aider.",
       "translation": ""
     },
     {
-      "id": "line-776",
+      "id": "line-771",
       "start": 4427.95,
       "end": 4429.79,
       "text": "T'es sûr que c'est une bonne idée ?",
       "translation": ""
     },
     {
-      "id": "line-777",
+      "id": "line-772",
       "start": 4439.84,
       "end": 4443.8,
       "text": "Monsieur Prince. Que voilà une surprise plaisante !",
       "translation": ""
     },
     {
-      "id": "line-778",
+      "id": "line-773",
       "start": 4447.68,
       "end": 4449.52,
       "text": "Cette enfant aurait besoin de votre aide.",
       "translation": ""
     },
     {
-      "id": "line-779",
+      "id": "line-774",
       "start": 4450.06,
       "end": 4451.27,
       "text": "Voyez-vous ça !",
       "translation": ""
     },
     {
-      "id": "line-780",
+      "id": "line-775",
       "start": 4452.73,
-      "end": 4454.31,
-      "text": "Vous savez qu'ici, d'ordinaire,",
+      "end": 4455.748888888889,
+      "text": "Vous savez qu'ici, d'ordinaire, nous n'acceptons pas la présence",
       "translation": ""
     },
     {
-      "id": "line-781",
-      "start": 4454.39,
+      "id": "line-776",
+      "start": 4455.748888888889,
       "end": 4456.9,
-      "text": "nous n'acceptons pas la présence de ces petits chiens.",
+      "text": "de ces petits chiens.",
       "translation": ""
     },
     {
-      "id": "line-782",
+      "id": "line-777",
       "start": 4457.36,
       "end": 4460.86,
       "text": "Cependant , pour vous, nous voulons bien faire une exception à la règle.",
       "translation": ""
     },
     {
-      "id": "line-783",
+      "id": "line-778",
       "start": 4462.86,
       "end": 4466.7,
       "text": "Délicieuse ! Entrez ! Entrez donc !",
       "translation": ""
     },
     {
-      "id": "line-784",
+      "id": "line-779",
       "start": 4468.87,
       "end": 4471.58,
       "text": "Alors quoi de neuf ? Ça gazouille ?",
       "translation": ""
     },
     {
-      "id": "line-785",
+      "id": "line-780",
       "start": 4472.08,
       "end": 4473.79,
       "text": "J'adore mon boulot, ramoner c'est la santé !",
       "translation": ""
     },
     {
-      "id": "line-786",
+      "id": "line-781",
       "start": 4473.96,
       "end": 4475.71,
       "text": "Oui, formidable, formidable.",
       "translation": ""
     },
     {
-      "id": "line-787",
+      "id": "line-782",
       "start": 4484.97,
       "end": 4487.26,
       "text": "Toute chose qui n'est pas essentielle...",
       "translation": ""
     },
     {
-      "id": "line-788",
+      "id": "line-783",
       "start": 4487.43,
       "end": 4488.64,
       "text": "Doit devenir chose essentielle.",
       "translation": ""
     },
     {
-      "id": "line-789",
+      "id": "line-784",
       "start": 4488.72,
       "end": 4490.47,
       "text": "À la bonne heure, Monsieur Prince.",
       "translation": ""
     },
     {
-      "id": "line-790",
+      "id": "line-785",
       "start": 4494.14,
       "end": 4497.02,
       "text": "Voyez-vous, ce que le Businessman a créé ici est une chose",
       "translation": ""
     },
     {
-      "id": "line-791",
+      "id": "line-786",
       "start": 4497.11,
       "end": 4499.11,
       "text": "véritablement éblouissante.",
       "translation": ""
     },
     {
-      "id": "line-792",
+      "id": "line-787",
       "start": 4499.27,
       "end": 4502.11,
       "text": "Nous pourrions même qualifier cette création d'oeuvre d'art.",
       "translation": ""
     },
     {
-      "id": "line-793",
+      "id": "line-788",
       "start": 4502.78,
       "end": 4504.4,
       "text": "Naturellement, ce serait une erreur.",
       "translation": ""
     },
     {
-      "id": "line-794",
+      "id": "line-789",
       "start": 4504.95,
       "end": 4506.91,
       "text": "Une épouvantable erreur.",
       "translation": ""
     },
     {
-      "id": "line-795",
+      "id": "line-790",
       "start": 4507.74,
       "end": 4509.7,
       "text": "Non, non. Rien d'aussi vulgaire que cela.",
       "translation": ""
     },
     {
-      "id": "line-796",
+      "id": "line-791",
       "start": 4509.83,
       "end": 4510.83,
       "text": "Mon avion !",
       "translation": ""
     },
     {
-      "id": "line-797",
+      "id": "line-792",
       "start": 4510.95,
       "end": 4513.5,
       "text": "Il s'agit là d'un chef d'oeuvre bien plus important,",
       "translation": ""
     },
     {
-      "id": "line-798",
+      "id": "line-793",
       "start": 4513.58,
       "end": 4515.29,
       "text": "bien plus essentiel.",
       "translation": ""
     },
     {
-      "id": "line-799",
+      "id": "line-794",
       "start": 4516.96,
       "end": 4519.59,
       "text": "Non, attendez ! Comment tu as pu ?",
       "translation": ""
     },
     {
-      "id": "line-800",
+      "id": "line-795",
       "start": 4519.67,
       "end": 4520.92,
       "text": "Tu disais que tu m'aiderais.",
       "translation": ""
     },
     {
-      "id": "line-801",
+      "id": "line-796",
       "start": 4521,
       "end": 4522.84,
       "text": "C'est ce que je fais. C'est comme ça qu'ils m'ont aidé.",
       "translation": ""
     },
     {
-      "id": "line-802",
+      "id": "line-797",
       "start": 4525.88,
       "end": 4527,
-      "text": "Monsieur Prince  !",
+      "text": "Monsieur Prince !",
       "translation": ""
     },
     {
-      "id": "line-803",
+      "id": "line-798",
       "start": 4527.64,
       "end": 4530.81,
       "text": "Vous avez enfin réussi à accomplir une chose...",
       "translation": ""
     },
     {
-      "id": "line-804",
+      "id": "line-799",
       "start": 4532.27,
       "end": 4536.19,
-      "text": "Ainsi donc... Lâche-moi  ! saleté  !",
+      "text": "Ainsi donc... Lâche-moi ! saleté !",
       "translation": ""
     },
     {
-      "id": "line-805",
+      "id": "line-800",
       "start": 4536.4,
       "end": 4537.94,
-      "text": "Vous le direz au Businessman, d'accord  ?",
+      "text": "Vous le direz au Businessman, d'accord ?",
       "translation": ""
     },
     {
-      "id": "line-806",
+      "id": "line-801",
       "start": 4538.15,
       "end": 4539.11,
       "text": "Vous lui direz que j'étais essentiel.",
       "translation": ""
     },
     {
-      "id": "line-807",
+      "id": "line-802",
       "start": 4539.44,
       "end": 4541.94,
       "text": "Oui. bien sûr, bien sûr, je le lui dirai.",
       "translation": ""
     },
     {
-      "id": "line-808",
+      "id": "line-803",
       "start": 4544.11,
       "end": 4546.82,
       "text": "Le Businessman m'a parlé de ceci,",
       "translation": ""
     },
     {
-      "id": "line-809",
+      "id": "line-804",
       "start": 4546.99,
       "end": 4549.62,
       "text": "un document vous appartenant qui porterait la trace d'une certaine enfance.",
       "translation": ""
     },
     {
-      "id": "line-810",
+      "id": "line-805",
       "start": 4549.78,
       "end": 4550.99,
       "text": "Ce document est très important.",
       "translation": ""
     },
     {
-      "id": "line-811",
+      "id": "line-806",
       "start": 4551.28,
       "end": 4554.29,
-      "text": "Non  ! Il n'y a rien d'essentiel dans ces quelques feuilles.",
+      "text": "Non ! Il n'y a rien d'essentiel dans ces quelques feuilles.",
       "translation": ""
     },
     {
-      "id": "line-812",
+      "id": "line-807",
       "start": 4557.79,
       "end": 4561.17,
       "text": "Le temps est venu... de grandir.",
       "translation": ""
     },
     {
-      "id": "line-813",
+      "id": "line-808",
       "start": 4561.42,
       "end": 4563.17,
       "text": "Le guide essentiel de ce qui est essentiel",
       "translation": ""
     },
     {
-      "id": "line-814",
+      "id": "line-809",
       "start": 4565.97,
       "end": 4568.8,
-      "text": "Comment tout ce qui est essentiel pourrait tenir dans un seul livre  ?",
+      "text": "Comment tout ce qui est essentiel pourrait tenir dans un seul livre ?",
       "translation": ""
     },
     {
-      "id": "line-815",
+      "id": "line-810",
       "start": 4569.05,
       "end": 4573.1,
       "text": "Un ouvrage remarquablement concis. A simple interligne.",
       "translation": ""
     },
     {
-      "id": "line-816",
+      "id": "line-811",
       "start": 4573.85,
       "end": 4576.35,
       "text": "Je fais quoi ? Vous voulez que je lise et relise ce livre encore et encore",
       "translation": ""
     },
     {
-      "id": "line-817",
+      "id": "line-812",
       "start": 4576.56,
       "end": 4578.1,
-      "text": "jusqu'à ce que je sois vieille ?",
+      "text": "jusqu'à ce que je sois vieille ?",
       "translation": ""
     },
     {
-      "id": "line-818",
+      "id": "line-813",
       "start": 4578.23,
       "end": 4579.65,
-      "text": "Non, rien de tel  !",
+      "text": "Non, rien de tel !",
       "translation": ""
     },
     {
-      "id": "line-819",
+      "id": "line-814",
       "start": 4580.02,
       "end": 4584.65,
       "text": "Ici, nous appliquons une méthode d'accélération du processus de croissance.",
       "translation": ""
     },
     {
-      "id": "line-820",
+      "id": "line-815",
       "start": 4587.65,
       "end": 4589.74,
-      "text": "N'est-ce pas exact, Monsieur Prince  !",
+      "text": "N'est-ce pas exact, Monsieur Prince !",
       "translation": ""
     },
     {
-      "id": "line-821",
+      "id": "line-816",
       "start": 4590.07,
       "end": 4591.83,
-      "text": "Aucune importance  !",
+      "text": "Aucune importance !",
       "translation": ""
     },
     {
-      "id": "line-822",
+      "id": "line-817",
       "start": 4591.95,
       "end": 4593.37,
-      "text": "Regardez ces yeux vides  !",
+      "text": "Regardez ces yeux vides !",
       "translation": ""
     },
     {
-      "id": "line-823",
+      "id": "line-818",
       "start": 4593.62,
       "end": 4595.66,
-      "text": "Vous avez tout oublié, n'est-ce pas  ?",
+      "text": "Vous avez tout oublié, n'est-ce pas ?",
       "translation": ""
     },
     {
-      "id": "line-824",
+      "id": "line-819",
       "start": 4602.54,
       "end": 4604.71,
       "text": "Vous ne sentirez qu'un léger pincement.",
       "translation": ""
     },
     {
-      "id": "line-825",
+      "id": "line-820",
       "start": 4604.96,
       "end": 4606.26,
-      "text": "Détendez-vous  !",
+      "text": "Détendez-vous !",
       "translation": ""
     },
     {
-      "id": "line-826",
+      "id": "line-821",
       "start": 4607.05,
       "end": 4608.34,
       "text": "Veuillez signer ici.",
       "translation": ""
     },
     {
-      "id": "line-827",
+      "id": "line-822",
       "start": 4608.51,
       "end": 4610.26,
       "text": "Simple formalité pour me décharger moi",
       "translation": ""
     },
     {
-      "id": "line-828",
+      "id": "line-823",
       "start": 4610.39,
       "end": 4611.68,
       "text": "- le Businessman et le Groupe - Au secours !",
       "translation": ""
     },
     {
-      "id": "line-829",
+      "id": "line-824",
       "start": 4612.3,
       "end": 4614.06,
       "text": "de toute responsabilité en cas de décès",
       "translation": ""
     },
     {
-      "id": "line-830",
+      "id": "line-825",
       "start": 4614.22,
-      "end": 4615.77,
-      "text": "accidentel ou de mutilation",
-      "translation": ""
-    },
-    {
-      "id": "line-831",
-      "start": 4615.85,
       "end": 4617.39,
-      "text": "survenus lors du processus d'essentialisation.",
+      "text": "accidentel ou de mutilation survenus lors du processus d'essentialisation.",
       "translation": ""
     },
     {
-      "id": "line-832",
+      "id": "line-826",
       "start": 4617.48,
       "end": 4618.27,
-      "text": "Bien  !",
+      "text": "Bien !",
       "translation": ""
     },
     {
-      "id": "line-833",
+      "id": "line-827",
       "start": 4618.48,
       "end": 4619.81,
       "text": "Si je fais tout ça, c'est pour toi !",
       "translation": ""
     },
     {
-      "id": "line-834",
+      "id": "line-828",
       "start": 4619.9,
       "end": 4622.11,
       "text": "Vous allez devenir une adulte formidable.",
       "translation": ""
     },
     {
-      "id": "line-835",
+      "id": "line-829",
       "start": 4625.28,
       "end": 4626.74,
-      "text": "N'y touchez pas  !",
+      "text": "N'y touchez pas !",
       "translation": ""
     },
     {
-      "id": "line-836",
+      "id": "line-830",
       "start": 4629.24,
       "end": 4630.99,
-      "text": "J'ai dit n'y touchez pas  !",
+      "text": "J'ai dit n'y touchez pas !",
       "translation": ""
     },
     {
-      "id": "line-837",
+      "id": "line-831",
       "start": 4631.7,
       "end": 4634.24,
       "text": "Ne faites pas l'enfant, Monsieur Prince.",
       "translation": ""
     },
     {
-      "id": "line-838",
+      "id": "line-832",
       "start": 4634.45,
       "end": 4637.29,
       "text": "N'oubliez pas que vous êtes diplômé de ma classe.",
       "translation": ""
     },
     {
-      "id": "line-839",
+      "id": "line-833",
       "start": 4639.41,
       "end": 4641.5,
-      "text": "Arrêtez  ! À quoi jouez-vous  ?",
+      "text": "Arrêtez ! À quoi jouez-vous ?",
       "translation": ""
     },
     {
-      "id": "line-840",
+      "id": "line-834",
       "start": 4647.59,
       "end": 4650.13,
       "text": "Regagnez votre chaise, je vous prie !",
       "translation": ""
     },
     {
-      "id": "line-841",
+      "id": "line-835",
       "start": 4658.89,
       "end": 4660.64,
       "text": "Je n'ai pas réfléchi sur le coup.",
       "translation": ""
     },
     {
-      "id": "line-842",
+      "id": "line-836",
       "start": 4660.89,
       "end": 4663.73,
       "text": "Le Businessman va être super super déçu de moi.",
       "translation": ""
     },
     {
-      "id": "line-843",
+      "id": "line-837",
       "start": 4664.15,
       "end": 4666.78,
-      "text": "Merci. Mais pourquoi  ?",
+      "text": "Merci. Mais pourquoi ?",
       "translation": ""
     },
     {
-      "id": "line-844",
+      "id": "line-838",
       "start": 4667.9,
-      "end": 4668.95,
-      "text": "Je n'ai jamais su ce que c'était,",
+      "end": 4669.7266666666665,
+      "text": "Je n'ai jamais su ce que c'était, je ne sais",
       "translation": ""
     },
     {
-      "id": "line-845",
-      "start": 4669.61,
-      "end": 4671.28,
-      "text": "je ne sais même pas d'où ça vient mais",
+      "id": "line-839",
+      "start": 4669.7266666666665,
+      "end": 4671.99,
+      "text": "même pas d'où ça vient mais je me suis",
       "translation": ""
     },
     {
-      "id": "line-846",
-      "start": 4671.45,
+      "id": "line-840",
+      "start": 4671.99,
       "end": 4673.41,
-      "text": "je me suis dit que ça pouvait être important.",
+      "text": "dit que ça pouvait être important.",
       "translation": ""
     },
     {
-      "id": "line-847",
+      "id": "line-841",
       "start": 4674.03,
       "end": 4675.91,
-      "text": "- Ton mouton  ! - Mon mouton  ?",
+      "text": "- Ton mouton ! - Mon mouton ?",
       "translation": ""
     },
     {
-      "id": "line-848",
+      "id": "line-842",
       "start": 4678.04,
       "end": 4679.41,
-      "text": "C'est quoi ce délire  ?",
+      "text": "C'est quoi ce délire ?",
       "translation": ""
     },
     {
-      "id": "line-849",
+      "id": "line-843",
       "start": 4679.54,
       "end": 4681.08,
       "text": "C'est l'aviateur qui te l'as donné.",
       "translation": ""
     },
     {
-      "id": "line-850",
+      "id": "line-844",
       "start": 4681.16,
       "end": 4682.58,
-      "text": "Dans le désert  ! Sur la Terre  !",
+      "text": "Dans le désert ! Sur la Terre !",
       "translation": ""
     },
     {
-      "id": "line-851",
+      "id": "line-845",
       "start": 4682.75,
       "end": 4684.92,
       "text": "- Pour manger les baobabs. - C'est catastrophique.",
       "translation": ""
     },
     {
-      "id": "line-852",
+      "id": "line-846",
       "start": 4685.09,
       "end": 4687.34,
-      "text": "Catastrophique. Exactement  !",
+      "text": "Catastrophique. Exactement !",
       "translation": ""
     },
     {
-      "id": "line-853",
+      "id": "line-847",
       "start": 4687.8,
       "end": 4689.97,
       "text": "C'est l'aviateur qui a fait tous ces dessins pour toi.",
       "translation": ""
     },
     {
-      "id": "line-854",
+      "id": "line-848",
       "start": 4690.3,
       "end": 4691.97,
       "text": "Et maintenant, il a besoin de toi.",
       "translation": ""
     },
     {
-      "id": "line-855",
+      "id": "line-849",
       "start": 4692.13,
       "end": 4694.97,
-      "text": "De moi ? Il a besoin de moi ?",
+      "text": "De moi ? Il a besoin de moi ?",
       "translation": ""
     },
     {
-      "id": "line-856",
+      "id": "line-850",
       "start": 4697.6,
       "end": 4701.98,
       "text": "Grandir n'est pas tellement ça le problème. Le problème, c'est l'oublier.",
       "translation": ""
     },
     {
-      "id": "line-857",
+      "id": "line-851",
       "start": 4705.77,
       "end": 4708.73,
       "text": "J'ai une idée. Il va juste falloir...",
       "translation": ""
     },
     {
-      "id": "line-858",
+      "id": "line-852",
       "start": 4708.94,
       "end": 4709.82,
-      "text": "Mon avion !",
+      "text": "Mon avion !",
       "translation": ""
     },
     {
-      "id": "line-859",
+      "id": "line-853",
       "start": 4713.49,
       "end": 4715.03,
-      "text": "Il est là, regarde !",
+      "text": "Il est là, regarde !",
       "translation": ""
     },
     {
-      "id": "line-860",
+      "id": "line-854",
       "start": 4715.2,
       "end": 4716.62,
       "text": "C'est bon, ça va.",
       "translation": ""
     },
     {
-      "id": "line-861",
+      "id": "line-855",
       "start": 4723.67,
       "end": 4724.75,
-      "text": "Allez vite  !",
+      "text": "Allez vite !",
       "translation": ""
     },
     {
-      "id": "line-862",
+      "id": "line-856",
       "start": 4751.61,
       "end": 4753.15,
-      "text": "On a réussi  !",
+      "text": "On a réussi !",
       "translation": ""
     },
     {
-      "id": "line-863",
+      "id": "line-857",
       "start": 4758.28,
       "end": 4759.37,
-      "text": "Oh non !",
+      "text": "Oh non !",
       "translation": ""
     },
     {
-      "id": "line-864",
+      "id": "line-858",
       "start": 4764.66,
       "end": 4765.83,
-      "text": "Quel bouton  ?",
+      "text": "Quel bouton ?",
       "translation": ""
     },
     {
-      "id": "line-865",
+      "id": "line-859",
       "start": 4800.7,
       "end": 4801.83,
-      "text": "Yes  !",
+      "text": "Yes !",
       "translation": ""
     },
     {
-      "id": "line-866",
+      "id": "line-860",
       "start": 4803.37,
       "end": 4805.25,
       "text": "On le récupère en haut de la prochaine pile.",
       "translation": ""
     },
     {
-      "id": "line-867",
+      "id": "line-861",
       "start": 4806.25,
       "end": 4808,
-      "text": "Attends  ! Où est M. Prince  ?",
+      "text": "Attends ! Où est M. Prince ?",
       "translation": ""
     },
     {
-      "id": "line-868",
+      "id": "line-862",
       "start": 4819.59,
       "end": 4820.89,
       "text": "Je me souviens de ces choses-là.",
       "translation": ""
     },
     {
-      "id": "line-869",
+      "id": "line-863",
       "start": 4822.1,
       "end": 4823.52,
       "text": "Les étoiles.",
       "translation": ""
     },
     {
-      "id": "line-870",
+      "id": "line-864",
       "start": 4823.93,
       "end": 4825.39,
-      "text": "Qu'est-ce qu'elles font toutes là  ?",
+      "text": "Qu'est-ce qu'elles font toutes là ?",
       "translation": ""
     },
     {
-      "id": "line-871",
+      "id": "line-865",
       "start": 4831.9,
       "end": 4835.07,
       "text": "Regarde les étoiles, regarde comme elles sont belles...",
       "translation": ""
     },
     {
-      "id": "line-872",
+      "id": "line-866",
       "start": 4835.28,
       "end": 4840.07,
       "text": "Si les étoiles sont belles, c'est grâce à une fleur qu'on ne peut pas voir.",
       "translation": ""
     },
     {
-      "id": "line-873",
+      "id": "line-867",
       "start": 4841.37,
       "end": 4844.54,
-      "text": "Grâce à une fleur qu'on ne peut pas voir  ?",
+      "text": "Grâce à une fleur qu'on ne peut pas voir ?",
       "translation": ""
     },
     {
-      "id": "line-874",
+      "id": "line-868",
       "start": 4844.7,
       "end": 4849.12,
-      "text": "- Ta rose  ! - J'ai une rose.",
+      "text": "- Ta rose ! - J'ai une rose.",
       "translation": ""
     },
     {
-      "id": "line-875",
+      "id": "line-869",
       "start": 4849.37,
       "end": 4851.54,
       "text": "Je vois que vous avez trouvé ma collection.",
       "translation": ""
     },
     {
-      "id": "line-876",
+      "id": "line-870",
       "start": 4852.04,
       "end": 4857.76,
       "text": "501 622 731 étoiles.",
       "translation": ""
     },
     {
-      "id": "line-877",
+      "id": "line-871",
       "start": 4858.22,
       "end": 4860.64,
-      "text": "C'est vous, c'est vous qui avez fait ça  ?",
+      "text": "C'est vous, c'est vous qui avez fait ça ?",
       "translation": ""
     },
     {
-      "id": "line-878",
+      "id": "line-872",
       "start": 4860.8,
       "end": 4862.89,
       "text": "Mais vous deviez juste compter les étoiles.",
       "translation": ""
     },
     {
-      "id": "line-879",
+      "id": "line-873",
       "start": 4862.97,
       "end": 4865.18,
       "text": "Les posséder. Dis-le avec moi.",
       "translation": ""
     },
     {
-      "id": "line-880",
+      "id": "line-874",
       "start": 4865.27,
       "end": 4867.68,
       "text": "Posséder. Je possède les étoiles.",
       "translation": ""
     },
     {
-      "id": "line-881",
+      "id": "line-875",
       "start": 4870.19,
       "end": 4871.94,
       "text": "Merci. Merci beaucoup.",
       "translation": ""
     },
     {
-      "id": "line-882",
+      "id": "line-876",
       "start": 4873.36,
       "end": 4877.15,
       "text": "Elles qui n'étaient jusqu'ici que de simples petits objets dorés dans le ciel...",
       "translation": ""
     },
     {
-      "id": "line-883",
+      "id": "line-877",
       "start": 4877.32,
       "end": 4880.91,
       "text": "elles qui faisaient oisivement rêvasser les paresseux...",
       "translation": ""
     },
     {
-      "id": "line-884",
+      "id": "line-878",
       "start": 4881.07,
       "end": 4885.41,
       "text": "Aujourd'hui les étoiles sont finalement devenues des choses essentielles.",
       "translation": ""
     },
     {
-      "id": "line-885",
+      "id": "line-879",
       "start": 4885.74,
       "end": 4887.83,
-      "text": "D'où vous sortez ça  ?",
+      "text": "D'où vous sortez ça ?",
       "translation": ""
     },
     {
-      "id": "line-886",
+      "id": "line-880",
       "start": 4889.41,
       "end": 4893.21,
       "text": "Elle est curieuse. Une de ces étranges caractéristiques de l'enfance.",
       "translation": ""
     },
     {
-      "id": "line-887",
+      "id": "line-881",
       "start": 4895.92,
       "end": 4897.01,
-      "text": "Oh non  !",
+      "text": "Oh non !",
       "translation": ""
     },
     {
-      "id": "line-888",
+      "id": "line-882",
       "start": 4897.3,
       "end": 4898.42,
       "text": "Merci beaucoup.",
       "translation": ""
     },
     {
-      "id": "line-889",
+      "id": "line-883",
       "start": 4898.51,
       "end": 4900.26,
-      "text": "C'est bon, ça va, ça suffit  !",
+      "text": "C'est bon, ça va, ça suffit !",
       "translation": ""
     },
     {
-      "id": "line-890",
+      "id": "line-884",
       "start": 4900.72,
       "end": 4901.93,
-      "text": "- Merci beaucoup. - J'ai dit assez  !",
+      "text": "- Merci beaucoup. - J'ai dit assez !",
       "translation": ""
     },
     {
-      "id": "line-891",
+      "id": "line-885",
       "start": 4902.68,
       "end": 4904.35,
-      "text": "Ça suffit  !",
+      "text": "Ça suffit !",
       "translation": ""
     },
     {
-      "id": "line-892",
+      "id": "line-886",
       "start": 4906.72,
       "end": 4909.35,
-      "text": "Vous espérez en faire quoi de toutes ces étoiles  ?",
+      "text": "Vous espérez en faire quoi de toutes ces étoiles ?",
       "translation": ""
     },
     {
-      "id": "line-893",
+      "id": "line-887",
       "start": 4909.56,
       "end": 4911.94,
       "text": "Ne t'inquiète donc pas, ma jolie fillette.",
       "translation": ""
     },
     {
-      "id": "line-894",
+      "id": "line-888",
       "start": 4912.15,
       "end": 4914.44,
       "text": "Je vais toutes les mettre à très bon usage.",
       "translation": ""
     },
     {
-      "id": "line-895",
+      "id": "line-889",
       "start": 4932.96,
       "end": 4934.58,
-      "text": "Voilà... vous voyez  ?",
+      "text": "Voilà... vous voyez ?",
       "translation": ""
     },
     {
-      "id": "line-896",
+      "id": "line-890",
       "start": 4934.75,
       "end": 4937.84,
       "text": "Le non-essentiel est devenu parfaitement essentiel.",
       "translation": ""
     },
     {
-      "id": "line-897",
+      "id": "line-891",
       "start": 4938.13,
       "end": 4940.84,
       "text": "Comme cela devrait être pour chaque chose.",
       "translation": ""
     },
     {
-      "id": "line-898",
+      "id": "line-892",
       "start": 4941.13,
       "end": 4943.97,
-      "text": "Ramenez-la dans la classe. Et que personne ne s'immisce  !",
+      "text": "Ramenez-la dans la classe. Et que personne ne s'immisce !",
       "translation": ""
     },
     {
-      "id": "line-899",
+      "id": "line-893",
       "start": 4944.8,
       "end": 4946.64,
-      "text": "Non ! Lâchez-moi  !",
+      "text": "Non ! Lâchez-moi !",
       "translation": ""
     },
     {
-      "id": "line-900",
+      "id": "line-894",
       "start": 4946.89,
       "end": 4947.76,
-      "text": "Arrête  !",
+      "text": "Arrête !",
       "translation": ""
     },
     {
-      "id": "line-901",
+      "id": "line-895",
       "start": 4948.01,
       "end": 4949.56,
-      "text": "Fais quelque chose, les laisse pas  !",
+      "text": "Fais quelque chose, les laisse pas !",
       "translation": ""
     },
     {
-      "id": "line-902",
+      "id": "line-896",
       "start": 4949.77,
       "end": 4951.06,
       "text": "J'ai dit ça suffit.",
       "translation": ""
     },
     {
-      "id": "line-903",
+      "id": "line-897",
       "start": 4951.48,
       "end": 4952.98,
-      "text": "- Attendez  ! - Comment ça attendez  ?",
+      "text": "- Attendez ! - Comment ça attendez ?",
       "translation": ""
     },
     {
-      "id": "line-904",
+      "id": "line-898",
       "start": 4953.9,
       "end": 4956.52,
       "text": "Je vous ai octroyé 371 emplois",
       "translation": ""
     },
     {
-      "id": "line-905",
+      "id": "line-899",
       "start": 4956.65,
       "end": 4959.69,
       "text": "et en vous a viré de 370 d'entre eux.",
       "translation": ""
     },
     {
-      "id": "line-906",
+      "id": "line-900",
       "start": 4959.9,
       "end": 4963.7,
       "text": "Je crois qu'il est temps pour vous de remettre au travail, mon petit raté.",
       "translation": ""
     },
     {
-      "id": "line-907",
+      "id": "line-901",
       "start": 4964.41,
       "end": 4966.53,
-      "text": "Non, laissez-le  !",
+      "text": "Non, laissez-le !",
       "translation": ""
     },
     {
-      "id": "line-908",
+      "id": "line-902",
       "start": 4966.78,
       "end": 4967.87,
-      "text": "Arrête de gigoter  !",
+      "text": "Arrête de gigoter !",
       "translation": ""
     },
     {
-      "id": "line-909",
+      "id": "line-903",
       "start": 4969.08,
       "end": 4971.91,
-      "text": "Stop  ! Lachez-la tout de suite  !",
+      "text": "Stop ! Lachez-la tout de suite !",
       "translation": ""
     },
     {
-      "id": "line-910",
+      "id": "line-904",
       "start": 4972.08,
       "end": 4973.71,
-      "text": "Quoi... stop  ?",
+      "text": "Quoi... stop ?",
       "translation": ""
     },
     {
-      "id": "line-911",
+      "id": "line-905",
       "start": 4974.25,
       "end": 4975.88,
       "text": "Je ne suis pas un raté.",
       "translation": ""
     },
     {
-      "id": "line-912",
+      "id": "line-906",
       "start": 4976.04,
       "end": 4978.34,
       "text": "Je suis le petit prince.",
       "translation": ""
     },
     {
-      "id": "line-913",
+      "id": "line-907",
       "start": 4979.05,
       "end": 4982.97,
-      "text": "Quoi  ? Que'est-ce qu'il dit ? Il dit qu'il est petit  ?",
+      "text": "Quoi ? Que'est-ce qu'il dit ? Il dit qu'il est petit ?",
       "translation": ""
     },
     {
-      "id": "line-914",
+      "id": "line-908",
       "start": 4983.47,
       "end": 4985.34,
-      "text": "Et il dit qu'il est un prince  !",
+      "text": "Et il dit qu'il est un prince !",
       "translation": ""
     },
     {
-      "id": "line-915",
+      "id": "line-909",
       "start": 4988.72,
       "end": 4990.14,
-      "text": "C'est merveilleux  !",
+      "text": "C'est merveilleux !",
       "translation": ""
     },
     {
-      "id": "line-916",
+      "id": "line-910",
       "start": 4990.35,
       "end": 4992.64,
-      "text": "Regarde-moi  ! Et moi je suis le bourdon.",
+      "text": "Regarde-moi ! Et moi je suis le bourdon.",
       "translation": ""
     },
     {
-      "id": "line-917",
+      "id": "line-911",
       "start": 4993.02,
       "end": 4994.89,
-      "text": "Et vous, vous êtes le canard  ?",
+      "text": "Et vous, vous êtes le canard ?",
       "translation": ""
     },
     {
-      "id": "line-918",
+      "id": "line-912",
       "start": 5000.73,
       "end": 5002.03,
       "text": "Un cas désespéré.",
       "translation": ""
     },
     {
-      "id": "line-919",
+      "id": "line-913",
       "start": 5003.32,
       "end": 5004.95,
       "text": "Je ne suis pas désespéré.",
       "translation": ""
     },
     {
-      "id": "line-920",
+      "id": "line-914",
       "start": 5005.45,
       "end": 5006.95,
       "text": "Je suis plein d'espoir.",
       "translation": ""
     },
     {
-      "id": "line-921",
+      "id": "line-915",
       "start": 5007.41,
       "end": 5009.83,
-      "text": "C'est ça, oui  ! Je suis plein d'espoir.",
+      "text": "C'est ça, oui ! Je suis plein d'espoir.",
       "translation": ""
     },
     {
-      "id": "line-922",
+      "id": "line-916",
       "start": 5010.58,
       "end": 5012.25,
       "text": "Et j'aime une rose.",
       "translation": ""
     },
     {
-      "id": "line-923",
+      "id": "line-917",
       "start": 5012.45,
       "end": 5015,
-      "text": "Et elle m'aime aussi et elle n'attend que moi  !",
+      "text": "Et elle m'aime aussi et elle n'attend que moi !",
       "translation": ""
     },
     {
-      "id": "line-924",
+      "id": "line-918",
       "start": 5015.12,
       "end": 5018.42,
       "text": "Donc... je crois bien que j'ai plus envie de bosser pour vous.",
       "translation": ""
     },
     {
-      "id": "line-925",
+      "id": "line-919",
       "start": 5019.04,
       "end": 5020.17,
       "text": "Et...",
       "translation": ""
     },
     {
-      "id": "line-926",
+      "id": "line-920",
       "start": 5021.46,
       "end": 5022.88,
-      "text": "je démissionne  !",
+      "text": "je démissionne !",
       "translation": ""
     },
     {
-      "id": "line-927",
+      "id": "line-921",
       "start": 5027.05,
       "end": 5028.39,
-      "text": "Je me casse  !",
+      "text": "Je me casse !",
       "translation": ""
     },
     {
-      "id": "line-928",
+      "id": "line-922",
       "start": 5035.6,
       "end": 5036.64,
-      "text": "Cette pile-là  !",
+      "text": "Cette pile-là !",
       "translation": ""
     },
     {
-      "id": "line-929",
+      "id": "line-923",
       "start": 5041.52,
       "end": 5044.82,
-      "text": "Mais bon sang ! Quand est-ce que tu vas oublier d'être un enfant  ?",
+      "text": "Mais bon sang ! Quand est-ce que tu vas oublier d'être un enfant ?",
       "translation": ""
     },
     {
-      "id": "line-930",
+      "id": "line-924",
       "start": 5045.57,
       "end": 5046.65,
-      "text": "Jamais  !",
+      "text": "Jamais !",
       "translation": ""
     },
     {
-      "id": "line-931",
+      "id": "line-925",
       "start": 5049.41,
       "end": 5050.7,
-      "text": "Oh, pardon, M. Prince  !",
+      "text": "Oh, pardon, M. Prince !",
       "translation": ""
     },
     {
-      "id": "line-932",
+      "id": "line-926",
       "start": 5050.91,
       "end": 5054.45,
       "text": "Non non. C'est ma faute. Je n'avais pas mis ma tête au bon endroit.",
       "translation": ""
     },
     {
-      "id": "line-933",
+      "id": "line-927",
       "start": 5069.76,
       "end": 5070.89,
       "text": "J'ai peur.",
       "translation": ""
     },
     {
-      "id": "line-934",
+      "id": "line-928",
       "start": 5087.4,
       "end": 5088.95,
-      "text": "Accroche-toi  !",
+      "text": "Accroche-toi !",
       "translation": ""
     },
     {
-      "id": "line-935",
+      "id": "line-929",
       "start": 5099.87,
       "end": 5100.96,
       "text": "Tiens bon. Je reviens.",
       "translation": ""
     },
     {
-      "id": "line-936",
+      "id": "line-930",
       "start": 5101.08,
       "end": 5102.42,
-      "text": "Tu vas où  ? Tu fais quoi  ?",
+      "text": "Tu vas où ? Tu fais quoi ?",
       "translation": ""
     },
     {
-      "id": "line-937",
+      "id": "line-931",
       "start": 5102.59,
       "end": 5104.34,
-      "text": "Pourquoi tu... Attends... euh... où tu vas  ?",
+      "text": "Pourquoi tu... Attends... euh... où tu vas ?",
       "translation": ""
     },
     {
-      "id": "line-938",
+      "id": "line-932",
       "start": 5105.96,
       "end": 5107.17,
-      "text": "Ça, c'est pas bon  !",
+      "text": "Ça, c'est pas bon !",
       "translation": ""
     },
     {
-      "id": "line-939",
+      "id": "line-933",
       "start": 5115.39,
       "end": 5118.77,
-      "text": "Je vais grandir, mais je ne serai jamais une adulte comme vous  !",
+      "text": "Je vais grandir, mais je ne serai jamais une adulte comme vous !",
       "translation": ""
     },
     {
-      "id": "line-940",
+      "id": "line-934",
       "start": 5132.16,
       "end": 5133.58,
-      "text": "WOW  !",
+      "text": "WOW !",
       "translation": ""
     },
     {
-      "id": "line-941",
+      "id": "line-935",
       "start": 5150.55,
       "end": 5151.51,
-      "text": "Oh non  !",
+      "text": "Oh non !",
       "translation": ""
     },
     {
-      "id": "line-942",
+      "id": "line-936",
       "start": 5159.14,
       "end": 5160.23,
       "text": "Je te tiens.",
       "translation": ""
     },
     {
-      "id": "line-943",
+      "id": "line-937",
       "start": 5170.36,
       "end": 5171.15,
-      "text": "Toi aussi je te tiens !",
+      "text": "Toi aussi je te tiens !",
       "translation": ""
     },
     {
-      "id": "line-944",
+      "id": "line-938",
       "start": 5200.31,
       "end": 5201.93,
-      "text": "Magnifique  !",
+      "text": "Magnifique !",
       "translation": ""
     },
     {
-      "id": "line-945",
+      "id": "line-939",
       "start": 5213.45,
       "end": 5217.83,
       "text": "Ça c'est très très mauvais pour les affaires.",
       "translation": ""
     },
     {
-      "id": "line-946",
+      "id": "line-940",
       "start": 5219.37,
       "end": 5221.54,
-      "text": "Alors ça  ! C'était stupéfiant  !",
+      "text": "Alors ça ! C'était stupéfiant !",
       "translation": ""
     },
     {
-      "id": "line-947",
+      "id": "line-941",
       "start": 5225.5,
       "end": 5226.92,
       "text": "Les étoiles qui reviennent.",
       "translation": ""
     },
     {
-      "id": "line-948",
+      "id": "line-942",
       "start": 5228.71,
       "end": 5230.88,
       "text": "J'avais oublié à quel point elles sont belles.",
       "translation": ""
     },
     {
-      "id": "line-949",
+      "id": "line-943",
       "start": 5232.8,
       "end": 5235.43,
-      "text": "Regarde  ! L'astéroïde 325  !",
+      "text": "Regarde ! L'astéroïde 325 !",
       "translation": ""
     },
     {
-      "id": "line-950",
+      "id": "line-944",
       "start": 5235.68,
       "end": 5236.76,
-      "text": "Tu t'en souviens  !",
+      "text": "Tu t'en souviens !",
       "translation": ""
     },
     {
-      "id": "line-951",
+      "id": "line-945",
       "start": 5236.89,
       "end": 5238.18,
       "text": "Et là 326...",
       "translation": ""
     },
     {
-      "id": "line-952",
+      "id": "line-946",
       "start": 5239.81,
       "end": 5242.98,
-      "text": "et... 327. Et 328  !",
+      "text": "et... 327. Et 328 !",
       "translation": ""
     },
     {
-      "id": "line-953",
+      "id": "line-947",
       "start": 5243.14,
       "end": 5244.64,
-      "text": "Ça marche  ! Ça marche  !",
+      "text": "Ça marche ! Ça marche !",
       "translation": ""
     },
     {
-      "id": "line-954",
+      "id": "line-948",
       "start": 5246.27,
       "end": 5249.02,
-      "text": "Regarde  ! B 612  !",
+      "text": "Regarde ! B 612 !",
       "translation": ""
     },
     {
-      "id": "line-955",
+      "id": "line-949",
       "start": 5250.98,
       "end": 5252.07,
-      "text": "Les baobabs  !",
+      "text": "Les baobabs !",
       "translation": ""
     },
     {
-      "id": "line-956",
+      "id": "line-950",
       "start": 5257.95,
       "end": 5259.83,
       "text": "Ta rose. Elle est là.",
       "translation": ""
     },
     {
-      "id": "line-957",
+      "id": "line-951",
       "start": 5260.95,
       "end": 5262.25,
-      "text": "Accroche-toi  !",
+      "text": "Accroche-toi !",
       "translation": ""
     },
     {
-      "id": "line-958",
+      "id": "line-952",
       "start": 5262.54,
       "end": 5264.41,
       "text": "Aeetnds, tu ne vas pas essayer d'atterrir.",
       "translation": ""
     },
     {
-      "id": "line-959",
+      "id": "line-953",
       "start": 5266.25,
       "end": 5268.58,
-      "text": "Non, non, non  ! Stop  ! Demi tour  !",
+      "text": "Non, non, non ! Stop ! Demi tour !",
       "translation": ""
     },
     {
-      "id": "line-960",
+      "id": "line-954",
       "start": 5268.71,
       "end": 5269.79,
-      "text": "Stop  !",
+      "text": "Stop !",
       "translation": ""
     },
     {
-      "id": "line-961",
+      "id": "line-955",
       "start": 5277.89,
       "end": 5279.18,
-      "text": "Qu'est ce qui se passe  ?",
+      "text": "Qu'est ce qui se passe ?",
       "translation": ""
     },
     {
-      "id": "line-962",
+      "id": "line-956",
       "start": 5280.47,
       "end": 5282.43,
-      "text": "Je crois qu'on tombe  !",
+      "text": "Je crois qu'on tombe !",
       "translation": ""
     },
     {
-      "id": "line-963",
+      "id": "line-957",
       "start": 5284.98,
       "end": 5287.19,
-      "text": "- On va où maintenant  ? - Bouge pas.",
+      "text": "- On va où maintenant ? - Bouge pas.",
       "translation": ""
     },
     {
-      "id": "line-964",
+      "id": "line-958",
       "start": 5310.79,
       "end": 5312.67,
-      "text": "On y va  !",
+      "text": "On y va !",
       "translation": ""
     },
     {
-      "id": "line-965",
+      "id": "line-959",
       "start": 5333.15,
       "end": 5334.9,
       "text": "Par ici, veins voir. Je l'ai trouvée.",
       "translation": ""
     },
     {
-      "id": "line-966",
+      "id": "line-960",
       "start": 5341.03,
       "end": 5342.12,
       "text": "Regarde.",
       "translation": ""
     },
     {
-      "id": "line-967",
+      "id": "line-961",
       "start": 5343.37,
       "end": 5344.7,
       "text": "Ma rose.",
       "translation": ""
     },
     {
-      "id": "line-968",
+      "id": "line-962",
       "start": 5353.54,
       "end": 5354.88,
       "text": "C'est elle.",
       "translation": ""
     },
     {
-      "id": "line-969",
+      "id": "line-963",
       "start": 5384.53,
       "end": 5385.41,
       "text": "Non.",
       "translation": ""
     },
     {
-      "id": "line-970",
+      "id": "line-964",
       "start": 5394.5,
       "end": 5396.25,
-      "text": "Non  ! Comment c'est possible  ?",
+      "text": "Non ! Comment c'est possible ?",
       "translation": ""
     },
     {
-      "id": "line-971",
+      "id": "line-965",
       "start": 5400.47,
       "end": 5406.72,
       "text": "Je suis vraiment désolée. Normalement tu devais la retrouver.",
       "translation": ""
     },
     {
-      "id": "line-972",
+      "id": "line-966",
       "start": 5411.23,
       "end": 5413.31,
       "text": "Et moi je vais le perdre lui aussi.",
       "translation": ""
     },
     {
-      "id": "line-973",
+      "id": "line-967",
       "start": 5416.23,
       "end": 5420.95,
       "text": "Et grandir et oublier toute son histoire.",
       "translation": ""
     },
     {
-      "id": "line-974",
+      "id": "line-968",
       "start": 5423.24,
       "end": 5426.99,
       "text": "Tout oublier... pour toujours.",
       "translation": ""
     },
     {
-      "id": "line-975",
+      "id": "line-969",
       "start": 5428.95,
       "end": 5431.58,
       "text": "Je n'ai pas envie de le perdre.",
       "translation": ""
     },
     {
-      "id": "line-976",
+      "id": "line-970",
       "start": 5433.12,
       "end": 5434.21,
       "text": "Ne pleure pas.",
       "translation": ""
     },
     {
-      "id": "line-977",
+      "id": "line-971",
       "start": 5438.34,
       "end": 5440.76,
-      "text": "Comment tu fais pour ne pas pleurer  ?",
+      "text": "Comment tu fais pour ne pas pleurer ?",
       "translation": ""
     },
     {
-      "id": "line-978",
+      "id": "line-972",
       "start": 5471.62,
       "end": 5473.79,
-      "text": "Maintenant je la vois  !",
+      "text": "Maintenant je la vois !",
       "translation": ""
     },
     {
-      "id": "line-979",
+      "id": "line-973",
       "start": 5479.84,
       "end": 5482.01,
       "text": "Ce n'était pas une rose ordinaire.",
       "translation": ""
     },
     {
-      "id": "line-980",
+      "id": "line-974",
       "start": 5483.3,
       "end": 5487.14,
       "text": "Elle était unique en son genre dans tout l'univers.",
       "translation": ""
     },
     {
-      "id": "line-981",
+      "id": "line-975",
       "start": 5489.31,
       "end": 5493.02,
       "text": "Et je me souviens bien d'elle. Je me souviens de tout.",
       "translation": ""
     },
     {
-      "id": "line-982",
+      "id": "line-976",
       "start": 5493.39,
       "end": 5494.89,
       "text": "Elle n'est pas morte.",
       "translation": ""
     },
     {
-      "id": "line-983",
+      "id": "line-977",
       "start": 5495.94,
       "end": 5497.27,
       "text": "Elle est toujours là.",
       "translation": ""
     },
     {
-      "id": "line-984",
+      "id": "line-978",
       "start": 5497.36,
       "end": 5498.69,
       "text": "On ne voit bien qu'avec le cœur.",
       "translation": ""
     },
     {
-      "id": "line-985",
+      "id": "line-979",
       "start": 5498.9,
       "end": 5501.48,
       "text": "L'essentiel est invisible pour les yeux.",
       "translation": ""
     },
     {
-      "id": "line-986",
+      "id": "line-980",
       "start": 5506.7,
       "end": 5508.2,
       "text": "Sois toujours avec moi.",
       "translation": ""
     },
     {
-      "id": "line-987",
+      "id": "line-981",
       "start": 5510.03,
       "end": 5512.79,
       "text": "Je comprends maintenant.",
       "translation": ""
     },
     {
-      "id": "line-988",
+      "id": "line-982",
       "start": 5524.59,
       "end": 5527.39,
       "text": "S'il te plaît, dis à l'aviateur que je me souviens de lui.",
       "translation": ""
     },
     {
-      "id": "line-989",
+      "id": "line-983",
       "start": 5527.55,
       "end": 5528.76,
       "text": "Je lui dirai.",
       "translation": ""
     },
     {
-      "id": "line-990",
+      "id": "line-984",
       "start": 5529.1,
       "end": 5530.43,
-      "text": "Tu n'oublieras pas  ?",
+      "text": "Tu n'oublieras pas ?",
       "translation": ""
     },
     {
-      "id": "line-991",
+      "id": "line-985",
       "start": 5530.76,
       "end": 5534.39,
       "text": "Mais non, je n'oublierai rien. Je te le promets.",
       "translation": ""
     },
     {
-      "id": "line-992",
+      "id": "line-986",
       "start": 5571.05,
       "end": 5572.14,
-      "text": "Ma chérie  ?",
+      "text": "Ma chérie ?",
       "translation": ""
     },
     {
-      "id": "line-993",
+      "id": "line-987",
       "start": 5572.3,
       "end": 5574.6,
-      "text": "Oui  ? On est en retard.",
+      "text": "Oui ? On est en retard.",
       "translation": ""
     },
     {
-      "id": "line-994",
+      "id": "line-988",
       "start": 5575.22,
       "end": 5577.52,
-      "text": "Quoi  ? Pas du tout.",
+      "text": "Quoi ? Pas du tout.",
       "translation": ""
     },
     {
-      "id": "line-995",
+      "id": "line-989",
       "start": 5577.69,
       "end": 5579.85,
       "text": "Si, on doit passer à l'hôpital avant l'école.",
       "translation": ""
     },
     {
-      "id": "line-996",
+      "id": "line-990",
       "start": 5585.61,
       "end": 5593.37,
       "text": "122 123 124. Et voilà.",
       "translation": ""
     },
     {
-      "id": "line-997",
+      "id": "line-991",
       "start": 5657.35,
       "end": 5659.1,
       "text": "Tu es là.",
       "translation": ""
     },
     {
-      "id": "line-998",
+      "id": "line-992",
       "start": 5661.44,
       "end": 5662.85,
       "text": "Je te demande pardon.",
       "translation": ""
     },
     {
-      "id": "line-999",
+      "id": "line-993",
       "start": 5663.73,
       "end": 5666.9,
       "text": "Je te demande sincèrement pardon pour ce que j'ai dit.",
       "translation": ""
     },
     {
-      "id": "line-1000",
+      "id": "line-994",
       "start": 5668.73,
       "end": 5670.9,
       "text": "Je ne me souviens même pas.",
       "translation": ""
     },
     {
-      "id": "line-1001",
+      "id": "line-995",
       "start": 5672.61,
       "end": 5675.03,
       "text": "- C'est gentil. - Non, je...",
       "translation": ""
     },
     {
-      "id": "line-1002",
+      "id": "line-996",
       "start": 5675.78,
       "end": 5677.87,
       "text": "je ne me souviens pas de qui tu es.",
       "translation": ""
     },
     {
-      "id": "line-1003",
+      "id": "line-997",
       "start": 5680.5,
       "end": 5682.25,
-      "text": "Je t'ai bien eue. Pas vrai  ?",
+      "text": "Je t'ai bien eue. Pas vrai ?",
       "translation": ""
     },
     {
-      "id": "line-1004",
+      "id": "line-998",
       "start": 5686.29,
       "end": 5688.17,
       "text": "Je voudrais te montrer quelque chose.",
       "translation": ""
     },
     {
-      "id": "line-1005",
+      "id": "line-999",
       "start": 5700.27,
-      "end": 5702.89,
-      "text": "LE PETIT PRINCE",
-      "translation": ""
-    },
-    {
-      "id": "line-1006",
-      "start": 5704.48,
       "end": 5706.11,
-      "text": "C'est toi qui as fait ça ?",
+      "text": "LE PETIT PRINCE C'est toi qui as fait ça ?",
       "translation": ""
     },
     {
-      "id": "line-1007",
+      "id": "line-1000",
       "start": 5712.49,
       "end": 5715.74,
       "text": "Tous mes dessins. Dans le bon ordre.",
       "translation": ""
     },
     {
-      "id": "line-1008",
+      "id": "line-1001",
       "start": 5720.04,
       "end": 5722.33,
       "text": "C'est absolument merveilleux.",
       "translation": ""
     },
     {
-      "id": "line-1009",
+      "id": "line-1002",
       "start": 5727.29,
       "end": 5729.38,
-      "text": "Oh, ma chérie  !",
+      "text": "Oh, ma chérie !",
       "translation": ""
     },
     {
-      "id": "line-1010",
+      "id": "line-1003",
       "start": 5732.17,
       "end": 5736.76,
       "text": "Si on se laisse apprivoiser, on court le risque de pleurer un peu...",
       "translation": ""
     },
     {
-      "id": "line-1011",
+      "id": "line-1004",
       "start": 5742.93,
       "end": 5747.19,
       "text": "Tu deviendras une adulte formidable.",
       "translation": ""
     },
     {
-      "id": "line-1012",
+      "id": "line-1005",
       "start": 5755.61,
       "end": 5756.82,
       "text": "Merci.",
       "translation": ""
     },
     {
-      "id": "line-1013",
+      "id": "line-1006",
       "start": 5758.74,
       "end": 5760.49,
-      "text": "Vous avez vu ça  ?",
+      "text": "Vous avez vu ça ?",
       "translation": ""
     },
     {
-      "id": "line-1014",
+      "id": "line-1007",
       "start": 5767.75,
       "end": 5769.17,
       "text": "C'est magnifique.",
       "translation": ""
     },
     {
-      "id": "line-1015",
+      "id": "line-1008",
       "start": 5769.42,
       "end": 5771.71,
       "text": "Regarde. Tu vois, lui, c'est le renard.",
       "translation": ""
     },
     {
-      "id": "line-1016",
+      "id": "line-1009",
       "start": 5771.92,
       "end": 5773.67,
       "text": "Mon renard...",
       "translation": ""
     },
     {
-      "id": "line-1017",
+      "id": "line-1010",
       "start": 5913.19,
       "end": 5916.36,
       "text": "Vous allez sans doute dire que ça c'est un chapeau, mais pas du tout.",
       "translation": ""
     },
     {
-      "id": "line-1018",
+      "id": "line-1011",
       "start": 6105,
       "end": 6115,
       "text": "https://mega.nz/#F!1BxmFYaI!bwzP_x9TxRW1oZbB8JZYBQ",

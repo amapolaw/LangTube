@@ -1,8 +1,9 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
-import type { NotebookCard, ReviewRating } from "@langtube/core";
+import { useCallback, useEffect, useMemo, useState } from "react";
+import type { NotebookCard, ReviewRating, SupportedLanguage } from "@langtube/core";
 import { Button } from "@/components/ui/button";
+import { Label } from "@/components/ui/label";
 import {
   Card,
   CardContent,
@@ -12,8 +13,12 @@ import {
   FlipFlashcard,
   BrowseFlipCard,
 } from "@/components/notebook/flip-flashcard";
+import { MATERIAL_LANGUAGES } from "@/lib/material-form";
 
 type Direction = "l2-l1" | "l1-l2";
+type LangFilter = SupportedLanguage | "all";
+
+const DAILY_OPTIONS = [5, 10, 20, 30, 50, 100] as const;
 
 function isIncomplete(card: NotebookCard): boolean {
   const backOk = Boolean(card.back?.trim()) && card.back.trim() !== "句型";
@@ -31,19 +36,51 @@ export default function NotebookPage() {
   const [direction, setDirection] = useState<Direction>("l2-l1");
   const [enriching, setEnriching] = useState(false);
   const [enrichMsg, setEnrichMsg] = useState("");
+  const [lang, setLang] = useState<LangFilter>("all");
+  const [dailyLimit, setDailyLimit] = useState(20);
+  const [prefsReady, setPrefsReady] = useState(false);
 
-  useEffect(() => {
-    loadCards();
+  const loadCards = useCallback(async (language: LangFilter, limit: number) => {
+    const langQs = `lang=${language === "all" ? "all" : language}`;
+    const [all, due] = await Promise.all([
+      fetch(`/api/notebook?${langQs}`).then((r) => r.json()),
+      fetch(`/api/notebook?due=true&limit=${limit}&${langQs}`).then((r) =>
+        r.json()
+      ),
+    ]);
+    setCards(Array.isArray(all) ? all : []);
+    setDueCards(Array.isArray(due) ? due : []);
   }, []);
 
-  async function loadCards() {
-    const [all, due] = await Promise.all([
-      fetch("/api/notebook").then((r) => r.json()),
-      fetch("/api/notebook?due=true").then((r) => r.json()),
-    ]);
-    setCards(all);
-    setDueCards(due);
-  }
+  useEffect(() => {
+    void (async () => {
+      try {
+        const res = await fetch("/api/settings").then((r) => r.json());
+        const settings = res?.settings ?? res;
+        if (settings?.targetLang) {
+          setLang(settings.targetLang as SupportedLanguage);
+        }
+        if (
+          typeof settings?.dailyReviewLimit === "number" &&
+          settings.dailyReviewLimit > 0
+        ) {
+          setDailyLimit(settings.dailyReviewLimit);
+        }
+      } catch {
+        /* 使用默认偏好 */
+      } finally {
+        setPrefsReady(true);
+      }
+    })();
+  }, []);
+
+  useEffect(() => {
+    if (!prefsReady) return;
+    void loadCards(lang, dailyLimit).then(() => {
+      setReviewIndex(0);
+      setShowBack(false);
+    });
+  }, [prefsReady, lang, dailyLimit, loadCards]);
 
   const incompleteCount = useMemo(
     () => cards.filter(isIncomplete).length,
@@ -51,6 +88,23 @@ export default function NotebookPage() {
   );
 
   const currentCard = mode === "review" ? dueCards[reviewIndex] : null;
+
+  async function persistDailyLimit(next: number) {
+    try {
+      const res = await fetch("/api/settings").then((r) => r.json());
+      const settings = res?.settings ?? res;
+      if (!settings || typeof settings !== "object") return;
+      await fetch("/api/settings", {
+        method: "PUT",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          settings: { ...settings, dailyReviewLimit: next },
+        }),
+      });
+    } catch {
+      /* 本地选择仍生效 */
+    }
+  }
 
   async function rate(rating: ReviewRating) {
     if (!currentCard) return;
@@ -61,7 +115,7 @@ export default function NotebookPage() {
     });
     setShowBack(false);
     if (reviewIndex + 1 >= dueCards.length) {
-      await loadCards();
+      await loadCards(lang, dailyLimit);
       setReviewIndex(0);
     } else {
       setReviewIndex((i) => i + 1);
@@ -75,15 +129,18 @@ export default function NotebookPage() {
       const res = await fetch("/api/notebook", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ action: "enrich", limit: 40 }),
+        body: JSON.stringify({
+          action: "enrich",
+          limit: 40,
+          lang: lang === "all" ? undefined : lang,
+        }),
       });
       const data = await res.json();
       if (!res.ok) {
         setEnrichMsg(data.error || "补全失败");
         return;
       }
-      setCards(data.cards ?? []);
-      await loadCards();
+      await loadCards(lang, dailyLimit);
       setEnrichMsg(
         `已补全 ${data.enriched} 张` +
           (data.errors?.length ? `（${data.errors.length} 张未命中词典）` : "")
@@ -117,6 +174,49 @@ export default function NotebookPage() {
           >
             浏览 ({cards.length})
           </Button>
+        </div>
+      </div>
+
+      <div className="grid grid-cols-2 gap-3">
+        <div>
+          <Label htmlFor="notebook-lang">语种</Label>
+          <select
+            id="notebook-lang"
+            className="mt-1 flex h-10 w-full rounded-md border bg-background px-3 text-sm"
+            value={lang}
+            onChange={(e) => setLang(e.target.value as LangFilter)}
+          >
+            <option value="all">全部语种</option>
+            {MATERIAL_LANGUAGES.map((l) => (
+              <option key={l.value} value={l.value}>
+                {l.label}
+              </option>
+            ))}
+          </select>
+        </div>
+        <div>
+          <Label htmlFor="notebook-daily">每日学习个数</Label>
+          <select
+            id="notebook-daily"
+            className="mt-1 flex h-10 w-full rounded-md border bg-background px-3 text-sm"
+            value={dailyLimit}
+            onChange={(e) => {
+              const next = parseInt(e.target.value, 10);
+              setDailyLimit(next);
+              void persistDailyLimit(next);
+            }}
+          >
+            {DAILY_OPTIONS.map((n) => (
+              <option key={n} value={n}>
+                {n} 张 / 天
+              </option>
+            ))}
+            {!DAILY_OPTIONS.includes(
+              dailyLimit as (typeof DAILY_OPTIONS)[number]
+            ) && (
+              <option value={dailyLimit}>{dailyLimit} 张 / 天</option>
+            )}
+          </select>
         </div>
       </div>
 
@@ -156,7 +256,7 @@ export default function NotebookPage() {
       </div>
       <p className="text-xs text-muted-foreground">
         卡片来自听辨页：在「词汇表 / 句型」中勾选后点「加入 Notebook」。
-        正面为原文；背面为释义、用法与例句。
+        正面为原文；背面为释义、用法与例句。今日复习按所选语种与每日个数出题。
       </p>
       {enrichMsg && (
         <p className="text-xs text-muted-foreground">{enrichMsg}</p>

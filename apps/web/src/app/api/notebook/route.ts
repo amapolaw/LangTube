@@ -1,6 +1,7 @@
 import { NextResponse } from "next/server";
 import {
   getAllCards,
+  getCardsByLanguage,
   getDueNotebookCards,
   getStrugglingCards,
   addNotebookCard,
@@ -19,6 +20,7 @@ export async function GET(req: Request) {
   const { searchParams } = new URL(req.url);
   const due = searchParams.get("due") === "true";
   const limit = searchParams.get("limit");
+  const lang = searchParams.get("lang") ?? undefined;
 
   if (searchParams.get("weak") === "true") {
     return NextResponse.json(getWeakItems(limit ? parseInt(limit) : 20));
@@ -31,8 +33,11 @@ export async function GET(req: Request) {
   }
 
   const cards = due
-    ? getDueNotebookCards(limit ? parseInt(limit) : undefined)
-    : getAllCards();
+    ? getDueNotebookCards(
+        limit ? parseInt(limit) : undefined,
+        lang
+      )
+    : getCardsByLanguage(lang);
   return NextResponse.json(cards);
 }
 
@@ -43,7 +48,10 @@ export async function POST(req: Request) {
   if (body?.action === "enrich") {
     const ids: string[] | undefined = body.ids;
     const overwrite = Boolean(body.overwrite);
-    const cards = getAllCards();
+    const langFilter: string | undefined = body.lang;
+    const cards = getAllCards().filter((c) =>
+      langFilter ? c.language === langFilter : true
+    );
     const targets = cards.filter((c) =>
       ids?.length
         ? ids.includes(c.id)
