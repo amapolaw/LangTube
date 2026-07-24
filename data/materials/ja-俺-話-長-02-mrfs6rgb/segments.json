@@ -3,16 +3,16 @@
     {
       "start": 0,
       "end": 2725.1,
-      "reason": "全片字幕跟随，适合泛听建立整体语境",
+      "reason": "全片泛听可选",
       "durationMinutes": 45
     }
   ],
   "intensive": [
     {
-      "start": 60,
-      "end": 2725.1,
-      "reason": "默认可精听全片；可用开始/结束秒收窄区间",
-      "durationMinutes": 45
+      "start": 36,
+      "end": 145,
+      "reason": "Week1首选：晨间(36-90)+出门寒暄(110-145)",
+      "durationMinutes": 2
     }
   ]
 }
