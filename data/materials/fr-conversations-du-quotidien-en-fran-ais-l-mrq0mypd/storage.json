@@ -1,6 +1,6 @@
 {
-  "mode": "local",
+  "mode": "remote",
   "provider": "local",
-  "path": "D:\\LangTube\\data\\materials\\fr-conversations-du-quotidien-en-fran-ais-l-mrq0mypd\\media\\BV1DKKw6BE35_p1.mp4",
-  "url": "https://www.bilibili.com/video/BV1DKKw6BE35/#reply116940030940163"
+  "url": "https://www.bilibili.com/video/BV1DKKw6BE35/#reply116940030940163",
+  "path": "materials/fr-conversations-du-quotidien-en-fran-ais-l-mrq0mypd/media/BV1DKKw6BE35_p1.mp4"
 }
