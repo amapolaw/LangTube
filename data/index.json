@@ -184,21 +184,6 @@
       "createdAt": "2026-07-24T06:03:38.249Z",
       "updatedAt": "2026-07-24T06:10:24.362Z",
       "sourceUrl": "https://www.bilibili.com/video/BV1wHPLeUE8r/?p=1"
-    },
-    {
-      "id": "en-voa-lets-learn-english-l1-lesson1-mryjrdix",
-      "title": "VOA Lets Learn English L1 Lesson1",
-      "sourceLang": "en",
-      "nativeLang": "zh",
-      "level": "A2",
-      "topics": [
-        "general"
-      ],
-      "storageLocation": "local",
-      "parseStatus": "pending",
-      "createdAt": "2026-07-24T06:16:13.113Z",
-      "updatedAt": "2026-07-24T06:16:13.113Z",
-      "sourceUrl": "https://www.bilibili.com/video/BV1wHPLeUE8r/?p=1"
     }
   ]
 }
