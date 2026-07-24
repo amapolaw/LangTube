@@ -171,8 +171,8 @@
       "sourceUrl": "https://www.bilibili.com/video/BV1mTSkBHEwo/?spm_id_from=333.337.search-card.all.click&vd_source=575dde8aaa5216721d951e465f92f0d8"
     },
     {
-      "id": "en-voa-let-s-learn-english-level-1-lesson-1-mryjb72h",
-      "title": "VOA Let's Learn English Level 1 · Lesson 1",
+      "id": "en-voa-let-s-learn-english-l1-lesson-1-welc-mryjxljs",
+      "title": "VOA Let's Learn English L1 · Lesson 1 Welcome",
       "sourceLang": "en",
       "nativeLang": "zh",
       "level": "A2",
@@ -180,9 +180,9 @@
         "general"
       ],
       "storageLocation": "local",
-      "parseStatus": "processing",
-      "createdAt": "2026-07-24T06:03:38.249Z",
-      "updatedAt": "2026-07-24T06:10:24.362Z",
+      "parseStatus": "pending",
+      "createdAt": "2026-07-24T06:21:03.448Z",
+      "updatedAt": "2026-07-24T06:21:03.448Z",
       "sourceUrl": "https://www.bilibili.com/video/BV1wHPLeUE8r/?p=1"
     }
   ]
