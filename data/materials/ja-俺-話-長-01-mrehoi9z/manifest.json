@@ -18,16 +18,16 @@
       {
         "start": 0,
         "end": 2725.067,
-        "reason": "全片字幕跟随，适合泛听建立整体语境",
+        "reason": "全片泛听可选",
         "durationMinutes": 45
       }
     ],
     "intensive": [
       {
-        "start": 60,
-        "end": 2725.067,
-        "reason": "默认可精听全片；可用开始/结束秒收窄区间",
-        "durationMinutes": 45
+        "start": 56,
+        "end": 120,
+        "reason": "Week1：両替ATM(56-75)+咖啡店闲聊(84-120)",
+        "durationMinutes": 1
       }
     ]
   },
@@ -70,5 +70,5 @@
   ],
   "parseStatus": "pending",
   "createdAt": "2026-07-10T05:22:36.551Z",
-  "updatedAt": "2026-07-16T17:15:33.502Z"
+  "updatedAt": "2026-07-24T06:23:23.681018Z"
 }
