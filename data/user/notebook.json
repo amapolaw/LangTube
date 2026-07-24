@@ -1,14 +1,12 @@
 [
   {
     "type": "vocabulary",
-    "front": "wager",
-    "back": "在比赛或悬而未决的问题上存放、放置或冒险的东西；投注；赌注；质押。",
-    "reading": "/ˈweɪdʒɚ/",
+    "front": "nuance",
+    "back": "一个小小的区别。",
     "partOfSpeech": "noun · verb",
-    "explanation": "词头：wager（/ˈweɪdʒɚ/）\n1. 【noun】在比赛或悬而未决的问题上存放、放置或冒险的东西；投注；赌注；质押。\n   （英：Something deposited, laid, or hazarded on the event of a contest or an unsettled question; a bet; a stake; a pledge.）\n2. 【noun】下注的对象；下注的主题。\n   （英：That on which bets are laid; the subject of a bet.）\n3. 【verb】下注；将其作为抵押品\n   （英：To bet something; to put it up as collateral）",
+    "explanation": "词头：nuance\n1. 【noun】一个小小的区别。\n   （英：A minor distinction.）\n2. 【noun】微妙或精致的细节。\n   （英：Subtlety or fine detail.）\n3. 【verb】以微妙的方式应用细微差别;以微妙的方式更改或重新定义。\n   （英：To apply a nuance to; to change or redefine in a subtle way.）",
     "examples": [
-      "I'd wager my boots on it.",
-      "I'll wager that Johnson knows something about all this."
+      "Understanding the basics is easy, but appreciating the nuances takes years."
     ],
     "language": "en",
     "materialId": "en-elon-musk-a-different-conversation-peopl-mrgb0xmi",
@@ -16,388 +14,14 @@
       "general",
       "level:A2"
     ],
-    "id": "card-1784197628587-5if4w1m",
+    "id": "card-1784197834783-1vcvb9z",
     "easeFactor": 2.5,
-    "interval": 6,
-    "repetitions": 2,
-    "nextReview": "2026-07-29T03:13:26.957Z",
-    "createdAt": "2026-07-16T10:27:08.587Z",
+    "interval": 1,
+    "repetitions": 1,
+    "nextReview": "2026-07-17T14:39:03.126Z",
+    "createdAt": "2026-07-16T10:30:34.783Z",
     "dictSource": "Cambridge 风格 / Free Dictionary（英义转中文）",
-    "lastReview": "2026-07-23T03:13:26.957Z",
-    "lastRating": "good"
-  },
-  {
-    "type": "vocabulary",
-    "front": "decent",
-    "back": "适合；适合具体情况。",
-    "reading": "/ˈdiːsənt/",
-    "partOfSpeech": "adjective",
-    "explanation": "词头：decent（/ˈdiːsənt/）\n1. 【adjective】适合；适合具体情况。\n   （英：Appropriate; suitable for the circumstances.）\n2. 【adjective】（某人的）符合基本道德标准；表现出正直、公平或其他与道德正直相关的特征。\n   （英：(of a person) Having a suitable conformity to basic moral standards; showing integrity, fairness, or other characteristics associated with moral uprightness.）",
-    "examples": [
-      "I learned the word \"decent\"."
-    ],
-    "language": "en",
-    "materialId": "en-elon-musk-a-different-conversation-peopl-mrgb0xmi",
-    "tags": [
-      "general",
-      "level:A2"
-    ],
-    "id": "card-1784197650515-27o1wpa",
-    "easeFactor": 2.5,
-    "interval": 6,
-    "repetitions": 2,
-    "nextReview": "2026-07-29T03:13:41.894Z",
-    "createdAt": "2026-07-16T10:27:30.515Z",
-    "dictSource": "Cambridge 风格 / Free Dictionary（英义转中文）",
-    "lastReview": "2026-07-23T03:13:41.894Z",
-    "lastRating": "good"
-  },
-  {
-    "type": "vocabulary",
-    "front": "perspective",
-    "back": "景观、远景或远景。",
-    "reading": "/pɚˈspɛktɪv/",
-    "partOfSpeech": "noun · adjective",
-    "explanation": "词头：perspective（/pɚˈspɛktɪv/）\n1. 【noun】景观、远景或远景。\n   （英：A view, vista or outlook.）\n2. 【noun】物体深度的外观，特别是使用双目视觉感知的深度。\n   （英：The appearance of depth in objects, especially as perceived using binocular vision.）\n3. 【adjective】透视的，与透视有关的。\n   （英：Of, in or relating to perspective.）",
-    "examples": [
-      "a perspective drawing"
-    ],
-    "language": "en",
-    "materialId": "en-elon-musk-a-different-conversation-peopl-mrgb0xmi",
-    "tags": [
-      "general",
-      "level:A2"
-    ],
-    "id": "card-1784197670522-tihelc9",
-    "easeFactor": 2.5,
-    "interval": 6,
-    "repetitions": 2,
-    "nextReview": "2026-07-29T06:22:08.179Z",
-    "createdAt": "2026-07-16T10:27:50.522Z",
-    "dictSource": "Cambridge 风格 / Free Dictionary（英义转中文）",
-    "lastReview": "2026-07-23T06:22:08.179Z",
-    "lastRating": "good"
-  },
-  {
-    "type": "vocabulary",
-    "front": "centrist",
-    "back": "主张中心主义的人。",
-    "partOfSpeech": "noun · adjective",
-    "explanation": "词头：centrist\n1. 【noun】主张中心主义的人。\n   （英：A person who advocates centrism.）\n2. 【adjective】中心主义的中心主义的、与中心主义有关的或提倡中心主义的。\n   （英：Of, pertaining to, or advocating centrism.）",
-    "examples": [
-      "I learned the word \"centrist\"."
-    ],
-    "language": "en",
-    "materialId": "en-elon-musk-a-different-conversation-peopl-mrgb0xmi",
-    "tags": [
-      "general",
-      "level:A2"
-    ],
-    "id": "card-1784197694616-p3u3td0",
-    "easeFactor": 2.5,
-    "interval": 6,
-    "repetitions": 2,
-    "nextReview": "2026-07-29T06:22:12.630Z",
-    "createdAt": "2026-07-16T10:28:14.616Z",
-    "dictSource": "Cambridge 风格 / Free Dictionary（英义转中文）",
-    "lastReview": "2026-07-23T06:22:12.630Z",
-    "lastRating": "good"
-  },
-  {
-    "type": "vocabulary",
-    "front": "decent",
-    "back": "适合；适合具体情况。",
-    "reading": "/ˈdiːsənt/",
-    "partOfSpeech": "adjective",
-    "explanation": "词头：decent（/ˈdiːsənt/）\n1. 【adjective】适合；适合具体情况。\n   （英：Appropriate; suitable for the circumstances.）\n2. 【adjective】（某人的）符合基本道德标准；表现出正直、公平或其他与道德正直相关的特征。\n   （英：(of a person) Having a suitable conformity to basic moral standards; showing integrity, fairness, or other characteristics associated with moral uprightness.）",
-    "examples": [
-      "I learned the word \"decent\"."
-    ],
-    "language": "en",
-    "materialId": "en-elon-musk-a-different-conversation-peopl-mrgb0xmi",
-    "tags": [
-      "general",
-      "level:A2"
-    ],
-    "id": "card-1784197695035-8mowcj0",
-    "easeFactor": 2.5,
-    "interval": 1,
-    "repetitions": 1,
-    "nextReview": "2026-07-17T10:29:23.102Z",
-    "createdAt": "2026-07-16T10:28:15.035Z",
-    "dictSource": "Cambridge 风格 / Free Dictionary（英义转中文）",
-    "lastReview": "2026-07-16T10:29:23.102Z",
-    "lastRating": "good"
-  },
-  {
-    "type": "vocabulary",
-    "front": "dopamine",
-    "back": "一种与运动、注意力、学习以及大脑的快乐和奖励系统相关的神经递质。",
-    "reading": "/ˈdəʊpəmiːn/",
-    "partOfSpeech": "noun",
-    "explanation": "词头：dopamine（/ˈdəʊpəmiːn/）\n1. 【noun】一种与运动、注意力、学习以及大脑的快乐和奖励系统相关的神经递质。\n   （英：A neurotransmitter associated with movement, attention, learning, and the brain’s pleasure and reward system.）",
-    "examples": [
-      "I learned the word \"dopamine\"."
-    ],
-    "language": "en",
-    "materialId": "en-elon-musk-a-different-conversation-peopl-mrgb0xmi",
-    "tags": [
-      "general",
-      "level:A2"
-    ],
-    "id": "card-1784197714295-k56hzdh",
-    "easeFactor": 2.5,
-    "interval": 1,
-    "repetitions": 1,
-    "nextReview": "2026-07-17T10:29:28.274Z",
-    "createdAt": "2026-07-16T10:28:34.295Z",
-    "dictSource": "Cambridge 风格 / Free Dictionary（英义转中文）",
-    "lastReview": "2026-07-16T10:29:28.274Z",
-    "lastRating": "good"
-  },
-  {
-    "type": "vocabulary",
-    "front": "perspective",
-    "back": "景观、远景或远景。",
-    "reading": "/pɚˈspɛktɪv/",
-    "partOfSpeech": "noun · adjective",
-    "explanation": "词头：perspective（/pɚˈspɛktɪv/）\n1. 【noun】景观、远景或远景。\n   （英：A view, vista or outlook.）\n2. 【noun】物体深度的外观，特别是使用双目视觉感知的深度。\n   （英：The appearance of depth in objects, especially as perceived using binocular vision.）\n3. 【adjective】透视的，与透视有关的。\n   （英：Of, in or relating to perspective.）",
-    "examples": [
-      "a perspective drawing"
-    ],
-    "language": "en",
-    "materialId": "en-elon-musk-a-different-conversation-peopl-mrgb0xmi",
-    "tags": [
-      "general",
-      "level:A2"
-    ],
-    "id": "card-1784197714338-y7h0661",
-    "easeFactor": 2.5,
-    "interval": 1,
-    "repetitions": 1,
-    "nextReview": "2026-07-17T10:29:32.529Z",
-    "createdAt": "2026-07-16T10:28:34.338Z",
-    "dictSource": "Cambridge 风格 / Free Dictionary（英义转中文）",
-    "lastReview": "2026-07-16T10:29:32.529Z",
-    "lastRating": "good"
-  },
-  {
-    "type": "vocabulary",
-    "front": "substance",
-    "back": "物理物质；材料。",
-    "reading": "/ˈsʌbstəns/",
-    "partOfSpeech": "noun · verb",
-    "explanation": "词头：substance（/ˈsʌbstəns/）\n1. 【noun】物理物质；材料。\n   （英：Physical matter; material.）\n2. 【noun】任何事物的重要部分；最重要的部分。\n   （英：The essential part of anything; the most vital part.）\n3. 【verb】赋予实质内容；使之真实或实质性。\n   （英：To give substance to; to make real or substantial.）",
-    "examples": [
-      "I learned the word \"substance\"."
-    ],
-    "language": "en",
-    "materialId": "en-elon-musk-a-different-conversation-peopl-mrgb0xmi",
-    "tags": [
-      "general",
-      "level:A2"
-    ],
-    "id": "card-1784197734124-d6tdmiy",
-    "easeFactor": 2.5,
-    "interval": 1,
-    "repetitions": 1,
-    "nextReview": "2026-07-17T10:29:35.711Z",
-    "createdAt": "2026-07-16T10:28:54.124Z",
-    "dictSource": "Cambridge 风格 / Free Dictionary（英义转中文）",
-    "lastReview": "2026-07-16T10:29:35.711Z",
-    "lastRating": "good"
-  },
-  {
-    "type": "vocabulary",
-    "front": "centrist",
-    "back": "主张中心主义的人。",
-    "partOfSpeech": "noun · adjective",
-    "explanation": "词头：centrist\n1. 【noun】主张中心主义的人。\n   （英：A person who advocates centrism.）\n2. 【adjective】中心主义的中心主义的、与中心主义有关的或提倡中心主义的。\n   （英：Of, pertaining to, or advocating centrism.）",
-    "examples": [
-      "I learned the word \"centrist\"."
-    ],
-    "language": "en",
-    "materialId": "en-elon-musk-a-different-conversation-peopl-mrgb0xmi",
-    "tags": [
-      "general",
-      "level:A2"
-    ],
-    "id": "card-1784197736787-4rd8kd6",
-    "easeFactor": 2.5,
-    "interval": 1,
-    "repetitions": 1,
-    "nextReview": "2026-07-17T10:29:38.418Z",
-    "createdAt": "2026-07-16T10:28:56.787Z",
-    "dictSource": "Cambridge 风格 / Free Dictionary（英义转中文）",
-    "lastReview": "2026-07-16T10:29:38.418Z",
-    "lastRating": "good"
-  },
-  {
-    "type": "vocabulary",
-    "front": "dopamine",
-    "back": "一种与运动、注意力、学习以及大脑的快乐和奖励系统相关的神经递质。",
-    "reading": "/ˈdəʊpəmiːn/",
-    "partOfSpeech": "noun",
-    "explanation": "词头：dopamine（/ˈdəʊpəmiːn/）\n1. 【noun】一种与运动、注意力、学习以及大脑的快乐和奖励系统相关的神经递质。\n   （英：A neurotransmitter associated with movement, attention, learning, and the brain’s pleasure and reward system.）",
-    "examples": [
-      "I learned the word \"dopamine\"."
-    ],
-    "language": "en",
-    "materialId": "en-elon-musk-a-different-conversation-peopl-mrgb0xmi",
-    "tags": [
-      "general",
-      "level:A2"
-    ],
-    "id": "card-1784197755915-65rio6d",
-    "easeFactor": 2.5,
-    "interval": 1,
-    "repetitions": 1,
-    "nextReview": "2026-07-17T10:29:40.979Z",
-    "createdAt": "2026-07-16T10:29:15.915Z",
-    "dictSource": "Cambridge 风格 / Free Dictionary（英义转中文）",
-    "lastReview": "2026-07-16T10:29:40.979Z",
-    "lastRating": "good"
-  },
-  {
-    "type": "vocabulary",
-    "front": "synaps",
-    "back": "突触",
-    "partOfSpeech": "noun",
-    "explanation": "词性：noun",
-    "examples": [],
-    "language": "en",
-    "materialId": "en-elon-musk-a-different-conversation-peopl-mrgb0xmi",
-    "tags": [
-      "general",
-      "level:A2"
-    ],
-    "id": "card-1784197756577-4g20lw0",
-    "easeFactor": 2.5,
-    "interval": 1,
-    "repetitions": 1,
-    "nextReview": "2026-07-17T10:29:46.240Z",
-    "createdAt": "2026-07-16T10:29:16.577Z",
-    "lastReview": "2026-07-16T10:29:46.240Z",
-    "lastRating": "good"
-  },
-  {
-    "type": "vocabulary",
-    "front": "substance",
-    "back": "物理物质；材料。",
-    "reading": "/ˈsʌbstəns/",
-    "partOfSpeech": "noun · verb",
-    "explanation": "词头：substance（/ˈsʌbstəns/）\n1. 【noun】物理物质；材料。\n   （英：Physical matter; material.）\n2. 【noun】任何事物的重要部分；最重要的部分。\n   （英：The essential part of anything; the most vital part.）\n3. 【verb】赋予实质内容；使之真实或实质性。\n   （英：To give substance to; to make real or substantial.）",
-    "examples": [
-      "I learned the word \"substance\"."
-    ],
-    "language": "en",
-    "materialId": "en-elon-musk-a-different-conversation-peopl-mrgb0xmi",
-    "tags": [
-      "general",
-      "level:A2"
-    ],
-    "id": "card-1784197775140-p4iy20u",
-    "easeFactor": 2.5,
-    "interval": 1,
-    "repetitions": 1,
-    "nextReview": "2026-07-17T14:37:55.814Z",
-    "createdAt": "2026-07-16T10:29:35.140Z",
-    "lastReview": "2026-07-16T14:37:55.813Z",
-    "lastRating": "good",
-    "dictSource": "Cambridge 风格 / Free Dictionary（英义转中文）"
-  },
-  {
-    "type": "vocabulary",
-    "front": "disguis",
-    "back": "假扮，伪装",
-    "reading": "/dɪsˈɡaɪzd/",
-    "partOfSpeech": "verb",
-    "explanation": "词性：verb",
-    "examples": [],
-    "language": "en",
-    "materialId": "en-elon-musk-a-different-conversation-peopl-mrgb0xmi",
-    "tags": [
-      "general",
-      "level:A2"
-    ],
-    "id": "card-1784197775349-ky9hc4g",
-    "easeFactor": 2.5,
-    "interval": 1,
-    "repetitions": 1,
-    "nextReview": "2026-07-17T10:29:51.487Z",
-    "createdAt": "2026-07-16T10:29:35.349Z",
-    "lastReview": "2026-07-16T10:29:51.487Z",
-    "lastRating": "good"
-  },
-  {
-    "type": "vocabulary",
-    "front": "gladiator",
-    "back": "斗剑者",
-    "reading": "/ˈɡlædiˌeɪtɚ/",
-    "partOfSpeech": "noun · verb",
-    "explanation": "词性：noun",
-    "examples": [
-      "I learned the word \"gladiator\"."
-    ],
-    "language": "en",
-    "materialId": "en-elon-musk-a-different-conversation-peopl-mrgb0xmi",
-    "tags": [
-      "general",
-      "level:A2"
-    ],
-    "id": "card-1784197794247-g2s6k6o",
-    "easeFactor": 2.5,
-    "interval": 1,
-    "repetitions": 1,
-    "nextReview": "2026-07-17T14:38:04.985Z",
-    "createdAt": "2026-07-16T10:29:54.247Z",
-    "dictSource": "Cambridge 风格 / Free Dictionary（英义转中文）",
-    "lastReview": "2026-07-16T14:38:04.985Z",
-    "lastRating": "good"
-  },
-  {
-    "type": "vocabulary",
-    "front": "synaps",
-    "back": "突触",
-    "partOfSpeech": "noun",
-    "explanation": "词性：noun",
-    "examples": [],
-    "language": "en",
-    "materialId": "en-elon-musk-a-different-conversation-peopl-mrgb0xmi",
-    "tags": [
-      "general",
-      "level:A2"
-    ],
-    "id": "card-1784197795478-bpbgbw1",
-    "easeFactor": 2.5,
-    "interval": 1,
-    "repetitions": 1,
-    "nextReview": "2026-07-17T14:38:09.313Z",
-    "createdAt": "2026-07-16T10:29:55.478Z",
-    "lastReview": "2026-07-16T14:38:09.313Z",
-    "lastRating": "good"
-  },
-  {
-    "type": "vocabulary",
-    "front": "disguis",
-    "back": "假扮，伪装",
-    "reading": "/dɪsˈɡaɪzd/",
-    "partOfSpeech": "verb",
-    "explanation": "词性：verb",
-    "examples": [],
-    "language": "en",
-    "materialId": "en-elon-musk-a-different-conversation-peopl-mrgb0xmi",
-    "tags": [
-      "general",
-      "level:A2"
-    ],
-    "id": "card-1784197812748-2m3hb4d",
-    "easeFactor": 2.5,
-    "interval": 1,
-    "repetitions": 1,
-    "nextReview": "2026-07-17T14:38:13.608Z",
-    "createdAt": "2026-07-16T10:30:12.748Z",
-    "lastReview": "2026-07-16T14:38:13.608Z",
+    "lastReview": "2026-07-16T14:39:03.126Z",
     "lastRating": "good"
   },
   {
@@ -431,10 +55,10 @@
   {
     "type": "vocabulary",
     "front": "gladiator",
-    "back": "（在古罗马）通过与他人或野生动物进行致命战斗来娱乐公众的人（专业或奴隶）。",
+    "back": "斗剑者",
     "reading": "/ˈɡlædiˌeɪtɚ/",
     "partOfSpeech": "noun · verb",
-    "explanation": "词头：gladiator（/ˈɡlædiˌeɪtɚ/）\n1. 【noun】（在古罗马）通过与他人或野生动物进行致命战斗来娱乐公众的人（专业或奴隶）。\n   （英：(in ancient Rome) A person (professional or slave) who entertained the public by engaging in mortal combat with another, or with a wild animal.）\n2. 【noun】（通过扩展）公共争议或辩论中的争议者。\n   （英：(by extension) A disputant in a public controversy or debate.）\n3. 【verb】作为娱乐为他人而战。\n   （英：To fight as entertainment for others.）",
+    "explanation": "词性：noun",
     "examples": [
       "I learned the word \"gladiator\"."
     ],
@@ -444,24 +68,27 @@
       "general",
       "level:A2"
     ],
-    "id": "card-1784197829038-e4npuet",
+    "id": "card-1784197794247-g2s6k6o",
     "easeFactor": 2.5,
     "interval": 1,
     "repetitions": 1,
-    "nextReview": "2026-07-17T14:38:59.652Z",
-    "createdAt": "2026-07-16T10:30:29.038Z",
+    "nextReview": "2026-07-17T14:38:04.985Z",
+    "createdAt": "2026-07-16T10:29:54.247Z",
     "dictSource": "Cambridge 风格 / Free Dictionary（英义转中文）",
-    "lastReview": "2026-07-16T14:38:59.652Z",
+    "lastReview": "2026-07-16T14:38:04.985Z",
     "lastRating": "good"
   },
   {
     "type": "vocabulary",
-    "front": "nuance",
-    "back": "一个小小的区别。",
+    "front": "disguise",
+    "back": "材料（如服装、化妆品、假发）用于改变一个人的视觉外观，以隐藏一个人的身份或假设另一个人的身份。",
+    "reading": "/dɪsˈɡaɪz/",
     "partOfSpeech": "noun · verb",
-    "explanation": "词头：nuance\n1. 【noun】一个小小的区别。\n   （英：A minor distinction.）\n2. 【noun】微妙或精致的细节。\n   （英：Subtlety or fine detail.）\n3. 【verb】以微妙的方式应用细微差别;以微妙的方式更改或重新定义。\n   （英：To apply a nuance to; to change or redefine in a subtle way.）",
+    "explanation": "词头：disguise（/dɪsˈɡaɪz/）\n1. 【noun】材料（如服装、化妆品、假发）用于改变一个人的视觉外观，以隐藏一个人的身份或假设另一个人的身份。\n   （英：Material (such as clothing, makeup, a wig) used to alter one’s visual appearance in order to hide one's identity or assume another.）\n2. 【noun】外面出现的东西，掩盖了下面的东西。\n   （英：The appearance of something on the outside which masks what's beneath.）\n3. 【verb】改变（人或物）的外观，以隐藏或假设身份。\n   （英：To change the appearance of (a person or thing) so as to hide, or to assume an identity.）",
     "examples": [
-      "Understanding the basics is easy, but appreciating the nuances takes years."
+      "A cape and moustache completed his disguise.",
+      "Spies often disguise themselves.",
+      "He disguised his true intentions."
     ],
     "language": "en",
     "materialId": "en-elon-musk-a-different-conversation-peopl-mrgb0xmi",
@@ -469,14 +96,196 @@
       "general",
       "level:A2"
     ],
-    "id": "card-1784197834783-1vcvb9z",
+    "id": "card-1784197775349-ky9hc4g",
     "easeFactor": 2.5,
     "interval": 1,
     "repetitions": 1,
-    "nextReview": "2026-07-17T14:39:03.126Z",
-    "createdAt": "2026-07-16T10:30:34.783Z",
+    "nextReview": "2026-07-17T10:29:51.487Z",
+    "createdAt": "2026-07-16T10:29:35.349Z",
+    "lastReview": "2026-07-16T10:29:51.487Z",
+    "lastRating": "good",
+    "dictSource": "Cambridge 风格 / Free Dictionary（英义转中文）"
+  },
+  {
+    "type": "vocabulary",
+    "front": "synapse",
+    "back": "神经元末端与另一个神经元或肌肉或腺体细胞之间的连接，神经冲动在其上通过。",
+    "partOfSpeech": "noun · verb",
+    "explanation": "词头：synapse（/sɪˈnæps/）\n1. 【noun】神经元末端与另一个神经元或肌肉或腺体细胞之间的连接，神经冲动在其上通过。\n   （英：The junction between the terminal of a neuron and either another neuron or a muscle or gland cell, over which nerve impulses pass.）\n2. 【verb】形成突触。\n   （英：To form a synapse.）\n3. 【verb】进行突触。\n   （英：To undergo synapsis.）",
+    "examples": [
+      "I learned the word \"synapse\"."
+    ],
+    "language": "en",
+    "materialId": "en-elon-musk-a-different-conversation-peopl-mrgb0xmi",
+    "tags": [
+      "general",
+      "level:A2"
+    ],
+    "id": "card-1784197756577-4g20lw0",
+    "easeFactor": 2.5,
+    "interval": 1,
+    "repetitions": 1,
+    "nextReview": "2026-07-17T10:29:46.240Z",
+    "createdAt": "2026-07-16T10:29:16.577Z",
+    "lastReview": "2026-07-16T10:29:46.240Z",
+    "lastRating": "good",
+    "reading": "/sɪˈnæps/",
+    "dictSource": "Cambridge 风格 / Free Dictionary（英义转中文）"
+  },
+  {
+    "type": "vocabulary",
+    "front": "substance",
+    "back": "物理物质；材料。",
+    "reading": "/ˈsʌbstəns/",
+    "partOfSpeech": "noun · verb",
+    "explanation": "词头：substance（/ˈsʌbstəns/）\n1. 【noun】物理物质；材料。\n   （英：Physical matter; material.）\n2. 【noun】任何事物的重要部分；最重要的部分。\n   （英：The essential part of anything; the most vital part.）\n3. 【verb】赋予实质内容；使之真实或实质性。\n   （英：To give substance to; to make real or substantial.）",
+    "examples": [
+      "I learned the word \"substance\"."
+    ],
+    "language": "en",
+    "materialId": "en-elon-musk-a-different-conversation-peopl-mrgb0xmi",
+    "tags": [
+      "general",
+      "level:A2"
+    ],
+    "id": "card-1784197734124-d6tdmiy",
+    "easeFactor": 2.5,
+    "interval": 1,
+    "repetitions": 1,
+    "nextReview": "2026-07-17T10:29:35.711Z",
+    "createdAt": "2026-07-16T10:28:54.124Z",
     "dictSource": "Cambridge 风格 / Free Dictionary（英义转中文）",
-    "lastReview": "2026-07-16T14:39:03.126Z",
+    "lastReview": "2026-07-16T10:29:35.711Z",
+    "lastRating": "good"
+  },
+  {
+    "type": "vocabulary",
+    "front": "dopamine",
+    "back": "一种与运动、注意力、学习以及大脑的快乐和奖励系统相关的神经递质。",
+    "reading": "/ˈdəʊpəmiːn/",
+    "partOfSpeech": "noun",
+    "explanation": "词头：dopamine（/ˈdəʊpəmiːn/）\n1. 【noun】一种与运动、注意力、学习以及大脑的快乐和奖励系统相关的神经递质。\n   （英：A neurotransmitter associated with movement, attention, learning, and the brain’s pleasure and reward system.）",
+    "examples": [
+      "I learned the word \"dopamine\"."
+    ],
+    "language": "en",
+    "materialId": "en-elon-musk-a-different-conversation-peopl-mrgb0xmi",
+    "tags": [
+      "general",
+      "level:A2"
+    ],
+    "id": "card-1784197714295-k56hzdh",
+    "easeFactor": 2.5,
+    "interval": 1,
+    "repetitions": 1,
+    "nextReview": "2026-07-17T10:29:28.274Z",
+    "createdAt": "2026-07-16T10:28:34.295Z",
+    "dictSource": "Cambridge 风格 / Free Dictionary（英义转中文）",
+    "lastReview": "2026-07-16T10:29:28.274Z",
+    "lastRating": "good"
+  },
+  {
+    "type": "vocabulary",
+    "front": "centrist",
+    "back": "主张中心主义的人。",
+    "partOfSpeech": "noun · adjective",
+    "explanation": "词头：centrist\n1. 【noun】主张中心主义的人。\n   （英：A person who advocates centrism.）\n2. 【adjective】中心主义的中心主义的、与中心主义有关的或提倡中心主义的。\n   （英：Of, pertaining to, or advocating centrism.）",
+    "examples": [
+      "I learned the word \"centrist\"."
+    ],
+    "language": "en",
+    "materialId": "en-elon-musk-a-different-conversation-peopl-mrgb0xmi",
+    "tags": [
+      "general",
+      "level:A2"
+    ],
+    "id": "card-1784197694616-p3u3td0",
+    "easeFactor": 2.5,
+    "interval": 6,
+    "repetitions": 2,
+    "nextReview": "2026-07-29T06:22:12.630Z",
+    "createdAt": "2026-07-16T10:28:14.616Z",
+    "dictSource": "Cambridge 风格 / Free Dictionary（英义转中文）",
+    "lastReview": "2026-07-23T06:22:12.630Z",
+    "lastRating": "good"
+  },
+  {
+    "type": "vocabulary",
+    "front": "perspective",
+    "back": "景观、远景或远景。",
+    "reading": "/pɚˈspɛktɪv/",
+    "partOfSpeech": "noun · adjective",
+    "explanation": "词头：perspective（/pɚˈspɛktɪv/）\n1. 【noun】景观、远景或远景。\n   （英：A view, vista or outlook.）\n2. 【noun】物体深度的外观，特别是使用双目视觉感知的深度。\n   （英：The appearance of depth in objects, especially as perceived using binocular vision.）\n3. 【adjective】透视的，与透视有关的。\n   （英：Of, in or relating to perspective.）",
+    "examples": [
+      "a perspective drawing"
+    ],
+    "language": "en",
+    "materialId": "en-elon-musk-a-different-conversation-peopl-mrgb0xmi",
+    "tags": [
+      "general",
+      "level:A2"
+    ],
+    "id": "card-1784197670522-tihelc9",
+    "easeFactor": 2.5,
+    "interval": 6,
+    "repetitions": 2,
+    "nextReview": "2026-07-29T06:22:08.179Z",
+    "createdAt": "2026-07-16T10:27:50.522Z",
+    "dictSource": "Cambridge 风格 / Free Dictionary（英义转中文）",
+    "lastReview": "2026-07-23T06:22:08.179Z",
+    "lastRating": "good"
+  },
+  {
+    "type": "vocabulary",
+    "front": "decent",
+    "back": "适合；适合具体情况。",
+    "reading": "/ˈdiːsənt/",
+    "partOfSpeech": "adjective",
+    "explanation": "词头：decent（/ˈdiːsənt/）\n1. 【adjective】适合；适合具体情况。\n   （英：Appropriate; suitable for the circumstances.）\n2. 【adjective】（某人的）符合基本道德标准；表现出正直、公平或其他与道德正直相关的特征。\n   （英：(of a person) Having a suitable conformity to basic moral standards; showing integrity, fairness, or other characteristics associated with moral uprightness.）",
+    "examples": [
+      "I learned the word \"decent\"."
+    ],
+    "language": "en",
+    "materialId": "en-elon-musk-a-different-conversation-peopl-mrgb0xmi",
+    "tags": [
+      "general",
+      "level:A2"
+    ],
+    "id": "card-1784197650515-27o1wpa",
+    "easeFactor": 2.5,
+    "interval": 6,
+    "repetitions": 2,
+    "nextReview": "2026-07-29T03:13:41.894Z",
+    "createdAt": "2026-07-16T10:27:30.515Z",
+    "dictSource": "Cambridge 风格 / Free Dictionary（英义转中文）",
+    "lastReview": "2026-07-23T03:13:41.894Z",
+    "lastRating": "good"
+  },
+  {
+    "type": "vocabulary",
+    "front": "wager",
+    "back": "在比赛或悬而未决的问题上存放、放置或冒险的东西；投注；赌注；质押。",
+    "reading": "/ˈweɪdʒɚ/",
+    "partOfSpeech": "noun · verb",
+    "explanation": "词头：wager（/ˈweɪdʒɚ/）\n1. 【noun】在比赛或悬而未决的问题上存放、放置或冒险的东西；投注；赌注；质押。\n   （英：Something deposited, laid, or hazarded on the event of a contest or an unsettled question; a bet; a stake; a pledge.）\n2. 【noun】下注的对象；下注的主题。\n   （英：That on which bets are laid; the subject of a bet.）\n3. 【verb】下注；将其作为抵押品\n   （英：To bet something; to put it up as collateral）",
+    "examples": [
+      "I'd wager my boots on it.",
+      "I'll wager that Johnson knows something about all this."
+    ],
+    "language": "en",
+    "materialId": "en-elon-musk-a-different-conversation-peopl-mrgb0xmi",
+    "tags": [
+      "general",
+      "level:A2"
+    ],
+    "id": "card-1784197628587-5if4w1m",
+    "easeFactor": 2.5,
+    "interval": 6,
+    "repetitions": 2,
+    "nextReview": "2026-07-29T03:13:26.957Z",
+    "createdAt": "2026-07-16T10:27:08.587Z",
+    "dictSource": "Cambridge 风格 / Free Dictionary（英义转中文）",
+    "lastReview": "2026-07-23T03:13:26.957Z",
     "lastRating": "good"
   }
 ]
