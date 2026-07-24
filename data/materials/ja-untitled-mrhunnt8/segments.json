@@ -3,16 +3,16 @@
     {
       "start": 0,
       "end": 2735.167,
-      "reason": "全片字幕跟随，适合泛听建立整体语境",
+      "reason": "全片泛听可选",
       "durationMinutes": 46
     }
   ],
   "intensive": [
     {
-      "start": 60,
-      "end": 2735.167,
-      "reason": "默认可精听全片；可用开始/结束秒收窄区间",
-      "durationMinutes": 46
+      "start": 37,
+      "end": 76,
+      "reason": "Week2+：段ボール/約束（暂不作为本周主练）",
+      "durationMinutes": 1
     }
   ]
 }
